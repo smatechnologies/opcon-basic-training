@@ -1,5 +1,53 @@
 module.exports = {
   mySidebar: [
     'index',
+  {
+    type: 'category',
+    label: 'Unit 1',
+    collapsed: true,
+    items: [
+      'SMA History',
+      'Support Information',
+      'Class Information',
+      'Architecture',
+      'Action Buttons',
+      'OpCon Terminology',
+      'Machines',
+      'Schedule Master',
+      'Unit 1 Exercise 1',
+      'Batch Jobs',
+      'Unit 1 Exercise 2',
+      'Job Requirements',
+      'Frequency Definition',
+      'Unit 1 Exercise 3',
+      'Dependencies',
+      'Unit 1 Exercise 4',
+      'Tags And Tag Manager',
+      'Unit 1 Exercise 5',
+      'Schedule Builds',
+      'Unit 1 Exercise 6',
+      'Operation Views',
+      'Schedule Status',
+      'Unit 1 Exercise 7',
+      'Update Master Job',
+      'Unit 1 Exercise 8',
+      'OpCon Logs',
+      'Solution Manager',
+      'SM - Schedule Build',
+    ],
+},
+  {
+    type: 'category',
+    label: 'Unit 2',
+    collapsed: true,
+    items: [
+
+    ],
+},
+  {  
+  type: 'link',
+  label: 'Take OpCon Basic Training Exam',
+  href: 'https://www.onlineexambuilder.com/opcon-basic-training-certification/exam-362330',
+},
   ],
 };
