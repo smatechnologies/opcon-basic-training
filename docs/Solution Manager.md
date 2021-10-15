@@ -13,7 +13,7 @@ sidebar_panel: 'Solution Manager'
     </audio>
 </figure>
 
-SMA's **Solution Manager** is a Web-based OpCon User Interface 
+SMA's **Solution Manager** is a *Web-based* OpCon User Interface 
 
 The Following components have been added to SMA Solution Manager:  
 
