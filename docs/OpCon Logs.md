@@ -2,8 +2,6 @@
 sidebar_panel: 'OpCon Logs'
 ---
 
-### OpCon Logs
-
 <figure>
     <audio
         controls

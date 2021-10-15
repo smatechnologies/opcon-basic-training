@@ -2,8 +2,6 @@
 sidebar_panel: 'Dependencies'
 ---
 
-### Job Dependencies
-
 <figure>
     <audio
         controls

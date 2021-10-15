@@ -2,8 +2,6 @@
 sidebar_label: 'Class Information'
 ---
 
-### Class Information
-
 <figure>
     <audio
         controls

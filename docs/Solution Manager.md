@@ -2,8 +2,6 @@
 sidebar_panel: 'Solution Manager'
 ---
 
-### Solution Manager
-
 <figure>
     <audio
         controls

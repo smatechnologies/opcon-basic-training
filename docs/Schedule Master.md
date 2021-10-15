@@ -2,8 +2,6 @@
 sidebar_panel: 'Schedule Master'
 ---
 
-### Schedule Master
-
 <figure>
     <audio
         controls

@@ -2,8 +2,6 @@
 sidebar_panel: 'Workflow Designer'
 ---
 
-### Workflow Designer
-
 <figure>
     <audio
         controls

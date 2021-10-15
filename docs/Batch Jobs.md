@@ -2,9 +2,6 @@
 sidebar_panel: 'Batch Jobs'
 ---
 
-### Automation and Batch Job Concepts
-
-
 <figure>
     <audio
         controls

@@ -2,9 +2,6 @@
 sidebar_panel: 'Machines'
 ---
 
-### Machines
-
-
 <figure>
     <audio
         controls

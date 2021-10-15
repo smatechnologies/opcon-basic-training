@@ -2,8 +2,6 @@
 sidebar_label: 'Action Buttons'
 ---
 
-### Action Buttons
-
 Most screens under Administration section will present these buttons assigned to their respective actions:
 
 **ADD** _(Ctrl + N)_: Adds appropriate editor information  

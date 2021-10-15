@@ -2,8 +2,6 @@
 sidebar_panel: 'Operation Views'
 ---
 
-### Operation Views
-
 <figure>
     <audio
         controls

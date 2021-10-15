@@ -2,8 +2,6 @@
 sidebar_panel: 'Schedule Status'
 ---
 
-### Schedule Status
-
 <figure>
     <audio
         controls

@@ -2,7 +2,6 @@
 sidebar_panel: 'Job Requirements'
 ---
 
-### Job Requirements
 <figure>
     <audio
         controls

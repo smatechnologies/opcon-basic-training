@@ -2,8 +2,6 @@
 sidebar_label: 'Support Information'
 ---
 
-## SMA Support Information
-
 <figure>
     <audio
         controls

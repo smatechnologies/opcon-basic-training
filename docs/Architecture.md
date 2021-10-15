@@ -2,9 +2,6 @@
 sidebar_label: 'Architecture'
 ---
 
-### OpCon Architecture
-
-
 ### What is OpCon?
 
 <figure>

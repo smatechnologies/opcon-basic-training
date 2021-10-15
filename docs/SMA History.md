@@ -2,9 +2,6 @@
 sidebar_label: 'SMA History'
 ---
 
-## SMA Technologies - Company History
-
-
 <figure>
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/SMATechnologies.mp3"></source>

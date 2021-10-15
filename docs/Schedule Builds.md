@@ -2,8 +2,6 @@
 sidebar_panel: 'Schedule Builds'
 ---
 
-### Schedule Builds
-
 <figure>
     <audio
         controls

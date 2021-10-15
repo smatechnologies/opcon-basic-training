@@ -2,8 +2,6 @@
 sidebar_label: 'OpCon Terminology'
 ---
 
-### OpCon Terminology
-
 <figure>
     <audio
         controls

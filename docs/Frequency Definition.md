@@ -2,9 +2,6 @@
 sidebar_panel: 'Frequency Definiton'
 ---
 
-
-### Frequency Definition
-
 <figure>
     <audio
         controls
