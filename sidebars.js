@@ -88,6 +88,8 @@ module.exports = {
   collapsed: true,
   items: [
     'Unit 2 Review',
+    'User Accounts and Role Management',
+    'Unit 3 Exercise 1',
   ],
 },
 {
