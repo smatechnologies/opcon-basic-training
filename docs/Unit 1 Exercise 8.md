@@ -10,7 +10,11 @@ Build and Release the **Murphy's Law** Schedule for Today plus ```7 days``` from
 
 Restart the Job.
 
-In Matrix View, select tomorrow's date and select the **Murphy's Law** Schedule. Select **Edit Daily Job** for the **Wrong Path Job** and notice that ```MSLSAM2``` appears again. *(All of the copies of the Daily Table must be rebuild when the Master Record is changed)*.
+In Matrix View, select tomorrow's date and select the **Murphy's Law** Schedule. Select **Edit Daily Job** for the **Wrong Path Job** and notice that ```MSLSAM2``` appears again. 
+
+:::caution Warning
+All of the copies of the Daily Table must be rebuild when the Master Record is changed
+:::
 
 Close the Job Daily tab and open the Job Master to ensure that the paths contain the corrected ```MSLSAM```. 
 

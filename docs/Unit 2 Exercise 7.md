@@ -6,7 +6,10 @@ sidebar_panel: 'Unit 2 Exercise 7'
 
 ##### Objective:
 
-Create a new Calendar named **MYFIRSTCALENDAR**. Click several dates by navigating through the Calendar. *(The dates chosen are saved dynamically)*. 
+Create a new Calendar named **MYFIRSTCALENDAR**. Click several dates by navigating through the Calendar. 
+:::note
+(The dates chosen are saved dynamically)
+:::
 
 Provide appropriate documentation for the new Calendar.
 
@@ -40,7 +43,9 @@ Your browser does not support the video tag.
 4.	Enter **Documentation** like: **This is a test Calendar**.
 5.	Click the **Save** Button.
 6.	Click several dates in the **Calendar**.
-_Note: The dates are saved dynamically_.
+:::note
+The dates are saved dynamically
+:::
 7.	Click the **right arrow** by the **Month** right above the Calendar to go to the next months.
 8.	Click the **up** arrow by the **Year** right above the Calendar to move to the next year.
 9.	Select **Master Holiday** from the **Calendar List**.

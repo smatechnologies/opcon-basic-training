@@ -80,7 +80,9 @@ Your browser does not support the video tag.
   *	The Inventory Purchase Report requires the 6 Windows Jobs and must run after all runs have completed
 *	Build the Schedule for today and tomorrow
 
-* _Upon completion, view the results in the **Workflow designer**. Then build the Schedule released for today and check the execution using **Solution Manager**._
+:::note
+Upon completion, view the results in the **Workflow designer**. Then build the Schedule released for today and check the execution using **Solution Manager**.
+:::
 
 <a href="imgbasic/306.png" target="_blank"><img src="imgbasic/306.png" width="500"></img></a>
 

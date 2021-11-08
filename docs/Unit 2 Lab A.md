@@ -44,7 +44,9 @@ Your browser does not support the video tag.
 
 **Lab Instructions**:    
 
-*USE NULL JOB TYPE FOR ALL JOBS IN THIS LAB*
+:::note
+USE NULL JOB TYPE FOR ALL JOBS IN THIS LAB
+:::
 
 *	Create a Schedule named **Congo Payroll Payments**
 *	Monday through Friday are working days

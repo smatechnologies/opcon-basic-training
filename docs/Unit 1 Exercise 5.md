@@ -8,10 +8,8 @@ sidebar_panel: 'Unit 1 Exercise 5'
 
 Tag the first three Jobs in **MY FIRST SCHEDULE** with the following Tags:
 
-```
-CRITICAL
-GENERICP
-```
+* ```CRITICAL```
+* ```GENERICP```
 
 Once the Jobs are tagged, view the Tag assignments in **Tag Manager**.
 

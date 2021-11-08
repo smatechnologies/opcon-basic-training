@@ -13,16 +13,16 @@ sidebar_panel: 'Global Properties'
 
 * **Global Properties** are variables stored in the database that can be used throughout OpCon 
   * Properties are defined with a name and a value
-* To use a Global Property in OpCon (Command Lines, Events, etc.) use the following notation:
 
-```
-[[<Global Property Name>]]
-```
+:::note Example
+To use a Global Property in OpCon (Command Lines, Events, etc.) use the following notation:
+
+```[[<Global Property Name>]]```
 
 Example:
-```
-[[PATH-TO-SCRIPTS]]
-```
+
+```[[PATH-TO-SCRIPTS]]```
+:::
 
 * OpCon will replace the Global Property with the given value at Runtime
 

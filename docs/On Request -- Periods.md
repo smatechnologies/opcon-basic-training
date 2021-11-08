@@ -75,7 +75,10 @@ sidebar_panel: 'On Request -- Periods'
 </figure>
 
 * Allows a Job to run on Middle of Week, Month, Quarter, or Year
-  * **_For 31 day months, 15.5 is rounded up to 16_**
+
+:::note
+For 31 day months, 15.5 is rounded up to 16
+:::  
   * Specify the desired Day of the Week
 * Other Fields:
   * **A/O/B/N** flag is applicable

@@ -10,7 +10,9 @@ sidebar_panel: 'Unit 2 Exercise 4 And 5'
 
 In **Machines Status**, Start Communication for the ```SUSEVM``` Machine.
 
-*(DO NOT PANIC – Communication will not begin because of an error we will correct.)*
+:::note
+DO NOT PANIC – Communication will not begin because of an error we will correct.
+:::
 
 Under the Information Topic, expand **Logs**. Open the **Netcom Log** and find the ```ConnectToMachine()``` error to verify the issue.
 
@@ -37,7 +39,9 @@ Your browser does not support the video tag.
   *	Left-Clicking the Machine will refresh the communication.
 3.	Hit ```F5``` to refresh the communication status.  
 
-**_Note: Do not panic! It is not going to communicate_**.
+:::note
+Do not panic! It is not going to communicate
+:::
 
 ### Exercise 5
 

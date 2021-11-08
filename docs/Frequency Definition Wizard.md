@@ -17,7 +17,11 @@ sidebar_panel: 'Frequency Definition Wizard'
   * Create **New Frequency**   
    or
   * Select **Existing Frequency**
-* _Always start with **“When to Schedule”**_
+
+:::caution
+Always start with **“When to Schedule”**
+:::
+
 * Depending on selection, different fields will be available
 * Select desired days, interval, occurrence, or period
 

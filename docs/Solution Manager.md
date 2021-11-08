@@ -43,6 +43,8 @@ The Following components have been added to SMA Solution Manager:
 
 <a href="imgbasic/PictureSMURLBar.png" target="_blank"><img src="imgbasic/PictureSMURLBar.png" width="500"></img></a>
 
-* **NOTE**: After defining the URL and saving the value, the User must log out and then log back in to Enterprise Manager in order for the Solution Manager topic Menu to appear in the Navigation Frame
+:::note
+After defining the URL and saving the value, the User must log out and then log back in to Enterprise Manager in order for the Solution Manager topic Menu to appear in the Navigation Frame
+:::
 
 ###### (Click Images to Enlarge)

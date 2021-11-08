@@ -36,6 +36,9 @@ Your browser does not support the video tag.
 2.	**Negative Frequencies**
   *	In a new Null Job (same Schedule), set up Frequencies allowing the Job to run every day of the month, Monday through Friday, unless it is a Holiday or the last Day of the Month.
   *	Use the Forecast All Button to view both Frequencies.
-    * The _**Negative Frequency will appear purple**_.
+  
+  :::note
+  The Negative Frequency will appear purple
+  :::
 
 </details>
