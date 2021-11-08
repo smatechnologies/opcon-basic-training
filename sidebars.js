@@ -157,6 +157,29 @@ module.exports = {
     'Unit 4 Lab B'
   ],
 },
+{
+  type: 'category',
+  label: 'Self Service Module',
+  collapsed: true,
+  items: [
+    'About Self Service',
+    'Working in Admin Mode',
+    'Defining A Request',
+    'Stylizing Service Request Buttons',
+    'Disabling And Hiding Requests',
+    'Setting Up OpCon Events',
+    'Setting Up User Inputs',
+    'Setting Up Privileges',
+    'Creating Categories',
+    'User Mode',
+    'Filtering And Querying',
+    'Viewing Process Indicators',
+    'Self Service Exercise 1',
+    'Self Service Exercise 2',
+    'Self Service Exercise 3',
+    'Self Service Lab'
+  ],
+},
   {  
   type: 'link',
   label: 'Take OpCon Basic Training Exam',
