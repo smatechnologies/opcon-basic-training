@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'OpCon Terminology'
+sidebar_label: 'Lexique OpCon'
+hide_title: 'false'
 ---
+
+## Lexique OpCon
 
 <figure>
     <audio
@@ -11,20 +14,20 @@ sidebar_label: 'OpCon Terminology'
     </audio>
 </figure>
 
-**Schedule**: A Group of Jobs that make up a business process
+**Schedule**: un groupe de jobs qui composent un processus ou une chaîne batch
 
-* Schedules must be created before any Jobs can be defined
+* Les schedules doivent être créés avant de définir des Jobs
 
-**Job**:  A Job in OpCon is a task or activity
+**Job**:  Un Job dans OpCon est une tâche ou une activité
 
-* A Task, for example, could be to run a program on a remote Machine, transfer files between Machines, or run another Schedule
+* Une tâche, par exemple, peut être d'exécuter un programme sur une machine distante, de transférer des fichiers entre des machines ou d'exécuter un autre schedule
 
-**Calendar**: A List of dates to help provide flexible scheduling around holidays and any other non-working days
+**Calendrier**: une liste de dates pour permettre une planification flexible autour des jours fériés et tout autre jour non ouvrable A List of dates to help provide flexible scheduling around holidays and any other non-working days
 
-**Frequency**: Defines the pattern of days on which each Job will execute
+**Fréquence**: définit les jours durant lesquels les Jobs seront exécutés
 
-**Machines**: A Representation of an Agent (LSAM) in the database
+**Machines**: une représentation d'un agent (LSAM) dans la base de données
 
-**Documentation**: Almost everything in OpCon has a placeholder for Documentation
+**Documentation**: Un espace est réservé pour inclure de la documentation dans quasiment tous les éléments d’OpCon
 
-**Build**: The Process of copying Master Schedules and Jobs that qualify for specified Dates to SAM’s Active Daily List Processing Tables
+**Mise au Plan (Build)**: Processus de copie des Schedules Masters et des jobs éligibles pour des dates spécifiées dans les tables de traitement de la liste quotidienne active de SAM
