@@ -1,6 +1,6 @@
 ---
 slug: '/'
-sidebar_label: 'OpCon Basic Training'
+sidebar_label: 'Formation OpCon Basic'
 ---
 
 

@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Schedule Master'
+sidebar_label: 'Schedule Master'
+hide_title: 'false'
 ---
+
+## Schedule Master
 
 <figure>
     <audio
@@ -13,7 +16,7 @@ sidebar_panel: 'Schedule Master'
 
 <a href="imgbasic/Picture11.png" target="_blank"><img src="imgbasic/Picture11.png" width="500"></img></a>
 
-### Workflow Documentation
+### Documentation du workflow
 
 <figure>
     <audio
@@ -24,12 +27,13 @@ sidebar_panel: 'Schedule Master'
     </audio>
 </figure>
 
-* **Documentation** is important!
-* OpCon allows text and hyperlinks in Documentation
-* Check Documentation for Jobs under SMAUtility Schedule
-  * Examples of documentation techniques 
+* **La documentation est importante !**
+* OpCon autorise le texte et les hyperliens dans la documentation
+* Consultez la documentation des jobs dans le schedule SMAUtility 
+  * Exemples de documentation technique
 
 
 <a href="imgbasic/Picture12.png" target="_blank"><img src="imgbasic/Picture12.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)
+

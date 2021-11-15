@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Class Information'
+sidebar_label: 'Information sur la formation'
 hide_title: 'false'
 ---
 
-## Class Information
+## Information sur la formation
 
 <figure>
     <audio
