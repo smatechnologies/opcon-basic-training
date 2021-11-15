@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Schedule Status'
+sidebar_label: 'Schedule Status'
 ---
 
 <figure>

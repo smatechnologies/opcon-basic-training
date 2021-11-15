@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 10'
+sidebar_label: 'Unit 2 Exercise 10'
 ---
 
 ### Exercise 10: Frequencies - On Interval and Annual Plan Calendar

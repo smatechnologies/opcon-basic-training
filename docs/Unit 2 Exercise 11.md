@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 11'
+sidebar_label: 'Unit 2 Exercise 11'
 ---
 
 ### Exercise 11: Multiple Frequencies

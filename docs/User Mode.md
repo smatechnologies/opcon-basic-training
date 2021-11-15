@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'User Mode'
+sidebar_label: 'User Mode'
 ---
 
 Users not in the ```ocadm``` Role or in a Role without the  ```Maintain Service Request``` privilege will see a Self Service Page with only the Service Request buttons to which they have privileges

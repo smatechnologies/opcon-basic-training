@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Creating Categories'
+sidebar_label: 'Creating Categories'
 ---
 
 Service Requests can be grouped into defined Categories

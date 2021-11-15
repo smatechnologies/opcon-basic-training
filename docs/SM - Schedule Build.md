@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'SM - Schedule Build'
+sidebar_label: 'SM - Schedule Build'
 ---
 
 ### Solution Manager: Schedule Build

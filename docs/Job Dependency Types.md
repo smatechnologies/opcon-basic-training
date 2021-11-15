@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Job Dependency Types'
+sidebar_label: 'Job Dependency Types'
 ---
 
 ### Job Dependency Types

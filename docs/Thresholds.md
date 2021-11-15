@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Thresholds'
+sidebar_label: 'Thresholds'
 ---
 
 <figure>

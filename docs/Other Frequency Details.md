@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Other Frequency Details'
+sidebar_label: 'Other Frequency Details'
 ---
 
 <figure>

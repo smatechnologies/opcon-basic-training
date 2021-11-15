@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Working in Admin Mode'
+sidebar_label: 'Working in Admin Mode'
 ---
 
 ### Creating and Modifying Requests

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Common Role Configurations'
+sidebar_label: 'Common Role Configurations'
 ---
 
 ### Common Role Configurations - Best Practices

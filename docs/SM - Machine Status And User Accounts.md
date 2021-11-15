@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'SM - Machine Status And User Accounts'
+sidebar_label: 'SM - Machine Status And User Accounts'
 ---
 
 ### Solution Manager: Machine Status and User Accounts

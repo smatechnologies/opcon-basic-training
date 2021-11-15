@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Self Service Exercise 1'
+sidebar_label: 'Self Service Exercise 1'
 ---
 
 ### Self Service Exercise 1: Create a Button

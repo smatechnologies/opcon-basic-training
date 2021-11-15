@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 11'
+sidebar_label: 'Unit 4 Exercise 11'
 ---
 
 ### Exercise 11: Windows File Arrival

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 5'
+sidebar_label: 'Unit 4 Exercise 5'
 ---
 
 ### Exercise 5: Importing a Script

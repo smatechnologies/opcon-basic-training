@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'OpCon Logs'
+sidebar_label: 'OpCon Logs'
 ---
 
 <figure>

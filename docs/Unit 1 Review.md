@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Review'
+sidebar_label: 'Unit 1 Review'
 ---
 
 1.  The OpCon Server that manages automation is referred to as the SAM or ________________________.

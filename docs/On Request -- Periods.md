@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'On Request -- Periods'
+sidebar_label: 'On Request -- Periods'
 ---
 
 ### Frequency Definition Wizard - On Request & Beginning, Middle, End of Period

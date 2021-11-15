@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Setting Up User Inputs'
+sidebar_label: 'Setting Up User Inputs'
 ---
 
 * After a variable has been defined within the OpCon Event definition it will become available as a User Input

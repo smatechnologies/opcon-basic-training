@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Defining A Request'
+sidebar_label: 'Defining A Request'
 ---
 
 The Service Definition is composed of serveral fields, many of which are optional:

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'SM - Job Processes'
+sidebar_label: 'SM - Job Processes'
 ---
 
 ### Solution Manager: Job Processes

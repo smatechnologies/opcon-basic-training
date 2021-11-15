@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Machine Instance Properties'
+sidebar_label: 'Machine Instance Properties'
 ---
 
 <figure>

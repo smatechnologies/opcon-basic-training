@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 1'
+sidebar_label: 'Unit 3 Exercise 1'
 ---
 
 ### Exercise 1: Create a Role and User Account

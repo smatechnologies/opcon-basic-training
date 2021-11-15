@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Setting Up Privileges'
+sidebar_label: 'Setting Up Privileges'
 ---
 
 * OpCon Role(s) must be assigned Service Request buttons to both see and run them from the Service Request page

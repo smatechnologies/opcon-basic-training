@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 7'
+sidebar_label: 'Unit 2 Exercise 7'
 ---
 
 ### Exercise 7: Create Additional Calendars and Update the Master Holiday Calendar

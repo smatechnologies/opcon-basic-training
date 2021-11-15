@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'OpCon Events'
+sidebar_label: 'OpCon Events'
 ---
 
 <figure>

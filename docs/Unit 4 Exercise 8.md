@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 8'
+sidebar_label: 'Unit 4 Exercise 8'
 ---
 
 ### Exercise 8: SubSchedule Daily and Monthly Process

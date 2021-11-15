@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Self Service Exercise 2'
+sidebar_label: 'Self Service Exercise 2'
 ---
 
 ### Self Service Exercise 2: Disable a Button

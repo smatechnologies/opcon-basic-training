@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Review'
+sidebar_label: 'Unit 2 Review'
 ---
 
 1. _______ Jobs can be used to start Events or tie workflows together.

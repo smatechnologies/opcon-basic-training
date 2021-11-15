@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'File Arrival Jobs'
+sidebar_label: 'File Arrival Jobs'
 ---
 
 <figure>

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Calendars'
+sidebar_label: 'Calendars'
 ---
 
 <figure>

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 2'
+sidebar_label: 'Unit 2 Exercise 2'
 ---
 
 ### Exercise 2: Null Jobs

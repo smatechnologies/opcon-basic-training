@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Viewing Process Indicators'
+sidebar_label: 'Viewing Process Indicators'
 ---
 
 * When a Service Request is submitted, a page will dispay to indicate the execution of the Request with a progress bar 

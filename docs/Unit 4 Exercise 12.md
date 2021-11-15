@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 12'
+sidebar_label: 'Unit 4 Exercise 12'
 ---
 
 ### Exercise 12: File Arrival - Multiple Files

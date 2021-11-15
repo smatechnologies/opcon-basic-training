@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'SubSchedules and Container Jobs'
+sidebar_label: 'SubSchedules and Container Jobs'
 ---
 
 <figure>

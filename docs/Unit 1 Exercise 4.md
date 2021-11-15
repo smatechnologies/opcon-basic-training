@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 4'
+sidebar_label: 'Unit 1 Exercise 4'
 ---
 
 ## Exercise 4: Job Dependencies

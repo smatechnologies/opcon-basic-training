@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 9'
+sidebar_label: 'Unit 2 Exercise 9'
 ---
 
 ### Exercise 9: Frequencies - On Request & Beginning, Middle, End of Period

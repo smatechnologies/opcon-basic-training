@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Integrated File Watcher Job'
+sidebar_label: 'Integrated File Watcher Job'
 ---
 
 <figure>

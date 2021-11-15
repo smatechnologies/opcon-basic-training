@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 9'
+sidebar_label: 'Unit 1 Exercise 9'
 ---
 
 ### Exercise 9: Solution Manager Operations

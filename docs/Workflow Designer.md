@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Workflow Designer'
+sidebar_label: 'Workflow Designer'
 ---
 
 <figure>

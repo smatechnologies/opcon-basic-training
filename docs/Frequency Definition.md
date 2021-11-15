@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Frequency Definiton'
+sidebar_label: 'Frequency Definiton'
 ---
 
 <figure>

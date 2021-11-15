@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Lab B'
+sidebar_label: 'Unit 2 Lab B'
 ---
 
 ### Objective:

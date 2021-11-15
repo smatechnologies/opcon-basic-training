@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Job Requirements'
+sidebar_label: 'Job Requirements'
 ---
 
 <figure>

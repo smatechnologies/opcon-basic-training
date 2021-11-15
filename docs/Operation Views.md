@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Operation Views'
+sidebar_label: 'Operation Views'
 ---
 
 <figure>

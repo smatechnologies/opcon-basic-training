@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 7'
+sidebar_label: 'Unit 1 Exercise 7'
 ---
 
 ### Exercise 7: Schedule and Job Statuses 

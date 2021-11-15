@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Looping Jobs'
+sidebar_label: 'Looping Jobs'
 ---
 
 ### Looping Jobs on Success

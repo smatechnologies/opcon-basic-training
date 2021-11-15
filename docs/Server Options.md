@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Server Options'
+sidebar_label: 'Server Options'
 ---
 
 <figure>

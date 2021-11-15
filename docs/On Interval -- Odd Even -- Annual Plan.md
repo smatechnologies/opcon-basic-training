@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'On Interval -- Odd Even -- Annual Plan'
+sidebar_label: 'On Interval -- Odd Even -- Annual Plan'
 ---
 
 ### Frequency Definition Wizard - On Interval, Odd & Even Weeks, Annual Plan

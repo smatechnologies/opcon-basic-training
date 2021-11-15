@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Disabling And Hiding Requests'
+sidebar_label: 'Disabling And Hiding Requests'
 ---
 
 Rules for Disabling or Hiding Service Request Buttons can be defined using Rules or OpCon Expressions

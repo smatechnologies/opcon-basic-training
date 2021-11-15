@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 4'
+sidebar_label: 'Unit 4 Exercise 4'
 ---
 
 ### Exercise 4: Existing Embedded Script

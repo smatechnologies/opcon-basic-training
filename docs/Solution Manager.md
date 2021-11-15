@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Solution Manager'
+sidebar_label: 'Solution Manager'
 ---
 
 <figure>

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Review'
+sidebar_label: 'Unit 3 Review'
 ---
 
 1. _______________ are Individual sign-ons required for access to OpCon.

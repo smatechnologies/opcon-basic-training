@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 7'
+sidebar_label: 'Unit 3 Exercise 7'
 ---
 
 ### Exercise 7: Access Codes

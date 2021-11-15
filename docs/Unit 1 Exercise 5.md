@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 5'
+sidebar_label: 'Unit 1 Exercise 5'
 ---
 
 ### Exercise 5: Job Tags and Tag Manager

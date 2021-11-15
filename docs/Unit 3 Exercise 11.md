@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 11'
+sidebar_label: 'Unit 3 Exercise 11'
 ---
 
 ### Exercise 11: Instance Properties

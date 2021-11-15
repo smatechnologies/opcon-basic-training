@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Job Exit Description Events'
+sidebar_label: 'Job Exit Description Events'
 ---
 
 <figure>

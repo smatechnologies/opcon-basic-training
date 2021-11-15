@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 9'
+sidebar_label: 'Unit 4 Exercise 9'
 ---
 
 ### Exercise 9: SMA File Transfer (SMAFT)

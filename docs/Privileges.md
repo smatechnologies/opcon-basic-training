@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Privileges'
+sidebar_label: 'Privileges'
 ---
 
 <figure>

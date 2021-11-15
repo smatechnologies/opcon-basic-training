@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Audit Management'
+sidebar_label: 'Audit Management'
 ---
 
 <figure>

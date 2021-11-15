@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'OpCon User Help'
+sidebar_label: 'OpCon User Help'
 ---
 
 ### Troubleshooting - OpCon User Help

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Update Master Job'
+sidebar_label: 'Update Master Job'
 ---
 
 ### Updating Master Jobs and Rebuilding

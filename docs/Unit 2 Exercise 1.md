@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 1'
+sidebar_label: 'Unit 2 Exercise 1'
 ---
 
 ### Exercise 1: Define a Global Property

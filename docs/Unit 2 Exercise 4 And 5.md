@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 4 And 5'
+sidebar_label: 'Unit 2 Exercise 4 And 5'
 ---
 
 ### Exercise 4: Steps to Modify Machine Status

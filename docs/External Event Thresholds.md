@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'External Event Thresholds'
+sidebar_label: 'External Event Thresholds'
 ---
 
 ### Thresholds - External Events

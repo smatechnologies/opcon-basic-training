@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Escalation Manager'
+sidebar_label: 'Escalation Manager'
 ---
 
 <figure>

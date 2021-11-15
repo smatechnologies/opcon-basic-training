@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'SM - Job Status'
+sidebar_label: 'SM - Job Status'
 ---
 
 ### Solution Manager: Job Status and Selection Options

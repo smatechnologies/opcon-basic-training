@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Windows File Movement Job Sub-Types'
+sidebar_label: 'Windows File Movement Job Sub-Types'
 ---
 
 ### Windows File Movement Job Sub-Type

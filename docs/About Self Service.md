@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'About Self Service'
+sidebar_label: 'About Self Service'
 ---
 
 ### Overview

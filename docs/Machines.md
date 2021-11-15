@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Machines'
+sidebar_label: 'Machines'
 ---
 
 <figure>

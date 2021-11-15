@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Annual Plan Events'
+sidebar_label: 'Annual Plan Events'
 ---
 
 ### Annual Plan Calendar - Event Updates

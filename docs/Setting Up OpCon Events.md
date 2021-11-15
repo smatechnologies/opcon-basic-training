@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Setting Up OpCon Events'
+sidebar_label: 'Setting Up OpCon Events'
 ---
 
 To add a new OpCon Event in Self Service:

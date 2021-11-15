@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Access Codes'
+sidebar_label: 'Access Codes'
 ---
 
 <figure>

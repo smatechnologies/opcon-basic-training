@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Global Properties'
+sidebar_label: 'Global Properties'
 ---
 
 <figure>

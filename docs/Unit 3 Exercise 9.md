@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 9'
+sidebar_label: 'Unit 3 Exercise 9'
 ---
 
 ### Exercise 9: Email Escalation

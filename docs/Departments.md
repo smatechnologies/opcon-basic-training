@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Departments'
+sidebar_label: 'Departments'
 ---
 
 <figure>

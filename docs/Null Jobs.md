@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Null Jobs'
+sidebar_label: 'Null Jobs'
 ---
 
 <figure>

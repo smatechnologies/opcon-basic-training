@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Lab C'
+sidebar_label: 'Unit 3 Lab C'
 ---
 
 ### LAB C

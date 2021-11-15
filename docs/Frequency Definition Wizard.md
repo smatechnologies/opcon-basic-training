@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Frequency Definition Wizard'
+sidebar_label: 'Frequency Definition Wizard'
 ---
 
 ### Overview

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 3'
+sidebar_label: 'Unit 4 Exercise 3'
 ---
 
 ### Exercise 3: Thresholds - External Events

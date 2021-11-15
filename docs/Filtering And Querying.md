@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Filtering And Querying'
+sidebar_label: 'Filtering And Querying'
 ---
 
 ### Filtering Service Requests

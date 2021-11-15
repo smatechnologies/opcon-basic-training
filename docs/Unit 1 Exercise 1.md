@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 1'
+ssidebar_label: 'Unit 1 Exercise 1'
 ---
 
 ### Exercise 1: Steps to Create a Schedule

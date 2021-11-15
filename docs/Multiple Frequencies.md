@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Multiple Frequencies'
+sidebar_label: 'Multiple Frequencies'
 ---
 
 <figure>

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Schedule Builds'
+sidebar_label: 'Schedule Builds'
 ---
 
 <figure>

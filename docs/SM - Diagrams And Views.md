@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'SM - Diagrams and Views'
+sidebar_label: 'SM - Diagrams and Views'
 ---
 
 ### Solution Manager: Diagrams and Views

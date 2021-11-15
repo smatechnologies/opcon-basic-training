@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Batch Users'
+sidebar_label: 'Batch Users'
 ---
 
 <figure>

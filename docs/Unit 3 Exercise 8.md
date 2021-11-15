@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 8'
+sidebar_label: 'Unit 3 Exercise 8'
 ---
 
 ### Exercise 8: Notification Mananger

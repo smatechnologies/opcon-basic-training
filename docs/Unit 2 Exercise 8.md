@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 8'
+sidebar_label: 'Unit 2 Exercise 8'
 ---
 
 ### Exercise 8: Frequencies - All Weeks, On Occurrence, On Day

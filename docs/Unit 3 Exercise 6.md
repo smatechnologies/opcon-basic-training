@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 6'
+sidebar_label: 'Unit 3 Exercise 6'
 ---
 
 ### Exercise 6: Function Privileges

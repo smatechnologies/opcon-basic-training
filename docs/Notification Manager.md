@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Notification Manager'
+sidebar_label: 'Notification Manager'
 ---
 
 <figure>

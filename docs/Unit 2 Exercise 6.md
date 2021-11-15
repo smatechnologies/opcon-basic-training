@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 6'
+sidebar_label: 'Unit 2 Exercise 6'
 ---
 
 ### Exercise 6: Create a UNIX Job

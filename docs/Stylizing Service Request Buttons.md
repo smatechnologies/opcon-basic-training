@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Stylizing Service Request Buttons'
+sidebar_label: 'Stylizing Service Request Buttons'
 ---
 
 You can stylize the Service Request button using custom HTML

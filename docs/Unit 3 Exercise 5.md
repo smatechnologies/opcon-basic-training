@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 5'
+sidebar_label: 'Unit 3 Exercise 5'
 ---
 
 ### Exercise 5: Schedule Privileges

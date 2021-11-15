@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 6'
+sidebar_label: 'Unit 4 Exercise 6'
 ---
 
 ### Exercise 6: SubSchedule - Multiple Runs

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 8'
+sidebar_label: 'Unit 1 Exercise 8'
 ---
 
 ### Exercise 8: Edit Daily Job

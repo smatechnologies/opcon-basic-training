@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Lab'
+sidebar_label: 'Unit 1 Lab'
 ---
 
 ### Unit 1 Lab

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'System Properties'
+sidebar_label: 'System Properties'
 ---
 
 ### System and Instance Properties

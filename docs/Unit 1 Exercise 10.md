@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 10'
+sidebar_label: 'Unit 1 Exercise 10'
 ---
 
 ### Exercise 10: Workflow Designer

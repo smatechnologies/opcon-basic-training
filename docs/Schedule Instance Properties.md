@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Schedule Instance Properties'
+sidebar_label: 'Schedule Instance Properties'
 ---
 
 <figure>

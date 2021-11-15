@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Event Triggers'
+sidebar_label: 'Event Triggers'
 ---
 
 <figure>

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 2'
+sidebar_label: 'Unit 1 Exercise 2'
 ---
 
 ### Exercise 2: Run a Manual Batch Job

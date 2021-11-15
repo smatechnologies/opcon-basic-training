@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 4'
+sidebar_label: 'Unit 3 Exercise 4'
 ---
 
 ### Exercise 4: Department Privileges

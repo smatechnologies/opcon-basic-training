@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Embedded Scripts'
+sidebar_label: 'Embedded Scripts'
 ---
 
 <figure>

@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 3'
+sidebar_label: 'Unit 2 Exercise 3'
 ---
 
 ### Exercise 3: Steps to Define a UNIX Machine

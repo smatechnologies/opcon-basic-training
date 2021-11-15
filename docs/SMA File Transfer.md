@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'SMA File Transfer'
+sidebar_label: 'SMA File Transfer'
 ---
 
 <figure>

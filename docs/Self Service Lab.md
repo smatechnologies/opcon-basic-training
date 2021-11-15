@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Self Service Lab'
+sidebar_label: 'Self Service Lab'
 ---
 
 ### Self Service Lab - Interacting with Schedules and Jobs

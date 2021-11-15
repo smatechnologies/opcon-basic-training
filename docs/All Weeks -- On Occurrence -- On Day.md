@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'All Weeks -- On Occurrence -- On Day'
+sidebar_label: 'All Weeks -- On Occurrence -- On Day'
 ---
 
 ### Frequency Definition Wizard - All Weeks, On Occurrence, On Day

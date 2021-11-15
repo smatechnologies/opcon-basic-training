@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Advanced Failure Criteria'
+sidebar_label: 'Advanced Failure Criteria'
 ---
 
 <figure>

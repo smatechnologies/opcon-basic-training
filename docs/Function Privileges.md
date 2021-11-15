@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Function Privileges'
+sidebar_label: 'Function Privileges'
 ---
 
 <figure>

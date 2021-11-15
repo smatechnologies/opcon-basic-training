@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Self Service Exercise 3'
+sidebar_label: 'Self Service Exercise 3'
 ---
 
 ### Self Service Exercise 3: Stylizing a Button

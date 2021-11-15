@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Batch Jobs'
+sidebar_label: 'Batch Jobs'
 ---
 
 <figure>

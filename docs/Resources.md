@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Resources'
+sidebar_label: 'Resources'
 ---
 
 <figure>

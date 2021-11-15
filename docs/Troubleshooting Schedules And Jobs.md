@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Troubleshooting Schedules And Jobs'
+sidebar_label: 'Troubleshooting Schedules And Jobs'
 ---
 
 <figure>

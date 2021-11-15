@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Job Instance Properties'
+sidebar_label: 'Job Instance Properties'
 ---
 
 <figure>

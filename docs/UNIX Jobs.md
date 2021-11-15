@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'UNIX Jobs'
+sidebar_label: 'UNIX Jobs'
 ---
 
 <figure>

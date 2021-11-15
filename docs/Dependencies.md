@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Dependencies'
+sidebar_label: 'Dependencies'
 ---
 
 <figure>

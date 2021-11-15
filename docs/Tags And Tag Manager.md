@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Tags And Tag Manager'
+sidebar_label: 'Tags And Tag Manager'
 ---
 
 ### Job Tags

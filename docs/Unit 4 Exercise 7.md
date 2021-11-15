@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 7'
+sidebar_label: 'Unit 4 Exercise 7'
 ---
 
 ### Exercise 7: SubSchedule - Concurrent Processes
