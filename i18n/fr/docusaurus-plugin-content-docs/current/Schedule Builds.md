@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Schedule Builds'
+sidebar_label: 'Mise au Plan (Build)'
+hide_title: 'false'
 ---
+
+## Mise au Plan (Build)
 
 <figure>
     <audio
@@ -11,13 +14,13 @@ sidebar_panel: 'Schedule Builds'
     </audio>
 </figure>
 
-* OpCon (SAM) will search the database for Schedules and Jobs that must run on a specific date
-  * Based on information stored in Master tables, SAM will add Schedules and Jobs to Daily tables
-* Schedules can be built manually or automatically
+* OpCon (SAM) recherchera dans la base de données les schedules et les jobs qui doivent s'exécuter à une date spécifique
+  * Sur la base des informations stockées dans les tables Master, SAM ajoutera des schedules et des jobs aux tables Daily.
+* Les schedules peuvent être mis au plan manuellement ou automatiquement
 
 <a href="imgbasic/Picture29.png" target="_blank"><img src="imgbasic/Picture29.png" width="300"></img></a>
 
-### Auto Build
+### Mise au Plan automatique (Auto Build)
 
 <figure>
     <audio
@@ -28,23 +31,23 @@ sidebar_panel: 'Schedule Builds'
     </audio>
 </figure>
 
-* Auto building **X days in advance** is the starting day to build on
-* Auto building **for Y days** is how far out to build
-* OpCon builds Schedules automatically at midnight (by default)
-  * Example: ```7``` days in advance for 1 day will build on the 7th counted day in the future (the first counted day is Day ```0```)
-  * Example: ```0``` days in advance for ```7``` days will build **daily** for ```7``` days (the first counted day is Day ```0```)
+* La Mise au Plan automatique **X jours à l'avance** est le jour à partir duquel la mise au plan se fait
+* La Mise au Plan automatique **pendant Y jours** est le nombre de jours à mettre au plan
+* OpCon effectue la mise au plan automatique des schedules à minuit (par défaut)
+  * Exemple : ```7``` jours à l'avance pour ```1``` jour mettra au plan le schedule au 7e jour compté dans le futur (le premier jour compté est Jour ```0```)
+  * Exemple : ```0``` jours à l'avance pour ```7``` jours mettra au plan le schedule pour 7 jours à partir d’aujourd’hui (le premier jour compté est Jour ```0```)
 
-* Best Practice for Autobuild is **7 days in advance for 1 day**
+* La meilleure pratique pour la Mise au Plan automatique est de **7 jours à l'avance pour 1 jour**
 
-#### Autobuild Example 1:
+#### Exemple de Mise au Plan automatique 1 :
 
 <a href="imgbasic/Picture30.png" target="_blank"><img src="imgbasic/Picture30.png" width="500"></img></a>  
 
-#### Autobuild Example 2:
+#### Exemple de Mise au Plan automatique 2 :
 
 <a href="imgbasic/Picture31.png" target="_blank"><img src="imgbasic/Picture31.png" width="500"></img></a>  
 
-### Manual Build
+### Mise au Plan manuelle
 
 <figure>
     <audio
@@ -55,8 +58,8 @@ sidebar_panel: 'Schedule Builds'
     </audio>
 </figure>
 
-* The **Build Schedules** screen contains a list of Schedules to build, all information needed to build a Schedule, and a Build Results list
+* La fenêtre **Mise au Plan Schedules** contient la liste des schedules pouvant être mis au plan, toutes les informations nécessaires pour la mise au plan et un historique des résultats
 
 <a href="imgbasic/Picture32.png" target="_blank"><img src="imgbasic/Picture32.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

@@ -1,24 +1,22 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 4 And 5'
+sidebar_label: 'Unite 2 Exercice 4 & 5'
+hide_title: 'false'
 ---
 
-### Exercise 4: Steps to Modify Machine Status
-### & 
-### Exercise 5: Fix the Communication Problem
+## Exercice 4 & 5: étapes de modification de l'état de la machine & résoudre le problème de communication
 
-##### Objective:
 
-In **Machines Status**, Start Communication for the ```SUSEVM``` Machine.
+##### Objectif:
 
-:::note
-DO NOT PANIC – Communication will not begin because of an error we will correct.
-:::
+Dans **Vue Machines**, démarrez la communication pour la machine ```SUSEVM```.
 
-Under the Information Topic, expand **Logs**. Open the **Netcom Log** and find the ```ConnectToMachine()``` error to verify the issue.
+**(NE PANIQUEZ PAS - La communication ne commencera pas à cause d'une erreur que nous corrigerons.)**
 
-Back in **Machines Status**, Stop Communication with the ```SUSEVM``` machine.  Edit the Machine and change the **Socket Number** to ```3100```.
+Dans le menu **Information**, développez **Logs**. Ouvrez le **Netcom Log** et recherchez l'erreur ```ConnectToMachine()``` pour vérifier le problème.
 
-Restart communication with the ```SUSEVM``` machine. The connection should now be successful.
+De retour dans **Vue Machines**, arrêtez la communication avec la machine ```SUSEVM```. Editez la machine et changez le **Numéro de Port** en ```3100```.
+
+Redémarrez la communication avec la machine ```SUSEVM```. La connexion devrait maintenant être réussie.
 
 
 <div>
@@ -30,40 +28,38 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-### Exercise 4
+### Exercice 4
 
-1.	Under the Operations topic, Double-Click on **Machines Status**. 
-2.	Right-Click on the **SUSEVM** machine and select **Start Communication**.
-  *	Left-Clicking the Machine will refresh the communication.
-3.	Hit ```F5``` to refresh the communication status.  
+1. Sous la rubrique Operations, double-cliquez sur **Vue Machines**.
+2. Cliquez avec le bouton droit sur la machine **SUSEVM** et sélectionnez **Démarrer Communication**.
+    * Un clic gauche sur la machine actualisera la communication.
+3. Appuyez sur ```F5``` pour actualiser le statut de la communication. 
 
 :::note
-Do not panic! It is not going to communicate
+Pas de panique ! Cela ne communiquera pas.
 :::
 
-### Exercise 5
+### Exercice 5
 
-1.	Be sure the **Machines Status** tab is opened.
-2.	Under the Information topic, expand Logs. 
-3.	Double-Click the **Netcom Log**.
-4.	A pop-up will appear showing an auto-updating Netcom log.
-5.	Look for this entry in the Log file:
+1. Assurez-vous que l'onglet **Vue Machines** est ouvert.
+2. Dans le menu Informations, développez **Logs**.
+3. Double-cliquez sur **Netcom Log**.
+4. Une fenêtre pop-up apparaîtra affichant une vue en mise à jour automatique de la log SMANetcom.log
+5. Recherchez cette entrée dans le fichier Log :
 
 ```
-ConnectToMachine() – Exception happens at machine [SUSEVM]: 
-A connection attempt failed because the connected party did not properly respond after a period of time, 
-or established connection failed because the connected host has failed to respond [[IP ADDRESS:PORT]]
+ConnectToMachine() – Exception happens at machine [SUSEVM]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because the connected host has failed to respond [[IP ADDRESS:PORT]]
 ```
 
-6.	Back to the Machines Status tab, Right-Click the SUSEVM machine and select **Stop Communication**.
-7.	Still under the Machines Status tab, Right-Click the SUSEVM machine and select **Edit Machine**.
-8.	In the Machines tab change the Socket Number to ```3100```.
-9.	Click the Save button.
-10.	Close the Machines tab.
-11.	Back to the Machines Status tab, Right-Click the SUSEVM machine and select **Start Communication**.
-12.	Refresh the screen. The SUSEVM should be communicating.
-13.	Close the **SMANetCom.log** tab and the Machines Status tab.
+6. De retour à l'onglet Vue Machines, cliquez avec le bouton droit sur la machine SUSEVM et sélectionnez **Interrompre Communication**.
+7. Toujours sous l'onglet Machines Status, cliquez avec le bouton droit sur la machine SUSEVM et sélectionnez **Editer Machine**.
+8. Dans l'onglet Machines, modifiez le Numéro de Port en ```3100```.
+9. Cliquez sur le bouton Sauvegarder.
+10. Fermez l'onglet Machines.
+11. De retour à l'onglet Vue Machines, cliquez avec le bouton droit de la souris sur la machine SUSEVM et sélectionnez **Démarrer Communication**.
+12. Rafraîchissez l'écran. La machine SUSEVM doit communiquer.
+13. Fermez l'onglet ```SMANetCom.log``` et l'onglet Vue Machines
 
 </details>

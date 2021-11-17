@@ -1,29 +1,33 @@
 ---
-sidebar_panel: 'Unit 1 Review'
+sidebar_label: 'Révision de l unité 1'
+hide_title: 'false'
 ---
 
-1.  The OpCon Server that manages automation is referred to as the SAM or ________________________.
-2.  A ______________ must be created before anything else can happen in OpCon.
-3.  A ___________ in OpCon is a task or activity.
-4.  ____________________ is an important field in most areas of OpCon and allows users AND the Support Team to trace through design and decisions made by operators.
-5.  A __________________ helps to determine when a Schedule CAN run by allowing the creation of a flexible list of dates to delimit holidays and other non-working days.
-6.  A __________________ determines when a Schedule WILL run through a defined pattern.
-8.  Job ___________________ allow the user to define the sequence and relationships of Job runs.
-8.  _________ allow filtered Operation views and an easy way to search for designated Jobs.
-9.  The Build process copies Master Schedules and Jobs that qualify to SAM’s Active __________ List.
-10.  SMA Solution Manager is a _________ based interface for Operations Management.
+## Révision de l'unité 1
+
+1. Le serveur OpCon qui gère l'automatisation est appelé SAM ou ________________________.
+2. Un ______________ doit être créé avant que quoi que ce soit d'autre puisse se produire dans OpCon.
+3. Un ______ dans OpCon est une tâche ou une activité.
+4. La _______________ est un champ important dans la plupart des éléments d'OpCon et permet aux utilisateurs ET à l'équipe d'assistance de comprendre la conception et les décisions prises par les opérateurs.
+5. Un __________________ aide à déterminer quand un Schedule PEUT s'exécuter en permettant la création d'une liste flexible de dates pour délimiter les jours fériés et autres jours non ouvrés.
+6. Une _________________ détermine quand un programme fonctionnera selon un modèle défini.
+7. Les _____________ d’un Job permettent à l'utilisateur de définir la séquence et les relations entre les exécutions de Jobs.
+8. Les ________ permettent de filtrer les vues du menu Opération et sont un moyen simple de rechercher des Jobs.
+9. Le processus de Mise au plan copie les Schedules et les jobs définis en Master qui sont éligibles dans la liste __________ active de SAM.
+10. SMA Solution Manager est une interface _________ pour la gestion des opérations.
+
 
 <details>
 
-<summary>Click for Unit 1 Review Quiz Answers</summary>
+<summary>Cliquez pour obtenir les réponses au questionnaire d'examen de l'unité 1</summary>
 
 1. SCHEDULE ACTIVITY MONITOR
 2. SCHEDULE
 3. JOB
 4. DOCUMENTATION
-5. CALENDAR
-6. FREQUENCY
-7. DEPENDENCIES
+5. CALENDRIER
+6. FRÉQUENCE
+7. DEPENDANCES
 8. TAGS
 9. DAILY
 10. WEB

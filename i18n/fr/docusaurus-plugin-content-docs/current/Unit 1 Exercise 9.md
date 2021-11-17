@@ -1,31 +1,34 @@
 ---
-sidebar_panel: 'Unit 1 Exercise 9'
+sidebar_label: 'Unite 1 Exercice 9'
+hide_title: 'false'
 ---
 
-### Exercise 9: Solution Manager Operations
+## Exercice 9: Opérations sur Solution Manager
 
-##### Objective: 
+##### Objectif: 
 
-Open the Chrome Browser and navigate to ```https://SMATraining:9010```
+Ouvrez le navigateur Chrome et accédez à ```https://SMATraining:9010```
 
-Log in to **Solution Manager**: 
+Connectez-vous à **Solution Manager** :
 
-**Username**: ```ocadm```
-**Password**: ```***********``` **(12 asterisks)**
+**Nom d'utilisateur** : ```ocadm ```
+**Mot de passe** : ```***********``` **(12 astérisques)**
 
-Select the Operations button and navigate to Jobs. View the Job Processes for Today. 
+Sélectionnez le bouton Opérations et accédez à Jobs. Consultez l’état des jobs d'aujourd'hui.
 
-Enable the Schedules Selection and select **MY FIRST SCHEDULE**.
+Activez la sélection des Schedules et sélectionnez **MY FIRST SCHEDULE**.
 
-Set the status of both **WINDOWS JOB 1** and **WINDOWS JOB 2** as ```Restart On Hold```.
+Mettez à jour le statut des jobs **WINDOWS JOB 1** et **WINDOWS JOB 2** sur ```Restart On Hold```.
 
 Go back to Enterprise Manager and open Matrix View. View the Jobs in **MY FIRST SCHEDULE** and release the two Jobs ```On Hold```.
 
-Return to Solution Manager and check that the Jobs have run. Next, click on the Green Heart at the bottom of the screen to view available **Agents**.
+Revenez à Enterprise Manager et ouvrez la vue Matrix.
+Affichez les jobs du Schedule **MY FIRST SCHEDULE** et libérez les deux jobs suspendus.
 
-**Disable** communication with the ```SMATraining``` machine.
 
-Go back to Enterprise Manager and **Restart** communication.
+**Désactivez** la communication avec la machine **SMATraining**.
+
+Revenez à Enterprise Manager et **réactivez** la communication.
 
 <div>
 <video width="320" height="240" controls>
@@ -36,47 +39,47 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Open **Google Chrome** from the taskbar and go to:
+1.	1.	Ouvrez **Google Chrome** depuis la barre des tâches et accédez à :
 ```
 https://SMATraining:9010
 ```
-  * If a login screen other than the **Solution Manager** login screen pops up, click **Cancel**.
-2.	In the **Solution Manager login screen** enter the following:
+    * Si un écran de connexion autre que l'écran de connexion de **Solution Manager** apparaît, cliquez sur **Annuler**.
+2.	2.	Dans l'**écran de connexion de Solution Manager**, saisissez ce qui suit :
 
-  *	Username: ```ocadm```
-  * Password: ```************``` (12 asterisks)
+  *	Nom d'utilisateur : ```ocadm```
+  * Mot de passe : ```************``` (12 astérisques)
 
-3.	Click **Sign in**.
-4.	In the **Solution Manager Home** screen, click the **Operations** button.
-5.	In the **Operations Summary** screen, click **Jobs**.
-6.	Once the **Processes** screen is presented, be sure you have todays **date** selected on the left side of the screen.
-7.	Turn on the **Enable/Disable Schedules Selection** (on the top right of the screen).
-  *	The list of Schedules for today will be presented.
-8.	Click **My First Schedule**.
-  *	You should be able to see all 4 Jobs built for today in the Job List. 
-9.	From the **Job** list, select **Windows Job 1** and **Windows Job 2**.
-10.	Right-Click one of the Jobs.
-  *	The **Job Status Update** screen will appear on the right.
-  *	Notice that not all actions are available. Only the actions that can be performed for both Jobs.
-11.	Select **Restart on Hold**.
-  *	Solution Manager will show a message in the top of the screen confirming the action was processed.
-12.	Close the **Job Status Update** screen, minimize Google Chrome and go back to **Enterprise Manager**.
-13.	Open the **List** or **Matrix** view, go to today’s date and check the Jobs under **My First Schedule**.
-  *	The status for **Windows Job 1** and **Windows Job 2** should be **On Hold**.
-14.	Still from **Enterprise Manager**, Right-Click the Jobs and select **Release**. You must perform this action for each Job.
-15.	Go back to Solution Manager. What happened to **Windows Job 1** and **Windows Job 2**?
-16.	From **Solution Manager**, click the Back button (top right).
-17.	Click the **Green Heart** located on the bottom right of the screen.
-  *	Solution Manager will present the **Agents** screen.
-18.	Select the **SMATraining** machine and then Right-Click the machine.
-19.	In the **Agent Status Update** screen (on the right side), click **Disable Communication**.
-20.	Close the Agent Status Update screen, minimize Google Chrome and go back to **Enterprise Manager**.
-21.	Open the Machine Status tab and check the status of the **SMATraining**.
-  *	It should be **Not Responding** (Gray).
-22.	Right-Click the machine and select **Start Communication**.
-23.	Close all the tabs in **Enterprise Manager**.
-24.	Close Google Chrome.
+3.	Cliquez sur **LOGIN**.
+4.	Dans l'écran d'**accueil de Solution Manager**, cliquez sur le bouton **Operations**.
+5.	Dans l'écran **Opérations Résumé**, cliquez sur **Jobs**.
+6.	Une fois que l'écran **Processus** est présenté, assurez-vous d'avoir sélectionné la **date du jour** sur le côté gauche de l'écran.
+7.	Activez la sélection à l’aide du bouton **Active/Désactive la sélection des Schedules** (en haut à droite de l'écran).
+    * La liste des schedules pour aujourd'hui sera présentée.
+8.	Cliquez sur My **First Schedule**.
+    * Vous devriez pouvoir voir les 4 jobs créés pour aujourd'hui dans la liste des jobs.
+9.	Dans la liste Jobs, sélectionnez **Windows JOB 1** et **Windows JOB 2**.
+10.	Cliquez avec le bouton droit sur l'un des jobs.
+    * L'écran **Mise à jour du Statut de Job** s'affiche à droite.
+    * Notez que toutes les actions ne sont pas disponibles. Seules les actions qui peuvent être effectuées pour les deux Jobs.
+11.	Sélectionnez **Restart on Hold (Redémarrer Suspendu)**.
+    *	Solution Manager affichera un message en haut de l'écran confirmant que l'action a été traitée.
+12.	Fermez l'écran **Mise à jour du Statut de Job**, réduisez Google Chrome et revenez à **Enterprise Manager**.
+13.	Ouvrez la vue **Liste** ou **Matrix**, accédez à la date du jour et vérifiez les jobs sous **My First Schedule**.
+    * L'état de **Windows JOB 1** et de **Windows JOB 2** doit être **On Hold**.
+14.	Toujours à partir d'**Enterprise Manager**, cliquez avec le bouton droit sur les jobs et sélectionnez **Release**. Vous devez effectuer cette action pour chaque Job.
+15.	Revenez dans Solution Manager. Qu'est-il arrivé à **Windows JOB 1** et à **Windows JOB 2** ?
+16.	Dans **Solution Manager**, cliquez sur le bouton Back (en haut à droite).
+17.	Cliquez sur le **cœur vert** situé en bas à droite de l'écran.
+    * Solution Manager présentera l'écran **Agents**.
+18.	Sélectionnez la machine **SMATraining**, puis **cliquez avec le bouton** droit sur la machine.
+19.	Dans l'écran **Mise à jour de Statut d’Agent** (sur le côté droit), cliquez sur **Désactiver la Communication**.
+20.	Fermez l'écran Agent Status Update, réduisez Google Chrome et revenez à **Enterprise Manager**.
+21.	Ouvrez l'onglet **Vue Machines** et vérifiez l'état du **SMATraining**.
+    * Il devrait ne **pas répondre** (gris).
+22.	Cliquez avec le bouton droit sur la machine et sélectionnez **Démarrer Communication**.
+23.	Fermez tous les onglets dans **Enterprise Manager**.
+24.	Fermez Google Chrome.
 
 </details>

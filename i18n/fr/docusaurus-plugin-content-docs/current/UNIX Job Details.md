@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'UNIX Job Details'
+sidebar_label: 'Détails du Job UNIX'
+hide_title: 'false'
 ---
+
+## Détails du Job UNIX
 
 <figure>
     <audio
@@ -11,24 +14,22 @@ sidebar_panel: 'UNIX Job Details'
     </audio>
 </figure>
 
-
-* Select Job Type based on where a Job will run
-* Once a Job type is selected, parameters specific to the chosen technical environment are displayed
+* Le type de job doit être sélectionné en fonction de l'environnement sur lequel il sera exécuté
+* Une fois qu'un type de Job est sélectionné, les paramètres spécifiques à l'environnement technique choisi sont affichés
 
 <a href="imgbasic/211.png" target="_blank"><img src="imgbasic/211.png" width="500"></img></a>
 
-### UNIX Job Properties
+### Propriétés des jobs UNIX
 
 <a href="imgbasic/212.png" target="_blank"><img src="imgbasic/212.png" width="500"></img></a>
 
-### UNIX Definition Parameters
+### Paramètres de définition UNIX
 
-**UNIX Definition** parameters display:
+Affichage des paramètres de **définition UNIX** :
 
 <a href="imgbasic/213.png" target="_blank"><img src="imgbasic/213.png" width="500"></img></a>  
 
+* **'Group Id / User Id'** spécifie l'utilisateur soumettant un Job sur le serveur UNIX sélectionné
+* **'Start Image'** et **'Parameters'** définissent le chemin complet et les paramètres de ligne de commande requis pour un fichier exécutable sur une machine agent
 
-* **‘Group Id / User Id’** specifies User submitting a Job on the selected UNIX server
-* **‘Start Image’** and **‘Parameters’** define the full path and required command line parameters for an executable file on an Agent Machine
-
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

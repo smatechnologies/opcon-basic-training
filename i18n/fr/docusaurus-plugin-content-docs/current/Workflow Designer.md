@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Workflow Designer'
+sidebar_label: 'Designer Workflow'
+hide_title: 'false'
 ---
+
+## Designer Workflow
 
 <figure>
     <audio
@@ -11,14 +14,14 @@ sidebar_panel: 'Workflow Designer'
     </audio>
 </figure>
 
-* The **Workflow Designer** provides a graphical display and workflow for a selected Schedule
-* Drag and drop Dependencies for Jobs, Thresholds, and Resources
-* Each node on the layout represents a Job (rectangle), a Threshold (rounded rectangle), or a Resource (oval)
-* Lines between nodes represent Dependency relationships
+* Designer Workflow fournit un affichage graphique et un workflow pour un schedule sélectionné
+* Faites glisser et déposez les dépendances pour les jobs, les Thresholds et les ressources
+* Chaque nœud du schéma représente un Job (rectangle), un Thresholds (rectangle arrondi) ou une ressource (ovale)
+* Les lignes entre les nœuds représentent les relations de dépendance
 
 <a href="imgbasic/Picture87.png" target="_blank"><img src="imgbasic/Picture87.png" width="500"></img></a>  
 
-### Workflow Designer Job Type Icons
+### Icônes de type de job du Designer Workflow 
 
 <figure>
     <audio
@@ -31,13 +34,13 @@ sidebar_panel: 'Workflow Designer'
 
 <a href="imgbasic/Picture88.png" target="_blank"><img src="imgbasic/Picture88.png" width="300"></img></a>  
 
-### Workflow Designer Indicator Icons
+### Icônes d'indicateur du Designer Workflow
 
 <a href="imgbasic/Picture89.png" target="_blank"><img src="imgbasic/Picture89.png" width="600"></img></a>  
 <a href="imgbasic/Picture90.png" target="_blank"><img src="imgbasic/Picture90.png" width="300"></img></a>  
 
 
-#### Workflow Menu
+#### Menu de Designer Workflow 
 
 <figure>
     <audio
@@ -48,14 +51,14 @@ sidebar_panel: 'Workflow Designer'
     </audio>
 </figure>
 
-* For Container Jobs - 
-  * Open SubSchedule
-* For all Job Types -
-  * Edit and Delete the Master job
-  * Find a Job
-  * Isolate a Dependency chain
-  * Change layout
+* Pour les jobs de conteneur -
+    * Ouvrir le sous-schedule
+* Pour tous les types de Jobs -
+    * Modifier et supprimer le Job en Master
+    * Trouver un job
+    * Isoler une chaîne de dépendances
+    * Changer la disposition
 
 <a href="imgbasic/Picture91.png" target="_blank"><img src="imgbasic/Picture91.png" width="400"></img></a> 
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

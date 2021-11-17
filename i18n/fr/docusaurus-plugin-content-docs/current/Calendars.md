@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Calendars'
+sidebar_label: 'Calendriers'
+hide_title: 'false'
 ---
+
+## Calendriers
 
 <figure>
     <audio
@@ -13,7 +16,7 @@ sidebar_panel: 'Calendars'
 
 <a href="imgbasic/225.png" target="_blank"><img src="imgbasic/225.png" width="200"></img></a>
 
-### Holiday Calendars
+### Calendriers de Congés
 
 <figure>
     <audio
@@ -24,29 +27,29 @@ sidebar_panel: 'Calendars'
     </audio>
 </figure>
 
-* OpCon supports several types of Calendars to help provide flexible scheduling around holidays and any other non-working days 
+* OpCon prend en charge plusieurs types de calendriers pour aider à fournir une planification flexible autour des congés et de tout autre jour non ouvrable
 
-* **Master Holiday Calendar**
-  * Installed with OpCon database
-  * Stores non-working days for multiple Schedules
-  * By default, there are no non-working days on this Calendar, so administrators must set any desired non-working days
-  * These non-working days affect all Schedules that are configured to use the Master Holiday Calendar
-* **Additional Holiday Calendar**
-  * User-defined Calendars
-  * Stores non-working days that can be associated with multiple Schedules
-  * Administrators can create as many Additional Holiday Calendars as needed for automation
-  * Non-working days on these Calendars only affect Schedules that have a Calendar selected for Additional Holidays
-* **Individual Holiday Calendar**
-  * Automatically created when a Schedule is initially created
-  * Stores non-working days for a single Schedule
-  * Administrators must set additional days as non-working days when required
+* **Calendrier Master Holiday**
+  * Installé avec la base de données OpCon
+  * Stocke les jours non ouvrables pour plusieurs schedules
+  * Par défaut, il n'y a pas de jours non ouvrés dans ce calendrier, les administrateurs doivent donc définir les jours non ouvrés souhaités.
+  * Ces jours non ouvrés affectent tous les schedules configurés pour utiliser le calendrier Master Holiday
+* **Calendrier de congés supplémentaire**
+  * Calendriers définis par l'utilisateur
+  * Stocke les jours non ouvrés pouvant être associés à plusieurs schedules
+  * Les administrateurs peuvent créer autant de calendriers de congés supplémentaires que nécessaire pour l'automatisation
+  * Les jours non ouvrés sur ces calendriers affectent uniquement les schedules pour lesquels un calendrier est sélectionné pour des jours fériés supplémentaires
+* **Calendrier de congés individuel**
+  * Créé automatiquement lors de la création initiale d'un schedule
+  * Stocke les jours non ouvrables pour un seul schedule
+  * Les administrateurs doivent définir des jours supplémentaires comme jours non ouvrés lorsque cela est nécessaire
 
 <a href="imgbasic/226.png" target="_blank"><img src="imgbasic/226.png" width="500"></img></a>  
 <a href="imgbasic/227.png" target="_blank"><img src="imgbasic/227.png" width="500"></img></a>  
 <a href="imgbasic/228.png" target="_blank"><img src="imgbasic/228.png" width="500"></img></a>  
 <a href="imgbasic/229.png" target="_blank"><img src="imgbasic/229.png" width="500"></img></a>  
 
-### Workdays Per Week
+### Jours ouvrables par semaine
 
 <figure>
     <audio
@@ -57,9 +60,9 @@ sidebar_panel: 'Calendars'
     </audio>
 </figure>
 
-* Workdays Per Week combined with Schedule Holiday Calendars specify which dates are considered working days
-* Workdays Per Week can be overwritten by Frequencies
+* Les jours ouvrables par semaine combinés aux calendriers des jours fériés spécifient quelles dates sont considérées comme des jours ouvrables
+* Les jours ouvrables par semaine peuvent être écrasés par des fréquences
 
 <a href="imgbasic/230.png" target="_blank"><img src="imgbasic/230.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

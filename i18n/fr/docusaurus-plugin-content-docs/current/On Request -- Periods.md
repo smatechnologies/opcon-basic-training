@@ -1,10 +1,11 @@
 ---
-sidebar_panel: 'On Request -- Periods'
+sidebar_label: 'A la demande -- Début de Période, Milieu de Période, Fin de Période'
+hide_title: 'false'
 ---
 
-### Frequency Definition Wizard - On Request & Beginning, Middle, End of Period
+## Assistant définition Fréquence – A la demande & Début de Période, Milieu de Période, Fin de Période
 
-#### On Request
+#### A la demande
 
 <figure>
     <audio
@@ -15,15 +16,15 @@ sidebar_panel: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Used for two reasons:
-  * A Job needs to run on the same day every year
-  * A Job needs to never be included in the original build and only be added through **AdHoc**
-* Other Fields:
-  * **A/O/B/N** flag is applicable
+* Utilisé pour deux raisons :
+    * Un Job doit s'exécuter le même jour chaque année
+    * Un Job ne doit jamais être inclus dans la version d'origine et uniquement ajouté via un **AdHoc**
+* Autres champs :
+    * L'indicateur **A / O / B / N** est applicable
 
 <a href="imgbasic/240.png" target="_blank"><img src="imgbasic/240.png" width="500"></img></a>
 
-#### End of Period
+#### Fin de Période
 
 <figure>
     <audio
@@ -34,16 +35,16 @@ sidebar_panel: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Allows a Job to run on the Last day of Week, Month, Quarter, or Year
-* Use **A/O/B/N** flag to specify the last working day of that Period
-* Offset Days is in Working Days
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Permet à un Job de s'exécuter le dernier jour de la semaine, du mois, du trimestre ou de l'année
+* Utilisez l'indicateur **A / O / B / N** pour spécifier le dernier jour ouvrable de cette période
+* Le décalage se fait en jours ouvrables
+* Autres champs :
+    * L'indicateur **A / O / B / N** est applicable
+    * Le calendrier sélectionné bloquera les jours indiqués dans un calendrier APRÈS avoir défini les jours **A / O / B / N**
 
 <a href="imgbasic/241.png" target="_blank"><img src="imgbasic/241.png" width="500"></img></a>
 
-#### Beginning of Period
+#### Début de Période
 
 <figure>
     <audio
@@ -54,16 +55,16 @@ sidebar_panel: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Allows a Job to run on the First of Week, Month, Quarter, or Year
-* Use **A/O/B/N** flag to specify the First Working Day of that Period
-* Offset Days is in Working Days
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Permet à un Job de s'exécuter le premier jour de la semaine, du mois, du trimestre ou de l'année
+* Utilisez l'indicateur **A / O / B / N** pour spécifier le premier jour ouvrable de cette période
+* Le décalage se fait en jours ouvrables
+* Autres champs :
+    * L'indicateur **A / O / B / N** est applicable
+    * Le calendrier sélectionné bloquera les jours indiqués dans un calendrier APRÈS avoir défini les jours **A / O / B / N**
 
 <a href="imgbasic/242.png" target="_blank"><img src="imgbasic/242.png" width="500"></img></a>
 
-#### Middle of Period
+#### Milieu de Période
 
 <figure>
     <audio
@@ -74,16 +75,16 @@ sidebar_panel: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Allows a Job to run on Middle of Week, Month, Quarter, or Year
+* Permet à un Job de s'exécuter au milieu de la semaine, du mois, du trimestre ou de l'année
 
 :::note
-For 31 day months, 15.5 is rounded up to 16
+**Pour les mois de 31 jours, 15,5 est arrondi à 16**
 :::  
-  * Specify the desired Day of the Week
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Il est possible de spécifier un jour de la semaine.
+* Autres champs :
+    * L'indicateur **A / O / B / N** est applicable
+    * Le calendrier sélectionné bloquera les jours indiqués dans un calendrier APRÈS avoir défini les jours **A / O / B / N**
 
 <a href="imgbasic/24301.png" target="_blank"><img src="imgbasic/24301.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

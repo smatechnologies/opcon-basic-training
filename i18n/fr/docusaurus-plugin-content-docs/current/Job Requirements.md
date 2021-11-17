@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Job Requirements'
+sidebar_label: 'Critères du job'
+hide_title: 'false'
 ---
+
+## Critères du job
 
 <figure>
     <audio
@@ -11,24 +14,24 @@ sidebar_panel: 'Job Requirements'
     </audio>
 </figure>
 
-OpCon needs some basic information to run a process:
+OpCon a besoin d'informations de base pour exécuter un processus:
 
-* Job type (Windows, UNIX, etc.)
-* Where it will run (Machine)
-* User associated with execution
-* What program/script (Command Line) will OpCon run
+* Type de job (Windows, UNIX, etc.)
+* Où sera-t ’il exécuté ? (Machine)
+* Utilisateur associé à l'exécution
+* Quel programme / script (ligne de commande) exécutera OpCon
 
 
-### Job Type
+### Type de job:
 
-* **Job Type** defines the type of process to run
-* Usually associated with a specific Operating System
-* Only Job Types configured within your OpCon Environment are shown
-* Once a Job Type is selected, parameters specific to the chosen technical environment are displayed
+* **Le type de job** définit le type de processus à exécuter
+* Généralement associé à un système d'exploitation spécifique
+* Seuls les types de jobs configurés dans votre environnement OpCon sont affichés
+* Une fois qu'un type de job est sélectionné, les paramètres spécifiques à l'environnement technique choisi sont affichés
 
 <a href="imgbasic/Picture15.png" target="_blank"><img src="imgbasic/Picture15.png" width="500"></img></a> 
 
-### Windows Job Type Definition Details
+### Définition du type de job Windows
 
 <figure>
     <audio
@@ -39,12 +42,13 @@ OpCon needs some basic information to run a process:
     </audio>
 </figure>
 
-Windows Job Type parameters must be set:
+Les paramètres de type de job Windows doivent être définis: 
 
-* Primary Machine
-* User Id
-* Command Line
+* Machine principale
+* Identifiant d'utilisateur 
+* Ligne de commande
+
 
 <a href="imgbasic/Picture16.png" target="_blank"><img src="imgbasic/Picture16.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

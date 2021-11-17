@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'SM Job Configuration'
+sidebar_label: 'SM - écran Définition du Daily Job'
+hide_title: 'false'
 ---
 
-### Solution Manager: Job Configuration Screen
+## Solution Manager: écran Définition du Daily Job
 
 <figure>
     <audio
@@ -13,52 +14,54 @@ sidebar_panel: 'SM Job Configuration'
     </audio>
 </figure>
 
-* The Job Configuration Screen (formerly “Edit Daily”) can be accessed from the Job Summary toolbar when a Job is selected
+* L'écran Définition du Daily Job (anciennement « Edit Daily ») est accessible à partir de la barre d'outils du Résumé du Job lorsqu'un job est sélectionné
 
-* Components accessible from Job Configuration:
-  * Task Details: Job Type
-  * Department
+* Composants accessibles depuis la configuration des jobs :
+  * Détails de la Tâche: Job Type
+  * Département
   * Access Codes
   * Tags
   * Documentation
-  * Job Instance Properties
-  * Frequency Details
+  * Propriétés d’Instance
+  * Fréquence 
 
 <a href="imgbasic/Picture75.png" target="_blank"><img src="imgbasic/Picture75.png" width="500"></img></a>  
 
-### Windows Job Task Details Screen:
+### Écran « Détails de la Tâche » d’un job Windows:
 
 <a href="imgbasic/Picture76.png" target="_blank"><img src="imgbasic/Picture76.png" width="500"></img></a>
 
 ### Windows Job Task Configurable Options
 
-Currently configurable options:  
+### Options configurables de la tâche de Job Windows
 
-* Machines/Machine Groups  
-* Prerun Command Line  
-  * Working Directory  
-  * Failure Criteria  
-* Run Command Line  
-  * Working Directory  
-  * E.C.O.F. – (Exit Code Override File)  
-  * Priority  
-  * Run in Command Shell option  
-* Failure Criteria  
-* Job Output Parsing  
-* Environmental Variables  
+Options actuellement configurables :
+
+* Machines ou Groupe de Machines
+* Pré-Lancement (Prerun) : Ligne de Commande
+    * Dossier de travail (Working Directory)
+    * Critère d’échec
+* Lancement : Ligne de Commande
+    * Dossier de travail (Working Directory)
+    * E.C.O.F. – (Exit Code Override File)
+    * Priorité
+    * Option Lancer dans un Shell
+* Critères d’échec
+* Analyse du Rapport d’exécution (job output parsing).
+* Variables d’environnement
 
 <a href="imgbasic/Picture77.png" target="_blank"><img src="imgbasic/Picture77.png" width="500"></img></a>  
 
-### Job Status Screen
+### Écran de Mise à jour de Statut de Job
 
-Right-Click Jobs and available actions appear
+Cliquez avec le bouton droit sur les Job et les actions disponibles s'affichent
 
-* If Multiple Jobs are selected, Actions on those Jobs can occur at once selected 
+* Si plusieurs jobs sont sélectionnés, les actions sur ces jobs peuvent se produire en même temps.
 
 <a href="imgbasic/Picture78.png" target="_blank"><img src="imgbasic/Picture78.png" width="500"></img></a>  
 
-### Bulk Job Status Update
+### Mise à jour de Statut de Job en masse
 
 <a href="imgbasic/Picture79.png" target="_blank"><img src="imgbasic/Picture79.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

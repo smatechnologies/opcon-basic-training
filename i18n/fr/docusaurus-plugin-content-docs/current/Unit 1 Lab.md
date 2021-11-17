@@ -1,31 +1,30 @@
 ---
-sidebar_panel: 'Unit 1 Lab'
+sidebar_label: 'Unite 1 Lab'
+hide_title: 'false'
 ---
 
-### Unit 1 Lab
+## Unite 1 Lab
 
-##### Objective:
+##### Objectif:
 
-Congo Online Retail Inc. needs to run a Schedule named **CONGO INVENTORY REPORTS** that will create separate Inventory reports for six products every working day. These reports must run **sequentially** and be **Tagged** within the following categories:
+Congo Online Retail Inc. doit exécuter un Schedule nommé **CONGO INVENTORY REPORTS** qui créera des rapports d'inventaire séparés pour six produits chaque jours ouvrables. Ces rapports doivent s'exécuter de **manière séquentielle** et être **étiquetés** dans les catégories suivantes :
 
-**Toys**
+**Jouets**
+*	Legos
+*	Nerf
 
-* Legos
-* Nerf
+**Électronique**
+*	Smartphones
+*	Xbox
 
-**Electronics**
+**Vêtements**
+*	Levi's
+*	Nike
 
-* Smartphones
-* Xbox
 
-**Clothing**
+Les six Jobs ```WINDOWS``` doivent être exécutés du **lundi au vendredi** et ne peuvent pas commencer avant ```8:00```.
 
-* Levis
-* Nike
-
-All six ```WINDOWS``` Jobs must run **Monday-Friday** and may not start until ```8:00 AM```.
-
-The program that must be run in the Command Line for Job execution is:
+Le programme qui doit être exécuté dans la ligne de commande pour l'exécution du Job est :
 
 ```
 "C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t15 -e0
@@ -40,43 +39,45 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for More Detailed Lab Instructions</summary>
+<summary>Cliquez pour obtenir des instructions de laboratoire plus détaillées</summary>
 
-#### Lab Instructions:
-* Create a Schedule named Congo Inventory Reports
-* Saturday and Sundays are non-working days 
-* Auto-build the Schedule ```7``` days in advance for ```1``` day
-* Auto-delete the Schedule for ```7``` days
-* Add Documentation for the Schedule 
-* Create a **Windows Job** for each of the products in the introduction
-* Name each Job the same as its product name
-* This Job needs to run as the ```SMATRAINING\SMAUSER``` User ID
-* This Job needs to run on the ```SMATRAINING``` machine
-* Use the following command line:
+#### Instructions de laboratoire :
+
+* Créer un schedule nommée **Congo Inventory Reports**
+* Le samedi et le dimanche sont des jours non ouvrés
+* Configurez le Schedule pour une mise au plan automatique de ```7``` jours à l'avance pour ```1``` jour
+* Ainsi qu’une suppression automatique après ```7``` jours
+* Ajouter de la documentation pour le schedule
+* Créez un **Job Windows** pour chacun des produits présentés dans l'introduction
+* Nommez chaque Job de la même manière que son nom de produit
+* Ce Job doit s'exécuter avec l’utilisateur ```SMATRAINING\SMAUSER```
+* Ce job doit être exécuté sur la machine ```SMATRAINING```
+* Utilisez la ligne de commande suivante :
+
 ```
 “C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t15 –e0
 ```
-* The Jobs must run Monday-Friday
-* Use the Existing Frequency: ```Mon-FriOnDate```
-* Click the Forecast button to be sure your Frequency matches the requirement
-* Add Documentation for each Job. Example: This Job is reporting inventory for the number of Legos in Stock
-* The Jobs must run in the following order with each Job requiring the Job before it:
-  * Legos
-  * Nerf
-  * Smartphones
-  * Xbox
-  * Levis
-  * Nike
-* The Jobs cannot start until **8:00 AM**
-* **Tag** the Jobs according to the product type (Toys, Electronics or Clothing)
-* Build the Schedule Released for today and tomorrow
-* Open the Matrix or List view under Operations to check
+* Les jobs doivent être exécutés du lundi au vendredi
+* Utilisez la fréquence existante : ```Mon-FriOnDate```
+* Cliquez sur le bouton Prévisionnel pour vous assurer que votre fréquence correspond à l'exigence
+* Ajoutez de la documentation pour chaque job. 
+        * Exemple : ce Job rapporte un inventaire pour le nombre de Legos en stock
+* Les Jobs doivent s'exécuter dans l'ordre suivant, chaque Job nécessitant l’exécution du Job avant lui :
+    * Legos
+    * Nerf
+    * Smartphones
+    * Xbox
+    * Levis
+    * Nike
+* Les jobs ne peuvent pas démarrer avant **8h00**
+* **Taguer** les jobs en fonction du type de produit (jouets, électronique ou vêtements)
+* Mettre au plan le schedule en mode Released pour aujourd'hui et demain
+* Ouvrez la vue Matrice ou Liste sous Operations pour vérifier
 
-
-Upon completion, the Jobs will run in this order:
+Une fois terminés, les Jobs s'exécuteront dans cet ordre :
 
 <a href="imgbasic/Picture92.png" target="_blank"><img src="imgbasic/Picture92.png" width="250"></img></a>  
 
-###### (Click Image to Enlarge)
+###### (Cliquez sur l'image pour l'agrandir)
 
 </details>

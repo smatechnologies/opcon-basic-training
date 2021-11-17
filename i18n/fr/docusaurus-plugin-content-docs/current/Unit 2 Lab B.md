@@ -1,24 +1,27 @@
 ---
-sidebar_panel: 'Unit 2 Lab B'
+sidebar_label: 'Unite 2 Lab B'
+hide_title: 'false'
 ---
 
-### Objective:
+## Unite 2 Lab B
 
-Congo Online Retail Inc. needs to run daily inventory checks (7 days a week) with a Schedule named **CONGO INVENTORY MANAGEMENT**. 
+### Objectif:
 
-A specific program must be run for each product department and each product Job should be Tagged by department.  
+Congo Online Retail Inc. doit effectuer des contrôles d'inventaire quotidiens (7 jours sur 7) avec un schedule nommé **CONGO INVENTORY MANAGEMENT**.
+
+Un programme spécifique doit être exécuté pour chaque département de produit et chaque Job associé à un produit doit être étiqueté par département.
   
-*	**Toys** – ```"C:\scripts\CheckInvToys.EXE"```
-  *	Legos
-  *	Nerf
-*	**Electronics** – ```"C:\scripts\CheckInvElectronics.EXE"```
-  *	Smartphones
-  *	Xbox
-*	**Clothing** – ```"C:\scripts\CheckInvClothing.EXE"```
-  *	Levis
-  *	Nike
+*	**Jouets** – ```"C:\scripts\CheckInvToys.EXE"```
+    *	Legos
+    *	Nerf
+*	**Électronique** – ```"C:\scripts\CheckInvElectronics.EXE"```
+    *	Smartphones
+    *	Xbox
+*	**Vêtements** – ```"C:\scripts\CheckInvClothing.EXE"```
+    *	Levis
+    *	Nike
 
-Each product is assigned a **Product ID Number**. This ID Number will be used by the program as an argument for the ```-t``` time interval for each job:
+Chaque produit se voit attribuer un **Product ID Number**. Ce numéro d'identification sera utilisé par le programme comme argument pour l'intervalle de temps -t pour chaque job :
 
   * Legos - ```11```
   * Nerf - ```12```
@@ -28,9 +31,9 @@ Each product is assigned a **Product ID Number**. This ID Number will be used by
   * Nike - ```32```
   * Inventory Report - ```100```
 
-The Jobs must run every ```30 minutes``` until ```11:45 PM```.
+Les Jobs doivent s'exécuter toutes les ```30 minutes``` jusqu'à ```23h45```.
   
-The programs read the database and generate order requests to purchase new items. At the end of the day, an **Inventory Purchase Report** is created with the results. This must be created as a ```UNIX``` Job with the following **Start Image**:
+Les programmes lisent la base de données et génèrent des demandes de commande pour acheter de nouveaux articles. À la fin de la journée, **un rapport d'inventaire d'achat** est créé avec les résultats. Celui-ci doit être créé en tant que Job ```UNIX``` avec la ligne de commande suivante :
 
 ```/usr/local/labfiles/CheckInvPurRpt –t100```  
 
@@ -43,45 +46,46 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for More Detailed Lab Instructions</summary>
+<summary>Cliquez pour obtenir des instructions plus détaillées </summary>
 
-**Lab Instructions**:
+**Instructions de laboratoire** : 
 
-*	Create a Schedule named **Congo Inventory Management**
-*	**Monday-Sunday** are working days
-*	Auto-build the Schedule ```7``` days in advance for ```1``` day
-*	Auto-delete the Schedule for ```7``` days
-*	Add Documentation for the Schedule 
+* Créer un Schedule nommé **Congo Inventory Management** 
+* les jours ouvrables sont **Du lundi au dimanche** 
+* Configurer la Mise au Plan automatique du Schedule avec ```7``` jours à l'avance pour ```1``` jour 
+* Supprimer automatiquement le Schedule après ```7``` jours 
+* Ajouter de la documentation pour le Schedule
 
-*	Create a Windows Job for each of the products in the introduction
-  *	Name each Job the same as its product name
-  *	This Job needs to run as the ```SMATRAINING\SMAUSER``` User ID
-  *	This Job needs to run on the ```SMATRAINING``` machine
-  *	Call the programs on the command line. For example: 
-  
+* Créez un Job Windows pour chacun des produits dans l'introduction
+    * Nommez chaque Job comme son nom de produit
+    * Ce job doit s'exécuter sous l'ID utilisateur ```SMATRAINING\SMAUSER```
+    * Ce job doit être exécuté sur la machine ```SMATRAINING```
+    * Appelez les programmes sur la ligne de commande. Par exemple :
+
   ```   
   “C:\scripts\CheckInvToys.EXE” -t11  
   ```  
-  *   These Jobs need to run Monday-Sunday
-  *	These Jobs need to run ```every 30 minutes``` when they have finished ok
-  *	The latest execution time of the 6 Jobs is ```11:45 PM```
-  *	Add Documentation for each Job. Example: Nerf
-  *	Tag these 6 Jobs according to the product type (**Toys**, **Electronics**, or **Clothing**)
-*	Create a Unix Job named **Inventory Purchase Report**
-  *	This Job needs to run on the ```SUSEVM``` machine
-  *	This Job needs to run as the ```0/0``` Group id/User ID
-  *	Call the programs on the Start Image. For example:
+
+* Ces jobs doivent être exécutés du lundi au dimanche
+* Ces jobs doivent être réexécutés ```toute les 30 minutes``` lorsqu'ils se sont terminés correctement
+* La dernière heure d'exécution des 6 Jobs est ```23h45``` 
+* Ajoutez de la documentation pour chaque Job. Exemple : Nerf
+* Taguez ces 6 jobs en fonction du type de produit (**jouets** , **électronique** ou **vêtements** )
+* Créer un Job Unix nommé **Rapport d’inventaire d’achat**
+* Ce job doit être exécuté sur la machine ```SUSEVM```
+* Ce Job doit s'exécuter sous les IDs groupe/utilisateur ```0/0``` 
+* Appelez les programmes sur la ligne de commande. Par exemple :
 
   ```  
   /usr/local/labfiles/CheckInvPurRpt –t100  
   ```  
   
-  *	This Job needs to run **Monday-Sunday**
-  *	The Inventory Purchase Report requires the 6 Windows Jobs and must run after all runs have completed
-*	Build the Schedule for today and tomorrow
+* Ce job doit être exécutée du **lundi au dimanche**
+* Le rapport d'inventaire d'achat nécessite les 6 jobs Windows et doit s'exécuter une fois que toutes les exécutions sont terminées
+* Mettre au Plan le Schedule pour aujourd'hui et demain
 
 :::note
-Upon completion, view the results in the **Workflow designer**. Then build the Schedule released for today and check the execution using **Solution Manager**.
+Une fois terminé, affichez les résultats dans le **Designer Workflow**. Ensuite, mettre au Plan le Schedule en « Release » pour aujourd'hui et vérifiez son exécution à l'aide de **Solution Manager**.
 :::
 
 <a href="imgbasic/306.png" target="_blank"><img src="imgbasic/306.png" width="500"></img></a>

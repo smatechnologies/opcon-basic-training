@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Audit Management'
+sidebar_label: 'Gestion de l audit'
+hide_title: 'false'
 ---
+
+## Gestion de l'audit
 
 <figure>
     <audio

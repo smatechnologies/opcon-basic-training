@@ -1,8 +1,11 @@
 ---
-sidebar_panel: 'Looping Jobs'
+sidebar_label: 'Jobs récurrents'
+hide_title: 'false'
 ---
 
-### Looping Jobs on Success
+## Jobs récurrents
+
+### Jobs récurrents en cas de succès
 
 <figure>
     <audio
@@ -13,15 +16,15 @@ sidebar_panel: 'Looping Jobs'
     </audio>
 </figure>
 
-* The same Job can run multiple times throughout the day
+* Le même Job peut s'exécuter plusieurs fois au cours de la journée
 
 :::caution Warning
-Job Dependency of subsequent Jobs will not be met until last run
+La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécution
 :::
 
 <a href="imgbasic/256.png" target="_blank"><img src="imgbasic/256.png" width="500"></img></a>
 
-### Looping Jobs - Restart Offset
+### Jobs récurrents – Intervalle d’Exécution
 
 <figure>
     <audio
@@ -32,17 +35,17 @@ Job Dependency of subsequent Jobs will not be met until last run
     </audio>
 </figure>
 
-* A Job needs to rerun on set interval
-* **Run Interval** – End to Start can create Start Time creep
-* **Run Limits** – Either or Both selections can be used
+* Un Job a besoin d’être réexécuté à un intervalle défini
+* **Intervalle d'exécution** – Intervalle (en minutes) entre les soumissions ou entre la fin et le début du job suivant.
+* **Limites d'exécution** - l'une ou les deux sélections peuvent être utilisées 
 
 :::caution Warning
-Job Dependency of subsequent Jobs will not be met until last run
+La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécution
 :::
 
 <a href="imgbasic/257.png" target="_blank"><img src="imgbasic/257.png" width="500"></img></a>
 
-### Looping Jobs - Recurring Instances
+### Jobs récurrents - Instances récurrentes
 
 <figure>
     <audio
@@ -53,17 +56,17 @@ Job Dependency of subsequent Jobs will not be met until last run
     </audio>
 </figure>
 
-* A Job needs to rerun on a non-standard interval
-* **Action on Overlap of Job Recurrence** allows a Job to run or be skipped if another Job has run late or is running during the subsequent run
+* Un Job a besoin d’être réexécuté à un intervalle non constant. 
+* **L'action sur chevauchement de récurrence de Job** permet à un job de s'exécuter ou d'être ignoré si un autre job a été exécuté en retard ou est en cours d'exécution lors de l'exécution suivante
 
 :::caution Warning
-Job Dependency of subsequent Jobs will not be met until last run
+La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécution
 :::
 
 <a href="imgbasic/258.png" target="_blank"><img src="imgbasic/258.png" width="500"></img></a>
 
 
-### Looping Jobs on Failure
+### Jobs relancés en cas d'échec
 
 <figure>
     <audio
@@ -74,12 +77,12 @@ Job Dependency of subsequent Jobs will not be met until last run
     </audio>
 </figure>
 
-* A Job can automatically try again multiple times within the configured number of minutes between attempts if the Job fails
+* Un Job peut réessayer automatiquement plusieurs fois dans le nombre de minutes configuré entre les tentatives si le job échoue
 
 :::note
-OpCon will flag a Job as failed after the last attempt
+OpCon marquera un Job comme ayant échoué après la dernière tentative
 :::
 
 <a href="imgbasic/259.png" target="_blank"><img src="imgbasic/259.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

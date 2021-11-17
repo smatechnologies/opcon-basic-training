@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'OpCon Logs'
+sidebar_label: 'Logs OpCon (Journaux)'
+hide_title: 'false'
 ---
+
+## Logs OpCon (Journaux)
 
 <figure>
     <audio
@@ -11,25 +14,25 @@ sidebar_panel: 'OpCon Logs'
     </audio>
 </figure>
 
-##### Log location  
+##### Emplacement des Logs
 
-* If OpCon was installed on a **system drive**, Logs will be stored in **ProgramData**  
+* Si OpCon a été installé sur **le disque système**, les logs seront stockés dans **ProgramData**
 ```
 C:\ProgramData\OpConxps\SAM\Log
 ```
-* If OpCon was installed on a **non-system drive**, Logs will be stored in **Program Files**  
+* Si OpCon a été installé sur un **disque autre que le disque système**, les logs seront stockés dans **le dossier d’installation d’Opcon**
 ```
 [[Drive]]\[[Location selected for Output Files]]
 ```
 
-##### Enterprise Manager Shortcut  
+##### Raccourci d’accès aux logs dans Enterprise Manager
 
-  * Auto-updating Logs (current Logs)
-  * **Requires OpConxps folder to be shared with users**
+  * Logs automatiquement mises à jour (Logs actuelles)
+  * **Nécessite le partage du dossier OpConxps avec les utilisateurs.**
 
 <a href="imgbasic/Picture53.png" target="_blank"><img src="imgbasic/Picture53.png" width="300"></img></a>  
 
-### OpCon Logs - Support
+### Logs OpCon- Support
 
 <figure>
     <audio
@@ -40,25 +43,25 @@ C:\ProgramData\OpConxps\SAM\Log
     </audio>
 </figure>
 
-* OpCon Logs are **VITAL** to the Support team when researching an issue
-  * Please zip up full Log folder and upload it to SMA’s FTP site if an issue occurs
+* Les logs OpCon sont **VITALES** pour l'équipe support lors de la recherche d'un problème
+  * Veuillez compresser le dossier Log complet et le télécharger sur le site FTP de SMA en cas de problème Log Collectors
 Log Collectors
-* The SMA DataCollector Program can collect all SMA application Logs
-  * SMASUP will collect all LSAM (Agent) Logs
+* Le programme SMA DataCollector peut collecter tous les logs d'application SMA
+  * SMASUP collectera toutes les logs LSAM (agent)
 
 <a href="imgbasic/Picture54.png" target="_blank"><img src="imgbasic/Picture54.png" width="500"></img></a>  
 
-### OpCon Log Files
+### Log Files OpCon
 
-OpCon Log files can help with troubleshooting  
+Les fichiers de Log OpCon peuvent aider au dépannage
 
-* For problems with Job executions, check:
-  * Configuration tab in Job Information
-  * Job Output
+* Pour les problèmes avec des exécutions de Job, vérifiez :
+  * L’onglet Configuration dans la fenêtre Job informations.
+  * Le rapport d’exécution du Job
   * **SAM log**
   * **Critical log**
 
-### SAM Log
+### La Log SAM (SAM log)
 
 <figure>
     <audio
@@ -71,20 +74,20 @@ OpCon Log files can help with troubleshooting
 
 SAM - Schedule Activity Monitor  
 
-* “Brain” of OpCon’s Engine  
+* « Cerveau » du moteur d'OpCon
 
-Running list of all transactions  
+Liste continue de toutes les transactions
 
-* Job Status Changes
-* Incoming Events
-* Failures
-* License Information 
+* Modifications du statut de Job
+* Déclanchement d’Events Opcon 
+* Les échecs ou erreurs.
+* Informations sur la licence
 
 <a href="imgbasic/Picture55.png" target="_blank"><img src="imgbasic/Picture55.png" width="500"></img></a>  
 
 ---
 
-### Critical Log
+### La Log critique (Critical Log)
 
 <figure>
     <audio
@@ -95,13 +98,13 @@ Running list of all transactions
     </audio>
 </figure>
 
-* Reports SAM errors
-* Properties which cannot be resolved
-  * If a Job places itself On Hold, refer to the Critical Log
-* Events with invalid syntax
-* Machine communication issues
-* Database connection problems
+* Signale les erreurs du SAM
+* Properties qui ne peuvent pas être résolues
+  * Si un job se met en Hold lui-même, reportez-vous au Log critique
+* Les Events avec une syntaxe incorrecte
+* Problèmes de communication avec les machines
+* Problèmes de connexion à la base de données
 
 <a href="imgbasic/Picture56.png" target="_blank"><img src="imgbasic/Picture56.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Global Properties'
+sidebar_label: 'Global Properties'
+hide_title: 'false'
 ---
+
+## Global Properties
 
 <figure>
     <audio
@@ -11,32 +14,33 @@ sidebar_panel: 'Global Properties'
     </audio>
 </figure>
 
-* **Global Properties** are variables stored in the database that can be used throughout OpCon 
-  * Properties are defined with a name and a value
+**Les Global Properties** sont des variables stockées dans la base de données qui peuvent être utilisées dans OpCon
 
-:::note Example
-To use a Global Property in OpCon (Command Lines, Events, etc.) use the following notation:
+* Elles sont définies avec un nom et une valeur
+
+:::note Exemple
+Pour utiliser une **Global Properties** dans OpCon (lignes de commande, événements, etc.), utilisez la notation suivante:
 
 ```[[<Global Property Name>]]```
 
-Example:
+Exemple:
 
 ```[[PATH-TO-SCRIPTS]]```
 :::
 
-* OpCon will replace the Global Property with the given value at Runtime
+* OpCon remplacera la **Global Properties** par la valeur donnée lors de l'exécution
 
-* The **Global Properties** screen is used to manage OpCon Instance Properties that apply to the entire environment  
+* L' écran **Global Properties** est utilisé pour gérer les propriétés d'instance OpCon qui s'appliquent à l'ensemble de l'environnement
 
 <a href="imgbasic/201.png" target="_blank"><img src="imgbasic/201.png" width="500"></img></a>  
 
-* Using a Global Property in Command Line
+* Utilisation d'une Global Properties en ligne de commande
 
 <a href="imgbasic/202.png" target="_blank"><img src="imgbasic/202.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)
 
-### Troubleshooting Global Properties
+### Dépannage des propriétés globales
 
 <figure>
     <audio
@@ -47,15 +51,15 @@ Example:
     </audio>
 </figure>
 
-Example
+Exemple
 
-* Job Stays On Hold
-  * If SAM is unable to Resolve a Property, it will place the Job “On Hold” at Runtime
-  * Both the SAM and Critical Logs will report which Property has an error
+* Le Job reste en statut suspendu (Hold)
+    * Si le SAM ne parvient pas à résoudre une propriété, il placera le job « On Hold » au moment de l’exécution.
+    * Le SAM et la Critical Log indiqueront quelle propriété a une erreur
 
 <a href="imgbasic/203.png" target="_blank"><img src="imgbasic/203.png" width="500"></img></a> 
 
-### Encrypted Global Property
+### Propriété globale cryptée
 
 <figure>
     <audio
@@ -67,13 +71,13 @@ Example
 </figure>
 
 
-* The Value of a **Global Property** can be **Encrypted** by simply checking the **Encrypted** check box and saving the **Global Property**
-* This value is decrypted by **LSAM** at Runtime
-* **There is no decrypt option** 
-* Good for things like passwords
+* La valeur d'une Global Property peut être cryptée en cochant simplement la case Crypté et en enregistrant la Global Property.
+* Cette valeur est décryptée par LSAM à l’exécution.
+* Il n'y a pas d'option de déchiffrement
+* Utile pour des données comme les mots de passe
 
 <a href="imgbasic/204.png" target="_blank"><img src="imgbasic/204.png" width="250"></img></a>  
 
 <a href="imgbasic/205.png" target="_blank"><img src="imgbasic/205.png" width="250"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Multiple Frequencies'
+sidebar_label: 'Fréquences multiples'
+hide_title: 'false'
 ---
+
+## Fréquences multiples
 
 <figure>
     <audio
@@ -11,16 +14,16 @@ sidebar_panel: 'Multiple Frequencies'
     </audio>
 </figure>
 
-* SAM checks the **Frequency list** at Job build time
-  * Stops searching when a match is made
-  * Checks list in order
-* Use cases
-  * Run Jobs at different times for different days
-  * Negative frequencies (do not run on End of Month)
+* SAM vérifie la **liste des fréquences** au moment de la création du job
+    * La recherche s’arrête lorsqu'une correspondance est établie
+    * La Liste des fréquences est vérifiée dans l'ordre
+* Cas d'utilisation
+    * Exécuter des jobs à des heures différentes suivant les jours d’exécution.
+    * Fréquences négatives (ne pas soumettre le job à la fin du mois par exemple)
 
 <a href="imgbasic/260.png" target="_blank"><img src="imgbasic/260.png" width="500"></img></a>
 
-### Frequencies - Job Build Status
+### Fréquences - Statut de Mise au Plan d’un Job
 
 <figure>
     <audio
@@ -31,18 +34,18 @@ sidebar_panel: 'Multiple Frequencies'
     </audio>
 </figure>
 
-* On Hold
-* Released
-* Do Not Schedule
-* To Be Skipped
-* Disable Frequency
+* On Hold (Suspendu)
+* Released (Libéré)
+* Do Not Schedule (Ne pas planifier)
+* To Be Skipped (Doit être Sauté)
+* Désactiver la fréquence
 
 <a href="imgbasic/261.png" target="_blank"><img src="imgbasic/261.png" width="500"></img></a>  
 <a href="imgbasic/262.png" target="_blank"><img src="imgbasic/262.png" width="250"></img></a>
 
-###### (Click Images to Enlarge)
+###### (quez sur les images pour les agrandir)
 
-### Forecast
+### Prévisionnel
 
 <figure>
     <audio
@@ -53,11 +56,11 @@ sidebar_panel: 'Multiple Frequencies'
     </audio>
 </figure>
 
-### Forecast Side-by-Side
+### Prévisionnel côte à côte
 
 <a href="imgbasic/263.png" target="_blank"><img src="imgbasic/263.png" width="350"></img></a><a href="imgbasic/264.png" target="_blank"><img src="imgbasic/264.png" width="350"></img></a>  
 
-### Forecast All
+### Prévisionnel Global
 
 <a href="imgbasic/265.png" target="_blank"><img src="imgbasic/265.png" width="500"></img></a>  
 <a href="imgbasic/266.png" target="_blank"><img src="imgbasic/266.png" width="500"></img></a>  

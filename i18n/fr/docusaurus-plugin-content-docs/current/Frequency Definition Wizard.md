@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'Frequency Definition Wizard'
+sidebar_label: 'Assistant de définition de fréquence - Présentation'
+hide_title: 'false'
 ---
 
-### Overview
+## Assistant de définition de fréquence - Présentation
 
 <figure>
     <audio
@@ -13,31 +14,31 @@ sidebar_panel: 'Frequency Definition Wizard'
     </audio>
 </figure>
 
-* After clicking the **Add** button under **Frequency list**:
-  * Create **New Frequency**   
-   or
-  * Select **Existing Frequency**
+* Après avoir cliqué sur le bouton **Ajouter** sous **Liste des Fréquences** :
+    * Créer **Nouvelle Fréquence**
+    ou
+    * Utiliser **Fréquence existante**
 
 :::caution
-Always start with **“When to Schedule”**
+Commencez toujours par "**Choix de Planification**"
 :::
 
-* Depending on selection, different fields will be available
-* Select desired days, interval, occurrence, or period
+* Selon la sélection, différents champs seront disponibles
+* Sélectionnez les jours, l'intervalle, l'occurrence ou la période souhaités
 
 <a href="imgbasic/231.png" target="_blank"><img src="imgbasic/231.png" width="500"></img></a>  
 <a href="imgbasic/232.png" target="_blank"><img src="imgbasic/232.png" width="500"></img></a>  
 <a href="imgbasic/233.png" target="_blank"><img src="imgbasic/233.png" width="500"></img></a>  
 
-* Frequencies reference two settings from a Schedule to determine what is considered a working day
-  * Workdays per Week
-  * Holiday Calendars
-* Selections for workdays per week and a Holiday Calendar will determine non-working days for that Schedule
+* Les fréquences font référence à deux paramètres de planification pour déterminer ce qui est considéré comme une journée de travail
+    * Jours travaillés de la semaine
+    * Calendriers de vacances
+* Les sélections pour les jours travaillés de la semaine et un calendrier des jours fériés détermineront les jours non ouvrables pour cet horaire
 
 <a href="imgbasic/234.png" target="_blank"><img src="imgbasic/234.png" width="250"></img></a>  
 <a href="imgbasic/235.png" target="_blank"><img src="imgbasic/235.png" width="500"></img></a>  
 
-### Frequency Definition Wizard - A/O/B/N
+### Assistant de définition de fréquence - A/O/B/N
 
 <figure>
     <audio
@@ -48,12 +49,12 @@ Always start with **“When to Schedule”**
     </audio>
 </figure>
 
-* **A/O/B/N** flag will tell a Frequency how to react if the selected day is non-working day
-  * **After Date** will run a Job on the first working day after a non-working day
-  * **On Date** will run a Job on a non-working day anyway
-  * **Before Date** will run a Job on the first working day prior to a non-working day
-  * **Not Schedule** will simply not run a Job on a non-working day
+L'indicateur **A / O / B / N** indiquera à une fréquence comment réagir si le jour sélectionné est un jour non ouvrable
+* **A : Après Date** exécutera le Job le premier jour ouvrable après le jour non ouvrable
+* **O : Sur Date** exécutera le Job le jour non ouvrable de toute façon
+* **B : Avant Date** exécutera le job le premier jour ouvrable avant le jour non ouvrable
+* **N : Non planifié** n'exécutera tout simplement pas le Job un jour non ouvrable
 
 <a href="imgbasic/236.png" target="_blank"><img src="imgbasic/236.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

@@ -1,10 +1,11 @@
 ---
-sidebar_panel: 'All Weeks -- On Occurrence -- On Day'
+sidebar_label: 'Toutes les semaines -- En occurrence -- Le (jour)'
+hide_title: 'false'
 ---
 
-### Frequency Definition Wizard - All Weeks, On Occurrence, On Day
+## Assistant de définition de fréquence - Toutes les semaines, En occurrence, Le (jour)
 
-#### All Weeks
+#### Toutes les semaines
 
 <figure>
     <audio
@@ -15,15 +16,15 @@ sidebar_panel: 'All Weeks -- On Occurrence -- On Day'
     </audio>
 </figure>
 
-* Uses Day of the Week selected for **All Weeks**
-  * Multiple Days of the Week can be Marked
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within the Calendar AFTER **A/O/B/N** days are set
+* Utilise le jour de la semaine sélectionné pour **toutes les semaines**
+    * Plusieurs jours de la semaine peuvent être sélectionnés.
+* Autres champs :
+    * L'indicateur **A / O / B / N** est applicable
+    * Le calendrier sélectionné bloquera les jours indiqués dans le calendrier APRÈS avoir défini les jours **A / O / B / N**
 
 <a href="imgbasic/237.png" target="_blank"><img src="imgbasic/237.png" width="500"></img></a>
 
-#### On Occurrence
+#### En occurrence
 
 <figure>
     <audio
@@ -34,15 +35,15 @@ sidebar_panel: 'All Weeks -- On Occurrence -- On Day'
     </audio>
 </figure>
 
-* **Default selection**
-* Selects **1st**, **2nd**, **3rd**, **4th**, **5th**, or **Last** occurrence of Days of the Week specified for a given Month, Quarter, or Year
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* **Sélection par défaut**
+* Sélectionne la **1ère**, **2ème**, **3ème**, **4ème**, **5ème** ou **dernière** occurrence des jours de la semaine spécifiés pour un mois, un trimestre ou une année 
+* Autres champs :
+    * L'indicateur **A / O / B / N** est applicable
+    * Le calendrier sélectionné bloquera les jours indiqués dans un calendrier APRÈS avoir défini les jours **A / O / B / N**
 
 <a href="imgbasic/238.png" target="_blank"><img src="imgbasic/238.png" width="500"></img></a>
 
-#### On Day
+#### Le (jour)
 
 <figure>
     <audio
@@ -53,13 +54,13 @@ sidebar_panel: 'All Weeks -- On Occurrence -- On Day'
     </audio>
 </figure>
 
-* Specifies Day of the Month a Frequency will run
-* **Day Type** gives the option to only count Working Days
-  * 7th Working Day will likely be 9th, 10th, or 11th day of the month
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Spécifie le jour du mois pendant lequel une fréquence sera exécutée
+* **Le type de jour** donne la possibilité de ne compter que les jours **ouvrables**
+    * Le 7e jour ouvrable sera probablement le 9e, 10e ou 11e jour du mois
+* Autres champs :
+    * L'indicateur **A / O / B / N** est applicable
+    * Le calendrier sélectionné bloquera les jours indiqués dans un calendrier APRÈS avoir défini les jours **A / O / B / N**
 
 <a href="imgbasic/239.png" target="_blank"><img src="imgbasic/239.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

@@ -1,25 +1,29 @@
 ---
-sidebar_panel: 'Unit 2 Review'
+sidebar_label: 'Révision de l unité 2'
+hide_title: 'false'
 ---
 
-1. _______ Jobs can be used to start Events or tie workflows together.
-2. When working in the Frequency Definition Wizard, the user should always begin Definitions from the ________ side of the Wizard.
-3. The ___________ flag tells a Frequency how to react if the selected day is a non-working day.
-4. The ____________ button allows the user to preview Frequency and Calendar settings.
-5. OpCon __________ are vital to the Support Team when researching and troubleshooting issues.
-6. The Job ____________ Retriever will provide access to the Log Viewer for a specific Job.
-7. _________________ Management is used to view the history of User updates to the OpCon database.
+## Révision de l'unité 2
+
+1. Les jobs_______  peuvent être utilisés pour démarrer des events ou lier des Workflow ensemble.
+2. Lorsque l’on travaille dans l'assistant de définition de fréquence, l'utilisateur doit toujours commencer les définitions du côté ________ de l'assistant.
+3. Le drapeau ___________ indique à une fréquence comment réagir si le jour sélectionné est un jour non ouvrable.
+4. Le bouton ____________ permet à l'utilisateur de prévisualiser les paramètres de fréquence et de calendrier.
+5. OpCon __________ est essentiel pour l'équipe Support lors de la recherche et du dépannage des problèmes.
+6. Le Job ____________ Retriever donnera accès au rapport d'exécution pour un Job spécifique.
+7. _________________Management est utilisée pour afficher l'historique des mises à jour des utilisateurs dans la base de données OpCon.
+
 
 <details>
 
-<summary>Click for Unit 2 Review Quiz Answers</summary>
+<summary>Cliquez pour obtenir les réponses au questionnaire d'examen de l'unité 2</summary>
 
 1. NULL
-2. UPPER LEFT
+2. EN HAUT À GAUCHE
 3. A/O/B/N
 4. FORECAST
 5. LOGS
-6. OUTPUT
+6. PRODUCTION
 7. AUDIT
 
 </details>

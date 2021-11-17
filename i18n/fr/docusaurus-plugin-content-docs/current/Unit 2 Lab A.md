@@ -1,35 +1,41 @@
 ---
-sidebar_panel: 'Unit 2 Lab A'
+sidebar_label: 'Unite 2 Lab A'
+hide_title: 'false'
 ---
 
-### Objective: 
+## Unite 2 Lab A
 
-Congo Online Retail Inc. needs to pay its employees on different intervals based on their department. This is done through a Schedule named **CONGO PAYROLL PAYMENTS**.
+### Objectif: 
 
-Congo Online Retail Inc’s Payroll Department work week is Monday through Friday and uses the **Master Holiday Calendar** created during the Unit 2 Exercises.  
+Congo Online Retail Inc. doit payer ses employés à des intervalles différents en fonction de leur département. Cela se fait par le biais d'un Schedule nommé **CONGO PAYROLL PAYMENTS**.
 
-Each Department requires specific scheduling intervals as noted:
+La semaine de travail du service de la paie de Congo Online Retail Inc s'étend du lundi au vendredi et utilise le **calendrier Master Holiday** créé lors des exercices de l'Unité 2.
 
-**Toys – Legos and Nerf**
+Chaque département nécessite des intervalles de planification spécifiques, comme indiqué :
 
-  *	Every 14 Days starting on January 7th of this year
-    * The Working Day before, if date falls on a Non-Working Day  
+**Jouets - Legos et Nerf**
 
-**Electronics – Smartphones and Xbox**
+* Tous les 14 jours à partir du 7 janvier de cette année
+    * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable précédent.
+ 
 
-  * 15th of the Month
-    * The Working Day before, if date falls on a Non-Working Day
-  *	Last Working Day of the month
-    * The Working Day before, if date falls on a Non-Working Day
-  *	An End of Year Payroll that includes both the monthly Payroll and Bonuses is run in place of the End of Month Payroll on the last working day of the year  
+**Électronique - Smartphones et Xbox**
 
-**Clothing – Levis and Nike**  
+* Le 15 du mois 
+    * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable précédent.
+* Le Dernier jour ouvrable du mois
+    * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable précédent.
+* Une paie de fin d'année qui comprend à la fois la paie mensuelle et les bonus est exécutée à la place de la paie de fin de mois le dernier jour ouvrable de l'année.
 
-  *	Every Friday
-    * The Working Day after, if date falls on a Non-Working Day
-  *	After every major sales milestone is reached (On-Request)  
 
-The required Frequencies should be run within Null Jobs in the **CONGO PAYROLL PAYMENTS** Schedule.
+**Vêtements - Levis et Nike**  
+
+* Tous les vendredis
+    * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable précédent.
+* Une fois que chaque étape importante des ventes est atteinte (à la demande)
+
+
+Les fréquences requises doivent être exécutées dans les Jobs Null dans le Schedule **CONGO PAYROLL PAYMENTS**.
 
 <div>
 <video width="320" height="240" controls>
@@ -40,56 +46,53 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for More Detailed Lab Instructions</summary>
+<summary>Cliquez pour obtenir des instructions plus détailléess</summary>
 
-**Lab Instructions**:    
+**Instructions de laboratoire :**
 
 :::note
-USE NULL JOB TYPE FOR ALL JOBS IN THIS LAB
+UTILISEZ UN TYPE DE JOB NULL POUR TOUS LES JOBS DE CE LABORATOIRE
 :::
 
-*	Create a Schedule named **Congo Payroll Payments**
-*	Monday through Friday are working days
-*	The **Master Holiday Calendar** is used
-*	Auto-build the Schedule 7 days in advance for 1 day
-*	Auto-delete the Schedule for 7 days
-*	Add Documentation for the Schedule 
+* Créer un schedule nommé **Congo Payroll Payments**
+* Les jours ouvrables sont du lundi au vendredi  
+* Le **calendrier Master Holiday** est utilisé
+* Configurez une Mise au plan automatiquement du Schedule sur ```7``` jours à l'avance pendant ```1``` jour
+* Configurez la Suppression automatiquement du Schedule en Daily après ```7``` jours
+* Ajouter de la documentation pour le schedule
 
-*	Four Null Jobs will be created:
+* Quatre Null Jobs seront créés :
+    * Les jouets auront besoin d'un job avec une fréquence
+    * L'électronique aura besoin de deux Jobs
+        * Job 1 - trois fréquences
+        * Job 2 - une fréquence
+    * Les vêtements auront besoin d'un job avec deux fréquences
 
-*	**Toys** will need **one Job** with **one Frequency**
+* Taguer tous les jobs en fonction du produit ( **jouets** , **électronique** et **vêtements** )
 
-*	**Electronics** will need **two Jobs**  
-  *	Job 1 - **three Frequencies** 
-  *	Job 2 - **one Frequency**
+Une fois terminé, les résultats « **Prévisionnel Global** » ressembleront à ce qui suit :
 
-*	**Clothing** will need **one Job** with **two Frequencies**
-
-*	Tag all Jobs according to the product (**Toys**, **Electronics** and **Clothing**)
-
-Upon completion, the “**Forecast All**” results will look like the following:
-
-#### Toys
+#### Jouets
 
 <a href="imgbasic/268.png" target="_blank"><img src="imgbasic/268.png" width="300"></img></a>
 
 
-#### Electronics - Not End of Year
+#### Électronique - Pas de fin d'année
 
 <a href="imgbasic/269.png" target="_blank"><img src="imgbasic/269.png" width="300"></img></a>
 
 
-#### Electronics - End of Year
+#### Electronique - Fin d'année
 
 <a href="imgbasic/270.png" target="_blank"><img src="imgbasic/270.png" width="300"></img></a>
 
 
-#### Clothing
+#### Vêtements
 
 <a href="imgbasic/271.png" target="_blank"><img src="imgbasic/271.png" width="300"></img></a>  
 
 <a href="imgbasic/272.png" target="_blank"><img src="imgbasic/272.png" width="250"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)
 
 </details>

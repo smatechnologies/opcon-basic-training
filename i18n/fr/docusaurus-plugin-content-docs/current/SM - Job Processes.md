@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'SM - Job Processes'
+sidebar_label: 'SM - Processus'
+hide_title: 'false'
 ---
 
-### Solution Manager: Job Processes
+## Solution Manager: Processus
 
 <figure>
     <audio
@@ -13,23 +14,23 @@ sidebar_panel: 'SM - Job Processes'
     </audio>
 </figure>
 
-### Daily Processes
+### Processus quotidiens
 
-* The Processes tab accesses Daily processes in operation
-* Dates, Schedules, and Jobs can be selected by toggling for those selections
-* Filter profiles can be created and modified
+* Le bouton Processus permet d’accéder aux processus quotidiens en cours
+* Les dates, les Schedules et les Jobs peuvent être sélectionnés en actionnant des sélecteurs
+* Des profils de filtre peuvent être créés et modifiés
 
-#### Select Date:  
+#### Sélectionner une date: 
 
 <a href="imgbasic/Picture67.png" target="_blank"><img src="imgbasic/Picture67.png" width="500"></img></a>  
 
-#### Select Schedule:    
+#### Sélectionnez un Schedule:   
 
 <a href="imgbasic/Picture68.png" target="_blank"><img src="imgbasic/Picture68.png" width="500"></img></a>  
 
-#### Select Jobs:    
+#### Sélectionnez des Jobs:  
 
 <a href="imgbasic/Picture69.png" target="_blank"><img src="imgbasic/Picture69.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)
 

@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'SM - Diagrams and Views'
+sidebar_label: 'SM - diagrammes et vues'
+hide_title: 'false'
 ---
 
-### Solution Manager: Diagrams and Views
+## Solution Manager: diagrammes et vues
 
 <figure>
     <audio
@@ -13,17 +14,17 @@ sidebar_panel: 'SM - Diagrams and Views'
     </audio>
 </figure>
 
-* In the Diagram option of the Job Selection tab the user can select several options to manipulate PERT view in Solution Mananger:  
-* Progressive Discovery    
-  * A focused view of Dependency relationships  
-* Isolate Dependency Chain View  
-  * Displays the entire Dependency chain  
-* Isolate Predecessors View  
-  * Displays all preceding Jobs in a Dependency chain  
-* Isolate Successors View  
-  * Displays all subsequent Jobs in a Dependency chain  
+* Dans l'option Diagram de l'onglet Job Selection, l'utilisateur peut sélectionner plusieurs options pour manipuler la vue PERT dans Solution Manager :
+* Découverte progressive
+    * Une vision ciblée sur les relations de dépendance
+* Isoler la chaîne de dépendances
+    * Affiche toute la chaîne de dépendances
+* Isoler les prédécesseurs
+    * Affiche tous les jobs précédents dans une chaîne de dépendances
+* Isoler les successeurs
+    * Affiche tous les jobs suivants dans une chaîne de dépendances 
 
-### Progressive Discovery View
+### Vue de découverte progressive
 
 <figure>
     <audio
@@ -34,14 +35,14 @@ sidebar_panel: 'SM - Diagrams and Views'
     </audio>
 </figure>
 
-* View Group Selections and Job Chains
-* Isolate Dependency Chains, Predecessors, or Successors
-* Job Status indicated by colors and icons
+* Afficher les sélections de groupes et les chaînes de jobs
+* Isoler les chaînes de dépendances, les prédécesseurs ou les successeurs
+* L’état du job est indiqué par des couleurs et des icônes
 
 <a href="imgbasic/Picture80.png" target="_blank"><img src="imgbasic/Picture80.png" width="500"></img></a>  
 <a href="imgbasic/Picture81.png" target="_blank"><img src="imgbasic/Picture81.png" width="500"></img></a>  
 
-### Bread Crumb Navigation
+### Navigation par fil d'Ariane (Bread Crumb)
 
 <figure>
     <audio
@@ -52,8 +53,8 @@ sidebar_panel: 'SM - Diagrams and Views'
     </audio>
 </figure>
 
-In addition to selecting processes through the primary Date, Schedule, and Job panes, Navigation is also simplified with the Bread Crumb Navigation bar at the bottom of the browser 
+En plus de sélectionner des processus via les volets principaux Date, Schedule et Job, la navigation est également simplifiée avec la barre de navigation par fil d'Ariane (Bread Crumb) en bas du navigateur.
 
 <a href="imgbasic/Picture82.png" target="_blank"><img src="imgbasic/Picture82.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

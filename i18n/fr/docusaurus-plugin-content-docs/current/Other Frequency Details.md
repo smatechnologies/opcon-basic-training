@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Other Frequency Details'
+sidebar_label: 'Autres détails de fréquence'
+hide_title: 'false'
 ---
+
+## Autres détails de fréquence
 
 <figure>
     <audio
@@ -11,11 +14,11 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* All other details on the Frequency tab screen are set per Frequency
+* Tous les autres détails de l'écran de l'onglet Fréquence sont définis par Fréquence
 
 <a href="imgbasic/246.png" target="_blank"><img src="imgbasic/246.png" width="500"></img></a>
 
-### Schedule Start Time
+### Heure de Soumission du Schedule
 
 <figure>
     <audio
@@ -26,14 +29,14 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Start Time of a Schedule is the Earliest time any Job within the Schedule can start
-  * All Job Offsets are added to a Schedule’s Start Time
-* 24-hour clock
-* All Job Offsets are added to this time
+* L'heure de début du schedule est l’heure la plus tôt à laquelle un Job dans ce schedule peut démarrer
+    * Les écarts temps de soumission des jobs sont ajoutés à l'heure de début du schedule
+* Horloge de 24 heures
+* Tous les décalages de job sont ajoutés à cette heure
 
 <a href="imgbasic/247.png" target="_blank"><img src="imgbasic/247.png" width="500"></img></a>
 
-### Start Offset
+### Écart temps de soumission
 
 <figure>
     <audio
@@ -44,16 +47,16 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Start Offset determines when a Job is allowed to start
-  * Combined with the **Schedule Start Time** to determine earliest a Job can run without intervention
-* Time-box is the Job offset 
-  * Time in Green is combined offset
-* **Absolute** – based on 24-hour clock
-* **Relative** – offset starts once the Schedule is started
+* L’écarts temps de soumission détermine quand un job est autorisé à démarrer
+    * Combiné avec **l'heure de soumission du Schedule** pour déterminer l’heure la plus tôt à laquelle un Job peut s'exécuter sans intervention
+* La zone horaire de saisie est le l’écart temps du job
+    * L’heure en vert est un décalage combiné
+* **Absolue** - basé sur une horloge de 24 heures
+*** Relatif** - le décalage commence une fois que le Schedule a démarré.
 
 <a href="imgbasic/248.png" target="_blank"><img src="imgbasic/248.png" width="200"></img></a>
 
-### Latest Start Offset
+### Délai limite de Soumission
 
 <figure>
     <audio
@@ -64,11 +67,11 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* If a Job does not run by this time, it is marked as “Missed Start Time” which is treated as a Cancelled Job
+* Si un job ne s'exécute pas à cette heure, il est marqué comme " Missed Start Time " et il est traité comme un job annulé.
 
 <a href="imgbasic/249.png" target="_blank"><img src="imgbasic/249.png" width="200"></img></a>
 
-### Late to Start Offset
+### Indicateur Retard de Soumission
 
 <figure>
     <audio
@@ -79,12 +82,12 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Marks a Job as “Late to Start” if not started by this time
-* Solely for Notification purposes
+* Marque un Job comme « Late to Start » s’il n’a pas été lancé à cette heure
+* Uniquement à des fins de notification
 
 <a href="imgbasic/250.png" target="_blank"><img src="imgbasic/250.png" width="200"></img></a>
 
-### Late to Finish Offset
+### Indicateur Retard de Fin
 
 <figure>
     <audio
@@ -95,12 +98,12 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Marks a Job as “Late to Finish” if not completed by this time
-* Solely for Notification purposes
+* Marque un job comme " Late to Finish " s’il n'est pas terminé à cette heure
+* Uniquement à des fins de notification
 
 <a href="imgbasic/251.png" target="_blank"><img src="imgbasic/251.png" width="200"></img></a>
 
-### Max Run Time 
+### Temps Max d’Exécution
 
 <figure>
     <audio
@@ -111,12 +114,12 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Marks a Job as “Exceeded Max Runtime” if run longer than specified minutes
-* Solely for Notification purposes
+* Marque un Job comme « Exceeded Max Runtime » si la durée d’exécution dépasse le nombre de minutes spécifiées
+* Uniquement à des fins de notification
 
 <a href="imgbasic/252.png" target="_blank"><img src="imgbasic/252.png" width="500"></img></a>
 
-### Start Time Estimation
+### Estimation de l'heure de début
 
 <figure>
     <audio
@@ -127,15 +130,15 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* **Calculated** – Considers Dependencies and other workflow related items to estimate a Job start time
-* **History** - Calculates Historical data for a specific Job
-* **User Defined** - Values input by User 
-  * No calculations done 
-  * Useful for Threshold Jobs
+* **Calculé** : prend en compte les dépendances et autres éléments liés au workflow pour estimer une heure de début de Job
+* **Historique** - Calcule les données historiques pour un Job spécifique
+* **Défini par l'utilisateur** - Valeurs saisies par l'utilisateur
+    * Aucun calcul effectué
+    * Utile pour les Jobs de seuil
 
 <a href="imgbasic/253.png" target="_blank"><img src="imgbasic/253.png" width="500"></img></a>
 
-### Solution Manager - Job Frequency Details
+### Solution Manager - Détails sur la fréquence des jobs
 
 <figure>
     <audio
@@ -146,17 +149,17 @@ sidebar_panel: 'Other Frequency Details'
     </audio>
 </figure>
 
-* The Frequency panel in Solution Manager’s Job Configuration Screen provides access to Frequency information for a job
-* Current options configurable in Solution Manager:
-  * Offsets
-  * Start Time Estimation options
-  * Job Execution
-    * SAM Priority
-    * Max Run time
-  * Failure/Retry options
-  * Finish Ok options
+* Le panneau Fréquence de l'écran de configuration de de job dans Solution Manager permet d'accéder aux informations de fréquence pour un job.
+* Options actuelles configurables dans Solution Manager :
+    * Décalages
+    * Options d'estimation de l'heure de début
+    * Exécution des jobs
+        * Priorité SAM
+        * Durée maximale de fonctionnement
+    * Options d'échec / réessayer
+    * Options Finish Ok
 
 <a href="imgbasic/254.png" target="_blank"><img src="imgbasic/254.png" width="300"></img></a>  
 <a href="imgbasic/255.png" target="_blank"><img src="imgbasic/255.png" width="300"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

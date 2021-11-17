@@ -1,29 +1,32 @@
 ---
-sidebar_panel: 'Unit 2 Exercise 7'
+sidebar_label: 'Unite 2 Exercice 7'
+hide_title: 'false'
 ---
 
-### Exercise 7: Create Additional Calendars and Update the Master Holiday Calendar
+## Exercice 7: Créer des calendriers supplémentaires et mettre à jour le calendrier principal des jours fériés : Master Holiday
 
-##### Objective:
+##### Objectif:
 
-Create a new Calendar named **MYFIRSTCALENDAR**. Click several dates by navigating through the Calendar. 
+Créez un nouveau calendrier nommé **MYFIRSTCALENDAR**. Cliquez sur plusieurs dates en parcourant le calendrier. 
 :::note
-(The dates chosen are saved dynamically)
+(Les dates choisies sont enregistrées dynamiquement)
 :::
 
-Provide appropriate documentation for the new Calendar.
+Fournissez la documentation appropriée pour le nouveau calendrier.
 
-Next, select the **Master Holiday Calendar** from the Calendar List. Add the following Federal Holidays to the Calendar:
+Ensuite, sélectionnez le calendrier **Master Holiday** dans la liste des calendriers. Ajoutez les jours fériés suivants au calendrier :
 
-  *	January 1st – New Year’s Day
-  *	January 18th – Martin Luther King Jr. Day
-  *	February 15th – President’s Day
-  *	May 31st – Memorial Day
-  *	July 5th – Independence Day (Observed)
-  *	September 6th – Labor Day
-  *	October 11th – Columbus Day
-  *	November 11th – Veterans Day
-  *	November 25th – Thanksgiving Day
+* 1er janvier - Jour de l'an
+* 5 avril - Lundi de Pâques
+* 1er mai – Fête du Travail
+* 8 mai - Fête de la Victoire de 1945
+* 13 mai - Jeudi de l'Ascension
+* 24 mai - Lundi de Pentecôte
+* 14 juillet - Fête nationale
+* 15 août – Assomption
+* 1er novembre – Toussaint
+* 11 novembre – Armistice de 1918
+* 25 décembre - Noël
 
 
 <div>
@@ -35,30 +38,32 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Click on **Calendars** from the **Navigation Panel**.
-2.	Click the **Add** Button.
-3.	Type **MyFirstCalendar** in the **Name** field.
-4.	Enter **Documentation** like: **This is a test Calendar**.
-5.	Click the **Save** Button.
-6.	Click several dates in the **Calendar**.
+1. Cliquez sur **Calendriers** dans le **panneau de navigation**.
+2. Cliquez sur le bouton **Ajouter**.
+3. Tapez **MyFirstCalendar** dans le champ **Nom**.
+4. Entrez « **Ceci est un calendrier de test**. » dans l’espace **Documentation**. 
+5. Cliquez sur le bouton **Sauvegarder**.
+6. Cliquez sur plusieurs dates dans le **calendrier**.
 :::note
-The dates are saved dynamically
+Les dates sont enregistrées dynamiquement
 :::
-7.	Click the **right arrow** by the **Month** right above the Calendar to go to the next months.
-8.	Click the **up** arrow by the **Year** right above the Calendar to move to the next year.
-9.	Select **Master Holiday** from the **Calendar List**.
-10.	Click the following dates in the Calendar to set up the current year Federal Holidays, then close the **Calendars** tab:
+7. Cliquez sur la **flèche droite** à côté du mois juste au-dessus du calendrier pour passer aux mois suivants.
+8. Cliquez sur la **flèche vers le haut** à côté de l'année juste au-dessus du calendrier pour passer à l'année suivante.
+9. Sélectionnez **Master Holiday** dans la **liste des calendriers**.
+10. Cliquez sur les dates suivantes dans le calendrier pour configurer les jours fériés de l'année en cours, puis fermez l'onglet **Calendriers** :
 
-  *	January 1st – New Year’s Day
-  *	January 18th – Martin Luther King Jr. Day
-  *	February 15th – President’s Day
-  *	May 31st – Memorial Day
-  *	July 5th – Independence Day (Observed)
-  *	September 6th – Labor Day
-  *	October 11th – Columbus Day
-  *	November 11th – Veterans Day
-  *	November 25th – Thanksgiving Day
+* 1er janvier - Jour de l'an
+* 5 avril - Lundi de Pâques
+* 1er mai – Fête du Travail
+* 8 mai - Fête de la Victoire de 1945
+* 13 mai - Jeudi de l'Ascension
+* 24 mai - Lundi de Pentecôte
+* 14 juillet - Fête nationale
+* 15 août – Assomption
+* 1er novembre – Toussaint
+* 11 novembre – Armistice de 1918
+* 25 décembre - Noël
 
 </details>

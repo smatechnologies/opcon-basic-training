@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'SM - Schedule Build'
+sidebar_label: 'SM - Mise au Plan de Schedule'
+hide_title: 'false'
 ---
 
-### Solution Manager: Schedule Build
+## Gestionnaire de solutions: Mise au Plan de Schedule
 
 <figure>
     <audio
@@ -13,23 +14,24 @@ sidebar_panel: 'SM - Schedule Build'
     </audio>
 </figure>
 
-* The **Build** button on the Operations Summary Page activates the Schedule Build Wizard
-* The Selection page allows the user to choose a Master Schedule to build with multiple options:
-  * Date Range Selection
-  * On Hold or Release Status
-  * Overwrite Existing Schedules Option
-* Users can also filter Schedules with Auto-build or Multi-Instance configurations
+* Le bouton **Mise au Plan** sur la page Opérations Résumé active l'assistant de Mise au Plan de Schedule
+* La page Sélection permet à l'utilisateur de choisir un Schedule à mettre au Plan avec plusieurs options :
+    * Sélection de la plage de dates
+    * Statut On Hold ou Release
+    * Option d'écrasement des schedules existants
+
+* Les utilisateurs peuvent également filtrer les schedules avec les options de mise au plan automatique ou multi-instances
 
 <a href="imgbasic/Picture59.png" target="_blank"><img src="imgbasic/Picture59.png" width="500"></img></a>  
 <a href="imgbasic/Picture60.png" target="_blank"><img src="imgbasic/Picture60.png" width="500"></img></a>  
 
-### Schedule Build Grouping
+### Mise au Plan de Schedule en masse
 
-* Multiple Builds can be bundled and tracked as a group
-* The bundle can be expanded to view and monitor the status of each Build
+* Plusieurs Mises au Plan peuvent être regroupés et suivis en tant que groupe
+* Le bundle peut être développé pour afficher et surveiller la mise au plan de chaque schedule
 
 <a href="imgbasic/Picture61.png" target="_blank"><img src="imgbasic/Picture61.png" width="500"></img></a>  
 <a href="imgbasic/Picture62.png" target="_blank"><img src="imgbasic/Picture62.png" width="500"></img></a>  
 <a href="imgbasic/Picture63.png" target="_blank"><img src="imgbasic/Picture63.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

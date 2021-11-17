@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Privileges'
+sidebar_label: 'Privilèges'
+hide_title: 'false'
 ---
+
+## Privilèges
 
 <figure>
     <audio
@@ -11,7 +14,7 @@ sidebar_panel: 'Privileges'
     </audio>
 </figure>
 
-* The Administrator can grant the following Privileges to Roles:
+* L'administrateur peut autoriser les privilèges suivants aux rôles :
     * Machine Privileges
     * Machine Group Privileges
     * Batch User Privileges
@@ -20,12 +23,12 @@ sidebar_panel: 'Privileges'
     * Function Privileges
     * Departmental Function Privileges
     * Script Privileges
-* Machines and Machine Groups are created on specific screens in **Administration** section of Enterprise Manager  
-* Access Codes, Batch Users, and Departments are created on corresponding screens within **Security** section of Enterprise Manager
+* Les machines et les groupes de machines sont créés sur des écrans spécifiques dans la section **Administration** d’Enterprise Manager
+* Les codes d'accès, les Batch Users et les départements sont créés sur les écrans correspondants dans la section **Sécurité** d'Enterprise Manager
 
 <a href="imgbasic/3303.png" target="_blank"><img src="imgbasic/3303.png" width="300"></img></a>  
 
-### Machine Privileges
+### Privilèges de la machine
 
 <figure>
     <audio
@@ -36,10 +39,10 @@ sidebar_panel: 'Privileges'
     </audio>
 </figure>
 
-* Machine Privileges are used to control Machines for Users in a Role that have Privileges to create and edit Jobs
-* Within Job Master and Job Daily, Users will only see Machines based on their Role Privileges
-* In Schedule Operations, Machine Privileges are not applied
+* Les privilèges de machine sont utilisés pour contrôler les machines pour les utilisateurs dans un rôle qui ont des privilèges pour créer et modifier des Jobs
+* Dans Job Master et Job Daily, les utilisateurs ne verront que les machines en fonction de leurs privilèges selon leur rôle
+* Dans les Schedule Operations, les privilèges de machine ne sont pas appliqués
 
 <a href="imgbasic/3304.png" target="_blank"><img src="imgbasic/3304.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)
