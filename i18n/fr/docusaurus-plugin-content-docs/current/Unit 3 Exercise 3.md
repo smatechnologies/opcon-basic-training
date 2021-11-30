@@ -1,14 +1,15 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 3'
+sidebar_label: 'Unite 3 Exercice 3'
+hide_title: 'false'
 ---
 
-### Exercise 3: Batch Users
+## Exercice 3: Batch Users
 
-##### Objective:
+##### Objectif:
 
-Create a new ```Batch User``` named ```SMATRAINING\BATCHUSER``` for the ```WINDOWS``` Machine. The Password should be set as ```password```.
+Créez un nouveau ```Batch User``` nommé ```SMATRAINING\BATCHUSER``` pour la machine ```WINDOWS```. Le mot de passe doit être défini sur ```password```.
 
-Next, give **Batch User Privileges** to the ```Training``` Role for the ```WINDOWS``` Machine.
+Ensuite, attribuez **des privilèges du Batch User** au rôle ```Training``` de la machine ```WINDOWS```.
 
 
 <div>
@@ -20,25 +21,24 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir les instructions étape par étape</summary>
 
-1.	Under the **Security** topic, Double-Click on **Batch Users**. 
-2.	Select **Windows** from the **Select the target OS** drop-down list.
-3.	Click the **Add** button on the Batch Users toolbar.
-_(Be sure to click the Add button. Do not type over the currently existing Batch User profile.)_
-4.	Type ```SMATRAINING\BATCHUSER``` in the **User** field (under the **Batch User Details** area – on the right).
-5.	Type the word **password** in the **Password** and **Confirm Password** fields.
-6.	Click the Save button on the User Accounts toolbar.
-7.	Notice that ```SMATRAINING\BATCHUSER``` was added to the Batch Users list for Windows machines (on the left).
-8.	Close the **Batch Users** tab.
-9.	Under the **Security> Privileges** topic, Double-Click on **Batch Users Privileges**. 
-10.	On the **Select Role** drop-down list select the **Training Role**.
-11.	On the **Target Operating System** drop-down list select **Windows**.
-12.	Notice that the ```SMATRAINING\BATCHUSER``` is presented on the Revoked list (on the left) 
-13.	Under the Revoked list, click the ```SMATRAINING\BATCHUSER``` and then click the the green arrow (pointing to the right) to put ```SMATRAINING\BATCHUSER``` under the **Granted** list.
-14.	Close the **Batch User** Privileges tab.
-:::note
-The User **Student1** (which is under the Training Role) now can select this user to run Jobs when setting them up in the Job Details screen.
+1. Sous la rubrique **Security**, double-cliquez sur **Batch Users**.
+2. Sélectionnez **Windows** dans la liste déroulante **Select the target OS**.
+3. Cliquez sur le bouton **Add** dans la barre d'outils Batch Users. _(** Assurez-vous de bien cliquer sur le bouton Ajouter. Ne saisissez pas le profil Batch User existant actuellement)_
+4. Tapez ```SMATRAINING\BATCHUSER``` dans le champ **User** (sous la zone B**atch User Details** - sur la droite).
+5. Tapez le **mot de passe** dans les champs **password** et **Confirmer le mot de passe**.
+6. Cliquez sur le bouton Save dans la barre d'outils User Accounts.
+7. Notez que ```SMATRAINING\BATCHUSER``` a été ajouté à la liste des Batch Users pour les machines ```Windows``` (sur la gauche).
+8. Fermez l'onglet **Batch Users**.
+9. Sous la rubrique **Security> Privileges**, double-cliquez sur **Batch Users Privileges**.
+10. Dans la liste déroulante **Select Role** sélectionnez le rôle ```Training```.
+11. Dans la liste déroulante **Target Operating System** sélectionnez ```Windows```.
+12. Notez que ```SMATRAINING\BATCHUSER``` est présenté dans la liste Revoked (à gauche)
+13. Sous la liste Revoked, cliquez sur ```SMATRAINING\BATCHUSER```, puis sur la flèche verte (pointant vers la droite) pour placer ```SMATRAINING\BATCHUSER``` sous la liste **Autorisé**.
+14.	Fermez l'onglet **Batch User Privileges**
+:::note Remarque
+l'utilisateur ```Student1``` (qui se trouve sous le rôle Training) peut désormais sélectionner cet utilisateur pour exécuter des jobs lors de leur configuration dans l'écran Job Details.
 :::
 
 </details>

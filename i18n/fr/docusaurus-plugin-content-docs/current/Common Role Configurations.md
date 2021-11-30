@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'Common Role Configurations'
+sidebar_label: 'Configurations de rôles'
+hide_title: 'false'
 ---
 
-### Common Role Configurations - Best Practices
+## Configurations de rôles courants - Meilleures pratiques
 
 <figure>
     <audio
@@ -13,33 +14,35 @@ sidebar_panel: 'Common Role Configurations'
     </audio>
 </figure>
 
-* Three main user Groups (Roles) For OpCon Privileges:  
-    * **Administrators**
-    * **Schedulers**
-    * **Operators**
+* Trois principaux groupes d'utilisateurs (rôles) pour les privilèges OpCon:
+    * **Les administrateurs**
+    * **Les planificateurs**
+    * **Les opérateurs**
 
-#### Administrators
 
-* OpCon Administrator(s) must ensure all OpCon Users have needed Privileges 
-* The OpCon Administrator with the User ID ```ocadm``` is automatically granted all Privileges to everything within OpCon, **including** access to ‘Server Options’ and the ability to edit Schedule or Job Frequencies affecting multiple Jobs
-* When creating new Administrator User accounts, desired Privileges must be purposefully selected
+#### Administrateurs
 
-#### Schedulers
+* L'administrateur (s) OpCon doit s'assurer que tous les utilisateurs OpCon ont les privilèges nécessaires
+* L'administrateur OpCon avec l'ID utilisateur ```ocadm``` reçoit automatiquement tous les privilèges pour tout ce qui se trouve dans OpCon,** y compris** l'accès aux `` Options du serveur '' et la possibilité de modifier les schedules ou les fréquences de Job affectant plusieurs Jobs.
+* Lors de la création de nouveaux comptes d'utilisateur administrateur, les privilèges souhaités doivent être sélectionnés intentionnellement.
 
-* These individuals will build and maintain Jobs and Schedules 
-* They will need as much access as possible to every section within Enterprise Manager except for ‘Administration’ section 
-* Privileges listed in chart can be used as a guide for assigning Privileges to OpCon Schedulers
+
+#### Planificateurs (Schedulers)
+
+* Ces personnes créeront et maintiendront des Jobs et des Schedules
+* Ils auront besoin autant d’accès que possible à chaque section d'Enterprise Manager, à l'exception de la section `` Administration ''
+* Les privilèges répertoriés dans le tableau peuvent être utilisés comme guide pour l'attribution de privilèges aux planificateurs OpCon
 
 <a href="imgbasic/316.png" target="_blank"><img src="imgbasic/316.png" width="500"></img></a>  
 <a href="imgbasic/317.png" target="_blank"><img src="imgbasic/317.png" width="250"></img></a>  
 
-#### Operators
+#### Les opérateurs
 
-* These individuals will monitor Jobs and Schedules on daily basis 
-* They will need authority to see every Schedule and be able to perform maintenance before and after a Job and/or Schedule runs (Restart Jobs, Force-Start Jobs, Force-Start Schedules, Release Schedules, etc.) 
-* Privileges listed in the chart can be used as a guide for assigning Privileges to OpCon Operators
+* Ces personnes surveilleront les Jobs et les Schedules sur une base quotidienne
+* Ils auront besoin d'une autorisation pour voir chaque schedule et être en mesure d'effectuer la maintenance avant et après l'exécution d'un Job et / ou d'un schedule (Jobs de redémarrage, Jobs de démarrage forcé, Schedule de démarrage forcé, Schedule de publication, etc.)
+* Les privilèges répertoriés dans le tableau peuvent être utilisés comme guide pour l'attribution de privilèges aux opérateurs OpCon
 
 <a href="imgbasic/318.png" target="_blank"><img src="imgbasic/318.png" width="500"></img></a>  
 <a href="imgbasic/319.png" target="_blank"><img src="imgbasic/319.png" width="250"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

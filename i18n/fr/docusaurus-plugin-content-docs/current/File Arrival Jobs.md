@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'File Arrival Jobs'
+sidebar_label: 'Jobs d arrivée de fichiers (File Arrival) '
+hide_title: 'false'
 ---
+
+## Jobs d'arrivée de fichiers (File Arrival) 
 
 <figure>
     <audio
@@ -12,43 +15,45 @@ sidebar_panel: 'File Arrival Jobs'
 </figure>
 
 
-### Windows File Arrival Jobs
+### Jobs d'arrivée de fichiers (File Arrival) sur Windows
 
-* Windows standard wildcards allowed in file name
-* Use Properties in Path if needed
+* Caractères génériques standard Windows sont autorisés dans le nom de fichier
+* Utilisez les propriétés dans le chemin si nécessaire
 
 <a href="imgbasic/441.png" target="_blank"><img src="imgbasic/441.png" width="500"></img></a>
 
-* Windows File Arrival Jobs can utilize Advanced Failure Criteria
+* Les Jobs d'arrivée de fichiers Windows peuvent utiliser des critères d'échec avancés (Failure Criteria)
 
 <a href="imgbasic/442.png" target="_blank"><img src="imgbasic/442.png" width="500"></img></a>
 
-### UNIX File Arrival Jobs
+### Jobs d'arrivée de fichiers UNIX
 
-* UNIX standard wildcards allowed in file name
-* Use Properties in the Path if needed
+* Caractères génériques standard UNIX sont autorisés dans le nom de fichier
+* Utilisez les propriétés dans le chemin si nécessaire
 
 <a href="imgbasic/443.png" target="_blank"><img src="imgbasic/443.png" width="500"></img></a>
 
-* File Arrival Job finishes OK
-	* Fails if file does not arrive in Time Stamp Window
-* LSAMs (Windows and UNIX) set some Properties for that Job
-	* Work as Job Instance Properties for File Arrival Job:
+* Le Job d'arrivée de fichier se termine OK
+    * Échoue si le fichier n'arrive pas dans l’intervalle de temps (Time Stamp)
+* Les LSAM (Windows et UNIX) définissent certaines propriétés pour ce job
+    * Fonctionne comme Propriété d’instance de Job pour le job File Arrival :
 
 <a href="imgbasic/444.png" target="_blank"><img src="imgbasic/444.png" width="500"></img></a>
 
-###### Example:
+###### Exemple:
 
-* Receive 5 files and all should be processed the same way
-* Order of file processing does not matter
-* Set up:
-	* A Main Schedule
-		* With File Watcher, using wild card(s) to capture file name
-		* A Job must also be added that will create files in Main Schedule
-	* When a File Arrival job finds a match (after the Create File Job runs), the Event is triggered
-		* The Event adds a Multi-Instance Container Job that calls the processing SubSchedule
-		* Once the Container Job finishes, it triggers the  Event to restart the File Watcher  
-			* This will loop through all 5 files
+* Recevez 5 fichiers et tous doivent être traités de la même manière
+* L'ordre de traitement des fichiers n'a pas d'importance
+
+Mise en place :
+    
+* Un Schedule principal
+    * Avec un détecteur de fichier, utiliser des caractères génériques pour capturer le nom de fichier
+    * Un Job doit également être ajouté dans le Schedule principal et créera des fichiers 
+* Lorsqu'un job d'arrivée de fichier trouve une correspondance (après l'exécution du job de création de fichier), l'event est déclenché
+    * L'event ajoute un Job container multi-instance qui appelle le sous-schedule de traitement
+    * Une fois le job container terminé, il déclenche l'event pour redémarrer le job de détection de fichier
+        * Cela fera une boucle sur les 5 fichiers
 
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Event Triggers'
+sidebar_panel: 'Déclencheurs d events'
+hide_title: 'false'
 ---
+
+## Déclencheurs d'events
 
 <figure>
     <audio
@@ -11,22 +14,20 @@ sidebar_panel: 'Event Triggers'
     </audio>
 </figure>
 
-* Two common ways to send internal Events:
-    * Events based on Job Status
-    * Events based on Exit Description
+* Deux méthodes courantes pour envoyer des events internes:
+    * Events basés sur l'état du Job
+    * Events basés sur la description de sortie
 
 <a href="imgbasic/350.png" target="_blank"><img src="imgbasic/350.png" width="500"></img></a>
 
-
-* An Event will send once a Job has reached any of the 9 statuses listed below:  
+* Un event sera envoyé une fois qu'un Job a atteint l'un des 9 statuts listés ci-dessous :  
 
 <a href="imgbasic/351.png" target="_blank"><img src="imgbasic/351.png" width="500"></img></a>
 
-### Event Template and Parameters
-
+### Modèle d'event et paramètres
 
 <a href="imgbasic/352.png" target="_blank"><img src="imgbasic/352.png" width="500"></img></a>
 
-### Event in Notification Manager
+### Event dans Notification Manager
 
 <a href="imgbasic/353.png" target="_blank"><img src="imgbasic/353.png" width="500"></img></a>

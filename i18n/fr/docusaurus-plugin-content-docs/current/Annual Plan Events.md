@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'Annual Plan Events'
+sidebar_label: 'Calendrier du plan annuel'
+hide_title: 'false'
 ---
 
-### Annual Plan Calendar - Event Updates
+## Calendrier du plan annuel - Mises à jour des events
 
 <figure>
     <audio
@@ -13,18 +14,18 @@ sidebar_panel: 'Annual Plan Events'
     </audio>
 </figure>
 
-* Two Steps in Using Annual Plan Calendar:
-    * Create/Maintain a Calendar
-    * Apply the Calendar to frequency
-* **A/O/B/N** is not configurable 
-* Offsets use workdays
+* Deux étapes pour utiliser le calendrier du plan annuel:
+    * Créer / gérer un calendrier
+    * Appliquer le calendrier à la fréquence
+* **A / O / B / N** n'est pas configurable
+* Les décalages utilisent les jours ouvrables
 
 <a href="imgbasic/357.png" target="_blank"><img src="imgbasic/357.png" width="500"></img></a>  
 <a href="imgbasic/358.png" target="_blank"><img src="imgbasic/358.png" width="500"></img></a> 
 
-### Calendar Events
+### Calendrier des events
 
-* Dates can be added or removed from a Calendar through Events
+* Des dates peuvent être ajoutées ou supprimées d'un calendrier via des events
 
 ```
 $CALENDAR:ADD,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029,ocadm,opconxps
@@ -34,13 +35,11 @@ $CALENDAR:ADD,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25
 $CALENDAR:DEL,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029,ocadm,opconxps
 ```
 
-* Scenarios:
-    * A Job needs to run 10 working days after the 15th of month 
-    * A Null Job scheduled to run on the 15th could submit:
-```
-$CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps
-```
-* A Job needs to run the working day before a different Job scheduled for the 15th-B
-    * Date calculation tool – **Chronoman**
+* Scénarii :
+    * Un Job doit s'exécuter 10 jours ouvrables après le 15 du mois
+    * Un Job nul dont l'exécution est prévue le 15 pourrait soumettre :
+        * ```$CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps```
+    * Un Job doit être exécuté le jour ouvrable précédant un autre Job programmé pour le 15-B
+        * Outil de calcul de la date - **Chronoman**
 
 <a href="imgbasic/359.png" target="_blank"><img src="imgbasic/359.png" width="500"></img></a>  

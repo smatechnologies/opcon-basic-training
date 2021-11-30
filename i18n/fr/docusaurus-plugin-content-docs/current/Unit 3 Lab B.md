@@ -1,12 +1,13 @@
 ---
-sidebar_panel: 'Unit 3 Lab B'
+sidebar_label: 'Unite 3 Lab B'
+hide_title: 'false'
 ---
 
-### LAB B
+### Unite 3 LAB B
 
-##### Objective:
+##### Objectif:
 
-Congo Online Retail needs to make sure all shipping orders are processed and ready to go before 5 am (Monday Through Sunday) utilizing a Schedule named **CONGO RETAIL ORDER PROCESSING**.   
+Congo Online Retail doit s'assurer que toutes les commandes d'expédition sont traitées et prêtes à être expédiées avant 5 heures du matin (du lundi au dimanche) en utilisant un schedule nommé **CONGO RETAIL ORDER PROCESSING**.   
 
 **Jobs**:
 
@@ -17,17 +18,21 @@ Congo Online Retail needs to make sure all shipping orders are processed and rea
 *	Levis - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t45```
 *	Nike - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t75```
 
-**_If any of these processes have not completed by 5 am or if any are taking longer than 5 minutes, you need to be notified._** 
+:::note Remarque
+Si l'un de ces processus n'est pas terminé à 5 heures du matin ou s'il prend plus de 5 minutes, vous devez en être informé.
+:::
+
+
 
 **Notifications**:
 
-* Late to Start
-* Late to Finish
-* Exceeded Max Runtime
+* Début tardif (Late to Start)
+* Fin tardive (Late to Finish)
+* Durée d'exécution maximale dépassée (Exceeded Max Runtime)
 
-Build the Schedule Released for Today. View results in Matrix View or Solution Manager. 
+Construisez le Schedule publié pour aujourd'hui. Affichez les résultats dans Matrix View ou Solution Manager.
 
-Open **Thunderbird** to check for Notifications.
+Ouvrez **Thunderbird** pour vérifier les notifications.
 
 <div>
 <video width="320" height="240" controls>
@@ -38,18 +43,17 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-**Lab Instructions**:
+**Instructions de laboratoire**:
 
-* **Schedule Information**
+* **Informations sur le schedule**
+    * Nommez le schedule **Congo Retail Order Processing**
+    * Du lundi au dimanche
+    * **Auto Build** ```7``` jours à l'avance pour un 1 jour
+    * **Auto Delete** ```7``` Jours 
 
-    * Name the Schedule **Congo Retail Order Processing**
-    * Monday through Sunday
-    * **Auto Build** ```7``` days in advance for ```1``` day
-    * **Auto Delete** ```7``` days
-
-* **Job Information**
+*	**Information sur le Job**
 
 *  Legos
     * Command Line: 
@@ -95,14 +99,14 @@ Your browser does not support the video tag.
     * Add documentation 
     * Tag the Job under ```Clothing```
 
-* **Notifications**
-    * Setup Email Notifications in Notification Manager using Global Properties to pass the Name of the Schedule and Job in the subject when the following conditions have been met:
-    * Late to Start
-    * Late to Finish
-    * Exceeded Max Runtime
+*	**Notifications**
+    *	Setup Email Notifications in Notification Manager using Global Properties to pass the Name of the Schedule and Job in the subject when the following conditions have been met:
+        *	Late to Start
+        *	Late to Finish
+        *	Exceeded Max Runtime
 
-* **Build**
-    * Build the Schedule Released for today and check the results using Solution Manager
-    * Open Thunderbird and check your inbox
+* **Construire**
+    * Créez le Schedule Released pour aujourd'hui et vérifiez les résultats à l'aide de Solution Manager
+    * Ouvrez Thunderbird et vérifiez votre boîte de réception
 
 </details>

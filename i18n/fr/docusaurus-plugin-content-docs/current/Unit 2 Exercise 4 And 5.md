@@ -37,7 +37,7 @@ Your browser does not support the video tag.
     * Un clic gauche sur la machine actualisera la communication.
 3. Appuyez sur ```F5``` pour actualiser le statut de la communication. 
 
-:::note
+:::note Remarque
 Pas de panique ! Cela ne communiquera pas.
 :::
 

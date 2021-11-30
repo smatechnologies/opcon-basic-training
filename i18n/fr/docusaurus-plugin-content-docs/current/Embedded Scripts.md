@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Embedded Scripts'
+sidebar_label: 'Scripts embarqués'
+hide_title: 'false'
 ---
+
+## Scripts embarqués
 
 <figure>
     <audio
@@ -11,11 +14,12 @@ sidebar_panel: 'Embedded Scripts'
     </audio>
 </figure>
 
-* OpCon has ability to push Scripts from OpCon database to Windows and UNIX Machines (LSAMs) to run
-* Database has centralized Repository that is replicated with database
-* Version Control
+* OpCon a la capacité de pousser des scripts de la base de données OpCon vers des machines Windows et UNIX (LSAM) pour s'exécuter
+* La base de données a un référentiel centralisé qui est répliqué avec la base de données
+* Contrôle de version
 
-* Four places used in OpCon to setup and use Embedded Scripts:
+
+* Quatre emplacements sont utilisés dans OpCon pour configurer et utiliser des scripts intégrés :
 	* Script Types
 	* Script Runners
 	* Script Repository
@@ -23,7 +27,7 @@ sidebar_panel: 'Embedded Scripts'
 
 <a href="imgbasic/416.png" target="_blank"><img src="imgbasic/416.png" width="250"></img></a>
 
-### Embedded Scripts - Script Types
+### Scripts embarqués - Types de scripts
 
 <figure>
     <audio
@@ -34,9 +38,9 @@ sidebar_panel: 'Embedded Scripts'
     </audio>
 </figure>
 
-* Configure type of Scripts which can be stored by OpCon
+* Configurer le type de scripts qui peuvent être stockés par OpCon
 
-* There are 5 **predefined** Script types, but more can be added
+* Il existe 5 types de scripts prédéfinis, mais d'autres peuvent être ajoutés
 	* Command Shell (.cmd)
 	* Perl (.ps)
 	* PowerShell (.ps1)
@@ -45,19 +49,19 @@ sidebar_panel: 'Embedded Scripts'
 
 <a href="imgbasic/417.png" target="_blank"><img src="imgbasic/417.png" width="500"></img></a>
 
-### Embedded Scripts - Script Runners
+### Scripts embarqués - exécuteurs de scripts (Script Runners)
 
-* Script Runners define Command Line created to run Script
+* Les exécuteurs de scripts définissent la ligne de commande créée pour exécuter le script
 
-Example:
+Exemple:
 
-* Powershell includes ```“–ExecutionPolicy Bypass and –File”``` before command 
+* Powershell inclut ```“–ExecutionPolicy Bypass and –File”``` avant la commande
 
-* Allows more than one Script runner per Script Type
+* Autorise plus d'un exécuteur de script par type de script
 
 <a href="imgbasic/418.png" target="_blank"><img src="imgbasic/418.png" width="500"></img></a>
 
-### Embedded Scripts - Script Repository
+### Scripts embarqués - Référentiel de scripts (Repository) 
 
 <figure>
     <audio
@@ -68,27 +72,27 @@ Example:
     </audio>
 </figure>
 
-* Where Scripts are created and stored
-* Previous versions are accessible
+* Bibliothèque où les scripts sont créés et stockés
+* Les versions précédentes sont accessibles
 
 <a href="imgbasic/419.png" target="_blank"><img src="imgbasic/419.png" width="500"></img></a>
 
-* **Name** – Defines Name of Script (No spaces allowed in Name)
-* **Description** – Documents purpose of Script
-* **Open File** - Allows loading of Script from network
-* **Blank Text Field** – Create Script 
-* **Type** – Specifies Script Type 
-* **Initial Comments** – Documents differences between Script versions
+* **Nom** - Définit le nom du script (aucun espace autorisé dans le nom)
+* **Description** - Documentation du script (but)
+* **Open File** - Permet le chargement du script à partir du réseau
+* **Blank Text Field** - Créer un script
+* **Type** - Spécifie le type de script
+* **Commentaires initiaux** : documente les différences entre les versions du script
 
 <a href="imgbasic/420.png" target="_blank"><img src="imgbasic/420.png" width="300"></img></a>
 
-### Assign a Role to a New Script
+### Attribuer un rôle à un nouveau script
 
-* A Role must be assigned when a Script is created or imported to the Script Repository
+* Un rôle doit être attribué lorsqu'un script est créé ou importé dans le référentiel de scripts (Repository)
 
 <a href="imgbasic/421.png" target="_blank"><img src="imgbasic/421.png" width="300"></img></a>
 
-### Embedded Scripts - Job Master
+### Scripts embarqués - Job Master
 
 <figure>
     <audio
@@ -99,15 +103,15 @@ Example:
     </audio>
 </figure>
 
-* **Job Action** – Change from Run Program to Embedded Scripts
-* **Script** – Specifies which script to call
-* **Script Type** – Specifies Script Type for Selected Script
-* **Runner** – Script Runner for Selected Script
-* **Run Command Template** – Contents of Script Runner
-* **Version** – Specifies Script Version selected
-* **Arguments** – Enter the parameter(s) passed to Script (if needed)
-* **Working Dir.** – Working Directory (starting directory) for Script
+* **Job Action** - Passer du programme d'exécution (Run Program) aux scripts Embarqués (Embedded Script)
+* **Script** - Spécifie le script à appeler
+* **Script Type** - Spécifie le type de script pour le script sélectionné
+* **Runner** - Script Runner pour le script sélectionné
+* **Run Command Template** - Contenu de Script Runner
+* **Version** - Spécifie la version de script sélectionnée
+* **Arguments** - Entrez le (s) paramètre (s) transmis au script (si nécessaire)
+* **Working Dir.** - Répertoire de travail du Script
 
 <a href="imgbasic/422.png" target="_blank"><img src="imgbasic/422.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

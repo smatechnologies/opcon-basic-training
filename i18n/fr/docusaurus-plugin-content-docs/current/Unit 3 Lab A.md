@@ -1,28 +1,29 @@
 ---
-sidebar_panel: 'Unit 3 Lab A'
+sidebar_label: 'Unite 3 Lab A'
+hide_title: 'false'
 ---
 
-### LAB A
+## Unite 3 Lab A
 
-##### Objective:
+##### Objectif:
 
-Congo Online Retail Inc.’s., Board of Directors would like to have access to OpCon so they can check the progress of the automated processes.
+Le conseil d'administration de la société Congo Online Retail Inc., aimerait avoir accès à OpCon afin de pouvoir vérifier la progression des processus automatisés.
 
-The IT Management does not want the Board of Directors to be able to make any changes in OpCon and can only view the Schedules created during these Labs. 
+La direction informatique ne souhaite pas que le conseil d'administration puisse apporter des modifications à OpCon et ne peut consulter que les Schedules créés lors de ces laboratoires.
 
-Create a **Role** named ```Board Member```. 
+Créez un **rôle** nommé ```Board Member```.
 
-Create a **User Account** named ```Congo Management``` (**Full Username**: ```Board of Directors```) and assign it the ```Board Member``` Role.
+Créer un compte utilisateur nommé Congo Management (**Full Username**: ```Board of Directors```) et lui attribuer le **rôle** de ```Board Member```.
 
-The **Role** should be able to View:
+Le **rôle** doit pouvoir afficher :
+  * **Congo Inventory Management** Schedule
+  * **Congo Inventory Reports** Schedule
+  * **Congo Payroll Payments** Schedule
+  * Jobs in Daily Schedules
+  * Jobs in Schedule Operations
 
-* **Congo Inventory Management** Schedule
-* **Congo Inventory Reports** Schedule
-* **Congo Payroll Payments** Schedule
-* Jobs in Daily Schedules
-* Jobs in Schedule Operations
 
-Log out of Enterprise Manager and log back in as the new **User Account** to verify settings and restrictions.
+Déconnectez-vous d'Enterprise Manager et reconnectez-vous en tant que **New User Account** pour vérifier les paramètres et les restrictions.
 
 <div>
 <video width="320" height="240" controls>
@@ -33,27 +34,26 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-**Lab Instructions**:  
+**Instructions de laboratoire** :  
 
-*	Create a **Role** named **Board Member**
-*	Grant permissions to view the following Lab Schedules:
-    *	Congo Inventory Management
-    *	Congo Inventory Reports 
-    *	Congo Payroll Payments
-*	Create a **User Account** named **Congo Management**
-*	Give a **Full Username** of **Board of Directors**
-*	Change the password to ```opconxps```
-*	Assign the **Board Member** role to the Congo Management User Account
-*	The **Board Member** Role should be able to View Jobs in Daily Schedules
-*	The **Board Member** Role should be able to View Jobs in Schedule Operations
-*	Logout of the Enterprise Manager
-*	From top left, choose **Enterprise Manager > Logout**
-*	Login with the new User account and password
-*	Verify the permissions are accurate
-*	The Jobs are visible in the operations view
-*	Changes cannot be made to Jobs
-*	Logout and login again using leaving the Username and Password blank
+* Créer un **rôle** nommé ```Board Member```
+* Accordez les autorisations pour afficher les Schedules de laboratoire suivant :
+    * **Congo Inventory Management**
+    * **Congo Inventory Reports**
+    * **Congo Payroll Payments**
+* Créez un **User Account nommé** ```Congo Management```
+* Donner un ***Full Username*** du ```Board of Directors```
+* Changez le **password** en ```opconxps```
+* Attribuer le rôle de ```Board Member``` au compte utilisateur **Congo Management**
+* Le rôle de ```Board Member``` doit pouvoir afficher les Jobs dans les Daily Schedules
+* Le rôle de ```Board Member``` doit pouvoir afficher les Jobs dans les opérations de Schedules
+* Déconnectez-vous d'Enterprise Manager. En haut à gauche, choisissez **Enterprise Manager > Logout**
+* Connectez-vous avec le new User account et le nouveau password
+* Vérifiez que les autorisations sont exactes
+* Les Jobs sont visibles dans la vue des opérations (operations view)
+* Les modifications ne peuvent pas être apportées aux Jobs
+* Déconnectez-vous et reconnectez-vous en laissant le **Username** et le **Password** vides
 
 </details>

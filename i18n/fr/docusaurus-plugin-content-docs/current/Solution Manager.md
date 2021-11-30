@@ -46,7 +46,7 @@ Les composants suivants ont été ajoutés à SMA Solution Manager :
 
 <a href="imgbasic/PictureSMURLBar.png" target="_blank"><img src="imgbasic/PictureSMURLBar.png" width="500"></img></a>
 
-:::note
+:::note Remarque
 après avoir défini l'URL et enregistré la valeur, l'utilisateur doit se déconnecter, puis se reconnecter à Enterprise Manager pour que le menu des rubriques de Solution Manager apparaisse dans le cadre de navigation
 :::
 

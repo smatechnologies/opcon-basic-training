@@ -40,7 +40,7 @@ Your browser does not support the video tag.
     * Dans un nouveau Null Job (même schedule), configurez des fréquences permettant au job de s'exécuter tous les jours du mois, du lundi au vendredi, sauf s'il s'agit d'un jour férié ou du dernier jour du mois.
     * Utilisez le bouton Prévisionnel Global pour afficher les deux fréquences.
   
-  :::note
+  :::note Remarque
   La *fréquence négative apparaîtra en violet*
   :::
 

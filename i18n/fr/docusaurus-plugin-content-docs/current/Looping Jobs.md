@@ -18,7 +18,7 @@ hide_title: 'false'
 
 * Le même Job peut s'exécuter plusieurs fois au cours de la journée
 
-:::caution Warning
+:::caution Remarque
 La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécution
 :::
 
@@ -39,7 +39,7 @@ La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécu
 * **Intervalle d'exécution** – Intervalle (en minutes) entre les soumissions ou entre la fin et le début du job suivant.
 * **Limites d'exécution** - l'une ou les deux sélections peuvent être utilisées 
 
-:::caution Warning
+:::caution Remarque
 La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécution
 :::
 
@@ -59,7 +59,7 @@ La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécu
 * Un Job a besoin d’être réexécuté à un intervalle non constant. 
 * **L'action sur chevauchement de récurrence de Job** permet à un job de s'exécuter ou d'être ignoré si un autre job a été exécuté en retard ou est en cours d'exécution lors de l'exécution suivante
 
-:::caution Warning
+:::caution Remarque
 La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécution
 :::
 
@@ -79,7 +79,7 @@ La dépendance des jobs ultérieurs ne sera satisfaite qu'à la dernière exécu
 
 * Un Job peut réessayer automatiquement plusieurs fois dans le nombre de minutes configuré entre les tentatives si le job échoue
 
-:::note
+:::note Remarque
 OpCon marquera un Job comme ayant échoué après la dernière tentative
 :::
 

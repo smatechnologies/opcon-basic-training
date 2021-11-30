@@ -1,30 +1,29 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 8'
+sidebar_label: 'Unite 4 Exercice 8'
+hide_title: 'false'
 ---
 
-### Exercise 8: SubSchedule Daily and Monthly Process
+## Exercice 8: Processus quotidien et mensuel du sous-schedule
 
-##### Objective: 
+##### Objectif: 
 
-Create a Schedule named **Daily-SubSchedule**. Mark the Schedule as a **SubSchedule**. 
+Créez un schedule nommé **Daily-SubSchedule**. Marquez le schedule comme sous-schedule.
 
-Within the **Daily-SubSchedule**, create 5 Daily Windows Jobs that run the genericp program on a Monday-Friday Frequency (**Daily Job 1**, etc.). Give the Jobs a linear **Requires Dependency** Chain.
+Dans le **Daily-SubSchedule**, créez ```5``` jobs Windows quotidiennes qui exécutent le programme genericp sur une fréquence du ```lundi au vendredi``` (**Daily Job 1**, etc.). Donnez aux Jobs une chaîne linéaire **avec dépendances Requises**.
 
-Create a Schedule named **Monthly-SubSchedule**. Mark the Schedule as a **SubSchedule**.
+Créez un schedule nommé **Monthly-SubSchedule**. Marquez le schedule comme sous-schedule.
 
-Within the **Monthly-SubSchedule**, create 7 Monthly Windows Jobs that run the genericp program on an ```EOM-B``` Frequency (**Monthly Job 1**, etc.). Give the Jobs a linear **Requires Dependency** Chain.
+Dans **Monthly-SubSchedule**, créez ```7``` jobs Windows mensuelles qui exécutent le programme genericp sur une fréquence ```EOM-B``` (Monthly Job 1, etc.). Donnez aux Jobs une chaîne linéaire **avec dépendances Requises**.
 
-Create a Schedule named **Main-Schedule**. 
+Créez un schedule nommé **Main-Schedule**.
 
-Within the **Main-Schedule**, create a Job named **Daily-Jobs** as a **Container Job** running the **Daily-SubSchedule**. Give the Job a Monday-Friday Frequency. Give the Job an **Instance Definition** Property of ```RUNTIME=10```.
+Dans **Main-Schedule**, créez un job nommé **Daily-Jobs** en tant que Job de container exécutant **Daily-SubSchedule**. Donnez au job une fréquence du ```lundi au vendredi```. Attribuez au Job une propriété de définition d'instance de ```RUNTIME=10```.
 
-Within the **Main-Schedule**, create a Job named **Monthly-Jobs** as a **Container Job** running the Monthly-SubSchedule. Give the Job an ```EOM-B``` Frequency. Give the Job an **Instance Definition** Property of ```RUNTIME=20```.
+Dans **Main-Schedule**, créez un Job nommé **Monthly-Jobs** en tant que Job de container exécutant **Monthly-SubSchedule**. Donnez une fréquence ```EOM-B``` au Job. Attribuez au Job une propriété de définition d'instance de ```RUNTIME=20```.
 
-Setup an **Excludes Dependency** between the **Daily Jobs** and **Monthly Jobs** Container Jobs such that when the **Monthly Job** Container runs, the **Daily Job** Container is **Excluded**. 
+Mettre au plan le **Schedule Main-Schedule On Hold** pour aujourd'hui. Ensuite, Mettre au plan le Schedule en **Released** pour le **dernier jour ouvrable du mois**.
 
-Build the **Main-Schedule** **On Hold** for Today. Then Build the Schedule **Released** for the **last working day of the month**.
-
-In Matrix View, release the Schedule for Today to verify Job success.
+Dans la vue Matrix, Libérez (Release) le schedule pour aujourd'hui pour vérifier le bon fonctionnement du Job.
 
 <div>
 <video width="320" height="240" controls>
@@ -35,161 +34,165 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-**Create the first SubSchedule (Daily)**
+**Créer le premier sous-schedule (Daily)**
 
-1.	Under the **Administration** topic, Double-Click on **Schedule Master**. 
-2.	Click the **Add** button on the **Schedule Master** toolbar. 
-3.	In the **Name** textbox, enter **Daily-SubSchedule**. 
-4.	In the **Documentation** textbox, enter **This is the Daily SubSchedule**.
-5.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-6.	Keep **Monday through Friday** selected for the **Workdays per Week** for the Schedule to run.
-7.	In the **Schedule Properties** frame, mark the **SubSchedule** checkbox.
-8.	Click the **Save** button on the Schedule Master toolbar.
+1. Sous la rubrique **Administration**, double-cliquez sur **Schedule Master**.
+2. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Schedule Master**.
+3. Dans la zone de texte **Nom**, entrez **Daily-SubSchedule**.
+4. Dans la zone de texte **Documentation**, entrez **Ceci est le sous-schedule hebdomadaire**.
+5. Dans la zone **Heure démarrage**, notez la valeur par défaut ```00:00``` (minuit).
+6. Gardez du **lundi au vendredi** sélectionné pour les jours ouvrés par semaine pour que le schedule s'exécute.
+7. Dans le cadre **Propriétés Schedule**, cochez la case **Sous-Schedule**.
+8. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Schedule Master**.
 
-**Create the SubSchedule (Monthly)**
 
-9.	Under the **Administration** topic, Double-Click on **Schedule Master** (if not open). 
-10.	Click the **Add** button on the **Schedule Master** toolbar. 
-11.	In the **Name** textbox, enter **Monthly-SubSchedule**. 
-12.	In the **Documentation** textbox, enter **This is the Monthly SubSchedule**.
-13.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-14.	Keep **Monday through Friday** selected for the **Workdays per Week** for the Schedule to run.
-15.	In the **Schedule Properties** frame, mark the **SubSchedule** checkbox.
-16.	Click the **Save** button on the **Schedule Master** toolbar.
-17.	Close the **Schedule Master** tab.
+**Créer le sous-schedule (Monthly)**
 
-**Add Jobs within the Daily SubSchedule**
+9. Sous la rubrique **Administration**, double-cliquez sur **Schedule Master** (s'il n'est pas ouvert).
+10. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Schedule Master**.
+11. Dans la zone de texte **Nom**, saisissez **Monthly-SubSchedule**.
+12. Dans la zone de texte **Documentation**, entrez **Ceci est le sous-schedule mensuel**.
+13. Dans **Heure démarrage**, notez la valeur par défaut ```00:00``` (minuit).
+14. Gardez du **lundi au vendredi** sélectionné pour les **jours ouvrés par semaine** pour que le schedule s'exécute.
+15. Dans le cadre **Propriétés Schedule**, cochez la case **Sous-Schedule**.
+16. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Schedule Master**.
+17. Fermez l'onglet **Schedule Master**.
 
-18.	Under the **Administration** topic, Double-Click on **Job Master**. Select the **Daily-SubSchedule**.
-19.	Click the **Add** button on the **Job Master** toolbar. 
-20.	In the **Name** textbox, enter **Daily Job 1**.
-21.	In the **Job Type** drop-down list, select ```Windows```.
-22.	In the **Primary Machine** drop-down list, select the ```SMATraining``` machine. 
-23.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```. 
-24.	In the **Command Line**, use **Ctrl+F** and select the command line that looks like this:
-```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
-25.	Click the **Save** button on the **Job Master** toolbar. 
-26.	Click the **Frequency** tab.
-27.	Within the **Frequency list** frame, click the **Add** button.
-28.	Click inside the option button to **Use existing Frequency**.
-29.	In the **Frequency** drop-down list, select ```Mon-Fri-N```. 
-30.	Click **Next**.
-31.	Click the **Finish** button.
-32.	On the **Job Master** Toolbar, click the **Copy** button or press **Ctrl+Insert**).
-33.	Name the **Job Daily Job 2**.
-34.	Click **OK**.
-35.	Repeat steps 32 to 34 to create Jobs **Daily Job 3**, **Daily Job 4**, and **Daily Job 5**.
-36.	Close the **Job Master**.
-37.	Use **Workflow Designer** to create **Job Dependencies** the way you want and then close **Workflow Designer**.
 
-**Add Jobs within the Monthly SubSchedule**
+**Ajouter des jobs dans le sous-schedule quotidien**
 
-38.	Under the **Administration** topic, Double-Click on **Job Master**. Select the **Monthly-SubSchedule**.
-39.	Click the **Add** button on the **Job Master** toolbar. 
-40.	In the **Name** textbox, enter **Monthly Job 1**.
-41.	In the **Job Type** drop-down list, select ```Windows```.
-42.	In the **Primary Machine** drop-down list, select the ```SMATraining``` machine. 
-43.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```. 
-44.	In the **Command Line**, type **Ctrl+F** and select the command line that looks like this:
-```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
-45.	Click the **Save** button on the **Job Master** toolbar. 
-46.	Click the **Frequency** tab.
-47.	Within the **Frequency list** frame, click the **Add** button.
-48.	Create a new **Frequency**. The name will be ```End-of-Month-B```. Click **Next**.
-49.	In the **Frequency Definition Wizard**, select **End of Period** in **When to Schedule** frame, be sure that **Month** is selected under **Periods** frame and **Before Date** is selected under **A/O/B/N** frame.
-50.	Click the **Finish** button.
-51.	On the **Job Master** Toolbar, click the **Copy** button or press **Ctrl+Insert**.
-52.	Name the Job **Monthly Job 2**.
-53.	Click **OK**.
-54.	Repeat steps 51 to 53 to create Jobs **Monthly Job 3**, **Monthly Job 4**, **Monthly Job 5**, **Monthly Job 6**, and **Monthly Job 7**.
-55.	Close the **Job Master** tab.
-56.	Use **Workflow Designer** to create **Job Dependencies**.
-57.	Close the **Workflow Designer**.
+18. Sous la rubrique **Administration**, double-cliquez sur **Job Master**. Sélectionnez **Daily-SubSchedule**.
+19. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+20. Dans la zone de texte **Nom**, entrez **Daily Job 1**.
+21. Dans la liste déroulante **Type de Job**, sélectionnez ```Windows```.
+22. Dans la liste déroulante **Machine Primaire**, sélectionnez la machine ```SMATraining```.
+23. Dans la liste déroulante **User ID**, sélectionnez ```SMATRAINING\SMAUSER```.
+24. Dans la **ligne de commande**, utilisez **Ctrl + F** et sélectionnez la ligne de commande qui ressemble à ceci : ```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
+25. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Job Master**.
+26. Cliquez sur l'onglet **Fréquence**.
+27. Dans le cadre de **Liste Fréquences**, cliquez sur le bouton **Ajouter**.
+28. Cliquez sur le bouton radio.
+29. Dans la liste déroulante **Fréquence**, sélectionnez ```Mon-Fri-N```.
+30. Cliquez sur **Suivant**.
+31. Cliquez sur le bouton **Terminer**.
+32. Dans la barre d'outils **Job Master**, cliquez sur le bouton **Copie** ou appuyez sur **Ctrl + Insert.**
+33. Nommez le: Job **Daily Job 2**.
+34. Cliquez sur **OK**.
+35. Répétez les étapes 32 à 34 pour créer des **Daily Job 3**, **Daily Job 4**, et **Daily Job 5**.
+36. Fermez **Job Master**.
+37. Utilisez **Designer Workflow** pour créer des **dépendances de jobs** comme vous le souhaitez, puis fermez **Designer Workflow**.
 
-**Create the Primary Schedule**
+**Ajouter des jobs dans le sous-schedule mensuel**
 
-58.	Under the **Administration** topic, Double-Click on **Schedule Master**. 
-59.	Click the **Add** button on the **Schedule Master** toolbar. 
-60.	In the **Name** textbox, enter **Main-Schedule**. 
-61.	In the **Documentation** textbox, enter **This is the Main Schedule**.
-62.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-63.	Keep **Monday through Friday** selected for the **Workdays per Week** for the Schedule to run.
-64.	Click the **Save** button on the **Schedule Master** toolbar.
-65.	Close the **Schedule Master** tab.
-66.	Under the **Administration** topic, Double-Click on **Job Master**. 
+38. Sous la rubrique **Administration**, double-cliquez sur **Job Master**. Sélectionnez **Monthly-SubSchedule**.
+39. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+40. Dans la zone de texte **Nom**, saisissez **Monthly Job 1**.
+41. Dans la liste déroulante **Type de Job**, sélectionnez ```Windows```.
+42. Dans la liste déroulante **Machine Primaire**, sélectionnez la machine ```SMATraining```.
+43. Dans la liste déroulante **User ID**, sélectionnez ```SMATRAINING\SMAUSER```.
+44. Dans la **ligne de commande**, tapez **Ctrl + F** et sélectionnez la ligne de commande qui ressemble à ceci : ```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
+45. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Job Master**.
+46. Cliquez sur l'onglet **Fréquence**.
+47. Dans le cadre **Liste Frequency**, cliquez sur le bouton **Ajouter**.
+48. Créez une nouvelle **fréquence**. Le nom sera ```End-of-Month-B```. Cliquez sur **Suivant**.
+49. Dans **l’Assistant de définition de Fréquence**, sélectionnez **Fin de période** dans le cadre **Choix de Planification**, assurez - vous que Mois est sélectionné dans les cadres **périodes** et **Avant Date** est sélectionnée dans les cadres **A/O/B/N**.
+50. Cliquez sur le bouton **Terminer**.
+51. Dans la barre d'outils **Job Master**, cliquez sur le bouton **Copie** ou appuyez sur **Ctrl + Insert**.
+52. Nommez-le : **Monthly Job 2**.
+53. Cliquez sur **OK**.
+54. Répétez les étapes 51 à 53 pour créer des Jobs **Monthly Job 3**, **Monthly Job 4**, **Monthly Job 5**, **Monthly Job 6**, et **Monthly Job 7**.
+55. Fermez l'onglet **Job Master**.
+56. Utilisez **Designer Workflow** pour créer des **dépendances de jobs**.
+57. Fermez **Designer Workflow**.
 
-**Add the Daily SubSchedule to the Primary Schedule**
 
-67.	Select the **Main-Schedule** from the **Schedule** drop-down list.
-68.	Click the **Add** button on the **Job Master** toolbar. 
-69.	In the **Name** textbox, enter **Daily-Jobs**. 
-70.	In the **Job Type** drop-down list, select **Container**.
-71.	On the **Schedule to run as SubSchedule** drop-down list select the **Daily-SubSchedule**.
-72.	Click the **Save** button on the **Job Master** toolbar.
-73.	Click the **Frequency** tab.
-74.	Within the **Frequency list** frame, click the **Add** button.
-75.	Click inside the option button to **Use existing Frequency**.
-76.	In the **Frequency** drop-down list, select ```Mon-Fri-N```.
-77.	Click **Next** and then **Finish**.
-78.	Click the **Instance Definition** tab.
-79.	Click in the **Define Property Values** box.
-80.	Enter: ```RUNTIME=10```
-81.	Click the **Add** at the right-middle of the screen.
-82.	Click the **Save** button on the **Job Master** toolbar.
-83.	In the **Documentation** textbox, enter **This is a container Job that has the Daily Jobs**.
-84.	Click the **Save** button on the **Job Master** toolbar.
-85.	Still on **Job Master**, be sure you have the **Main-Schedule** selected.
+**Créer le Primary Schedule**
 
-**Add the Monthly SubSchedule to the Primary Schedule**
+58. Sous la rubrique **Administration**, double-cliquez sur **Schedule Master**.
+59. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Schedule Master**.
+60. Dans la zone de texte **Nom**, entrez **Main-Schedule**.
+61. Dans la zone de texte **Documentation**, entrez **Ceci est le schedule principal**.
+62. Dans **Heure démarrage**, notez la valeur par défaut ```00:00``` (minuit).
+63. Gardez du **lundi au vendredi** sélectionné pour les **jours ouvrés par semaine** pour que le schedule s'exécute.
+64. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Schedule Master**.
+65. Fermez l'onglet **Schedule Master**.
+66. Sous la rubrique **Administration**, double-cliquez sur **Job Master**.
 
-86.	Click the **Add** button on the **Job Master** toolbar. 
-87.	In the **Name** textbox, enter **Monthly-Jobs**. 
-88.	In the **Job Type** drop-down list, select **Container**.
-89.	On the **Schedule to run as SubSchedule** drop-down list select the **Monthly-SubSchedule**.
-90.	Click the **Save** button or on the **Job Master** toolbar or press **Ctrl+S**.
-91.	Click the **Frequency** tab.
-92.	Within the **Frequency** list frame, click the **Add** button.
-93.	Click inside the option button to **Use Existing Frequency**.
-94.	Select ```End-of-Month-B``` from the drop-down list.
-95.	Click **Next**.
-96.	Click the **Forecast** button and note that on the months noted above that the Job will run on the Friday before the end of the month if it falls on a weekend.
-97.	Close the **Forecast** dialog box and then click **Finish** on the **Frequency Definition Wizard** screen.
-98.	Click the **Instance Definition** tab.
-99.	Click in the **Define Property Values** box.
-100. Enter: ```RUNTIME=20```.
-101. Click the **Add** at the right side of the **Define Property Values** frame.
-102. Click the **Save** button on the **Job Master** toolbar.
-103. Close the **Job Master** tab.
 
-**Setup Job Dependencies between Container Jobs**
+**Ajouter le sous-schedule quotidien au Primary Schedule**
 
-104. Under the **Administration** topic, Double-Click **Workflow Designer**.
-105. Select **Main-Schedule** under the **Select Schedule** drop-down list.
-106. Click the **Add Dependency** tool.
-107. Click the **Daily-Jobs** box and then click the **Monthly-Jobs**.
-108. Select **Excludes** under the **Dependency** type. 
-109. Click **OK**.
-110. Close the **Workflow Designer** tab.
+67. Sélectionnez **Main-Schedule** de la liste déroulante **Schedule**.
+68. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+69. Dans la zone de texte **Nom**, entrez **Daily-Jobs**.
+70. Dans la liste déroulante **Type de Job**, sélectionnez **Container**.
+71. Dans la liste déroulante **Schedule à exécuter en tant que Sous-Schedule**, sélectionnez **Daily-SubSchedule**.
+72. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Job Master**.
+73. Cliquez sur l'onglet **Fréquence**.
+74. Dans le cadre **Liste des fréquences**, cliquez sur le bouton **Ajouter**.
+75. Cliquez sur le bouton radio **Utiliser Fréquence existante**.
+76. Dans la liste déroulante **Fréquence**, sélectionnez ```Mon-Fri-N```.
+77. Cliquez sur **Suivant** puis sur **Terminer**.
+78. Cliquez sur l'onglet **Définition Instance**.
+79. Cliquez dans la zone **Définir Valeurs Propriété**.
+80. Entrez : ```RUNTIME=10```
+81. Cliquez sur **Ajouter** au milieu à droite de l'écran.
+82. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Job Master**.
+83. Dans la zone de texte **Documentation**, saisissez **Ceci est un Job container contenant les Jobs quotidiens**.
+84. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Job Master**.
+85. Toujours sur **Job Master**, assurez-vous que **Main-Schedule** est sélectionné.
+
+
+**Ajouter le sous-schedule mensuel au Primary Schedule**
+
+86. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+87. Dans la zone de texte **Nom**, saisissez **Monthly-Jobs**.
+88. Dans la liste déroulante **Type de Job** sélectionnez **Container**.
+89. Dans la liste déroulante **Schedule à exécuter en tant que Sous-Schedule**, sélectionnez **Monthly-SubSchedule**.
+90. Cliquez sur le bouton **Sauvegarder** ou sur le **Job Master** barre d'outils ou appuyez sur **Ctrl + S**.
+91. Cliquez sur l'onglet **Fréquence**.
+92. Dans le cadre de la **liste Fréquence**, cliquez sur le bouton **Ajouter**.
+93. Cliquez sur le bouton d'option **Utiliser Fréquence existante**.
+94. Sélectionnez ```End-of-Month-B``` dans la liste déroulante.
+95. Cliquez sur **Suivant**.
+96. Cliquez sur le bouton **Prévisionnel** et notez que sur les mois indiqués ci-dessus, le Job s'exécutera le vendredi avant la fin du mois s'il tombe un week-end.
+97. Fermez la boîte de dialogue **Prévisionnel** puis cliquez sur **Terminer** sur l'écran **Assistant définition Fréquence**.
+98. Cliquez sur l'onglet **Définition Instance**.
+99.	Cliquez dans la zone **Définir Valeurs Propriété**.
+100. Entrez : ```RUNTIME=20```.
+101. Cliquez sur **Ajouter** sur le côté droit du cadre **Définir Valeurs Propriété**.
+102. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Job Master**.
+103. Fermez l'onglet **Job Master**.
+
+
+**Configurer les dépendances de jobs entre les jobs de conteneur**
+
+104. Sous la rubrique **Administration**, double-cliquez sur **Designer Workflow**.
+105. Sélectionnez **Main-Schedule** dans la liste déroulante **Sélectionner Schedule**.
+106. Dans la boite à outils cliquez sur **Ajouter une Dépendance**. 
+107. Cliquez sur le job **Daily-Jobs**, puis sur **Monthly-Jobs**.
+108. Sélectionnez en **exclusion** sous **Type de Dépendance**.
+109. Cliquez sur **OK**.
+110. Fermez l'onglet **Designer Workflow**.
 
 <a href="imgbasic/433.png" target="_blank"><img src="imgbasic/433.png" width="250"></img></a>
 
-**Build the Schedule**
+**Mettre au Plan le Schedule**
 
-111. Under the **Operation** topic, Double-Click **Schedule Build**.
-		* Notice that **both SubSchedules _ARE NOT_ shown in the Schedule Selection** list.  
-112. Click the **Main-Schedule** and click the **Build** button.  
-113. On the Build Properties screen, leave On Hold selected and click OK.
-		* This will build the Schedule **On Hold** for today  
-114. Click the **Main-Schedule** again.  
-115. On the **Start date**, select the **last working day of the month**.
-		* The **Stop date** should be the same as **Start date**.  
-116. Click the **Build** button.
-117. On the **Build Properties** screen, leave **Released** selected and click **OK**.
-		* This will build the Schedule **Released for the end of the month**.  
-118. Close the Build Schedules screen.  
-119.  Go to the **List** or **Matrix** view under the **Operation** topic or use **Solution Manager** to check the results.  
-120.  **Release the Schedule** for today (if you want to see the Jobs running).  
+111. Sous la rubrique **Operation**, double-cliquez sur **Mise au Plan (Build)**.
+* Notez que les **deux sous-schedules _NE SONT PAS_ affichés dans la liste de sélection de schedule**.
+112. Cliquez sur **Main-Schedule** et cliquez sur le bouton **Mise au Plan**.
+113. Sur l'écran **Propriétés Mise au Plan**, laissez l'option On Hold sélectionnée et cliquez sur **OK**.
+* Cela créera le schedule On Hold pour aujourd'hui
+114. Cliquez à nouveau sur **Main-Schedule**.
+115. A la date de Début de planification, sélectionnez le **dernier jour ouvré du mois**.
+* La **date de fin (Stop date)** doit être la même que la **date de début**. 
+116. Cliquez sur le bouton **Mise au Plan**.
+117. Sur l'écran **Propriétés Mise au Plan**, laissez **Released** et cliquez sur **OK**.
+* Cela mettra au plan le Schedule en Release **pour la fin du mois**.
+118. Fermez la fenêtre Mise au Plan Schedules.
+119. Accédez à la vue **List** ou **Matrix** sous la rubrique **Operation** ou utilisez **Solution Manager** pour vérifier les résultats.
+120. **Releasez (liberez) le Schedule** pour aujourd'hui (si vous souhaitez voir les jobs en cours d'exécution).
 
 </details>

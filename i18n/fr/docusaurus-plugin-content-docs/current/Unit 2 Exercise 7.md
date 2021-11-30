@@ -8,7 +8,7 @@ hide_title: 'false'
 ##### Objectif:
 
 Créez un nouveau calendrier nommé **MYFIRSTCALENDAR**. Cliquez sur plusieurs dates en parcourant le calendrier. 
-:::note
+:::note Remarque
 (Les dates choisies sont enregistrées dynamiquement)
 :::
 
@@ -46,7 +46,7 @@ Your browser does not support the video tag.
 4. Entrez « **Ceci est un calendrier de test**. » dans l’espace **Documentation**. 
 5. Cliquez sur le bouton **Sauvegarder**.
 6. Cliquez sur plusieurs dates dans le **calendrier**.
-:::note
+:::note Remarque
 Les dates sont enregistrées dynamiquement
 :::
 7. Cliquez sur la **flèche droite** à côté du mois juste au-dessus du calendrier pour passer aux mois suivants.

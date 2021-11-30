@@ -1,22 +1,21 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 12'
+sidebar_label: 'Unite 3 Exercice 12'
+hide_title: 'false'
 ---
 
-### Exercise 12: Invalid Event
+### Exercice 12: Event invalide
 
-##### Objective: 
+##### Objectif: 
 
-In Notepad on Windows, create a new document.
+Dans le Bloc-notes sous Windows, créez un nouveau document.
 
-Type the following:
+Tapez ce qui suit :
 
-```
-$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps
-```
+```$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps```
 
-Save the file with any name under ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
+Enregistrez le fichier sous n'importe quel nom sous ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
 
-Open the ```SAM Log``` and ```Critical Log``` and check the messages to see that the property does **not** exist.
+Ouvrez ```SAM Log``` et ```Critical Log``` et vérifiez les messages pour voir que la propriété n'existe pas.
 
 
 <div>
@@ -28,15 +27,15 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Open **Notepad** (click the **Windows Start button**, type **Notepad** and press **Enter**).
-2.	With **Notepad** opened, type: ```$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps```
-3.	**Save** the file (**any name**) under: ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
-4.	Go back to Enterprise Manager and open the **SAM** log.
-5.	Check the messages (Property does not exist).
-6.	Open the **Critical** log.
-7.	Check the messages (Property does not exist).
-8.	Close all log tabs and **Notepad**.
+1. Ouvrez le **Bloc - notes** (cliquez sur le **bouton Démarrer de Windows**, tapez **Bloc - notes** et appuyez sur **Entrée**).
+2. Dans le **Bloc-notes**, tapez : ```$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps```
+3. Enregistrez le fichier (sous n'importe quel nom) sur : ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
+4. Revenez à Enterprise Manager et ouvrez **SAM Log**.
+5. Vérifiez les messages (la propriété ne doit pas exister).
+6. Ouvrez **Critical Log**.
+7. Vérifiez les messages (la propriété ne doit pas exister).
+8. Fermez tous les onglets du Log et le **bloc - notes**.
 
 </details>

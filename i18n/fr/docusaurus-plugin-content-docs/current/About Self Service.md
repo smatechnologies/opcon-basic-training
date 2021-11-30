@@ -1,5 +1,6 @@
 ---
-sidebar_panel: 'About Self Service'
+sidebar_label: 'About Self Service'
+hide_title: 'false'
 ---
 
 ### Overview

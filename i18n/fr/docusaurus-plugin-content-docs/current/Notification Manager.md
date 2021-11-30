@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Notification Manager'
+sidebar_label: 'Gestionnaire de notifications'
+hide_title: 'false'
 ---
+
+## Gestionnaire de notifications
 
 <figure>
     <audio
@@ -15,8 +18,8 @@ sidebar_panel: 'Notification Manager'
 <a href="imgbasic/321.png" target="_blank"><img src="imgbasic/321.png" width="500"></img></a>  
 <a href="imgbasic/322.png" target="_blank"><img src="imgbasic/322.png" width="400"></img></a>  
 
-* Create groups
-* Define Notifications based on change events: 
+* Créer des groupes
+* Définissez les notifications en fonction des évents de modification :
     * Machine
     * Schedule
     * Job Status
@@ -24,7 +27,7 @@ sidebar_panel: 'Notification Manager'
 <a href="imgbasic/323.png" target="_blank"><img src="imgbasic/323.png" width="500"></img></a>  
 <a href="imgbasic/324.png" target="_blank"><img src="imgbasic/324.png" width="500"></img></a>  
 
-### Notification Types
+### Types de notification
 
 <figure>
     <audio
@@ -37,4 +40,4 @@ sidebar_panel: 'Notification Manager'
 
 <a href="imgbasic/325.png" target="_blank"><img src="imgbasic/325.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

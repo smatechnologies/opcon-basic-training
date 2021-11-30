@@ -1,8 +1,9 @@
 ---
-sidebar_panel: 'System Properties'
+sidebar_label: 'Propriétés du système et de l instance'
+hide_title: 'false'
 ---
 
-### System and Instance Properties
+## Propriétés du système et de l'instance
 
 <figure>
     <audio
@@ -13,31 +14,31 @@ sidebar_panel: 'System Properties'
     </audio>
 </figure>
 
-:::info
-**Properties** are variables stored in the database that can be used throughout OpCon
-* Defined with name and value
+:::info Remarque
+Les **propriétés** sont des variables stockées dans la base de données qui peuvent être utilisées dans OpCon
+* Défini avec le nom et la valeur
 :::
-* **Global Properties** (OpCon Instance Properties) are variables associated with the entire environment  
-* **Job Instance Properties** are variables associated with a specific Job
-* **Schedule Instance Properties** are variables associated with a specific Schedule
-* **Machine Instance Properties** are variables associated with a specific Machine 
 
-### System Properties vs User Defined Properties 
+* **Les propriétés globales (Global Properties)** (propriétés d'instance OpCon) sont des variables associées à l'ensemble de l'environnement
+* **Les propriétés d'instance de Job (Job Instance Properties)** sont des variables associées à un Job spécifique
+* **Les propriétés d'instance de planification (Schedule Instance Properties)** sont des variables associées à un schedule spécifique
+* **Les propriétés d'instance de machine (Machine Instance Properties)** sont des variables associées à une machine spécifique
 
-* All Global Properties that begin with a dollar symbol (```$```) are known as System Properties
-* System Properties give variable values dependent on the System 
-* Many of these system values can be format modified 
-    * Example: ```$DATE``` can be set to ```mmddyy```, ```yyyymmdd```, ```mm```, etc. 
-* ```$DATE``` is the current date of the OpCon server
-    * ```$SCHEDULE DATE``` is the date a Schedule was built
-        * If a Schedule is built for January 1st at 23:50, but runs until January 2nd at 3:30, all ```$SCHEDULE DATE``` properties will be resolved to January 1st date
+### Propriétés système et propriétés définies par l'utilisateur
+
+* Toutes les propriétés globales qui commencent par un symbole dollar (```$```) sont appelées propriétés système (System Properties).
+* Les propriétés système donnent des valeurs de variable dépendant du système
+* Plusieurs de ces systèmes de valeurs peuvent être modifiées au format
+    * Exemple: ```$DATE``` peut être réglé sur ```mmddyy```, ```yyyymmdd```, ```mm```, etc.
+* ```$DATE``` est la date actuelle du serveur OpCon
+    * ```$SCHEDULE DATE``` est la date à laquelle un Schedule a été créé
+        * Si un schedule est créé pour le 1er janvier à 23h50, mais se termine le 2 janvier à 15h30, toutes les propriétés ```$SCHEDULE DATE``` seront résolues à la date du 1er janvier
 
 <a href="imgbasic/334.png" target="_blank"><img src="imgbasic/334.png" width="300"></img></a>
 
-### System Properties Offsets
+### Décalages des propriétés système
 
 <figure>
-    <figcaption>Listen for information on System Properties - Offsets:</figcaption>
     <audio
         controls
         src="audiobasic/SystemPropertiesOffsets.mp3">
@@ -46,23 +47,23 @@ sidebar_panel: 'System Properties'
     </audio>
 </figure>
 
-* ```$DATE``` or ```$SCHEDULE DATE``` System Properties can be offset
-* Example:
-    * ```[[$DATEmmddyy(+1d)]]``` or ```[[$DATEmmddyy(-1d)]]``` for day offsets
+* les propriétés système ```$DATE``` ou ```$SCHEDULE DATE``` peuvent être décalées
+* Exemple:
+    * ```[[$DATEmmddyy(+1d)]]``` ou ```[[$DATEmmddyy(-1d)]]``` pour les décalages journaliers
 
 <a href="imgbasic/335.png" target="_blank"><img src="imgbasic/335.png" width="500"></img></a>  
 <a href="imgbasic/336.png" target="_blank"><img src="imgbasic/336.png" width="500"></img></a>  
 
-* **Offset Day**
-    * ```[[$DATEmmddyy(+1d)]]``` or ```[[$DATEmmddyy(-1d)]]``` for day offsets
-* **Offset Working Day**
-    * ```[[$SCHEDULE DATEmmddyy(+1wd)]]``` or ```[[$SCHEDULE DATEmmddyy(-1wd)]]``` for * Working Day offsets
-        * ```$SCHEDULE DATE``` required for this Working Day offset
-* **Offset Month**
-    * ```[[$DATEmmddyy(+1m)]]``` or ```[[$DATEmmddyy(-1m)]]``` for day offsets
-        * No offset specific for year – Use ```(+12m)``` or ```(-12m)``` to offset years
-* **End of Month**
-    * ```[[$DATEmmddyy(+1eom)]]``` Value finds the last day of current month
-        * ```+1``` is current month 
-        * ```+2``` is next month
-    * ```[[$DATEmmddyy(-1eom)]]``` Value finds the last day of previous month
+* **Jour de décalage**
+    * ```[[$DATEmmddyy(+1d)]]``` ou ```[[$DATEmmddyy(-1d)]]``` pour les décalages journaliers
+* **•	Décalage de jour ouvrable**
+    * ```[[$SCHEDULE DATEmmddyy(+1wd)]]``` ou ```[[$SCHEDULE DATEmmddyy(-1wd)]]``` pour le décalages de X jours ouvrés (Working Day offsets)
+        * ```$SCHEDULE DATE``` requis pour ce décalage de jour ouvrable
+* **Décalage de Mois **
+    * ```[[$DATEmmddyy(+1m)]]``` ou ```[[$DATEmmddyy(-1m)]]``` pour les décalages journaliers
+        * Pas de décalage spécifique pour l'année - Utiliser  ```(+12m)``` ou ```(-12m)``` pour décaler pour des années
+* **Fin du mois**
+    * ```[[$DATEmmddyy(+1eom)]]``` La valeur trouve le dernier jour du mois en cours
+        * ```+1``` est le mois en cours 
+        * ```+2``` est le mois prochain
+    * ```[[$DATEmmddyy(-1eom)]]``` La valeur trouve le dernier jour du mois précédent

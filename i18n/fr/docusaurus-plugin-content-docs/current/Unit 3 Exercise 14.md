@@ -1,24 +1,27 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 14'
+sidebar_label: 'Unite 3 Exercice 14'
+hide_title: 'false'
 ---
 
-### Exercise 14: Events: Failure Criteria
+## Exercice 14: Events: critères d'échec
 
-##### Objective:
+##### Objectif:
 
-In Job Master, within the existing Schedule **Exit Code Events**, select **Job 1**. 
+Dans Job Master, parmi les schedules existant **Exit Code Events**, sélectionnez **Job 1**.
 
-Under the **Advanced** tab, set **Failure Criteria** to:
+Sous l'onglet **Avanced**, définissez les **critères d'échec (Failure Criteria)** sur:
 
 ```Finish OK if Equal to 0```
 
-And/OR
+Et / OU
 
 ```Finish OK if Equal to 100```
 
-Add a new Event based on **Exit Description** if the value is ```Equal to 100```. The event should use the ```$JOB:SKIP``` template to skip **Job 2**.
+Ajoutez un nouvel event basé sur **Exit Description** si la valeur est ```Equal to 100```. 
 
-Build the Schedule and view the results in Matrix View.
+L'événement doit utiliser le modèle ```$JOB:SKIP``` pour ignorer **Job 2**.
+
+Construisez le schedule et affichez les résultats dans la vue matricielle.
 
 
 <div>
@@ -30,42 +33,41 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Under the **Administration** topic, Double-Click on **Job Master**. 
-2.	In the **Schedule** drop-down list, select **Exit Code Events**.
-3.	In the **Job** drop-down list, select **Job 1**.
-4.	At the bottom of the screen, click the **Advanced** tab.
-5.	Change the **Results** drop-down menu from **Fail** to **Finish OK**.
-    *	This will reverse the logic stating that the Job will only **Finish OK** if the Job exits with the **Exit Codes** listed.
-6.	Change the **Comparison Operator** from **Not Equal To** to **Equal To** leaving the Value set to ```0```. 
-7.	In the second row, change the **And/Or** drop-down menu from **blank** to **OR**.
-8.	In the second row, change the **Comparison Operator** from **blank** to **Equal To**.
-9.	In the second row, change the **Value** from ```0``` to ```100```.
-10.	Click the **Save** button at the top right of the screen.
-11.	Click the **Events** tab.
-12.	Click the **Add** button in the **Events** frame.
-13.	Click the **Exit Description** radio-button in the **Event Definition Wizard**.
-14.	Click **Next**.
-15.	Select **Equal To** in the **Comparison Operator** drop-down menu.
-16.	Type ```100``` in the Value textbox.
-17.	Click **Next**.
-18.	Select the ```$JOB:SKIP``` template from the Event Template drop-down menu.
-19.	Update ```<Schedule date>``` to ```[[$SCHEDULE DATE]]```
-20.	Update ```<Schedule name>``` to ```[[$SCHEDULE NAME]]```
-21.	Update ```<Job name>``` to **Job 2**.
-22.	The **Event Parameters** should look like this:  
-```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],Job 2```
-23.	Click the **Finish** button.
-24.	Close the **Job Master** tab.
-25.	Under the **Operations** topic, Double-Click on **Schedule Build**. 
-26.	Select **Exit Code Events** from the **Schedule Selection**.
-27.	Click the **Build** button.
-28.	Select the **Released** radio-button.
-29.	Click **OK**.
-30.	Open the **Operations** screen of your choice (**Matrix** or **List**) or use **Solution Manager**.
-31.	Notice that the **Job Failure** Job failed with an **exit code** of ```100```.
-32.	Notice that **Job 1** should exit with an **exit code** of ```100``` but **Finish OK**.
-33.	It should also _skip_ **Job 2** allowing **Job 3** to run.
+1. Sous la rubrique **Administration**, double-cliquez sur **Job Master**.
+2. Dans la liste déroulante **Schedule**, sélectionnez **Exit Code Events**.
+3. Dans la liste déroulante **Job**, sélectionnez **Job 1**.
+4. Au bas de l'écran, cliquez sur l'onglet **Avanced**.
+5. Modifiez le menu déroulant **Results de Fail** à **Finish OK**.
+    * Cela inversera la logique indiquant que le Job ne se **terminera** que si le Job se termine avec les **codes de sortie** répertoriés.
+6. Modifiez **Comparison Operator** de ```Not Equal To``` à ```Equal To``` en laissant la valeur définie sur ```0```.
+7. Dans la deuxième ligne, modifiez le menu déroulant **Et / Ou** de **vide** à **OR**.
+8. Dans la deuxième ligne, modifiez **Comparison Operator** de **vide** à ```Equal To```.
+9. Dans la deuxième ligne, modifiez **Value** de ```0``` à ```100```.
+10. Cliquez sur le bouton **Save** en haut à droite de l'écran.
+11. Cliquez sur l'onglet **Events**.
+12. Cliquez sur le bouton **Add** dans le cadre Events.
+13. Cliquez sur le bouton radio **Exit Description** dans **Event Definition Wizard**.
+14. Cliquez sur **Next**.
+15. Sélectionnez **Egal To** dans le menu déroulant **Comparison Operator**.
+16. Tapez dans la zone de texte Value ```100```.
+17. Cliquez sur **Next**.
+18. Sélectionnez le modèle ```$JOB:SKIP``` dans le menu déroulant Event Template.
+19. Mettre à jour ```<Schedule date>``` avec ```[[$SCHEDULE DATE]]```
+20. Mettre à jour ```<Schedule name>``` avec ```[[$SCHEDULE NAME]]```
+21. Mettre à jour ```<Job name>``` avec **Job 2**.
+22. Les **paramètres d'événement (Event Parameters)** devraient ressembler à ceci : ```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],Job 2```
+23. Cliquez sur le bouton **Finish**.
+24. Fermez l'onglet **Job Master**.
+25. Sous la rubrique **Operations**, double-cliquez sur **Schedule Build**.
+26. Sélectionnez Exit Code Events dans Schedule Selection.
+27. Cliquez sur le bouton **Build**.
+28. Sélectionnez le bouton radio **Released**.
+29. Cliquez sur **OK**.
+30. Ouvrez l'écran **Operations** de votre choix ( **Matrix** ou **List** ) ou utilisez **Solution Manager** .
+31. Notez que **Job Failure** du Job a échoué avec un **code de sortie** de ```100```.
+32. Notez que **Job 1** doit se **terminer** avec un **code de sortie** ```100``` mais avec **Finish OK**.
+33. Il doit également _ignorer_ le **Job 2**, ce qui permet au **Job 3** de s'exécuter.
 
 </details>

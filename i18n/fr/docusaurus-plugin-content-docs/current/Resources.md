@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Resources'
+sidebar_label: 'Ressources'
+hide_title: 'false'
 ---
+
+## Ressources
 
 <figure>
     <audio
@@ -11,34 +14,33 @@ sidebar_panel: 'Resources'
     </audio>
 </figure>
 
-* **Resource**: user-defined value consisting of name and numeric limit
-* Resources are used to manage and limit the number of concurrently running Jobs across Schedules and Machines in OpCon
-* **Max Concurrent Jobs** in Advanced Machine Properties limits the number of concurrently running Jobs on a specific Machine
+* **Ressource** : la valeur définie par l'utilisateur est composée du nom et de la limite numérique
+* Les ressources sont utilisées pour gérer et limiter le nombre de Job exécutés simultanément sur les schedules et les machines dans OpCon
+* **Le nombre maximal de Jobs simultanés (Max Concurrent Jobs)** dans les propriétés de la machine limite le nombre de Jobs exécutés simultanément sur une machine spécifique
+    * **Toutes les ressources (All – Tous)** peuvent être définies pour les dépendances
+    * SAM est responsable du suivi des ressources utilisées
 
-	* **All** Resources can be set for Dependencies  
-	* SAM is responsible for keeping track of Resources in use
-
-:::note
-If all Resources are in use, SAM waits until a Resource is available before submitting the next Job
+:::note Remarque
+Si toutes les ressources sont en cours d'utilisation, SAM attend qu'une ressource soit disponible avant de soumettre le prochain Job
 :::
 
 <a href="imgbasic/401.png" target="_blank"><img src="imgbasic/401.png" width="500"></img></a>  
 <a href="imgbasic/402.png" target="_blank"><img src="imgbasic/402.png" width="500"></img></a>  
 
-### Resources - Instance Properties
+### Ressources - Propriétés d'instance
 
-* Max value of a Resource can be retrieved
+* La valeur maximale d'une ressource peut être récupérée
 
 ```[[RM.ResourceName]]```
 
-* Number of Resources “in use” can also be retrieved 
+* Le nombre de ressources « utilisées » peut également être récupéré
 
 ```[[RU.ResourceName]]```
 
 <a href="imgbasic/403.png" target="_blank"><img src="imgbasic/403.png" width="500"></img></a>  
 <a href="imgbasic/404.png" target="_blank"><img src="imgbasic/404.png" width="500"></img></a>  
 
-### Frequency - SAM Priority
+### Fréquence - Priorité SAM
 
 <figure>
     <audio
@@ -49,13 +51,13 @@ If all Resources are in use, SAM waits until a Resource is available before subm
     </audio>
 </figure>
 
-* Used if Max Concurrent of the following two features is met:
-	* Machine has reached Max Jobs limit (Windows and UNIX defaults are ```50```)
-	* A Resource has all Resources in use
-* The Job with highest **SAM Priority** will run first if several Jobs are waiting for a Resource or a Machine Max Job to free up
+* Est utilisé si un des cas suivants est rencontré :
+  * La machine a atteint la limite max des jobs simultanés (la valeur par défaut des agents Windows et UNIX est de ```50```)
+  * Une Ressource a atteint la Ressource Max
+* Le Job avec la **Priorité SAM** la plus haute s’exécutera en premier si plusieurs Jobs attentent qu’une Ressource ou l’exécution d’un Job d’une machine se libèrent.
 
 
 <a href="imgbasic/405.png" target="_blank"><img src="imgbasic/405.png" width="500"></img></a>  
 <a href="imgbasic/406.png" target="_blank"><img src="imgbasic/406.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

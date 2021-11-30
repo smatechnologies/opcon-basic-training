@@ -1,16 +1,17 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 4'
+sidebar_label: 'Unite 4 Exercice 4'
+hide_title: 'false'
 ---
 
-### Exercise 4: Existing Embedded Script
+## Exercice 4: Script embarqué existant
 
-##### Objective:
+##### Objectif:
 
-Within the existing **Embedded Scripts Training Schedule**, create a Windows Job named **Create Daily Folde**r that runs a Monday-Friday Frequency. The Job should run a **Job Action** of ```Embedded Script```. The Script should be the ```Create_Folder``` script using the ```LATEST``` version with a ```Command Shell``` **Runner**.
+Dans le **Schedule Embedded Scripts Training**, créez un Job Windows nommé **Create Daily Folder** avec une fréquence du lundi au vendredi. Le Job doit exécuter un **Job Action** ```Embedded Script```. Le script doit être ```Create_Folder``` en utilisant la version ```LATEST``` avec un ```Command Shell``` **Runner**.
 
-Be sure that the **Global System Property** ```$SCHEDULE DATEYYYYMM``` exists. If it does not, create it.
+Assurez-vous que la **Global System Property** ```$SCHEDULE DATEYYYYMM``` existe. Si ce n'est pas le cas, créez-le.
 
-Build the Schedule Released for Today and verify that the folder ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”``` was created for Today.
+Mettre au plan le Schedule en Released pour aujourd'hui et vérifiez que le dossier sous ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”``` a été créé pour aujourd'hui.
 
 
 <div>
@@ -22,39 +23,39 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Under the **Scripts** topic, Double-Click on **Repository**. 
-2.	Double-Click on the **Create Folder** script.
-3.	Double-Click on the **last version** of the script.
-4.	The content of the scripts will be displayed. This script checks to see if a folder exists. If it already exists, it exits without doing anything. If it does not exist, then it will create the folder.
-5.	Click **Cancel** and then **Close**.
-6.	Close the **Script Repository** tab.
-7.	Under the **Administration** topic, Double-Click on **Job Master**. 
-8.	In the **Schedule** drop-down list, select **Embedded Scripts Training**.
-9.	Click the **Add** button on the **Job Master** toolbar. 
-10.	In the **Name** textbox, enter **Create Daily Folder**.
-11.	In the **Job Type** drop-down list, select ```Windows```.
-12.	In the **Primary Machine** drop-down list, select ```SMATraining```. 
-13.	In the **Job Action** drop-down list, select ```Embedded Script```.
-14.	In the **User ID** drop-down menu, select ```SMATRAINING\SMAUSER```.
-15.	In the **Script** drop-down list, select the ```Create_Folder```. 
-16.	Leave the Version as ```LATEST```.
-17.	In the **Runner** drop-down menu, select ```Command Shell```.
-18.	In the **Arguments** textbox, type the following: 
+1. Sous la rubrique **Scripts**, double-cliquez sur **Repository**.
+2. Double-cliquez sur le script ```Create Folder```. 
+3. Double-cliquez sur **la dernière version** du script.
+4. Le contenu des scripts sera affiché. Ce script vérifie si un dossier existe. S'il existe déjà, il sort sans rien faire. S'il n'existe pas, il créera le dossier.
+5. Cliquez sur **Annuler** puis sur **Fermer**.
+6. Fermez l'onglet **Script Repository**.
+7. Sous la rubrique **Administration**, double-cliquez sur **Job Master**.
+8. Dans la liste déroulante **Schedule**, sélectionnez **Embedded Scripts Training**.
+9. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+10. Dans la zone de texte **Nom**, entrez **Create Daily Folder**.
+11. Dans la liste déroulante **Type de Job**, sélectionnez ```Windows```.
+12. Dans la liste déroulante **Machine Primaire**, sélectionnez ```SMATraining```.
+13. Dans la liste déroulante **Job Action**, sélectionnez ```Embedded Script```.
+14. Dans le menu déroulant **User ID**, sélectionnez ```SMATRAINING\SMAUSER```.
+15. Dans la liste déroulante **Script**, sélectionnez le fichier ```Create_Folder```.
+16. Laissez la version comme ```LATEST```.
+17. Dans le menu déroulant **Runner**, sélectionnez ```Command Shell```.
+18. Dans la zone de texte **Arguments**, tapez ce qui suit :
 ```
 “C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
 ```
-19.	Click the **Save** button.
-20.	Give the Job a Frequency of **Mon-Fri-N**.
-21.	Add **Documentation** and then close the **Job Master**.
-22.	Outside of OpCon verify that the following folder does not exist:  
+19. Cliquez sur le bouton **Sauvegarder**.
+20. Donnez au Job une fréquence de ```Mon-Fri-N```.
+21. Ajoutez de la documentation, puis fermez le **Job Master**.
+22. En dehors d'OpCon, vérifiez que le dossier suivant n'existe pas :
 ```
 “C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
 ```
-(where ```$SCHEDULE DATEYYYYMM``` refers to the current month of the current year)
+(```$SCHEDULE DATEYYYYMM``` fait référence au mois et année en cours))
 
-23.	Go back to **Enterprise Manager** and build the **Embedded Scripts Training Schedule** **Released** for today.
-24.	Once the Job completes successfully, verify that the folder was created.
+23. Revenez à **Enterprise Manager** et Mettre au plan le **Schedule Embedded Scripts Training en Released** pour aujourd'hui.
+24. Une fois le Job terminée, vérifiez que le dossier a été créé.
 
 </details>

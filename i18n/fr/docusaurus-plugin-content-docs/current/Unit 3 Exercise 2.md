@@ -30,7 +30,7 @@ Your browser does not support the video tag.
 3. Sous la liste Revoked, cliquez sur la machine ```SMATraining```, puis sur la flèche verte (pointant vers la droite) pour placer ```SMATraining``` sous la liste **Autorisé**.
 4. Fermez l'onglet Machine Privileges.
 
-:::note  
+:::note Remarque
 l'utilisateur ```Student1``` (qui se trouve sous le rôle de **Training**) peut désormais sélectionner cette machine pour exécuter des Jobs lors de leur configuration dans l'écran Job Details
 :::
 
@@ -44,7 +44,7 @@ l'utilisateur ```Student1``` (qui se trouve sous le rôle de **Training**) peut 
 12. Fermez l'onglet Machine Status, puis déconnectez-vous d'Enterprise Manager. Cliquez sur OK pour confirmer que vous vous déconnectez.
 13. À partir de l'écran de connexion OpCon / xps, laissez les champs **Username** et **Password** et cliquez sur **Login**.
 
-:::caution Warning
+:::caution Remarque
 l'utilisateur ```Student1``` ne peut mettre à jour aucune information pour aucune machine dans la configuration, mais pourra sélectionner cette machine lors de la configuration des Jobs SI les privilèges pour cette machine sont configurés.
 :::
 

@@ -1,25 +1,27 @@
 ---
-sidebar_panel: 'External Event Thresholds'
+sidebar_label: 'Threshold - Events externes'
+hide_title: 'false'
 ---
 
-### Thresholds - External Events
+## Threshold - Events externes
 
-* As with any OpCon Event, ```$THRESHOLD:SET``` can be used as external Event
-* Benefit: Can use + and – as calculation
+* Comme tous les events Opcon, ```$THRESHOLD:SET``` peut être utilisé comme un event externe
+* Avantage: les signes + et – peuvent être utilisés pour faire des calculs
 
-Example:  
+
+Exemple:  
 
 ```$THRESHOLD:SET,<threshold name>,+1```  
 ```$THRESHOLD:SET,<threshold name>,-1```  
 
-* Thresholds can be used to count files
+* Les Thresholds peuvent être utilisés pour compter des fichiers
 
-Example:  
+Exemple:  
 
-* A Company receives some files every day that need to be counted
+* Une entrerpise reçoit des fichiers tous les jours et il est necessaire de les compter
+  * Utiliser un File Watcher pour détecter l’arrivée d’un fichier
+  * Dés qu’un fichier arrive, incrémenter la valeur du Threshold (```+1```)
+  * Envoyer une notification pour transmettre la valeur du Threshold
 
-	* Use File Watcher process looking for files 
-	* Each time file arrives, process will add ```1``` to Threshold
-	* Set Notification to relay Threshold value
 
 <a href="imgbasic/415.png" target="_blank"><img src="imgbasic/415.png" width="500"></img></a>

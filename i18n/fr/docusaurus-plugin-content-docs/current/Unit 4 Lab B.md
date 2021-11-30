@@ -1,63 +1,64 @@
 ---
-sidebar_panel: 'Unit 4 Lab B'
+sidebar_label: 'Unite 4 Lab B'
+hide_title: 'false'
 ---
 
-### LAB B
+### Unite 4 Lab B
 
-Congo Online Retail Inc. has a file for every office that made a staffing change during the month. 
+Congo Online Retail Inc. a un fichier pour chaque bureau qui a fait un changement de personnel au cours du mois.
 
-There is no way to predict the number of files that will be present every day of the month (the files can be created and processed on non-working days). 
+Il n'y a aucun moyen de prédire le nombre de fichiers qui seront fait chaque jour du mois (les fichiers peuvent être créés et traités les jours fériés).
 
-The window for those files to be created is between ```00:00 (midnight)``` and ```7:00 PM```. 
+La fenêtre de création de ces fichiers est comprise entre ```00:00``` (minuit) et ```19:00```.
 
-We do not know the name of the files, but we know the folder where they will be placed and that all of them have the ```.txt``` extension.
+Nous ne connaissons pas le nom des fichiers, mais nous connaissons le dossier dans lequel ils seront placés et que tous ont l'extension ```.txt```.
 
-Only one file can be processed at a given time (Create a Resource named ```HR``` with a **Max Value** of ```1```). 
+Un seul fichier peut être traité à un moment donné (Créer une **ressource** nommée ```HR``` avec une **valeur maximale** de ```1```).
 
-The procedure includes running the following Jobs daily in a SubSchedule named **HR Import Processing**:
+* La procédure comprend l'exécution quotidienne des Jobs suivants dans un sous-schedule nommé **HR Import Processing** : 
+	* **Decrypter** le fichier exécutant le script ```HR-Decrypt.cmd```
+	* **Importer** le fichier dans une base de données HR exécutant le script ```HR-Import.cmd```
+	* **Publier** les modifications que le fichier contient en exécutant le script ```HR-Post.cmd```
+	* **Archiver** le fichier en exécutant un Sous-type de Job Windows : ```File Move``` **Job Sub-Type**  
+* Tous les scripts sont stockés dans le dossier  ```C:\scripts```.
+* Tous les fichiers entrants arrivent dans le dossier  ```C:\Human Resources\Incoming Files```.
+* Tous les fichiers doivent être archivés dans le dossier  ```C:\Human Resources\Archive```.
 
-* **Decrypt** the file running the ```HR-Decrypt.cmd``` script
-* **Import** the file into an HR Database running the ```HR-Import.cmd``` script
-* **Post** the changes the file contains running the ```HR-Post.cmd``` script
-* **Archive** the file running the Windows: ```File Move``` **Job Sub-Type**  
+Utilisez **les propriétés globales (Global Properties)** pour appeler les dossiers Entrant (Incoming) et Archive.
 
-* All scripts are stored in the ```C:\scripts``` folder.
-* All incoming files arrive in the ```C:\Human Resources\Incoming Files``` folder.
-* All files must be archived under the ```C:\Human Resources\Archive``` folder.
+Utilisez le sous-type de **Job** ```Command : File Move``` pour archiver les fichiers
 
-Use **Global Properties** to call the Incoming and Archive folders.
+Incoming (entrant) : ```"[[HR-Incoming]]\[[SI.FILENAME]]"```
 
-Use the ```Command: File Move``` **Job Sub-Type** to Archive the files 
+Archive : ```"[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]"```
 
-Incoming: ```"[[HR-Incoming]]\[[SI.FILENAME]]"```
-Archive: ```"[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]"```
+Créez un Schedule principal nommé **HR Import**. Créez un Job container nommé **HR Import Processing** (cochez Autoriser les instances multiples). Le job doit exécuter le sous-schedule **HR Import Processing** avec une fréquence ```OnRequest```. Le job doit avoir une dépendance de ressource sur la ressource ```HR``` avec une valeur de ```1```.
 
-Create a Main Schedule named **HR Import**. Create a Container Job named **HR Import Processing** (mark Allow Multi-Instance). The Job should run the **HR Import Processing** SubSchedule with an ```OnRequest``` Frequency. The Job should have a Resource Dependency on the ```HR``` Resource with a value of ```1```.
-
-Add a ```$JOB:RESTART``` **Event** to the Container Job with the following parameters:
+Ajoutez un event ```$JOB:RESTART``` au Job container avec les paramètres suivants:
 
 ```
 $JOB:RESTART event:[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival
 ```
 
-Create a **File Arrival Job** to monitor for: ```[[HR-Incoming]]\*.txt"```
+Créez un job **File Arrival** qui surveillera : ```[[HR-Incoming]]\*.txt"```
 
-**Start Time** for file creation: ```00:00```
-**End Time** for file creation: ```19:00```
+Heure de début de création de fichier : ```00:00 ```
 
-Give the **File Arrival Job** Failure Criteria:
+Heure de fin de création de fichier : ```19:00```
 
-```Equal to 0``` and ```Equal to 1``` both ```Finish OK```
+Indiquez les critères d'échec du job **File Arrival** :
 
-Give the **File Arrival Job** a ```$JOB:ADD``` **Event** with the following paramters:
+```Equal to 0``` et ```Equal to 1``` les deux ```Finish OK```
+
+Donnez au job **File Arrival** un event ```$JOB:ADD``` avec les paramètres suivants :
 
 ```
 [[$SCHEDULE DATE]],[[$SCHEDULE NAME]],HR Import Processing,OnRequest,FILENAME=[[JI.$ARRIVED SHORT FILE NAME]]
 ```
 
-Finally, in the **HR Import** Schedule create an **Embedded Script** Job named **Create HR Files** running the ```Lab_4``` script with a ```PowerShell``` Runner.
+Enfin, dans le schedule **HR Import**, créez un job avec un **script embarqué (embedded script)** nommé **Create HR Files** exécutant le **script** ```Lab_4``` avec un **Runner** ```PowerShell```.
 
-Build the Schedule to verify success.
+Mettre au plan le schedule pour vérifier la bonne exécution.
 
 
 <div>
@@ -69,16 +70,15 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-**Lab Instructions**:  
+**Instructions de laboratoire** :  
 
-* Create a **Resource** called **HR** and give it a **Max Value** of ```1```  
-* Create a **Global Property** for the **Incoming** folder (for example: **HR-Incoming**)  
-* Create a **Global Property** for the **Archive** folder (for example: **HR-Archive**)  
-* Create a **SubSchedule** named **HR Import Processing** (this must be a **Monday-Sunday** Schedule Calendar) and add **Documentation** to the Schedule  
-
-* Create **4 Windows Jobs** in the **HR Import Processing SubSchedule** named (in the order listed):  
+* Créez une **ressource** appelée ```HR``` et donnez-lui une **valeur maximale** de ```1```
+* Créez une **Global Property** pour le dossier **Incoming** (par exemple: **HR-Incoming**)
+* Créez une **Global Property** pour le dossier **Archive** (par exemple: **HR-Archive**)
+* Créez un sous-schedule nommé **HR Import Processing** (il doit s'agir d'un schedule du **lundi au dimanche**) et ajoutez de la documentation au schedule.
+* Créez **4 Jobs Windows** dans le sous-schedule **HR Import Processing** nommé (dans l'ordre indiqué):
 	* HR-Decrypt  
 	```HR-Decrypt.cmd```
 	* HR-Import  
@@ -86,84 +86,93 @@ Your browser does not support the video tag.
 	* HR-Post  
 	```HR-Post.cmd```
 	* HR-Archive  
-		* Use the ```Command: File Move``` Job Sub-Type
-		* Use a combination of the **Incoming Global Property** and the ```[[SI.FILENAME]]``` for the **SOURCE**.  
-		Example:   
-		```“[[HR-Incoming]]\[[SI.FILENAME]]”```
+		* Utilisez le sous-type de job ```commande : File Move```
+        * Utilisez une combinaison de la propriété globale entrante et de ```[[SI.FILENAME]]``` pour la **SOURCE**.
 
-	* Use a combination of the **Archive Global Property**, the ```[[SI.FILENAME]]``` and the **current date** with a ```(-1m)``` offset for the **DESTINATION**.   
-    :::note Example   
-    ```“[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]”``` 
-    :::
-
-:::note
-The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the **File Arrival JOB:ADD Event**
+:::note Exemple   
+```
+“[[HR-Incoming]]\[[SI.FILENAME]]”
+```
 :::
 
-* These Jobs need to run as the ```SMATRAINING\SMAUSER``` User ID
-* These Jobs need to run on the ```SMATRAINING``` machine
-* These Jobs must run every day
-* Do not forget to add **Documentation** to all Jobs
-* The Jobs must run in this order:
+* Utilisez une combinaison de la **propriété globale d'archivage**, de ```[[SI.FILENAME]]``` et de la **date actuelle** avec un décalage d’un mois (-1m) pour la **DESTINATION**.   
+
+:::note Exemple   
+```
+“[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]”
+```
+:::
+
+:::note Remarque
+la **propriété d'instance de schedule** ```[[SI.FILENAME]]``` sera transmise par **l’Event ```JOB:ADD``` du job File Arrival**
+:::
+
+* Ces jobs doivent s'exécuter avec le **User ID** ```SMATRAINING\SMAUSER```
+* Ces jobs doivent s'exécuter sur la **machine** ```SMATRAINING```
+* Ces jobs doivent être exécutés tous les jours
+* N'oubliez pas d'ajouter de la **documentation** à tous les jobs
+* Les Jobs doivent s'exécuter dans cet ordre :
 	* Decrypt
 	* Import
 	* Post
 	* Archive
-* Use the Property that points to the ```C:\Scripts``` path for the **Command Lines**
+* Utilisez la propriété qui pointe vers le chemin ```C:\Scripts``` pour les **lignes de commande**
+* Créez un **Schedule principal** nommé **HR Import** (il doit être du **lundi au dimanche**)
+* **Mise au plan automatique** ```7``` jours à l'avance pour ```1``` jour
+* **Suppression automatique** ```7``` jours en arrière 
+* Ajouter de la **documentatio**n pour le schedule
+* Créez un **Job container** dans le schedule **HR Import** nommé **HR Import Processing**
+* Le Job container doit exécuter **HR Import Processing SubSchedule**.
+* Le Job container doit **autoriser la multi-instance**
+* Ajouter de la **documentation**
+* Donnez une fréquence ```OnRequest```
+* Donner au job une **dépendance de ressources** de ```1```
+* Une fois que le **Job de container** affiche « **Finished OK** » ajouter un event à supprimer ```$JOB:RESTAR```T, pour le job **File Arrival**.
+	* Voici les paramètres de l'event  ```$JOB:RESTART``` :
+```
+[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival
+```
 
-* Create a **main Schedule** named **HR Import** (this must be a **Monday-Sunday** Schedule Calendar)
-* **Auto-build** the Schedule ```7``` days in advance for ```1``` day
-* **Auto-delete** the Schedule for ```7``` days
-* Add **Documentation** for the Schedule 
-* Create a **Container Job** in the **HR Import Schedul**e named **HR Import Processing**
-* The **Container Job** should run the **HR Import Processing SubSchedule**
-* The container Job should **Allow Multi-Instance** 
-* Add **Documentation**
-* Give an **OnRequest** Frequency 
-* Give the Job a **Resource Dependency** of ```1```
-* Once the **Container Job** “Finishes OK” have an **Event** to do a ```$JOB:RESTART```, for the **File Arrival** Job
-	* These are the parameters for the ```$JOB:RESTART``` event:  
-```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival```
-
-* Create a File Arrival Job named **File Arrival**
-* *Monitor for the following:
+* Créez un Job **File Arrival** nommé **File Arrival**
+* Surveiller les éléments suivants :
 ```“[[HR-Incoming]]\*.txt”```  
-Or   
+
+Ou   
+
 ```“C:\Human Resources\Incoming Files\*.txt”```   
-* **Start Time** for file creation should be ```00:00``` (midnight) 
-* **End Time** for the file creation should be ```7:00PM```
-* Add **Failure Criteria**
-	* Set **Comparison Operator** “Equal To” Value “0” Result “Finish OK”   
-    And/Or  
-	* “OR” Comparison Operator “**Equal To**” Value ```1``` Result “**Finish OK**”   
-	* Add **Documentation**
-	* Use the ```$JOB:ADD``` **Event** for the txt files when the **File Arrival** finds a **.txt** file
-		* The **Event** will add the **Container Job** to the **HR Import Schedule** in the daily
-		* **Add** an **Event** to the **File Arrival Job** to pass a **Job Instance Property** named ```[[JI.FILENAME]]``` to capture the file name
-* These are the parameters for the ```$JOB:ADD``` Event:
+* **Start Time** de la création du fichier doit être ```00:00``` (minuit)
+* **End Time** de la création du fichier doit être ```19:00```
+* Ajouter des **critères d'échec (Failure Criteria)**
+	* Définir l’**opérateur de comparaison** " Egal à " Valeur "```0```" Résultat « **Finish OK** »   
+
+Et / Ou  
+
+* Opérateur de comparaison « OU » « Egal à » Valeur ```1``` Résultat « **Finish OK** »
+    * Ajouter de la **documentation**
+    * Utilisez l'**event** ```$JOB:ADD``` pour les fichiers txt lorsque **File Arrival** trouve un fichier ```.txt```
+        * L'**event** ajoutera le **job container** au schedule **HR Import** au quotidien.
+        * **Ajouter** un **event** au **Job File Arrival** pour transmettre une **propriété d'instance de job** nommée ```[[JI.FILENAME]]``` pour capturer le nom du fichier
+        * Voici les paramètres de l’event ```$JOB:ADD``` : 
 ```
 [[$SCHEDULE DATE]],[[$SCHEDULE NAME]],HR Import Processing,OnRequest,FILENAME=[[JI.$ARRIVED SHORT FILE NAME]]
 ```
+* Pour pouvoir tester la configuration, ajouter un **Job Embedded Script** nommé **Create HR Files** au schedule **HR Import**
+* Le script créera les fichiers sous le dossier : ```C:\Human Resources\Incoming Files```
+* Configurez le **Job Windows** pour utiliser l’action **Embedded Script** et sélectionnez le **script** ```Lab_4```
+    * N'oubliez pas de sélectionner le **Runner** ```PowerShell```
+* Le Job doit s'exécuter sur la machine ```SMATRAINING``` sous le compte ```SMATRAINING\SMAUSER```
+* Donnez-lui la fréquence du **lundi au dimanche**
+* Ajouter de la **documentation**
+* Avant de mettre au plan le schedule pour aujourd'hui, utilisez le **Designer Workflow** pour vérifier votre configuration
 
-* To be able to test the configuration, add an **Embedded Script Job** named **Create HR Files** to the **HR Import Schedule**
-* The script will create the files under the: 
-```C:\Human Resources\Incoming Files``` folder
-* Configure the **Windows Job** to use Job Action **Embedded Script** and select the ```Lab_4 script``` 
-	* Do not forget to select ```PowerShell``` as the **Runner**
-* The Job must run on the ```SMATRAINING``` machine under the ```SMATRAINING\SMAUSER``` account
-* Give it the Frequency **Monday-Sunday**
-* Add **Documentation**
-
-* Before building the Schedule for today, use the **Workflow Designer** to check your configuration. 
-
-#### HR Import Processing (The SubSchedule)
+#### HR Import Processing (Le Sous-Schedule)
 
 <a href="imgbasic/445.png" target="_blank"><img src="imgbasic/445.png" width="400"></img></a>
 
-#### HR Import (The Main Schedule)
+#### HR Import (Le Schedule Principal)
 
 <a href="imgbasic/446.png" target="_blank"><img src="imgbasic/446.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)
 
 </details>

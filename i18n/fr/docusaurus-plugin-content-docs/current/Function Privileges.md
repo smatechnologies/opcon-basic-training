@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Function Privileges'
+sidebar_label: 'Privilèges de fonction'
+hide_title: 'false'
 ---
+
+## Privilèges de fonction
 
 <figure>
     <audio
@@ -11,7 +14,7 @@ sidebar_panel: 'Function Privileges'
     </audio>
 </figure>
 
-* Individual Privileges inside ‘Function Privileges’ are used to grant access to Functions not related to Jobs
-* Each User must have Function Privileges via one or more Roles to perform actions within OpCon
+* Les privilèges individuels dans les `` privilèges de fonction '' sont utilisés pour accorder l'accès aux fonctions non liées aux Jobs
+* Chaque utilisateur doit avoir des privilèges de fonction via un ou plusieurs rôles pour effectuer des actions dans OpCon
 
 <a href="imgbasic/310.png" target="_blank"><img src="imgbasic/310.png" width="500"></img></a>

@@ -1,52 +1,54 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 2'
+sidebar_label: 'Unite 4 Exercice 2'
+hide_title: 'false'
 ---
 
-### Exercise 2: Thresholds
+## Exercice 2: Thresholds
 
-##### Objective:
+##### Objectif:
 
-Create a **Threshold** named ```TrainingThreshold``` with a value of ```0```.
+Créez un **Threshold** nommé ```TRAININGTHRESHOLD``` avec une valeur de ```0```.
 
-Create a Schedule named **My Threshold Schedule**.
+Créez un schedule nommée **My Threshold Schedule**.
 
-Create a Windows Job named **Threshold Dependency Job** that runs the generic program on a ```7 day``` Frequency. Give the Job a **Threshold Dependency** on ```TrainingThreshold``` with a value of ```equal to 2```.
+Créez un Job Windows nommé **Threshold Dependency Job** qui exécute le programme générique sur une fréquence de ```7``` day. Donnez au Job une dépendance threshold ```TrainingThreshold``` d’une valeur de ```egal à 2```.
 
-Create a **Threshold Update** on the Job for a **Finished OK** status with a value of ```0```.
+Créez une **mise à jour Threshold** sur le Job pour un état **Finished OK** avec une valeur de ```0```.
 
-Create another Windows Job named **Threshold Update Job** that runs the generic program on a ```7 day``` Frequency. 
+Créez un autre Job Windows nommé **Threshold Update Job** qui exécute le programme générique sur une fréquence de ```7 day```.
 
-Create a **Threshold Update** on the Job for a Finished OK status with a value of ```2```.
+Créez une **mise à jour Threshold** sur le Job pour un état Finished OK avec une valeur de ```2```.
 
-Create a Null Job named **Threshold Initial Value Job** that runs on a ```7 day``` Frequency. 
+Créez un Job null **Threshold Initial Value Job** qui s'exécute sur une fréquence de ```7 day```.
 
-Add a ```$NOTIFY:EMAIL``` **Event** to the Job that runs:
+
+Ajoutez l’event ```$NOTIFY:EMAIL``` au Job qui s'exécute :
 
 ```
 smauser@congo.local,,,Initial value of TrainingThreshold,Initial value of TrainingThreshold is [[TH.TrainingThreshold]]
 ```
 
-Add a second Null Job named **Threshold After Update Job** copied from the first Job. Update the Event Parameters to:
+Ajoutez un deuxième Job Null nommé **Threshold After Update Job** copié à partir du premier Job. Mettez à jour les paramètres d'event:
 
 ```
 smauser@congo.local,,,After the update,After the update the value of TrainingThreshold is [[TH.TrainingThreshold]]
 ```
 
-Create a third Null Job named **Threshold Final Value Job** copied from the last Job. Update the Event Parameters to:
+Créez un troisième Job Null nommé **Threshold Final Value Job** copié à partir du dernier Job. Mettez à jour les paramètres d'event:
 
 ```
 smauser@congo.local,,,Final value of TrainingThreshold,Final value of TrainingThreshold is [[TH.TrainingThreshold]]
 ```
 
-Set Dependencies on the Jobs as such:
+Définissez les dépendances sur les Jobs en tant que telles :
 
 **Threshold Initial Value Job > Threshold Update Job > Threshold After Update Job**
 
 **TrainingThreshold > Threshold Dependency Job > Threshold Final Value Job**
 
-Build the Schedule Released for Today. View results in Matrix View or Solution Manager.
+Mettre au plan le schedule en released pour aujourd'hui. Affichez les résultats dans la vue Matrix ou Solution Manager.
 
-Open **Thunderbird** to verify Notifications.
+Ouvrez **Thunderbird** pour vérifier les notifications.
 
 <div>
 <video width="320" height="240" controls>
@@ -57,99 +59,98 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Create the Threshold.
-	* Under the **Administration** topic, Double-Click on **Thresholds**. 
-	* Click the **Add** button on the Thresholds toolbar.
-	* In the Name textbox, type **TrainingThreshold**, type some documentation and in the **Threshold** textbox enter a value of ```0```.
-	* Click the **Save** button on the Thresholds toolbar. Close the Thresholds tab.
-2.	Create the Schedule and Jobs.
-	* Under the **Administration** topic, Double-Click **Schedule Master**.
-	* Click the **Add** button on the **Schedule Master** toolbar.
-	* Add a new Schedule called **My Threshold Schedule**.
-	* Use these settings for the Schedule:
-		* Monday through Sunday are working days.
-		* Do **NOT** use the Master Holiday Calendar.
-		* Auto Build ```7``` days in advance for ```1``` days.
-		* Auto Delete ```7``` days.
-	* Do not forget to add **Documentation** to your Schedule.
-	* Close the **Schedule Master** and open the **Job Master** to add your Jobs.
-	* Select the **My Threshold Schedule**.
-	* Click the **Add** button on the Job Master toolbar.
-	* Add a new Job named **Threshold Dependency Job** have it run the following:
-		* Program: ```Genericp.exe``` program to run for ```10``` seconds.   
-        :::note
-        If using Ctrl+F, do not select a command line that is using a Schedule or Job Instance Property 
+1. Créez le Threshold.
+    * Sous la rubrique **Administration**, double-cliquez sur **Thresholds**.
+    * Cliquez sur le bouton **Ajouter** dans la barre d'outils Threshold.
+    * Dans la zone de texte **Nom**, tapez **TrainingThreshold**, saisissez de la documentation et dans la zone de texte Threshold, entrez la valeur ```0```.
+    * Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Threshold**. Fermez l'onglet **Threshold**.
+2. Créez le schedule et les Jobs.
+    * Sous la rubrique **Administration**, double-cliquez sur **Schedule Master**.
+    * Cliquez sur le bouton **Ajouter** dans la barre d'outils **Schedule Master**.
+    * Créer un nouveau Schedule appelé **My Threshold Schedule**.
+    * Utilisez ces paramètres pour le schedule :
+        * Du lundi au dimanche sont des jours ouvrés.
+        * N'utilisez **PAS** le calendrier Master Holiday.
+        * Mise au Plan automatique ```7``` jours à l'avance pour ```1``` jour.
+        * Suppression automatique ```7``` Jours en arrière 
+    * N'oubliez pas d'ajouter de la **documentation** à votre schedule.
+    * Fermez le **Schedule Master** et ouvrez le Job Master pour ajouter vos Jobs.
+    * Sélectionnez **My Threshold Schedule**.
+    * Cliquez sur le bouton **Ajouter** dans la barre d'outils Job Master.
+    * Ajoutez un nouveau Job nommé **Threshold Dependency Job** et exécutez-le comme suit :
+        * Programme :``` Genericp.exe``` programme à exécuter pendant ```10``` secondes.  
+        :::note Remarque
+        si vous utilisez Ctrl + F, ne sélectionnez pas une ligne de commande utilisant une propriété de schedule ou d'instance de Job
         :::
-	    * Machine: ```SMATraining```
-		* User: ```SMATRAINING\SMAUSER```
-		* Frequency: ```Example-Mon-Sun-O```
-		* Also do not forget to add **Documentation**.
-3.	Create the Threshold Dependency.
-	* Click on the **Dependencies** tab.
-	* Click on the **Threshold/Resource Dependency** tab.
-	* In the **Threshold/Resource Dependency** frame, click the **Add** button.
-	* In the **Threshold/Resource** drop-down list, select **TrainingThreshold**.
-	* In the **Operator** drop-down list, select ```=``` (**equals symbol**).
-	* In the **Value** textbox, type ```2```.
-	* Click the **OK** button.
-4.	Create a Threshold/Resource Update:
-	* Click on the **Threshold/Resource Update** tab.
-	* In the **Threshold/Resource Update** frame, click the **Add** button.
-	* Select **TrainingThreshold** from the drop-down list.
-	* In the **Job Status** drop-down list, select **Finished OK**.
-	* In the **Value** textbox, type ```0```.
-	* Click **OK**.
-5.	Click the **Add** button on the **Job Master** toolbar to add another Job.
-6.	Name the Job as **Threshold Update Job**.
-	* Program: ```Genericp.exe``` program to run for ```10``` seconds 
-	* Machine: ```SMATraining```
-	* User: ```SMATRAINING\SMAUSER```
-	* Frequency: ```Example-Mon-Sun-O```
-	* Also do not forget to add **Documentation**.
-7.	Create a Threshold/Resource Update:
-	* Click on the **Threshold/Resource Update** tab.
-	* In the **Threshold/Resource Update** frame, click the **Add** button.
-	* Select **TrainingThreshold** from the drop-down list.
-	* In the **Job Status** drop-down list, select **Finished OK**.
-	* In the **Value** textbox, type ```2```.
-8.	Add a Null Job to the Schedule to send a notification with the initial value of the Threshold.
-	* Click the **Add** button on the **Job Master** toolbar.
-	* Name the Job as **Threshold Initial Value Job** and 
-	* Frequency: **Mon-Sun-O**
-	* Click the **Events** tab and click the **Add** button in the **Events** frame.
-	* Select the **Job Status** radio button.
-	* Click **Next**.
-	* Select **Finished OK** from the **Job Status** drop-down list.
-	* Click **Next**.
-	* Select the ```$NOTIFY:EMAIL``` Event from the **Event Template** drop-down list.
-	* Update the **Events parameters** as follows:
-		* ```smauser@congo.local,,,Initial value of TrainingThreshold,Initial value of TrainingThreshold is [[TH.TrainingThreshold]]```
-
-	* Click **Finish**.
-9.	Add a second Null Job to the Schedule to send a notification with the value of the Threshold after it is updated to ```2```.
-	* Be sure you have the **Threshold Initial Value Job** selected. 
-	* Click the **Copy** button (fourth button from the right) on the **Job Master** toolbar to copy this Job.
-	* Name the new Job as **Threshold After Update Job**.
-	* Go to the **Events** tab and change the **Event** to the following:
-		* ```smauser@congo.local,,,After the update,After the update the value of TrainingThreshold is [[TH.TrainingThreshold]]```
-10.	Add a third Null Job to the Schedule to send a notification with the final value of the Threshold.
-	* Be sure you have the **Threshold After Update Job** selected. 
-	* Click the **Copy** button (fourth button from the right) on the **Job Master** toolbar to copy this Job.
-	* Name the new Job as **Threshold Final Value Job**.
-	* Go to the **Events** tab and change the **Event** to the following:
-		* ```smauser@congo.local,,,Final value of TrainingThreshold,Final value of TrainingThreshold is [[TH.TrainingThreshold]]```
-11.	Close the Job Master and the Schedule Master (if open).
-12.	Open Workflow Designer to set Dependencies.
-	* Select the **My Threshold Schedule** from the Select Schedule frame.
+        * Machine : ```SMATraining```
+        * Utilisateur : ```SMATRAINING\SMAUSER```
+        * La fréquence : ```Example-Mon-Sun-O```
+        * N'oubliez pas non plus d'ajouter de la **documentation**.
+3. Créez la dépendance Threshold.
+    * Cliquez sur l'onglet **Dépendances**
+    * Cliquez sur l'onglet **Threshold/Resource dépendance**
+    * Dans le cadre **Threshold/Resource dépendance**, cliquez sur le bouton **Ajouter**.
+    * Dans la liste déroulante **Threshold/Resource**, sélectionnez **TrainingThreshold**.
+    * Dans la liste déroulante **opérateur**, sélectionnez = (**symbole égal**).
+    * Dans la zone de texte **Valeur**, saisissez ```2```.
+    * Cliquez sur le bouton **OK**.
+4. Créer une mise à jour threshold/ ressource :
+    * Cliquez sur l'onglet **Mise à jour Threshold/Resource**.
+    * Dans le cadre **Threshold/Resource Update**, cliquez sur le bouton **Add**.
+    * Sélectionnez **TrainingThreshold** dans la liste déroulante.
+    * Dans la liste déroulante **Statut Job**, sélectionnez **Finished OK**.
+    * Dans la zone de texte **Valeur**, saisissez ```0```.
+    * Cliquez sur **OK**.
+5. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master** pour ajouter un autre Job.
+6. Nommez le Job en tant que **Threshold Update Job**.
+    * Programme : ```Genericp.exe``` programme à exécuter pendant ```10``` secondes
+    * Machine : ```SMATraining```
+    * Utilisateur : ```SMATRAINING\SMAUSER```
+    * Fréquence : ```Example-Mon-Sun-O```
+    * N'oubliez pas non plus d'ajouter de la **documentation**.
+7. Créer une mise à jour Threshold/ ressource :
+    * Cliquez sur l'onglet Mise à jour **Threshold/Ressource**.
+    * Dans le cadre **Mise à jour Threshold/Ressource**, cliquez sur le bouton **Ajouter**.
+    * Sélectionnez **TrainingThreshold** dans la liste déroulante.
+    * Dans la liste déroulante **Statut Job**, sélectionnez **Finished OK**.
+	* Dans la zone de texte Valeur, saisissez ```2```.
+8. Ajoutez un Job null à la planification pour envoyer une notification avec la valeur initiale du Threshold.
+    * Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+    * Nommez le Job **Threshold Initial Value Job** 
+    * Fréquence : **Mon-Sun-O**
+    * Cliquez sur l'onglet **Events** et cliquez sur le bouton **Ajouter** dans le cadre **Events**.
+    * Sélectionnez le bouton radio **Statut de Job**.
+    * Cliquez sur **Suivant**.
+    * Sélectionnez **Finished OK** dans la liste déroulante **Statut Job**.
+    * Cliquez sur **Suivant**.
+    * Sélectionnez l'event ```$NOTIFY:EMAIL``` dans la liste déroulante **Modèle d’Event**.
+    * Mettez à jour les **paramètres d'events** comme suit:
+        * ```smauser@congo.local,,,Initial value of TrainingThreshold,Initial value of TrainingThreshold is [[TH.TrainingThreshold]]```
+    * Cliquez sur **Terminer**.
+9. Ajoutez un deuxième Job Null au schedule pour envoyer une notification avec la valeur du Threshold après sa mise à jour à ```2```.
+    * Assurez-vous que **Threshold Initial Value Job** soit sélectionné.
+    * Cliquez sur le bouton **Copie** (quatrième bouton à partir de la droite) dans la barre d'outils **Job Master** pour copier ce Job.
+    * Nommez le nouveau Job **Threshold After Update Job**.
+    * Accédez à l'onglet **Events** et modifiez l' **event** comme suit:
+        * ```smauser@congo.local,,,After the update,After the update the value of TrainingThreshold is [[TH.TrainingThreshold]]```
+10. Ajoutez un troisième Job Null au schedule pour envoyer une notification avec la valeur finale du Threshold.
+    * Assurez-vous que **Threshold After Update Job** soit sélectionné.
+    * Cliquez sur le bouton **Copie** (quatrième bouton à partir de la droite) dans la barre d'outils **Job Master** pour copier ce Job.
+    * Nommez le nouveau **Job Threshold Final Value Job**.
+    * Accédez à l'onglet **Events** et modifiez l'**event** comme suit :
+        * ```smauser@congo.local,,,Final value of TrainingThreshold,Final value of TrainingThreshold is [[TH.TrainingThreshold]]```
+11. Fermez le Job Master et le Schedule Master (s'ils sont ouverts).
+12.  Ouvrez **Designer Workflow** pour définir les dépendances.
+    * Sélectionnez **My Threshold Schedule** dans le cadre Sélectionner Schedule.
 
 <a href="imgbasic/414.png" target="_blank"><img src="imgbasic/414.png" width="500"></img></a>
 
-13.	**Build** the Schedule **Released** for today.
-	* Open one of the operations views (**List** or **Matrix**) or use **Solution Manager**. 
-14.	Be sure the **My Threshold Schedule** is **Completed**.
-15.	Open Thunderbird and check the inbox.
-16.	You should find ```3``` new emails. Open the emails and check the contents.
+13. **Mettre au Plan le Schedule en Released** pour aujourd'hui.
+    * Ouvrez l'une des vues d'opérations (**List** ou **Matrix**) ou utilisez **Solution Manager**.
+14. Assurez-vous que **My Threshold Schedule** est terminée (Completed).
+15. Ouvrez Thunderbird et vérifiez la boîte de réception.
+16. Vous devriez trouver de ```3``` nouveaux e-mails. Ouvrez les e-mails et vérifiez le contenu.
 
 </details>

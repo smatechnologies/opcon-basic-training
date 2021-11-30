@@ -84,7 +84,7 @@ Your browser does not support the video tag.
 * Le rapport d'inventaire d'achat nécessite les 6 jobs Windows et doit s'exécuter une fois que toutes les exécutions sont terminées
 * Mettre au Plan le Schedule pour aujourd'hui et demain
 
-:::note
+:::note Remarque
 Une fois terminé, affichez les résultats dans le **Designer Workflow**. Ensuite, mettre au Plan le Schedule en « Release » pour aujourd'hui et vérifiez son exécution à l'aide de **Solution Manager**.
 :::
 

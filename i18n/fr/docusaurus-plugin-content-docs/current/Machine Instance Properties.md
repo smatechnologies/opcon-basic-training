@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Machine Instance Properties'
+sidebar_label: 'Propriétés de l instance de machine'
+hide_title: 'false'
 ---
+
+## Propriétés de l'instance de machine
 
 <figure>
     <audio
@@ -11,13 +14,13 @@ sidebar_panel: 'Machine Instance Properties'
     </audio>
 </figure>
 
-* Advanced Machine Properties screen is used to manage **Machine Instance Properties** of a specific Machine
-* Use of a Machine Instance Property must contain "```MI.```" in front of a Property name (e.g., ```[[MI.LSAMpath]]```)  
-* Identifies a Property as Machine Instance Property
-* Communication to a Machine within OpCon must be Stopped to add or modify Machine Instance Properties
+* L'écran Advanced Machine Properties est utilisé pour gérer les **propriétés d'instance de machine (Machine Instance Properties)** d'une machine spécifique
+* L'utilisation d'une propriété d'instance de machine doit contenir « ```MI.```» devant un nom de propriété (par exemple, ```[[MI.LSAMpath]]```)
+* Identifie une propriété en tant que propriété d'instance de machine
+* La communication avec une machine dans OpCon doit être arrêtée pour ajouter ou modifier les propriétés d'instance de machine
 
-:::caution Warning
-Machine Instance Properties are case sensitive
+:::caution Remarque
+Les propriétés d'instance de machine sont sensibles à la casse
 ::::  
 
 <a href="imgbasic/343.png" target="_blank"><img src="imgbasic/343.png" width="300"></img></a>  

@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Escalation Manager'
+sidebar_label: 'Gestionnaire d escalade'
+hide_title: 'false'
 ---
+
+## Gestionnaire d'escalade
 
 <figure>
     <audio
@@ -11,45 +14,45 @@ sidebar_panel: 'Escalation Manager'
     </audio>
 </figure>
 
-* Allows users to create Escalation Rules which will be tied to Notifications
-* Escalation Rules are tied to Notifications setup in Notification Manager
-* **Groups** must be created **BEFORE Rules**
+* Permet aux utilisateurs de créer des règles d'escalade qui seront liées aux notifications
+* Les règles d'escalade sont liées à la configuration des notifications dans Notification Manager
+* **Les groupes** doivent être créés **AVANT les règles**
 
 <a href="imgbasic/326.png" target="_blank"><img src="imgbasic/326.png" width="500"></img></a>
 
-### Escalation Manager - Groups
+### Gestionnaire d'escalade - Groupes
 
-* Groups specify who will be tied to a Notification
-* Email address is gathered from the User Account screen
-* Specifies who can acknowledge an Escalated Notification
+* Les groupes spécifiques qui seront liés à une notification
+* L'adresse e-mail est regroupée à partir de l'écran User Account
+* Spécifiez qui peut confirmer une notification escaladée
 
 <a href="imgbasic/327.png" target="_blank"><img src="imgbasic/327.png" width="500"></img></a>
 
-### Escalation Manager - Global Property
+### Gestionnaire d'escalade - Propriété globale
 
-* A Global Property can have OpCon automatically update which users are tied to group
+* Une propriété globale peut faire en sorte qu'OpCon mette à jour automatiquement les utilisateurs liés au groupe
 
 <a href="imgbasic/328.png" target="_blank"><img src="imgbasic/328.png" width="500"></img></a>
 
-### Escalation Manager - Rules
+### Gestionnaire d'escalade - Règles
 
-* Escalation Rules lists:
-    * Which group will be alerted
-    * Number of alerts before escalating
-    * Minutes between alerts
-* Multiple Groups can be listed to elevate alerts after a configured number of Notifications
+* Listes des règles d'escalade :
+    * Quel groupe sera alerté
+    * Nombre d'alertes avant l'escalade
+    * Minutes entre les alertes
+* Plusieurs groupes peuvent être répertoriés pour élever les alertes après un nombre configuré de notifications
 
 <a href="imgbasic/329.png" target="_blank"><img src="imgbasic/329.png" width="500"></img></a>
 
-### Notification Manager - Escalation Rule
+### Gestionnaire de notifications - Règle d'escalade
 
-* Tie Escalated Notifications within Notification Manager
-* Only one Escalation Rule can be set up per Notification
-* Escalation Rules can only be set to emails at this time
+* Attachez les notifications escaladées dans le gestionnaire de notifications
+* Une seule règle d'escalade peut être configurée par notification
+* Les règles d'escalade ne peuvent être définies que pour les e-mails pour le moment
 
 <a href="imgbasic/330.png" target="_blank"><img src="imgbasic/330.png" width="250"></img></a>
 
-### Escalation Acknowledgement
+### Confirmation d'escalade
 
 <figure>
     <figcaption>Listen for information on Escalation Acknowledgement:</figcaption>
@@ -61,13 +64,13 @@ sidebar_panel: 'Escalation Manager'
     </audio>
 </figure>
 
-* Once Escalation is triggered, any User tied to an Escalation Group must Acknowledge it to stop the Escalation Cycle
-* End Alert in **Escalation Acknowledgement** screen
-* A Symbol will appear in bottom of Enterprise Manager near the SAM Pulse, showing how many Notifications are being Escalated
+* Une fois l'escalade déclenchée, tout utilisateur lié à un groupe d'escalade doit confirmer pour arrêter le cycle d'escalade
+* Mettre fin à l'alerte dans l'écran de confirmation d'escalade
+* Un symbole apparaîtra en bas d'Enterprise Manager près du SAM Pulse, indiquant le nombre de notifications en cours de remontée
 
 
 <a href="imgbasic/331.png" target="_blank"><img src="imgbasic/331.png" width="250"></img></a>  
 <a href="imgbasic/332.png" target="_blank"><img src="imgbasic/332.png" width="500"></img></a>  
 <a href="imgbasic/333.png" target="_blank"><img src="imgbasic/333.png" width="300"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

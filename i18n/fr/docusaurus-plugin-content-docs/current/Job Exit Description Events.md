@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Job Exit Description Events'
+sidebar_label: 'Events basés sur la description de la sortie de Job'
+hide_title: 'false'
 ---
+
+## Events basés sur la description de la sortie de Job
 
 <figure>
     <audio
@@ -11,14 +14,16 @@ sidebar_panel: 'Job Exit Description Events'
     </audio>
 </figure>
 
-* When defining an Event based on Exit Description two things must be set:
-    * **Comparison Operator**
-        * Be careful using anything but **Equal To**
-    * Each Operating System has rules for Exit Description Names and Values
-    * UNIX – Use **Contains** unless the **full Exit Code** is spelled out 
-        * If Equal To is selected, the **full Exit Code** is required _including preceding zeros and any colons, plus signs, etc._
-    * **Windows** – Use the final digits
-        * ```100``` instead of ```000000000100```
+Lors de la définition d'un event basé sur la description de sortie, deux choses doivent être définies :
+
+* **Opérateur de comparaison**      
+    * Soyez prudent en n'utilisant rien d’autre que **Equal To**
+    * Chaque système d'exploitation a des règles pour les noms et valeurs de description de sortie
+    * UNIX - Utilisez **Contains** à moins que **full Exit Code** ne soit précisé
+        * Si Equal To est sélectionné, **full Exit Code** est requis, y compris les zéros précédents et les deux points, les signes plus, etc.
+    * Windows - Utilisez les derniers chiffres
+        * ```100``` à la place de ```000000000100```
+
 
 <a href="imgbasic/354.png" target="_blank"><img src="imgbasic/354.png" width="500"></img></a>  
 <a href="imgbasic/355.png" target="_blank"><img src="imgbasic/355.png" width="500"></img></a>  

@@ -19,7 +19,7 @@ hide_title: 'false'
     ou
     * Utiliser **Fréquence existante**
 
-:::caution
+:::caution Remarque
 Commencez toujours par "**Choix de Planification**"
 :::
 

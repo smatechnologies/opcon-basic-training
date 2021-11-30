@@ -1,24 +1,27 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 9'
+sidebar_label: 'Unite 4 Exercice 9'
+hide_title: 'false'
 ---
 
-### Exercise 9: SMA File Transfer (SMAFT)
+## Exercice 9: Transfert de fichiers SMA (SMAFT)
 
-##### Objective: 
+##### Objectif: 
 
-Within **MY FIRST SCHEDULE**, create a Job named **SMAFT Job 1** with a **Job Type** of ```File Transfer```. The Source Information Machine is ```SUSEVM```.  
+Dans **MY FIRST SCHEDULE**, créez un Job nommé **SMAFT Job 1** avec un **Type de Job** ```File Transfer```. La machine source est ```SUSEVM.```
 
-The **Source File** is: ```/usr/local/files/FileToSend.txt```
+Le **fichier source** est : ```/usr/local/files/FileToSend.txt```
 
-The **Destination Information Machine** is: ```SMATraining```. 
+La **machine de destination** est : ```SMATraining```.
 
 The **Destination File** is: ```C:\SMA File Transfer\FileToSend.txt```
 
-For both the **Source** and **Destination Data Type**, choose ```ASCII``` and **Overwrite If File Exists**.
+Le **fichier de destination** est : ```C:\SMA File Transfer\FileToSend.txt```
 
-Be sure to give the Job a Frequency.
+Pour la machine source et de destination, choisir le type de données (Data type) ASCII et Ecraser si le fichier existe (Overwrite if file exist).
 
-In Matrix View, add the Job to the Schedule and Release it to run Today. Once the Job finishes, Check the file path to be sure the file was transferred.
+Assurez-vous de donner au job une fréquence.
+
+Dans la vue Matrix, ajoutez le job au schedule en Released pour qu'il s'exécute aujourd'hui. Une fois le job terminé, vérifiez que le fichier a bien été transféré.
 
 <div>
 <video width="320" height="240" controls>
@@ -29,38 +32,38 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Under the **Administration** topic, Double-Click on **Job Master**. 
-2.	In the **Schedule** drop-down list, select **My First Schedule**.
-3.	Click the **Add** button on the **Job Master** toolbar. 
-4.	In the **Name** textbox, enter **SMAFT Job 1**.
-5.	In the **Job Type** drop-down list, select **File Transfer**.
-6.	In the **Source Information Machine** drop-down list, select the ```UNIX``` machine you created earlier in this class to specify where the file is coming from. 
-7.	In the **Source Information User** drop-down list, select ```0/0``` to specify who the sending machine will impersonate.
-8.	In the **Source Information File** textbox, enter the following for the path and file name to Transfer:
+1. Sous la rubrique **Administration**, double-cliquez sur **Job Master**.
+2. Dans la liste déroulante **Schedule**, sélectionnez **My First Schedule**.
+3. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+4. Dans la zone de texte **Nom**, entrez **SMAFT Job 1**.
+5. Dans la liste déroulante **Type de Job**, sélectionnez **File Transfer**.
+6. Dans la liste déroulante **Source Information Machine**, sélectionnez la machine ```UNIX``` que vous avez créée précédemment pour spécifier la provenance du fichier.
+7. Dans la liste déroulante **Source Information User**, sélectionnez ```0/0``` pour spécifier le compte utilisé sur cette machine.
+8. Dans la zone de texte **Source Information File**, entrez les informations suivantes pour le chemin et le nom de fichier à transférer:
 
 ```
 /usr/local/files/FileToSend.txt
 ```
 
-9.	In the **Destination Information Machine** drop-down list, select the ```SMATraining``` machine to specify where the file is going to. 
-10.	In the **Destination Information User** drop-down list, select ```SMATRAINING\SMAUSER``` to specify who the sending machine will impersonate.
-11.	In the **Destination Information File** textbox, enter the following for the path and file name to Transfer: 
+9. Dans la liste déroulante **Destination Information Machine**, sélectionnez la machine ```SMATraining``` pour spécifier la destination du fichier.
+10. Dans la liste déroulante **Destination Information User**, sélectionnez ```SMATRAINING\SMAUSER``` pour spécifier le compte utilisé sur cette machine.
+11.	Dans la zone de texte **Destination Information File**, entrez les informations suivantes pour le chemin et le nom de fichier à transférer :
 
 ```
 C:\SMA File Transfer\FileToSend.txt
 ``` 
 
-12.	Click the **Options** Tab.
-13.	In the **Source Data Type** drop-down list, select **ASCII**.
-14.	In the **Destination Data Type** drop-down list, select **ASCII**.
-15.	In the **If File Exists** drop-down list, select **Overwrite**.
-16.	Leave the **Maximum Transfer Rate**, **Compression**, and **Encryption** alone.
-17.	Click the **Save** Button.
-18.	Give the Job a **Frequency** that will allow it to run Today and close the **Job Master** tab.
-19.	Open the **Windows File Explorer** and check the ```C:\SMA File Transfer``` folder on the OpCon server verifying that it is **empty**.
-20.	In an **Operations View** Add this Job to today’s Schedule allowing it to run Released.
-21.	Once the Job finishes **OK**, verify that the ```FileToSend.txt``` is now in the ```C:\SMA File Transfer``` folder.
+12. Cliquez sur l'onglet **Options**.
+13. Dans la liste déroulante **Source Data Type**, sélectionnez **ASCII**.
+14. Dans la liste déroulante **Destination Data Type**, sélectionnez **ASCII**.
+15. Dans la liste déroulante **If File Exists**, sélectionnez **overwrite**.
+16. Laissez **Maximum Transfer Rate**, **Compression**, et **Encryption** par défaut.
+17. Cliquez sur le bouton **Sauvegarder**.
+18. Donnez au Job une **fréquence** qui lui permettra de s'exécuter aujourd'hui et fermez l'onglet **Job Master**.
+19. Ouvrez l'**explorateur de fichiers Windows** et vérifiez que le dossier ```C:\SMA File Transfer``` sur le serveur OpCon est **vide**.
+20. Dans une **vue des opérations**, ajoutez ce job au schedule en released pour lui permettre de s'exécuter.
+21. Une fois le job **Finished OK**, vérifiez que le fichier ```FileToSend.txt``` est maintenant dans le dossier ```C:\SMA File Transfer```.
 
 </details>

@@ -1,18 +1,25 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 6'
+sidebar_label: 'Unite 3 Exercice 6'
+hide_title: 'false'
 ---
 
-### Exercise 6: Function Privileges
+## Exercice 6: Privilèges de fonction
 
-##### Objective:
+##### Objectif:
 
-Grant the ```Training``` Role the **Function Privilege** of **Build Daily Schedules**.
+Accordez au rôle ```Training``` **le privilège de fonction** pour **créer des horaires quotidiens (Build Daily Schedules)**.
 
-Log out of Enterprise Manager and log back in as ```Student1```. The user should be able to see **MY FIRST SCHEDULE**, but in Job Master, see only the first three Windows Jobs in the Schedule. This is because the ```Training``` Role only has access to Jobs assigned to the ```TrainingDept``` Windows Machines.
+Déconnectez-vous d'Enterprise Manager et reconnectez-vous en tant que ```Student1```. 
 
-Next, attempt to add a ```UNIX``` Job to **MY FIRST SCHEDULE**. The user will be unable to do so because no ```UNIX``` machine is assigned.
+L'utilisateur doit pouvoir voir **MY FIRST SCHEDULE**, mais dans le Job Master, ne voir que les trois premiers jobs Windows du schedule. 
 
-Finally, rebuild **MY FIRST SCHEDULE**, overwriting for Today. Release the first and second Jobs. Right-Click on each Job and notice that some Functions are not available because they have not been granted to the ```Training``` Role (For example, **Force-Start Job** and **Cancel**).
+En effet, le rôle ```Training``` n'a accès qu'aux jobs attribués aux machines Windows ```TrainingDept```. 
+
+Ensuite, essayez d'ajouter un Job ```UNIX``` à **MY FIRST SCHEDULE**. L'utilisateur ne pourra pas le faire car aucune machine ```UNIX``` n'est affectée.
+
+Enfin, reconstruisez **MY FIRST SCHEDULE**, en écrasant Aujourd'hui. Libérez le premier et deuxième Jobs. 
+
+Cliquez avec le bouton droit sur chaque Job et notez que certaines fonctions ne sont pas disponibles car elles n'ont pas été accordées au rôle ```Training``` (par exemple, **Forcer le démarrage du Job (Force-Start Job)** et **Annuler (Cancel))**.
 
 
 <div>
@@ -26,58 +33,60 @@ Your browser does not support the video tag.
 
 <summary>Click for Step-By-Step Instructions</summary>
 
-1.	Under **Security > Privileges**, Double-Click on **Function Privileges**. 
-2.	On the **Select Role** drop-down list select **Training Role**.
-    * Notice that all Functions are presented on the **Revoked** list (on the left).
-3.	Under the Revoked list, click **Build Daily Schedules** and then click the the green arrow (pointing to the right) to put **Build Daily Schedules** under the **Granted** list.
-4.	Close the **Function Privileges** tab.
-5.	Open the List or Matrix view and check if **My First Schedule** is completed. If not, cancel any Job that is keeping the Schedule open.
-6.	Close the List or Matrix view.
-7.	Logout from Enterprise Manager.  Click the Logout button or select Logout from the Enterprise Manager Menu bar.
-8.	Click **OK** to confirm you are logging out.
-9.	From the OpCon/xps Login screen type **Student1** on the **Username** field and **password1** on the **Password** Field. Click **Login**.
-10.	If not expanded, expand the **Administration** topic.
-11.	Double-Click the **Job Master** topic.
-12.	Try selecting a Schedule from the **Schedule** drop-down list. What happened?
-    * Notice that now this user can see **My First Schedule**. 
-13.	Select **My First Schedule**.
-14.	Click the Job drop-down list.  What do you see?
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-:::info
-Only 3 Windows Jobs. Why? Because the role associated with this user has access only to Jobs assigned to the TrainingDept.Windows Machines.
+1. Sous **Security> Privileges**, double-cliquez sur **Privilèges de fonction**.
+2. Sur la liste déroulante **Select role**, sélectionnez le **Training role**.
+    * Notez que toutes les fonctions sont présentées dans la liste **Revoked** (sur la gauche).
+3. Sous la liste **Revoked**, cliquez sur **Build Daily Schedules**, puis sur la flèche verte (pointant vers la droite) pour placer **Build Daily Schedules** sous la liste **Autorisé**.
+4. Fermez l'onglet **Function Privileges**.
+5. Ouvrez la vue « List » ou « Matrix » et vérifiez si **My first schedule** est terminée. Sinon, annulez tout Job qui maintient le Schedule ouvert.
+6. Fermez la vue « List » ou « Matrix ».
+7. Déconnectez-vous d'Enterprise Manager. Cliquez sur le bouton Déconnexion ou sélectionnez Logout dans la barre de menus d'Enterprise Manager.
+8. Cliquez sur **OK** pour confirmer que vous vous déconnectez.
+9. À partir de l'écran de connexion OpCon / xps, tapez ```Student1``` dans le champ **Username** et ```Password1``` dans le champ **Password**. Cliquez sur **Login**.
+10. S'il n'est pas développé, développez la rubrique **Administration**.
+11. Double-cliquez sur la rubrique **Job Master**.
+12. Essayez de sélectionner un schedule dans la liste déroulante **Schedule**. Que s'est-il passé ?
+    * Notez que maintenant cet utilisateur peut voir **My first schedule**.
+13. Sélectionnez **My first schedule**.
+14. Cliquez sur la liste déroulante Job. Que voyez-vous ?
+
+:::info Remarque
+Seulement 3 Jobs Windows. Pourquoi ? Parce que le rôle associé à cet utilisateur n'a accès qu'aux Jobs affectés aux Machines TrainingDept.Windows.
 :::
 
-15.	Select a Windows Job. What is the User ID associated with this Job?
+15. Sélectionnez un Job Windows. Quel est l'ID utilisateur associé à ce Job ?
 
-:::caution Warning
+:::caution Remarque
 Do Not Change the User ID
 :::
 
-16.	Add a UNIX Job. What happens? Can you select a UNIX machine?
-    * You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
-    * Click the Cancel button.
-17.	Close the **Job Master** tab.
-18.	Expand the **Operation** topic (Note: If the Schedule is still In Process, ask the instructor for assistance).
-    * Double-Click Schedule Build
-    * **Build**, **Overwrite** and **Release My First Schedule**.
-19.	Close the **Schedule Build** screen.
-20.	Open the **Matrix** Screen by Double-Clicking Matrix under the Operations section of the Navigation Panel.
-21.	Make sure today’s date is selected in the Calendar on the top left of the screen and select **My First Schedule** in the Schedule list.
-22.	Right-Click **Windows Job 1** and select **Release**. The Job should start to run.
-23.	Right-Click **Windows Job 2** and select **Release**.  **Windows Job 2** should move to a **Waiting on Dependency** status.
-24.	Right-Click **Windows Job 2** again and notice that the “**Force Start**” is not enabled. 
-    * Why?  Because the “**Force-Start Job**” Departmental Function Privilege is not granted to this user’s role.
-25.	Right-Click **Windows Job 3** and notice that the “**Cancel**” option is not enabled. 
+16. Ajoutez un Job UNIX. Que s’est-il passé ? Pouvez-vous sélectionner une machine UNIX ?
+    * Vous ne pouvez pas ajouter de Job UNIX car le rôle n'est attribué à aucune machine UNIX.
+    * Cliquez sur le bouton Cancel.
+17. Fermez l'onglet **Job Master**.
+18. Développez la rubrique **Operation** (_Remarque : si le schedule est toujours en cours, demandez de l'aide à l'instructeur_).
+    * Double-cliquez sur Schedule Build
+    * **Build**, **Overwrite** et **Release My First Schedule**.
+19. Fermez l'écran de **Schedule Build**.
+20. Ouvrez l'écran **Matrix** en double-cliquant sur Matrix dans la section Operations du panneau de navigation.
+21. Assurez-vous que la date du jour est sélectionnée dans le schedule en haut à gauche de l'écran et sélectionnez **My First Schedule** dans la liste Schedule.
+22. Cliquez avec le bouton droit de la souris sur **Windows Job 1** et sélectionnez **Release**. Le Job doit commencer à s'exécuter.
+23. Cliquez avec le bouton droit sur **Windows Job 2** et sélectionnez **Release**. Le **Windows Job 2** doit passer au statut **Waiting on Dependency**.
+24. Cliquez à nouveau avec le bouton droit sur **Windows Job 2** et notez que « **Force-Start Job** » n'est pas activé.
+    * Pourquoi ? Parce que le privilège de fonction départementale « **Force-Start Job** » n'est pas accordé au rôle de cet utilisateur.
+25. Cliquez avec le bouton droit sur **Windows Job 3 **et notez que l'option « **Cancel** » n'est pas activée.
 
 :::info
-Why?  Because the “**Cancel Jobs**” Departmental Function Privilege is not granted to this user’s role.
+Pourquoi ? Parce que le privilège de fonction départementale « **Cancel Jobs** » n'est pas accordé au rôle de cet utilisateur.
 :::
 
-26.	Under the **Operation** topic, Double-Click **List**
-    * Expand the date. What do you see?
-    * Expand the Schedule. What do you see?
-    * Right-Click one of the Jobs. Are you able to change the status of the Job? Why?
-27.	Close the Daily List and the Matrix tabs and then logout from Enterprise Manager. Click **OK** to confirm you are logging out.
-28.	From the OpCon/xps Login screen leave both the **Username** and the **Password** fields blank and click **Login**.
+26. Sous la rubrique **Operation**, Double-cliquez sur **List**
+    * Dévoloppez la date. Que voyez-vous?
+    * Développez le schedule. Que voyez-vous?
+    * Cliquez avec le bouton droit sur l'un des Jobs. Êtes-vous en mesure de modifier le statut du Job? Pourquoi?
+27. Fermez la Daily List et les onglets Matrix, puis déconnectez-vous d'Enterprise Manager. Cliquez sur **OK** pour confirmer que vous vous déconnectez.
+28. À partir de l'écran de connexion OpCon / xps, laissez les champs **Username** et **Password** vides et cliquez sur **Login**.
 
 </details>

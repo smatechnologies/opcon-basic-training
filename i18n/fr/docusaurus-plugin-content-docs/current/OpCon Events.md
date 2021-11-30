@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'OpCon Events'
+sidebar_label: 'Events OpCon'
+hide_title: 'false'
 ---
+
+## Events OpCon
 
 <figure>
     <audio
@@ -11,8 +14,8 @@ sidebar_panel: 'OpCon Events'
     </audio>
 </figure>
 
-* OpCon Events execute commands within OpCon
-* Events can be defined to execute upon:
+* Les events OpCon exécutent des commandes dans OpCon
+* Les events peuvent être définis pour s'exécuter sur:
     * Schedule Completion
     * Job Statuses
     * String Match on LSAM Feedback for Jobs
@@ -20,8 +23,8 @@ sidebar_panel: 'OpCon Events'
     * Event Triggers from Notification Manager
     * External Events
 
-* Almost any action within OpCon can be handled by Events
-* Partial list of Event types:
+* Presque toutes les actions d'OpCon peuvent être gérées par des events
+* Liste partielle des types d'events:
     * CALENDAR
     * CONSOLE
     * JOB (Daily)
@@ -37,7 +40,7 @@ sidebar_panel: 'OpCon Events'
 
 <a href="imgbasic/346.png" target="_blank"><img src="imgbasic/346.png" width="500"></img></a>
 
-### Internal vs External Events
+### Events internes vs externes
 
 <figure>
     <audio
@@ -48,42 +51,41 @@ sidebar_panel: 'OpCon Events'
     </audio>
 </figure>
 
-* Internal Events created from Enterprise Manager/Solution Manager (Self-Service)
-    * Events tab in Schedule/Job Master
-    * Event notification trigger in Notification Manager
-    * Events assigned to buttons within Self-Service/Solution Manager
-    * Internal Events are authenticated through User Account which created Event in Enterprise Manager
+* Les events internes créés à partir d'Enterprise Manager / Solution Manager (Self-Service)
+    * Onglet Events dans Schedule / Job Master
+    * Event notification trigger dans Notification Manager
+    * Events attribués aux boutons dans Self-Service / Solution Manager
+    * Les events internes sont authentifiés via le compte utilisateur qui a créé l'event dans Enterprise Manager
+* Events externes
+    * Tout ce qui peut générer un fichier texte avec la syntaxe Event peut interagir avec OpCon via un hook externe appelé MSGIN
+    * Exemples SMA : SMAResource Monitor, SMArt Email, SMAParseFile
 
-* External Events
-    * Anything that can generate a text file with Event syntax can interact with OpCon through an external hook called MSGIN
-    * SMA Examples: SMAResource Monitor, SMArt Email, SMAParseFile
-
-:::note
-External Events must be authenticated with an **OpCon Username** and an **External Event Password** or **Token**
+:::note Remarque
+Doit être authentifié avec un **Username OpCon** et un **External Event Password
 :::
 
-### External Event Tokens
+### Jetons d'event externes
 
 :::note
-Beginning with OpCon 20.0 - External Event Passwords must be created by generating an ```External Token``` in the Enterprise Manager **Password Update** Menu OR in the ```External Token``` Tab of the User Profile topic in Solution Manager
+_À partir d'OpCon 20.0_ - Les mots de passe d'events externes doivent être créés en générant un ```External Token``` dans le menu **Password Update** d’Enterprise Manager OU dans l'onglet ```External Token``` de la rubrique Profil utilisateur dans Solution Manager
 
-* Legacy External Event Passwords will still be active within existing systems but must be replaced with an ```External Token``` when a Password change is required
+* Les anciens mots de passe d'event externe seront toujours actifs dans les systèmes existants, mais doivent être remplacés par ```External Token``` lorsqu'une modification de mot de passe est requise
 :::
 
-#### Generate External Token in Enterprise Manager
+#### Générer un jeton externe dans Enterprise Manager
 
 <a href="imgbasic/PictureExternalTokenMenuEM.png" target="_blank"><img src="imgbasic/PictureExternalTokenMenuEM.png" width="500"></img></a>
 <a href="imgbasic/PictureExternalTokenEM.png" target="_blank"><img src="imgbasic/PictureExternalTokenEM.png" width="500"></img></a>
 
-#### Generate External Token in Solution Manager
+#### Générer un jeton externe dans Solution Manager
 
 <a href="imgbasic/PictureExternalTokenSM.png" target="_blank"><img src="imgbasic/PictureExternalTokenSM.png" width="500"></img></a>
 
-:::note
-Beginning with OpCon 20.0 - External Events are disabled by default and must be enabled by ```ocadm``` or a User with appropriate Administrative Privileges
+:::note Remarque
+_À partir d'OpCon 20.0_ - Les events externes sont désactivés par défaut et doivent être activés par ```ocadm``` ou par un utilisateur disposant des privilèges administratifs appropriés
 :::
 
-### Troubleshooting Events - OpConLogs
+### Events de dépannage - OpConLogs
 
 <figure>
     <audio
@@ -94,7 +96,7 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
     </audio>
 </figure>
 
-* All failed Events will be listed in both the SAM Log and the Critical Log along with a brief failure description
+* Tous les events ayant échoué seront répertoriés dans SAM Log et Critical Log avec une brève description de l'échec
 
 #### SAM Log
 
@@ -104,7 +106,7 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
 
 <a href="imgbasic/348.png" target="_blank"><img src="imgbasic/348.png" width="500"></img></a>
 
-### MSGIN - External Events
+### MSGIN - Events externes
 
 <figure>
     <audio
@@ -115,13 +117,13 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
     </audio>
 </figure>
 
-* "External hook” into OpCon
-* ```MSGIN``` is a folder/directory monitored by OpCon’s Agent (LSAM) for Events to be passed to OpCon
-    * All major OpCon Agents (LSAMs) have a ```MSGIN``` directory
-    * ```MSGIN``` path in Windows is in ```ProgramData```
-    * ```MSGIN``` path in UNIX is ```/usr/local/lsam```
-    * The Folder should always be empty because Agents pick up Events extremely quickly after dropped into ```MSGIN``` – Testing can be done by viewing SAM.log for behavior status
+* « External hook » dans OpCon
+* ```MSGIN``` est un dossier / répertoire surveillé par l'agent d'OpCon (LSAM) pour les events à transmettre à OpCon
+    * Tous les principaux agents OpCon (LSAM) ont un répertoire ```MSGIN```
+    * Le chemin ```MSGIN``` dans **Windows** se trouve ```ProgramData```
+    * Le chemin ```MSGIN``` sous **UNIX** est ```/usr/local/lsam```
+    * Le dossier doit toujours être vide car les agents récupèrent les events très rapidement après leur arrivée dans MSGIN - Le test peut être effectué en affichant SAM.log pour l'état du comportement (behavior status).
 
 <a href="imgbasic/349.png" target="_blank"><img src="imgbasic/349.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

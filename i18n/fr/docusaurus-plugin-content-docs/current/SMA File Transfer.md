@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'SMA File Transfer'
+sidebar_label: 'Transfert de fichiers SMA (SMAFT)'
+hide_title: 'false'
 ---
+
+## Transfert de fichiers SMA (SMAFT)
 
 <figure>
     <audio
@@ -11,18 +14,18 @@ sidebar_panel: 'SMA File Transfer'
     </audio>
 </figure>
 
-* Proprietary Agent to Agent File Transfer solution built into OpCon
-* Uses Job Type: **File Transfer**
-* All Transfers initiated by Destination Machine
-* SMA File Transfer is configured in **Advanced Machine** Settings
-* Default port is ```3110```, but is configurable
+* Solution propriétaire de transfert de fichiers d'agent à agent intégrée à OpCon
+* Utilise le Type de Job : **File Transfer**
+* Tous les transferts sont initiés par la machine de destination par défaut
+* Le transfert de fichiers SMA est configuré dans **les paramètres avancés de la machine**
+* Le port par défaut est ```3110```, mais il est configurable
 
-**Warnings**:  
+**Avertissements** :  
 
-* Only Destination Machine’s **Machine Instance Properties** are resolved
-* File Name required for Destination
-* Wildcards only loosely supported
-* Renaming File during transit is allowed
+* Seules les **propriétés d'instance de machine** de la machine de destination sont résolues
+* Un nom de fichier est requis pour la destination
+* Les caractères génériques sont admis en fonction de la source et de la destination.
+* Renommer le fichier pendant le transfert est autorisé
 
 <a href="imgbasic/434.png" target="_blank"><img src="imgbasic/434.png" width="500"></img></a>  
 <a href="imgbasic/435.png" target="_blank"><img src="imgbasic/435.png" width="500"></img></a>  

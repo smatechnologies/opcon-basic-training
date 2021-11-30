@@ -1,29 +1,33 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 1'
+sidebar_label: 'Unite 4 Exercice 1'
+hide_title: 'false'
 ---
 
-### Exercise 1: Resources
+## Exercice 1: Ressources
 
-##### Objective: 
+##### Objectif: 
 
-Create a **Resource** named ```TrainingResource``` with a **Max Resources** value of ```4```.
+Créez une **ressource** nommée ```TrainingResource``` avec une valeur **Ressources max** de ```4```.
 
-Create a Schedule named **My Resources Schedule**.
+Créez un Schedule nommé **My Resources Schedule**.
 
-Create a Windows Job named **Resource Use 2 Job A** that runs the generic program on a ```7 day``` Frequency. Give the Job a Resource Dependency on **TrainingResource** with a value of ```2```.
+Créez un Job Windows nommé **Resource Use 2 Job A** qui exécute le programme générique sur une fréquence de ```7 day```. Attribuez au Job une dépendance de ressource sur ```TrainingResource``` avec une valeur de ```2```.
 
-Copy or Create additional Jobs named **Resource Use 2 Job B** and **Resource Use 4 Job**.
+Copiez ou créez des Jobs supplémentaires nommés **Resource Use 2 Job B** et **Resource Use 4 Job**.
 
-Edit the **Resource Use 4 Job** to add a Resource Dependency on ```TrainingResource``` with a value of ```4```.
+Modifiez **Resource Use 4 Job** pour ajouter une dépendance de ressource sur ```TrainingResource``` avec une valeur de ```4```.
 
-Create a **Notification** under a root group named **ExerciseResource** that will send an email to ```smauser@congo.local``` for each Job Finished OK:
+Créez une notification sous un groupe racine nommé ```ExerciseResource``` qui enverra un e-mail à ```smauser@congo.local``` pour chaque Job **Finished OK**:
 
-Subject: Resources in Use for ```TrainingResource``` when ```[[$JOB NAME]]``` is Finished OK
-Message: Number of Resources for resource ```TrainingResource```=> ```[[RU.TrainingResource]]/[[RM.TrainingResource]]```
+Objet : Ressources utilisées pour la ```TrainingResource``` lorsque ```[[$JOB NAME]]``` est Finished OK Message: Nombre de ressources pour la ressource
 
-Build the Schedule Released for Today. View results in Matrix View or Solution Manager.
+```
+TrainingResource=>[[RU.TrainingResource]]/[[RM.TrainingResource]]
+```
 
-Open **Thunderbird** to verify Notifications.
+Mettre au Plan le Schedule en Released pour aujourd'hui. Affichez les résultats dans La vue Matrix ou Solution Manager.
+
+Ouvrez **Thunderbird** pour vérifier les notifications.
 
 
 <div>
@@ -35,65 +39,65 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Under the **Administration** topic, Double-Click on **Resources**. 
-2.	Click the **Add** button on the Resources toolbar.
-3.	In the **Name** textbox, type **TrainingResource**, type some documentation and in the **Max Resources** enter a value of ```4```.
-4.	Click the **Save** button on the Resources toolbar. Close the Resources tab.
-5.	Under the Administration topic, Double-Click Schedule Master.
-6.	Click the Add button on the Schedule Master toolbar.
-7.	Add a new Schedule called **My Resources Schedule**.
-8.	Use these settings for the Schedule:
-	* Monday through Sunday are working days
-	* Do **NOT** use the Master Holiday Calendar.
-	* **Auto Build** ```7``` days in advance for ```1``` days
-	* **Auto Delete** ```7``` days
-	* Add **Documentation** to your Schedule.
-9.	Close the **Schedule Master** and open the **Job Master** to add your Jobs.
-10.	Select the **My Resources Schedule**.
-11.	Click the **Add** button on the **Job Master** toolbar.
-12.	Add a new Job named **Resource Use 2 Job A** to run the ```Genericp.exe``` program to run for ```20``` seconds on the **SMATraining** machine using the ```SMATRAINING\SMAUSER``` User ID and add the **Mon-Sun-O** Frequency to the Job (refer to Job definition in Unit 1 for help). Add **Documentation**.
-13.	Create a **Threshold/Resource Dependency**:
-	* Click on the **Dependencies** tab
-	* Click on the **Threshold/Resource Dependency** tab
-	* In the **Threshold/Resource Dependency** frame, click the **Add** button.
-	* In the **Threshold/Resource** drop-down list, select **TrainingResource**.
-	* In the **Value** textbox, type ```2```.
-	* Click the **OK** button
-14.	Click the **Copy** button on the **Job Master** toolbar to copy this Job.
-15.	Name the new Job as **Resource Use 2 Job B**. Change Documentation if needed.
-16.	Click the **Copy** button on the **Job Master** toolbar to copy this Job.
-17.	Name the new Job as **Resource Use 4 Job**. Change Documentation if needed.
-18.	Be sure you have **Resource Use 4 Job** selected.
-	* Click on the **Dependencies** tab
-	* Click on the **Threshold/Resource Dependency** tab.
-	* In the **Threshold/Resource Dependency** frame, Double-Click the **Threshold/Resource** dependency that was copied from the previous Job.
-	* Check if the **Threshold/Resource** drop-down list has **TrainingResource**.
-	* Change the **Value** textbox to ```4```.
-	* Click the **OK** button
-19.	Close the **Job Master**.
-20.	Under **Management** Double-Click **Notification Manager** and click the **Jobs** tab.
-21.	Create a **new root group** called **ExerciseResource** (Right-Click and select **Add Root Group**).
-22.	Check **My Resources Schedule** (on the right side of the screen) checkbox and then click the **Save** button.
-23.	Right-Click the **ExerciseResource** group and select **Add Job Trigger > Job Running**.
-24.	Check the **Send Email (SMTP)** checkbox.
-25.	Click the **Email** tab and setup the configuration to send emails according to the following:
-	* To: ```smauser@congo.local```
-	* Subject: Resources in Use for TrainingResource when ```[[$JOB NAME]]``` is running
+1. Sous la rubrique **Administration**, double-cliquez sur **Ressources**.
+2. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Ressources**.
+3. Dans la zone de texte **Nom**, tapez **TrainingResource**, tapez de la documentation et dans **Ressources Max** entrez une valeur de ```4```.
+4. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils Ressources. Fermez l'onglet **Ressources**.
+5. Sous la rubrique Administration, double-cliquez sur **Schedule Master**.
+6. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Schedule Master**.
+7. Créer un nouveau Schedule appelé **My Resources Schedule**.
+8. Utilisez ces paramètres pour le Schedule :
+    * Du lundi au dimanche sont des jours ouvrés
+    * N'utilisez **PAS** le Master Holiday
+    * **Mise au Plan automatique** ```7``` jours à l'avance pour ```1``` jours
+    * **Suppression automatique** ```7``` Jours  en arrière
+    * Ajoutez de la **documentation** à votre schedule.
+9. Fermez le **Schedule Master** et ouvrez le **Job Master** pour ajouter vos Jobs.
+10. Sélectionnez le **My Resources Schedule**.
+11. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+12. Ajoutez un nouveau Job nommé **Resource Use 2 Job A** pour exécuter le programme ```Genericp.exe``` pendant ```20``` secondes sur la machine ```SMATraining``` à l'aide de l'ID utilisateur ```SMATRAINING\SMAUSER``` et ajoutez la fréquence **Mon-Sun-O** au Job (reportez-vous à la définition du Job dans l'Unité 1 pour obtenir de l'aide). Ajouter de la **documentation**.
+13. Créez une **Threshold/Ressource Dépendance** :
+    * Cliquez sur l'onglet **Dépendances**
+    * Cliquez sur l'onglet **Threshold/Ressource Dépendance**
+    * Dans le cadre **Threshold/Ressource Dépendance**, cliquez sur le bouton **Ajouter**.
+    * Dans la liste déroulante **Threshold/Ressource** sélectionnez **TrainingResource**.
+    * Dans la zone de texte **Valeur**, saisissez ```2```.
+    * Cliquez sur le bouton **OK**
+14. Cliquez sur le bouton **Copie** de la barre d'outils **Job Master** pour copier ce Job.
+15. Nommez le nouveau Job **Resource Use 2 Job B**. Changez la documentation si nécessaire.
+16. Cliquez sur le bouton **Copie** de la barre d'outils **Job Master** pour copier ce Job.
+17. Nommez le nouveau Job **Resource Use 4 Job**. Changez la documentation si nécessaire.
+18. Assurez-vous que vous avez sélectionné **Resource Use 4 Job**.
+	* Cliquez sur l'onglet **Dépendances**
+	* Cliquez sur l'onglet **Threshold/Resource Dépendance**.
+	* Dans le cadre **Threshold/Resource** Dépendance, double-cliquez sur la dépendance **Threshold/Resource** qui a été copiée à partir du Job précédent.
+	* Vérifiez si la liste déroulante **Threshold/Resource** contient **TrainingResource**.
+	* Remplacez la zone de texte **Valeur** par ```4```.
+	* Cliquez sur le bouton **OK**
+19. Fermez le **Job Master**.
+20. Sous **Gestion**, double-cliquez sur **Gestionnaire de Notification** et cliquez sur l'onglet **Jobs**.
+21. Créez un **nouveau groupe root** appelé **ExerciseResource** (cliquez avec le bouton droit de la souris et sélectionnez **Ajouter un groupe root**).
+22. Cochez la case **My Resources Schedule** (sur le côté droit de l'écran), puis cliquez sur le bouton **Sauvegarder**.
+23. Cliquez avec le bouton droit sur le groupe **ExerciseResource** et sélectionnez **Ajouter Déclenchement Job > Job Running**.
+24. Cochez la case **Envoyer Email (SMTP)**.
+25. Cliquez sur l'onglet **Email** et configurez la configuration pour envoyer des e-mails en fonction des éléments suivants :
+    * À : ```smauser@congo.local```
+    * Objet : Ressources utilisées pour **TrainingResource** lors de l'exécution de ```[[$JOB NAME]]```
+    * Message : Nombre de ressources pour la ressource TrainingResource => ```[[RU.TrainingResource]]/[[RM.TrainingResource]]```
+26. Cliquez sur le bouton **Sauvegarder**.
+27. Cliquez avec le **bouton** droit sur le groupe **ExerciseResource** et sélectionnez **Ajouter Déclenchement Job > Job Finished OK**.
+28. Cochez la case Envoyer **Email (SMTP)**.
+29. Cliquez sur l'onglet Email et configurez la configuration pour envoyer des e-mails en fonction des éléments suivants :
+    * À : ```smauser@congo.local```
+    * Objet : Ressources utilisées pour la formation Ressource lorsque l’exécution ```[[$JOB NAME]]``` est terminé OK
 	* Message: Number of Resources for resource TrainingResource=> ```[[RU.TrainingResource]]/[[RM.TrainingResource]]```
-26.	Click the **Save** button.
-27.	Right-Click the **ExerciseResource** group and select **Add Job Trigger> Job Finished OK**.
-28.	Check the **Send Email (SMTP)** checkbox.
-29.	Click the **Email** tab and setup the configuration to send emails according to the following:
-	* To: ```smauser@congo.local```
-	* Subject: Resources in Use for TrainingResource when ```[[$JOB NAME]]``` is Finished OK
-	* Message: Number of Resources for resource TrainingResource=> ```[[RU.TrainingResource]]/[[RM.TrainingResource]]```
-30.	Click the **Save** button.
-31.	Close the **Notification Manager** tab.
-32.	Build the Schedule Released for today.
-	* Open one of the operations views (**List** or **Matrix**) or use **Solution Manager**.
-33.	Be sure the **My Resources Schedule** is Completed
-34.	Open Thunderbird and check the inbox. _You should find ```6``` new emails._
+30. Cliquez sur le bouton **Sauvegarder**.
+31. Fermez l'onglet **Gestionnaire de Notification**.
+32. Mettre au Plan le Schedule en Released pour aujourd'hui.
+    * Ouvrez l'une des vues d'opérations (**List** ou **Matrix**) ou utilisez **Solution Manager**.
+33. Assurez-vous que **My Resources Schedule** est terminé
+34. Ouvrez Thunderbird et vérifiez la boîte de réception. _Vous devriez trouver de 6 nouveaux emails_.
 
 </details>

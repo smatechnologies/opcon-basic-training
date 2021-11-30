@@ -1,12 +1,13 @@
 ---
-sidebar_panel: 'Unit 3 Lab C'
+sidebar_label: 'Unite 3 Lab C'
+hide_title: 'false'
 ---
 
-### LAB C
+### Unite 3 LAB C
 
-##### Objective:
+##### Objectif:
 
-Through a Schedule named **CONGO ACCOUNTING FOLDERS**, your Accounting Team needs a daily (Monday-Friday) folder created in the ```C:\Accounting``` folder for each of the following products:
+A travers un schedule nommé **CONGO ACCOUNTING FOLDERS**, votre équipe comptable a besoin d'un dossier quotidien (du lundi au vendredi) créé dans le dossier ```C:\Accounting``` pour chacun des produits suivants:
 
 * Legos
 * Nerf
@@ -15,20 +16,20 @@ Through a Schedule named **CONGO ACCOUNTING FOLDERS**, your Accounting Team need
 * Levis
 * Nike
 
-The following script should be used to create each folder:
+Le script suivant doit être utilisé pour créer chaque dossier :
 
 ```
 “C:\scripts\Create_Folder.cmd” “C:\Accounting\yyyy-mm-dd-Legos”
 ```
-where "Legos" is the product.
+Dans lequel «Legos» est le produit.
 
-Create three Global Properties that will be used in place of the following objects on the command line:
+Créez trois propriétés globales qui seront utilisées à la place des objets suivants sur la ligne de commande :
 
 *	```C:\scripts```
 *	```C:\Accounting```
 *	```yyyy-mm-dd```
 
-    *	This will require a System Global Property ```[[$SCHEDULE DATE]]``` in the correct format
+    * Cela nécessitera une propriété globale du système au format correct ```[[$SCHEDULE DATE]]```
 
 <div>
 <video width="320" height="240" controls>
@@ -39,40 +40,40 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-**Lab Instructions**:  
+**Instructions de laboratoire** :  
 
-*	Create a Schedule named **Congo Accounting Folders**  
-*	**Saturdays** and **Sundays** are **non-working days**  
-*	**Auto-build** the Schedule ```7``` days in advance for ```1``` day  
-*	**Auto-delete** the Schedule for ```7``` days  
-*	Add **Documentation** for the Schedule  
-*	Create a **Windows Job** for each of the products in the introduction   
-*	Name each **Job** the same as its **product name**  
-*	This Job needs to run as the ```SMATRAINING\SMAUSER``` User ID  
-*	This Job needs to run on the **SMATRAINING** machine  
-*	Use the following **command line** replacing the three objects specified above with **Global Properties**:   
+* Créer un Schedule nommé **Congo Accounting Folders**
+* Les **samedis** et **dimanches** sont **des jours non ouvrables (non-working days)**
+* **Auto-build** le schedule ```7``` jours à l'avance pour ```1``` jour
+* **Auto-delete** le schedule ```7``` jours
+* Ajouter **documentation** pour le Schedule
+* Créer un **Job Windows** pour chacun des produits de l'introduction
+* Nommez chaque **Job** de la même manière que son **nom de produit**
+* Ce Job doit s'exécuter en tant qu'User ID ```SMATRAINING\SMAUSER``` 
+* Ce Job doit s'exécuter sur la Machine ```SMATRAINING```
+* Utilisez la **ligne de commande** suivante en remplaçant les trois objets spécifiés ci-dessus par des **propriétés globales** :
 
 ```
 “C:\scripts\Create_Folder.cmd” “C:\Accounting\yyyy-mm-dd-Legos”
 ```  
 
 :::note
-Remember that each Job is assigned to a product and the folder name must match the product
+N'oubliez pas que chaque Job est attribuée à un produit et que le nom du dossier doit correspondre au produit
 :::
 
-*	The Job must run **Monday-Friday**
-*	The Jobs must be **Tagged** according to the product line (**Toys**,**Electronics**, and **Clothing**)
-*	The Jobs must run in the following order with each Job requiring the Job before it:
-    *	Legos
-    *	Nerf
-    *	Smartphones
-    *	Xbox
-    *	Levis
-    *	Nike
-*	Build the Schedule for today and tomorrow (Released)
-*	Use Solution Manager Operations View to check if the Jobs complete ok
-*	After all Jobs are finished, check that **all** folders were created
+* Le Job doit être exécuté du **lundi au vendredi**
+* Les Jobs doivent être **étiquetés** en fonction du produits (**jouets**,** **électronique** et **vêtements**)
+* Les Jobs doivent s'exécuter dans l'ordre suivant, chaque Job nécessitant le Job avant lui :
+    * Legos
+    * Nerf
+    * Smartphones
+    * Xbox
+    * Levis
+    * Nike
+* Construire le schedule pour aujourd'hui et demain (Released)
+* Utilisez la vue des opérations de Solution Manager pour vérifier si les jobs sont terminés
+* Une fois tous les jobs terminés, vérifiez que tous les dossiers ont été créés
 
 </details>

@@ -1,28 +1,29 @@
 ---
-sidebar_panel: 'Unit 4 Exercise 3'
+sidebar_label: 'Unite 4 Exercice 3'
+hide_title: 'false'
 ---
 
-### Exercise 3: Thresholds - External Events
+## Exercice 3: Thresholds - Events externes
 
-##### Objective: 
+##### Objectif: 
 
-Within the **My Threshold Schedule**, create a new Job named **Threshold External Event Job**. This Job should run on a ```7 day``` Frequency with the Command Line:
+Dans **My Threshold Schedule**, créez un nouveau Job nommé **Threshold External Event Job**. Ce Job doit s'exécuter sur une fréquence de ```7 day``` avec la ligne de commande:
 
 ```
 “C:\scripts\ExerciseThreshold.cmd” +1
 ```
 
-In Matrix View, right-click the **My Threshold Schedule** and Add the **Threshold External Event Job** Released for Today.
+Dans la vue Matrix, cliquez avec le bouton droit sur **My Threshold Schedule** et ajouter le job Threshold External Event en Released pour aujourd'hui.
 
-Check the value of ```TrainingThreshold```.
+Vérifiez la valeur de ```TrainingThreshold```.
 
-Edit the Job Command Line to:
+Modifiez la ligne de commande du Job avec :
 
 ```
 “C:\scripts\ExerciseThreshold.cmd” -1
 ```
 
-Restart the Job and when it finishes, check the value of TrainingThreshold again to verify success.
+Redémarrez le Job et, une fois terminé, vérifiez à nouveau la valeur de TrainingThreshold pour vérifier la réussite.
 
 <div>
 <video width="320" height="240" controls>
@@ -33,53 +34,53 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Open **Enterprise Manager**.
-2.	Under the **Administration** topic, Double-Click **Job Master**.
-3.	Select **My Threshold Schedule** from the Schedule drop-down list.
-4.	Click the **Add** button on the **Job Master** toolbar.
-5.	Add a new Job named **Threshold External Event Job**.
-6.	Setup this Job to run the **script** named ```ExerciseThreshold.cmd```, passing ```+1``` as a parameter:
-	* The command line must be: 
+1. Ouvrez **Enterprise Manager**.
+2. Sous la rubrique **Administration**, double-cliquez sur **Job Master**.
+3. Sélectionnez **My Threshold Schedule** dans la liste déroulante Schedule.
+4. Cliquez sur le bouton **Ajouter** dans la barre d'outils **Job Master**.
+5. Ajoutez un nouveau Job nommé **Threshold External Event Job**.
+6. Configurez ce Job pour exécuter le **script** nommé ```ExerciseThreshold.cmd```, en passant ```+1``` en paramètre :
+    * La ligne de commande doit être :
 	```
 	“C:\scripts\ExerciseThreshold.cmd” +1
 	```
-	* The Job will run on the ```SMATraining``` machine
-	* Use the ```SMATRAINING\SMAUSER``` User ID 
-	* Add the ```Example-Mon-Sun-O``` Frequency to the Job (refer to Job definition in Unit 1 for help).
-	* Do not forget to add **Documentation**.
-7.	Under **Administration**, Double-Click **Thresholds**.
-8.	Select **TrainingThreshold** from the **Select Threshold** drop-down list.
-9.	Check the value. At this moment, it should be ```0```.
-10.	Close the **Thresholds** tab.
-11.	Open one of the Operations view (**Matrix** or **List**).
-12.	Check if the **My Threshold Schedule** is Completed.
-	* If it is not Completed, Cancel all the Jobs.
-	* Wait until the Schedule is **Completed**.
-13.	Right-Click the **My Threshold Schedule> Maintenance> Add Jobs**.
-14.	Check the checkbox for the **Threshold External Event Job** and then click **Add Job**.
-15.	Select the **Released** radio button and click **Yes**.
-16.	Click **Close**.
-17.	Wait until the Job finishes **OK**.
-18.	Under **Administration**, Double-Click **Thresholds**.
-19.	Select **TrainingThreshold** from the **Select Threshold** drop-down list.
-20.	Check the value. At this moment, it should be ```1```. What happened?
-	* The Job ran and created a file under the ```MSGIN``` folder. The file sent the ```$THRESHOLD:SET,TrainingThreshold,+1``` Event using the ```ocadm``` OpCon account and its Event password (```opconxps```).
-	* OpCon received the Event and processed it. It updated the value of the Threshold: ```0 + 1 = 1```
-21.	Close the Thresholds tab.
-22.	Go back to one of your **Operations Views**.
-23.	Right-Click the **Threshold External Event Job> Maintenance> Edit Daily Job**.
-24.	Change the **Command Line** to this: ```“C:\scripts\ExerciseThreshold.cmd” -1```
-25.	Click the **Save** button in the **Daily Job** toolbar (_Do not save the Job to the Master_).
-26.	Close the Job Daily (**Threshold External Event Job**) tab.
-27.	Right-Click the Job and select **Restart**.
-28.	Wait until the Job finishes **OK**.
-29.	Under **Administration**, Double-Click **Thresholds**.
-30.	Select **TrainingThreshold** from the **Select Threshold** drop-down list.
-31.	Check the value. At this moment, it should be back to ```0```. What happened?
-	* The Job ran and created a file under the ```MSGIN``` folder. The file sent the ```$THRESHOLD:SET,TrainingThreshold,-1``` Event using the ```ocadm``` OpCon account and its Event password (```opconxps```).
-	* OpCon received the Event and processed it. It updated the value of the Threshold: ```1 - 1 = 0```
-32.	Close the **Thresholds** tab.
+    * Le Job s'exécutera sur la machine ```SMATraining```
+    * Utilisez l'ID utilisateur ```SMATRAINING\SMAUSER```
+    * Ajoutez la fréquence ```Example-Mon-Sun-O``` au Job (reportez-vous à la définition du Job dans l'unité 1 pour obtenir de l'aide).
+    * N'oubliez pas d'ajouter de la **documentation**.
+7. Sous **Administration**, Double-cliquez sur **Thresholds**.
+8. Sélectionnez TrainingThreshold dans la liste déroulante **Selectionner Threshold**.
+9. Vérifiez la valeur. A ce moment, elle devrait être à ```0```.
+10. Fermez l'onglet **Thresholds**.
+11. Ouvrez l'une des vues Opérations (**Matrix** ou **List**).
+12. Vérifiez si **My Threshold Schedule** est terminée (Completed).
+    * S'il n'est pas terminé, annulez tous les Jobs.
+    * Attendez que le Schedule soit **completed**.
+13. Cliquez avec le bouton droit de la souris sur **My Threshold Schedule> Maintenance> Ajouter Jobs**.
+14. Cochez la case **Threshold External Event Job**, puis cliquez sur **Ajouter Jo**b.
+15. Sélectionnez le bouton radio **Released** et cliquez sur **Oui**.
+16. Cliquez sur **Fermer**.
+17. Attendez que le Job soit : **finished OK**
+18. Sous **Administration**, Double-cliquez sur **Thresholds**.
+19. Sélectionnez **TrainingThreshold** dans la liste déroulante **Selectionner Threshold**.
+20. Vérifiez la valeur. A ce moment, ça devrait être une valeur de ```1```. Que s'est-il passé ?
+    * Le Job s'est exécuté et a créé un fichier sous le dossier ```MSGIN```. Le fichier a envoyé l'event ```$THRESHOLD:SET,TrainingThreshold,+1``` en utilisant le compte OpCon ocadm et son mot de passe event (```opconxps```).
+    * OpCon a reçu l'event et l'a traité. Il a mis à jour la valeur du Threshold : ```0 + 1 = 1```
+21. Fermez l'onglet **Thresholds**.
+22. Revenez à l'une de vos **vues d'opérations**.
+23. Cliquez avec le bouton droit sur **Threshold External Event Job> Maintenance> Editer Daily Job**. 
+24. Changez la **ligne de commande** comme ceci : ```“C:\scripts\ExerciseThreshold.cmd” -1```
+25. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils de **Job Daily** (ne pas enregistrer le Job dans le Job Master).
+26. Fermez l'onglet Job Daily (**Threshold External Event Job**).
+27. Cliquez avec le bouton droit sur le Job et sélectionnez **Restart**.
+28. Attendez que le Job soit **Finished OK**.
+29. Sous **Administration**, Double-cliquez sur **Thresholds**.
+30. Sélectionnez **TrainingThreshold** dans la liste déroulante Selectionner **Threshold**.
+31. Vérifiez la valeur. A ce moment, il devrait être de retour sur ```0```. Que s'est-il passé ?
+    * Le Job s'est exécuté et a créé un fichier sous le dossier ```MSGIN```. Le fichier a envoyé l' event ```$THRESHOLD:SET,TrainingThreshold,-1``` en utilisant le compte OpCon ```ocadm``` et son mot de passe event (```opconxps```).
+    * OpCon a reçu l'event et l'a traité. Il a mis à jour la valeur du seuil : ```1 - 1 = 0```
+32. Fermez l'onglet **Thresholds** 
 
 </details>

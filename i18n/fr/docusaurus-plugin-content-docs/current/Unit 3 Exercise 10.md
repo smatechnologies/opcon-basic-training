@@ -1,16 +1,17 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 10'
+sidebar_label: 'Unite 3 Exercice 10'
+hide_title: 'false'
 ---
 
-### Exercise 10: Define a System Property
+### Exercice 10: Définir une propriété système
 
-##### Objective:
+##### Objectif:
 
-Create a new **Global System Property** using the ```$DATE``` Property.
+Créez une nouvelle **propriété système globale** à l'aide de la propriété ```$DATE```.
 
-The new Property should be named ```$DATEmmddyy```.
+La nouvelle propriété doit être nommée ```$DATEmmddyy```.
 
-The value of the Property is: ```mmddyy```.
+La valeur de la propriété est : ```mmddyy```.
 
 
 <div>
@@ -22,16 +23,16 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Under the **Administration topic**, Double-Click on **Global Properties**. 
-2.	Click the **Select Global Property** drop-down menu select ```$DATE```.
-3.	Click the **Copy** Button (top right) or press Ctrl+Insert
-4.	Keep ```$DATE``` in the name but append the format you’d like to use.   
-    * Example: ```$DATEmmddyy```
-5.	Click the **OK** button.
-6.	Change the **Value** to the date format you specified in the name.
-7.	Click the **Save** button on the Global Properties toolbar. 
-8.	Close the **Global Properties** tab.
+1. Sous la rubrique **Administration**, double-cliquez sur **Global Properties**.
+2. Cliquez sur le menu déroulant **Select Global Property** sélectionnez ```$DATE```.
+3. Cliquez sur le bouton **Copy** (en haut à droite) ou appuyez sur Ctrl + Insert
+4. Conservez le nom ```$DATE``` mais ajoutez le format que vous souhaitez utiliser.
+    * Exemple : ``$DATEmmddyy``
+5. Cliquez sur le bouton **OK**.
+6. Modifiez **Value** au format de date que vous avez spécifié dans le nom.
+7. Cliquez sur le bouton **Save** dans la barre d'outils **Propriétés globales**.
+8. Fermez l'onglet **Propriétés globales**.
 
 </details>

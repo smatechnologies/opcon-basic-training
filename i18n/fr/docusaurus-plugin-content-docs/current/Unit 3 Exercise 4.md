@@ -1,27 +1,30 @@
 ---
-sidebar_panel: 'Unit 3 Exercise 4'
+sidebar_label: 'Unite 3 Exercice 4'
+hide_title: 'false'
 ---
 
-### Exercise 4: Department Privileges
+## Exercice 4: Department Privileges
 
-##### Objective:
+##### Objectif:
 
-Create a **Department** named ```TrainingDept```.
+Créez un **département** nommé ```TrainingDept```.
 
-Assign the following ```TrainingDept``` **Departmental Function Privileges** to the ```Training``` Role:
+Attribuez au ```TrainingDept``` les **privilèges de fonction départemental** du ```Training``` rôle:
 
-* Add Jobs to Master Schedules
-* Delete Jobs from Master Schedules
-* Modify Jobs in Master Schedules
-* View Jobs in Daily Schedules
-* View Jobs in Master Schedules
-* View Jobs in Schedules Operations
-* Release Jobs
-* Hold Jobs
+* Ajouter des Jobs aux Master Schedules
+* Supprimer Jobs des Master Schedules
+* Modifier Jobs dans Master Schedules
+* Afficher Jobs dans Daily Schedules
+* Afficher les Jobs dans les Master Schedules
+* Afficher les Jobs dans Schedules Operations
+* Lancer des Jobs
+* Jobs en attente
 
-Next, assign the ```TrainingDept``` to **WINDOWS JOB 1**, **WINDOWS JOB 2**, and **WINDOWS JOB 3** in **MY FIRST SCHEDULE**.
+Ensuite, affectez le ```TrainingDept``` à **WINDOWS JOB 1**, **WINDOWS JOB 2** et **WINDOWS JOB 3** dans **MY FIRST SCHEDULE**.
 
-Finally, log out of Enterprise Manager and log back in as ```Student1```. The user should be able to access the Job Master Topic but still be limited in what can be viewed or maintained because it lacks Schedule and Function Privileges.
+Enfin, déconnectez-vous d'Enterprise Manager et reconnectez-vous en tant que ```Student1```.  
+
+L'utilisateur doit pouvoir accéder à la rubrique principale du job, mais être limité dans ce qui peut être affiché ou maintenu car il ne dispose pas de privilèges de planification et de fonction.
 
 
 <div>
@@ -33,68 +36,68 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1.	Create a Department
-    *	Under **Security**, Double-Click on **Departments**. 
-    *	Click the Add button on the Departments toolbar.
-    *	Type **TrainingDept** in the **Name** field.
-    *	Type **Department created for training** in the **Documentation** field
-    *	Click the Save button on the Departments toolbar.
-    *	Close the Departments tab.
-2.	Assign Departmental Function Privileges to the Role
-    *	Under the **Security > Privileges** topic, Double-Click on **Departmental Function Privileges**. 
-    *	On the **Select Role** drop-down list select **Training Role**.
-        *	Notice that all privileges are under the **Revoked** list (on the left) 
-    *	On the **Departments** drop-down list select **TrainingDept**.
-    *	Grant the Role the following Departmental Function Privileges
-        *	Add Jobs to Master Schedules
-        *	Delete Jobs from Master Schedules
-        *	Modify Jobs in Master Schedules
-        *	View Jobs in Daily Schedules
-        *	View Jobs in Master Schedules
-        *	View Jobs in Schedules Operations
-        *	Release Jobs
-        *	Hold Jobs
-    *	Close the Departamental Privileges tab.
+1. Créer un département
+    * Sous **Security**, double-cliquez sur **Departments**.
+    * Cliquez sur le bouton Add dans la barre d'outils Departments.
+    * Tapez ```TrainingDept``` dans le champ **Name**.
+    * Tapez **Department created for training** dans le champ **documentation**
+    * Cliquez sur le bouton Save dans la barre d'outils Departments.
+    * Fermez l'onglet Departments.
+2. Attribuer des privilèges de fonction départemental au rôle
+    * Sous la rubrique **Security > Privileges**, double-cliquez sur **Departmental Function Privileges**.
+    * Sur la liste déroulante **Select Rôle**, sélectionnez **Training Role**
+        * Notez que tous les privilèges sont sous la liste **Revoked** (sur la gauche)
+    * Dans la liste déroulante **Departments**, sélectionnez ```TrainingDept```.
+    * Accorder au rôle les privilèges de fonction départemental suivants
+        * Ajouter des Jobs aux Master Schedules
+        * Supprimer les Jobs des Master Schedules
+        * Modifier les Jobs dans les Master Schedules
+        * Afficher les Jobs dans les Daily Schedules
+        * Afficher les Jobs dans les Master Schedules
+        * Afficher les Jobs dans les Schedules
+        * Lancer des Jobs
+        * Jobs en attente
+    * Fermez l'onglet Privilèges départementaux.
 
-:::note
-The User Student1 (which is under the Training Role) now can add/modify/delete Jobs to Schedules and see them in the Operations Views screen. The user can also Hold and Release Jobs.
+:::note Remarque
+l'utilisateur ```Student1``` (qui se trouve sous le rôle de Training) peut désormais ajouter / modifier / supprimer des Jobs aux Schedules et les afficher dans l'écran Operations Views. L'utilisateur peut également suspendre et libérer des Jobs.
 :::
 
-3.	Assign the Department to a Job
-    *	Under the **Administration** topic, Double-Click on **Job Master**. 
-    *	Select **My First Schedule**.
-    *	Select **Windows Job 1**.
-    *	Select **TrainingDept** in the “**Department**” Field.
-    *	Click the Save button on the Job Master toolbar.
-    *	Click the **Frequency** tab.
-    *	Under **Job Build Status**, activate ‘**On Hold**’.
-    *	Click the Save button on the Job Master toolbar.
-    *	Select **Windows Job 2**.
-    *	Select **TrainingDept** in the “**Department**” Field.
-    *	Click the Save button on the Job Master toolbar.
-    *	Click the **Frequency** tab.
-    *	Under Job Build Status, activate ‘**On Hold**’.
-    *	Click the Save button on the Job Master toolbar.
-    *	Select **Windows Job 3**.
-    *	Select **TrainingDept** in the “**Department**” Field.
-    *	Click the Save button on the Job Master toolbar.
-    *	Close the Job Master tab.
-4.	Check User Access
-    *	Logout from Enterprise Manager. Click the Logout button or select Logout from the Enterprise Manager Menu bar.
-    *	Click **OK** to confirm you are logging out.
-    *	From the OpCon/xps Login screen type **Student1** on the **Username** field and **password1** on the **Password** Field. Click **Login**.
-    *	Notice that the user still does not have privilege to see **Machines** under the **Administration** topic.
-    *	Notice that now this user is able to access the **Job Master** topic
-    *	Double-Click the **Job Master** topic.
-    *	Try selecting a Schedule from the **Schedule** drop-down list. What happened?
-    *	Close the Job Master.
-    *	Logout from Enterprise Manager. Click **OK** to confirm you are logging out.
-    *	From the OpCon/xps Login screen leave both the **Username** and the **Password** fields blank and click **Login**.
+3. Attribuer le Département à un Job
+    * Sous la rubrique **Administration**, double-cliquez sur **Job Master**.
+    * Sélectionnez **My First Schedule**.
+    * Sélectionnez **Windows Job 1**.
+    * Sélectionnez ```TrainingDept``` dans le champ « **Department** ».
+    * Cliquez sur le bouton Save dans la barre d'outils Job Master.
+    * Cliquez sur l'onglet **Frequency**.
+    * Sous Job Build Status, activez « **On Hold** ».
+    * Cliquez sur le bouton Save dans la barre d'outils Job Master.
+    * Sélectionnez **Windows Job 2** .
+    * Sélectionnez ```TrainingDept``` dans le champ « **Department** ».
+    * Cliquez sur le bouton Save dans la barre d'outils Job Master.
+    * Cliquez sur l'onglet **Frequency**.
+    * Sous Statut de création de la tâche, activez « **On Hold** ».
+    * Cliquez sur le bouton Save dans la barre d'outils Job Master.
+    * Sélectionnez **Windows Job 3**.
+    * Sélectionnez ```TrainingDept``` dans le champ « **Department** ».
+    * Cliquez sur le bouton Save dans la barre d'outils Job Master.
+    * Fermez l'onglet Job Master.
+4. Vérifier l'accès des utilisateurs
+    * Déconnectez-vous d'Enterprise Manager. Cliquez sur le bouton Logout ou sélectionnez Logout dans la barre de menus d'Enterprise Manager.
+    * Cliquez sur **OK** pour confirmer que vous vous déconnectez.
+    * À partir de l'écran de connexion OpCon / xps, tapez ```Student1``` dans le champ **Username** et ```password1``` dans le champ **password**. Cliquez sur Login.
+    * Notez que l'utilisateur n'a toujours pas le privilège de voir les **machines** sous la rubrique **Administration**.
+    * Notez que cet utilisateur peut désormais accéder à la rubrique **Job Master**.
+    * Double-cliquez sur la rubrique **Job Master**.
+    * Essayez de sélectionner un Schedule dans la liste déroulante **Schedule**. Que s'est-il passé?
+    * Fermez le Job Master.
+    * Déconnectez-vous d'Enterprise Manager. Cliquez sur **OK** pour confirmer que vous vous déconnectez.
+    * À partir de l'écran de connexion OpCon / xps, laissez les champs **Username** et **Password** vides et cliquez sur **Login**.
 
-:::caution Warning
-Note: The User **Student1** cannot view or maintain Jobs in a Schedule because we did not setup Schedule and Functional Privileges yet.
+:::caution Remarque
+l'utilisateur ```Student1``` ne peut pas afficher ni gérer les jobs dans un schedule car nous n'avons pas encore configuré le schedule et les privilèges fonctionnels
 :::
 
 </details>

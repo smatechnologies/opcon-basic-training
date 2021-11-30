@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'SubSchedules and Container Jobs'
+sidebar_label: 'Sous-Schedules et Jobs Container Sous-Schedule'
+hide_title: 'false'
 ---
+
+## Sous-Schedules et Jobs Container Sous-Schedule
 
 <figure>
     <audio
@@ -11,34 +14,32 @@ sidebar_panel: 'SubSchedules and Container Jobs'
     </audio>
 </figure>
 
-### SubSchedule: Definition
+### Sous- Schedules et Jobs Container Sous- Schedule : définition
 
-* Schedule which can be embedded in another Schedule (or other Schedules)
-	* Only built if called by a Container Job
-	* Give Job-like properties to Schedules
-* Are Multi-Instance by default
-	* Can duplicate blocks of Jobs from a shared Resource
+* Schedule qui peut être intégré dans un autre Schedule (ou d'autres Schedules)
+    * Mis au plan uniquement s'il est appelé par un Job Container
+    * Les propriétés du Job sont données au Sous-Schedule 
+* Sont multi-instances par défaut
+    * Peut dupliquer un ensemble de Jobs à partir d'une ressource partagée
 
-### SubSchedule Visualization
+### Visualisation des sous-schedules
 
 <a href="imgbasic/424.png" target="_blank"><img src="imgbasic/424.png" width="500"></img></a>
 
-### Container Job: Definition
+### Job Container : définition
 
-* Job that contains Sub-Schedule
-* Grants SubSchedule all Job-like properties
-	* Frequencies 
-    :::tip
-    **Remember**: Container Jobs are **JOBS**. Jobs need Frequencies to run!
-    :::
-	* Time Offsets (Other Frequency Details)
-	* Dependencies
-	* Events
-	* Etc.
-* Multiple Container Jobs can reference same SubSchedule
-* Container Job will only Complete if all Jobs in SubSchedule have completed
+* Job qui contient un sous-Schedule
+* Le sous-schedule récupère les propriétés du Job
+    * Fréquences
+        * _Rappelez-vous : les jobs de conteneur sont des jobs. Les jobs ont besoin de fréquences pour s’executer!_
+    * Décalages horaires (autres détails de fréquence)
+    * Dépendances
+    * Events
+    * Etc.
+* Plusieurs jobs container peuvent référencer le même sous-schedule
+* Le job container ne sera terminé que si tous les jobs du sous-schedule sont terminés
 
-### SubSchedule/Container Job: Setup
+### Sous-schedule/ Job Container: configuration
 
 <figure>
     <audio
@@ -49,30 +50,30 @@ sidebar_panel: 'SubSchedules and Container Jobs'
     </audio>
 </figure>
 
-* Create SubSchedule:
-	* Create Schedule in Schedule Master
-	* Mark Schedule as **SubSchedule**
-* Embed SubSchedule within another Schedule by creating Container Job
-	* Create Job using Container Job Type
-	* Select SubSchedule that the Container Job will use
+* Créer un sous-schedule:
+    * Créer un schedule dans Schedule Master
+    * Marquer le schedule comme Sous-schedule
+* Incorporer le sous-schedule dans une autre schedule en créant un Job container
+    * Créer un job à l'aide du type de Job container
+    * Sélectionnez le sous- schedule que le Job container utilisera
 
-### SubSchedule Designation in Schedule Master
+### Désignation du sous- schedule  dans Schedule Master
 
 <a href="imgbasic/425.png" target="_blank"><img src="imgbasic/425.png" width="500"></img></a>  
 
-### SubSchedule Container Job
+### Job container de sous-schedule
 
 <a href="imgbasic/426.png" target="_blank"><img src="imgbasic/426.png" width="500"></img></a>  
 
-### SubSchedule Container Definition
+### Définition du Job Container
 
 <a href="imgbasic/427.png" target="_blank"><img src="imgbasic/427.png" width="500"></img></a>  
 
-### Solution Manager - Container Job Task Details Screen
+### Solution Manager - Détail du Job Container
 
 <a href="imgbasic/428.png" target="_blank"><img src="imgbasic/428.png" width="500"></img></a>  
 
-### SubSchedule Usage Scenarios
+### Scénarios d'utilisation des sous-schedules
 
 <figure>
     <audio
@@ -83,39 +84,39 @@ sidebar_panel: 'SubSchedules and Container Jobs'
     </audio>
 </figure>
 
-### Scenario 1 - Multiple Runs/SubSchedule
+### Scénario 1 - Plusieurs exécutions / sous-schedule
 
-* Same 5 Job processes needs to run exact same way 4 times each day
-	* Instead of Looping Jobs or Events, use **SubSchedules**
+* Les 5 mêmes jobs doivent s'exécuter exactement de la même manière 4 fois par jour
+    * Au lieu de **Relancer des jobs** ou des events, utilisez des **sous-schedules**
 
 <a href="imgbasic/429.png" target="_blank"><img src="imgbasic/429.png" width="500"></img></a>  
 
-### Scenario 2 - Concurrent Processes
+### Scénario 2 - Processus simultanés
 
-* 5 files need to be processed by arrival time
-* No order for when each file needs to be processed
-* Same set of jobs will process the files
-* Files need to be processed one at a time
+* 5 fichiers doivent être traités par heure d'arrivée
+* Aucun ordre n’établit pour le traitement des fichiers 
+* Le même ensemble de jobs traitera les fichiers
+* Les fichiers doivent être traités un par un
 
 <a href="imgbasic/430.png" target="_blank"><img src="imgbasic/430.png" width="500"></img></a>  
 
-### Scenario 3 - Daily and Monthly Process
+### Scénario 3 - Processus quotidien et mensuel
 
-* Daily Schedule has 5 processes that must run every working day
-* If it is end of month, instead of running these 5 processes, Monthly Schedule, with 7 processes, must run **excluding** execution of Daily Schedule
+* Le Schedule quotidien comporte 5 jobs qui doivent s'exécuter chaque jour ouvrable
+* •Si c'est la fin du mois, au lieu d'exécuter ces 5 jobs, le schedule mensuelle, avec 7 jobs, doit s'exécuter **hors** exécution du schedule quotidien
 
 <a href="imgbasic/431.png" target="_blank"><img src="imgbasic/431.png" width="500"></img></a>
 
-### Scenario 3 - Daily and Monthly Process Solution
+### Scénario 3 - Solution de processus quotidien et mensuel
 
-* Create Schedule with 2 SubSchedules
-	* Daily SubSchedule with 5 jobs
-	* Monthly SubSchedule with 7 jobs
-	* Main Schedule will have both SubSchedules as Container jobs
-	* Monthly Schedule has **Excludes Dependency** on Daily SubSchedule
+* Créer un Schedule avec 2 sous-schedule
+    * Sous-schedule quotidien avec 5 jobs
+    * Sous-schedule mensuel avec 7 jobs
+    * Le Schedule principal aura les deux sous-schedule en tant que Job container
+    * Le Sous-Schedule mensuel exclut le Sous-Schedule quotidien à l’aide d’une dépendance de type En exclusion 
     
-:::note
-This solution simplifies Frequencies definitions
+:::note Remarque
+Cette solution simplifie les définitions de fréquences
 :::
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Advanced Failure Criteria'
+sidebar_label: 'Critères d échec avancés'
+hide_title: 'false'
 ---
+
+## Critères d'échec avancés
 
 <figure>
     <audio
@@ -11,8 +14,8 @@ sidebar_panel: 'Advanced Failure Criteria'
     </audio>
 </figure>
 
-* Failure Criteria - Advanced tab allows the specification of multiple Exit Codes
-* Combining this with Events based on Job Exit Description allows OpCon to behave differently based on Exit Condition
-* **Unlike Events based on Job Exit Description**, Advanced Failure Criteria does **NOT** need the full Exit Code
+* Critères d'échec - L'onglet Advanced permet la spécification de plusieurs codes de sortie
+* La combinaison de cela avec des events basés sur la description de sortie du Job permet à OpCon de se comporter différemment en fonction de la condition de sortie.
+* **Contrairement aux events basés sur la description de sortie de Job**, les critères d'échec avancés n'ont **PAS** besoin du code de sortie complet
 
 <a href="imgbasic/356.png" target="_blank"><img src="imgbasic/356.png" width="500"></img></a>
