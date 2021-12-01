@@ -1,24 +1,24 @@
 ---
-sidebar_panel: 'Self Service Exercise 1'
+sidebar_label: 'Exercice 1 dans Self-Service'
+hide_title: 'false'
 ---
 
-### Self Service Exercise 1: Create a Button
+## Exercice 1 dans Self-Service : créer un bouton
 
-
-1. In Solution Manager, select the **Self Service** Tab.
-2. Be sure that **Admin Mode** is activated by clicking the **Lock Button** in the Upper Right Hand corner. It should be **Green** and **Unlocked**.
-3. In Self Service, click the Green **Create** Button to create a new Button. 
-4. In the **Name** textbox, enter **Test Button 1**.
-5. In the **Documentation** textbox, enter **This is a Test Button.**
-6. Be sure that the **Confirmation Message** option is toggled to On (```Green```).
-7. Under Events, click the Green Add Bar **(+)**.
-8. From the Event Template Menu, select ```$CONSOLE:DISPLAY,<message>```.
-9. In the Message textbox, enter **This is a test message to the Console**. 
-10. Click the **OK Button**.
-11. Next, toggle the ```Submit Events as OCADM``` option to On (```Green```).
-12. Click **Save**. 
-13. Activate **User Mode** by clicking the **Lock Button** in the Upper Right Hand corner. It should now be **Gray** and **Locked**.
-14. Click **Test Button 1**.
-15. Click the **Submit Button** to run the process. The Progress Bar will display. A successful run will be indicated with a **Green** Check Mark Icon.
-16. Click the **OK Button** to exit the Request Process.
-17. Open the ```SAM.log``` file location to verify that the Message has written to the Console. 
+1. Dans Solution Manager, sélectionnez l'onglet **Self Service**.
+2. Assurez-vous que le **mode administrateur** est activé en cliquant sur le bouton **Mode Admin** dans le coin supérieur droit. Le cadenas doit être **vert** et **déverrouillé**.
+3. Dans Self Service, cliquez sur le bouton **Créer** vert pour créer un nouveau bouton.
+4. Dans la zone de texte **Nom**, entrez **Test Button 1**.
+5. Dans la zone de texte **Documentation**, entrez Ceci est un bouton de test.
+6. Assurez-vous que l'option **Message de Confirmation** est activée (```Vert```).
+7. Sous Events, cliquez sur la barre verte d'ajout (```+```).
+8. Dans le menu Modèle de l'événement, sélectionnez ```$CONSOLE:DISPLAY,<message>```.
+9. Dans la zone de texte Message, saisissez **Ceci est un message de test adressé à la console**.
+10. Cliquez sur le bouton **OK**.
+11. Ensuite, basculez l'option Envoyer ```l'événement via OCADM``` sur Activé (```vert```).
+12. Cliquez sur **Enregistrer**.
+13. Activez **le Mode Utilisateur** en cliquant sur le bouton **Mode Admin** dans le coin supérieur droit. Le cadenas devrait maintenant être **Gris** et **Vérouillé**.
+14. Cliquez sur le bouton **Test 1**.
+15. Cliquez sur le **bouton Soumettre** pour exécuter le processus. La barre de progression s'affiche. Une exécution réussie sera indiquée par une icône de coche **verte**.
+16. Cliquez sur le bouton **OK** pour quitter le processus de demande.
+17. Ouvrez l'emplacement ```SAM.log``` du fichier pour vérifier que le message a été écrit dans la console.

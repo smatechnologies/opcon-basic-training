@@ -1,29 +1,31 @@
 ---
-sidebar_panel: 'Creating Categories'
+sidebar_label: 'Créer des catégories'
+hide_title: 'false'
 ---
 
-Service Requests can be grouped into defined Categories
+## Créer des catégories
 
-* A specific Department or User Group can be defined as a Category, for example
+* Les Service Requests peuvent être regroupées dans des catégories définies
+    * Un service ou un groupe d'utilisateurs peuvent être défini comme une catégorie, par exemple
 
-To Create and associate a Category:
+* Pour créer et associer une catégorie :
 
-* Click the small  ```Create``` text in the Top Left-Hand Corner of the Self-Service Main Page
+* Cliquez sur le petit texte ```+ Créer``` dans le coin supérieur gauche de la page principale Self Service
 
 <a href="imgbasic/SelfServiceCreateCategory.png" target="_blank"><img src="imgbasic/SelfServiceCreateCategory.png" width="500"></img></a>
 
-* The New Category page will display with the following options:
-    * Name
-        * Best Practice is to choose a naming convention that will help to refine the Service Request Filtering Query
-    * For example, naming a Category "Important/Saturday" would allow "Saturday" to be used as the Category Filter
-    * Color
-    * Service Requests
-        * Select the Service Requests desired to be assigned to the New Category
+* La page Création d’une Catégorie s'affiche avec les options suivantes :
+    * **Nom**
+        * La pratique recommandée consiste à choisir une convention de nommage qui aidera à affiner les filtres du menu Self Service
+        * Par exemple, si vous attribuez un nom à une catégorie « Important / samedi », « samedi » peut être utilisé comme filtre de catégorie.
+    * **Couleur**
+    * **Service Requests**
+        * Sélectionnez les Service Requests que vous souhaitez affecter à la nouvelle catégorie
 
 <a href="imgbasic/SelfServiceNewCategoryScreen.png" target="_blank"><img src="imgbasic/SelfServiceNewCategoryScreen.png" width="500"></img></a>
 
 <a href="imgbasic/SelfServiceScreenWithCategory.png" target="_blank"><img src="imgbasic/SelfServiceScreenWithCategory.png" width="500"></img></a>
 
-* Once the Category is created, previously unassigned Service Requests can now be assigned to a preferred Category
+* Une fois la catégorie créée, les Service Requests précédemment non attribuées peuvent désormais lui être attribuées.
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)

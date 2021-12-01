@@ -1,14 +1,15 @@
 ---
-sidebar_panel: 'Self Service Exercise 3'
+sidebar_label: 'Exercice 3 dans Self Service'
+hide_title: 'false'
 ---
 
-### Self Service Exercise 3: Stylizing a Button
+## Exercice 3 dans Self Service : styliser un bouton
 
-1. In Solution Manager, select the **Self Service** Tab.
-2. Be sure that **Admin Mode** is activated by clicking the **Lock Button** in the Upper Right Hand corner. It should be **Green** and **Unlocked**.
-3. From the **Self Service** Tab main screen, click the **Blue Edit Button** on **Test Button 1**.
-4. Toggle the **Custom Html** option to On (```Green```).
-5. In the **Custom Html** textbox, enter the following as a template:
+1. Dans **Solution Manager**, sélectionnez l'onglet **Self Service**.
+2. Assurez-vous que le **mode administrateur** est activé en cliquant sur le **bouton cadenas** dans le coin supérieur droit. Il doit devenir **vert** et **déverrouillé**.
+3. À partir de l'écran principal de l'onglet **Self Service**, cliquez sur le bouton **Bleu Modifier** sur le bouton **Test 1**.
+4. Basculez l'option **Html personnalisé** sur Activé (```Vert```).
+5. Dans la zone de texte **Html personnalisé**, saisissez ce qui suit comme modèle :
 
 ```
 <div style="background-color: #043A4F;height: 12px;width:200px;border-radius: 3px;border: 2px solid #043A4F;color: white;font-size: 14px;font-weight: bold;padding: 25px">
@@ -19,18 +20,18 @@ sidebar_panel: 'Self Service Exercise 3'
 </div>
 ```
 
-6. Change the **background color** Hex Code from **#043A4F** to **#FA4616**.
-7. Change the **border: 2px solid #043A4F** to **border: 8px dashed #1155cc**
-8. Change the **v-icon color** Hex Code from **#93D7FA** to **white**.
-9. Change the **v-icon** Unicode from **xf0ac** to **xf1C0**. 
+6. Changez le code hexadécimal de **couleur d'arrière-plan** de **#043A4F** à **#FA4616**.
+7. Changez la **bordure : 2px solide #043A4F** en **bordure : 8x pointillé #1155cc**
+8. Changez le code hexadécimal de **couleur de l'icône v** de **#93D7FA** en **blanc**.
+9. Changez l’**icône v** Unicode de **xf0ac** à **xf1C0**.
 
-:::note 
-The preview Button should now be Orange with white text. The icon should be a database symbol that is also white
+:::note Remarque
+Le bouton d'aperçu doit maintenant être orange avec du texte blanc. L'icône doit être un symbole de base de données également blanc
 :::
 
-10. Click **Save** to accept the Button modifications.
+10. Cliquez sur **Enregistrer** pour accepter les modifications du bouton.
 
-* For practice, choose another button and stylize different components. 
+* Pour vous entraîner, choisissez un autre bouton et stylisez différents composants.
 
-    * A list of Hex Code Colors can be referenced at <a href="https://htmlcolorcodes.com/" target="_blank">https://htmlcolorcodes.com/</a>
-    * A list of Unicode Icons can be referenced at <a href="https://fontawesome.com/icons" target="_blank">https://fontawesome.com/icons</a>
+    * Une liste de couleurs de code hexadécimal peut être référencée sur <a href="https://htmlcolorcodes.com/" target="_blank">https://htmlcolorcodes.com/</a>
+    * Une liste d'icônes Unicode peut être référencée sur <a href="https://fontawesome.com/icons" target="_blank">https://fontawesome.com/icons</a>

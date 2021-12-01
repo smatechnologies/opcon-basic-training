@@ -1,12 +1,15 @@
 ---
-sidebar_panel: 'Setting Up Privileges'
+sidebar_label: 'Configurer les privilèges'
+hide_title: 'false'
 ---
 
-* OpCon Role(s) must be assigned Service Request buttons to both see and run them from the Service Request page
-    * At least one role access must be granted to the Service Request
-    * Only the ```ocadm``` Role can grant the ```ocadm``` Role access to a Service Request
+## Configurer les privilèges
+
+* Les Profils OpCon doivent se voir attribuer des boutons Service Request pour les voir et les exécuter à partir de la page Self Service 
+    * On doit accorder l’accès à au moins un rôle (ou Profil) pour chaque Service Request
+    * Seul un utilisateur ayant le Profil ```ocadm``` peut accorder au rôle ``ocadm`` l'accès à un Service Request
 
 <a href="imgbasic/SelfServiceShowForRole.png" target="_blank"><img src="imgbasic/SelfServiceShowForRole.png" width="500"></img></a>
 
 
-###### (Click Image to Enlarge)
+###### (Cliquez sur l'image pour l'agrandir)

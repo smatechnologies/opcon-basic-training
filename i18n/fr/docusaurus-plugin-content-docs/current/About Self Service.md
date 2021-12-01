@@ -1,24 +1,22 @@
 ---
-sidebar_label: 'About Self Service'
+sidebar_label: 'Aperçu'
 hide_title: 'false'
 ---
 
-### Overview
+### Aperçu
 
 <a href="imgbasic/SelfServiceButtonSolutionManager.png" target="_blank"><img src="imgbasic/SelfServiceButtonSolutionManager.png" width="500"></img></a>  
 
-* **Self Service** allows End-users to interact with OpCon without having to engage their IT department
-    * A Web Browser is the only software requirement
-    * Self Service allows End-users to submit Requests without any knowledge of Opcon
-    * Security based on Opcon Roles
-        * The User only sees the requests associated with their Role
+* **Self Service** permet aux utilisateurs finaux d'interagir avec OpCon sans avoir à impliquer leur service informatique
+    * Un navigateur Web est la seule exigence logicielle
+    * Le Self-Service permet aux utilisateurs finaux de soumettre des Service Request sans connaissance d'Opcon
+    * La sécurité est basée sur les Profils Opcon
+        * L'Utilisateur ne voit que les requêtes associées à ses profils opcon
+* Toutes les informations sont stockées dans la base de données OpCon
+    * Self Service donne accès nativement à l’usage des Events (tous les Events Opcon peuvent être utilisés)
+    * Chaque demande peut envoyer un ou plusieurs Events.
+    * Des variables peuvent être utilisées dans la définition de demande
+        * Ces variables peuvent être des entrées utilisateur
+        * Des règles de validation peuvent être associées à ces variables
 
-* All information is stored within the OpCon Database
-    * Provides Native Use of Events (All Events are eligible for use in Self Service)
-    * Each Request can send multiple Events
-    * Variables can be utilized in the Request Definition
-        * Variables can be User Inputs
-        * Validation rules can be associated with variables
-
-
-###### (Click Image to Enlarge)
+###### (Cliquez sur l'image pour l'agrandir)

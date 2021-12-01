@@ -1,22 +1,23 @@
 ---
-sidebar_panel: 'Filtering And Querying'
+sidebar_label: 'Filtrage des Service Requests'
+hide_title: 'false'
 ---
 
-### Filtering Service Requests
+## Filtrage des Service Requests
 
-* Use the Filter bar at the top of the Self Service screen to filter Service Requests by:
-  * Category
-  * OpCon Role
-  * Service Request Name
+* Utilisez la barre de filtrage en haut de l'écran Self Service pour filtrer les Service Requests par:
+    * Catégorie
+    * Rôle Opcon
+    * Nom
 
 <a href="imgbasic/SelfServiceFilterBar.png" target="_blank"><img src="imgbasic/SelfServiceFilterBar.png" width="500"></img></a>
 
-### Querying with Wildcards
+### Rechercher avec des caractères génériques
 
-* For advanced querying, the Filter bar accepts the wildcard characters of asterisk (```*```) and question mark (```?```)
-  * The asterisk wildcard can be used to match zero to many characters
-  * The question mark wildcard must match a single (```one```) character
-  * By default, the Filter will perform a ```CONTAINS``` operation against the dataset with the given text query
-  * If the Filter query begins with an equal sign (```=```), the query becomes strict instead of performing a ```CONTAINS``` operation
+* Pour les requêtes avancées, la barre de filtre accepte les caractères génériques de l'astérisque (```*```) et du point d'interrogation (```?```)
+    * Le caractère générique astérisque peut être utilisé pour faire correspondre de zéro à plusieurs caractères
+    * Le caractère générique point d'interrogation correspond à un seul caractère.
+    * Par défaut, le filtre effectuera une opération ```CONTAINS``` sur l'ensemble de données avec la requête de texte donnée
+    * Si la requête Filtre commence par un signe égal (```=```), la requête devient stricte au lieu d'effectuer une opération ```CONTAINS```
 
-###### (Click Image to Enlarge)
+###### (Cliquez sur l'image pour l'agrandir)

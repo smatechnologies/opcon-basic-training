@@ -1,21 +1,24 @@
 ---
-sidebar_panel: 'User Mode'
+sidebar_label: 'Mode utilisateur'
+hide_title: 'false'
 ---
 
-Users not in the ```ocadm``` Role or in a Role without the  ```Maintain Service Request``` privilege will see a Self Service Page with only the Service Request buttons to which they have privileges
+## Mode utilisateur
+
+Les utilisateurs qui ne sont pas associés au Profil ```ocadm``` ou dont le Profil ne possède pas le privilège ```Maintain Service Request``` verront une page de Self Service avec uniquement les boutons the Service Request sur lesquels ils ont des droits.
 
 <a href="imgbasic/SelfServiceUserModeView.png" target="_blank"><img src="imgbasic/SelfServiceUserModeView.png" width="500"></img></a>
 
-### Run a Service Request in User Mode
+### Exécuter une Service Request en mode utilisateur
 
-* Click the Service Request Button
-* Proceed based on one of two prompts:
-  - If a confirmation message is configured with no inputs, the Service Request will prompt the User to click the ```Submit``` button to continue or ```Cancel``` button to discard the run Request
-  - If user inputs are configured, the Service Request will allow the User to configure the User Input field(s) for the Service Request
-* The page will enforce any validation rules
-  - If the validation fails, a message in red text will indicate an invalid entry
-  - Form vailidation takes place each time the ```Submit``` button is clicked
+* Cliquez sur un bouton Service Request
+* Continuez en vous basant sur l'une des deux options suivantes :
+    * Si un message de confirmation est configuré sans entrées, le Service Request invitera l'utilisateur à cliquer sur le bouton ```Soumettre``` pour continuer ou sur le bouton ```Annuler``` pour rejeter la demande d'exécution.
+    * Si les entrées utilisateur sont configurées, le Service Request permettra à l'utilisateur de remplir le(s) champ(s) d'entrée utilisateur pour le Service Request.
+* La page appliquera toutes les règles de validation
+    * Si la validation échoue, un message en texte rouge indiquera une entrée invalide
+    * La validation du formulaire a lieu chaque fois que le bouton ```Soumettre``` est cliqué
 
 <a href="imgbasic/SelfServiceRequestRequiredFields.png" target="_blank"><img src="imgbasic/SelfServiceRequestRequiredFields.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Cliquez sur les images pour les agrandir)
