@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Schedule Privileges'
+sidebar_label: 'Schedule Privileges'
 ---
 
 <figure>

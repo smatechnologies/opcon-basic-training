@@ -1,5 +1,6 @@
 ---
-sidebar_panel: 'Schedule Master'
+sidebar_label: 'Schedule Master'
+hide_title: 'false'
 ---
 
 <figure>

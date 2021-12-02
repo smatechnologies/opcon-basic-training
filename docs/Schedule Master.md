@@ -1,5 +1,5 @@
 ---
-sidebar_panel: 'Schedule Master'
+sidebar_label: 'Schedule Master'
 ---
 
 <figure>
