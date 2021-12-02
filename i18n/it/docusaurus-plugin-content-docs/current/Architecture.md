@@ -1,8 +1,11 @@
 ---
-sidebar_label: 'Architecture'
+sidebar_label: 'Architectura di OpCon'
+hide_title: 'false'
 ---
 
-### What is OpCon?
+## Architectura di OpCon
+
+### Cosa è OpCon?
 
 <figure>
     <audio
@@ -13,12 +16,12 @@ sidebar_label: 'Architecture'
     </audio>
 </figure>
 
-* A Platform independent Job Scheduling and Automation Solution that SMA provides to manage an entire Datacenter
+* Una piattaforma di Automazone ed di Job Scheduling indipendente dalla piattaforma che consente la gestione completa di tutto il Datacenter
 
 
 <img src="imgbasic/Picture3.png" width="300"></img>
 
-### OpCon Architecture Overview
+### Panoramica della Architettura di Opcon 
 
 <figure>
     <audio
@@ -35,5 +38,5 @@ sidebar_label: 'Architecture'
 
 <a href="imgbasic/Picture5.png" target="_blank"><img src="imgbasic/Picture5.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)
 

@@ -4,23 +4,23 @@
     "description": "The label for version current"
   },
   "sidebar.mySidebar.category.Unit 1": {
-    "message": "Unit 1",
+    "message": "Unità 1",
     "description": "The label for category Unit 1 in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Unit 2": {
-    "message": "Unit 2",
+    "message": "Unità 2",
     "description": "The label for category Unit 2 in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Unit 3": {
-    "message": "Unit 3",
+    "message": "Unità 3",
     "description": "The label for category Unit 3 in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Unit 4": {
-    "message": "Unit 4",
+    "message": "Unità 4",
     "description": "The label for category Unit 4 in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Self Service Module": {
-    "message": "Self Service Module",
+    "message": "Modulo Self Service",
     "description": "The label for category Self Service Module in sidebar mySidebar"
   },
   "sidebar.mySidebar.link.Take OpCon Basic Training Exam": {

@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Class Information'
+sidebar_label: 'Informazioni sull Aula per la formazione'
+hide_title: 'false'
 ---
+
+## Informazioni sull'Aula per la formazione
 
 <figure>
     <audio
@@ -11,21 +14,21 @@ sidebar_label: 'Class Information'
     </audio>
 </figure>
 
-### This Week...
+### Questa Settimana…
 
-* We will work for Congo Online Retail Inc.
-* We will set up OpCon to automate processes to:
-  * Run Inventory Reports
-  * Run Purchasing Reports
-  * Process new orders and ship to customers
-  * Update inventory after shipment
-  * Update Data Warehouse for Executive Reports
-  * Set up user accounts so that Executives get information they want!
+* Lavoreremo per l'azienda Congo Online Retail Inc.
+* Imposteremo OpCon per automatizzare i processi per:
+    * Eseguire reports sull'inventario
+    * Eseguire reports sugli acquisti
+    * Elaborare nuovi ordini da spedire ai clienti
+    * Aggiornare l'inventario dopo la spedizione
+    * Aggiornare il Data Warehouse per i Report per il Management
+    * Configurare gli account utente per abilitare il Management ad ottenere le informazioni Desiderate
 
-### Training Machines
+### Macchine per il la formazione
 
 <img src="imgbasic/Picture2.png" width="300"></img>
 
-* Stand-Alone OpCon Environment
-* 1 Windows Agent and 1 Unix Agent
-* Mozilla Thunderbird email client: ```smauser@congo.local```
+* Ambiente OpCon Autonomo
+* 1 Agent Windows e 1 Agent Unix
+* Client email Mozilla Thunderbird email per l'indirizzo email **smauser@congo.local**

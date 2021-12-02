@@ -1,15 +1,18 @@
 ---
-sidebar_label: 'Action Buttons'
+sidebar_label: 'Pulsanti per azioni tipiche'
+hide_title: 'false'
 ---
 
-Most screens under Administration section will present these buttons assigned to their respective actions:
+## Pulsanti per azioni tipiche
 
-**ADD** _(Ctrl + N)_: Adds appropriate editor information  
-**REMOVE** _(Ctrl + D)_: Deletes appropriate editor information  
-**SAVE** _(Ctrl + S)_: Saves appropriate editor information  
-**CANCEL** _(Ctrl + R)_: Cancels appropriate editor information
+La maggior parte delle schermate nella sezione Amministrazione presenterà questi pulsanti assegnati alle rispettive azioni:
 
-### Shortcuts
+* **AGGIUNGI** (_Ctrl + N_): Inserisce nuove informazioni nella finestra di editing corrente
+* **RIMUOVI** (_Ctrl + D_): Rimuove le informazioni relative al record corrente nella finestra di editing
+* **SALVA** (_Ctrl + S_): Salva le informazioni della attuale finestra di editing
+* **CANCELLA** (_Ctrl + R_): Cancella le informazioni relative al record corrente nella finestra di editing
+
+### Scorciatoie
 
 <figure>
     <audio
@@ -26,5 +29,5 @@ Most screens under Administration section will present these buttons assigned to
 <a href="imgbasic/Picture6.png" target="_blank"><img src="imgbasic/Picture6.png" width="200"></img></a>  
 <a href="imgbasic/Picture7.png" target="_blank"><img src="imgbasic/Picture7.png" width="200"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)
 

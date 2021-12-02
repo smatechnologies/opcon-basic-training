@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Support Information'
+sidebar_label: 'Informazioni sul Supporto SMA'
+hide_title: 'false'
 ---
+
+## Informazioni sul Supporto SMA
 
 <figure>
     <audio
@@ -11,45 +14,45 @@ sidebar_label: 'Support Information'
     </audio>
 </figure>
 
-* Normal Support Hours  
-  * Monday – Friday  
-  * 8 AM – 5 PM Central  
+* Orari di supporto normali
+    * Lunedì – Venerdì
+    * 8:00 – 17
 
-* Easiest Way to Open a Case  
+* Il modo più semplice per aprire un caso  
   * OpCon User Community 
   * <a href="https://smatechnologies.force.com/SMAOpConUserCommunity/s/" target="_blank">https://smatechnologies.force.com/SMAOpConUserCommunity/s/</a>
   * Email: <a href="mailto:support@smatechnologies.com">support@smatechnologies.com</a> 
 
-* After Hours/Emergency  
-  * Priority 1 or 2  
-  * Call (877) 363-2305  
+* Fouri Orario/Emergenza
+    * Priorità 1 o 2
+    * Chiamata (877) 363-2305
 
-* Enhancement Ideas/Requests  
+* Idee/Richieste di miglioramento
   * <a href="https://smartideas.featureupvote.com/" target="_blank">https://smartideas.featureupvote.com/</a>
 
-* Support Screen Shares  
+* Sessioni di Condivisione per Supporto
   * <a href="http://zoom.us/join"target="_blank" >http://zoom.us/join</a>
 
-* File Sharing
-  * Releases, Upload of Log Files, etc.
+* Aree Condivise
+  * Nuovi Rilasci, Caricamento di Files di Log, etc.
   * <a href="https://files.smatechnologies.com" target="_blank">https://files.smatechnologies.com</a>
 
 ---
 
-### Innovation Lab and OpCon Wizards Community
+### Comunità per innovazioni e formazione : Innovation Lab e OpCon Wizards Community
 
 * SMA Technologies Innovation Lab
-  * A repository of projects and demonstrations of OpCon use cases and possibilities
+    * Una collezione di progetti e dimostrazioni di casi d'uso e possibilità di OpCon
   * <a href="https://github.com/SMATechnologies" target="_blank">github.com/SMATechnologies</a>
 
 * OpCon Wizards
-  * A Learning Community hosted as a LinkedIn Group that provides communication and feedback with OpCon experts within SMA and with other users
+    * Una comunità di apprendimento ospitata come gruppo LinkedIn che fornisce comunicazioni e feedback con esperti OpCon all'interno di SMA e con altri utenti
   * <a href="https://www.linkedin.com/groups/12274641" target="_blank">https://www.linkedin.com/groups/12274641</a>
 
-* OpCon Roundtables
-  * Roundtables are frequent OpCon-centered technical discussions and Q & A sessions hosted digitally the third Thursday of each month by Product Manangement and Technical Specialists.
+* Tavole rotonde OpCon
+    * Le tavole rotonde sono frequenti discussioni tecniche incentrate su OpCon e sessioni di domande e risposte ospitate digitalmente il terzo giovedì di ogni mese da Specialisti Tecnici e di Prodotto
   * <a href="https://smatechnologies.com/roundtables" target="_blank">https://smatechnologies.com/roundtables</a>
 
-* Webinars
-  * Webinars are educational presentations updating clients on releases and improvements as well as demonstrations of OpCon use cases.
+* Seminari
+    * I seminari sono presentazioni educative che aggiornano i clienti su versioni e miglioramenti, nonché dimostrazioni di casi d'uso OpCon.
   * <a href="https://smatechnologies.com/webinars" target="_blank">https://smatechnologies.com/webinars</a>

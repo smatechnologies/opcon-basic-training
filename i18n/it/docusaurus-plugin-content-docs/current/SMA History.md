@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'SMA History'
+sidebar_label: 'Storia Aziendale'
+hide_title: 'false'
 ---
+
+## SMA Technologies - Storia Aziendale
 
 <figure>
 <audio controls="controls">
@@ -12,11 +15,11 @@ sidebar_label: 'SMA History'
 
 <img src="imgbasic/Picture1.png" width="300"></img>
 
-* Founded in 1980
-* Headquarters in Houston, Texas
-* Over 800 Clients
-* Offices in USA, France, UK, Switzerland
-* Proven Solution for all Operating Systems 
-* Customer Driven Technology
-* 24x7x365 Support 
+* Fondata nel 1980
+* Sede Centrale a Houston, Texas
+* Oltre 800 clienti
+* Uffici in USA, Francia, Regno Unito, Svizzera
+* Soluzione comprovata per tutti i sistemi operativi
+* Tecnologia guidata dal cliente
+* Supporto 24x7x365
 

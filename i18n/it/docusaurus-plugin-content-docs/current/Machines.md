@@ -1,6 +1,9 @@
 ---
-sidebar_panel: 'Machines'
+sidebar_label: 'Macchine'
+hide_title: 'false'
 ---
+
+## Macchine
 
 <figure>
     <audio
@@ -11,16 +14,16 @@ sidebar_panel: 'Machines'
     </audio>
 </figure>
 
-* A Representation of an Agent **(LSAM)** in OpCon’s database
-* LSAM stands for “**Local Schedule Activity Monitor**”
-* LSAM/Agent listens for commands from OpCon’s main engine kicking off and monitoring specified tasks
-* Machines define where a task will be run
+* Una Macchina è la rappresentazione di un Agent **(LSAM)** nel database di OpCon
+* LSAM significa “**Local Schedule Activity Monitor**”
+* Gli Agent (LSAM) rimangono in ascolto per i comandi provenienti dal server di OpCon per l'esecuzione ed il monitoraggio di specifici tasks
+* Le Macchine permettono di definire dove un task verrà eseguito
 
-### Machine Status
+### Stato delle Macchine
 
-* Displays Connection Status of all Machines configured in the OpCon database
-  * Displayed in Grid format
-  * Statuses are updatable from this screen
+* Mostra lo stato di connessione di tuttte le Macchine configurate nel database di OpCon
+    * Visualizzate in formato griglia o anche sotto forma di mappa
+    * Lo stato delle macchine è aggiornabile attraverso questa schermata
 
 
 
@@ -28,4 +31,4 @@ sidebar_panel: 'Machines'
 <a href="imgbasic/Picture9.png" target="_blank"><img src="imgbasic/Picture9.png" width="200"></img></a>  
 <a href="imgbasic/Picture10.png" target="_blank"><img src="imgbasic/Picture10.png" width="300"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)
