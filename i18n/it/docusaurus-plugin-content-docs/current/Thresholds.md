@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Thresholds'
+sidebar_label: 'Soglie'
+hide_title: 'false'
 ---
+
+## Soglie - Thresholds
 
 <figure>
     <audio
@@ -11,38 +14,38 @@ sidebar_label: 'Thresholds'
     </audio>
 </figure>
 
-* User-defined placeholder 
-* Consists of a name and a numeric value 
-* Help resolve dependencies that cannot be resolved by Job Dependency 
-	* (i.e. – A specification can be made for a Job to not start until a Threshold condition is met)
+* Variabili definite dall'utente
+* Costituite da un nome e un valore numerico
+* Aiutano a risolvere dipendenze che non possono essere risolte mediante Dipendenza da Job
+    * (ovvero: è possibile specificare che un Job non venga avviato fino a quando non venga soddisfatta una condizione di soglia)
 
-### Usage
+### Utilizzo
 
-* Create a Threshold
-* Assign Threshold Dependencies
-* Create a trigger updating Threshold
-* Reset Threshold to initial value once complete
+* Creare una Threshold
+* Assegnare le dipendenze da quella Threshold
+* Creare un trigger che aggiorna la soglia
+* Reimpostare la Threshold al suo valore iniiziale qunado terminato
 
 <a href="imgbasic/407.png" target="_blank"><img src="imgbasic/407.png" width="250"></img></a>  
 <a href="imgbasic/408.png" target="_blank"><img src="imgbasic/408.png" width="500"></img></a>  
 
-### Threshold Update
+### Aggiornamento di Threshold
 
 <a href="imgbasic/409.png" target="_blank"><img src="imgbasic/409.png" width="500"></img></a>  
 <a href="imgbasic/410.png" target="_blank"><img src="imgbasic/410.png" width="500"></img></a>  
 
 ### Threshold Dependencies
 
-* The Threshold/Resource Dependency tab allows the definition and maintenance of Job Dependencies on Threshold and Resource values 
-	* A Threshold can be used to start a Job after a certain value is reached
+* La scheda Threshold/Resource Dependency consente di definire e mantenere le Dipedenze dei Job verso le Threshold e le Resource
+    * Una soglia può essere utilizzata per avviare un Job dopo che è stato raggiunto un determinato valore
 
 <a href="imgbasic/411.png" target="_blank"><img src="imgbasic/411.png" width="500"></img></a>
 
-### Threshold Instance Properties
+### Propriet' di una istanza di Threshold
 
-* Current value of Threshold can be retrieved: ```[[TH.ThresholdName]]```
+* E' possibile recuperare il valore corrente della Threshold: ```[[TH.ThresholdName]]```
 
 <a href="imgbasic/412.png" target="_blank"><img src="imgbasic/412.png" width="500"></img></a>  
 <a href="imgbasic/413.png" target="_blank"><img src="imgbasic/413.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

@@ -1,18 +1,19 @@
 ---
-sidebar_label: 'Unit 4 Exercise 7'
+sidebar_label: 'Unità 4 Esercizio 7'
+hide_title: 'false'
 ---
 
-### Exercise 7: SubSchedule - Concurrent Processes
+## Esercizio 7: SubSchedule - Processi Concorrenti
 
-##### Objective:
+##### Obiettivo:
 
-Create a **Resource** named ```ProcessFile``` with a **Max Resources** value of ```1```.
+Creare una **Risorsa** chiamata ```ProcessFile``` con un valore di **Max Resources** massimo di ```1```.
 
-Create a Schedule named **ProcessFile-Main Schedule**. Create a new Job named **Process File 1** within this Schedule and assign the **Repeating-SubSchedule** (created in the previous exercise) as a **Container Job** with a Monday-Friday Frequency. Give the Job a **Resource Dependency** on ```ProcessFile``` with a value of ```1```.
+Creare lo Schedule **ProcessFile-Main Schedule**. Creare un nuovo Job chiamato **Process File 1** all'interno di questo Schedule e assegnare il Subschedule **Repeating-SubSchedule** (creato nell'esercizio percedente) come un **Container Job** con Frequenza Monday-Friday. Aggiungere al Job una **Resource Dependency** a ```ProcessFile``` con il valore di ```1```.
 
-Copy the **Process File 1** Job to create 4 more Jobs with the same naming pattern.
+Copiare il Job **Process File 1** per creare 4 Job aggiuntivi con lo stessa logica di nomi.
 
-Build the Schedule Released for Today and view results in Matrix View.
+Mettere a piano (**Build**) lo Schedule in stato **Released** per oggi ed osservare i risultati nella Vista Matrix.
 
 
 <div>
@@ -24,64 +25,63 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-**Create the Primary Schedule**
+**Creare Primary Schedule**
 
-1.	Under the **Administration** topic, Double-Click on **Schedule Master**. 
-2.	Click the **Add** button on the **Schedule Master** toolbar. 
-3.	In the **Name** textbox, enter **ProcessFile-Main Schedule**. 
-4.	In the **Documentation** textbox, enter **This is the Parent Schedule**.
-5.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-6.	Keep the defaults selected for the **Workdays per Week** for the Schedule to run.
-7.	Click the **Save** button on the **Schedule Master** toolbar and close the **Schedule Master** tab.
+1. Nel menù **Administration** fare clic su **Schedule Master**.
+2. Fare clic sul pulsante **Add** nella barra degli strumenti di **Schedule Master**.
+3. Nella casella di testo **Name** digitare **ProcessFile-Main**.
+4. Nella casella di testo **Documentation** **"This is the Parent Schedule"**.
+5. Nel riquadro **Start Time** notare il valore di default ```00:00``` (mezzanotte).
+6. Mantieni le impostazioni predefinite selezionate per i **Workdays per Week** per l'esecuzione dello Schedule.
+7. Fare clic sul pulsante **Save** nella barra degli strumenti di **Schedule Master**. e chiudere **Schedule Master**.
 
-**Create a Resource**
+**Creare una Resource**
 
-8.	Under the **Administration** topic, Double-Click on **Resources**. 
-9.	Click the **Add** button on the **Resources** toolbar. 
-10.	In the **Name** textbox, enter **ProcessFile**. 
-11.	In the **Documentation** textbox, enter **This resource is used in the ProcessFile SubSchedule exercise**.
-12.	In the **Max Resources** box, enter ```1```.
-13.	Click the **Save** button on the **Resources** toolbar and close the Resources tab.
-14.	Under the **Administration** topic, Double-Click on **Job Master**.
-15.	Select the **ProcessFile-Main** Schedule.
-16.	Click the **Add** button on the **Job Master** toolbar. 
-17.	In the **Name** textbox, enter **Process File 1**. 
-18.	In the **Job Type** drop-down list, select **Container**.
-19.	On the **Schedule to run as SubSchedule** drop-down list select the **Repeating-SubSchedule**.
+8. Nel menù **Administration** fare clic su **Resources**.
+9. Fare clic sul pulsante **Add** nella barra degli strumenti di **Resources**.
+10. Nella casella di testo **Name** inserire ```ProcessFile```.
+11. Nella casella di testo **Documentation** inserire This resource is used in the **ProcessFile SubSchedule** exercise.
+12. Nel riquadro **Max Resources** inserire ```1```.
+13. Fare clic sul pulsante **Save** nella barra degli strumenti di **Resources**. e chiudere **Resources**.
+14. Nel menù **Administration** fare doppio clic su **Job Master**.
+15. Selezionare lo Schedule **ProcessFile-Main**.
+16. Fare clic sul pulsante **Add** nella barra strumenti **Job Master**.
+17. Nella casella di testo **Name** inserire **Process File 1**.
+18. Nell'elenco a discesa **Job Type** selezionare **Container**.
+19. Nell'elenco a discesa **Schedule** to run as **SubSchedule** selezionare **Repeating-SubSchedule**.
 
-:::note
-20.	This SubSchedule can be used even though it is used in another Schedule
+:::note Nota
+20.	Questo **SubSchedule** può essere utilizzato anche se è utilizzato in un altro **Schedule**.
 :::
 
-21.	Click the **Save** button on the **Job Master** toolbar.
-22.	Click the **Frequency** tab.
-23.	Within the **Frequency** list frame, click the **Add** button.
-24.	Click inside the option button to **Use Existing Frequency**.
-25.	Select **Mon-Fri-N** from the drop-down list.
-26.	Click **Next**.
-27.	Click **Finish**.
+21. Fare clic sul pulsante **Save** nella barra strumenti **Job Master**.
+22. Fare clic sulla scheda **Frequency**.
+23. All'interno la lista **Frequency** fare clic sul pulsante **Add**.
+24. Scegliere l'opzione **Use existing Frequency**.
+25. Nell'elenco a discesa **Frequency** selezionare **Mon-Fri-N**.
+26. Fare clic su Next e poi **Finish**.
 
-**Setup Resource Dependency**
+**Impostare dipendenza da Resource**
 
-28.	With the **Job Master** still open, click on the **Dependencies** tab.
-29.	Click on the **Threshold/Resource Dependency** sub-tab.
-30.	Click the **Add** button under the **Threshold/Resource Dependency** sub-tab.
-31.	Select the **ProcessFile** Resource from the **Threshold/Resource** drop-down menu.
-32.	Enter the value of ```1``` in the **Value** box.
-33.	Click **OK**.
+27. Con la scheda **Job Master** ancora aperta, fare clic sulla scheda **Dependencies**.
+28. Fare clic nella sottoscheda **Threshold/Resource Dependency**.
+29. Fare clic sul pulsante **Add** nella sottoscheda **Threshold/Resource Dependency**.
+30. Selezionare la Resource ```ProcessFile``` nell'elenco a discesa **Threshold/Resource**.
+31. Inserire il valore ```1``` nel riquadro **Value**.
+32. Fare clic sul pulsante **OK**.
 
-**Create Copies of the Container Job**
+**Creare Copies del Container Job**
 
-34.	On the **Job Master** toolbar, click the **Copy** button or press **Ctrl+Insert**. 
-35.	Name the Job **Process File 2**.
-36.	Click **OK**.
-37.	Repeat those steps to create Jobs **Process File 3**, **Process File 4**, and **Process File 5**.
-38.	Close the **Job Master**.
-39.	Use the **Workflow Designer** to verify that all 5 Jobs are tied to the **ProcessFile** Resource.
-40.	Close the **Workflow Designer**.
-41.	Build the **ProcessFile-Main Schedule** (**Released**) for today and check the results using the **List**/**Matrix** views and the **PERT** view
+33. Nella barra degli strumenti di **Job Master** selezionare il pulsante **Copy** o premere **Ctrl+Inser**t.
+34. Nominare il Jon **Process File 2**.
+35. Fare clic sul pulsante **OK**.
+36. Ripetere questi step per creare i Jobs **Process File 3**, **Process File 4**, e **Process File 5**.
+37. Chiudere **Job Master**.
+38. Utilizzare il **Workflow Designer** per verificare che tutti e 5 i Job abbiano la corretta dipendenza dalla Resource ```ProcessFile```.
+39. Chiudere **Workflow Designer**.
+40. Mettere a piano (**Build**) lo Schedule **ProcessFile-Main** in stato (**Released**) per il piano odierno e controllare i risultati utilizzando le viste **List/Matrix** e la vista **PERT**
 
 <a href="imgbasic/432.png" target="_blank"><img src="imgbasic/432.png" width="500"></img></a>
 

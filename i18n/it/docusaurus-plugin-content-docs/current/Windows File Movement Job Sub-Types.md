@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Windows File Movement Job Sub-Types'
+hide_title: 'false'
 ---
 
 ### Windows File Movement Job Sub-Type
@@ -13,15 +14,15 @@ sidebar_label: 'Windows File Movement Job Sub-Types'
     </audio>
 </figure>
 
-* OpCon brings some special **Job Sub-Types** related with file maintenance
-* Windows Job Sub-Types simplify the Job definition process by displaying fields to generate Command Line for programs commonly used by SMA customers
+* OpCon offre alcuni sottotipi di Job (**Job Sub-Types**) orientati alla manutenzione dei files
+* I Windows Job Sub-Types semplificano il processo di definizione del Job visualizzando i campi per generare la riga di comando per i programmi comunemente utilizzati dai clienti SMA
 
-* Some example of common **Windows Job Sub-Types** are:
-	* **File Copy** -  Copies files from one place to another
-	* **File Move** - Moves files from one place to another
-	* **File Rename** - Renames a file
-	* **File Delete** - Delete files
-	* **Corelation** - Special integration with Corelation
-  * **WSFTP Pro** - Special integration with WSFTP Pro
+* Alcuni esempi di **Windows Job Sub-Types** comuni sono:
+	* **File Copy** - copia i file da una posizione all'altra
+	* **File Move** - sposta i file da una posizione all'altra
+	* **File Rename** - Rinomina un file
+	* **File Delete** - elimina file
+	* **Corelation** - Integrazione speciale con Corelation
+  * **WSFTP Pro** - Integrazione speciale con WSFTP Pro
 
 <a href="imgbasic/436.png" target="_blank"><img src="imgbasic/436.png" width="500"></img></a>

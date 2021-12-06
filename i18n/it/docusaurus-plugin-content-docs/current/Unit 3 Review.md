@@ -1,29 +1,32 @@
 ---
-sidebar_label: 'Unit 3 Review'
+sidebar_label: 'Ripasso Unità 3'
+hide_title: 'false'
 ---
 
-1. _______________ are Individual sign-ons required for access to OpCon.
-2. ___________ are used to maintain Privileges for multiple sign-ons.
-3. The OpCon ______________ must ensure all OpCon users have the needed Privileges.
-4. The User ID _________ is automatically granted all Privileges to everything within Opcon.
-5. ______________ Manager allows users to create system alert rules and triggers tied to user groups who should receive notifications in certain situations.
-6. ________________________ are variables associated with the entire environment. 
-7. ________________________ are variables that begin with a dollar symbol ($).
-8. ________________________ are variables associated with a specific Schedule, Job, or Machine.
-9. _____________  are strings that execute commands within OpCon. 
+## Ripasso Unità 3
+
+1. Gli_______________ sono accessi individuali richiesti per l'accesso a OpCon.
+2. I___________ vengono utilizzati per mantenere i privilegi per accessi multipli.
+3. L' ______________ di OpCon deve garantire che tutti gli utenti OpCon dispongano dei privilegi necessari.
+4. Lo User ID _________ possiede tutti i privilegi su tutte le funzionalità all'interno di Opcon.
+5. L'______________ Manager permette agli utenti di creare regole di alert a livello di sistema e triggers associati a gruppi di utenti che devono ricevere notifiche in determinate situazioni.
+6. Le ________________________ sono variabili associate all'intero ambiente.
+7. Le ________________________sono variabili che iniziano con il simbolo del dollaro ($).
+8. Le ________________________ sono variabili associate a uno Schedule, un Job o una macchina specifica.
+9. Gli _____________ sono stringhe che eseguono comandi all'interno di OpCon.
 
 <details>
 
-<summary>Click for Unit 3 Review Quiz Answers</summary>
+<summary>Fare clic qui per le Risposte al quiz sull'Unità 3</summary>
 
 1. USER ACCOUNTS
-2. ROLES
-3. ADMINISTRATOR
+2. RUOLI
+3. AMMINISTRATORE
 4. OCADM
 5. ESCALATION
-6. GLOBAL SYSTEM PROPERTIES
-7. SYSTEM PROPERTIES
-8. INSTANCE PROPERTIES
-9. EVENTS
+6. PROPRIETA' GLOBALI (GLOBAL PROPERTIES)
+7. PROPRIETA' DI SYSTEMA (SYSTEM PROPERTIES)
+8. PROPRIETA' A LIVELLO DI ISTANZA (INSTANCE PROPERTIES)
+9. EVENTI (EVENTS)
 
 </details>

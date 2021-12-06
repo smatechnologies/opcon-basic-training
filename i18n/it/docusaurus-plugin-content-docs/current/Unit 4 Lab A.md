@@ -1,14 +1,15 @@
 ---
-sidebar_label: 'Unit 4 Lab A'
+sidebar_label: 'Unità 4 Lab A'
+hide_title: 'false'
 ---
 
-### LAB A
+## Unità 4 Lab A
 
-##### Objective:
+##### Obiettivo:
 
-Congo Online Retail Inc. must update the inventory based on the Purchase Requests with a Schedule named **Congo Update Inventory**. 
+Congo Online Retail Inc. deve aggiornare l'inventario in base alle Richieste di acquisto con un programma denominato **Congo Update Inventory**.
 
-A Script is run for each product (Tagged by Category):
+Viene eseguito uno Script per ogni prodotto (Taggato per Categoria):
 
 **Toys** 
 
@@ -20,8 +21,8 @@ Nerf: ```[[SCRIPTS]]\UpdInvNerf.CMD```
 
 Nike: ```[[SCRIPTS]]\UpdInvNike.CMD```   
 
-:::note
-This script uses ```MSGIN``` to set a **Threshold**
+:::note Nota
+_Questo script utilizza la ```MSGIN``` per impostare una **Threshold**_
 :::
 
 Levis: ```[[SCRIPTS]]\UpdInvLevis.CMD``` 
@@ -32,15 +33,15 @@ Smartphones: ```[[SCRIPTS]]\UpdInvSmartphones.CMD```
 
 Xbox: ```[[SCRIPTS]]\UpdInvXbox.CMD```
 
-The Jobs must run in the order they are listed above Monday-Friday.
+I Jobs devono essere eseguiti nell'ordine in cui sono elencati sopra dal lunedì al venerdì.
 
-There are two exceptions:
+Ci sono 2 eccezioni:
 
-1)	The **Nike** Job takes a long time to Finish; The **Levis** Job **does not** need to wait for the **Nike** Job to finish – The **Nike** script will update a **Threshold** named ```LEVISThreshold``` that must be created with a value of ```0``` on the **Levis** Job. A ```$THRESHOLD:SET``` **Event** should be set on the **Levis** Job to return the value to ```0```.
+1. Il Job **Nike** richiede molto tempo per finire; Il Job **Levis non deve** attendere il completamento job **Nike** – Lo script **Nike** aggiornerà una **Threshold** chiamata ```LEVISThreshold``` che deve essere creata con un valore ```0``` sul Job Levis Job. Un **Evento** ```$THRESHOLD:SET``` deve essere impostato sul Job **Levis** per far tornare il valore a ```0```.
 
-2)	The **Smartphones** and **Xbox** scripts use a lot of CPU – They **cannot run at the same time**, but it does not matter which one runs first. Both Jobs should be given a **Resource Dependency** on a **Resource** named ```Electronics``` with **Max Resources** value of ```1```.
+2. Gli script **Smartphones** e **Xbox** usano molta CPU – Non **possono essere eseguiti contemporaneamente**, ma non importa quale viene eseguito per primo. Ad entrambi i Job deve essere assegnata una **Resource Dependency** su una **Resource** chiamata ```Electronics``` con il valore di **Max Resources** pari a ```1```.
 
-A **Notification** should be created for both Job Failure and Job Finished OK.
+Dovrebbe essere creata una **notifica** sia per un Job fallito che per un Job terminato correttamente.
 
 
 <div>
@@ -52,65 +53,63 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-**Lab Instructions**:  
+**Istruzioni per il Laboratorio**:  
 
-* Create a **Schedule** named **Congo Update Inventory**
-* Saturday and Sundays are non-working days 
-* **Auto-build** the Schedule ```7``` days in advance for ```1``` day
-* **Auto-delete** the Schedule for ```7``` days
-* Add **Documentation** for the Schedule
-* Use the Master Holiday Calendar 
-
-* Create 6 **Windows** Jobs named: 
-    * Legos
+* Crere uno **Schedule** chiamato **Congo Update Inventory**
+* Il sabato e la domenica sono giorni non lavorativi
+* Impostare l'**Auto-build** dello Schedule ```7``` days in advance per ```1``` giorno
+* Impostare l'**Auto-delete** dello Schedule per ```7``` giorni
+* Aggiungere **Documentazione** per lo Schedule
+* Usare il calendario **Master Holiday Calendar**
+* Creare ```6``` **Windows** Jobs chiamati: 
+	* Legos
 	* Nerf
 	* Nike
 	* Levis
 	* Smartphones
 	* Xbox
+    * Questi Job devono essere eseguiti con la **User ID** ```SMATRAINING\SMAUSER```
+    * Questi Job devono essere eseguiti sulla **macchina** ```SMATRAINING```
+    * Richiamare i programmi sulla **command line** utilizzando le **Global Property**
 
-* These Jobs need to run as the ```SMATRAINING\SMAUSER``` **User ID**
-* These Jobs need to run on the ```SMATRAINING``` **machine**
-* Call the programs on the command line using a **Global Property**
-
-:::note Example
-use the Global Property you create previously that has the path for ```C:\Scripts```: 
-
+:::note Esempio:
+Usare la proprietà globale creata in precedenza che ha il percorso per ```C:```:
 ```
 “[[scripts]]\UpdInvLegos.CMD”
 ```
 :::
 
-* These Jobs need to run **Monday-Friday** and _not run on non-working days_
-* The first Job, **Legos**, starts at ```3:00 PM```
-* Add **Documentation** for each Job  
-:::note Example
-This Job is reporting inventory for the number of Legos in Stock
-:::
-* **Tag** the 6 Jobs according to the product type (**Toys**, **Electronics**, or **Clothing**)
-*	Create a **Threshold** named **LEVISThreshold** and give it a value of ```0```  
+* Questi Job devono essere eseguiti dal **lunedì al venerdì** e non nei giorni non lavorativi
+* Il primo Job, **Legos**, inizia alle ```3:00 PM```
+* Aggiungere **Documentazione** per ciascun Job
+* Esempio: _Questo Job riporta l'inventario per il numero di Lego in magazzino_
+* Applicare i **Tag** ai 6 Jobs coerentemente con il tipo di prodotto(**Toys**, **Electronics**, o **Clothing**)
+* Creare una **Threshold** chiamata ```LEVISThreshold``` ed assegnare il valore ```0``` 
 
-:::info
-There is a point in the ```"UpdInvNike.CMD"``` script to execute ```“$THRESHOLD:SET, LEVISThreshold,1”```, so the Levis Job can start
-* _This is for informational purposes only – There is no need to create this event_
+:::info Nota
+_** C'è un punto nello script ```"UpdInvNike.CMD"``` per eseguire ```“$THRESHOLD:SET, LEVISThreshold,1”```, così il Job **Levis** può partire_
 :::
 
-* On the **Levis** Job, create a **Threshold Dependency** on the **LEVISThreshold** requiring a value of 1 
-* Add a ```$THRESHOLD:SET``` event to the **Levis** Job to set the **LEVISThreshold** value back to ```0``` upon the Job completing
-* Add a **Resource** named **Electronics** with a **Max Resources** value of ```1```
-* Add a **Resource Dependency** for the **Smartphones** and **Xbox** Jobs to require a **Resource** of ```1```  
-Note: The **Smartphones** and **XboxConsoles** scripts will use the **Resource** feature to avoid running at the same time
-* Use **Notification Manager** to setup alerts if Jobs in the **Congo Update Inventory Schedule** finish **OK** or **Fail**. 
-* Send an email to: ```smauser@congo.local``` with the subject:  
-A Job in ```[[$SCHEDULE NAME]]``` Schedule has ***Failed***   
-OR  
-A Job in ```[[$SCHEDULE NAME]]``` Schedule has ***Finished OK***
+* Sul Job **Levis** creare una **Threshold Dependency** sulla ```LEVISThreshold``` che richiede il valore ```1```
+* Aggiungere l'evento ```$THRESHOLD:SET``` al Job **Levis** Job per impostare ```LEVISThreshold``` nuovamente al valore ```0``` al completamento del Job
+* Aggiungere una **Resource** chiamata **Electronics** con un valore di **Max Resources** uguale a ```1```
+* Aggiungere una **Resource Dependency** per i Job **Smartphones** and **Xbox** per richiedere l'uso della **Resource** a ```1```
 
-Upon completion, view the results in **Workflow designer**
+:::note Nota 
+Gli script ```Smartphones``` e ```XboxConsoles``` useranno la funzionalità delle **Resource** per escludere l'esecuzione in contemporanea_
+:::
 
-**Build** the Schedule for today **Released**
+* Usare il **Notification Manager** per impostare gli alerts se i Jobs nello schedule **Congo Update Inventory Schedule** finiscono **OK** o **Falliscono**.
+* Inviare una mail a: ```smauser@congo.local``` con oggetto:
+    * Un Job nello Schedule ```[[$SCHEDULE NAME]]``` è **Fallito**
+    oppure  
+    * Un Job nello Schedule ```[[$SCHEDULE NAME]]``` è **Terminato correttamente**
+
+Al termine, visualizzare i risultati in **Workflow designer**
+
+Effettua la messa a piano (**Build**) dello Schedule per Oggi in stato **Released**
 
 <a href="imgbasic/423.png" target="_blank"><img src="imgbasic/423.png" width="300"></img></a>
 

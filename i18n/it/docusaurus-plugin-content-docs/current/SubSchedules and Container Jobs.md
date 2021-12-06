@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'SubSchedules and Container Jobs'
+sidebar_label: 'SubSchedules e Jobs Container'
+hide_title: 'false'
 ---
+
+## SubSchedules e Jobs Container
 
 <figure>
     <audio
@@ -11,34 +14,34 @@ sidebar_label: 'SubSchedules and Container Jobs'
     </audio>
 </figure>
 
-### SubSchedule: Definition
+### SubSchedule: Definizione
 
-* Schedule which can be embedded in another Schedule (or other Schedules)
-	* Only built if called by a Container Job
-	* Give Job-like properties to Schedules
-* Are Multi-Instance by default
-	* Can duplicate blocks of Jobs from a shared Resource
+* Schedule che possono essere incorporati in un altro Schedule (o in altri Schedules)
+    * Sono messi a piano (Built) solo se richiamati da un Job Container
+    * Forniscono agli Schedule proprietà simili a Job
+* Somo Multi-Instanze per definizione
+    * Possono replicare blocchi di Jobs da una risorsa condivisa
 
-### SubSchedule Visualization
+### Visualizzazione di SubSchedule
 
 <a href="imgbasic/424.png" target="_blank"><img src="imgbasic/424.png" width="500"></img></a>
 
-### Container Job: Definition
+### Definizione di Container Job
 
-* Job that contains Sub-Schedule
-* Grants SubSchedule all Job-like properties
-	* Frequencies 
-    :::tip
-    **Remember**: Container Jobs are **JOBS**. Jobs need Frequencies to run!
+* Job che contengono Sub-Schedule
+* Forniscono ai SubSchedule proprietà simili a Job
+    * Frequenze
+    :::tip Ricordare
+    I Container Jobs sono **JOBS**. Ai Jobs servono Frequencz per essere eseguiti!
     :::
 	* Time Offsets (Other Frequency Details)
 	* Dependencies
 	* Events
 	* Etc.
-* Multiple Container Jobs can reference same SubSchedule
-* Container Job will only Complete if all Jobs in SubSchedule have completed
+* Diversi Container Jobs possono referenziare lo stesso SubSchedule
+* Container Job saranno Completati solo se tutti i Jobs nel SubSchedule sono completati
 
-### SubSchedule/Container Job: Setup
+### SubSchedule/Container Job: Impostazione
 
 <figure>
     <audio
@@ -49,14 +52,14 @@ sidebar_label: 'SubSchedules and Container Jobs'
     </audio>
 </figure>
 
-* Create SubSchedule:
-	* Create Schedule in Schedule Master
-	* Mark Schedule as **SubSchedule**
-* Embed SubSchedule within another Schedule by creating Container Job
-	* Create Job using Container Job Type
-	* Select SubSchedule that the Container Job will use
+* Creare il SubSchedule:
+    * Create uno Schedule in Schedule Master
+    * Impostare lo Schedule come SubSchedule
+* Incorporare SubSchedule all'interno di uno Schedule creando un Container Job
+    * Creare un Jobutilizzando il tipo di Job Container
+    * Selezionare il SubSchedule che il Container Job utilizzerà
 
-### SubSchedule Designation in Schedule Master
+### SubSchedule progettazione in Schedule Master
 
 <a href="imgbasic/425.png" target="_blank"><img src="imgbasic/425.png" width="500"></img></a>  
 
@@ -64,15 +67,15 @@ sidebar_label: 'SubSchedules and Container Jobs'
 
 <a href="imgbasic/426.png" target="_blank"><img src="imgbasic/426.png" width="500"></img></a>  
 
-### SubSchedule Container Definition
+### Definizione SubSchedule Container
 
 <a href="imgbasic/427.png" target="_blank"><img src="imgbasic/427.png" width="500"></img></a>  
 
-### Solution Manager - Container Job Task Details Screen
+### Solution Manager - Dettagli Task Container Job
 
 <a href="imgbasic/428.png" target="_blank"><img src="imgbasic/428.png" width="500"></img></a>  
 
-### SubSchedule Usage Scenarios
+### SubSchedule Scenari di utilizzo
 
 <figure>
     <audio
@@ -83,39 +86,39 @@ sidebar_label: 'SubSchedules and Container Jobs'
     </audio>
 </figure>
 
-### Scenario 1 - Multiple Runs/SubSchedule
+### Scenario 1 - Esecuzioni Multiple / SubSchedule
 
-* Same 5 Job processes needs to run exact same way 4 times each day
-	* Instead of Looping Jobs or Events, use **SubSchedules**
+* Gli stessi 5 processi di lavoro devono essere eseguiti esattamente nello stesso modo 4 volte al giorno
+    * Invece di **eseguire cicli** di Job o eventi, usa i subschedule
 
 <a href="imgbasic/429.png" target="_blank"><img src="imgbasic/429.png" width="500"></img></a>  
 
-### Scenario 2 - Concurrent Processes
+### Scenario 2 - Processi simultanei
 
-* 5 files need to be processed by arrival time
-* No order for when each file needs to be processed
-* Same set of jobs will process the files
-* Files need to be processed one at a time
+* 5 file devono essere elaborati entro l'orario di arrivo
+* Nessun ordine per quando ogni file deve essere elaborato
+* Lo stesso insieme di job elaborerà i file
+* I file devono essere elaborati uno alla volta
 
 <a href="imgbasic/430.png" target="_blank"><img src="imgbasic/430.png" width="500"></img></a>  
 
-### Scenario 3 - Daily and Monthly Process
+### Scenario 3 - Processi giornalieri e mensile
 
-* Daily Schedule has 5 processes that must run every working day
-* If it is end of month, instead of running these 5 processes, Monthly Schedule, with 7 processes, must run **excluding** execution of Daily Schedule
+* Il Piano giornalieri ha 5 processi che devono essere eseguiti ogni giorno lavorativo
+* Se è la fine del mese, invece di eseguire questi 5 processi, la pianificazione mensile (Monthly Schedule), con 7 processi, deve essere eseguita **excludendo** l'esecuzione Giornaliera
 
 <a href="imgbasic/431.png" target="_blank"><img src="imgbasic/431.png" width="500"></img></a>
 
-### Scenario 3 - Daily and Monthly Process Solution
+### Scenario 3 - Processi giornalieri e mensile - Soluzione
 
-* Create Schedule with 2 SubSchedules
-	* Daily SubSchedule with 5 jobs
-	* Monthly SubSchedule with 7 jobs
-	* Main Schedule will have both SubSchedules as Container jobs
-	* Monthly Schedule has **Excludes Dependency** on Daily SubSchedule
+* Creare uno Schedule con 2 SubSchedules
+    * Daily SubSchedule con 5 jobs
+    * Monthly SubSchedule con 7 jobs
+    * Il Main Schedule avrà entrambe le pianificazioni SubSchedules come Container Jobs
+    * Monthly SubSchedule avrà una dipendenzaExcludes Dependency con il Daily SubSchedule
     
-:::note
-This solution simplifies Frequencies definitions
+:::note Nota
+Questa soluzione semplifica le definizioni delle frequenze
 :::
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

@@ -1,22 +1,23 @@
 ---
-sidebar_label: 'Unit 4 Exercise 6'
+sidebar_label: 'Unità 4 Esercizio 6'
+hide_title: 'false'
 ---
 
-### Exercise 6: SubSchedule - Multiple Runs
+## Esercizio 6: SubSchedules - Esecuzioni Multiple
 
-##### Objective:
+##### Obiettivo:
 
-Create a Schedule named **Repeating-SubSchedule** with an **Instance Definition** of ```RUNTIME=10```. Mark the Schedule as a **SubSchedule**.
+Creare un Schedule chiamato **Repeating-SubSchedule** con una definizione di istanza (**Instance Definition**) con ```RUNTIME=10```. Impostare lo Schedule come **SubSchedule**.
 
-Within the **Repeating-SubSchedule**, create five daily Windows Jobs with the naming pattern **Daily Job 1**. The Jobs should run on a Monday-Friday Frequency and run the genericp program. Create a linear **Dependency Chain** between the 5 Jobs.
+All'interno dello Schedule **Repeating-SubSchedule**, creare 5 Windows Daily Jobs con un naming pattern **Daily Job 1**. I Jobs dovrebbero essere eseguiti con una frequenza dal lunedì al venerdì ed eseguire il programma ```genericp```. Creare una catena di dipendenze lineari tra i 5 Jobs.
 
-Next, create a Schedule named **Repeating-Schedule-Primary**.
+Creare quindi uno Schedule **Repeating-Schedule-Primary**.
 
-Within the **Repeating-Schedule-Primary** Schedule, create 4 Jobs named **0700 Job**, **1000 Job**, **1400 Job**, and **1900 Job**. Each Job should run on a Monday-Friday Frequency and run the **Repeating-SubSchedule** Schedule as a **Container Job**.
+All'interno dello Schedule **Repeating-Schedule-Primary** creare 4 Job chiamati **0700 Job**, **1000 Job**, **1400 Job**, e **1900 Job**. Ogni lavoro dovrebbe essere eseguito su una frequenza dal lunedì al venerdì ed eseguire lo Schedule **Repeating-SubSchedule** come **Container Job**.
 
-Each Job should have a **Start Offset** equal to the name of the Job.
+Ogni Lavoro dovrebbe avere uno **Start Offset** conforme al nome del Job.
 
-Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule in Matrix View. Release the Schedule and let the Jobs run to verify results.
+Mettere a piano (**Build**) lo Schedule **Repeating-Schedule-Primary** in stato **On Hold**. Visualizza lo Schedule in Matrix View. Rilasciare lo Schedule e lasciare che i Job vengano eseguiti per verificare i risultati.
 
 
 <div>
@@ -28,95 +29,94 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-**Create the SubSchedule**  
+**Creare SubSchedule**  
 
-1.	Under the **Administration** topic, Double-Click on **Schedule Master**. 
-2.	Click the **Add** button on the **Schedule Master** toolbar. 
-3.	In the **Name** textbox, enter **Repeating-SubSchedule**. 
-4.	In the **Documentation** textbox, enter This is the Daily SubSchedule.
-5.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-6.	Keep the defaults selected for the **Workdays per Week** for the Schedule to run.
-7.	In the **Schedule Properties** frame, mark the **SubSchedule** checkbox.
-8.	Click the **Save** button on the Schedule Master toolbar.
-9.	Click the **Instance Definition** tab and type the **Instance** in the **Define Property Values** field: ```RUNTIME=10```
-10.	Press the **Add** button 
-11.	Save the **Repeating-SubSchedule** and close the Schedule Master tab.
+1. Nel menù **Administration** fare clic su **Schedule Master**.
+2. Fare clic sul pulsante **Add** nella barra degli strumenti di **Schedule Master**.
+3. Nella casella di testo **Name** digitare **Repeating-SubSchedule**.
+4. Nella casella di testo **Documentation** inserire **"This is the Daily SubSchedule"**.
+5. Nel riquadro **Start Time** notare il valore di default ```00:00``` (mezzanotte).
+6. Mantieni le impostazioni predefinite selezionate per i **Workdays per Week** per l'esecuzione dello Schedule.
+7. Nel riquadro **Schedule Properties** selezionare l'opzione **SubSchedule**.
+8. Fare clic sul pulsante **Save** nella barra degli strumenti di **Schedule Master**.
+9. Fare clic sulla scheda **Instance Definition** e inserire il valore della Instanza nel campo **Define Property Values**: ```RUNTIME=10```
+10. Fare clic sul pulsante **Add**.
+11. Salvare lo Schedule **Repeating-SubSchedule** e chiudere la scheda **Schedule Master**.
 
-**Add Jobs to the SubSchedule**
+**Aggiungere i Job al SubSchedule**
 
-12.	Under the **Administration** topic, Double-Click on **Job Master**. 
-13.	Select the **Repeating-SubSchedule** Schedule.
-14.	Click the **Add** button on the **Job Master** toolbar. 
-15.	In the **Name** textbox, enter **Daily Job 1**.
-16.	In the **Job Type** drop-down list, select **Windows**.
-17.	In the **Primary Machine** drop-down list, select the **SMATraining** machine. 
-18.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```. 
-19.	In the **Command Line**, type **Ctrl+F** and select the command line that looks like this:
-```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
-20.	Click the **Save** button on the **Job Master** toolbar. 
-21.	Click the **Frequency** tab.
-22.	Within the **Frequency** list frame, click the **Add** button.
-23.	Click inside the option button to Use existing **Frequency**.
-24.	In the **Frequency** drop-down list, select **Mon-Fri-N**. 
-25.	Click **Next**.
-26.	Click the **Finish** button.
-27.	Add **Documentation** to the Job.
-28.	On the **Job Master** toolbar, be sure you have the **Repeating-SubSchedule** selected and click the **Copy** button or press **Ctrl+Insert**. 
-29.	Name the Job **Daily Job 2**.
-30.	Click **OK**.
-31.	Change the **Documentation** if needed.
-32.	Repeat steps 27 to 30 to create Jobs **Daily Job 3**, **Daily Job 4**, and **Daily Job 5**.
-33.	Close the **Job Master** tab and use **Workflow Designer** to create **Dependencies**.
-34.	Close the **Workflow Designer** tab when finished.
+12. Nel menù **Administration** fare doppio clic su **Job Master**.
+13. Selezionare lo Schedule **Repeating-SubSchedule**.
+14. Fare clic sul pulsante **Add** nella barra strumenti **Job Master** per aggiungere un altro Job.
+15. Nella casella di testo **Name** inserire **Daily Job 1**.
+16. Nell'elenco a discesa **Job Type** selezionare ```Windows```.
+17. Nell'elenco a discesa **Primary Machine** selezionare ```SMATraining```.
+18. Nell'elenco a discesa **User ID** selezionare ```SMATRAINING\SMAUSER```.
+19. Nella **Command Line**, digitare **Ctrl+F** e selezionare una command line come : ```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
+20. Fare clic sul pulsante **Save** nella barra strumenti **Job Master**.
+21. Fare clic sulla scheda **Frequency**.
+22. All'interno la lista **Frequency** fare clic sul pulsante **Add**.
+23. Scegliere l'opzione **Use existing Frequency**.
+24. Nell'elenco a discesa **Frequency** selezionare ```Mon-Fri-N```.
+25. Fare clic su **Next**.
+26. Fare clic sul pulsante **Finish**.
+27. Aggiungere **Documentazione** al Job
+28. Nell'elenco a discesa **Job Master** assicurarsi di avere selezionato lo Schedule **Repeating-SubSchedule** e fare clic sul pulsante **Copy** o premere **Ctrl+Insert**.
+29. Nominare il Job **Daily Job 2**.
+30. Fare clic su **OK**.
+31. Cambiare la **Documentazione** se necessario.
+32. Ripetere i passi dal 27 al 30 per creare i job **Daily Job 3**, **Daily Job 4**, e **Daily Job 5**.
+33. Chiudere la scheda **Job Master** e utilizzare il **Workflow Designer** per creare le **Dipendenze**.
+34. Chiudere la scheda **Workflow Designer** quando terminato.
 
-**Create the Primary Schedule**
+**Creare lo Schedule Principale**
 
-35.	Under the **Administration** topic, Double-Click on **Schedule Master**. 
-36.	Click the **Add** button on the **Schedule Master** toolbar. 
-37.	In the **Name** textbox, enter **Repeating-Schedule-Primary**. 
-38.	In the **Documentation** textbox, enter **This is the Primary Schedule for the Repeating SubSchedule example**.
-39.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-40.	Keep the default selected for the **Workdays per Week** for the Schedule to run.
-41.	Click the **Save** button on the **Schedule Master** toolbar.
-42.	Close the **Schedule Master** tab.
+35. Nel menù **Administration** fare doppio clic su **Schedule Master**.
+36. Fare clic sul pulsante **Add** nella barra strumenti **Schedule Master** per aggiungere un altro Job.
+37. Nella casella di testo **Name** inserire **Repeating-Schedule-Primary**.
+38. Nella casella di testo **Documentation** inserire **This is the Primary Schedule for the Repeating SubSchedule example**.
+39. Nel riquadro **Start Time** notare il valore di default ```00:00``` (mezzanotte).
+40. Mantieni le impostazioni predefinite selezionate per i **Workdays per Week** per l'esecuzione dello Schedule.
+41. Fare clic sul pulsante **Save** nella barra degli strumenti di **Schedule Master**.
+42. Chiudere la schdea **Schedule Master**.
 
-**Add the SubSchedule as a Container Job into the Primary Schedule**
+**Aggiungere il SubSchedule come Container Job nel Primary Schedule**
 
-43.	Under the **Administration** topic, Double-Click on **Job Master**. 
-44.	Select the **Repeating-Schedule-Primary** from the Schedule drop-down list.
-45.	Click the **Add** button on the **Job Master** toolbar. 
-46.	In the **Name** textbox, enter **0700 Job**. 
-47.	In the **Job Type** drop-down list, select **Container**.
-48.	On the **Schedule to run as SubSchedule** drop-down list select the **Repeating-SubSchedule**.
-49.	Click the **Save** button on the **Job Master** toolbar.
-50.	Click the **Frequency** tab.
-51.	Within the **Frequency list** frame, click the **Add** button.
-52.	Click inside the option button to **Use existing Frequency**.
-53.	In the Frequency drop-down list, select **Mon-Fri-N**.
-54.	Click **Next** and then **Finish**.
-55.	In the **Start Offset** box, enter ```07:00```.
-56.	Click the **Save** button on the **Job Master** toolbar.
-57.	Click the **Documentation** tab.
-58.	In the **Documentation** textbox, enter **This is a container Job that has the Daily Jobs**.
-59.	Click the **Save** button on the **Job Master** toolbar.
-60.	Still on the **Job Master** Toolbar, click the **Copy** button. 
-61.	Name the Job **1000 Job**.
-62.	Click **OK**.
-63.	Click the **Frequency** tab.
-64.	Update the **Start Offset** box to ```10:00``` and **Save** the Job.
-65.	Repeat steps 59 to 63 creating a **1400 Job** and a **1900 Job** running at ```2 pm``` and ```7 pm```. You will need to change the **Start Offset** for these Jobs. Change the Documentation if needed.
-66.	Close all tabs.
+43. Nel menù **Administration** fare doppio clic su **Job Master**.
+44. Selezionare **Repeating-Schedule-Primary** nell'elenco a discesa **Schedule**.
+45. Fare clic sul pulsante **Add** nella barra strumenti **Job Master**.
+46. Nella casella di testo **Name** digitare **0700 Job**.
+47. Nell'elenco a discesa **Job Type** selezionare **Container**.
+48. Nell'elenco a discesa **Schedule to run as SubSchedule** selezionare **Repeating-SubSchedule**.
+49. Fare clic sul pulsante **Save** nella barra strumenti **Job Master**.
+50. Fare clic sulla scheda **Frequency**.
+51. All'interno la lista **Frequency** fare clic sul pulsante **Add**.
+52. Scegliere l'opzione **Use existing Frequency**.
+53. Nell'elenco a discesa **Frequency** selezionare ```Mon-Fri-N```.
+54. Fare clic su Next e poi **Finish**.
+55. Nel riquadro **Start Offset** inserire ```07:00```.
+56. Fare clic sul pulsante **Save** nella barra strumenti **Job Master**.
+57. Selezionare la scheda **Documentation**.
+58. Nella casella di testo **Documentation** inserire **This is a container Job that has the Daily Jobs**.
+59. Fare clic sul pulsante **Save** nella barra strumenti **Job Master**.
+60. Sempre nella barra strumenti di **Job Master** fare clic sul pulsante **Copy**.
+61. Nominare il Job **1000 Job**.
+62. Fare clic sul pulsante **OK**.
+63. Fare clic sulla scheda **Frequency**.
+64. Aggiornare il riquadro **Start Offset** con ```10:00``` e **Salvare** il Job.
+65. Ripetere i passo da 59 a 63 per creare i Job **1400 Job** e **1900 Job** con esecuzione alle ```14``` e alle ```19```. PEr fare questo sarà necessario agire sullo **Start Offset** di questi Jobs. Cambiare la documentazione se necessario.
+66. Chiudere tutte le schede.
 
-**Build the Schedule**
+**Messa a piano dello Schedule**
 
-67.	Under the **Operation** topic, Double-Click **Schedule Build**.
-68.	Is the SubSchedule visible? Why?
-69.	Click the **Repeating-Schedule-Primary** and click the **Build** button.
-70.	On the **Build Properties** screen, leave **On Hold** selected and click **OK**. This will build the Schedule for **today only**.
-71.	Close the Build Schedules screen.
-72.	Under **Operations**, open the **List** or **Matrix** view or use **Solution Manager** to check the results.
-73.	**Release the Schedule** and let the Jobs run.
+67. Nel Menù **Operation** fare doppio clic su **Schedule Build**.
+68. Il SubSchedule è visibile ? Perchè ?
+69. Fare clic su **Repeating-Schedule-Primary** e fare clic sul pulsante **Build**.
+70. Nella schermata delle **Build Properties** mantenere selezionato **On Hold** e fare clic su **OK**. Questo metterà a piano lo Schedule per la sola giornata di oggi.
+71. Chiudere la schermata di build degli **Schedule**.
+72. nel Menù **Operations**, aprire la vista **List** o **Matrix** o utilizzare il **Solution Manager** per controllare i risultati.
+73. **Rilasciare lo Schedule** e lascire che i Job vengano eseguiti.
 
 </details>

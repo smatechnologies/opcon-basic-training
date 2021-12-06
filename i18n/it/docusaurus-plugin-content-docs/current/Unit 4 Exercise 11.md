@@ -1,23 +1,24 @@
 ---
-sidebar_label: 'Unit 4 Exercise 11'
+sidebar_label: 'Unità 4 Esercizio 11'
+hide_title: 'false'
 ---
 
-### Exercise 11: Windows File Arrival
+## Esercizio 11: Windows File Arrival
 
-##### Objective:
+##### Obiettivo:
 
+Creare uno Schedule chiamato **Windows File Arrival**. 
 
-Create a Schedule named **Windows File Arrival**.
-Within the **Windows File Arrival** Schedule, create a Windows Job named **Windows File Arrival Job** with a ```File Arrival``` **Job Action** running a Monday-Friday Frequency.
+All'interno dello Schedule **Windows File Arrival**, creare un Windows Job chiamato **Windows File Arrival Job** con una azione di tipo ```File Arrival``` **Job Action** in esecuzione con la Frequenza Monday-Friday.
 
-**File Name**: ```“C:\Windows File Arrival\WindowsFile1.txt”```
-**Start Time**: ```0900```
-**End Time**: ```1700```
-**File Size Stable Duration (in secs)**: ```5```
+* **File Name**: ```“C:\Windows File Arrival\WindowsFile1.txt”```
+* **Start Time**: ```0900```
+* **End Time**: ```1700```
+* **File Size Stable Duration (in secs)**: ```5```
 
-Create a Windows Job named **Create File** with an ```Embedded Script``` **Job Action** running a Monday-Friday Frequency. The Job should run the ```Windows_File_Arrival``` Script with a ```PowerShell``` Runner.
+Creare un Windows Job chiamato **Create File** con un ```Embedded Script``` **Job Action** in esecuzione con una Frequenza Monday-Friday. The Job eseguirà lo script ```Windows_File_Arrival``` con un ```PowerShell``` **Runner**.
 
-Build the Schedule Released for Today. In Matrix View, verify Job success.
+Mettere a piano lo Schedule in stato **Released for Today**. Nella Vista Matrix verificare il corretto funzionamento.
 
 
 <div>
@@ -29,41 +30,40 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Add a new **Schedule** called **Windows File Arrival**, add **Documentation** and use the default values for the Schedule.
-2.	In the **Job Master** add a new Job to the **Windows File Arrival** Schedule.
-	*	**Name**: **Windows File Arrival Job**
-	*	**Job Type**: ```Windows```
-	*	**Primary Machine**: ```SMATraining```
-	*	**Job Action**: ```File Arrival```
-	*	**User ID**: ```SMATRAINING\SMAUSER```
-	*	**File Name**: ```“C:\Windows File Arrival\WindowsFile1.txt”```
-	*	**Start Time**: ```0900```
-	*	**End Time**: ```1700```
-	*	**File Size Stable Duration (in secs)**: ```5```
-3.	Give the Job a **Frequency** of **Mon-Fri-N**
-4.	Add **Documentation** to the Job.
-5.	With **Windows File Arrival** Schedule still selected in the **Job Master** click the **Add** button on the Job Master toolbar (or press Ctrl+N) to add a new Job.
-	*	**Name**: **Create File**
-	*	**Job Type**: ```Windows```
-	*	**Primary Machine**: ```SMATraining```
-	*	**Job Action**: ```Embedded Script```
-	*	**User ID**: ```SMATRAINING\SMAUSER```
-	*	**Script**: ```Windows_File_Arrival```
-	*	**Version**: ```LATEST```
-	*	**Runner**: ```PowerShell```
-	*	**Arguments**: Do not type anything (leave it blank)
-	*	Save the Job
-6.	Give the Job the **Frequency** of ```Mon-Fri-N```. 
-	*	Give the Job a **Job Build Status**, of **On Hold**.
-7.	Close the **Schedule Master** and the **Job Master**.
-8.	Outside of OpCon verify that the folder: ```C:\Windows File Arrival```
-Does exist and is **empty**.
-9.	Back to **EM**, build the **Windows File Arrival** Schedule Released for today only.
-10.	Switch to one of the **Operations views**.  
-11.	Notice the **Windows File Arrival Job** is just running.
-12.	Release the **Create File Job** in the **Windows File Arrival** Schedule.  
-13.	Once the Job runs, verify that the file was created, and both Jobs **Finished OK**.
+1. Aggiungere un nuovo **Schedule** chiamato **Windows File Arrival**, aggiungere **Documentation** ed usare i valori di default per lo Schedule.
+2. Nel **Job Master** aggiungere un nuovo Job allo Schedule **Windows File Arrival**.
+	* **Name**: Windows File Arrival Job
+	* **Job Type**: ```Windows```
+	* **Primary Machine**: ```SMATraining```
+	* **Job Action**: ```File Arrival```
+	* **User ID**: ```SMATRAINING\SMAUSER```
+	* **File Name**: ```“C:\Windows File Arrival\WindowsFile1.txt”```
+	* **Start Time**: ```0900```
+	* **End Time**: ```1700```
+	* **File Size Stable Duration (in secs)**: ```5```
+3. Assegnare al Job la ***Frequency*** di ```Mon-Fri-N```
+4. Aggiungere la **Documentation** al Job.
+5. Con lo Schedule **Windows File Arrival** ancora selezionato nel **Job Master** fare clic sul pulsante **Add** nella barra strumenti di Job Master (or premere Ctrl+N) per aggiungere un nuovo Job.
+	* **Name**: Create File
+	* **Job Type**: ```Windows```
+	* **Primary Machine**: ```SMATraining```
+	* **Job Action**: ```Embedded Script```
+	* **User ID**: ```SMATRAINING\SMAUSER```
+	* **Script**: ```Windows_File_Arrival```
+	* **Version**: ```LATEST```
+	* **Runner**: ```PowerShell```
+	* **Arguments**: Non digitare nulla, lasciare vuoto
+	* Salvare il Job
+6. Assegnare al Job la **Frequency** di ```Mon-Fri-N```
+    * Assegnare al Job il **Job Build Status**, di ```On Hold```.
+7. Chiudere **Schedule Master** e **Job Master**.
+8. Esternamente ad OpCon verificare che la cartella : ```C:\Windows File Arrival``` esista e sia vuota.
+9. Tornare alla **EM**, Mettere a piano (**Build**) lo Schedule **Windows File Arrival** in stato rilascio per la sola giornata odierna.
+10. Passare and una delle Viste **Operations** .
+11. Notare che **Windows File Arrival** Job è semplicemente in esecuzione.
+12. Rilasciare il Job Create File Job nello Schedule **Windows File Arrival**.
+13. Una volta eseguito il Job, verificare che il file sia stato creato e che entrambi i job siano terminati in **Finished OK**.
 
 </details>
