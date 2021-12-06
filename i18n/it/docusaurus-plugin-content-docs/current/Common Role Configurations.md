@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'Common Role Configurations'
+sidebar_label: 'Configurazioni Comuni di Ruoli'
+hide_title: 'false'
 ---
 
-### Common Role Configurations - Best Practices
+## Configurazioni Comuni di Ruoli
 
 <figure>
     <audio
@@ -13,33 +14,33 @@ sidebar_label: 'Common Role Configurations'
     </audio>
 </figure>
 
-* Three main user Groups (Roles) For OpCon Privileges:  
-    * **Administrators**
-    * **Schedulers**
-    * **Operators**
+* Tre gruppi di utenti principali (ruoli) per i privilegi OpCon:
+    * **Amministratori - Administrators**
+    * **Addetti alla Schedulazione - Schedulers**
+    * **Operatori - Operators**
 
-#### Administrators
+#### Amministratori
 
-* OpCon Administrator(s) must ensure all OpCon Users have needed Privileges 
-* The OpCon Administrator with the User ID ```ocadm``` is automatically granted all Privileges to everything within OpCon, **including** access to ‘Server Options’ and the ability to edit Schedule or Job Frequencies affecting multiple Jobs
-* When creating new Administrator User accounts, desired Privileges must be purposefully selected
+* Gli amministratori OpCon devono assicurarsi che tutti gli utenti OpCon abbiano i privilegi necessari
+* All'amministratore OpCon con l'ID utente ```ocadm``` vengono automaticamente concessi tutti i privilegi a tutto ciò che è all'interno di OpCon, **incluso** accesso a "Opzioni server" e la possibilità di modificare la pianificazione o le frequenze di lavoro che interessano più Job
+* Quando si creano nuovi account utente amministratore, i privilegi desiderati devono essere selezionati in modo accurato
 
 #### Schedulers
 
-* These individuals will build and maintain Jobs and Schedules 
-* They will need as much access as possible to every section within Enterprise Manager except for ‘Administration’ section 
-* Privileges listed in chart can be used as a guide for assigning Privileges to OpCon Schedulers
+* Queste persone saranno dedicate alla progettazione e manutenzione dei Job e della relativa schedulazione
+* Avranno bisogno di quanto più accesso possibile a ogni sezione all'interno di Enterprise Manager ad eccezione della sezione ‘Administration’
+* I privilegi elencati nell'immagine possono essere una guida per l'assegnazione dei privilegi alle persone con ruolo di Schedulers in OpCon
 
 <a href="imgbasic/316.png" target="_blank"><img src="imgbasic/316.png" width="500"></img></a>  
 <a href="imgbasic/317.png" target="_blank"><img src="imgbasic/317.png" width="250"></img></a>  
 
 #### Operators
 
-* These individuals will monitor Jobs and Schedules on daily basis 
-* They will need authority to see every Schedule and be able to perform maintenance before and after a Job and/or Schedule runs (Restart Jobs, Force-Start Jobs, Force-Start Schedules, Release Schedules, etc.) 
-* Privileges listed in the chart can be used as a guide for assigning Privileges to OpCon Operators
+* Queste persone monitoreranno i Job e le schedulazioni su base giornaliera
+* Avranno bisogno dei privilegi per vedere ogni pianificazione ed essere in grado di eseguire la manutenzione prima e dopo l'esecuzione di un Job e/o Schedule (Riavvio Job, Avvio Job Forzato, Avvio Schedule Forzato, Rilascio di Schedule, ecc.))
+* I privilegi elencati nell'immagine possono essere una guida per l'assegnazione dei privilegi alle persone con ruolo di Operators in OpCon
 
 <a href="imgbasic/318.png" target="_blank"><img src="imgbasic/318.png" width="500"></img></a>  
 <a href="imgbasic/319.png" target="_blank"><img src="imgbasic/319.png" width="250"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

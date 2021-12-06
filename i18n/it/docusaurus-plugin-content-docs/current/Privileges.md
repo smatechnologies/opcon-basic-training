@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Privileges'
+sidebar_label: 'Privilegi'
+hide_title: 'false'
 ---
+
+## Privilegi
 
 <figure>
     <audio
@@ -11,7 +14,7 @@ sidebar_label: 'Privileges'
     </audio>
 </figure>
 
-* The Administrator can grant the following Privileges to Roles:
+* L'amministratore può concedere i seguenti Privilegi ai Ruoli:
     * Machine Privileges
     * Machine Group Privileges
     * Batch User Privileges
@@ -20,12 +23,12 @@ sidebar_label: 'Privileges'
     * Function Privileges
     * Departmental Function Privileges
     * Script Privileges
-* Machines and Machine Groups are created on specific screens in **Administration** section of Enterprise Manager  
-* Access Codes, Batch Users, and Departments are created on corresponding screens within **Security** section of Enterprise Manager
+* Le macchine e i gruppi di macchine vengono creati su schermate specifiche nella sezione **Administration** di Enterprise Manager
+* Codici di accesso, utenti batch e reparti (Departments) vengono creati nelle schermate corrispondenti nella sezione **Security** di Enterprise Manager
 
 <a href="imgbasic/3303.png" target="_blank"><img src="imgbasic/3303.png" width="300"></img></a>  
 
-### Machine Privileges
+### Privilegi di Macchina
 
 <figure>
     <audio
@@ -36,10 +39,10 @@ sidebar_label: 'Privileges'
     </audio>
 </figure>
 
-* Machine Privileges are used to control Machines for Users in a Role that have Privileges to create and edit Jobs
-* Within Job Master and Job Daily, Users will only see Machines based on their Role Privileges
-* In Schedule Operations, Machine Privileges are not applied
+* I Machine Privileges vengono utilizzati per controllare le macchine visibili dagli utenti che hanno un ruolo con privilegi per creare e modificare Job
+* All'interno di Job Master and Job Daily, Ugli utenti vedranno solo le macchine in base ai loro privilegi di ruolo
+* Nelle operazioni relative agli Schedule i privilegi a livello di macchina non vengono applicati
 
 <a href="imgbasic/3304.png" target="_blank"><img src="imgbasic/3304.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

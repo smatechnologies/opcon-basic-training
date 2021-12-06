@@ -1,8 +1,11 @@
 ---
-sidebar_label: 'Looping Jobs'
+sidebar_label: 'Jobs ricorrenti'
+hide_title: 'false'
 ---
 
-### Looping Jobs on Success
+## Jobs ricorrenti
+
+### Job ricorrenti a fronte di Successo
 
 <figure>
     <audio
@@ -13,15 +16,15 @@ sidebar_label: 'Looping Jobs'
     </audio>
 </figure>
 
-* The same Job can run multiple times throughout the day
+* Lo stesso Job può essere eseguito più volte in modo ricorrente
 
-:::caution Warning
-Job Dependency of subsequent Jobs will not be met until last run
+:::caution Nota
+La dipendenza verso i Job successivi non viene risolta fino a quanto non si raggiunge l'ultima esecuzione
 :::
 
 <a href="imgbasic/256.png" target="_blank"><img src="imgbasic/256.png" width="500"></img></a>
 
-### Looping Jobs - Restart Offset
+### Jobs Ripetuti - Offset di riavvio (Restart Offset)
 
 <figure>
     <audio
@@ -32,17 +35,17 @@ Job Dependency of subsequent Jobs will not be met until last run
     </audio>
 </figure>
 
-* A Job needs to rerun on set interval
-* **Run Interval** – End to Start can create Start Time creep
-* **Run Limits** – Either or Both selections can be used
+* Un Job necessità di essere ripetuto ad un intervallo preimpostato
+* **Intervallo di esecuzione - Run Interval** – End to Start può generare slittamenti dell'ora di Inizio
+* **Limiti di esecuzione Run Limits** – una sola o entrambe le opzioni possono essere utilizzate
 
-:::caution Warning
-Job Dependency of subsequent Jobs will not be met until last run
+:::caution Nota
+La dipendenza verso i Job successivi non viene risolta fino a quanto non si raggiunge l'ultima esecuzione
 :::
 
 <a href="imgbasic/257.png" target="_blank"><img src="imgbasic/257.png" width="500"></img></a>
 
-### Looping Jobs - Recurring Instances
+### Job Ripetuti - Istanze
 
 <figure>
     <audio
@@ -53,17 +56,17 @@ Job Dependency of subsequent Jobs will not be met until last run
     </audio>
 </figure>
 
-* A Job needs to rerun on a non-standard interval
-* **Action on Overlap of Job Recurrence** allows a Job to run or be skipped if another Job has run late or is running during the subsequent run
+* Un Job necessita di essere rieseguito a intervalli non regolari
+* **Azione in caso di Sovrapposizione - Action on Overlap of Job Recurrence** permette di eseguire o saltare l'esecuzione di un Job se un'altra istanza è in ritardo o ancora in esecuzione
 
-:::caution Warning
-Job Dependency of subsequent Jobs will not be met until last run
+:::caution Nota
+La dipendenza verso i Job successivi non viene risolta fino a quanto non si raggiunge l'ultima esecuzione
 :::
 
 <a href="imgbasic/258.png" target="_blank"><img src="imgbasic/258.png" width="500"></img></a>
 
 
-### Looping Jobs on Failure
+### Job Ripetuti - In caso di Fallimenti
 
 <figure>
     <audio
@@ -74,12 +77,12 @@ Job Dependency of subsequent Jobs will not be met until last run
     </audio>
 </figure>
 
-* A Job can automatically try again multiple times within the configured number of minutes between attempts if the Job fails
+* Un Job può automaticamente riprovare più volte entro il numero di minuti configurato tra i tentativi se il Job fallisce
 
-:::note
-OpCon will flag a Job as failed after the last attempt
+:::note Nota
+OpCon segnalerà un Job come fallito dopo l'ultimo tentativo
 :::
 
 <a href="imgbasic/259.png" target="_blank"><img src="imgbasic/259.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

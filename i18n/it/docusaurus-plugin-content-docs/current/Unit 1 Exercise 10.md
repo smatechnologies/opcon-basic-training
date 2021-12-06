@@ -1,12 +1,13 @@
 ---
-sidebar_label: 'Unit 1 Exercise 10'
+sidebar_label: 'Unità 1 Esercizio 10'
+hide_title: 'false'
 ---
 
-### Exercise 10: Workflow Designer
+## Esercizio 10: Workflow Designer
 
-##### Objective:
+##### Obiettivo:
 
-Open **Workflow Designer** and create a new Job named **WINDOWS JOB 5** in **MY FIRST SCHEDULE**. Give the Job the same details as the existing Jobs within this Schedule. Give the Job a **Requires Dependency** for **WINDOWS JOB 4**.
+Aprire **Workflow Designer** e creare un nuovo Job chiamato **WINDOWS JOB 5** nello schedule **MY FIRST SCHEDULE**. Date al Job gli stessi dettagli dei lavori esistenti in questo Schedule. Dare al Job a **Una Dipendenza Richiede (Requires)** per il **WINDOWS JOB 4**.
 
 <div>
 <video width="320" height="240" controls>
@@ -17,29 +18,29 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Administration** topic, Double-Click on **Workflow Designer**. 
-2.	From the **Select Schedule** list, select **My First Schedule**.
-3.	**Click** and **drag** around the area where you want to select and move a group of items.
-4.	In the **Tools** frame, **click**, **drag**, and **drop** the **Add Job** icon to the Schedule diagram.     
-5.	In the **Job Master** screen, enter **Windows Job 5** for the name.
-6.	Select **Windows** as Job Type
-7.	In the **Primary Machine** drop-down list, select the **SMATraining** machine for the Job to run on.
-8.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```   
-9.	On the **Command Line**, use the generic program:
+1. Nel menu **Administration** fare Doppio-Click su **Workflow Designer**
+2. Dalla Lista **Select Schedule** selezionare **My First Schedule**
+3. **Cliccare** and **selezionare** l'area in cui si volgion effettuare le variazioni
+4. Nel riquadro degli **Strumenti**, **fare click**, **trascinare**, e **rilasciare** l'icona **Add Job** nel diagramma dello Schedule
+5. Nella schermata **Job Master** inserire **Windows Job 5** come nome.
+6. Scegliere **Windows** come tipo
+7. Nell'elenco a discesa **Primary Machine** selezionare la macchina ```SMATraining``` su cui fare girare il Job
+8. Nell'elenco a discesa **User ID** selezionare ```SMATRAINING\SMAUSER```
+9. Nella **Command Line**, utilizzare il programma generico
 ```
 "C:\Program Files\OpConxps\MSLSAM\Genericp.exe" -t10 -e0
 ```
-10.	Click the **Save** button on the Job Master toolbar. 
-11.	Click the **Frequency** tab and add any Frequency.
-12.	Click on the **X** to the right of the **Job Master** tab to close the Job Master screen.
-13.	In the **Tools** frame, click Add **Dependency**.
-14.	First, **click** on the Job that is the object of the Dependency (example: **Windows Job 4**).
-15.	Then **click** on the Job in which to create the dependency (example: **Windows Job 5**).
-16.	In the Job Dependency window, mark the preferred Dependency Type option button (example: **Requires**).
-17.	Click the **OK** button to save the added Job dependency.
-Note: Notice that the mouse icon keeps the “Add Dependency” pointer. You can click “Select” from the Tools panel or just press the escape key.
-18.	Close the **Workflow Designer** tab.
+10. Fare Click sul pulsante **Save** nella barra strumenti **Job Master**.
+11. Fare click sulla scheda **Frequency** ed aggiungere una frequenza qualsiasi
+12. Chiudere la Schermata Job Master utilizzando il simbolo **X** in alto a destra.
+13. Nel riquadro **Tools** fare click su **Add Dependency**.
+14. Prima, fare **click on the Job** che è oggetto di **Dipendenza** (esempio: **Windows Job 4**).
+15. Poi fare **click** sul Job su cui si vuole creare la **Dipendenza** (esempio: **Windows Job 5**).
+16. Nella finestra **Job Dependency**, scegliere il tipo di dipendenza desiderato (esempio: **Requires**).
+17. Fare Click sul pulsante **OK** per salvare la dipendenza aggiunta . 
+    * _Nota: Notate che l'icona del mouse mantiene il puntatore **"Add Dependency"**. Puoi fare clic su "Seleziona" dal pannello Strumenti o semplicemente premere il tasto di escape_
+18. Chiudere la scheda **Workflow Designer**.
 
 </details>

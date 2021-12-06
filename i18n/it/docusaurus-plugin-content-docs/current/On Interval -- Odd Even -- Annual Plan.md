@@ -1,10 +1,11 @@
 ---
-sidebar_label: 'On Interval -- Odd Even -- Annual Plan'
+sidebar_label: 'A Intervalli -- Settimane Pari e Dispari -- Piano Annuale'
+hide_title: 'false'
 ---
 
-### Frequency Definition Wizard - On Interval, Odd & Even Weeks, Annual Plan
+### Definizione Frequenza - A Intervalli -- Settimane Pari e Dispari -- Piano Annuale
 
-#### On Intervals
+#### A Intervalli
 
 <figure>
     <audio
@@ -15,19 +16,19 @@ sidebar_label: 'On Interval -- Odd Even -- Annual Plan'
     </audio>
 </figure>
 
-* Essentially the On Day option, but blocked in multiples of 5 (instead of creating 6 different Frequencies)
+* Essenzialmente come l'opzione On Day, suddivisa in blocchi di 5 (per evitare di creare 6 Frequenze diverse)
 
-Or
+Oppure
 
-  * Every X number of days starting on X date
-  * Start Date can be the same every year, or could be one time start date and increments keep going forever
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Ogni **X** numero di giorni partendo da una data determinata data
+* La data di inizio può essere la stessa ogni anno, o potrebbe essere una data di inizio unica e gli incrementi continuano per sempre
+* Altri Campi:
+    * l'impostazione **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
 
 <a href="imgbasic/243.png" target="_blank"><img src="imgbasic/243.png" width="500"></img></a>
 
-#### Odd and Even Weeks
+#### Settimane Pari e Dispari
 
 <figure>
     <audio
@@ -38,28 +39,28 @@ Or
     </audio>
 </figure>
 
-Odd Weeks
+**Settimane Dispari**
 
-* Every other week not necessarily Odd weeks
-  * _Weeks start on Sundays_
-* Better defined as the opposite of Even Weeks Frequency
-* **_Best Practice_**: Use **On Interval** Frequency with a **14 day offset**
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* settimane alterne non necessariamente le settimane dispari
+    * _Le settimane iniziano Alla Domenica_
+* Meglio definite come l'opposto della Frequenza delle settimane pari
+* **_Best Practice_**: Utilizzare la Frequenza **On Interval** con un offset di ```14``` giorni
+* Altri campi:
+    * l'impostazione **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
 
-Even Weeks
+**Settimane Pari**
 
-* Every other week not necessarily Even weeks
-  * _Weeks start on Sundays_
-  * ```0``` _is even_
-* Better defined as the opposite of Odd Weeks Frequency
-* **_Best Practice_**: Use **On Interval** Frequency with a **14 day offset**
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* A settimane alterne non necessariamente le settimane pari
+    * _Le settimane iniziano Alla Domenica_
+    * ```0``` _è pari_
+* Meglio definite come l'opposto della Frequenza delle settimane dispari
+* **_Best Practice_**: Utilizzare la Frequenza **On Interval** con un offset di ```14 ```giorni
+* Altri campi:
+    * l'impostazione **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
 
-#### Annual Plan Calendars
+#### Piano Annuale
 
 <figure>
     <audio
@@ -70,13 +71,13 @@ Even Weeks
     </audio>
 </figure>
 
-* Two Steps in Using Annual Plan Calendar:
-  * Create/Maintain Calendar
-  * Apply a Calendar to a frequency
-* **A/O/B/N** is _NOT_ configurable 
-* Offsets use workdays
+* Due passaggi per utilizzare un Calendario come Piano Annuale:
+    * Creare/Mantenere il Calendario
+    * Impostare il Calendario ad una Frequenza - (Usare Annual Plan)
+* l'impostazione **A/O/B/N** NON è disponibile
+* Gli offset usano giorni lavorativi
 
 <a href="imgbasic/244.png" target="_blank"><img src="imgbasic/244.png" width="500"></img></a>  
 <a href="imgbasic/245.png" target="_blank"><img src="imgbasic/245.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

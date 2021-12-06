@@ -1,23 +1,23 @@
 ---
-sidebar_label: 'Unit 2 Exercise 6'
+sidebar_label: 'Unità 2 Esercizio 6'
+hide_title: 'false'
 ---
 
-### Exercise 6: Create a UNIX Job
+### Esercizio 6: Creazione di un Job UNIX
 
-##### Objective:
+##### Obiettivo:
 
-Create a ```UNIX``` Job under **MY FIRST SCHEDULE**. Name the Job **UNIX Job 1**.
-Set the **Job Type** as ```UNIX``` and the **Primary Machine** as ```SUSEVM```. 
+Creare un Job ```UNIX``` all'interno dello Schedule **MY FIRST SCHEDULE**. Impostare il nome del Job a **UNIX Job 1**. definire il **Job Type** come ```UNIX``` e la Primary Machine come ```SUSEVM```.
 
-The **User ID** is ```0/0```
+L'utenza **(User ID)** è ```0/0```
 
-The **Start Image** is ```/usr/local/lsam/bin/genericpgm```
+La **Start Image** è ```/usr/local/lsam/bin/genericpgm```
 
-The **Parameters** are: ```-t20 -e0```
+I parametri **(Parameters)** sono: ```-t20 -e0```
 
-Give the Job an Existing Frequency of ```Example-Mon-Sun-O```.
+Impostare sul Job la frequenza esistente di ```Example-Mon-Sun-O```.
 
-Be sure to provide appropriate documentation.
+Assicurarsi di fornire una documentazione adeguata.
 
 
 <div>
@@ -29,38 +29,38 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-**_Scenario: You will create 1 UNIX Job in OpCon to run the same program in the previous exercise_**.
+**_Scenario: Creerete 1 UNIX Job in OpCon per eseguire lo stesso programma dell'esercizio precedente_**.
 
-1.	Under the **Administration** topic, Double-Click on **Job Master**. 
-2.	In the **Schedule** drop-down list, select **My First Schedule**.
-3.	Click the **Add** button on the **Job Maste**r toolbar. 
-4.	In the **Name** textbox, enter ```UNIX Job 1```.
-5.	In the **Job Type** drop-down list, select **UNIX**.
-6.	In the **Primary Machine** drop-down list, select the **SUSEVM** machine for the Job to run on. 
-7.	In the User ID drop-down list, select ```0/0```
-8.	In the **Start Image** field, type: 
+1. Nel menù **Administration**, fare doppio clic su **Job Master**.
+2. Nell'elenco a discesa **Schedule** scegliere **My First Schedule**.
+3. Fare clic sul pulsante **Add** nella barra degli strumenti di **Job Master**.
+4. Nel campo di testo **Name** inserire **UNIX Job 1**.
+5. Nell'elenco a discesa **Job Type** scegliere ```UNIX```.
+6. Nell'elenco a discesa **Primary Machine** scegliere ```SUSEVM``` come macchina su cui eseguire il Job.
+7. Nell'elenco a discesa **User** selezionare ```0/0```
+8. Nel campo **Start Image** digitare:
 
 ```
 /usr/local/lsam/bin/genericpgm
 ```
 
-9.	In the **Parameters** section, enter:  
+9.	Nella sezione **Parameters** inserire: 
 
 ```
 –t20 –e0
 ```
 
-10.	Click the **Save** button on the **Job Master** toolbar.
-11.	Inside the **Job Master** screen under **Job Properties**, click on the **Frequency** tab.   
-12.	Within the **Frequency** list frame, click the **Add** button.
-13.	Click inside the option button to **Use existing Frequency**.
-  *	In the **Frequency** drop-down list, select ```Example-Mon-Sun-O```.
-  *	Click **Next**
-  *	Click the **Finish** button.
-14.	Click on the **Documentation** tab and enter **This is a UNIX training Job**.
-15.	Click the **Save** button on the Job Master toolbar.
-16.	Close the **Job Master**.
+10. Fare clic sul pulsante **Save** nella barra degli strumenti di **Job Master**.
+11. Nella schermata **Job Master** nelle **Job Properties**, Selezionare la scheda **Frequency**.
+12. Nel riquadro **Frequency** list frame, Fare clic sul pulsante **Add**.
+13. Scegliere l'opzione **Use Existing Frequency**.
+    * Nell'elenco a discesa **Frequency** selezionare ```Example-Mon-Sun-O```.
+    * Fare clic sul pulsante **Next**.
+    * Fare clic sul pulsante **Finish**.
+14. Selezionare la scheda **Documentation** e digitare **This is a ```UNIX``` training Job**.
+15. Fare clic sul pulsante **Save** nella barra degli strumenti di **Job Master**.
+16. Chiudere la schermata **Job Master**.
 
 </details>

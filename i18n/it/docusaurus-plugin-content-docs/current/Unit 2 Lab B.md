@@ -1,12 +1,15 @@
 ---
-sidebar_label: 'Unit 2 Lab B'
+sidebar_label: 'Unità 2 Lab B'
+hide_title: 'false'
 ---
 
-### Objective:
+## Unità 2 Lab B
 
-Congo Online Retail Inc. needs to run daily inventory checks (7 days a week) with a Schedule named **CONGO INVENTORY MANAGEMENT**. 
+##### Obiettivo:
 
-A specific program must be run for each product department and each product Job should be Tagged by department.  
+Congo Online Retail Inc. deve eseguire controlli giornalieri dell'inventario (7 giorni alla settimana) con uno Schedule denominato **CONGO INVENTORY MANAGEMENT**.
+
+È necessario eseguire un Job specifico per ogni reparto di prodotto e ogni Job di prodotto deve essere etichettato (**Tag**) per reparto.
   
 *	**Toys** – ```"C:\scripts\CheckInvToys.EXE"```
   *	Legos
@@ -18,7 +21,7 @@ A specific program must be run for each product department and each product Job 
   *	Levis
   *	Nike
 
-Each product is assigned a **Product ID Number**. This ID Number will be used by the program as an argument for the ```-t``` time interval for each job:
+Ad ogni prodotto viene assegnato un **Product ID Number**. Questo ID Number verrà utilizzato dal programma come argomento ```-t``` per intervallo di tempo per ogni Job :
 
   * Legos - ```11```
   * Nerf - ```12```
@@ -28,9 +31,9 @@ Each product is assigned a **Product ID Number**. This ID Number will be used by
   * Nike - ```32```
   * Inventory Report - ```100```
 
-The Jobs must run every ```30 minutes``` until ```11:45 PM```.
-  
-The programs read the database and generate order requests to purchase new items. At the end of the day, an **Inventory Purchase Report** is created with the results. This must be created as a ```UNIX``` Job with the following **Start Image**:
+I Jobs devono essere eseguiti ogni ```30 minuti``` fino alle ```11:45 PM```.
+
+I programmi leggono il database e generano richieste d'ordine per l'acquisto di nuovi articoli. Alla fine della giornata, viene creato un **Inventory Purchase Report** con i risultati. Questo deve essere creato come Job ```UNIX``` con la seguente **Start Image**:
 
 ```/usr/local/labfiles/CheckInvPurRpt –t100```  
 
@@ -43,45 +46,45 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for More Detailed Lab Instructions</summary>
+<summary>Click qui per maggiori informazioni sul Laboratorio</summary>
 
-**Lab Instructions**:
+**Istruzioni di Laboratorio**:
 
-*	Create a Schedule named **Congo Inventory Management**
-*	**Monday-Sunday** are working days
-*	Auto-build the Schedule ```7``` days in advance for ```1``` day
-*	Auto-delete the Schedule for ```7``` days
-*	Add Documentation for the Schedule 
-
-*	Create a Windows Job for each of the products in the introduction
-  *	Name each Job the same as its product name
-  *	This Job needs to run as the ```SMATRAINING\SMAUSER``` User ID
-  *	This Job needs to run on the ```SMATRAINING``` machine
-  *	Call the programs on the command line. For example: 
+* Creare uno Schedule chiamato **Congo Inventory Management**
+* **Monday-Sunday** sono i giorni laborativi
+* Impostare l'Auto-build per lo Schedule ```7``` giorni in anticipo per ```1``` giorno
+* Impostare l'Auto-delete per lo Schedule per ```7``` days
+* Aggiungi **documentazione** per lo Schedule
+* Crea un Job ```Windows``` per ciascuno dei prodotti nell'introduzione
+* Assegna a ciascun Job lo stesso nome del suo prodotto
+* Il Job deve essere eseguito con l'utente ```SMATRAINING\SMAUSER```
+* Il Job deve essere eseguito sulla macchina ```SMATRAINING```
+* Richiamare i programmi sulla riga di comando. Per esempio::
   
   ```   
   “C:\scripts\CheckInvToys.EXE” -t11  
-  ```  
-  *   These Jobs need to run Monday-Sunday
-  *	These Jobs need to run ```every 30 minutes``` when they have finished ok
-  *	The latest execution time of the 6 Jobs is ```11:45 PM```
-  *	Add Documentation for each Job. Example: Nerf
-  *	Tag these 6 Jobs according to the product type (**Toys**, **Electronics**, or **Clothing**)
-*	Create a Unix Job named **Inventory Purchase Report**
-  *	This Job needs to run on the ```SUSEVM``` machine
-  *	This Job needs to run as the ```0/0``` Group id/User ID
-  *	Call the programs on the Start Image. For example:
+  ```
+
+* Questi Jobs devono essere eseguiti dal lunedì alla domenica
+* Questi Jobs devono essere eseguiti ```ogni 30 minuti``` quando sono finiti ok
+* L'ultimo tempo di esecuzione dei 6 Jobs è ```11:45 PM```
+* Aggiungi la documentazione per ogni Job. Esempio: Nerf
+* Tagga questi 6 Jobs in base al tipo di prodotto (**Toys**, **Electronics**, or **Clothing**)
+* Crea un Job ```Unix``` chiamato **Inventory Purchase Report**
+* Questo Job deve essere eseguito sulla macchina ```SUSEVM``` machine
+* Questo Job deve essere eseguito come Group id/User ID ```0/0```
+* Richiamare i programmi sulla riga di comando. Per esempio:
 
   ```  
   /usr/local/labfiles/CheckInvPurRpt –t100  
   ```  
   
-  *	This Job needs to run **Monday-Sunday**
-  *	The Inventory Purchase Report requires the 6 Windows Jobs and must run after all runs have completed
-*	Build the Schedule for today and tomorrow
+* Questo Jobs deve essere eseguito dal lunedì alla domenica
+* Il report di acquisto dell'inventario richiede i 6 processi di Windows e deve essere eseguito dopo che tutte le esecuzioni sono state completate
+* Effettuare le **Build** dello Schedule per oggi e domani
 
-:::note
-Upon completion, view the results in the **Workflow designer**. Then build the Schedule released for today and check the execution using **Solution Manager**.
+:::note Nota
+_Al termine, visualizzare i risultati nel **Workflow designer**. Quindi effettuare la Build dello Schedule in stato rilasciato per oggi e controllare l'esecuzione in **Solution Manager**_
 :::
 
 <a href="imgbasic/306.png" target="_blank"><img src="imgbasic/306.png" width="500"></img></a>

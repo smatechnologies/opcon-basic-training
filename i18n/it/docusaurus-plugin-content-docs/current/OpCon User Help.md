@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'OpCon User Help'
+sidebar_label: 'Risoluzione dei problemi - Aiuto all utente'
+hide_title: 'false'
 ---
 
-### Troubleshooting - OpCon User Help
+## Risoluzione dei problemi - Aiuto all'utente
 
 <figure>
     <audio
@@ -13,27 +14,27 @@ sidebar_label: 'OpCon User Help'
     </audio>
 </figure>
 
-* OpCon Documentation is a searchable website: <a href="https://help.smatechnologies.com" target="_blank">help.smatechnologies.com</a>
-* Documentation can be found under Solution Manager
-* Help > Documentation > Document or press F1 from within Enterprise Manager 
+* La Documentazione OpCon è un sito con possibilità diu ricerca: <a href="https://help.smatechnologies.com" target="_blank">help.smatechnologies.com</a>
+* La documentazione è disponibile in Solution Manage
+* Help > Documentation > Document or o premere F1 da Enterprise Manager
 
 <a href="imgbasic/273.png" target="_blank"><img src="imgbasic/273.png" width="500"></img></a>  
 <a href="imgbasic/274.png" target="_blank"><img src="imgbasic/274.png" width="500"></img></a>  
 
 
-### OpCon User Help - Agents
+### Guida utente OpCon - Agents
 
 <a href="imgbasic/275.png" target="_blank"><img src="imgbasic/275.png" width="500"></img></a>  
 <a href="imgbasic/276.png" target="_blank"><img src="imgbasic/276.png" width="500"></img></a>  
 
-### OpCon User Help - Concepts
+### Guida per l'utente di OpCon - Concetti
 
-The Concepts section of OpCon User Help assists with basic and advanced automation concepts 
+* La sezione Concetti della Guida per l'utente di OpCon assiste con i concetti di automazione di base e avanzati
 
 <a href="imgbasic/277.png" target="_blank"><img src="imgbasic/277.png" width="500"></img></a>  
 
-### OpCon User Help - Release Notes
+### Guida per l'utente di OpCon - Note di rilascio
 
 <a href="imgbasic/278.png" target="_blank"><img src="imgbasic/278.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

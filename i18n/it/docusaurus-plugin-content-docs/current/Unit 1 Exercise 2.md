@@ -1,15 +1,16 @@
 ---
-sidebar_label: 'Unit 1 Exercise 2'
+sidebar_label: 'Unità 1 Esercizio 2'
+hide_title: 'false'
 ---
 
-### Exercise 2: Run a Manual Batch Job
+## Esercizio 2: eseguire un Job Batch manualmente
 
-##### Objective:
+##### Obiettivo:
 
-Run two basic Batch Jobs from the Command Prompt window:
+Eseguire due semplice Jobs Batch from dalla finestra dei Commandi di Windows (CMD):
 
-* Job 1: Type ```timeout /t 15``` and press enter.
-* Job 2: Type ```cd "C:\Program Files\OpConxps\MSLSAM"``` and press enter. Then, Type ```"genericp.exe -t10 -e0"``` and press enter.
+* Job 1: Digitare ```timeout /t 15``` and premere invio.
+* Job 2: Digitare ```cd "C:\Program Files\OpConxps\MSLSAM"``` e premere invio. Poi, Digitare ```"genericp.exe -t10 -e0"``` e premere invio.
 
 <div>
 <video width="320" height="240" controls>
@@ -20,25 +21,25 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Click the Windows Start button, type ```cmd```, and press the ENTER key.
-2.	From the Command Prompt window, type: ```timeout /t 15```
-3.	Press the ENTER key.
-  *	You will see the timeout command executed counting down 15 seconds
+Click qui per Istruzioni passo passo
 
-- Note: You ran this program under the Windows account you are logged on as ```SMATRAINING\SMAUSER```. You ran the program on the Machine you are logged into ```SMATRAINING```.
+1.  Premere il pulsante Start di Windows, digitare ```cmd```, e premere il tasto INVIO.
+2. Dalla finestra dei comandi, digitare: ```timeout /t 15```
+3. premere il tasto INVIO.
+  * Potrai vedere il comando timeout eseguito contare all'indietro per 15 secondi Nota: Hai eseguito questo programma con l'utente di Windows con cui sei loggato ovvero ```SMATRAINING\SMAUSER```. Hai eseguito il programma nella Macchina su cui hai fatto accesso ovvero ```SMATRAINING```.
 
-4.	From the Command Prompt window, type: 
+4. Dal finestra dei Comandi digitare:
 ```
 cd “C:\Program Files\OpConxps\MSLSAM”
 ```
-5.	Press the ENTER key.
-6.	Still in the Command Prompt, type: 
+5. Premere il taso INVIO.
+6. Continuare a digitare nella finestra dei comandi:
 ```
 genericp.exe –t10 –e0
 ```
-7.	Press the ENTER key.
-8.	The generic.exe program will run for ```10``` seconds and then complete.
+7. premere il tasto INVIO.
+8. Il programma genericp.exe verrà eseguito per 10 secondi e poi terminerà.
 
 </details>

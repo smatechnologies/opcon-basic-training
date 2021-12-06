@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'Frequency Definition Wizard'
+sidebar_label: 'Definizione Frequenza Procedura - Panoramica'
+hide_title: 'false'
 ---
 
-### Overview
+## Definizione Frequenza Procedura - Panoramica
 
 <figure>
     <audio
@@ -13,26 +14,26 @@ sidebar_label: 'Frequency Definition Wizard'
     </audio>
 </figure>
 
-* After clicking the **Add** button under **Frequency list**:
-  * Create **New Frequency**   
-   or
-  * Select **Existing Frequency**
+* Dopo aver cliccato sul pulsante **Add** nella **lista delle Frequenze**:
+    * Creare una **Nuova Frequenza**
+    or
+    * Seleziona **Existing Frequency**
 
-:::caution
-Always start with **“When to Schedule”**
+:::caution Nota
+_Cominciare sempre dalla sezione_ “When to Schedule”
 :::
 
-* Depending on selection, different fields will be available
-* Select desired days, interval, occurrence, or period
+* A seconda della selezione, saranno disponibili diversi campi
+* Seleziona i giorni, l'intervallo, l'evento o il periodo desiderato
 
 <a href="imgbasic/231.png" target="_blank"><img src="imgbasic/231.png" width="500"></img></a>  
 <a href="imgbasic/232.png" target="_blank"><img src="imgbasic/232.png" width="500"></img></a>  
 <a href="imgbasic/233.png" target="_blank"><img src="imgbasic/233.png" width="500"></img></a>  
 
-* Frequencies reference two settings from a Schedule to determine what is considered a working day
-  * Workdays per Week
-  * Holiday Calendars
-* Selections for workdays per week and a Holiday Calendar will determine non-working days for that Schedule
+* Le frequenze fanno riferimento a due impostazioni di cui una a livelo di Schedule per determinare ciò che è considerato un giorno lavorativo
+    * Giorni lavorativi per settimana - Workdays per Week
+    * Calendari festivitità - Holiday Calendars
+* La combinazione di workdays per week e Holiday Calendar determinerà i giorni non lavorativi per quello Schedule
 
 <a href="imgbasic/234.png" target="_blank"><img src="imgbasic/234.png" width="250"></img></a>  
 <a href="imgbasic/235.png" target="_blank"><img src="imgbasic/235.png" width="500"></img></a>  
@@ -48,12 +49,12 @@ Always start with **“When to Schedule”**
     </audio>
 </figure>
 
-* **A/O/B/N** flag will tell a Frequency how to react if the selected day is non-working day
-  * **After Date** will run a Job on the first working day after a non-working day
-  * **On Date** will run a Job on a non-working day anyway
-  * **Before Date** will run a Job on the first working day prior to a non-working day
-  * **Not Schedule** will simply not run a Job on a non-working day
+* L'impostazione **A/O/B/N** determinerà come una Frequenza dovrà comportarsi se un determinato giorno risulta non lavorativo
+    * **Giorno successivo - After Date** eseguirà il Job il primo giorno lavorativo seguente
+    * **Alla data - On Date** eseguirà il Job alla data stessa, anche se festivo
+    * **Giorno precedente - Before Date** eseguirà il Job il primo giorno lavorativo precedente
+    * **Non schedulare - Not Schedule** Il job non verrà eseguito
 
 <a href="imgbasic/236.png" target="_blank"><img src="imgbasic/236.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

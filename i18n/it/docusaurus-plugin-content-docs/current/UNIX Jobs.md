@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'UNIX Jobs'
+sidebar_label: 'Jobs UNIX'
+hide_title: 'false'
 ---
+
+## Jobs UNIX
 
 <figure>
     <audio
@@ -13,13 +16,13 @@ sidebar_label: 'UNIX Jobs'
 
 <a href="imgbasic/208.png" target="_blank"><img src="imgbasic/208.png" width="500"></img></a>
 
-### UNIX - Advanced Machine Properties
+### UNIX - Proprietà avanzate Macchina
 
 <a href="imgbasic/209.png" target="_blank"><img src="imgbasic/209.png" width="500"></img></a>
 
-### UNIX - File Transfer Settings
+### UNIX - Impostazioni File Transfer
 
 <a href="imgbasic/210.png" target="_blank"><img src="imgbasic/210.png" width="500"></img></a>
 
 
-###### (Click Image to Enlarge)
+###### (Click sull'Immagine per Ingrandire)

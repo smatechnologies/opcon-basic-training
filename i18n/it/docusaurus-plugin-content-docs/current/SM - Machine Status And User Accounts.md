@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'SM - Machine Status And User Accounts'
+sidebar_label: 'SM - Stato Macchine e Accounts Utenti'
+hide_title: 'false'
 ---
 
-### Solution Manager: Machine Status and User Accounts
+## Solution Manager: Stato Macchine e Accounts Utenti
 
 <figure>
     <audio
@@ -13,34 +14,34 @@ sidebar_label: 'SM - Machine Status And User Accounts'
     </audio>
 </figure>
 
-* Machine Status can be determined by the heart icon in the bottom right hand corner of the screen
-* Selecting the icon will display all Agents and their status
-* Machines can be bulk selected for status updates
-  * As with Schedule and Job status updates, only options available to a machine will be configurable
+* Lo stato della macchina può essere determinato dall'icona del cuore nell'angolo in basso a destra dello schermo
+* Selezionando l'icona verranno visualizzati tutti gli agenti e il loro stato
+* Le macchine possono essere selezionate in blocco per gli aggiornamenti di stato
+    * Come per gli aggiornamenti di stato di Schedule e Job, solo le opzioni disponibili per una macchina saranno configurabili
 
 <a href="imgbasic/Picture83.png" target="_blank"><img src="imgbasic/Picture83.png" width="500"></img></a>  
 
-### Select Machines
+### Selezionare le Macchine
 
 
 <a href="imgbasic/Picture84.png" target="_blank"><img src="imgbasic/Picture84.png" width="500"></img></a>  
 
-### Machine Status
+### Stati Macchine
 
-* Right-click Machines and available actions appear
-* If multiple Machines are selected, Actions on those Machines can happen at once
+* Clicca con il tasto destro del mouse sulle macchine e appaiono le azioni disponibili
+* Se sono selezionate più macchine, le azioni su quelle macchine possono avvenire contemporaneamente
 
 <a href="imgbasic/Picture85.png" target="_blank"><img src="imgbasic/Picture85.png" width="500"></img></a>  
 
-### User Accounts
+### Account Utente - (User Accounts)
 
-OpCon User Account settings can be managed from SMA Solution Manager:
+Le impostazioni dell'account utente OpCon possono essere gestite da SMA Solution Manager:
 
-* Update Passwords
-* Change email address
-* Add Notes or Comments
+* Aggiornamento Passwords
+* Cambio indirizzo email
+* Aggiungere note o commenti
 
 <a href="imgbasic/Picture86.png" target="_blank"><img src="imgbasic/Picture86.png" width="500"></img></a>  
 
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'Update Master Job'
+sidebar_label: 'Aggiornamento dei Job Master'
+hide_title: 'false'
 ---
 
-### Updating Master Jobs and Rebuilding
+## Aggiornamento dei Job Master e rigenerazione dei piani (Rebuilding)
 
 <figure>
     <audio
@@ -15,7 +16,7 @@ sidebar_label: 'Update Master Job'
 
 <a href="imgbasic/Picture64.png" target="_blank"><img src="imgbasic/Picture64.png" width="500"></img></a>  
 
-When a Job is edited in Daily List, changes are applied **only** to a specific copy of a Job **without** affecting any other copies in Daily List or Master Definition   
+Quando un Job viene modificato nella Lista Daily, le variazioni vengono applicate **soltanto** ad una copia specifica di quel Job **senza** modificare le altre copie in altri piani giornalieri o nel Master   
 
 <a href="imgbasic/Picture65.png" target="_blank"><img src="imgbasic/Picture65.png" width="300"></img></a>  
 <a href="imgbasic/Picture66.png" target="_blank"><img src="imgbasic/Picture66.png" width="500"></img></a>  

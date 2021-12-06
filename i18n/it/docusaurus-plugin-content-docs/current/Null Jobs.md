@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Null Jobs'
+sidebar_label: 'Jobs Nulli'
+hide_title: 'false'
 ---
+
+## Jobs Nulli
 
 <figure>
     <audio
@@ -12,14 +15,14 @@ sidebar_label: 'Null Jobs'
 </figure>
 
 
-* Null Jobs simply finish OK at Runtime 
-* Can be used to kick off Events or tie together workflows to a single point
+* I Job Nulli finiscono semplicemente OK in fase di esecuzione
+* Può essere usato per innescare eventi o per collegare insieme i flussi di Job diversi in un unico punto
 
 <a href="imgbasic/206.png" target="_blank"><img src="imgbasic/206.png" width="500"></img></a>
 
-### Solution Manager - Null Job Task Details Screen
+### Solution Manager - Schermata di dettaglio per job Nulli
 
 <a href="imgbasic/207.png" target="_blank"><img src="imgbasic/207.png" width="500"></img></a>
 
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

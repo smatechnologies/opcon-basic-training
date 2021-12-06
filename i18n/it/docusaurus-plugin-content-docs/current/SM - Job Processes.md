@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'SM - Job Processes'
+sidebar_label: 'SM - Jobs in esecuzione'
+hide_title: 'false'
 ---
 
-### Solution Manager: Job Processes
+## Solution Manager: Jobs in esecuzione
 
 <figure>
     <audio
@@ -13,23 +14,23 @@ sidebar_label: 'SM - Job Processes'
     </audio>
 </figure>
 
-### Daily Processes
+### Esecuzioni giornaliere
 
-* The Processes tab accesses Daily processes in operation
-* Dates, Schedules, and Jobs can be selected by toggling for those selections
-* Filter profiles can be created and modified
+* La scheda Processes mostra le esecuzioni dei JOb sui piani giornalieri
+* E possibile effettuare filtri per Date, Schedules, and Jobs selezionando i rispettivi elementi
+* E' possible creare e modificare profili con diverse combinazioni di filtri attivati
 
-#### Select Date:  
+#### Selezioni di Date:  
 
 <a href="imgbasic/Picture67.png" target="_blank"><img src="imgbasic/Picture67.png" width="500"></img></a>  
 
-#### Select Schedule:    
+#### Selezioni di Schedule: 
 
 <a href="imgbasic/Picture68.png" target="_blank"><img src="imgbasic/Picture68.png" width="500"></img></a>  
 
-#### Select Jobs:    
+#### Selezioni di Jobs:   
 
 <a href="imgbasic/Picture69.png" target="_blank"><img src="imgbasic/Picture69.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)
 

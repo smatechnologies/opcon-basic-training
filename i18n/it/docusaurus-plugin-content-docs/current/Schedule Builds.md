@@ -1,6 +1,9 @@
 ---
 sidebar_label: 'Schedule Builds'
+hide_title: 'false'
 ---
+
+## Processo di Generazione degli Schedules sul piano - Schedule Builds
 
 <figure>
     <audio
@@ -11,9 +14,9 @@ sidebar_label: 'Schedule Builds'
     </audio>
 </figure>
 
-* OpCon (SAM) will search the database for Schedules and Jobs that must run on a specific date
-  * Based on information stored in Master tables, SAM will add Schedules and Jobs to Daily tables
-* Schedules can be built manually or automatically
+* OpCon (SAM) cercherà nel database le Schedules e i Jobs che devono essere eseguiti in una data specifica
+    * Sulla base delle informazioni memorizzate nelle Tabelle Master, Il SAM aggiungerà le pianificazioni e i Jobs alle tabelle giornaliere
+* Gli Schedules possono essere costruiti (builded) manualmente o automaticamente
 
 <a href="imgbasic/Picture29.png" target="_blank"><img src="imgbasic/Picture29.png" width="300"></img></a>
 
@@ -28,23 +31,23 @@ sidebar_label: 'Schedule Builds'
     </audio>
 </figure>
 
-* Auto building **X days in advance** is the starting day to build on
-* Auto building **for Y days** is how far out to build
-* OpCon builds Schedules automatically at midnight (by default)
-  * Example: ```7``` days in advance for 1 day will build on the 7th counted day in the future (the first counted day is Day ```0```)
-  * Example: ```0``` days in advance for ```7``` days will build **daily** for ```7``` days (the first counted day is Day ```0```)
+* L'impostazione di Auto build per **"X days in advance"** è il giorno di partenza da cui viene effettuata la build
+* L'impostazione di Auto build per **"for Y days"** è per quanti giorni si vuole che venga fatta la build
+* OpCon effettua la builds degli Schedules automaticamente a mezzanotte (per impostazione predefinita)
+    * Esempio: "```7``` days in advance for ```1``` day" effettuerà la build per il ```7``` giorno in avanti nel futuro (il primo giorno contato è il giorno ```0```)
+    * Esempio: "```0``` days in advance for ```7``` days" effettuerà la build giornalmente per ```7``` giorni (il primo giorno contato è il giorno ```0```)
 
-* Best Practice for Autobuild is **7 days in advance for 1 day**
+* Una impostazione raccomandata per l'Autobuild è **"7 days in advance for 1 day"**
 
-#### Autobuild Example 1:
+#### Autobuild Esempio 1:
 
 <a href="imgbasic/Picture30.png" target="_blank"><img src="imgbasic/Picture30.png" width="500"></img></a>  
 
-#### Autobuild Example 2:
+#### Autobuild Esempio 2:
 
 <a href="imgbasic/Picture31.png" target="_blank"><img src="imgbasic/Picture31.png" width="500"></img></a>  
 
-### Manual Build
+### Build manuale
 
 <figure>
     <audio
@@ -55,8 +58,8 @@ sidebar_label: 'Schedule Builds'
     </audio>
 </figure>
 
-* The **Build Schedules** screen contains a list of Schedules to build, all information needed to build a Schedule, and a Build Results list
+* La schermata **Build Schedules** mostra, una lista di Schedules su cui fare la Build, tutte le informazioni necessarie per fare il Build e la lista dei risultati del processo di Build
 
 <a href="imgbasic/Picture32.png" target="_blank"><img src="imgbasic/Picture32.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

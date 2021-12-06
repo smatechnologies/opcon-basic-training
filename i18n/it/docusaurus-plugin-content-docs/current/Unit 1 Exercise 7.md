@@ -1,16 +1,17 @@
 ---
-sidebar_label: 'Unit 1 Exercise 7'
+sidebar_label: 'Unità 1 Esercizio 7'
+hide_title: 'false'
 ---
 
-### Exercise 7: Schedule and Job Statuses 
+## Esercizio 7: Stati di Schedule e Job
 
-##### Objective: 
+##### Obiettivo: 
 
-Build the Schedule named **Schedule and Job Statuses** ```On Hold``` for Today. In **Matrix View**, release the Schedule for today.
+Effettuare la messa a piano (Build) dello Schedule **"Schedule and Job Statuses"** in stato ```On Hold``` per la giornata odierna. Nella vista **Matrix**, rilasciare lo Schedule per il piano odierno.
 
-Observe the ```Start Time``` for the Schedule. If it has not been reached, start the Schedule manually. 
+Observe the ```Start Time``` for the Schedule. If it has not been reached, start the Schedule manually.
 
-Finally, put the Schedule back into an ```On Hold``` status.
+Infine, riportare lo Schedule nuovamente nello stato ```On Hold```.
 
 <div>
 <video width="320" height="240" controls>
@@ -21,39 +22,39 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Build **Schedule and Job Statuses**.
-  * Under the Operation topic, Double-Click on **Schedule Build**. 
-  * In the **Schedule Selection** section, select **Schedule and Job Statuses** to build.
-  * Click the **Build** button.
-  * In the **Build Properties** pop-up, click the **On Hold** radio button.
-  * Click **OK**.
-2.	Close the **Build Schedules** screen.
-3.	Release **Schedule and Job Statuses** using one of the **Operations Screens**. The instructions below use the **Matrix** screen.
-  * Under the **Operation** topic, Double-Click on **Matrix**. 
-  *	Verify that the current date is selected in the **Calendar** on the upper left hand of the **Matrix** screen.
-  *	Left-Click on the **Schedule and Job Statuses** Schedule to see the Jobs.
-  *	Right-Click on the **Schedule and Job Statuses** Schedule in the **Schedule** selection to the right of the **Calendar**.
-  *	Select **Release** from the menu.
-  *	Verify that the information in the pop-up window is true.
-  *	Type **“Practice Exercise - Release”** in the **Enter a short explanation for this status change** text field.
-4.	Click **OK**.
-  *	The **Schedule and Job Statuses Schedule** will move from an “**On Hold**” status to a “**Wait to Start**” status because the Schedule had a **Start Time** of **18:30**.
-5.	Start the Schedule
-  *	Right-Click on the **Schedule and Job Statuses Schedule** from the **Schedule** selection area again.
-  *	Select **Start** from the menu.
-  *	Verify that the information in the pop-up window is true.
-  *	Type “**Practice Exercise - Start**” in the **Enter a short explanation for this status change** text field.
-  *	Click **OK**.
-  *	The **Schedule and Job Statuses** Schedule will move from a “**Wait to Start**” status to an “**In Process**” status and Jobs should start running.
-6.	Hold the Schedule
-  *	Right-Click on the **Schedule and Job Statuses** Schedule from the **Schedule** menu again.
-  *	Select **Hold** from the menu.
-  *	Verify that the information in the pop-up window is true.
-  *	Type “**Practice Exercise - Hold**” in the **Enter a short explanation for this status change** text field.
-  *	Click **OK**.
-    * The **Schedule and Job Statuses** Schedule will move from an “**In Process**” status to an “**On Hold**” status.
-    * Jobs currently running will continue to run, but nothing new will kick off until the Schedule is released.
+1. Effettuare la Build dello Schedule **"Schedule and Job Statuses"**.
+    * Nel menù Operazione, fare doppio clic su **Schedule Build**.
+    * Nella sezione **Schedule Selection**, selezionare **"Schedule and Job Statuses"** per effettuarne la build.
+    * Fare click sul pulsante **Build**.
+    * Nel pop-up **Build Properties** selezionare l'opzione **On Hold**.
+    * Fare click su **OK**.
+2. Chiudere la schermata **Build Schedules**.
+3. Rilasciare lo Schedule **"Schedule and Job Statuses"** usando una delle schermate di **Operations**. Le istruzioni che seguono usano la schermata **Matrix**.
+    * Nel menù **Operation** fare Doppio-Click su **Matrix**.
+    * Verificare che la data corrente sia selezionata nella finestra **Calendar** in alto a sinistra della schermata Matrix.
+    * Cliccare con il tasto sinistro del mouse sullo Schedule **"Schedule and Job Statuses"** per vedere i Jobs.
+    * Cliccare con il tasto destro del mouse sullo Schedule **"Schedule and Job Statuses"** nell'elenco degli **Schedule** a destra del **Calendario**.
+    * Selezionare **Release** sul menu.
+    * Verificate che le informazioni nella finestra pop-up siano vere.
+    * Digitare **“Practice Exercise - Release”** nel campo di testo **"Enter a short explanation for this status change"**.
+4. Click **OK**.
+    * Lo schedule **"Schedule and Job Statuses Schedule"** passerà dallo stato di **“On Hold”** allo stato **“Wait to Start”** perchè lo Schedule aveva uno **Start Time** impostato alle ```18:30```.
+5. Avvio dello Schedule
+    * Cliccare nuovamente con il tasto destro del mouse sullo Schedule **"Schedule and Job Statuses Schedule"** dall'area di selezione degli **Schedule**.
+    * Selezionare **Start** dal menu.
+    * Verificare che le informazioni nella finestra pop-up siano vere.
+    * Digitare **“Practice Exercise - Start”** nel campo di testo **"Enter a short explanation for this status change"**.
+    * Fare clic su **OK**.
+    * Lo Schedule **"Schedule and Job Statuses"**passerà dallo stato di **“Wait to Start”** allo stato **“In Process”** e i Job cominceranno ad avviarsi.
+6. Mettere in pausa (Hold) lo Schedule
+    * Cliccare nuovamente con il tasto destro del mouse sullo Schedule **"Schedule and Job Statuses"** dal menù **Schedule**.
+    * Selezionare **Hold** dal menu.
+    * Verificare che le informazioni nella finestra pop-up siano vere.
+    * Digitare **“Practice Exercise - Hold”** nel campo di testo **Enter a short explanation for this status change**.
+    * Click **OK**.
+        * Lo Schedule **"Schedule and Job Statuses"** passerà dallo stato di **“In Process”** allo stato **“On Hold”**.
+        * I Jon attualmente in esecuzione continueranno ad essere eseguiti, ma niente di nuovo partirà fino a quando lo Schedule non sarà rilasciato.
 
 </details>

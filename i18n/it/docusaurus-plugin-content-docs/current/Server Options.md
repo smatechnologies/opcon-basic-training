@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Server Options'
+sidebar_label: 'Opzion Server'
+hide_title: 'false'
 ---
+
+## Opzion Server
 
 <figure>
     <audio
@@ -11,9 +14,9 @@ sidebar_label: 'Server Options'
     </audio>
 </figure>
 
-* The Server Options editor controls global settings for OpCon
-* Changes made in this screen will apply to the entire environment
-* Can only be accessed by users under **ocadm**
+* L'editor delle opzioni del server controlla le impostazioni globali per OpCon
+* Le modifiche apportate in questa schermata verranno applicate all'intero ambiente
+* Accessibile solo agli utenti sotto ```ocadm```
 
 <a href="imgbasic/301.png" target="_blank"><img src="imgbasic/301.png" width="250"></img></a>  
 <a href="imgbasic/302.png" target="_blank"><img src="imgbasic/302.png" width="500"></img></a>  
@@ -22,4 +25,4 @@ sidebar_label: 'Server Options'
 <a href="imgbasic/305.png" target="_blank"><img src="imgbasic/305.png" width="500"></img></a>  
 
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

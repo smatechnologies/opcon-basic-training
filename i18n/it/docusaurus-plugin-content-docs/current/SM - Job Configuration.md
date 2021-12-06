@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'SM Job Configuration'
+sidebar_label: 'SM - Schermata di configurazione del Job'
+hide_title: 'false'
 ---
 
-### Solution Manager: Job Configuration Screen
+## Solution Manager: Schermata di configurazione del Job
 
 <figure>
     <audio
@@ -13,52 +14,50 @@ sidebar_label: 'SM Job Configuration'
     </audio>
 </figure>
 
-* The Job Configuration Screen (formerly “Edit Daily”) can be accessed from the Job Summary toolbar when a Job is selected
+* La schermata di configurazione del Job (precedentemente chiamata "Edit Daily) è accessibile dalla barra degli strumenti Summary Job quando un Job è selezionato
 
-* Components accessible from Job Configuration:
-  * Task Details: Job Type
-  * Department
-  * Access Codes
-  * Tags
-  * Documentation
-  * Job Instance Properties
-  * Frequency Details
+* Elementi Accessibili dalla Configurazine Job:
+    * Dettagli del Job:
+    * Department - Dipartimento
+    * Access Codes - Codici di Accesso
+    * Tags - Etichette
+    * Documentation - Documentazione
+    * Job Instance Properties - Attributi a livello di istanza di Job
+    * Frequency Details - Dettagli della Frequenza
 
 <a href="imgbasic/Picture75.png" target="_blank"><img src="imgbasic/Picture75.png" width="500"></img></a>  
 
-### Windows Job Task Details Screen:
+### Schermata di dettaglio di un Job Windows:
 
 <a href="imgbasic/Picture76.png" target="_blank"><img src="imgbasic/Picture76.png" width="500"></img></a>
 
-### Windows Job Task Configurable Options
+### Opzioni di configurazione di un Job Windows
 
-Currently configurable options:  
+Opzioni attualmente configurabili:
 
-* Machines/Machine Groups  
-* Prerun Command Line  
-  * Working Directory  
-  * Failure Criteria  
-* Run Command Line  
-  * Working Directory  
-  * E.C.O.F. – (Exit Code Override File)  
-  * Priority  
-  * Run in Command Shell option  
-* Failure Criteria  
-* Job Output Parsing  
-* Environmental Variables  
+* Macchine/gruppi di macchine
+* Line di comando Prerun
+    * Working Directory
+    * Failure Criteria
+* Command Line di esecuzione
+    * Directory di Lavoro
+    * E.C.O.F. – (Exit Code Override File)
+    * Priorità
+    * Opzione di esecuzione Run in Command Shell
+* Criteri di Errore - Failure Criteria
+* Analisi dell'output del Job - Job Output Parsing
+* Variabili di ambiente - Environmental Variables
 
 <a href="imgbasic/Picture77.png" target="_blank"><img src="imgbasic/Picture77.png" width="500"></img></a>  
 
-### Job Status Screen
+### Schermata stato Job
 
-Right-Click Jobs and available actions appear
-
-* If Multiple Jobs are selected, Actions on those Jobs can occur at once selected 
+* Cliccando con il tasto destro del mouse sui Jobs verrano mostrate le azioni disponibili
 
 <a href="imgbasic/Picture78.png" target="_blank"><img src="imgbasic/Picture78.png" width="500"></img></a>  
 
-### Bulk Job Status Update
+### Aggiornamento in blocco dello stato dei Job
 
 <a href="imgbasic/Picture79.png" target="_blank"><img src="imgbasic/Picture79.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Dependencies'
+sidebar_label: 'Dipendenze fra Job'
+hide_title: 'false'
 ---
+
+## Dipendenze fra Job
 
 <figure>
     <audio
@@ -15,12 +18,12 @@ sidebar_label: 'Dependencies'
 
 ### Job Dependency Definition Tab
 
-* OpCon allows the definition of a Job Run sequence
+* OpCon permette la definizione di una sequenza di Job
 
-* Use the Dependencies tab to define Job Dependencies
+* Usare la scheda Dipendenze per definire le dipendenze tra i Job
 
 <a href="imgbasic/Picture22.png" target="_blank"><img src="imgbasic/Picture22.png" width="500"></img></a>  
 <a href="imgbasic/Picture23.png" target="_blank"><img src="imgbasic/Picture23.png" width="500"></img></a>  
 <a href="imgbasic/Picture24.png" target="_blank"><img src="imgbasic/Picture24.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

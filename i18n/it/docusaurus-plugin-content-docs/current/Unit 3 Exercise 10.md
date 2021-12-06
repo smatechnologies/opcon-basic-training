@@ -1,16 +1,17 @@
 ---
-sidebar_label: 'Unit 3 Exercise 10'
+sidebar_label: 'Unità 3 Esercizio 10'
+hide_title: 'false'
 ---
 
-### Exercise 10: Define a System Property
+## Esercizio 10: Definire una proprietà di Sistema
 
-##### Objective:
+##### Obiettivo:
 
-Create a new **Global System Property** using the ```$DATE``` Property.
+Creare una proprietà Globale (**Global System Property**) usando la proprietà di sistema ```$DATE```.
 
-The new Property should be named ```$DATEmmddyy```.
+La nuova proprietà dovrà essere denominata ```$DATEmmddyy.```
 
-The value of the Property is: ```mmddyy```.
+Il valore della Proprietà sarà: ```mmddyy```.
 
 
 <div>
@@ -22,16 +23,16 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Administration topic**, Double-Click on **Global Properties**. 
-2.	Click the **Select Global Property** drop-down menu select ```$DATE```.
-3.	Click the **Copy** Button (top right) or press Ctrl+Insert
-4.	Keep ```$DATE``` in the name but append the format you’d like to use.   
-    * Example: ```$DATEmmddyy```
-5.	Click the **OK** button.
-6.	Change the **Value** to the date format you specified in the name.
-7.	Click the **Save** button on the Global Properties toolbar. 
-8.	Close the **Global Properties** tab.
+1. Nel Menù **Administration**, fare doppio clic su **Global Properties**.
+2. Nell'elenco a discesa **Select Global Property** selezionare ```$DATE```.
+3. Fare clic sul pulsante **Copy** (in alto a destra) o premere i tasti **Ctrl+Insert**.
+4. Tenere ```$DATE``` come base del nome ma aggiungere il formato che si intende utilizzare.
+    * Esempio: ```$DATEmmddyy```
+5. Fare clic sul pulsante **OK**.
+6. Cambiare il valore (**Value**) corrispondente al formato data scelto per il nome della variabile.
+7. Fare clic sul pulsante **Save** nella barra degli strumenti delle Proprietà Globali.
+8. Chiudere la scheda delle Proprietà Globali (**Global Properties**).
 
 </details>

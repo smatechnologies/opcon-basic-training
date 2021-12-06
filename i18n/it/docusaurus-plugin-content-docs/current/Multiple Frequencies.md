@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Multiple Frequencies'
+sidebar_label: 'Frequenze Multiple'
+hide_title: 'false'
 ---
+
+## Frequenze Multiple
 
 <figure>
     <audio
@@ -11,16 +14,16 @@ sidebar_label: 'Multiple Frequencies'
     </audio>
 </figure>
 
-* SAM checks the **Frequency list** at Job build time
-  * Stops searching when a match is made
-  * Checks list in order
-* Use cases
-  * Run Jobs at different times for different days
-  * Negative frequencies (do not run on End of Month)
+* SAM controlla la **lista delle Frequenze** nel momento in cui il Job viene messo a piano (Build)
+    * Si interrompe quando una frequenza corrisponde alla data piano che sta processando
+    * La lista delle frequenze viene proessata in ordine
+* Casi d'uso:
+    * Il Job deve girare ad orari diversi in giorni diversi
+    * Frequenze usate in modo negativo (es. Non eseguire l'ultimo giorno del mese)
 
 <a href="imgbasic/260.png" target="_blank"><img src="imgbasic/260.png" width="500"></img></a>
 
-### Frequencies - Job Build Status
+### Frequenze - Statu di messa a piano (Build Stats)
 
 <figure>
     <audio
@@ -40,7 +43,7 @@ sidebar_label: 'Multiple Frequencies'
 <a href="imgbasic/261.png" target="_blank"><img src="imgbasic/261.png" width="500"></img></a>  
 <a href="imgbasic/262.png" target="_blank"><img src="imgbasic/262.png" width="250"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)
 
 ### Forecast
 

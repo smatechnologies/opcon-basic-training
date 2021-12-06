@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Schedule Instance Properties'
+sidebar_label: 'Proprietà a livello di Schedule'
+hide_title: 'false'
 ---
+
+## Proprietà a livello di Schedule
 
 <figure>
     <audio
@@ -11,17 +14,17 @@ sidebar_label: 'Schedule Instance Properties'
     </audio>
 </figure>
 
-* **Schedule Master** contains an **Instance Definition** tab for each individual Schedule where **Schedule Instance Properties** can be defined or modified
-* Use of a Schedule Instance Property must contain "```SI.```" in front of a Property name (e.g., ```[[SI.ID]]```)  
-* Identifies a Property as a Schedule Instance Property
+* **Schedule Master** contiene una scheda, **Instance Definition** per ogni singolo Schedule dove le **Schedule Instance Properties** possono essere definite o modificate
+* Per referenziare una Schedule Instance Property è necessario utilizzare il prefisso “```SI.```” davanti al nome della Proprietà (ad esempio, ```[[SI.ID]]```)
+* Identifica una Proprietà come una Schedule Instance Property
 
 <a href="imgbasic/340.png" target="_blank"><img src="imgbasic/340.png" width="250"></img></a>  
 <a href="imgbasic/341.png" target="_blank"><img src="imgbasic/341.png" width="500"></img></a>
 
-### Solution Manager - Schedule Instance Definitions
+### Solution Manager - Definizione dell'istanza dello Schedule
 
-* Instance Definitions can be created or modified within the Schedule Build Wizard
-    * Property names can be defined for single-instance Schedules
-    * Named Instances can be selected or defined for multi-instance Schedules
+* Le definizioni delle istanze possono essere create o modificate all'interno della Creazione guidata Schedule
+    * I nomi delle proprietà possono essere definiti per istanze singole di Schedules
+    * Le istanze con nome (**Named Instances**) possono essere selezionate o definite per Schedules con istanze multiple
 
 <a href="imgbasic/342.png" target="_blank"><img src="imgbasic/342.png" width="500"></img></a>

@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Operation Views'
+sidebar_label: 'Viste Operation'
+hide_title: 'false'
 ---
+
+## Viste Operation
 
 <figure>
     <audio
@@ -11,16 +14,16 @@ sidebar_label: 'Operation Views'
     </audio>
 </figure>
 
-* In Enterprise Manager Operation, there are several views to filter and update Schedule and Job information
-  * Daily List View
-  * Matrix View
-  * PERT View 
+* Nel Menù Operation dell'Enterprise Manager, ci sono diverse viste per filtrare e aggiornare le informazioni di Schedule e Job
+    * Vista Daily List
+    * Vista Matrix
+    * Vista PERT 
 
 <a href="imgbasic/Picture33.png" target="_blank"><img src="imgbasic/Picture33.png" width="300"></img></a>  
 <a href="imgbasic/Picture34.png" target="_blank"><img src="imgbasic/Picture34.png" width="500"></img></a> 
 <a href="imgbasic/Picture35.png" target="_blank"><img src="imgbasic/Picture35.png" width="300"></img></a>  
 
-### List View
+### Vista Daily
 
 <figure>
     <audio
@@ -31,14 +34,13 @@ sidebar_label: 'Operation Views'
     </audio>
 </figure>
 
-* **Daily List** view displays all dates that have Schedules built
-  * **Daily List** provides a tree view for Schedule dates that can be expanded to show Schedule and Job information in alphabetical order
-  * View, filter, and update Schedule and Job information
+* la Vista Daily List visualizza tutte le date su cui è stata effettuata almeno una build
+    * La Vista Daily List fornisce una vista ad albero per date di Pianificazione che può essere espansa per mostrare informazioni su Schedules e Jobs in ordine Alfabetico
 
 <a href="imgbasic/Picture36.png" target="_blank"><img src="imgbasic/Picture36.png" width="300"></img></a>  
 <a href="imgbasic/Picture37.png" target="_blank"><img src="imgbasic/Picture37.png" width="300"></img></a>
 
-### Matrix View
+### Vista Matrix
 
 <figure>
     <audio
@@ -49,15 +51,15 @@ sidebar_label: 'Operation Views'
     </audio>
 </figure>
 
-* **Matrix** view is used to view, filter, and update Schedule and Job information in grid format
-* **Matrix** view provides a tabular view that contains: 
-  * A Calendar of days that have Schedules in Daily tables
-  * A List of Schedules for selected day
-  * The Job Matrix table shows all Jobs in a selected Schedule
+* **La Vista Matrix** view viene utilizzato per visualizzare, filtrare e aggiornare le informazioni su Schedules e Jobs in formato griglia
+* **La Vista Matrix** fornisce una vista tabellare che contiene:
+    * Un calendario di giorni che hanno Schedules nelle tabelle giornaliere
+    * Un elenco di Schedules per il giorno selezionato
+    * La tabella Job Matrix mostra tutti i Jobs per lo Schedule selezionato
 
 <a href="imgbasic/Picture38.png" target="_blank"><img src="imgbasic/Picture38.png" width="500"></img></a>  
 
-### PERT View
+### Vista PERT
 
 <figure>
     <audio
@@ -68,14 +70,14 @@ sidebar_label: 'Operation Views'
     </audio>
 </figure>
 
-* **PERT** view provides the best graphical view for a Schedule’s individual Jobs and relationships
-* **PERT** displays Job Dependency, Threshold, and Resource relationships and Job current status in simple schedules
-* **Listen for Selection Changes in Other Views** (located on PERT toolbar) must be activated in **PERT** view
-* **Date** or **Schedule** must be selected in **List** or **Matrix** view before any information will display in **PERT** view
+* **La Vista PERT** fornisce la migliore visualizzazione grafica per le relazioni tra i vari Jobs e Schedules
+* **La Vista PERT** mostra le Relazioni tra Job, Threshold, e Resource e lo stato corrente dei Job
+* **L'Opzione "Listen for Selection Changes in Other Views"** (situato nella barra degli strumenti PERT) deve essere attivato nella Vista PERT
+* **Date** o **Schedule** devono essere selezionati nelle Viste **List** o **Matrix** prima che qualsiasi informazione venga visualizzata in **PERT** view
 
 <a href="imgbasic/Picture39.png" target="_blank"><img src="imgbasic/Picture39.png" width="300"></img></a>
 
-### Arrange Views and Synchronize
+### Disposizione e Sincronizzazione delle viste
 
 <figure>
     <audio
@@ -86,33 +88,33 @@ sidebar_label: 'Operation Views'
     </audio>
 </figure>
 
-* Arrange **List**, **Matrix**, and **PERT** views on same screen 
-* In **Matrix** or **List** view, select date for the Schedule 
-* View the output inside all three of these views
+* Disporre le Viste **List**, **Matrix**, e **PERT** sulla stessa schermata
+* Nella Vista **Matrix** o **List** selezionare una data di Schedulazione
+* Visualizza l'output all'interno di tutte e tre queste viste
 
 <a href="imgbasic/Picture40.png" target="_blank"><img src="imgbasic/Picture40.png" width="500"></img></a>  
 <a href="imgbasic/Picture41.png" target="_blank"><img src="imgbasic/Picture41.png" width="500"></img></a>  
 
-#### Multiple Views – One Screen 
+#### Viste multiple - schermo unico
 
-Example: 
+Esempio:
 
-* Open List or Matrix View  
-* Open PERT View  
-* Click PERT tab, then drag and drop to left until a rectangle appears  
-* The **Rectangle** represents new postion of PERT tab  
-* Release mouse button  
+* Aprire una vista List or Matrix
+* Aprire la Vista PERT
+* Fare clic sulla scheda PERT, quindi trascinare e rilasciare a sinistra finché non appare un rettangolo
+* Il **Rettangolo** rappresenta la nuova posizione della scheda PERT
+* Rilasciare il pulsante del mouse 
 
 <a href="imgbasic/Picture42.png" target="_blank"><img src="imgbasic/Picture42.png" width="500"></img></a>  
 
-* **Listen for Selection Changes in Other Views** and **Send current selection to other views in List and Matrix views** must be activated
-* **Listen for selection changes in other** views must be activated in PERT view
-* **Date** or **Schedule** needs to be selected in List or Matrix view before any information will display in PERT view
-* Take 1-2 minutes to manipulate the various views
-* Select a schedule to view
-* Arrange the views so that Daily List, Matrix, and PERT views are all visible in the Enterprise Manager interface
+* L'Opzione **"Listen for Selection Changes in Other Views"** e **"Send current selection to other views"** nelle Viste List e Matrix devono essere attivate
+* L'Opzione **"Listen for selection changes in Other Views"** deve essere attivato nella vista PERT
+* **Date** o **Schedule** devono essere selezionati nelle Viste List or Matrix view prima che qualsiasi informazione venga visualizzata nella Vista PERT
+* Spendere qualche minuto per imparare a maneggiare le varie viste
+* Selezionare uno Schedule da visualizzare
+* Disporre le viste in modo che le Viste **Daily**, **Matrix** e **PERT** siano tutte visibile nell'interfaccia Enterprise Manager
 
 <a href="imgbasic/Picture44.png" target="_blank"><img src="imgbasic/Picture44.png" width="250"></img></a>  
 <a href="imgbasic/Picture43.png" target="_blank"><img src="imgbasic/Picture43.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

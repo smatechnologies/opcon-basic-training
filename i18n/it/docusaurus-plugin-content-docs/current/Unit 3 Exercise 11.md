@@ -1,32 +1,33 @@
 ---
-sidebar_label: 'Unit 3 Exercise 11'
+sidebar_label: 'Unità 3 Esercizio 11'
+hide_title: 'false'
 ---
 
-### Exercise 11: Instance Properties
+## Esercizio  11: Proprietà a livello
 
-##### Objective:
+##### Obiettivo:
 
-Within **MY FIRST SCHEDULE**, create an **Instance Definition** named ```RUNTIME``` with a value of ```20```.
+Nello Schedule **MY FIRST SCHEDULE**, creare una definizione di istanza (**Instance Definition**) chiamata ```RUNTIME``` con un valore di ```20```.
 
-Next, in **Machines**, stop communication with the ```SMATraining``` machine. Open **Advanced Settings** Panel and Add a Property named ```PathWindows``` with a value of ```C:\Program Files\OpConxps\MSLSAM```.
+Poi a livello di **Machines**, interrompere la comunicazione con la macchina ```SMATraining```. Aprire il pannello **Advanced Settings** e aggiungere una Property chiamata ```PathWindows``` con un valore di ```C:\Program Files\OpConxps\MSLSAM```.
 
-Restart communication with ```SMATraining```.
+Riavviare la comunicazione con la macchina ```SMATraining```.
 
-Select **WINDOWS JOB 4** in **MY FIRST SCHEDULE**.  Update the Command Line for the Job using the newly created **Instance Properties**:
+Selezionare **WINDOWS JOB 4** nello Schedule **MY FIRST SCHEDULE**. Aggiorna la riga di comando per il lavoro utilizzando le **Instance Properties** appena creata, cambiare:
 
 ```
 “[[PathWindows]]\genericp.exe” -t[[RUNTIME]] -e0
 ```
 
-To
+in
 
 ```
 “[[MI.PathWindows]]\genericp.exe” -t[[SI.RUNTIME]] -e0
 ```
 
-Rebuild **MY FIRST SCHEDULE**, overwriting and Released for Today. Release **WINDOWS JOB 1** and **WINDOWS JOB 2**.
+Rimetter a piano (Rebuild) lo Schedule **MY FIRST SCHEDULE**, sovrascrivendo e rilasciando per il piano giornaliero corrente. Rilasciare **WINDOWS JOB 1** e **WINDOWS JOB 2**.
 
-After all Jobs have run successfully, verify Property/Token success in **Job Information > Configuration > Token Replacement Values** for **WINDOWS JOB 4**.
+Dopo che tutti i lavori sono stati eseguiti correttamente, verificare l'esito positivo delle proprietà/token in **Job Information > Configuration > Token Replacement Values** per il **WINDOWS JOB 4**.
 
 
 <div>
@@ -38,30 +39,30 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Administration** topic, double click on **Schedule Master**. 
-2.	In the **Schedule Selection** drop-down menu select **My First Schedule**.
-3.	Click the **Instance Definition** tab under Schedule Details. 
-4.	In the **Define Property Values** text box, type ```RUNTIME=20```.
-5.	Click the **Add** button to the right of the **Define Property Values** text box.
-6.	Click the **Save** button on the Schedule Master toolbar.
-7.	Close the **Schedule Master**.
-8.	Under the **Administration** topic, double click on **Machines**. 
-9.	In the **Select Machine** drop-down menu select **SMATraining**.
-10.	Right-click the **LSAM Communication icon** under Communication Status and select **Stop Communication**.
-11.	Click the **Open Advanced Settings Panel** link right above the Communication Status.
-12.	Click on the Available Property row
-13.	Click the **Add** Button. 
-14.	Type ```PathWindows=C:\Program Files\OpConxps\MSLSAM``` in the text box and click **OK**.
-15.	Click the **Update** Button.
-16.	Click the **Save** Button.
-17.	Right-click the **LSAM Communication** icon under **Communication Statu**s and select **Start Communication**.
-18.	Close the **Machines** tab.
-19.	Under **Administration**, click on **Job Maste**r.
-20.	In the **Schedule** drop-down list, select **My First Schedule**.
-21.	In the **Job** drop-down list, select **Windows Job 4**.
-22.	Update your command line to use the new properties by placing **Properties** to point to the **Machine** or **Schedule Instance Properties** instead of the **Global Properties**:
+1. Nel menù **Administration** fare doppio clic su **Schedule Master**.
+2. Nell'elenco a discesa **Schedule Selection** selezionare lo Schedule **My First Schedule**.
+3. Fare clic sul tab **Instance Definition** negli **Schedule Details**.
+4. Nella casella di testo **Define Property Values** digitare ```RUNTIME=20```.
+5. Fare clic sul pulsante **Add** alla destra della casella di testo **Define Property Values**.
+6. Fare clic sul pulsante **Save** nella barra degli strumenti di **Schedule Master**.
+7. Chiudere **Schedule Master**.
+8. Nel menù **Administration** fare doppio clic su **Machines**.
+9. Nell'elenco a discesa **Select Machine** selezionare ```SMATraining```.
+10. Tasto destro sull'icona **LSAM Communication** nel **Communication Status** e selezionare **Stop Communication**.
+11. Fare clic sul collegamento **Open Advanced Settings Panel** subito sotto il **Communication Status**.
+12. Fare clic sulla riga **Available Property**.
+13. Fare clic sul pulsante **Add**.
+14. Digitare ```PathWindows=C:\Program Files\OpConxps\MSLSAM``` nella casella di testo e fare clic su **OK**.
+15. Fare clic sul pulsante **Update**.
+16. Fare clic sul pulsante **Save**.
+17. Tasto destro sull'icona **LSAM Communication** sotto **Communication Status** e selezionare **Start Communication**.
+18. Chiudere la scheda **Machines**.
+19. Nell'elenco a discesa **Administration**, fare clic su **Job Master**.
+20. Nell'elenco a discesa **Schedule** selezionare **My First Schedule**.
+21. Nell'elenco a discesa **Job** selezionare **Windows Job 4**.
+22. Aggiornare la riga di comando per utilizzare le nuove proprietà posizionando le **Properties** per puntare alle **Machine** o alle **Schedule Instance Properties** invece che alle **Global Properties**:
 
 ```
 “[[PathWindows]]\genericp.exe” –t[[RUNTIME]] –e0
@@ -73,11 +74,11 @@ to:
 “[[MI.PathWindows]]\genericp.exe” –t[[SI.RUNTIME]] –e0
 ```
 
-23.	Click the **Save** button.
-24.	Close the **Job Master**.
-25.	If **My First Schedule** is In Process, **Cancel** all jobs.
-26.	Rebuild **My First Schedule** Released for today
-27.	Release **Windows Job 1** and **Windows Job 2**.
-28.	Check the results from Enterprise Manager (check the **Job Information> Configuration> Token Replacement Values** for **Windows Job 4**).
+23. Fare clic sul pulsante **Save**.
+24. Chiudere **Job Master**.
+25. Se **My First Schedule** è nello stato In Process, **mettere in stato Cancel** tutti i jobs.
+26. Fare la **Rebuild** dello Schedule **My First Schedule** in stato **Released** per oggi.
+27. Rilasciare **Windows Job 1** e **Windows Job 2**.
+28. Controllare il risultato in Enterprise Manager (controllare **Job Information> Configuration> Token Replacement Values** per **Windows Job 4**).
 
 </details>

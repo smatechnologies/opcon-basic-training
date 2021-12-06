@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Schedule Status'
+sidebar_label: 'Stato di uno Schedule'
+hide_title: 'false'
 ---
+
+## Stato di uno Schedule
 
 <figure>
     <audio
@@ -11,17 +14,17 @@ sidebar_label: 'Schedule Status'
     </audio>
 </figure>
 
-* Possible Schedule statuses:
-  * Wait to Start
-  * On Hold
-  * In Process
-  * Completed
-  * Completed–Contains Failed Jobs 
-  * In Process-Contains Failed Jobs
+* Possibili stati degli Schedules:
+    * Wait to Start
+    * On Hold
+    * In Process
+    * Completed
+    * Completed–Contains Failed Jobs
+    * In Process-Contains Failed Jobs
 
 <a href="imgbasic/Picture45.png" target="_blank"><img src="imgbasic/Picture45.png" width="500"></img></a>  
 
-### Update Schedule Status
+### Aggiornare lo stato dello Schedule
 
 <figure>
     <audio
@@ -32,18 +35,18 @@ sidebar_label: 'Schedule Status'
     </audio>
 </figure>
 
-* Update the Schedule status by right-clicking Schedule and selecting one of the available options:
-  * Hold
-  * Release
-  * Start
-  * Close
-  * Update Jobs Statuses
-* From List view, change the status of any Schedule on a day by right-clicking **Date**
+* Aggiornare lo stato dello Schedule cliccando con il pulsante destro e seleziona ona delle opzioni disponibili:
+    * Hold
+    * Release
+    * Start
+    * Close
+    * Update Jobs Statuses
+* Dalla vista Elenco, cambiare lo stato di qualsiasi Schedule in un giorno cliccando con il tasto destro del mouse
 
 <a href="imgbasic/Picture46.png" target="_blank"><img src="imgbasic/Picture46.png" width="300"></img></a>  
 <a href="imgbasic/Picture47.png" target="_blank"><img src="imgbasic/Picture47.png" width="500"></img></a>  
 
-### Job Status <a name="JobStatus"></a>
+### Stato dello Job
 
 <figure>
     <audio
@@ -54,29 +57,29 @@ sidebar_label: 'Schedule Status'
     </audio>
 </figure>
 
-Jobs have many different statuses 
+I Jobs hanno molti stati diversi
 
-* Some common Job statuses include:
-  * Qualifying
-  * Wait to Start
-  * Time
-  * Dependency
-  * Thresholds/Resources
-  * Machine
-  * Running
-  * Finished OK
-  * Marked Finished OK 
-  * Failed
-  * Marked Failed
-  * On Hold
-  * Cancelled
-  * Skipped (or Job to be Skipped)
-  * Under Review 
-  * Fixed
+* Alcuni tipici stati di Jobs includono:
+    * Qualifying
+    * Wait to Start
+    * Time
+    * Dependency
+    * Thresholds/Resources
+    * Machine
+    * Running
+    * Finished OK
+    * Marked Finished OK
+    * Failed
+    * Marked Failed
+    * On Hold
+    * Cancelled
+    * Skipped (or Job to be Skipped)
+    * Under Review
+    * Fixed
 
 <a href="imgbasic/Picture48.png" target="_blank"><img src="imgbasic/Picture48.png" width="400"></img></a>
 
-### Update Job Status
+### Aggiornare lo stato dello Job
 
 <figure>
     <audio
@@ -87,13 +90,13 @@ Jobs have many different statuses
     </audio>
 </figure>
 
-* Update Job statuses by right-clicking the Job and selecting one of the available options
-* Options vary depending on current status of Job
-* From **List** or **Matrix** view, change the status of any Jobs in a Schedule by right-clicking **Schedule**
+* Aggiornare gli stati dei Jobs facendo clic con il tasto destro del mouse sul Job e selezionando una delle opzioni disponibili
+* Le opzioni variano a seconda dello stato attuale del Job selezionato
+* Dalle viste **List** o **Matrix**, cambiare lo stato di qualsiasi Jobs in uno Schedule facendo click con tasto destro sullo **Schedule**
 
 <a href="imgbasic/Picture49.png" target="_blank"><img src="imgbasic/Picture49.png" width="300"></img></a>
 
-### Bulk Update Job Status
+### Aggiornamento massivo dello stato dei Jobs
 
 <figure>
     <audio
@@ -109,5 +112,5 @@ Jobs have many different statuses
 <a href="imgbasic/Picture52.png" target="_blank"><img src="imgbasic/Picture52.png" width="300"></img></a>  
 
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)
 

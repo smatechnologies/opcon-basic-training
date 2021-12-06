@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Access Codes'
+sidebar_label: 'Codici di Accesso'
+hide_title: 'false'
 ---
+
+## Codici di Accesso
 
 <figure>
     <audio
@@ -11,18 +14,17 @@ sidebar_label: 'Access Codes'
     </audio>
 </figure>
 
-* Access Codes can be used to secure individual Job records 
-* To make use of an Access Code, Privileges must be granted 
-* A single Access Code can be used to secure as many different Jobs as necessary
+* I codici di accesso possono essere utilizzati per proteggere i singoli record di Job
+* Per utilizzare un Codice di accesso, è necessario concedere i privilegi
+* Un unico codice di accesso (Accesso Code) può essere utilizzato per garantire tutti i Job necessari
 
 <a href="imgbasic/312.png" target="_blank"><img src="imgbasic/312.png" width="500"></img></a>
 
-### Access Code Privileges
+### Privilegi di Codici di Accesso
 
-* To implement Access Codes for securing Jobs, each User must have appropriate Access Code Privileges through one or more Roles to view and update Jobs
-* ```<None>``` is the default Access Code for all Jobs
-    * All Roles automatically have Privileges to update any Jobs with ```<None>``` Access Code
-* When additional Access Codes are created, the Administrator must grant Privileges for Access Codes to the appropriate Role Name
+* Per implementare i codici di accesso per la protezione dei Job, ciascun utente deve disporre degli appropriati Access Code Privileges attraverso uno o più ruoli per visualizzare e aggiornare i Job
+* ```<None>``` è il codice di accesso predefinito per tutti i Jobs
+    * Tutti i ruoli hanno automaticamente i privilegi per aggiornare qualsiasi lavoro che abbia Access Code: ```<None>```
 
 <a href="imgbasic/313.png" target="_blank"><img src="imgbasic/313.png" width="500"></img></a>
 
@@ -30,8 +32,8 @@ sidebar_label: 'Access Codes'
 
 <a href="imgbasic/314.png" target="_blank"><img src="imgbasic/314.png" width="500"></img></a>
 
-### Solution Manager - Department and Access Code Details
+### Solution Manager - Dettagli di Codici di Accesso e Reparti (Department and Access Code)
 
 <a href="imgbasic/315.png" target="_blank"><img src="imgbasic/315.png" width="500"></img></a>
 
-###### (Click Image to Enlarge)
+###### (Click sull'Immagine per Ingrandire)

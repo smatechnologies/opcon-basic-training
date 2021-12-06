@@ -1,16 +1,17 @@
 ---
-sidebar_label: 'Unit 3 Exercise 2'
+sidebar_label: 'Unità 3 Esercizio 2'
+hide_title: 'false'
 ---
 
-### Exercise 2: Machine Privileges
+## Esercizio 2: Privilegi di Macchina 
 
-##### Objective:
+##### Obiettivo:
 
-Grant the ```Training``` Role **Machine Privileges**. 
+Fornire al Ruolo ```Training``` i **Machine Privileges**.
 
-Verify that Machine Privileges have been granted by logging out of Enterprise Manager and logging back in as Student1. 
+Verificare che i privilegi macchina siano stati concessi effettuando il logout da Enterprise Manager e accedendo nuovamente come Student1.
 
-Notice that ```Student1``` will still not have privileges to see Machines in Administration, but will be able to see the SMATraining Machine in Machine Status (but will not be able to change Communication Status or edit the Machine).
+Notare che ```Student1``` non avrà ancora i privilegi per vedere le macchine in Administration, ma sarà in grado di vedere la macchina ```SMATtraining``` in **Machine Status** (ma non sarà in grado di cambiare lo stato di comunicazione o modificare la macchina).
 
 
 <div>
@@ -22,29 +23,29 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Security> Privileges** topic, Double-Click on **Machine Privileges**. 
-2.	On the **Select Role** drop-down list select the **Training** Role.
-3.	Under the Revoked list, click the **SMATraining** machine and then click the the green arrow (pointing to the right) to put **SMATraining** under the **Granted** list.
-4.	Close the Machine Privileges tab.
+1. Nel Menù **Sicurezza > Privilegi** fare doppio clic **Machine Privileges**.
+2. Nell'elenco a discesa **Select Role** selezionare il ruolo ```Training```.
+3. Nella lista Revoked list, fare clic sulla macchina ```SMATraining``` e quindi fare clic sulla freccia verde (che punta a destra) per mettere ```SMATraining``` nella lista **Granted**.
+4. Chiudere la scheda **Machine Privileges**.
 
-:::note  
-The User **Student1** (which is under the **Training Role**) now can select this machine to run Jobs when setting them up in the Job Details screen.
+:::note Nota
+L'utente ```Student1``` che si trova ora sotto il ruolo ```Training``` Role) ora può selezionare questa macchina per eseguire i lavori durante l'impostazione nella schermata Dettagli lavoro
 :::
 
-5.	Logout from Enterprise Manager. Click the Logout button or select Logout from the Enterprise Manager Menu bar.
-6.	Click **OK** to confirm you are logging out.
-7.	From the OpCon/xps Login screen type **Student1** on the **Username** field and **password1** on the **Password** Field. Click **Login**.
-8.	Notice that the user still does not have privilege to see **Machines** under the **Administration** topic
-9.	Double-Click **Machine Status** under Operations
-10.	Right-Click the **SMATraining** machine and check that the user cannot change the Communication status of the machine.
-11.	Try to select **Edit Machine**. You will receive an error message.
-12.	Close the Machine Status tab and then logout from Enterprise Manager. Click OK to confirm you are logging out.
-13.	From the OpCon/xps Login screen leave both the **Username** and the **Password** fields blank and click **Login**.
+5. Disconnettersi da Enterprise Manager. Fare clic sul pulsante Disconnetti o selezionare Disconnetti dalla barra dei menu di **Enterprise Manager**.
+6. Fare clic su **OK** per confermare il logout.
+7. Dalla schermata di accesso di OpCon/xps Login digitare ```Student1``` nel campo **Username** e ```password1``` nel campo **Password** fare clic su **Login**.
+8. Notare che l'utente non ha ancora il privilegio di vedere la voce **Machines** nel menù **Administration**.
+9. Fare doppio click su **Machine Status** nel menù **Operation**.
+10. Fare clic con il tasto destro sulla macchina ```SMATraining``` e verificare che l'utente non possa modificare lo stato di comunicazione della macchina.
+11. Provare a selezionare **Edit Machine**. Verrà mostrato un messaggio di errore.
+12. Chiudere la scheda **Machine Status** e quindi disconnettersi da Enterprise Manager. Fare clic su **OK** per confermare che si sta effettuando il logout.
+13. Dalla schermata di accesso di OpCon/xps lasciare vuoti i campi **Username** e **Password** e fare clic su **Login**.
 
-:::caution Warning
-The User **Student1** cannot update any information for any machine in the configuration, but will be able to select this machine when setting up Jobs IF the privileges for that machine are configured.
+:::caution Nota
+Lo studente ```Student1``` non può aggiornare alcuna informazione per nessuna macchina nella configurazione, ma sarà in grado di selezionare questa macchina durante l'impostazione dei lavori SE i privilegi per quella macchina sono configurati._
 :::
 
 </details>

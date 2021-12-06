@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Departments'
+sidebar_label: 'Reparti'
+hide_title: 'false'
 ---
+
+## Reparti
 
 <figure>
     <audio
@@ -11,38 +14,38 @@ sidebar_label: 'Departments'
     </audio>
 </figure>
 
-* Secure Function Privileges associated with individual Job records
-* To make use of the Department category, Function Privileges must be granted, and Access Code must be associated with Jobs needing this type of security 
-* A single Department can be used to secure as many different Jobs as necessary
+* Privilegi di sicurezza di Funzione associati a singoli Job records
+* Per utilizzare la categoria Department (Dipartimenti/Reparti), è necessario concedere i privilegi di funzione e associare il codice di accesso ai Job che richiedono questo tipo di sicurezza
+* Un singolo Department può essere utilizzato per gestire tutti i job necessari
 
-_Three Steps to setting up Departments in OpCon_:  
+_Ci sono tre passaggi per impostare i Departments in OpCon_:  
 
-* Create a Department (**Security > Departments**) 
-* Assign Department Function Privileges to a Department (**Security > Privileges > Departmental Function Privileges**)
-* Assign a Department to any Job which requires those Department Function Privileges (**Job Master**)
-* Only required field is **Name**  
-* Using Documentation field for Department rationale is best practice
+* Creare un Department (**Security > Departments**)
+* Assegnare al Department i privilegio di funzione necessari (Function Privileges) (**Security > Privileges > Departmental Function Privileges**)
+* Assegnare, nel **Job Master** un Department a qualsiasi Job su cui si rendano necessari i determinati Privilegi Dipartimentali (Department Function Privileges)
+* L'unico campo richiesto è **Name**
+* L'utilizzo del campo Documentazione per la logica del dipartimento è la migliore pratica
 
 <a href="imgbasic/307.png" target="_blank"><img src="imgbasic/307.png" width="500"></img></a>
 
-### Departmental Function Privileges
+### Privilegi di Funzione per Reparto - Departmental Function Privileges
 
-* **Departmental Function Privileges** are used to grant operational Privileges related to Jobs
-* Departmental Function Privileges can be filtered by Department:
+* I Departmental Function Privileges vengono utilizzati per concedere privilegi operativi relativi ai Jobs
+* I privilegi delle funzioni dipartimentali possono essere filtrati per reparto:
     * All Departments
-    * ```<General>``` Department
-    * User Defined Departments
-* When some Privileges are granted, the selected Role must also have ‘additional’ Function Privilege(s) granted
-    * Example: A Role that is granted the **Add Jobs to Daily Schedules** Privilege must also be granted the **View Jobs in Daily Schedules** and the  **View Jobs in Master Schedules** Privileges to perform this function
+    * Department
+    * Dipartimenti definiti dall'utente - User Defined Departments
+* Quando vengono concessi alcuni privilegi, al ruolo selezionato devono essere concessi anche privilegi di funzione "aggiuntivi"
+    * Esempio: un ruolo a cui è concesso il privilegio di aggiungere job nelle pianificazioni giornaliere :Add Jobs to Daily Schedules deve anche avere la possibilità di vedere i Job negli Schedule giornalieri: View Jobs in Daily Schedules ad il privilegio View Jobs in Master Schedules per poter eseguire questa funzione
 
 <a href="imgbasic/308.png" target="_blank"><img src="imgbasic/308.png" width="500"></img></a>
 
-### Departments in the Job Master
+### Reparti (Departments) nel Job Master
 
-* A Department is assigned to Jobs in Job Details tab of Job Master
-* A Job can only be assigned to **one** Department
-* Default Department is ```<General>```
+* Un reparto (Department) è assegnato ai Job nella schedaJob Details del Job Master
+* Un Job può essere assiociato ad un **unico** Department
+* Il reparto (Department) di Default ```<General>```
 
 <a href="imgbasic/309.png" target="_blank"><img src="imgbasic/309.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

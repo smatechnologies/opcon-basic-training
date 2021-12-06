@@ -1,10 +1,11 @@
 ---
-sidebar_label: 'All Weeks -- On Occurrence -- On Day'
+sidebar_label: 'Tutte le settimane -- Alla Occorrenza -- Al giorno'
+hide_title: 'false'
 ---
 
-### Frequency Definition Wizard - All Weeks, On Occurrence, On Day
+## Definizione Frequenza - Tutte le settimane -- Alla Occorrenza -- Al giorno
 
-#### All Weeks
+### Tutte le settimane
 
 <figure>
     <audio
@@ -15,15 +16,15 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
     </audio>
 </figure>
 
-* Uses Day of the Week selected for **All Weeks**
-  * Multiple Days of the Week can be Marked
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within the Calendar AFTER **A/O/B/N** days are set
+* Quando schedulare: tutte le settimane **(All Weeks)**
+    * Si possono selezionare più giorni della settimana (Day of the Week)
+* Altri campi disponibili:
+    * **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
 
 <a href="imgbasic/237.png" target="_blank"><img src="imgbasic/237.png" width="500"></img></a>
 
-#### On Occurrence
+### Alla Occorrenza
 
 <figure>
     <audio
@@ -35,14 +36,15 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
 </figure>
 
 * **Default selection**
-* Selects **1st**, **2nd**, **3rd**, **4th**, **5th**, or **Last** occurrence of Days of the Week specified for a given Month, Quarter, or Year
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Selezionare le appropriate occorrenze: **1st**, **2nd**, **3rd**, **4th**, **5th**, or **Last** relative alla Settimana/Mese/Trimestre/Anno
+* Altri campi disponibili:
+    * **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
+
 
 <a href="imgbasic/238.png" target="_blank"><img src="imgbasic/238.png" width="500"></img></a>
 
-#### On Day
+### Al giorno
 
 <figure>
     <audio
@@ -53,13 +55,13 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
     </audio>
 </figure>
 
-* Specifies Day of the Month a Frequency will run
-* **Day Type** gives the option to only count Working Days
-  * 7th Working Day will likely be 9th, 10th, or 11th day of the month
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Specifica il giorno del mese in cui una frequenza sarà effettiva per l'esecuzione
+* **Tipo di giorno (Day Type)** consente di differenziare tra giorni di Calendario e Lavorativi
+    * 7th Working Day (settimo giorno Lavorativo) potebbe corrispondere ad esempio come al nono, decimo o undicesimo giorno del mese
+* Altri campi disponibili:
+    * **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
 
 <a href="imgbasic/239.png" target="_blank"><img src="imgbasic/239.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

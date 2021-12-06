@@ -1,10 +1,11 @@
 ---
-sidebar_label: 'On Request -- Periods'
+sidebar_label: 'A Richiesta -- Fine, Inizio, Metà Periodo'
+hide_title: 'false'
 ---
 
-### Frequency Definition Wizard - On Request & Beginning, Middle, End of Period
+## Definizione Frequenza - A Richiesta -- Fine, Inizio, Metà Periodo
 
-#### On Request
+### A Richiesta
 
 <figure>
     <audio
@@ -15,15 +16,15 @@ sidebar_label: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Used for two reasons:
-  * A Job needs to run on the same day every year
-  * A Job needs to never be included in the original build and only be added through **AdHoc**
-* Other Fields:
-  * **A/O/B/N** flag is applicable
+* Usato per due ragioni:
+    * Un Job deve essere eseguito lo stesso giorno ogni anno
+    * Un lavoro non deve mai essere incluso nella build originale e deve essere aggiunto solo attraverso lo schedule speciale **AdHoc**
+* Altri campi:
+    * l'impostazione **A/O/B/N** è disponibile
 
 <a href="imgbasic/240.png" target="_blank"><img src="imgbasic/240.png" width="500"></img></a>
 
-#### End of Period
+### Fine Periodo
 
 <figure>
     <audio
@@ -34,16 +35,16 @@ sidebar_label: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Allows a Job to run on the Last day of Week, Month, Quarter, or Year
-* Use **A/O/B/N** flag to specify the last working day of that Period
-* Offset Days is in Working Days
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Permette ad un Job di essere eseguito alla fine dei seguenti periodi :Settimana, Mese, Trimestre, Anno
+* La configurazione A/O/B/N permette di indicare l'ultimo giorno lavorativo per il periodo scelto
+* E' possibile specificare un offset in giorni lavorativi
+* Altri campi:
+    * l'impostazione A/O/B/N è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni A/O/B/N sono settate
 
 <a href="imgbasic/241.png" target="_blank"><img src="imgbasic/241.png" width="500"></img></a>
 
-#### Beginning of Period
+### Inizio Periodo
 
 <figure>
     <audio
@@ -54,16 +55,16 @@ sidebar_label: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Allows a Job to run on the First of Week, Month, Quarter, or Year
-* Use **A/O/B/N** flag to specify the First Working Day of that Period
-* Offset Days is in Working Days
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+* Permette ad un Job di essere eseguito all'inizio dei seguenti periodi :Settimana, Mese, Trimestre, Anno
+* La configurazione **A/O/B/N** permette di indicare il primo giorno lavorativo per il periodo scelto
+* E' possibile specificare un offset in giorni lavorativi
+* Altri campi:
+    * l'impostazione **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
 
 <a href="imgbasic/242.png" target="_blank"><img src="imgbasic/242.png" width="500"></img></a>
 
-#### Middle of Period
+### Metà Periodo
 
 <figure>
     <audio
@@ -74,16 +75,16 @@ sidebar_label: 'On Request -- Periods'
     </audio>
 </figure>
 
-* Allows a Job to run on Middle of Week, Month, Quarter, or Year
+* Permette ad un Job di essere eseguito a metà dei seguenti periodi :Settimana, Mese, Trimestre, Anno
 
-:::note
-For 31 day months, 15.5 is rounded up to 16
+:::note Nota
+_Per i mesi con 31 giorni, 15.5 è arrotondato a 16_
 :::  
-  * Specify the desired Day of the Week
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+  * Specificare il giorno della settimana desiderato
+* Altri campi:
+    * l'impostazione **A/O/B/N** è disponibile
+    * Il calendario selezionato bloccherà i giorni elencati nel calendario DOPO che le impostazioni **A/O/B/N** sono settate
 
 <a href="imgbasic/24301.png" target="_blank"><img src="imgbasic/24301.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

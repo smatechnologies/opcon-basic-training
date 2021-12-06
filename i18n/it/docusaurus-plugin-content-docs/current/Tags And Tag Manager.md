@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'Tags And Tag Manager'
+sidebar_label: 'Tags'
+hide_title: 'false'
 ---
 
-### Job Tags
+## Job Tags
 
 <figure>
     <audio
@@ -15,22 +16,22 @@ sidebar_label: 'Tags And Tag Manager'
 
 <a href="imgbasic/Picture25.png" target="_blank"><img src="imgbasic/Picture25.png" width="500"></img></a>
 
-* Tags are labels assigned to Jobs 
-  * Allow filtered Operations views
-  * Do not affect the way Jobs will run 
+* Tags sono etichette assegnate ai Job
+    * Permettono di avere viste di tipo Operations filtrate
+    * Non influenzano il modo in cui i Job verranno eseguiti
 
 <a href="imgbasic/Picture26.png" target="_blank"><img src="imgbasic/Picture26.png" width="500"></img></a>  
 
-### Add a Job Tag
+### Aggiungere un Tag ad un Job
 
 <a href="imgbasic/Picture27.png" target="_blank"><img src="imgbasic/Picture27.png" width="500"></img></a>  
 
 ### Tag Manager
 
-* Tag Manager provides an easy way to search and view any Jobs using that Tag 
-* Allows for renaming and deleting Tags
+* Tag Manager fornisce un modo semplice per cercare e visualizzare qualsiasi Job che utilizza quel tag
+* Permette di rinominare e cancellare Tags
 
 <a href="imgbasic/Picture28.png" target="_blank"><img src="imgbasic/Picture28.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)
 

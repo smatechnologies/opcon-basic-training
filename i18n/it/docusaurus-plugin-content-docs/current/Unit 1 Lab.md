@@ -1,12 +1,13 @@
 ---
-sidebar_label: 'Unit 1 Lab'
+sidebar_label: 'Unità 1 Lab'
+hide_title: 'false'
 ---
 
-### Unit 1 Lab
+## Unità 1 Lab
 
-##### Objective:
+##### Obiettivo:
 
-Congo Online Retail Inc. needs to run a Schedule named **CONGO INVENTORY REPORTS** that will create separate Inventory reports for six products every working day. These reports must run **sequentially** and be **Tagged** within the following categories:
+Congo Online Retail Inc. ha bisogno di eseguire un programma chiamato **CONGO INVENTORY REPORTS** che creerà rapporti di inventario separati per sei prodotti ogni giorno lavorativo. Questi rapporti devono essere eseguiti **in sequenza** ed essere **Etichettati (Tagged)** nelle seguenti categorie:
 
 **Toys**
 
@@ -23,9 +24,9 @@ Congo Online Retail Inc. needs to run a Schedule named **CONGO INVENTORY REPORTS
 * Levis
 * Nike
 
-All six ```WINDOWS``` Jobs must run **Monday-Friday** and may not start until ```8:00 AM```.
+Tutti i sei Jobs di tipo ```WINDOWS``` devono essere eseguiti **dal Lunedì al Venerdì** e non può iniziare fino alle ```8:00 AM```.
 
-The program that must be run in the Command Line for Job execution is:
+Il programma che deve essere eseguito nella linea di comando per l'esecuzione del Job è:
 
 ```
 "C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t15 -e0
@@ -40,43 +41,43 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for More Detailed Lab Instructions</summary>
+<summary>Click qui per maggiori informazioni sul Laboratorio</summary>
 
-#### Lab Instructions:
-* Create a Schedule named Congo Inventory Reports
-* Saturday and Sundays are non-working days 
-* Auto-build the Schedule ```7``` days in advance for ```1``` day
-* Auto-delete the Schedule for ```7``` days
-* Add Documentation for the Schedule 
-* Create a **Windows Job** for each of the products in the introduction
-* Name each Job the same as its product name
-* This Job needs to run as the ```SMATRAINING\SMAUSER``` User ID
-* This Job needs to run on the ```SMATRAINING``` machine
-* Use the following command line:
+#### Istruzioni:
+
+* Creare uno Schedule chiamto Congo Inventory Reports
+* Il sabato e la domenica sono giorni non lavorativi
+* Impostare lo Schedule in modalità Auto-build a partire da ```7 giorni``` in avanti per ```1 giorno```
+* Auto-delete dello Schedule per ```7 giorni```
+* Aggiungere la documentazione allo Schedule
+* Creare un **Job Windows** per ciascuno dei prodotti descritti nella parte introduttiva
+* Dare ad ogni lavoro il nome del suo prodotto
+* Questo job deve essere eseguito con l'utenza ```SMATRAINING\SMAUSER```
+* Questo job deve essere eseguito sula macchina ```SMATRAINING```
+* Usare la seguente riga di comando:
 ```
 “C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t15 –e0
 ```
-* The Jobs must run Monday-Friday
-* Use the Existing Frequency: ```Mon-FriOnDate```
-* Click the Forecast button to be sure your Frequency matches the requirement
-* Add Documentation for each Job. Example: This Job is reporting inventory for the number of Legos in Stock
-* The Jobs must run in the following order with each Job requiring the Job before it:
+* I jobs devono essere eseguiti dal ```lunedì al venerdì```
+* Utilizzare la Frequenza esistente: ```Mon-FriOnDate```
+* Fare click sul pulsante Forecast per controllare che la Frequenza corrisponda ai requisiti
+* Aggiungere la Documentazione a ciascun Job. Ad esempio: Questo Job genera il report dell'inventario per il numero di Lego in magazzino
+* I lavori devono essere eseguiti nel seguente ordine con ogni Job che richiede il lavoro precedente:
   * Legos
   * Nerf
   * Smartphones
   * Xbox
   * Levis
   * Nike
-* The Jobs cannot start until **8:00 AM**
-* **Tag** the Jobs according to the product type (Toys, Electronics or Clothing)
-* Build the Schedule Released for today and tomorrow
-* Open the Matrix or List view under Operations to check
+* I lavori non possono iniziare prima delle ```8:00 AM```
+* **Etichettare (Tag)** i lavori secondo il tipo di prodotto (**Toys**, **Electronics** or **Clothing**)
+* Effettuare la messa a piano **(Build)** dello Schedule in stato rilasciato per oggi e domani
+* Apri la vista **Matrix** or **List** nel menù operazione
 
-
-Upon completion, the Jobs will run in this order:
+Al completamento i Jobs saranno stati eseguiti nel seguente ordine:
 
 <a href="imgbasic/Picture92.png" target="_blank"><img src="imgbasic/Picture92.png" width="250"></img></a>  
 
-###### (Click Image to Enlarge)
+###### (Click sull'Immagine per Ingrandire)
 
 </details>

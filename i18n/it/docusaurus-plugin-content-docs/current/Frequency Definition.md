@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Frequency Definiton'
+sidebar_label: 'Definizione delle Frequenze'
+hide_title: 'false'
 ---
+
+## Definizione delle Frequenze
 
 <figure>
     <audio
@@ -13,16 +16,16 @@ sidebar_label: 'Frequency Definiton'
 
 <a href="imgbasic/Picture17.png" target="_blank"><img src="imgbasic/Picture17.png" width="500"></img></a>
 
-### Steps to Define a Frequency:  
+### Passi per definire una Frequenza:
 
-* Open Job Master  
-* Select a Schedule from Schedule drop-down list  
-* Select Add Job or select existing one  
-* Click the Frequency tab
-* Click the Add Frequency Button
-* Choose Existing Frequency or Create New Frequency  
+* Aprire la funzionalità Job Master
+* Scegliere uno Schedule dalla lista a discesa
+* Selezionare Add Job oppure selezionare un Job esistente
+* Click sul tab Frequency
+* Click sul pulsante Add Frequency
+* Scegliere Existing Frequency oppure Create New Frequency
 
 <a href="imgbasic/Picture19.png" target="_blank"><img src="imgbasic/Picture19.png" width="500"></img></a>  
 <a href="imgbasic/Picture20.png" target="_blank"><img src="imgbasic/Picture20.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

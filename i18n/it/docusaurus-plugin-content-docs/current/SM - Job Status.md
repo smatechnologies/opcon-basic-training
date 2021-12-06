@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'SM - Job Status'
+sidebar_label: 'SM - Stato dei Jobs'
+hide_title: 'false'
 ---
 
-### Solution Manager: Job Status and Selection Options
+## Solution Manager: Stato dei Jobs e opzioni di selezione
 
 <figure>
     <audio
@@ -13,34 +14,33 @@ sidebar_label: 'SM - Job Status'
     </audio>
 </figure>
 
-### Filter by Job Status  
+### Filtro per stati di Job
 
 <a href="imgbasic/Picture70.png" target="_blank"><img src="imgbasic/Picture70.png" width="500"></img></a>  
 <a href="imgbasic/Picture71.png" target="_blank"><img src="imgbasic/Picture71.png" width="500"></img></a>  
 
 ### Scrolling Bulk-Selection
 
-* Multiple Schedules and/or Jobs can be selected at once by left-clicking and dragging the mouse pointer through desired selections
+* E' possibile effettuare una selezione multipla di Schedules e/o Jobs cliccando con il tasto sinistro e trascinando il puntatore del mouse attraverso le selezioni desiderate
 
 <a href="imgbasic/Picture72.png" target="_blank"><img src="imgbasic/Picture72.png" width="500"></img></a>  
 
+### Opzioni di selezione di Jobs
 
-### Job Selection Options
+Quando un Job viene selezionato con un clic destro, diverse opzioni sono rese disponibili in una scheda:
 
-When a Job is selected with a right-click several options are made available in a tab:
-
-* Job Configuration Tool
-* Job Executions History
-* Job Summary
-* Job Status Update
+* Strumenti di configurazione del Job (Job Configuration Tool)
+* Storia delle esecuzini dei (Job Executions History)
+* Sintesi del Job (Job Summary)
+* Aggiornamento dello stato del Job(Job Status Update)
 * Job Output
 * Diagram
 
-### Job Summary
+### Sintesi del Job (Job Summary)
 
-* Right-clicking on a selected Job will provide a detailed Job Summary Tab Screen  
+* Cliccando con il tasto destro del mouse su un Job selezionato si aprirà una schermata dettagliata nella scheda Job Summary 
 
 <a href="imgbasic/Picture73.png" target="_blank"><img src="imgbasic/Picture73.png" width="500"></img></a>  
 <a href="imgbasic/Picture74.png" target="_blank"><img src="imgbasic/Picture74.png" width="250"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Troubleshooting Schedules And Jobs'
+sidebar_label: 'Risoluzione dei problemi - Schedules e Jobs'
+hide_title: 'false'
 ---
+
+## Risoluzione dei problemi - Schedules e Jobs
 
 <figure>
     <audio
@@ -11,21 +14,21 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
     </audio>
 </figure>
 
-### Solution Manager - Schedule Build Queue 
+### Solution Manager - Coda di Build
 
-* The Schedule Build Queue provides a list of all Schedules in Build or Built status
-  * The Schedule Build Log file can be accessed from the Queue
+* La coda di Build fornisce un elenco di tutti gli Schedule in stato di Build
+    * I file di Log per la Build sono accessibili dalla coda
 
 ### Solution Mananger - Schedule Build Logs
 
-* Schedule Build Logs (Schedman Logs) can now be pulled directly from Solution Manager
-  * Upon completion of a Schedule Build in Solution Manager a Job Status is created that includes a link to the Schedule Build Log file
+* I Log di Build degli Schedule (Schedman Logs) ora possono essere estratti direttamente da Solution Manager
+    * Al completamento di una build di uno Schedule in Solution Manager viene creato uno stato del Job che include un collegamento al file di registro di build dello Schedule
 
 <a href="imgbasic/279.png" target="_blank"><img src="imgbasic/279.png" width="500"></img></a>
 <a href="imgbasic/280.png" target="_blank"><img src="imgbasic/280.png" width="500"></img></a>  
 <a href="imgbasic/281.png" target="_blank"><img src="imgbasic/281.png" width="400"></img></a>  
 
-### Job Information
+### Informazioni sul Job
 
 <figure>
     <audio
@@ -36,16 +39,15 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
     </audio>
 </figure>
 
-* In **List**, **Matrix**, or **PERT** View, right-click on any Job and select **Job Information**
+* Nelle viste **List**, **Matrix**, or **PERT** fare clic con il pulsante destro del mouse su qualsiasi Job e selezionare **Job Information**
 
 <a href="imgbasic/282.png" target="_blank"><img src="imgbasic/282.png" width="500"></img></a>
 
-
-* Detailed Job Messages can be viewed in **Job Information - Configuration**
+* I messaggi dettagliati dei Job possono essere visualizzati in **Job Information - Configuration**
 
 <a href="imgbasic/283.png" target="_blank"><img src="imgbasic/283.png" width="500"></img></a>
 
-### View Job Output 
+### Visualizzazione del Job Output  
 
 <figure>
     <audio
@@ -56,20 +58,20 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
     </audio>
 </figure>
 
-* **Job Output** can be retrieved from Enterprise Manager
-  * Sent by Agent/LSAM on target machine
+* **L'Output del Job** può essere recuperato da Enterprise Manager
+    * nviato dall'agente/LSAM sulla macchina di destinazione
 
 <a href="imgbasic/284.png" target="_blank"><img src="imgbasic/284.png" width="300"></img></a>  
 <a href="imgbasic/285.png" target="_blank"><img src="imgbasic/285.png" width="500"></img></a>  
 <a href="imgbasic/286.png" target="_blank"><img src="imgbasic/286.png" width="500"></img></a>  
 
-### Solution Manager - Job Output
+### Solution Manager - Output del Job
 
-* The Job Output file can also be accessed from the Job Summary tab
+* L'Output del Job è raggiungibile anche dalla scheda Riepilogo del Job
 
 <a href="imgbasic/287.png" target="_blank"><img src="imgbasic/287.png" width="500"></img></a>  
 
-### View Job History
+### Visualizzazione Job History
 
 <figure>
     <audio
@@ -80,11 +82,11 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
     </audio>
 </figure>
 
-* Job Execution History screen displays a Job’s Runtime, Termination Status, and Exit Code
+* La schermata Job History Executions mostra il tempo di esecuzione di un lavoro, lo stato di conclusione e il codice di uscita
 
 <a href="imgbasic/288.png" target="_blank"><img src="imgbasic/288.png" width="500"></img></a>
 
-### View Job Output from Job History
+### Visaulizzare il Job Output dalla Job History
 
 * In the Job History screen, right-click on record to view Job output
 
@@ -95,13 +97,12 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
 
 ### Solution Manager - Job History
 
-* The Job Executions History Screen contains a Run-Time Trending Chart
-
-* Job Output from previous runs can be retrieved
+* La schermata Job Executions History contiene un grafico dell'andamento del tempo di esecuzione
+* È possibile recuperare l'output dei Job delle esecuzioni precedenti
 
 <a href="imgbasic/292.png" target="_blank"><img src="imgbasic/292.png" width="500"></img></a>
 
-### History Management
+### Gestion della Cronologia delle esecuzioni
 
 <figure>
     <audio
@@ -112,10 +113,10 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
     </audio>
 </figure>
 
-* **History Management** is used to view Schedule and Job history information
-  * Accessed under Management in Enterprise Manager
+* **La gestione della cronologia** viene utilizzata per visualizzare le informazioni sugli Schedule e sulla cronologia dei Job
+    * Accessibile dalla sezione Management nell'Enterprise Manager
 
 <a href="imgbasic/293.png" target="_blank"><img src="imgbasic/293.png" width="250"></img></a>  
 <a href="imgbasic/294.png" target="_blank"><img src="imgbasic/294.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

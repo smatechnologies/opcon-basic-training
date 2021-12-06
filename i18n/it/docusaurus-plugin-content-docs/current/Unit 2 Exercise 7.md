@@ -1,29 +1,31 @@
 ---
-sidebar_label: 'Unit 2 Exercise 7'
+sidebar_label: 'Unità 2 Esercizio 7'
+hide_title: 'false'
 ---
 
-### Exercise 7: Create Additional Calendars and Update the Master Holiday Calendar
+## Esercizio 7: Creare Calendari aggiuntivi e aggiornare il Master Holiday Calendar
 
-##### Objective:
+Creare un nuovo Calendario chiamato **MYFIRSTCALENDAR**. 
 
-Create a new Calendar named **MYFIRSTCALENDAR**. Click several dates by navigating through the Calendar. 
-:::note
-(The dates chosen are saved dynamically)
+Fare clic su diverse date navigando attraverso il Calendario. 
+
+:::note Nota
+Le date scelte sono salvate dinamicamente
 :::
 
-Provide appropriate documentation for the new Calendar.
+Poi selezionare il **Master Holiday Calendar** Dalla Lista dei Calendari. 
 
-Next, select the **Master Holiday Calendar** from the Calendar List. Add the following Federal Holidays to the Calendar:
+Aggiungere le seguenti festività al Calendario:
 
-  *	January 1st – New Year’s Day
-  *	January 18th – Martin Luther King Jr. Day
-  *	February 15th – President’s Day
-  *	May 31st – Memorial Day
-  *	July 5th – Independence Day (Observed)
-  *	September 6th – Labor Day
-  *	October 11th – Columbus Day
-  *	November 11th – Veterans Day
-  *	November 25th – Thanksgiving Day
+* 1 Gennaio – New Year’s Day
+* 18 Gennaio – Martin Luther King Jr. Day
+* 15 Febbraio – President’s Day
+* 31 Maggio – Memorial Day
+* 15 Luglio – Independence Day (Observed)
+* 6 Settebre – Labor Day
+* 11 Ottobre – Columbus Day
+* 11 Novembre – Veterans Day
+* 25 Novembre – Thanksgiving Day
 
 
 <div>
@@ -35,30 +37,27 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Click on **Calendars** from the **Navigation Panel**.
-2.	Click the **Add** Button.
-3.	Type **MyFirstCalendar** in the **Name** field.
-4.	Enter **Documentation** like: **This is a test Calendar**.
-5.	Click the **Save** Button.
-6.	Click several dates in the **Calendar**.
-:::note
-The dates are saved dynamically
-:::
-7.	Click the **right arrow** by the **Month** right above the Calendar to go to the next months.
-8.	Click the **up** arrow by the **Year** right above the Calendar to move to the next year.
-9.	Select **Master Holiday** from the **Calendar List**.
-10.	Click the following dates in the Calendar to set up the current year Federal Holidays, then close the **Calendars** tab:
+1. Fare clic su **Calendars** dal menu di vanigazione.
+2. Fare clic sul pulsante **Add**.
+3. Digitare **MyFirstCalendar** nella casella di testo **Name**.
+4. Inserire una **Documentazione** come: **Questo è un calendario di Test**.
+5. Fare clic sul pulsante **Save**.
+6. Selezionare diverse date sul **Calendario**. Nota: Le date sono salvate dinamicamente .
+7. Fare clic **sulla freccia a destra** accanto al **Mese** proprio sopra il Calendario per andare al mese successivo.
+8. Fare clic **sulla freccia in alto** accanto all'**Anno** proprio sopra il Calendario per passare all'anno successivo.
+9. Selezionare **Master Holiday** dalla **Lista dei Calendari**.
+10. Fare clic sulle seguenti date nel calendario per impostare le festività federali dell'anno in corso, quindi chiudere il **Calendario**:
 
-  *	January 1st – New Year’s Day
-  *	January 18th – Martin Luther King Jr. Day
-  *	February 15th – President’s Day
-  *	May 31st – Memorial Day
-  *	July 5th – Independence Day (Observed)
-  *	September 6th – Labor Day
-  *	October 11th – Columbus Day
-  *	November 11th – Veterans Day
-  *	November 25th – Thanksgiving Day
+* 1 Gennaio – New Year’s Day
+* 18 Gennaio – Martin Luther King Jr. Day
+* 15 Febbraio – President’s Day
+* 31 Maggio – Memorial Day
+* 15 Luglio – Independence Day (Observed)
+* 6 Settebre – Labor Day
+* 11 Ottobre – Columbus Day
+* 11 Novembre – Veterans Day
+* 25 Novembre – Thanksgiving Day
 
 </details>

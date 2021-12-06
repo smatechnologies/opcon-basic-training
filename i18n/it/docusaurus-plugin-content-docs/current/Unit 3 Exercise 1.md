@@ -1,20 +1,21 @@
 ---
-sidebar_label: 'Unit 3 Exercise 1'
+sidebar_label: 'Unità 3 Esercizio 1'
+hide_title: 'false'
 ---
 
-### Exercise 1: Create a Role and User Account
+## Esercizio 1: reare un Ruolo ed un Utente
 
-##### Objective:
+##### Obiettivo:
 
-Create a **Role** named ```Training```. Be sure that it does NOT Inherit Privileges.
+Crea un **Role** chiamato ```Training```. Assicurati che NON erediti privilegi.
 
-Create a **User Account** named ```Student1``` (Full User Name: ```Student Number 1```).
+Crea uno **User Account** chiamato ```Student1``` (Nome completo: ```Student Number 1```).
 
-Copy the Password to your clipboard and change the copied Password to ```password1``` and confirm.
+Copia la password negli appunti e cambia la password copiata in ```password1``` e conferma.
 
 Give ```Student 1``` the Role of ```Training```.
 
-Verify the User Account Privileges by logging out of Enterprise Manager and logging back in as Student1. The user should have limited access to topics that can be verified by choosing Machine Status. No Machines should be visible.
+Verificare i privilegi dell'account utente effettuando il logout da Enterprise Manager e accedendo nuovamente come ```Student1```. L'utente dovrebbe avere un accesso limitato agli argomenti che possono essere verificati selezionando Stato macchina. Nessuna macchina dovrebbe essere visibile.
 
 
 <div>
@@ -26,56 +27,54 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Create a Role
-  * Under the **Security** topic, Double-Click on **Roles**. 
-  *	Click the **Add** button on the Roles toolbar. 
-  *	In the **Name** field, type **Training**.
-  *	In the **Documentation** field, type:
-“Role to be used during the Security Exercises.”
-  *	Under **Privileges**, be sure that all **Inherit Privileges** checkboxes are **unchecked**.
-  *	Click the Save Button.
-  *	Close the “Roles” tab.
-2.	Create a User Account
-  *	Under the **Security** topic, Double-Click on **User Accounts**. 
-  *	Click the Add button on the User Accounts toolbar.
-  *	In the **Name** field, type **Student1**.
-  *	In the **Full Username** field, type **Student Number 1**.
-  *	Click the Save button on the User Accounts toolbar.
-  *	In the **Password Set** window, click the **Yes** button to place the password 
-on your clipboard.
-  *	Click the **Change User Password** button (right hand side of screen)
-  *	Right-Click in the **Old Password** field and paste the old password. 
-  *	Click inside the **New Password** field, and type **password1** (lower case).
-  *	 Click inside the **Confirm Password** field, and type **password1** (lower case).
-  *	Click the **OK** button.
-  *	Select the **Training** Role under the **Revoked** list and then click the green arrow (pointing to the right) to put Student 1 in the Training Role. Notice that the Training Role will be under the Granted list.
-  *	Click the Save button on the  User Accounts toolbar.
-  *	Close the User Accounts tab.
-3.	Verify the User Accounts Privileges
-  *	Logout from Enterprise Manager. Click the Logout button or select Logout from the Enterprise Manager Menu bar.
-  *	Click **OK** to confirm you are logging out.
-  *	From the OpCon/xps Login screen type **Student1** on the **Username** field and **password1** on the **Password** Field. Click Login.
-  *	Check the topics the user has access to:
-     *	Operation
-        *	Machine Status
-        *	Escalation Akcnoledgement
-    *	External Tools
-        *	Import Export
-        *	Windows Tools
-    *	Information
-        *	Logs
-    *	Scripts
-        *	Repository
-        *	Runners
-        *	Types
-    *	Support
-        *	Support
-        *	Report a problem
-  *	Double-Click **Machine Status** under **Operation**
-  *	No Machines should be there to view.
-  *	Close the **Machine Status** tab and then logout from Enterprise Manager. Click **OK** to confirm you are logging out.
-  *	From the OpCon/xps Login screen leave both the **Username** and the **Password** fields blank and click **Login**.
+1. Creare un Ruolo
+* Nel Menu **Security** fare doppio clic su **Roles**.
+* Fare clic sul pulsante **Add** nella barra degli strumenti Ruoli..
+* Nel campo Name digitare **Training**.
+* Nel campo **Documentation**, type: **“Role to be used during the Security Exercises”**.
+* Nel campo **Privileges**, assicursi che tutte le caselle di controllo **Inherit Privileges** siano **deselezionate**.
+* Fare clic sul pulsante Salva.
+* Chiudere la scheda "Ruoli".
+2. Creae un account utente
+* Nel menu **Security** fare doppio clic su **User Accounts**.
+* Fare clic sul pulsante **Add** nella barra degli strumenti Accounts.
+* Nel campo **Name**, digitare ```Student1```.
+* Nel campo **Full Username** digitare ```Student Number 1```.
+* Fare clic sul pulsante Save nella barra degli strumenti **Accounts**.
+* Nella finestra **Password Set** fare clic sul pulsante **Yes** per inserire la password negli appunti..
+* Fare clic sul pulsante **Change User Password** (lato destro dello schermo)
+* Fare clic con il pulsante destro nel campo **Old Password** e incollare la vecchia password..
+* Fare clic nel campo **New Password** e digitare ```password1``` (minuscolo).
+* Fare clic nel campo **Confirm Password** e digitare ```password1``` (minuscolo).
+* Click the **OK** button.
+* Selezionare il Ruolo ```Training``` nella lista **Revoked** e quindi fare clic sulla freccia verde (che punta a destra) per inserire lo studente 1 nel ruolo di Training. Notare che il ruolo di Training sarà nell'elenco Concesso.
+* Fare clic sul pulsante Save nella barra degli strumenti Accounts.
+* Chiudere la scheda User Accounts.
+3. Verify the User **Accounts Privileges**
+* Disconnettersi da Enterprise Manager. Fare clic sul pulsante Logout o selezionare Logout dalla barra dei menu di Enterprise Manager
+* Fare clic su **OK** per confermare che si sta effettuando il logout.
+* Dalla schermata di accesso di OpCon/xps digitare ```Student1``` nel campo **Username** e ```password1``` nel campo **Password** Fare clic su Login
+* Controlla gli elementi a cui l'utente ha accesso::
+    * Operation
+        * Machine Status
+        * Escalation Akcnoledgement
+    * External Tools
+        * Import Export
+        * Windows Tools
+    * Information
+        * Logs
+    * Scripts
+        * Repository
+        * Runners
+        * Types
+    * Support
+        * Support
+        * Report a problem
+* Fare doppio clic su **Machine Status** sotto **Operation**
+* Nessuna macchina dovrebbe essere presente per la visualizzazione
+* Chiudere la scheda **Machine Status** e quindi disconnettersi da Enterprise Manager. Fare clic su **OK** per confermare che si sta effettuando il logout
+* Dalla schermata di accesso di OpCon/xps lasciare vuoti i campi **Username** e **Password** e fare clic su **Login**
 
 </details>

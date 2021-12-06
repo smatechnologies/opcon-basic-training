@@ -1,12 +1,13 @@
 ---
-sidebar_label: 'Unit 3 Lab C'
+sidebar_label: 'Unità 3 Lab C'
+hide_title: 'false'
 ---
 
-### LAB C
+## Unità 3 Lab C
 
-##### Objective:
+##### Obiettivo:
 
-Through a Schedule named **CONGO ACCOUNTING FOLDERS**, your Accounting Team needs a daily (Monday-Friday) folder created in the ```C:\Accounting``` folder for each of the following products:
+Attraverso uno Schedule chiamato **CONGO ACCOUNTING FOLDERS**, il Team Contabilità necessita di una cartella giornaliera (lunedì-venerdì) creata nella cartella ```C:\Accounting``` per ciascuno dei seguenti prodotti:
 
 * Legos
 * Nerf
@@ -15,20 +16,20 @@ Through a Schedule named **CONGO ACCOUNTING FOLDERS**, your Accounting Team need
 * Levis
 * Nike
 
-The following script should be used to create each folder:
+Il seguente script dovrebbe essere usato per creare ogni cartella:
 
 ```
 “C:\scripts\Create_Folder.cmd” “C:\Accounting\yyyy-mm-dd-Legos”
 ```
-where "Legos" is the product.
+dove "Lego" è il prodotto.
 
-Create three Global Properties that will be used in place of the following objects on the command line:
+Creare tre proprietà globali che verranno utilizzate al posto dei seguenti oggetti sulla riga di comando:
 
 *	```C:\scripts```
 *	```C:\Accounting```
 *	```yyyy-mm-dd```
 
-    *	This will require a System Global Property ```[[$SCHEDULE DATE]]``` in the correct format
+* Ciò richiederà una proprietà globale (System Global Property) ```[[$SCHEDULE DATE]]``` nel formato corretto
 
 <div>
 <video width="320" height="240" controls>
@@ -39,40 +40,40 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-**Lab Instructions**:  
+**Istruzioni per il laboratorio**:  
 
-*	Create a Schedule named **Congo Accounting Folders**  
-*	**Saturdays** and **Sundays** are **non-working days**  
-*	**Auto-build** the Schedule ```7``` days in advance for ```1``` day  
-*	**Auto-delete** the Schedule for ```7``` days  
-*	Add **Documentation** for the Schedule  
-*	Create a **Windows Job** for each of the products in the introduction   
-*	Name each **Job** the same as its **product name**  
-*	This Job needs to run as the ```SMATRAINING\SMAUSER``` User ID  
-*	This Job needs to run on the **SMATRAINING** machine  
-*	Use the following **command line** replacing the three objects specified above with **Global Properties**:   
+* Creare uno Schedule **Congo Accounting Folders**
+* **Sabato** e **Domenica **sono **giorni non lavorativi**
+* **Impostare l'Auto-build** per lo Schedule a ```7``` giorni in anticipo per ```1``` giorno
+* **Impostare l'Auto-delete** per lo Schedule per ```7``` giorni
+* Aggiungere la **Documentation** per lo Schedule
+* Creare un **Job Windows** per ciascuno dei prodotti nell'introduzione
+* Assegnare a ciascun **Job** il nome del suo **prodotto**
+* Questo Job deve essere eseguito con l'utenza ```SMATRAINING\SMAUSER```
+* Questo Job deve essere eseguito sulla macchina ```SMATRAINING```
+( Usare la seguente **riga di comando** sostituendo i tre oggetti specificati sopra con le relative **Global Properties**: 
 
 ```
 “C:\scripts\Create_Folder.cmd” “C:\Accounting\yyyy-mm-dd-Legos”
 ```  
 
-:::note
-Remember that each Job is assigned to a product and the folder name must match the product
+:::note Nota
+_Ricorda che ogni Job è assegnato a un prodotto e il nome della cartella deve corrispondere al prodotto_
 :::
 
-*	The Job must run **Monday-Friday**
-*	The Jobs must be **Tagged** according to the product line (**Toys**,**Electronics**, and **Clothing**)
-*	The Jobs must run in the following order with each Job requiring the Job before it:
+* I Jobs devono essere eseguiti **Dal Lunedì al Venerdì**
+* I Jobs devono essere **Taggati** coerentemente con la linea di prodotti (**Toys**, **Electronics**, and **Clothing**)
+* I Jobs devono essere eseguiti nell'ordine seguente con ogni Job che richiede un altro Job prima di esso
     *	Legos
     *	Nerf
     *	Smartphones
     *	Xbox
     *	Levis
     *	Nike
-*	Build the Schedule for today and tomorrow (Released)
-*	Use Solution Manager Operations View to check if the Jobs complete ok
-*	After all Jobs are finished, check that **all** folders were created
+* Mettere a piano (Build) lo Schedule per oggi e domani (in stato Rilacito)
+* Utilizzare la vista Operation di Solution Manager per verificare se i Job sono stati completati correttamente
+* Dopo che i Job sono stati tutti eseguiti e terminati controllare che **tutte le cartelle** siano state create
 
 </details>

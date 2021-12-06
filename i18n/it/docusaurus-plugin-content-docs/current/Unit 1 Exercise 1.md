@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Unità 1 Exercizio 1'
+sidebar_label: 'Unità 1 Esercizio 1'
 hide_title: 'false'
 ---
 
-## Exercizio 1: Passi per Creare uno Schedule
+## Esercizio 1: Passi per Creare uno Schedule
  
 ##### Obiettivo:
 

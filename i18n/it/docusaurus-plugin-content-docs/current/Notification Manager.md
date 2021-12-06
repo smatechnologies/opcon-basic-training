@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Notification Manager'
+sidebar_label: 'Gestore delle Notifiche'
+hide_title: 'false'
 ---
+
+## Gestore delle Notifiche
 
 <figure>
     <audio
@@ -15,9 +18,9 @@ sidebar_label: 'Notification Manager'
 <a href="imgbasic/321.png" target="_blank"><img src="imgbasic/321.png" width="500"></img></a>  
 <a href="imgbasic/322.png" target="_blank"><img src="imgbasic/322.png" width="400"></img></a>  
 
-* Create groups
-* Define Notifications based on change events: 
-    * Machine
+* Creare Gruppi
+* Definire le Notifiche in base agli eventi che occorrono su :
+    * Macchine
     * Schedule
     * Job Status
 
@@ -37,4 +40,4 @@ sidebar_label: 'Notification Manager'
 
 <a href="imgbasic/325.png" target="_blank"><img src="imgbasic/325.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

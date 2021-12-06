@@ -1,8 +1,9 @@
 ---
-sidebar_label: 'Annual Plan Events'
+sidebar_label: 'Piani Annuali a Calendario - Aggiornamento con Eventi'
+hide_title: 'false'
 ---
 
-### Annual Plan Calendar - Event Updates
+## Piani Annuali a Calendario - Aggiornamento con Eventi
 
 <figure>
     <audio
@@ -13,18 +14,18 @@ sidebar_label: 'Annual Plan Events'
     </audio>
 </figure>
 
-* Two Steps in Using Annual Plan Calendar:
-    * Create/Maintain a Calendar
-    * Apply the Calendar to frequency
-* **A/O/B/N** is not configurable 
-* Offsets use workdays
+* Due passaggi nell'utilizzo del calendario come annuale:
+    * Creare/Mantenere un Calendario
+    * Applicare il Calendario alla frequenza
+* **A/O/B/N** non è configurabile
+* Gli offsets sono in giorni lavorativi
 
 <a href="imgbasic/357.png" target="_blank"><img src="imgbasic/357.png" width="500"></img></a>  
 <a href="imgbasic/358.png" target="_blank"><img src="imgbasic/358.png" width="500"></img></a> 
 
-### Calendar Events
+### Eventi per i Calendari
 
-* Dates can be added or removed from a Calendar through Events
+* Le date possono essere aggiunte o rimosse da un calendario tramite Eventi
 
 ```
 $CALENDAR:ADD,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029,ocadm,opconxps
@@ -34,13 +35,13 @@ $CALENDAR:ADD,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25
 $CALENDAR:DEL,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029,ocadm,opconxps
 ```
 
-* Scenarios:
-    * A Job needs to run 10 working days after the 15th of month 
-    * A Null Job scheduled to run on the 15th could submit:
+* Scenari:
+    * Un Job deve essere eseguito 10 giorni lavorativi dopo il 15 del mese
+    * Un Job nullo pianificato per l'esecuzione il 15 potrebbe inviare il seguente evento:
 ```
 $CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps
 ```
-* A Job needs to run the working day before a different Job scheduled for the 15th-B
-    * Date calculation tool – **Chronoman**
+* Un Job necessita di essere eseguito il giorno lavorativo prima di un altro job schedulato per il 15esimo giorno (se lavorativo il giorno prima)
+    * Strumento di calcolo delle date – **Chronoman**
 
 <a href="imgbasic/359.png" target="_blank"><img src="imgbasic/359.png" width="500"></img></a>  

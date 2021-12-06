@@ -1,21 +1,25 @@
 ---
-sidebar_label: 'Unit 3 Exercise 13'
+sidebar_label: 'Unità 3 Esercizio 13'
+hide_title: 'false'
 ---
 
-### Exercise 13: Events
-##### Objective:
+## Esercizio 13: Eventi
 
-Create three new Windows Jobs in **MY FIRST SCHEDULE** named **Test Event 1**, **Test Event 2**, and **Test Event 3**. 
+##### Obiettivo:
 
-Use the generic program in the Command Line and provide a 7 day Frequency. 
+Creare tre nuovi Windows Jobs nello Schedule **MY FIRST SCHEDULE** chiamati **Test Event 1**, **Test Event 2**, e **Test Event 3**
 
-Place **Test Event 3** in an ```On Hold``` Job Status. Give the three Jobs Requires Dependencies:
+Usare il programma genericp nella **Command Line** e fornire una Frequenza su ```7``` giorni
 
-**Test Event 1 > Test Event 2 > Test Event 3**.
+Impostare **Test Event 3** in uno stato ```On Hold``` 
 
-Create a ```$JOB:CANCEL``` Event for the **Test Event 1** Job that will cancel **Test Event 3**.
+Fornire ai tre Jobs le Dipendenze di tipo Requires:
 
-Build the Schedule and view the results in Matrix View.
+**Test Event 1 > Test Event 2 > Test Event 3**
+
+Creare un evento ```$JOB:CANCEL``` per il Job **Test Event 1** che cancellerà il Job **Test Event 3**
+
+Effettuare la messa a piano (**Build**) dello Schedule e visualizzare il risultato nella **vista Matrix**
 
 
 <div>
@@ -27,75 +31,68 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Create the Schedules/Jobs
-    *	Under the **Administration** topic, Double-Click on **Job Master**. 
-    *	In the **Schedule** drop-down list, select **My First Schedule**.
-    *	On the **Job Master Toolbar**, click the **Add** button. 
-    *	In the **Name** textbox, enter **Test Event 1**.
-    *	In the **Job Type** drop-down list, select **Windows**.
-    *	In the P**rimary Machine** drop-down list, select the **SMATraining** machine for the Job to run on. 
-    *	In the User ID drop-down list, select ```SMATRAINING\SMAUSER``` 
-    *	In the Command Line, type Ctrl + F and Double-Click on the command that looks like this:  
-    ```
-    “[[PathWindows]]\genericp.exe” –t[[RUNTIME]]
-    ```  
-    *	Click the **Save** button.
-    *	Click the **Frequency** tab.
-    *	Within the **Frequency list** frame, click the **Add** button.
-    *	Click inside the option button to **Use existing Frequency**.
-    *	In the **Frequency** drop-down list, select **Mon-Sun-O**.
-    *	Click **Next**.
-    *	Click the **Finish** button.
-    *	On the **Job Master Toolbar**, click the **Copy** button. 
-    *	Name the Job **Test Event 2**.
-    *	Click OK.
-    *	On the **Job Master Toolbar**, click the **Copy** button. 
-    *	Name the Job **Test Event 3**.
-    *	Click **OK**.
-    *	Click the **Frequency** tab.
-    *	In the **Job Build Status** frame, select **On Hold**.
-    *	Click the **Save** button.
-    *	Close the **Job Master**.
-    *	Under the **Administration** topic, Double-Click on **Workflow Designer**.
-    *	In the Select Schedule list, select My First Schedule.
-    *	Click the Add Dependency tool.
-    *	Click **Test Event 1**, then **Test Event 2** to create a **Requires dependency**.
-    *	Click **Test Event 2**, then **Test Event 3** to create a **Requires dependency**.
-2.	Create the Events
-    *	From the **Workflow Designer**, Right-Click **Test Event 1** and select **Edit**.
-    *	Click on the **Events** tab.
-    *	In the **Events** frame, click the **Add** button. 
-    *	In the **Event Definition Wizard**, under **Send Event on** select the option button for **Job Status**. 
-    *	Click the **Next** button.
-    *	In the **Job Status** drop-down list, select Finished **OK**.
-    *	Click the **Next** button.
-    *	In the **Event Template** drop-down list, select the ```$JOB:CANCEL Event```. 
+1.	Creare gli Schedules/Jobs
+* Nel menù **Administration** fare doppio clic su **Job Master**.
+* Nell'elenco a discesa **Schedule** selezionare **My First Schedule**.
+* Nella barra degli strumenti di **Job Master Toolbar**, Fare clic sul pulsante **Add**.
+* Nella casella di testo **Name** digitare **Test Event 1**.
+* Nell'elenco a discesa **Job Type** selezionare ```Windows```.
+* Nell'elenco a discesa **Primary Machine** selezionare la macchina ```SMATraining``` su lla quale girerà il Job.
+* Nell'elenco a discesa **User ID** selezionare ```SMATRAINING\SMAUSER```.
+* Nella **Command Line**, digiatre **Ctrl + F** fare doppio clic su un comando che somigli a questo:
+    ```“[[PathWindows]]\genericp.exe” –t[[RUNTIME]]```  
+* Fare clic sul pulsante **Save**.
+* Fare clic sulla scheda **Frequency**.
+* All'interno del riquadro **Frequency list** fare clic aul pulsante **Add**.
+* Selezionare l'opzione **Use Existing Frequency**.
+* Nell'elenco a discesa **Frequency** selezionare ``Mon-Sun-O``.
+* Fare clic su **Next**.
+* Fare clic sul pulsante **Finish**.
+* Nella barra degli strumenti del **Job Master**, Fare clic sul pulsante **Copy**.
+* Nominare il **Job Test Event 2**.
+* Fare clic su **OK**.
+* Nella barra degli strumenti del **Job Master**, Fare clic sul pulsante **Copy**.
+* Nominare il Job **Test Event 3**.
+* Fare clic su **OK**.
+* Selezionare la scheda **Frequency**.
+* Nel riquadro Job Build Status selezionare ```On Hold```.
+* Fare clic sul pulsante **Save**.
+* Chiudere **Job Master**.
+* Nel menù **Administration** fare doppio clic su **Workflow Designer**.
+* Nella lista di **Selezione degli Schedule**, selezionare **My First Schedule**.
+* Fare clic sullo strumento **Add Dependency**.
+* Fare clic su **Test Event 1**, poi su **Test Event 2** per creare una dipendenza di tipo **Requires**.
+* Fare clic su **Test Event 2**, poi su **Test Event 3** per creare una dipendenza di tipo **Requires**.
+2. Creare gli eventi
+* Dal Workflow Designer, fare clic con il tasto destro su Test Event 1 e selezionare Edit.  
+* Fare clic sulla scheda Events.
+* Nel Riquadro Events Fare clic sul pulsante Add.
+* Nella procedura guidata (Event Definition Wizard), nel Send Event on selezionare Job Status.
+* Fare clic sul pulsante Next.
+* Nell'elenco a discesa Job Status selezionare Finished OK.
+* Fare clic sul pulsante Next .
+* Nell'elenco a discesa Event Template selezionare l'evento $JOB:CANCEL Event.
 
-:::note Example:
-
+:::note Esempio:
 ```
 $JOB:CANCEL,<Schedule date>,<Schedule name>,<Job name>
 ```        
-* ```<Schedule date>``` needs to be replaced with either ```CURRENT```, ```[[$DATE]]```, or ```[[$SCHEDULE DATE]]```  
-* ```<Schedule name>``` needs to be replaced with either the **full name of the Schedule the Job is in**, or ```[[$SCHEDULE NAME]]```  
-* ```<Job name>``` needs to be replaced with **the name of the Job this Event is going to cancel**  
-* Your Event should look like this: 
+* ```<Schedule date>``` da sostituire con ```CURRENT```, ```[[$DATE]]```, oppure ```[[$SCHEDULE DATE]]```  
+* ```<Schedule name>``` da sostituire con **nome completo dello Schedule in cui il Job**, oppure ```[[$SCHEDULE NAME]]```  
+* ```<Job name>``` da sostituire con **il nome del Job su cui l'Evento agirà  **
+
+* L'evento somiglierà a questo:
 
 ```
 [[$SCHEDULE DATE]],[[$SCHEDULE NAME]],Test Event 3
 ```
-
 :::
-
-* Click the **Finish** button.  
-* Close the **Job Master** and the **Workflow Designer** tabs.  
-* Open one of the **operations views** and check if **My First Schedule** is **In Process** 
-:::note
-Cancel the Jobs if My First Schedule is not Completed 
-:::
-* **Build the Schedule** (Released) and watch it process.  
-* Use either **List** or **Matrix** views in **Enterprise Manager** or use **Solution Manager**.  
+* Fare clic sul pulsante **Finish**.
+* Chiudere le schede **Job Master** e **Workflow Designer**.
+* Aprire una delle **viste Operation** e controllare se lo Schedule **My First Schedule** è **In Process** (Cancellare i Job se lo stato non è Completed)
+* Effettuare le messa a piano (**Build**) dello Schedule in stato Rilasciato (**Released**) e **osservare il processo**.
+* **Usare la vista List o Matrix in Enterprise Manager o utilizzare il Solution Manager**.  
 
 </details>

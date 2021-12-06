@@ -1,22 +1,21 @@
 ---
-sidebar_label: 'Unit 3 Exercise 12'
+sidebar_label: 'Unità 3 Esercizio 12'
+hide_title: 'false'
 ---
 
-### Exercise 12: Invalid Event
+## Esercizio 12: Eventi Invalidi
 
-##### Objective: 
+##### Obiettivo:
 
-In Notepad on Windows, create a new document.
+In Blocco note su Windows, crea un nuovo documento.
 
-Type the following:
+Digitare quanto segue:
 
-```
-$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps
-```
+```$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps```
 
-Save the file with any name under ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
+Salva il file con qualsiasi nome sotto ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
 
-Open the ```SAM Log``` and ```Critical Log``` and check the messages to see that the property does **not** exist.
+Aprire il ```SAM Log``` e il ```Critical Log``` e controllare i messaggi che indicano che la proprietà **not** esiste.
 
 
 <div>
@@ -28,15 +27,15 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Open **Notepad** (click the **Windows Start button**, type **Notepad** and press **Enter**).
-2.	With **Notepad** opened, type: ```$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps```
-3.	**Save** the file (**any name**) under: ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
-4.	Go back to Enterprise Manager and open the **SAM** log.
-5.	Check the messages (Property does not exist).
-6.	Open the **Critical** log.
-7.	Check the messages (Property does not exist).
-8.	Close all log tabs and **Notepad**.
+1. Aprire il **Notepad** (fare clic sul pulsante **Start di Windows**, digitare **Notepad** e premere **Enter**).
+2. Con il Notepad aperto, digitare: ```$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps```
+3. **Salvare** il file con (**qualsiasi nome**) nel percorso: ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
+4. Torna a Enterprise Manager e apri il ```SAM log```.
+5. Controllare il messagio (Property does not exist).
+6. Aprire il ```Critical log```.
+7. Controllare il messagio (Property does not exist).
+8. Chiudere i log ed il **Notepad**.
 
 </details>

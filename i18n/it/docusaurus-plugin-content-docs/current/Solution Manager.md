@@ -1,6 +1,9 @@
 ---
 sidebar_label: 'Solution Manager'
+hide_title: 'false'
 ---
+
+## Solution Manager
 
 <figure>
     <audio
@@ -11,40 +14,40 @@ sidebar_label: 'Solution Manager'
     </audio>
 </figure>
 
-SMA's **Solution Manager** is a *Web-based* OpCon User Interface 
+Solution Mananger di SMA è un'interfaccia utente OpCon basata sul web
 
-The Following components have been added to SMA Solution Manager:  
+I seguenti componenti sono stati aggiunti a SMA Solution Manager:
 
 * Operations
-  * Summary 
-  * Machine Status
-  * Schedule Build and Logs
-  * Job Configuration Screen
-  * Users Accounts
+    * Summary
+    * Machine Status
+    * Schedule Build and Logs
+    * Job Configuration Screen
+    * Users Accounts
 * Add-On Modules
-  * Self Service
-  * Vision 
+    * Self Service
+    * Vision
 
 <a href="imgbasic/Picture57.png" target="_blank"><img src="imgbasic/Picture57.png" width="500"></img></a>  
 <a href="imgbasic/Picture58.png" target="_blank"><img src="imgbasic/Picture58.png" width="500"></img></a>  
 
-### Solution Manager Navigation from Enterprise Manager
+### Accesso al Solution Manager da Enterprise Manager
 
-* Solution Manager can now be accessed through the Solution Manager topic in the Navigation Panel of Enterprise Manager
-  - The Solution Manager topic will only appear in the Navigation Panel if the **Solution Manager URL** General Server Option is defined
-    - In order to view licensed modules or features, the User must possess all appropriate Privileges
+* Solution Manager è ora accessibile tramite il menù Solution Manager nel pannello di navigazione di Enterprise Manager
+    * La voce di menu Solution Manager apparirà nel pannello di navigazione solo se risulta configurato il valore **Solution Manager URL** nelle opzioni generali "General Server Option"
+        * Per poter visualizzare i moduli o le funzioni con licenza, l'utente deve possedere tutti i privilegi appropriati
 
 <a href="imgbasic/PictureSMMenuEM.png" target="_blank"><img src="imgbasic/PictureSMMenuEM.png" width="500"></img></a>
 
-* The URL must be set up in Server Options under the General Tab
-  - If no value is defined for the Solution Manager URL option, the Solution Manager topic will not appear in the Navigation Frame
+* L'URL deve essere impostato in Opzioni server nella scheda General
+    * Se non viene definito alcun valore per l'opzione URL di Solution Manager, l'argomento Solution Manager non apparirà nel riquadro di navigazione
 
 <a href="imgbasic/PictureSMURLServerOptions.png" target="_blank"><img src="imgbasic/PictureSMURLServerOptions.png" width="500"></img></a>
 
 <a href="imgbasic/PictureSMURLBar.png" target="_blank"><img src="imgbasic/PictureSMURLBar.png" width="500"></img></a>
 
-:::note
-After defining the URL and saving the value, the User must log out and then log back in to Enterprise Manager in order for the Solution Manager topic Menu to appear in the Navigation Frame
+:::note Nota
+Dopo aver definito l'URL e salvato il valore, l'utente deve uscire e poi rientrare in Enterprise Manager affinché il menu degli argomenti di Solution Manager appaia nel riquadro di navigazione
 :::
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

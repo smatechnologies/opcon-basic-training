@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Job Instance Properties'
+sidebar_label: 'Proprietà a livello di Job'
+hide_title: 'false'
 ---
+
+## Proprietà a livello di Job
 
 <figure>
     <audio
@@ -11,15 +14,15 @@ sidebar_label: 'Job Instance Properties'
     </audio>
 </figure>
 
-* **Job Master** contains an **Instance Definition** tab for each individual Job where **Job Instance Properties** can be defined or modified
-* Use of a Job Instance Property must contain "```JI.```" in front of the Property name (e.g., ```[[JI.Path]]```)
-    * Identifies a Property as a Job Instance Property
+* Il **Job Master** contiene la scheda **Instance Definition** per ogni singolo Job dove le **Job Instance Properties** possono essere definite o modificate
+* L'uso di una Job Instance Property deve contenere “```JI.```” davanti al nome della Proprietà (ad esempio., ```[[JI.Path]]```)
+    * Identifica una proprietà come proprietà dell'istanza del Job
 
 <a href="imgbasic/337.png" target="_blank"><img src="imgbasic/337.png" width="250"></img></a>  
 <a href="imgbasic/338.png" target="_blank"><img src="imgbasic/338.png" width="500"></img></a>  
 
-### Solution Manager - Job Instance Property Details
+### Solution Manager - Dettagli proprietà istanza di lavoro
 
 <a href="imgbasic/339.png" target="_blank"><img src="imgbasic/339.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

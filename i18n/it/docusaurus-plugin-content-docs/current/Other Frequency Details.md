@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Other Frequency Details'
+sidebar_label: 'Altri dettagli Frequenze'
+hide_title: 'false'
 ---
+
+## Altri dettagli Frequenze
 
 <figure>
     <audio
@@ -11,7 +14,7 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* All other details on the Frequency tab screen are set per Frequency
+* Tutti gli altri dettagli nella schermata della scheda Frequenza sono relativi alla Frequenza selezionata
 
 <a href="imgbasic/246.png" target="_blank"><img src="imgbasic/246.png" width="500"></img></a>
 
@@ -26,10 +29,10 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Start Time of a Schedule is the Earliest time any Job within the Schedule can start
-  * All Job Offsets are added to a Schedule’s Start Time
-* 24-hour clock
-* All Job Offsets are added to this time
+* Lo Start Time di uno Schedule è i tempo minimo per la partenza di qualunque Job all'interno dello Schedule.
+    * Tutti gli offset livello di Job sono aggiunti allo Schedule Start Time
+* basato sulle 24 ore
+* Tutti gli offset livello di Job sono aggiunti a questo Start Time
 
 <a href="imgbasic/247.png" target="_blank"><img src="imgbasic/247.png" width="500"></img></a>
 
@@ -44,12 +47,11 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Start Offset determines when a Job is allowed to start
-  * Combined with the **Schedule Start Time** to determine earliest a Job can run without intervention
-* Time-box is the Job offset 
-  * Time in Green is combined offset
-* **Absolute** – based on 24-hour clock
-* **Relative** – offset starts once the Schedule is started
+* In combinazione con lo **Schedule Start Time** per derminare l'orario minimo per cui un Job può partire senza interventi aggiuntivi
+* La casella di testo rappresenta l'offset
+    * Il tempo in verde è la combinazione dello Schedule Start Time più l'offset
+* **Absolute** – basato sulle 24 ore.
+* **Relative** – offset relativo alla partenza dello schedule
 
 <a href="imgbasic/248.png" target="_blank"><img src="imgbasic/248.png" width="200"></img></a>
 
@@ -64,7 +66,7 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* If a Job does not run by this time, it is marked as “Missed Start Time” which is treated as a Cancelled Job
+* Se un Job non viene eseguito entro questo tempo, viene contrassegnato come "Missed Start Time" e trattato come un Job cancellato
 
 <a href="imgbasic/249.png" target="_blank"><img src="imgbasic/249.png" width="200"></img></a>
 
@@ -79,8 +81,8 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Marks a Job as “Late to Start” if not started by this time
-* Solely for Notification purposes
+* Imposta lo stato del Job a “Late to Start” se il Job non è partito entro questo tempo
+* Lo scopo è solo per gestione delle notifiche
 
 <a href="imgbasic/250.png" target="_blank"><img src="imgbasic/250.png" width="200"></img></a>
 
@@ -95,8 +97,8 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Marks a Job as “Late to Finish” if not completed by this time
-* Solely for Notification purposes
+* Imposta lo stato del Job a “Late to Finish” se il Job non è terminato entro questo tempo
+* Lo scopo è solo per gestione delle notifiche
 
 <a href="imgbasic/251.png" target="_blank"><img src="imgbasic/251.png" width="200"></img></a>
 
@@ -111,8 +113,8 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* Marks a Job as “Exceeded Max Runtime” if run longer than specified minutes
-* Solely for Notification purposes
+* Imposta “Exceeded Max Runtime” se il job dura più del tempo specificato
+* Lo scopo è solo per gestione delle notifiche
 
 <a href="imgbasic/252.png" target="_blank"><img src="imgbasic/252.png" width="500"></img></a>
 
@@ -127,15 +129,14 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* **Calculated** – Considers Dependencies and other workflow related items to estimate a Job start time
-* **History** - Calculates Historical data for a specific Job
-* **User Defined** - Values input by User 
-  * No calculations done 
-  * Useful for Threshold Jobs
+* **Calculated** – Il Job Start Time viene stimato considerando Dipendenze e alti elementi relativi al Workflow di esecuzione
+* **History** - Il Job Start Time viene calcolato sulla base della storia delle esecuzioni
+* **User Defined** - Definito dall'utente
+    * Nessun calcolo viene fatto su questo valore
 
 <a href="imgbasic/253.png" target="_blank"><img src="imgbasic/253.png" width="500"></img></a>
 
-### Solution Manager - Job Frequency Details
+### Solution Manager -Dettagli relativi alla frequenza dei Job
 
 <figure>
     <audio
@@ -146,17 +147,17 @@ sidebar_label: 'Other Frequency Details'
     </audio>
 </figure>
 
-* The Frequency panel in Solution Manager’s Job Configuration Screen provides access to Frequency information for a job
-* Current options configurable in Solution Manager:
-  * Offsets
-  * Start Time Estimation options
-  * Job Execution
-    * SAM Priority
-    * Max Run time
-  * Failure/Retry options
-  * Finish Ok options
+* Il Pannello delle Frequenze, nella schermata di configurazione dei Job nel Solution Manager da accesso alle informazini relative alla Frequenza per uno specifico Job
+* Opzioni attuali configurabili in Solution Manager:
+    * Offsets
+    * opzioni per Start Time Estimation
+    * Job Execution
+        * SAM Priority
+        * Max Run time
+    * opzioni di Failure/Retry
+    * opzioni per Finish Ok
 
 <a href="imgbasic/254.png" target="_blank"><img src="imgbasic/254.png" width="300"></img></a>  
 <a href="imgbasic/255.png" target="_blank"><img src="imgbasic/255.png" width="300"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

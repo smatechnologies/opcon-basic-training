@@ -1,29 +1,30 @@
 ---
-sidebar_label: 'Unit 2 Exercise 1'
+sidebar_label: 'Unità 2 Esercizio 1'
+hide_title: 'false'
 ---
 
-### Exercise 1: Define a Global Property
+### Esercizio 1: Definizione di una proprietà globale (Global Property)
 
-##### Objective:
+##### Obiettivo:
 
-Create two Global Properties:
+Creare due Global Properties:
 
-```RUNTIME``` – Value: ```10```
+```RUNTIME``` – Valore: ```10```
 
-```PathWindows``` – Value : ```C:\Program Files\OpConxps\MSLSAM```
+```PathWindows``` – Valore: ```C:\Program Files\OpConxps\MSLSAM```
 
 
-For each of the Jobs in **MY FIRST SCHEDULE**, replace the hard-coded text with the newly created Properties:
+Per ciascuno dei Job in **MY FIRST SCHEDULE**, sostituisce il testo hard-coded con le proprietà appena create:
 
 ```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20```
 
-To:
+in:
 
 ```“[[PathWindows]]\genericp.exe” -t[[RUNTIME]]```
 
-Rebuild **MY FIRST SCHEDULE**, overwriting for Today. View the Schedule performance in Matrix View and Right-Click on **WINDOWS JOB 1** to view **Job Information > Configuration > Token Replacement Values**. 
+Rimettere a piano (Rebuild) **MY FIRST SCHEDULE**, sovrascrivendo la data odierna. Visualizzare le escuzioni dello Schedule nella vista **Matrix View** e fare click con il pulsante destro sul Job **WINDOWS JOB 1** per visualizzare **Job Information > Configuration > Token Replacement Values**.
 
-Verify that the proper values are attributed to the Properties used.
+Verificare che i valori corretti siano attribuiti alle proprietà utilizzate.
 
 
 <div>
@@ -35,60 +36,61 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Administration** topic, Double-Click on **Global Properties**. 
-2.	Click the **Add** button on the Global Properties toolbar. 
-3.	In the **Name** textbox, type ```RUNTIME```.
-4.	Add this **Documentation** to the **Global Property**:
-This Global Property will store the number of seconds to run the program.
-5.	In the **Value** textbox, type ```10```.
-  * **Do not check the Encrypted checkbox.**
-6.	Click the **Save** button on the Global Properties toolbar.
-7.	Click the **Add** button on the Global Properties toolbar. 
-8.	In the **Name** textbox, type ```PathWindows```.
-9.	Add Documentation to the Global Property.
-10.	In the **Value** textbox, type:
+1. Nel menu **Amministrazione**, Doppio-Click sulle **Global Properties**.
+2. Click sul pulsante **Add** nella barra degli strumenti delle **Global Properties**.
+3. Nella casella di testo **Name** digitare ```RUNTIME```.
+4. Aggiungere questa **Documentazione** alla **Global Property**: 
+    * Questa proprietà contiene il valore in secondi utilizzato dal programma per la sua esecuzione.
+5. Nella casella di testo **Value**, digitare ```10```.
+  * **Non selezionare l'opzione Encrypted.**
+6. Fare click sul pulsante **Save** nella barra strumenti delle Global Properties.
+7. Fare click sul pulsante **Add** nella barra strumenti delle Global Properties.
+8. Nella casella di testo **Name** digitare PathWindows.
+9. Aggiungere la Documentazione alla Global Property.
+10. Nel **Value** della casella di testo:
 
 ```C:\Program Files\OpConxps\MSLSAM```
 
-11.	Click the **Save** button on the Global Properties toolbar.
-12.	Close the **Global Properties** tab.
-13.	Under **Administration**, click on **Job Master**.
-14.	In the **Schedule** drop-down list, select **My First Schedule**.
-15.	In the **Job** drop-down list, select **Windows Job 1**.
-16.	Update your command line to use the new properties in place of the hard-coded text.
-Change the following:
+11. Fare click sul pulsante Save nella barra strumenti delle Global Properties.
+12. Chiudere la scheda Global Properties.
+13. Nel Menù Amministrazione, fare click su Job Master.
+14. Nella lista a discesa Schedule, selezionare My First Schedule.
+15. Nella lista a discesa Job, selezionare Windows Job 1.
+16. Aggiornate la linea di comando per usare le nuove proprietà al posto del testo hard-coded. 
+
+* Cambiate il seguente valore:
 
 ```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t20```  
 
-to:
+in:
 
 ```“[[PathWindows]]\genericp.exe” –t[[RUNTIME]]```
 
-17.	Click the **Save** button.
-18.	Repeat for **Windows Job 2** through **Windows Job 5**.
-19.	Close the **Job Master** tab.
-20.	Open the **List** or **Matrix**.
-21.	Navigate to the current date.
-22.	Verify that **My First Schedule** has completed.  
-  * **_If not, then we need to cancel all Jobs to close the Schedule_**.
-23.	Open the **Schedule Build** screen.
-24.	Select **My First Schedule** from the **Schedule Selection** box.
-25.	Check the **Overwrite Existing Schedule** checkbox.
-26.	Press the **Build** button.
-27.	Click the **Released** radio button.
-28.	Click the **OK** button.
-29.	Close the **Build Schedules** screen.
-30.	Open the **List** or **Matrix**.
-31.	Navigate to the current date.
-32.	Expand (if in the **List** view) or click (if in the **Matrix** view) **My First Schedule**.
-33.	Verify that all Jobs **Finished OK**.
-34.	Right-Click on **Windows Job 1**.
-35.	Select **Job Information**.
-36.	Click the **Configuration** tab.
-37.	Click the **Token Replacement Values** row in the grid.
-38.	Verify that the proper value was attributed to each Global Property in the Token Replacement Values row.
-39.	Click **OK** and close the **List/Matrix** view.
+17. Fare click sul pulsante **Save**.
+18. Ripetere per il Job **Windows Job 2** fino **Windows Job 5**.
+19. Chiudere la scheda **Job Master**.
+20. Aprire la vista **List** o **Matrix**.
+21. Selezionare la data corrente.
+22. Verificare che **My First Schedule** sia completato.
+  * **_Se non completato, allora è necessario mettere in Cancel tutti Jobs non terminati per chiudere lo Schedule_**.
+23. Aprire la schermata **Schedule Build**.
+24. Selezionare **My First Schedule** dal riquadro **Schedule Selection**.
+25. Selezionare l'opzione **Overwrite Existing Schedule**.
+26. Fare click sul pulsante **Build**.
+27. Selezionare l'opzione **Released**.
+28. Fare click sul pulsante **OK**.
+29. Chiudere la schermata **Build Schedules**.
+30. Aprire la vista **List** o **Matrix**.
+31. Selezionare la data corrente.
+32. Espandere (se nella vista **List**) or fare click (se nella vista **Matrix**) **My First Schedule**.
+33. Verificare che tutti i Job siano nello stato **Finished OK**.
+34. Cliccare con il tasto destro del mouse su **Windows Job 1**.
+35. Selezionare **Job Information**.
+36. Fare click sulla scheda **Configuration**.
+37. Selezionare la riga **Token Replacement** Values nella griglia.
+38. Verificare che il corretto valore sia stato atribuito a ciascuna Global Property nella riga Token Replacement Values.
+39. Fare Click su **OK** e chiudere la vista **List/Matrix**.
 
 </details>

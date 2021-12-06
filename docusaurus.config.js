@@ -17,10 +17,34 @@ module.exports = {
         src: 'img/logo.svg',
         href: 'https://help.smatechnologies.com',
       },
+      items: [
+      {
+      type: 'localeDropdown',
+      position: 'left',
+      },
+    ],
     },
     footer: {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} SMA Technologies.`,
+    },
+  },
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr', 'it'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      fr: {
+        label: 'Français',
+        direction: 'ltr',
+      },
+      it: {
+        label: 'Italiano',
+        direction: 'ltr',
+      },
     },
   },
   presets: [

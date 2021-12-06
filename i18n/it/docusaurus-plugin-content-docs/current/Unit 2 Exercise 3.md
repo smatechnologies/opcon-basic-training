@@ -1,16 +1,17 @@
 ---
-sidebar_label: 'Unit 2 Exercise 3'
+sidebar_label: 'Unità 2 Esercizio 3'
+hide_title: 'false'
 ---
 
-### Exercise 3: Steps to Define a UNIX Machine
+### Esercizio 3: Passi per definire una Macchina UNIX
 
-##### Objective
+##### Obiettivo:
 
-Add a ```UNIX``` machine in Enterprise Manager. Name the machine ```SUSEVM```. Set the **Machine Type** as ```UNIX``` and the **Socket Number** as ```3111```. Hardcode the **IP Address** with the information provided by the instructor. 
+Aggiungere una macchina ```UNIX``` nell' Enterprise Manager. Nominare la macchina ```SUSEVM```. Impostare il **Machine Type** come ```UNIX``` e il **Socket Number** come ```3111```. Definire l'inirizzio ip (**IP Address**) con le informazioni fornite dall'istruttore.
 
-In **Communication Settings**, update the **JORS Port Number** to ```3110```. Set the **File Transfer Role** to ```BOTH```. Set the **File Transfer Port Number (Non-TLS)** to ```3110```.
+Nella sezione **Communication Settings**, aggiornare il **JORS Port Number** a ```3110```. Impostare il **File Transfer Role** a ```BOTH```. Impostare **File Transfer Port Number (Non-TLS)** a ```3110```.
 
-Verify that all settings were saved.
+Verificare che tutte le impostazioni siano state salvate.
 
 
 <div>
@@ -22,28 +23,28 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Administration** topic, Double-Click on **Machines**. 
-2.	Click the **Add** button on the **Machines** toolbar. 
-3.	In the **Name** textbox, enter **SUSEVM**. 
-4.	In the **Documentation** textbox, enter **This is My First UNIX machine**.
-5.	In the **Machine Type** drop-down list, select **UNIX**.
-6.	Make sure the **Socket Number** is ```3111```.
-7.	Hard code the **IP address** to the address given by the instructor.
-8.	Click the **Save** button on the **Machines** toolbar.
-9.	Click on the **Open Advanced Settings Panel** link.
-10.	Click on the **Communication Settings** tab.
-11.	Click on the **JORS Port Number** row:
-  * Located at the bottom of the **Advanced Machine Properties** screen, type ```3110``` for the **JORS Port** number.
-  * Click the **Update** button.
-12.	Click on the **File Transfer Settings** tab.
-13.	Click on the **File Transfer Role** row:
-  * Select **Both** from the **File Transfer Role** drop-down.
-  * Click the **Update** button.
-  * Change the **File Transfer Port Number (Non-TLS)** to ```3110```.
-  *	Click the **Update** button.
-  *	Click **Save**.
-14.	Close the **Machines** tab.
+1. Nel Menù **Administration**, fare doppio click su **Machines**.
+2. Fare click sul pulsante **Add** nella casella degli strumenti della schermata **Machines**.
+3. Nella casella di testo **Name**, inserire ```SUSEVM```.
+4. Nella casella di testo **Documentation**, inserire **This is My First UNIX machine**.
+5. Nella lista a discesa **Machine Type**, selezionare ```UNIX```.
+6. Assicurarsi che il **Socket Number** sia ```3111```.
+7. Impostare l'**IP address** con l'indirizzo indicato dall'istruttore.
+8. Fare click sul pulsante **Save** nella casella degli strumenti della schermata **Machines**.
+9. Fare click sul collegamento al pannello delle impostazioni avanzate **Open Advanced Settings Panel**.
+10. Selezionare la scheda **Communication Settings**.
+11. Selezionare la riga **JORS Port Number**:
+    * Nella casella d testo in basso nella schermata **Advanced Machine Properties**, definire ```3110``` per il **JORS Port number**.
+    * Fare click sul pulsante **Update**.
+12. Selezionare la scheda **File Transfer Settings**.
+13. Selezionare la riga **File Transfer Role**:
+    * Selezionare Both per il **File Transfer Role**.
+    * Fare click sul pulsante **Update**.
+    * Cambiare la porta per il **File Transfer Port Number (Non-TLS)** a ```3110```.
+    * Fare click sul pulsante **Update**.
+    * Fare click sul punsante **Save**.
+14. Close the **Machines** tab.
 
 </details>

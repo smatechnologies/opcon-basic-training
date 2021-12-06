@@ -1,26 +1,26 @@
 ---
-sidebar_label: 'Unit 2 Exercise 9'
+sidebar_label: 'Unità 2 Esercizio 9'
+hide_title: 'false'
 ---
 
-### Exercise 9: Frequencies - On Request & Beginning, Middle, End of Period
+## Esercizio 9: Frequenze - A Richiesta -- All'inizio, a Metà, ae a fine Periodo
 
-##### Objective: 
+##### Obiettivo:
 
-Within the existing **Frequency Practice Schedule**, create four new Null Jobs:
+All'interno dello Schedule **Frequency Practice Schedule**, creare 4 nuovi job nulli:
 
+* **On Request Frequency Practice** 
+* **Begin of Period Frequency Practice** 
+* **Mid of Period Frequency Practice** 
+* **End of Period Frequency Practice**
 
-**On Request Frequency Practice**
-**Begin of Period Frequency Practice**
-**Mid of Period Frequency Practice**
-**End of Period Frequency Practice**
+Nel Job **On Request Frequency Practice**, creare una nuova Frequenza chiamata ```OnRequest```. Questa Frequenza dovrà essere eseguita **A Richiesta** nella data specificata. In questo caso impostare la data 3 Gennaio.
 
-In the **On Request Frequency Practice** Job, create a new Frequency named ```OnRequest```. This Frequency should run **On Request** on the date requested. In this case, set the date as January 3rd.
+Nel Job **Begin of Period Frequency Practice**, creare una nuova Frequenza chiamata ```BOM-A```. Questa Frequenza dovrà essere eseguita nel primo giorno lavorativo di ciascun mese, il giorno successivo in caso di festività.
 
-In the **Begin of Period Frequency Practice** Job, create a new Frequency named ```BOM-A```. This Frequency should run on the 1st Working Day of each month, or the day after in case of a holiday.
+Nel Job **Mid of Period Frequency Practice**, creare una nuova Frequenza chiamata ```Mid-Wed-A```. Questa Frequenza dovrà essere eseguita al Mercoledì più vicino alla metà mese, il giorno dopo in caso di festività.
 
-In the **Mid of Period Frequency Practice** Job, create a new Frequency named ```Mid-Wed-A```. This Frequency should run on the Wednesday closest to the middle of the month, or the day after in case of a holiday.
-
-In the **End of Period Frequency Practice** Job, create a new Frequency named ```EOM-B```. This Frequency should run on the last Working Day of the month, or the day before in case of a holiday.
+Nel Job **End of Period Frequency Practice**, creare una nuova Frequenza chiamata ```EOM-B```. Questa Frequenza dovrà essere eseguita nell'ultimo giorno lavorativo del mese, il giorno prima in caso di festività.
 
 
 <div>
@@ -32,66 +32,66 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Open the **Job Master**.
-2.	Select **Frequency Practice** Schedule from the **Schedule** drop-down menu.
-3.	Click the **Add** button.
-4.	Enter **On Request Frequency Practice** in the **Name** text field.
-5.	Click the **Save** button.
-6.	Repeat Steps 3-5 creating three Null Jobs:
-  *	**Begin of Period Frequency Practice**
-  *	**Mid of Period Frequency Practice**
-  *	**End of Period Frequency Practice**
-7.	Frequency: **On Request**
-  *	Select **On Request Frequency Practice** in the Job Name drop-down menu
-  *	While in the Frequency Screen, click the **Add** button below the **Frequency List**. 
-  *	Click the **Create new Frequency** radio button.
-  *	Type **OnRequest** in the **Frequency Name **field.
-  *	Click **Next**.
-  *	Select the **On Request** radio button.
-  *	Select **January 3rd** for the **Request Date**.
-  *	Leave the **A/O/B/N** setting on **On Date**.
-  *	Click the **Forecast** Button.
-  *	Move the Forecast and **Frequency Definition Wizard** screens so that you can see both.
-  *	On the **Forecast** screen, only **January 3rd** for this year should be green. 
-  *	Click **Finish**.
-8.	Frequency: **Begin of Period**
-  *	Select **Begin of Period Frequency Practice** in the Job Name drop-down menu.
-  *	While in the Frequency Screen, click the **Add** button below the **Frequency List**. 
-  *	Click the Create new **Frequency** radio button.
-  *	Type **BOM-A** in the **Frequency Name** field.
-  *	Click **Next**.
-  *	Select the **Beg of Period** radio button.
-  *	Change the **A/O/B/N** setting from **On Date** to **After Date** 
-  *	Click the **Forecast** Button.
-  *	Move the **Forecast** and **Frequency Definition Wizard** screens so that you can see both.
-  *	On the **Forecast** screen, the **first working day** of every month should be green. Notice how holidays and weekends affect this Frequency.
-  *	Click **Finish**.
-9.	Frequency: **Mid of Period**
-  *	Select **Mid of Period Frequency Practice** in the Job Name drop-down menu.
-  *	While in the Frequency Screen, click the **Add** button below the **Frequency List**. 
-  *	Click the **Create new Frequency** radio button.
-  *	Type **Mid-Wed-A** in the Frequency Name field.
-  *	Click **Next**.
-  *	Select the **Mid of Period** radio button.
-  *	Select Wednesday from the Day of the Week menu.
-  *	Change the **A/O/B/N** setting from **On Date** to **After Date**. 
-  *	Click the **Forecast** Button.
-  *	Move the **Forecast** and **Frequency Definition Wizard** screens so that you can see both.
-  *	On the **Forecast** screen, the Wednesday closest to the middle of every month should be green. Notice how holidays and weekends affect this Frequency.
-  *	Click **Finish**.
-10.	Frequency: **End of Period**
-  *	Select **End of Period Frequency Practice** in the Job Name drop-down menu.
-  *	While in the Frequency Screen, click the **Add** button below the **Frequency List**. 
-  *	Click the **Create new Frequency** radio button.
-  *	Type **EOM-B** in the **Frequency Name** field.
-  *	Click **Next**.
-  *	Select the **End of Period** radio button.
-  *	Change the **A/O/B/N** setting from **On Date** to **Before Date**. 
-  *	Click the **Forecast** Button.
-  *	Move the **Forecast** and **Frequency Definition Wizard** screens so that you can see both.
-  *	On the **Forecast** screen, the **last working day** of every month should be green. Notice how holidays and weekends affect this Frequency.
-  *	Click **Finish**.
+1. Aprire **Job Master**.
+2. Selezionare lo Schedule **Frequency Practice** nell'elenco a discesa **Schedule**.
+3. Fare clic sul pulsante **Add**.
+4. Inserire **On Request Frequency Practice** nella casella di testo **Name**.
+5. Fare clic sul pulsante **Save**.
+6. Ripetere i passi dal ```3``` al ```5``` per creare i tre Null Jobs:
+    * **Begin of Period Frequency Practice**
+    * **Mid of Period Frequency Practice**
+    * **End of Period Frequency Practice**
+7. Frequency: **On Request**
+    * Selezionare **On Request Frequency Practice** nell'elenco a discesa **Job Name**.
+    * Nella schermata delle Frequenze fare clic sul pulsante Add al di sotto della lista delle **Frequenze**.
+    * Selezionare l'opzione **Crea una nuova Frequenza** (**Create New Frequency**).
+    * Digitare ```OnRequest``` nel campo di testo **Frequency Name**.
+    * Fare clic su **Next**.
+    * Selezione l'opzione **On Request**.
+    * Selezionare **3 Gennaio** per la **Request Date**.
+    * Lasciare l'impostazione **A/O/B/N** su **On Date**.
+    * Fare clic sul pulsante **Forecast**.
+    * Spostare la schermata **Frequency Definition Wizard** in modo da vedere entrambe le schermate.
+    * Nella schermata **Forecast** dovrebbe comparire in verde unicamente la data del **3 Gennaio**.
+    * Fare clic sul pulsante **Finish**.
+8. Frequenza: **Inizio Periodo**
+    * Selezionare **Begin of Period Frequency Practice** nell'elenco a discesa **Job Name**.
+    * Nella schermata delle **Frequenze** fare clic sul pulsante Add al di sotto della lista delle **Frequenze**.
+    * Selezionare l'opzione **Crea una nuova Frequenza (Create New Frequency)**.
+    * Digitare ```BOM-A``` nel campo di testo **Frequency Name**.
+    * Fare clic su **Next**.
+    * Selezione l'opzione **Beg of Period**.
+    * Cambiare l'impostazione **A/O/B/N** da **On Date** a **After Date**.
+    * Fare clic sul pulsante **Forecast**.
+    * Spostare la schermata **Frequency Definition Wizard** in modo da vedere entrambe le schermate.
+    * Nella schermata **Forecast**, dovrebbe comparire in verde **il primo giorno lavoraivo** di ogni mese. Osservare come le festività ed i fine settimane agiscono su questa Frequenza.
+    * Fare clic sul pulsante **Finish**.
+9. Frequenza: **Metà Periodo**
+    * Selezionare **Mid of Period Frequency Practice** nell'elenco a discesa **Job Name**.
+    * Nella schermata delle **Frequenze** fare clic sul pulsante **Add** al di sotto della lista delle **Frequenze**.
+    * Selezionare l'opzione **Crea una nuova Frequenza (Create New Frequency)**.
+    * Digitare ```Mid-Wed-A``` nel campo di testo **Frequency Name**.
+    * Fare clic su **Next**.
+    * Selezionare l'opzione **Mid of Period**.
+    * Selezionare Mercoledì nei giorni della settimana (Day of the Week menu).
+    * Cambiare l'impostazione **A/O/B/N** da **On Date** a **After Date**
+    * Fare clic sul pulsante **Forecast**.
+    * Spostare la schermata **Frequency Definition Wizard** in modo da vedere entrambe le schermate.
+    * Nella schermata **Forecast**, dovrebbero comparire in verde i Mercoledì vicini alla metà di ogni mese. Osservare come le festività ed i fine settimana agiscono su questa Frequenza.
+    * Fare clic sul pulsante **Finish**.
+10. Frequency: **End of Period**
+    * Selezionare **End of Period Frequency Practice** nell'elenco a discesa **Job Name**.
+    * Nella schermata delle **Frequenze** fare clic sul pulsante **Add** al di sotto della lista delle **Frequenze**.
+    * Selezionare l'opzione **Crea una nuova Frequenza (Create New Frequency)**.
+    * Digitare ```EOM-B``` nel campo di testo **Frequency Name**.
+    * Fare clic su **Next**.
+    * Selezionare l'opzione **End of Period**.
+    * Cambiare l'impostazione **A/O/B/N** da **On Date** a **Before Date**.
+    * Fare clic sul pulsante **Forecast**.
+    * Spostare la schermata **Frequency Definition Wizard** in modo da vedere entrambe le schermate.
+    * Nella schermata **Forecast**, dovrebbero comparire in verde gli ultimi giorni lavorativi di ogni mese. Osservare come le festività ed i fine settimana agiscono su questa Frequenza.
+    * Fare clic sul pulsante **Finish**.
 
 </details>

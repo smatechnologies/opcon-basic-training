@@ -1,18 +1,19 @@
 ---
-sidebar_label: 'Unit 2 Exercise 11'
+sidebar_label: 'Unità 2 Esercizio 11'
+hide_title: 'false'
 ---
 
-### Exercise 11: Multiple Frequencies
+## Esercizio 11 - Frequenze Multiple
 
-##### Objective: 
+##### Obiettivo: 
 
-Create a new Schedule named **MULTIPLE AND NEGATIVE FREQUENCIES** that runs Monday-Friday. Add a Null Job named **MULTIPLE FREQUENCIES**. 
+Creare un nuovo Schedule con nome **MULTIPLE AND NEGATIVE FREQUENCIES** per eseguire dal Lunedì al Venerdì. Aggiungere un Job Nullo chiamato **MULTIPLE FREQUENCIES**.
 
-Create a Frequency to run on the **15th of the Month** and a second Frequency to run on the **last business day of the month**. 
+Creare una Frequenza per eseguire il **15 esimo giorno del mese** ed una seconda Frequenza per eseguire nell'**ultimo giorno lavorativo del mese**.
 
-The Job should run at ```20:00``` on when it is not the last day of the month and ```18:00``` on the last day of the month.
+Il Job dovrebbe eseguito alle ```20:00``` quando non è l'ultimo giorno del mese e alle ```18:00``` l'ultimo giorno del mese.
 
-Within the same Schedule, create a new Job named **NEGATIVE FREQUENCIES**. The Job should have Frequencies that allow it to run Monday-Friday, unless it is a **holiday** or the **last Day of the month**.
+All'interno dello stesso Schedule, creare un nuovo Job denominato **NEGATIVE FREQUENCIES**. Il Job dovrebbe avere frequenze che gli consentano di essere eseguito dal lunedì al venerdì, a meno che non sia un **giorno festivo** o **l'ultimo giorno del mese**.
 
 
 <div>
@@ -24,21 +25,21 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	**Multiple Frequencies**
-  *	Create a new Schedule.
-  *	Add a Null Job and setup Frequencies allowing a Job to run on the 15th of the month (working day before) and the last business day of the month.
+1. **Multiple Frequencies**
+* Creare un nuovo Schedule.
+* Aggiungi un Job nullo e imposta le frequenze per consentire l'esecuzione di un Job il 15 del mese (giorno lavorativo precedente) e l'ultimo giorno lavorativo del mese.
     * Schedule - 5 Day Work Week
-    * The Job runs at ```20:00``` when it is not the last day of the month and ```18:00``` when it is the last business day of the month.
-  *	Use the Forecast All Button to view both Frequencies.
-    * The first listed will be Green and the second will be Yellow. 
-2.	**Negative Frequencies**
-  *	In a new Null Job (same Schedule), set up Frequencies allowing the Job to run every day of the month, Monday through Friday, unless it is a Holiday or the last Day of the Month.
-  *	Use the Forecast All Button to view both Frequencies.
+    * Il lavoro viene eseguito alle ```20:00``` quando non è l'ultimo giorno del mese e alle ```18:00``` quando è l'ultimo giorno lavorativo del mese.
+* Utilizzare il pulsante Forecast All per visualizzare entrambe le Frequenze.
+    * Il primo elencato sarà Verde e il secondo sarà Giallo.
+2. **Frequenze Negative**
+* In un nuovo Job Nullo (stesso Schedule), impostare le frequenze che consentono al lavoro di essere eseguito tutti i giorni del mese, dal lunedì al venerdì, a meno che non sia un giorno festivo o l'ultimo giorno del mese.
+* Utilizzare il pulsante Forecast All per visualizzare entrambe le Frequenze.
   
-  :::note
-  The Negative Frequency will appear purple
+  :::note Nota
+  _Frequenza negativa apparirà viola_
   :::
 
 </details>

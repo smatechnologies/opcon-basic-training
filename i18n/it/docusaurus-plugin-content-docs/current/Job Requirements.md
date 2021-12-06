@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Job Requirements'
+sidebar_label: 'Requisiti di un Job'
+hide_title: 'false'
 ---
+
+## Requisiti di un Job
 
 <figure>
     <audio
@@ -11,20 +14,19 @@ sidebar_label: 'Job Requirements'
     </audio>
 </figure>
 
-OpCon needs some basic information to run a process:
+OpCon ha bisogno di alcune informazioni di base per poter eseguire un processo:
 
-* Job type (Windows, UNIX, etc.)
-* Where it will run (Machine)
-* User associated with execution
-* What program/script (Command Line) will OpCon run
+* Tipo di Job (Windows, UNIX, etc.)
+* Dove verrà eseguito (Machine)
+* Utente con cui verrà eseguito
+* Quale programma/script (Line di Comando) OpCon eseguirà
 
+### Tipo di Job
 
-### Job Type
-
-* **Job Type** defines the type of process to run
-* Usually associated with a specific Operating System
-* Only Job Types configured within your OpCon Environment are shown
-* Once a Job Type is selected, parameters specific to the chosen technical environment are displayed
+* **Il tipo di Job** definisce il tipo di processo da eseguire
+* Normalmente è associato ad uno specifico Sistema Operativo
+* OpCon mostrerà soltato i Tipi di Job configurati nel proprio ambiente
+* Una volta selezionato il Job Type, verranno mostrati solo i dettagli specifici per l'ambiente tecnico scelto
 
 <a href="imgbasic/Picture15.png" target="_blank"><img src="imgbasic/Picture15.png" width="500"></img></a> 
 
@@ -39,7 +41,7 @@ OpCon needs some basic information to run a process:
     </audio>
 </figure>
 
-Windows Job Type parameters must be set:
+Definizione dei dettagli del Job Type Windows:
 
 * Primary Machine
 * User Id
@@ -47,4 +49,4 @@ Windows Job Type parameters must be set:
 
 <a href="imgbasic/Picture16.png" target="_blank"><img src="imgbasic/Picture16.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

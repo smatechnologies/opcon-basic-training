@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'OpCon Logs'
+sidebar_label: 'Logs di OpCon'
+hide_title: 'false'
 ---
+
+## Logs di OpCon
 
 <figure>
     <audio
@@ -11,21 +14,21 @@ sidebar_label: 'OpCon Logs'
     </audio>
 </figure>
 
-##### Log location  
+##### Posizione dei file di Log
 
-* If OpCon was installed on a **system drive**, Logs will be stored in **ProgramData**  
+* Se OpCon è stato installato **sul disco di sistema**, i log saranno memorizzati in **ProgramData**  
 ```
 C:\ProgramData\OpConxps\SAM\Log
 ```
-* If OpCon was installed on a **non-system drive**, Logs will be stored in **Program Files**  
+* Se OpCon è stato installato **su un discno non di sistema**, i log saranno installati nel percorso scelto   
 ```
 [[Drive]]\[[Location selected for Output Files]]
 ```
 
-##### Enterprise Manager Shortcut  
+##### Scorciatori da stastira per Enterprise Manager
 
-  * Auto-updating Logs (current Logs)
-  * **Requires OpConxps folder to be shared with users**
+* Logs Autoaggiornanti (Logs correnti)
+* **Richiede che il percorso di OpCon sia confviso con gli utenti**
 
 <a href="imgbasic/Picture53.png" target="_blank"><img src="imgbasic/Picture53.png" width="300"></img></a>  
 
@@ -40,23 +43,22 @@ C:\ProgramData\OpConxps\SAM\Log
     </audio>
 </figure>
 
-* OpCon Logs are **VITAL** to the Support team when researching an issue
-  * Please zip up full Log folder and upload it to SMA’s FTP site if an issue occurs
-Log Collectors
-* The SMA DataCollector Program can collect all SMA application Logs
-  * SMASUP will collect all LSAM (Agent) Logs
+* I Log di OpCon hanno una importanza **FONDAMENTALE** per il team di supporto durante la ricerca di un problema
+    * Si prega di comprimere l'intera cartella Log e caricarla sul sito **FTP di SMA** se si verifica un problema al **Log Collector**
+* Il programma **SMA DataCollector** può raccogliere tutti i log dell'applicazione SMA
+    * SMASUP raccoglierà tutti i log di **LSAM (agente)**
 
 <a href="imgbasic/Picture54.png" target="_blank"><img src="imgbasic/Picture54.png" width="500"></img></a>  
 
-### OpCon Log Files
+### OFiles di Log di OpCon
 
-OpCon Log files can help with troubleshooting  
+I file di log di OpCon possono aiutare nella risoluzione dei problemi 
 
-* For problems with Job executions, check:
-  * Configuration tab in Job Information
-  * Job Output
-  * **SAM log**
-  * **Critical log**
+* Per problemi con l'esecuzione dei Job, controllare:
+    * Scheda Configurazione in Informazioni sul Job
+    * Job Output
+    * **SAM log**
+    * **Critical log**
 
 ### SAM Log
 
@@ -69,16 +71,16 @@ OpCon Log files can help with troubleshooting
     </audio>
 </figure>
 
-SAM - Schedule Activity Monitor  
+SAM - Schedule Activity Monitor
 
-* “Brain” of OpCon’s Engine  
+* “Cervello” del motore di OpCon’s
 
-Running list of all transactions  
+Elenco corrente di tutte le transazioni
 
-* Job Status Changes
-* Incoming Events
-* Failures
-* License Information 
+* Cambiamento di stato di Job
+* Eventi in arrivo
+* Fallimenti
+* Informazioni relative alla licenza
 
 <a href="imgbasic/Picture55.png" target="_blank"><img src="imgbasic/Picture55.png" width="500"></img></a>  
 
@@ -95,13 +97,13 @@ Running list of all transactions
     </audio>
 </figure>
 
-* Reports SAM errors
-* Properties which cannot be resolved
-  * If a Job places itself On Hold, refer to the Critical Log
-* Events with invalid syntax
-* Machine communication issues
-* Database connection problems
+* Segnala gli errori di **SAM**
+* Proprietà non risolvibili
+    * Se un Job si mette in attesa, fare riferimento al **Critical Log**
+* Eventi con sintassi non valida
+* Problemi di comunicazione con la macchina
+* Problemi di connessione al database
 
 <a href="imgbasic/Picture56.png" target="_blank"><img src="imgbasic/Picture56.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

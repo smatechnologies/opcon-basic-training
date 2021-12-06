@@ -1,12 +1,13 @@
 ---
-sidebar_label: 'Unit 3 Exercise 5'
+sidebar_label: 'Unità 3 Esercizio 5'
+hide_title: 'false'
 ---
 
-### Exercise 5: Schedule Privileges
+### Esercizio 5: Privilegi a livello di Schedule
 
-##### Objective:
+##### Obiettivo:
 
-Grant **Schedule Privileges** to the ```Training``` Role for **MY FIRST SCHEDULE**.
+Concedere **privilegi di Schedule** al ruolo ```Formazione``` per **My First Schedule**.
 
 <div>
 <video width="320" height="240" controls>
@@ -17,12 +18,12 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Security > Privileges** topic, Double-Click on **Schedule Privileges**. 
-2.	On the **Select Role** drop-down list select the **Training Role**.
-3.	Notice that all Schedules are presented on the Revoked list (on the left) 
-4.	Under the Revoked list, click the **My First Schedule** Schedule and then click the green arrow (pointing to the right) to put **My First Schedule** under the **Granted** list.
-5.	Close the **Schedule Privileges** tab.
+1. Nel menù **Security > Privileges** fare doppio clic su **Schedule Privileges**.
+2. Nell'elenco a discesa **Select Role** selezionare il ruolo **Training Role**.
+3. Osservare che tutti gli Schedules sono mostrati nella lista Revoked (a sinistra)
+4. Nella lista Revoked selezionare lo Schedule **My First Schedule** e poi fare clic sulla freccia verde (che punta a destra) per spostare **My First Schedule** nella lista dei **Granted**.
+5. Chiudere la scheda **Schedule Privileges**.
 
 </details>

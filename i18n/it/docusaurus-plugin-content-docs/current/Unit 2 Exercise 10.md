@@ -1,24 +1,25 @@
 ---
-sidebar_label: 'Unit 2 Exercise 10'
+sidebar_label: 'Unità 2 Esercizio 10'
+hide_title: 'false'
 ---
 
-### Exercise 10: Frequencies - On Interval and Annual Plan Calendar
+## Esercizio 10: Frequenze - Calendario ad Intervalli e Piano Annuale
 
-##### Objective:
+##### Obiettivo:
 
-Within the existing **Frequency Practice Schedule**, create three new Null Jobs:
+All'interno dello Schedule **Frequency Practice Schedule**, creare 3 nuovi job nulli :
 
-**On Interval Frequency Practice**
-**Annual Frequency Practice**
-**Annual Plan Frequency with Offsets**
+* **On Interval Frequency Practice** 
+* **Annual Frequency Practice** 
+* **Annual Plan Frequency with Offsets**
 
-In the **On Interval Frequency Practice** Job, create a new Frequency named ```Every-15thand30th-B```. This Frequency should run on intervals of the 15th and 30th of the month, or the day before in case of a holiday.
+Nel Job **On Interval Frequency Practice**, creare una nuova Frequenza chiamata ```Every-15thand30th-B```. Questa Frequenza dovrà essere eseguita negli intervalli del ```15``` e del ```30``` di ogni mese.
 
-In the **Calendar Master**, add a new Calendar named ```Company Holiday Calendar``` and select several dates from this year. Provide appropriate documentation.
+Nel Calendario **Calendar Master**, aggiungere un nuovo Calendario chiamato ```Company Holiday Calendar``` e selezionare diverse date di quest'anno. Fornire la documentazione appropriata.
 
-In the **Annual Frequency Practice** Job, create a new Frequency named ```CompanyHoliday```. Schedule the Frequency using an **Annual Plan** by selecting the ```Company Holiday Calendar```.
+Nel Job **Annual Frequency Practice**, creare una nuova Frequenza chiamata ```CompanyHoliday```. Pianifica la Frequenza utilizzando un Piano Annuale selezionando il Calendario Company Holiday Calendar.
 
-In the **Annual Plan Frequency with Offsets** Job, create a new Frequency named ```CompanyHoliday+1```. This Frequency should use the ```Company Holiday Calendar``` **Annual Plan** with an offset of ```1 day```.
+Nel Job **Annual Plan Frequency with Offsets**, creare una nuova Frequenza chiamata ```CompanyHoliday+1```. Questa Frequenza dovrebbe utilizzare il Calendario **Company Holiday Calendar** con un offser di ```+1``` giorno.
 
 
 <div>
@@ -30,69 +31,69 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Open the **Job Master**.
-2.	Select **Frequency Practice Schedule** from the **Schedule** drop-down menu.
-3.	Click the **Add** button.
-4.	Enter **On Interval Frequency Practice** in the **Name** text field.
-5.	Click the **Save** button.
-6.	Repeat Steps 3-5 creating the following Jobs:
+1. Aprire **Job Master**.
+2. Selezionare lo Schedule **Frequency Practice** dall'elenco a discesa **Schedule**.
+3. Fare clic sul pulsante **Add**.
+4. Inserire **On Interval Frequency Practice** nella casella di testo **Name**.
+5. Fare clic sul pulsante **Save**.
+6. Ripetere i passi dal 3 al 5 per creare i seguenti Null Jobs:
   *	**Annual Frequency Practice**.
   *	**Annual Plan Frequency with Offsets**.
-7.	Frequency: **On Interval**
-  *	Select **On Interval Frequency Practice** in the Job Name drop-down menu
-  *	While in the **Frequency** Screen, click the **Add** button below the **Frequency List**. 
-  *	Click the **Create new Frequency** radio button.
-  *	Type **Every-15thand30th-B** in the **Frequency Name** field.
-  *	Click **Next**.
-  *	Select the **On Intervals** radio button.
-  *	Mark the checkboxes for the ```15``` and ```30``` under the **On Intervals** parameter.
-  *	Change the **A/O/B/N** setting from **On Date** to **Before Date**. 
-  *	Click the **Forecast** Button.
-  *	Move the **Forecast** and **Frequency Definition Wizard** screens so that you can see both.
-  *	On the **Forecast** screen, the **15th and 30th days** of each month are green, moving **“Before”** for holidays and weekends and holidays.
-  *	Click **Finish**.
-8.	Frequency: **Annual Plan**
-  *	Click on **Calendars** from the **Navigation Panel**.
-  *	Click the **Add** Button.
-  *	Type **Company Holiday Calendar** in the **Name** field.
-  *	Enter **Documentation** like: **This Calendar will be used in an Annual Plan Frequency**.
-  *	Click the **Save** Button.
-  *	Click several dates in the Calendar.
-    * Note: The dates are saved dynamically
-  *	Click the **right arrow** by the **Month** right above the Calendar to go to the next months.
-  *	Click the **down arrow** by the **Year** right above the Calendar to move to the next year.
-  *	Close the **Calendars** tab.
-  *	Open the **Job Master**.
-  *	Select the **Frequency Practice Schedule** from the Schedule drop-down menu.
-  *	Click the **Add** button.
-  *	Enter **Annual Plan Frequency** in the Name text field.
-  *	Click the **Save** button.
-  *	Click on the **Frequency** tab.
-  *	Click the **Add** button below the Frequency List.
-  *	Click the **Create new Frequency** radio button.
-  *	Type **CompanyHoliday** in the **Frequency Name** field.
-  *	Click **Next**.
-  *	In the **When to Schedule** section, click the **Annual Plan** radio button.
-  *	From the **Calendar** drop-down menu, select the **Company Holiday Calendar**.
-  *	Click **Forecast** to view the Frequency.
-    * The dates should match those you entered in the Calendar.
-  *	Click **Ok**.
-  *	Click **Finish**.
-9.	Frequency: **Annual Plan with Offsets**
-  *	Select **Annual Plan Frequency with Offsets** in the Job Name drop-down menu
-  *	While in the Frequency Screen, click the **Add** button below the **Frequency List**. 
-  *	Click the **Create new Frequency** radio button.
-  *	Type **CompanyHoliday+1** in the **Frequency Name** field.
-  *	Click **Next**.
-  *	In the **When to Schedule** section, click the **Annual Plan** radio button.
-  *	From the **Calendar** drop-down menu, select the **Company Holiday Calendar**.
-  *	In the **Offset Days** box enter the number ```1```.
-  *	Click **Forecast** to view the Frequency. 
-  *	The dates selected should be the next working day of the dates selected in the Calendar.
-  * Click **Ok**.
-  *	Click **Finish**.
-  *	Close the **Job Master** tab.
+7. Frequenza: On Interval
+    * Selezionare **On Interval Frequency Practice** dall'elenco a discesa **Job Name**.
+    * Nella schermata delle Frequenze fare clic sul pulsante **Add** al di sotto della lista delle **Frequenze**.
+    * Selezionare l'opzione **Crea una nuova Frequenza (Create New Frequency)**.
+    * Digitare ```Every-15thand30th-B``` nel campo di testo **Frequency Name**.
+    * Fare clic su **Next**.
+    * Selezione l'opzione **On Interval**.
+    * Selezionare il ```15``` e il ```30```  nel parametro **On Intervals**.
+    * Lasciare l'impostazione **A/O/B/N** su **On Date**.
+    * Fare clic sul pulsante **Forecast**.
+    * Spostare la schermata **Frequency Definition Wizard** in modo da vedere entrambe le schermate.
+    * Nella schermata **Forecast** dovrebbe comparire in verde unicamente la data del ```3 Gennaio```.
+    * Fare clic sul pulsante **Finish**.
+8. Frequency: **Annual Plan**
+    * Fare clic su **Calendars** dal **Pannello di Navigazione**.
+    * Fare clic sul pulsante **Save**.
+    * Digitare **Company Holiday Calendar** nel campo **Name**.
+    * Inserire una **Documentazione** tipo: **Questo calendario sarà utilizzato con una Frequenza di tipo Piano Annuale**.
+    * Fare clic sul pulsante **Save**.
+    * Fare clic su svariate date del **Calendario**.
+        * _Nota: Le data sono sakvate automaticamente_.
+    * Fare clic sulla **freccia alla destra** del **Mese** in alto a destra del Calendario per andare al mese successivo.
+    * Fare clic sulla **freccia in basso** dell' **Anno** in alto a destra del Calendario per andare all'anno successivo.
+    * Chiudere la scheda **Calendari**.
+    * Aprire **Job Master**.
+    * Selezionare lo Schedule **Frequency Practice Schedule** dal Menù a tendina **Schedule**.
+    * Fare clic sul pulsante **Add**.
+    * Inserire **Annual Plan Frequency** nella casella di testo **Name**.
+    * Fare clic sul pulsante **Save**.
+    * Fare clic sulla scheda  **Frequenza**.
+    * Fare click sul pulsante **Add** sotto la lista delle **Frequenze**.
+    * Scegliere l'ozione **Create new Frequency**.
+    * Digitare ```CompanyHoliday``` nel campo **Frequency Name**.
+    * Fare click su **Next**.
+    * Nella sezione **When to Schedule**, scegliere l'opzione **Annual Plan**.
+    * Nell'elenco a discesa **Calendar**, scegliere il Calendario **Company Holiday Calendar**.
+    * Fare clic su **Forecast** per visualizzare la **Frequenza**.
+        * Le date dovrebbero corrispondere a quelle inserite nel Calendario.
+    * Fare clic sul pulsante **Ok**.
+    * Fare clic sul pulsante **Finish**.
+9. Frequenza: **Piano Annuale con Offset**
+    * Selezionare **Annual Plan Frequency with Offsets** nell'elenco a discesa Nome Job
+    * Nella Schermata della **Frequency**, fare clic sul pulsante **Add** al di sotto della **Lista delle Frequenze**.
+    * Scegliere l'opzione **Create new Frequency**.
+    * Digitare ```CompanyHoliday+1``` nel campo **Frequency Name**.
+    * Fare click su **Next**.
+    * Nella sezione When to **Schedule**, scegliere l'opzione **Annual Plan**.
+    * Nell'elenco a discesa **Calendar** scegliere **Company Holiday Calendar**.
+    * Nel riquadro **Offset Days** inserire il numero ````1````.
+    * Scegliere **Forecast** Per visualizzare la Frequenza.
+    * Le date selezionate devono essere il giorno lavorativo successivo alle date selezionate nel Calendario.
+    * Fare clic sul pulsante **Ok**.
+    * Fare clic sul pulsante **End**.
+    * Chiudere la scheda **Job Master**.
 
 </details>

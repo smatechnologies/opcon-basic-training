@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Batch Jobs'
+sidebar_label: 'Concetti di Automazione e Batch Job'
+hide_title: 'false'
 ---
+
+## Concetti di Automazione e Batch Job
 
 <figure>
     <audio
@@ -13,19 +16,17 @@ sidebar_label: 'Batch Jobs'
 
 <a href="imgbasic/Picture13.png" target="_blank"><img src="imgbasic/Picture13.png" width="500"></img></a>
 
-###### (Click Image to Enlarge)
-
 ### Batch Jobs
 
-* A **Batch Job** is an executable, scripted performance of one or more programs
-  * Batch Jobs are designed to run without direct user interaction
-* With OpCon, **Enterprise Manager** and **Solution Manager** are the User Interfaces for creating and maintaining Batch Jobs
+* Un **Job Batch** può essere un eseguibile, o uno script per eseguire uno o più programmi
+    * I Jobs batch sono progettati per essere eseguiti senza interazione diretta dell'utente
+* In OpCon, **Enterprise Manager** e **Solution Manager** sono le User Interfaces per creare e manutener i Jobs Batch
 
 
-##### What can be executed from a Windows Batch Job?
+##### Cose pu; essere eseguito da un Job Batch Windows?
 
-* Anything executed from CMD Window
+* Qualsiasi cosa che pu; essere eseguita dal prompt dei comanddi (CMD) di Window
 
 <a href="imgbasic/Picture14.png" target="_blank"><img src="imgbasic/Picture14.png" width="500"></img></a>
 
-###### (Click Image to Enlarge)
+###### (Click sull'Immagine per Ingrandire)

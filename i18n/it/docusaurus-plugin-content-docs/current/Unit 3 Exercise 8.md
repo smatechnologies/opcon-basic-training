@@ -1,18 +1,19 @@
 ---
-sidebar_label: 'Unit 3 Exercise 8'
+sidebar_label: 'Unità 3 Esercizio 8'
+hide_title: 'false'
 ---
 
-### Exercise 8: Notification Mananger
+## Esercizio 8: Notification Manager
 
-##### Objective:
+##### Obiettivo:
 
-In **Notification Manager**, create a Notification by adding a **Root Group** named ```ALL MACHINES``` and adding both the ```WINDOWS``` and ```UNIX``` machine.
+In **Notification Manager**, creare una Notifica, definendo un gruppo principale **Root Group** chiamata ```ALL MACHINES``` e aggiungendo ```WINDOWS``` and ```UNIX``` machine.
 
-Add a **Machine Trigger** for ```Machine Marked Up```.
+Aggiungere un fattore scatenante a livello di macchina (```Machine Trigger```) per ```Una macchina che diventa Online (Marked Up)```.
 
-Send an email to ```smauser@congo.local``` with the message: "TESTING EMAIL NOTIFICATION". 
+Inviare una mail a ```smauser@congo.local``` con iul messaggio : “TESTING EMAIL NOTIFICATION”.
 
-Press the **Test** button to send the email. Open Thunderbird to verify successful notification.
+Fare click sul pulsante **Test** per testare l'invio. Aprire Thunderbird per verificare la corretta notifica..
 
 
 <div>
@@ -24,23 +25,23 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-1.	Under the **Management** topic, Double-Click on **Notification Manager**. 
-2.	Click on the **Machines** tab. 
-3.	Right-Click in the white area under the Machines tab and select **Add Root Group**.
-4.	Type the name of the Machine Group (e.g., All Machines) and click **OK**.
-5.	On the right side of the screen, expand the Operating Systems and check all the box(es) next to the **Machine(s)**.
-6.	Click the **Save** button (bottom right).
-7.	Right-Click the **Group** folder created in step 4, move the mouse to **Add Machine Trigger**, and select the **```Machine Marked Up``` Trigger**.
-8.	Under **Notification Definitions** on the right:
-9.	Mark the **Send Email (SMTP)** checkbox.
-10.	Click the **Email** tab.
-11.	In the To field, enter ```smauser@congo.local```.
-12.	Enter a **Subject**.
-13.	In the **Message**, enter **Testing email notification**.
-14.	Click the **Test** button to test your notification results
-15.	Click the **Save** button.
-16.	Open Thunderbird and check the inbox.
+1. Nel menù **Management** fare click su **Notification Manager**.
+2. Fare clic nella scheda **Machines**.
+3. Fare clic con il pulsante destro del mouse nell'area bianca sotto la scheda Macchine e selezionare **Add Root Group**.
+4. Digitare il nome del gruppo di macchine (ad es. Tutte le macchine) e fare clic su **OK**.
+5. Sul lato destro dello schermo, espandi Sistemi operativi e seleziona tutte le caselle accanto a **Machine(s)**.
+6. Fare clic sul pulsante **Save**.
+7. Fare clic con il pulsante destro sulla cartella **Group** creata al punto 4. Selezionare ```Add Machine Trigger```, e selezionare il trigger relativo and una macchina contrassegnata come connessa - ```Machine Marked Up Trigger```.
+8. Nelle definizioni della notifica (**Notification Definitions**) sulla destra:
+9. Selezionare la spunta nell'opzione **Send Email (SMTP)**.
+10. Fare clic nella schea **Email**.
+11. nel campo to inserire : ```smauser@congo.local```.
+12. Inseire un **Subject**.
+13. Nel **Messaggio**, inserire **Testing email notification**.
+14. Fare clic sul pulstante **Test** per testare il risultato delle notifica in anteprima
+15. Fare clic sul pulsante **Save**.
+16. Aprire il client di posta **Thunderbird** e controllare la casella della posta in arrivo.
 
 </details>

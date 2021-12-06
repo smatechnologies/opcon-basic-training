@@ -1,6 +1,9 @@
 ---
-sidebar_label: 'Batch Users'
+sidebar_label: 'Utenti Batch'
+hide_title: 'false'
 ---
+
+## Utenti Batch
 
 <figure>
     <audio
@@ -11,26 +14,26 @@ sidebar_label: 'Batch Users'
     </audio>
 </figure>
 
-* The **Batch User** editor is used to create and maintain Batch Users that are required for processing Jobs on Windows, i5OS, MCP, UNIX and OpenVMS
+* L' editor utente batch viene utilizzato per creare e gestire gli **utenti batch** necessari per l'elaborazione dei lavori su ```Windows```, ```i5OS```, ```MCP```, ```UNIX``` e ```OpenVMS```
 
-* Privileges attached to these Batch Users are managed in the **Batch User Privileges** screen
+* I privilegi associati a questi utenti batch sono gestiti nella schermata **Batch User Privileges**
 
 <a href="imgbasic/3305.png" target="_blank"><img src="imgbasic/3305.png" width="500"></img></a>
 
 
-### Batch User Privileges
+### Privilegi Utenti Batch - Batch User Privileges
 
-* These operating systems require a valid User ID to be associated with each Job submitted by OpCon
+* Questi sistemi operativi richiedono un ID utente valido da associare a ciascun Job inviato da OpCon
     * IBM i (user ID)
     * MCP (Usercode)
     * OpenVMS (user ID)
     * UNIX (user ID / group ID)
     * Windows (user ID)
 
-:::note
-SQL Agent also requires an added valid Batch User Privilege
+:::note Nota
+L'Agent SQL richiede anche un privilegio utente batch valido aggiunto
 :::
 
 <a href="imgbasic/3306.png" target="_blank"><img src="imgbasic/3306.png" width="500"></img></a>  
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

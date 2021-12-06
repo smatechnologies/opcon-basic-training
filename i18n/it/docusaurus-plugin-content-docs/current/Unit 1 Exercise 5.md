@@ -1,17 +1,19 @@
 ---
-sidebar_label: 'Unit 1 Exercise 5'
+sidebar_label: 'Unità 1 Esercizio 5'
+hide_title: 'false'
 ---
 
-### Exercise 5: Job Tags and Tag Manager
+## Esercizio 5: Job Tags e Tag Manager
 
-##### Objective:
+##### Obiettivo:
 
-Tag the first three Jobs in **MY FIRST SCHEDULE** with the following Tags:
+Aggiungere un Tag ai primi tre Jobs in **MY FIRST SCHEDULE** con i seguenti **Tags**:
 
-* ```CRITICAL```
-* ```GENERICP```
+```CRITICAL```
 
-Once the Jobs are tagged, view the Tag assignments in **Tag Manager**.
+```GENERICP```
+
+Una volta che i lavori sono stati etichettati, visualizzare le assegnazioni dei Tag in **Tag Manager**.
 
 <div>
 <video width="320" height="240" controls>
@@ -22,23 +24,25 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
 #### Job Tags
-1.	Under the **Administration** topic, Double-Click on **Job Master**. 
-2.	In the **Schedule** drop-down list, select **My First Schedule**.
-3.	In the **Job** drop-down list, select **Windows Job 1**.
-4.	Under **Job Properties**, click on the **Tags** tab.
-5.	In the **Choose Tag** field, type **Critical** and press Enter.
-6.	In the **Choose Tag** field, type **genericp** and press Enter.
-7.	Click the **Save** Button.
-8.	Repeat Steps 3 – 7 for **Windows Jobs 2 and 3**.
-9.	Close the **Job Master**.
+
+1. Nel menù **Administration**, fare Doppio-Click su **Job Master**.
+2. Nell'elenco a discesa **Schedule** selezionare **My First Schedule**.
+3. Nell'elenco a discesa **Job** selezionare **Windows Job 1**.
+4. Nelle **Job Properties**, fare click nella scheda **Tags**.
+5. Nel Campo **Choose Tag**, digitare **Critical** e premere Invio.
+6. Nel Campo **Choose Tag**, digitare **genericp** e premere Invio.
+7. Selezionare il pulsante **Save**.
+8. Ripetere i punti 3 - 7 per **Windows Jobs 2** e **3**.
+9. Chiudere **Job Master**.
 
 #### Tag Manager
-10.	Under the **Management** topic, Double-Click on **Tag Manager**. 
-11.	In the Tag Manager Selection drop-down list, select **Critical**.
-12.	View the Jobs that use this **Tag** category.
-13.	Close the **Tag Manager** tab.
+
+10. Nel menù **Management**, Doppio-Click su **Tag Manager**.
+11. Nell'elenco a discesa **Tag Manager**, selezionare **Critical**.
+12. Visualizza i Job che usano questo **Tag**.
+13. Chiudere **Tag Manager**.
 
 </details>

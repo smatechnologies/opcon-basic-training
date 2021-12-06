@@ -1,6 +1,9 @@
 ---
 sidebar_label: 'Workflow Designer'
+hide_title: 'false'
 ---
+
+## Workflow Designer
 
 <figure>
     <audio
@@ -11,10 +14,10 @@ sidebar_label: 'Workflow Designer'
     </audio>
 </figure>
 
-* The **Workflow Designer** provides a graphical display and workflow for a selected Schedule
-* Drag and drop Dependencies for Jobs, Thresholds, and Resources
-* Each node on the layout represents a Job (rectangle), a Threshold (rounded rectangle), or a Resource (oval)
-* Lines between nodes represent Dependency relationships
+* Il **Workflow Designer** fornisce una visualizzazione grafica e un flusso di lavoro per uno Schedule
+* Il Drag and drop è disponibile per Dipendeze tra Jobs, Soglie (Thresholds), e Risorse (Resources)
+* Ogni nodo sul grafico rappresenta un Job (rettangolo), una soglia (rettangolo arrotondato) o una risorsa (ovale)
+* Le linee tra i nodi rappresentano le relazioni di dipendenza
 
 <a href="imgbasic/Picture87.png" target="_blank"><img src="imgbasic/Picture87.png" width="500"></img></a>  
 
@@ -48,14 +51,14 @@ sidebar_label: 'Workflow Designer'
     </audio>
 </figure>
 
-* For Container Jobs - 
-  * Open SubSchedule
-* For all Job Types -
-  * Edit and Delete the Master job
-  * Find a Job
-  * Isolate a Dependency chain
-  * Change layout
+* Per i Job di tipo Container -
+    * Aprire SubSchedule
+* Per tutti i tipi di Job -
+    * Modificare ed editare il Master job
+    * Trovare un Job
+    * Isolare una catena di Dependenze
+    * Cambiare il layout
 
 <a href="imgbasic/Picture91.png" target="_blank"><img src="imgbasic/Picture91.png" width="400"></img></a> 
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

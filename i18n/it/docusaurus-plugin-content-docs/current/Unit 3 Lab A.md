@@ -1,28 +1,29 @@
 ---
-sidebar_label: 'Unit 3 Lab A'
+sidebar_label: 'Unità 3 Lab A'
+hide_title: 'false'
 ---
 
-### LAB A
+## Unità 3 Lab A
 
-##### Objective:
+##### Obiettivo:
 
-Congo Online Retail Inc.’s., Board of Directors would like to have access to OpCon so they can check the progress of the automated processes.
+Il Consiglio di amministrazione di Congo Online Retail Inc. necessita di accesso a OpCon in modo da poter controllare lo stato di avanzamento dei processi automatizzati.
 
-The IT Management does not want the Board of Directors to be able to make any changes in OpCon and can only view the Schedules created during these Labs. 
+La Direzione IT non vuole che il Consiglio di Amministrazione sia in grado di apportare modifiche a OpCon e può solo visualizzare i Jobs creati durante questi Labs.
 
-Create a **Role** named ```Board Member```. 
+Creare un **Role** chiamato ```Board Member```.
 
-Create a **User Account** named ```Congo Management``` (**Full Username**: ```Board of Directors```) and assign it the ```Board Member``` Role.
+Creare uno **User Account** chiamato ```Congo Management``` (**Nome utente completo - Full Username**: ```Board of Directors```) e assegnare Ruolo ```Board Member```.
 
-The **Role** should be able to View:
+Questo **Role **deve essere in grado di visualizzare:
 
-* **Congo Inventory Management** Schedule
-* **Congo Inventory Reports** Schedule
-* **Congo Payroll Payments** Schedule
-* Jobs in Daily Schedules
-* Jobs in Schedule Operations
+* Lo Schedule **Congo Inventory Management**
+* Lo Schedule **Congo Inventory Reports**
+* Lo Schedule **Congo Payroll Payments**
+* I Jobs negli Schedules giornalieri
+* I Jobs negli Schedule Operations
 
-Log out of Enterprise Manager and log back in as the new **User Account** to verify settings and restrictions.
+Esci e rientrare in Enterprise Manager come nuovo account utente per verificare le impostazioni e le restrizioni.
 
 <div>
 <video width="320" height="240" controls>
@@ -33,27 +34,27 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<summary>Click qui per Istruzioni passo passo</summary>
 
-**Lab Instructions**:  
+**Istruzioni per il Laboratorio**:  
 
-*	Create a **Role** named **Board Member**
-*	Grant permissions to view the following Lab Schedules:
-    *	Congo Inventory Management
-    *	Congo Inventory Reports 
-    *	Congo Payroll Payments
-*	Create a **User Account** named **Congo Management**
-*	Give a **Full Username** of **Board of Directors**
-*	Change the password to ```opconxps```
-*	Assign the **Board Member** role to the Congo Management User Account
-*	The **Board Member** Role should be able to View Jobs in Daily Schedules
-*	The **Board Member** Role should be able to View Jobs in Schedule Operations
-*	Logout of the Enterprise Manager
-*	From top left, choose **Enterprise Manager > Logout**
-*	Login with the new User account and password
-*	Verify the permissions are accurate
-*	The Jobs are visible in the operations view
-*	Changes cannot be made to Jobs
-*	Logout and login again using leaving the Username and Password blank
+* Creare un Role chiamato Board Member
+* Concedere le autorizzazioni per visualizzare le seguenti Schedules:
+    * Congo Inventory Management
+    * Congo Inventory Reports
+    * Congo Payroll Payments
+* Creare uno **User Account** chiamato ```Congo Management```
+* Fornire uno username completo **Full Username** come ```Board of Directors```
+* Cambiare la **password** a ```opconxps```
+* Assegnare al ruolo ```Board Member``` lo User Account ```Congo Management```
+* Il Ruolo ```Board Member``` dovrebbe essere in grado di visualizzare i lavori nelle Schedulazioni giornaliere
+* Il Ruolo ```Board Member``` dovrebbe essere in grado di visualizzare i lavori nelle Operazioni di Schedulazione
+* Logout dall'Enterprise Manager
+* Dal menù in alto a sinistra scegliere **Enterprise Manager > Logout**
+* Login con il nuovo **User account** e **password**
+* Verificare la correttezza dei permessi assegnati
+* I Job sono visibili nelle **Viste Operations**
+* Non deve risultare possibile cambiaerd i Job
+* Effettuare Logout e nuovamente login lasciando vuote **username** e **password**
 
 </details>
