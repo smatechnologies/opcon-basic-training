@@ -1,50 +1,53 @@
 ---
-sidebar_label: 'Setting Up OpCon Events'
+sidebar_label: 'Impostare Eventi OpCons'
+hide_title: 'false'
 ---
 
-To add a new OpCon Event in Self Service:
+## Impostare Eventi OpCons
 
-* Within the **New Service Request** page, click the **Green** ```Add``` button next the **Events** Label
-* Select an **OpCon Event Template** 
-* Insert **Variables** into the Event using the notation: ```${variable}```
+Per aggiungere un nuovo evento OpCon in Self Service:
+
+All'interno di una **Nuova pagina Service Request** fare clic sul pulsante **Verde** ```Add``` vicino alla etichetta **Events**
+Selezionare un **OpCon Event Template**
+Inserire le **Variables** nell'Evento usando la notazione: ```${variable}```
 
 <a href="imgbasic/SelfServiceEditEvent.png" target="_blank"><img src="imgbasic/SelfServiceEditEvent.png" width="500"></img></a>
 
-* The Variables will then be picked up as **User Inputs** to be configured upon Request Initiation
+* Le Variabili verranno quindi raccolte come **User Inputs** per essere configurate all'invio della Request
 
 <a href="imgbasic/SelfServiceVariableUserInputs.png" target="_blank"><img src="imgbasic/SelfServiceVariableUserInputs.png" width="500"></img></a>
 
-The following **System Variables** are available specifically for **Solution Manager**:
+Le seguenti **Variabili di sistema** sono disponibili in modo specifico per il **Solution Manager**:
 
 * ```${SM.USER.LOGIN}```
-    * Resolves to the Name defined for the OpCon User who clicked the Service Request Button
+    * Risolve al nome definito per l'utente OpCon che ha fatto clic sul pulsante della Service Request
 * ```${SM.USER.NAME}```
-    * Resolves to the Full User Name defined for the OpCon User who clicked the Service Request Button
+    * Risolve al nome completo per l'utente OpCon che ha fatto clic sul pulsante della Service Request
 * ```${SM.USER.EMAIL}```
-    * Resolves to the Email Address defined for the OpCon User who clicked the Service Request Button
+    * Risolve l'indirizzo email dell'utente OpCon che ha fatto clic sul pulsante della Service Request
 * ```${SM.USER.COMMENTS}```
-    * Resolves to the Comments defined for the OpCon User who clicked the Service Request Button
+    * Risolve i commenti definiti per l'utente OpCon che ha fatto clic sul pulsante della Service Request
 
-:::note
-* The Event Definition will be previewed in a drop down list below the Event Template
-* Event Variables will be resolved before the Event is sent to OpCon
+:::note Nota
+* _La definizione dell'evento verrà visualizzata in anteprima in un elenco a discesa sotto il modello dell'evento_
+* _Le variabili dell'evento verranno risolte prima che l'evento venga inviato a OpCon_
 :::
 
-### Manual Edit
+### Modifica Manuale
 
-To Manually Edit an Event, click the **Manual Edit** button
+Per modificare manualmente un evento, fai clic sul pulsante **Manual Edit**
 
-* Manual Edit can be used to define an Event manually or to Edit an Event that was defined with the Event Template
+* La modifica manuale può essere utilizzata per definire un evento manualmente o per modificare un evento che è stato definito con il Template
 
 <a href="imgbasic/SelfServiceEventManualEditButton.png" target="_blank"><img src="imgbasic/SelfServiceEventManualEditButton.png" width="500"></img></a>
 
 <a href="imgbasic/SelfServiceEventManualEditScreen.png" target="_blank"><img src="imgbasic/SelfServiceEventManualEditScreen.png" width="500"></img></a>
 
-### Order of Events
+### Ordine degli Eventi
 
-* The order of Defined Events can be altered by using the Up and Down arrows at the top of the Events List
-    * The order shown in the Events List is the order, Top Down, in which the Events will be passed to and processed by the SAM
+* L'ordine degli eventi definiti può essere modificato utilizzando le frecce su e giù nella parte superiore dell'elenco event
+    * L'ordine mostrato nell'Elenco eventi è l'ordine, dall'alto verso il basso, in cui gli Eventi verranno passati ed elaborati dal SAM
 
 <a href="imgbasic/SelfServiceEventOrder.png" target="_blank"><img src="imgbasic/SelfServiceEventOrder.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

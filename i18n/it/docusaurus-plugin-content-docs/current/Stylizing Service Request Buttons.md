@@ -1,18 +1,21 @@
 ---
-sidebar_label: 'Stylizing Service Request Buttons'
+sidebar_label: 'Cambio stile pulsanti Service Request'
+hide_title: 'false'
 ---
 
-You can stylize the Service Request button using custom HTML
+## Cambio stile pulsanti Service Request 
 
-To customize the button:
+E' possibile cambiare come appaioni i pulsanti delle Service Request usando un HTML custom
 
-* Click the ```Edit``` button at the top-right corner of the Service Request button to display the Edit Service Request page
-* Toggle the **Custom Html** switch on  
-A text field displays for entering the custom HTML code
+Per customizzare un pulsante:
+
+Fare clic sul pulsante ```Edit``` nell'angolo in alto a destra del pulsante della Service Request per editare il pulsante della Service Request
+Spostare lo switch **Custom HTML**,
+un campo di testo viene visualizzato per l'immissione del codice HTML personalizzato
 
 <a href="imgbasic/SelfServiceCustomHTMLBlank.png" target="_blank"><img src="imgbasic/SelfServiceCustomHTMLBlank.png" width="500"></img></a>
 
-Enter the following template HTML code:
+Inserisci il seguente codice HTML del modello:
 
 ```
 <div style="background-color: #043A4F;height: 12px;width:200px;border-radius: 3px;border: 2px solid #043A4F;color: white;font-size: 14px;font-weight: bold;padding: 25px">
@@ -23,17 +26,17 @@ Enter the following template HTML code:
 </div>
 ```
 
-Modify the code as needed
+Modifica il codice a piacere
 
-* A preview of the Button and any modifications will appear above the text field
+* Un'anteprima del pulsante e le eventuali modifiche appariranno sopra il campo di testo
 
 <a href="imgbasic/SelfServiceCustomHTMLExample.png" target="_blank"><img src="imgbasic/SelfServiceCustomHTMLExample.png" width="500"></img></a>
 
-Below are a few recommendations for updating the icon and text on the button:
+Di seguito sono riportati alcuni consigli per l'aggiornamento dell'icona e del testo sul pulsante:
 
-To modify the font icon that appears on the button:
+Per modificare l'icona del carattere che appare sul pulsante:
 
-* Change the **color** of the font icon by entering a new **HEX** color code in the template code:
+* Cambia il**colore** dell'icona inserendo un nuvo codice colore **HEX** nel modello:
 
  ```<span class="v-icon FontAwesome" style="color: #ff8f8f">&#xf0ac</span>``` 
 
@@ -41,7 +44,7 @@ To modify the font icon that appears on the button:
 
 <a href="imgbasic/SelfServiceCustomHTMLIconChange.png" target="_blank"><img src="imgbasic/SelfServiceCustomHTMLIconChange.png" width="500"></img></a>
 
-* Change the **appearance** of the font icon by entering or pasting a new **Unicode** in the template code:
+* Cambia l'**aspetto** dell'icona del carattere inserendo o incollando un nuovo **Unicode** nel modello:
 
 ```<span class="v-icon FontAwesome" style="color: #93D7FA">&#xf1C0</span>```
 

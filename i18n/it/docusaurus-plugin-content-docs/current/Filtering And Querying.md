@@ -1,22 +1,26 @@
 ---
-sidebar_label: 'Filtering And Querying'
+sidebar_label: 'Filtri e Ricerche'
+hide_title: 'false'
 ---
 
-### Filtering Service Requests
+## Filtri e Ricerche
 
-* Use the Filter bar at the top of the Self Service screen to filter Service Requests by:
-  * Category
-  * OpCon Role
-  * Service Request Name
+### Filtrare Service Requests
+
+* Utilizzare la barra dei filtri nella parte superiore della schermata Self Service per filtrare le Service Requests per:
+    * Category
+    * OpCon Role
+    * Service Request Name
 
 <a href="imgbasic/SelfServiceFilterBar.png" target="_blank"><img src="imgbasic/SelfServiceFilterBar.png" width="500"></img></a>
 
-### Querying with Wildcards
+### Interrogazione con caratteri jolly
 
-* For advanced querying, the Filter bar accepts the wildcard characters of asterisk (```*```) and question mark (```?```)
-  * The asterisk wildcard can be used to match zero to many characters
-  * The question mark wildcard must match a single (```one```) character
-  * By default, the Filter will perform a ```CONTAINS``` operation against the dataset with the given text query
-  * If the Filter query begins with an equal sign (```=```), the query becomes strict instead of performing a ```CONTAINS``` operation
+* Per le query avanzate, la barra Filtro accetta i caratteri jolly di asterisco (```*```) e punto interrogativo (```?```)
+    * Il carattere jolly asterisco può essere utilizzato per abbinare zero a molti caratteri
+    * Il carattere jolly del punto interrogativo deve corrispondere a un singolo carattere  
+    * Per impostazione predefinita, il filtro eseguirà una ricerca di tipo ```CONTAINS``` sui dati in base alla ricerca specificata
+    * Se la query Filtro inizia con un segno di uguale (```=```), la ricerca diventerà rigida invece effettuare la ricerca di tipo ```CONTAINS```
 
-###### (Click Image to Enlarge)
+
+###### (Click sull'Immagine per Ingrandire)

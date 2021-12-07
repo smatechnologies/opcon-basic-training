@@ -1,45 +1,48 @@
 ---
-sidebar_label: 'Defining A Request'
+sidebar_label: 'Definire una Request'
+hide_title: 'false'
 ---
 
-The Service Definition is composed of serveral fields, many of which are optional:
+## Definire una Request
+
+La definizione di una Request è composta da diversi campi, molti dei quali sono facoltativi:
 
 <a href="imgbasic/SelfServiceRequestDetails.png" target="_blank"><img src="imgbasic/SelfServiceRequestDetails.png" width="500"></img></a>
 
-* **Service Request Name** (```Required```)
-    * The Service Request Name will display on the Service Request Button
-* **Documentation** (```Optional```)
-    * Provides instructions about what the Service Request does when users click the button
-    * The text will appear as a tooltip on the button
-* **Category** (```Optional```)
-    * Associates the Service Request with a pre-defined Category
-* **Confirmation Message** (```Optional```)
-    * Shows the Documentation as part of the confirmation page when the Service Button is clicked
-    * The Confirmation Message toggle must be set to ```True``` when an Environmental Variable has been defined
-* **Custom HTML** (```Optional```)
-    * Allows the customization of HTML code to personalize the Service Request Button display
-* **Disable Rule** (```Optional```)
-    * Allows definition of a rule to disable the Service Request Button
-* **Hide Rule** (```Optional```)
-    * Allows definition of a rule to hide the Service Request Button
+* **Service Request Name** (```Obbligatorio```)
+    * La Service Request Name verrà visualizzato sul pulsante di richiesta di servizio
+* **Documentation** (```Facoltativo```)
+    * Fornisce istruzioni su cosa fa la Service Request quando gli utenti fanno clic sul pulsante
+    * Il testo apparirà come un suggerimento sul pulsante
+* **Category** (```Facoltativo```)
+    * Associa la Service Request ad una Categoria predefinita
+* **Confirmation Message** (```Facoltativo```)
+    * Mostra la documentazione come parte della pagina di conferma quando si fa clic sul pulsante Servizio
+    * Lo switch Confirmation Message deve essere impostato a ```True``` quando è stata definita una variabile ambientale
+* **Custom HTML** (```Facoltativo```)
+    * Consente la modifica del codice HTML per personalizzare la visualizzazione del pulsante della Service Request
+* **Disable Rule** (```Facoltativo```)
+    * Consente la definizione di una regola per disabilitare il pulsante della Service Request
+* **Hide Rule** (```Facoltativo```)
+    * Consente la definizione di una regola per nascondere il pulsante della Service Request
 
 <a href="imgbasic/SelfServiceRequestDetails2.png" target="_blank"><img src="imgbasic/SelfServiceRequestDetails2.png" width="500"></img></a>
 
-* **Events** (```Required```)
-    * Allows the definition of Events initiated by the Service Request Button
-* **Track Event Executions** (```Optional```)
-    * Monitors the execution of any job dynamically
-    * If the Service Request is defined with $JOB:ADD events, the option will track added Jobs to monitor for success
-* **Submit Events as OCADM** (```Optional```)
-    * If using the ```ocadm``` role:
-    * Events will always proceed without privilege issues
-    * If not selected, the SAM will check for OpCon User privileges when the Service Request Button is clicked
-* **User Inputs** (```Optional```)
-    * When variables are defined in OpCon Events, they will automatically be picked up and used as User Inputs
-    * Will display when the Service Request button is clicked
-    * Users can provide values to replace the variables in OpCon Events
-* **Show for Role** (```Required```)
-    * Allows the User to assign the Service Request to one or more OpCon Roles
-    * Only users under the granted Role(s) are able to view and initiate the Service Request
+* **Events** (```Obbligatorio```)
+    * Consente la definizione di Eventi avviati dal pulsante della Service Request
+* **Track Event Executions** (```Facoltativo```)
+    * Monitora l'esecuzione di qualsiasi lavoro in modo dinamico
+    * Se la Service Request è definita con eventi $JOB:ADD, l'opzione terrà traccia dei Job aggiunti per monitorare il successo
+* **Submit Events as OCADM** (```Facoltativo```)
+    * Se si usa il ruolo ```ocadm```:
+    * Gli eventi procederanno sempre senza problemi di privilegi
+    * Se non selezionato, il SAM verificherà i privilegi dell'utente OpCon quando si fa clic sul pulsante della Service Request
+* **User Inputs** (```Facoltativo```)
+    * Quando le variabili sono definite negli eventi OpCon, verranno automaticamente raccolte e utilizzate come input dell'utente
+    * Verrà visualizzato quando si fa clic sul pulsante Service Request
+    * Gli utenti possono fornire valori per sostituire le variabili negli eventi OpCon
+* **Show for Role** (```Obbligatorio```)
+    * Consente all'utente di assegnare la Service Request a uno o più Ruoli OpCon
+    * Solo gli utenti abilitati al/ai Ruoli sono abilitati alla visualizzazione ed all'utilizzo della Service Request
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

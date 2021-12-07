@@ -1,31 +1,35 @@
 ---
-sidebar_label: 'Disabling And Hiding Requests'
+sidebar_label: 'Disabilitare e Nascondere Requests'
+hide_title: 'false'
 ---
 
-Rules for Disabling or Hiding Service Request Buttons can be defined using Rules or OpCon Expressions
+## Disabilitare e Nascondere Requests
 
-A Rule can be any of the following:
+Le regole per disabilitare o nascondere i pulsanti delle Service Request possono essere definite utilizzando le regole o le espressioni OpCon
 
-* A Boolean value (true/false)
-* A Token whose value resolves to (true/false)
-* A Complex Expression
+Una regola può essere una delle seguent:
 
-:::note 
-* _Both the ```Disable Rule``` and ```Hide Rule``` are optional_
-* _If neither Rule is defined, the Service Request Button will be Enabled and Visible_
+* Un valore booleano (vero/falso)
+* Un token il cui valore si risolve in (vero/falso)
+* Un'espressione complessa (Complex Expression)
+
+:::note Nota
+* _Sia la ```Disable Rule``` che la ```Hide Rule``` sono opzionali_
+* _Se nessuna delle due regole è definita, il pulsante della Service Request sarà abilitato e visibile_
 :::
 
-### Disabling Service Requests
+### Disabilitare una Service Requests
 
-To define a rule for disabling a service request:
+Per definire una regola per disabilitare una service request:
 
-* Click the Edit button at the top-right corner of the Service Request button 
+* Fare clic sul pulsante Modifica nell'angolo in alto a destra del pulsante della Service Request
 
 <a href="imgbasic/SelfServiceSampleButton.png" target="_blank"><img src="imgbasic/SelfServiceSampleButton.png" width="500"></img></a>
 
-* Toggle the Disable Rule switch on
-    * A text field displays for entering the expression
-    * Enter a boolean value, a token, or a complex expression
+* Viene visualizzata la pagina di modifica della Service Request
+* Spostare lo switch Disable Rule
+    * Viene visualizzato un campo di testo per inserire l'espressione
+    * Inserisci un valore booleano, un token o un'espressione complessa
 
 <a href="imgbasic/SelfServiceDisableRuleBoolean.png" target="_blank"><img src="imgbasic/SelfServiceDisableRuleBoolean.png" width="500"></img></a>
 
@@ -33,17 +37,18 @@ To define a rule for disabling a service request:
 
 <a href="imgbasic/SelfServiceDisableRuleExpression.png" target="_blank"><img src="imgbasic/SelfServiceDisableRuleExpression.png" width="500"></img></a>
 
-### Hiding Service Requests
+### Nascondere una Service Requests
 
-To define a rule for hiding a service request:
+Per definire una regola per nascondere una service request:
 
-* Click the Edit button at the top-right corner of the Service Request button
+* Fare clic sul pulsante Modifica nell'angolo in alto a destra del pulsante della Service Request
 
 <a href="imgbasic/SelfServiceSampleButton.png" target="_blank"><img src="imgbasic/SelfServiceSampleButton.png" width="500"></img></a>
 
-* Toggle the Hide Rule switch on
-    * A text field displays for entering the expression
-    * Enter a boolean value, a token, or a complex expression
+* Viene visualizzata la pagina di modifica della Service Request
+* Spostare lo switch Hide Rule
+    * Viene visualizzato un campo di testo per inserire l'espressione
+    * Inserisci un valore booleano, un token o un'espressione complessa
 
 <a href="imgbasic/SelfServiceHideRuleBoolean.png" target="_blank"><img src="imgbasic/SelfServiceHideRuleBoolean.png" width="500"></img></a>
 
@@ -51,4 +56,4 @@ To define a rule for hiding a service request:
 
 <a href="imgbasic/SelfServiceHideRuleExpression.png" target="_blank"><img src="imgbasic/SelfServiceHideRuleExpression.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

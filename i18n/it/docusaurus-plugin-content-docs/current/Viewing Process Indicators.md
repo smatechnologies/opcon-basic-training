@@ -1,27 +1,30 @@
 ---
-sidebar_label: 'Viewing Process Indicators'
+sidebar_label: 'Visualizzare gli Indicatori di Processo'
+hide_title: 'false'
 ---
 
-* When a Service Request is submitted, a page will dispay to indicate the execution of the Request with a progress bar 
-    * This page can be exited by clicking **OK**
+## Visualizzare gli Indicatori di Processo
+
+* Quando una Service Request è sottomessa verrà visualizzata una pagina per indicare l'esecuzione della richiesta con una barra di avanzamento
+    * È possibile uscire da questa pagina facendo clic su **OK**
 
 <a href="imgbasic/SelfServiceRequestProgressBar.png" target="_blank"><img src="imgbasic/SelfServiceRequestProgressBar.png" width="500"></img></a>
 
-* An Execution Indicator icon will also appear at the top-let corner of the activated Service Request button
+* Un'icona dell'indicatore di esecuzione apparirà anche nell'angolo in alto a sinistra del pulsante della Service Request attivata
 
-* The **Execution Indicator** will display a number to indicate the number of concurrent Service Request executions still in progress
+* L'**indicatore di esecuzione** visualizzerà un numero per indicare il numero di esecuzioni simultanee di richieste delle Service Request ancora in corso
 
 <a href="imgbasic/SelfServiceNumberIndicatorButton.png" target="_blank"><img src="imgbasic/SelfServiceNumberIndicatorButton.png" width="400"></img></a>
 
-* The **Execution Indicator** will display a counter-clockwise circular arrow to indicate that the Service Request has a previous execution history record
+L'**indicatore di esecuzione** una freccia circolare in senso antiorario per indicare che la richiesta di servizio ha un precedente record di cronologia di esecuzione
 
 <a href="imgbasic/SelfServiceCounterClockwiseButton.png" target="_blank"><img src="imgbasic/SelfServiceCounterClockwiseButton.png" width="400"></img></a>
 
-* Clicking on the **Execution Indicator** icon will access the history record of all processing or processed instances of the Service Request displaying the following information as a table:
-  * The date on which the Service Request was initiated
-  * The current state and progress of the Service Request
-  * The User who initiated the Service Request
+* Facendo clic sull'icona dell'**indicatore di esecuzione** si accede al record della cronologia di tutte le istanze in elaborazione o elaborate della Service Request, visualizzando le seguenti informazioni come tabella:
+    * La data in cui è stata avviata la Service Request
+    * Lo stato attuale e l'avanzamento della Service Request
+    * L'Utente che ha avviato la Service Request
 
 <a href="imgbasic/SelfServiceExecutionRecord.png" target="_blank"><img src="imgbasic/SelfServiceExecutionRecord.png" width="500"></img></a>
 
-###### (Click Images to Enlarge)
+###### (Click sulla Immagine per ingrandire)

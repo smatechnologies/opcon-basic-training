@@ -1,111 +1,112 @@
 ---
 sidebar_label: 'Self Service Lab'
+hide_title: 'false'
 ---
 
-### Self Service Lab - Interacting with Schedules and Jobs
+### Self Service Lab - Interagire con Schedules and Jobs
 
 ##### Schedule Build 
 
-1.	In **Enterprise Manager**, Open Matrix or Daily List view and be sure that **My First Schedule** has completed
-2.	Right-Click **My First Schedule** and select ```Maintenance > Delete Schedule```
-3.	Select **Yes** to delete the Schedule
-4.	In **Solution Manager**, select the **Self Service** tab
-5.	Be sure that **Admin Mode** is activated by clicking the **Lock Button** in the Upper Right Hand corner. It should be **Green** and **Unlocked**.
-6.	In Admin Mode, click the Green Create Button to create a new Button.
-7.	In the **Name** textbox, enter **Schedule Build**.
-8.	Under Events, click the Green Add Bar **(+)**.
-9.	From the **Event Template** Menu, select ```$SCHEDULE:BUILD```
-10.	In the **Schedule Date** box, enter the Variable ```${SCHEDULE DATE}```.
-11.	In the **Schedule Name** box, enter the Variable ```${SCHEDULE NAME}```.
-12.	Leave all other options empty and click the **OK** Button.
-13.	Toggle the **Submit Events as OCADM** option to **On (Green)**.
-14.	From the **User Input** section, select the **Blue Edit Pencil** next to the **Schedule Date** option.
-15.	From the **User Input Type**, select **Date**. 
-16.	Leave Output Formatting as ```YYYY/MM/DD```.
-17.	Click the **OK** button.
-18.	Scroll to the bottom of the page and select **Save**.
-19.	Click the **Lock Button** to return to **User Mode**.
-20.	Click the **Schedule Build** Button just created.
-21.	Enter today’s date in the required format in the **Schedule Date** box.
-22.	Enter **My First Schedule** in the **Schedule Name** box.
-23.	Click **Submit** to begin the build.
-24.	Select **OK** to exit the Request Process page.
-25.	Verify in Operations View or Enterprise Manager Matrix view that **My First Schedule** has built and run correctly.
+1. In **Enterprise Manager**, Aprire la vista Matrix o Daily List view e assicurarsi che My **First Schedule** sia completato.
+2. Tasto destro su **My First Schedule** e selezionare ```Maintenance > Delete Schedule```.
+3. Selezionare **Yes** per cancellare lo Schedule.
+4. In **Solution Manager**, scegliere la scheda **Self Service**.
+5. Assicurarsi che la modalità **Admin Mode** sia attivata facendo clic sul **Lock Button** nell'angolo in alto a destra. Dovrebbe essere **Verde** e **Sbloccato**.
+6. In modalità **Admin**, fare clic su click sul pulsante verde **Create** per creare un nuovo Pulsante.
+7. Nella casella di testo **Name** inserire **Schedule Build**.
+8. In Events, fare clic sulla barra verde Add (**+**).
+9. Dal Menù **Event Template**, selezionare ```$SCHEDULE:BUILD```.
+10. Nel riquadro **Schedule Date**, inserire la Variabile ```${SCHEDULE DATE}```.
+11. Nel riquadro **Schedule Name**, inserire la Variabile ```${SCHEDULE NAME}```.
+12. Lasciare le altre opzioni vuote e fare click sul pulsante **OK**.
+13. Successivamente, spostare l'opzione ```Submit Events as OCADM``` su On (```Verde```).
+14. Dalla sezione **User Input** selezionare la **matita di modifica blu** accanto all'opzione **Schedule Date**.
+15. Dallo **User Input Type**, selezionare **Date**.
+16. Lasciare la formattazione ```YYYY/MM/DD```.
+17. Fare clic sul pulsante **OK**.
+18. Scorrere fino al fondo della pagina e selezionare **Save**.
+19. Fare clic sul **Lock Button** per tornare in modalità **User Mode**.
+20. Fare clic sul pulsante **Schedule Build** appena creato.
+21. Inserire la data odierna nel formato richiesto nel riquadro **Schedule Date**.
+22. Inserire **My First Schedule** nel riquadro **Schedule Name**.
+23. Fare clic su **Submit** per iniziare il processo di Build.
+24. Selezionare **OK** per uscire dalla pagina di della **Request Process**.
+25. Verificare nella vista Operations o in Enterprise Manager vista Matrix che **My First Schedule** sia stato creato correttamente.
 
 ##### Restart Job on Hold
 
-1.	After verifying that all Jobs have completed, verify that the Test Event 3 Job has a status of cancelled.
-2.	In Self Service, active **Admin Mode** by clicking the **Lock Button** in the Upper Right Hand corner. It should be **Green** and **Unlocked**.
-3.	Click the Green Create Button to create a new Button.
-4.	In the **Name** textbox, enter **Hold Job**.
-5.	Under Events, click the Green Add Bar **(+)**.
-6.	From the **Event Template** Menu, select ```$JOB:RESTARTHLD```.
-7.	In the **Schedule Date** box, enter the Variable ```${SCHEDULE DATE}```.
-8.	In the **Schedule Name** box, enter the Variable ```${SCHEDULE NAME}```.
-9.	In the **Job Name** box, enter the Variable ```${JOB NAME}```.
-10.	Click the **OK** Button.
-11.	Toggle the **Submit Events as OCADM** option to **On (Green)**.
-12.	From the **User Input** section, select the **Blue Edit Pencil** next to the **Schedule Date** option.
-13.	From the **User Input Type**, select Date. 
-14.	Leave Output Formatting as ```YYYY/MM/DD```.
-15.	Click the **OK** Button.
-16.	Scroll to the bottom of the page and select **Save**.
-17.	Click the **Lock Button** to return to **User Mode**.
-18.	Click the **Restart Job on Hold** Button just created. 
-19.	Enter today’s date in the required format in the **Schedule Date** box.
-20.	Enter **My First Schedule** in the **Schedule Name** box.
-21.	Enter **Test Event 3** in the **Job Name** box.
-22.	Click **Submit** to begin the Request.
-23.	Select **OK** to exit the Request Process page.
-24.	Verify in Operations View or Enterprise Manager Matrix view that **Test Event 3** in **My First Schedule** has been placed ```On Hold```.
+1. Dopo aver controllato che tutti i Jobs sono stati completati, verificare che il Job **Test Event 3** abbia lo stato cancellato.
+2. Attivare la modalità **Admin Mode** sia attivata facendo clic sul **Lock Button** nell'angolo in alto a destra. Dovrebbe essere **Verde** e **Sbloccato**.
+3. Fare clic su click sul pulsante verde **Create** per creare un nuovo Pulsante.
+4. Nella casella di testo **Name** inserire **Hold Job**.
+5. In Events, fare clic sulla barra verde Add (**+**).
+6. Dal Menù **Event Template**, selezionare ```$JOB:RESTARTHLD```.
+7. Nel riquadro **Schedule Date**, inserire la Variabile ```${SCHEDULE DATE}```.
+8. Nel riquadro **Schedule Name**, inserire la Variabile ```${SCHEDULE NAME}```.
+9. Nel riquadro **Job Name**, inserire la Variabile ```${JOB NAME}```.
+10. Fare click sul pulsante **OK**.
+11. Spostare l'opzione ```Submit Events as OCADM``` su On (```Verde```).
+12. Dalla sezione **User Input** selezionare la matita di modifica blu accanto all'opzione **Schedule Date**.
+13. Dallo **User Input Type**, selezionare **Date**.
+14. Lasciare la formattazione ```YYYY/MM/DD```.
+15. Fare clic sul pulsante **OK**.
+16. Scorrere fino al fondo della pagina e selezionare **Save**.
+17. Fare clic sul **Lock Button** per tornare in modalità **User Mode**.
+18. Fare clic sul pulsante **Restart Job on Hold** appena creato.
+19. Inserire la data odierna nel formato richiesto nel riquadro **Schedule Date**.
+20. Inserire **My First Schedule** nel riquadro **Schedule Name**.
+21. Inserire **Test Event 3** nel riquadro **Job Name**.
+22. Fare clic su **Submit** per avviare la Request.
+23. Selezionare **OK** per uscire dalla pagina di della Request Process.
+24. Verificare nella vista Operations o in Enterprise Manager vista Matrix che **Test Event 3** in **My First Schedule** sia stato messo ```On Hold```.
 
 ##### Release Job 
 
-1.	In Self Service, active **Admin Mode** by clicking the **Lock Button** in the Upper Right Hand corner. It should be **Green** and **Unlocked**.
-2.	Click the Green Create Button to create a new Button.
-3.	In the **Name** textbox, enter **Release Job**.
-4.	Under Events, click the Green Add Bar **(+)**.
-5.	From the **Event Template** Menu, select ```$JOB:RELEASE```.
-6.	In the **Schedule Date** box, enter the Variable ```${SCHEDULE DATE}```.
-7.	In the **Schedule Name** box, enter the Variable ```${SCHEDULE NAME}```.
-8.	In the **Job Name** box, enter the Variable ```${JOB NAME}```.
-9.	Click the **OK** Button.
-10.	Toggle the **Submit Events as OCADM** option to **On (Green)**.
-11.	From the **User Input** section, select the **Blue Edit Pencil** next to the **Schedule Date** option.
-12.	From the **User Input Type**, select **Date**. 
-13.	Leave Output Formatting as ```YYYY/MM/DD```.
-14.	Click the **OK** Button.
-15.	Scroll to the bottom of the page and select **Save**.
-16.	Click the **Lock Button** to return to **User Mode**.
-17.	Click the **Release Job** Button just created. 
-18.	Enter today’s date in the required format in the **Schedule Date** box.
-19.	Enter **My First Schedule** in the **Schedule Name** box.
-20.	Enter **Test Event 3** in the **Job Name** box.
-21.	Click **Submit** to begin the Request.
-22.	Select **OK** to exit the Request Process page.
-23.	Verify in Operations View or Enterprise Manager Matrix view that **Test Event 3** in **My First Schedule** has been ```Released``` and Completed.
+1. In Self Service, attivare la modalità **Admin Mode** facendo clic sul **Lock Button** nell'angolo in alto a destra. Dovrebbe essere **Verde** e S**bloccato**.
+2. Fare clic su click sul pulsante verde **Create** per creare un nuovo Pulsante.
+3. Nella casella di testo **Name** inserire **Release Job**.
+4. In Events, fare clic sulla barra verde Add (**+**).
+5. Dal Menù Event Template, selezionare $JOB:RELEASE.
+6. Nel riquadro **Schedule Date**, inserire la Variabile ```${SCHEDULE DATE}```.
+7. Nel riquadro **Schedule Name**, inserire la Variabile ```${SCHEDULE NAME}```.
+8. Nel riquadro **Job Name**, inserire la Variabile ```${JOB NAME}```.
+9. Fare click sul pulsante **OK**.
+10. Spostare l'opzione ```Submit Events as OCADM``` su On (```Verde```).
+11. Dalla sezione **User Input** selezionare la **matita di modifica blu** accanto all'opzione **Schedule Date**.
+12. Dallo **User Input Type**, selezionare **Date**.
+13. Lasciare la formattazione ```YYYY/MM/DD```.
+14. Fare clic sul pulsante **OK**.
+15. Scorrere fino al fondo della pagina e selezionare **Save**.
+16. Fare clic sul Lock Button per tornare in modalità **User Mode**.
+17. Fare clic sul pulsante **Release Job** appena creato.
+18. Inserire la data odierna nel formato richiesto nel riquadro **Schedule Date**.
+19. Inserire **My First Schedule** nel riquadro **Schedule Name**.
+20. Inserire **Test Event 3** nel riquadro **Job Name**.
+21. Fare clic su **Submit** per avviare la Request.
+22. Selezionare **OK** per uscire dalla pagina di della Request Process.
+23. Verificare nella vista Operations o in Enterprise Manager vista Matrix che **Test Event 3** in **My First Schedule** sia stato **Released** e **Completato**.
 
 ##### Schedule Delete
 
-1.	In Self Service, active **Admin Mode** by clicking the **Lock Button** in the Upper Right Hand corner. It should be **Green** and **Unlocked**.
-2.	Click the Green Create Button to create a new Button.
-3.	In the **Name** textbox, enter **Delete Schedule**.
-4.	Under Events, click the Green Add Bar **(+)**.
-5.	From the **Event Template** Menu, select ```$SCHEDULE:DELETE```.
-6.	In the **Schedule Date** box, enter the Variable ```${SCHEDULE DATE}```.
-7.	In the **Schedule Name** box, enter the Variable ```${SCHEDULE NAME}```.
-8.	Leave the **Log File Name** box empty.
-9.	Click the **OK** Button.
-10.	Toggle the **Submit Events as OCADM** option to **On (Green)**.
-11.	From the **User Input** section, select the **Blue Edit Pencil** next to the **Schedule Date** option.
-12.	From the **User Input Type**, select **Date**. 
-13.	Leave Output Formatting as ```YYYY/MM/DD.```
-14.	Click the **OK** Button.
-15.	Scroll to the bottom of the page and select **Save**.
-16.	Click the **Lock Button** to return to **User Mode**.
-17.	Click the **Delete Schedule** Button just created. 
-18.	Enter today’s date in the required format in the **Schedule Date** box.
-19.	Enter **My First Schedule** in the **Schedule Name** box.
-20.	Click **Submit** to begin the Request.
-21.	Select **OK** to exit the Request Process page.
-22.	Verify in Operations View or Enterprise Manager Matrix view that **My First Schedule** has been ```Deleted``` from the Daily List.
+1. In Self Service, attivare la modalità **Admin Mode** facendo clic sul **Lock Button** nell'angolo in alto a destra. Dovrebbe essere **Verde** e **Sbloccato**.
+2. Fare clic su click sul pulsante verde **Create** per creare un nuovo Pulsante.
+3. Nella casella di testo **Name** inserire **Delete Schedule**.
+4. In Events, fare clic sulla barra verde Add (***+***).
+5. Dal Menù **Event Template**, selezionare ```$SCHEDULE:DELETE```.
+6. Nel riquadro **Schedule Date**, inserire la Variabile ```${SCHEDULE DATE}```.
+7. Nel riquadro **Schedule Name**, inserire la Variabile ```${SCHEDULE NAME}```.
+8. Lasciare il riquadro **Log File Name** vuoto.
+9. Fare click sul pulsante **OK**.
+10. Spostare l'opzione ```Submit Events as OCADM``` su On (```Verde```).
+11. Dalla sezione **User Input** selezionare la **matita di modifica blu** accanto all'opzione **Schedule Date**.
+12. Dallo **User Input Type**, selezionare **Date**.
+13. Lasciare la formattazione ```YYYY/MM/DD```.
+14. Fare clic sul pulsante **OK**.
+15. Scorrere fino al fondo della pagina e selezionare **Save**.
+16. Fare clic sul Lock Button per tornare in modalità **User Mode**.
+17. Fare clic sul pulsante **Delete Schedule** appena creato.
+18. Inserire la data odierna nel formato richiesto nel riquadro **Schedule Date**.
+19. Inserire **My First Schedule** nel riquadro **Schedule Name**.
+20. Fare clic su **Submit** per avviare la **Request**.
+21. Selezionare **OK** per uscire dalla pagina di della Request Process.
+22. Verificare nella vista Operations o in Enterprise Manager vista Matrix che **My First Schedule** sia stata **Cancellata** dalla lista Daily.
