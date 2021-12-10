@@ -5,6 +5,6 @@ hide_title: 'false'
 ---
 
 
-<img src="static/imgbasic/BasicTrainingicon.png" width="650"></img>
+<img src="imgbasic/BasicTrainingicon.png" width="650"></img>
 
 
