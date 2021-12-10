@@ -55,7 +55,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/smatechnologies/opcon-basic-training/blob/develop',
+            'https://github.com/smatechnologies/opcon-basic-training/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
