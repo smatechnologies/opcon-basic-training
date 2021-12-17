@@ -12,11 +12,11 @@ sidebar_label: 'SMA History'
 
 <img src="imgbasic/Picture1.png" width="300"></img>
 
-* Founded in 1980
-* Headquarters in Houston, Texas
-* Over 800 Clients
-* Offices in USA, France, UK, Switzerland
+* Créée en 1980
+* Siège social à Houston, Texas
+* Plus de 800 Clients
+* Bureaux aux USA, France, UK, Suisse
 * Proven Solution for all Operating Systems 
 * Customer Driven Technology
-* 24x7x365 Support 
+* Support 24/7/365  
 
