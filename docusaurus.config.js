@@ -54,6 +54,7 @@ module.exports = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
+          editLocalizedFiles: true,
           editUrl:
             'https://github.com/smatechnologies/opcon-basic-training/blob/main',
         },
