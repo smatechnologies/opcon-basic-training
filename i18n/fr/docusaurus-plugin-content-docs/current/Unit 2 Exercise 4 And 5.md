@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Unite 2 Exercice 4 & 5'
+sidebar_label: 'Unité 2 Exercices 4 & 5'
 hide_title: 'false'
 ---
 
-## Exercice 4 & 5: étapes de modification de l'état de la machine & résoudre le problème de communication
+## Exercices 4 & 5: étapes de modification de l'état de la machine & résoudre le problème de communication
 
 
 ##### Objectif:
@@ -32,10 +32,10 @@ Your browser does not support the video tag.
 
 ### Exercice 4
 
-1. Sous la rubrique Operations, double-cliquez sur **Vue Machines**.
+1. Dans le menu Operations, double-cliquez sur **Vue Machines**.
 2. Cliquez avec le bouton droit sur la machine **SUSEVM** et sélectionnez **Démarrer Communication**.
     * Un clic gauche sur la machine actualisera la communication.
-3. Appuyez sur ```F5``` pour actualiser le statut de la communication. 
+3. Appuyez sur **F5** pour actualiser le statut de la communication. 
 
 :::note Remarque
 Pas de panique ! Cela ne communiquera pas.
@@ -53,13 +53,13 @@ Pas de panique ! Cela ne communiquera pas.
 ConnectToMachine() – Exception happens at machine [SUSEVM]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because the connected host has failed to respond [[IP ADDRESS:PORT]]
 ```
 
-6. De retour à l'onglet Vue Machines, cliquez avec le bouton droit sur la machine SUSEVM et sélectionnez **Interrompre Communication**.
-7. Toujours sous l'onglet Machines Status, cliquez avec le bouton droit sur la machine SUSEVM et sélectionnez **Editer Machine**.
+6. Dans l'onglet Vue Machines, cliquez avec le bouton droit sur la machine SUSEVM et sélectionnez **Interrompre Communication**.
+7. Toujours sous l'onglet Vue Machines, cliquez avec le bouton droit sur la machine SUSEVM et sélectionnez **Editer Machine**.
 8. Dans l'onglet Machines, modifiez le Numéro de Port en ```3100```.
-9. Cliquez sur le bouton Sauvegarder.
+9. Cliquez sur le bouton **Sauvegarder**.
 10. Fermez l'onglet Machines.
 11. De retour à l'onglet Vue Machines, cliquez avec le bouton droit de la souris sur la machine SUSEVM et sélectionnez **Démarrer Communication**.
 12. Rafraîchissez l'écran. La machine SUSEVM doit communiquer.
-13. Fermez l'onglet ```SMANetCom.log``` et l'onglet Vue Machines
+13. Fermez l'onglet SMANetCom.log et l'onglet Vue Machines
 
 </details>
