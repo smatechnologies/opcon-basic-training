@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Unite 2 Exercice 7'
+sidebar_label: 'Unité 2 Exercice 7'
 hide_title: 'false'
 ---
 
@@ -40,19 +40,19 @@ Your browser does not support the video tag.
 
 <summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1. Cliquez sur **Calendriers** dans le **panneau de navigation**.
+1. Cliquez sur **Calendriers** dans le panneau de navigation.
 2. Cliquez sur le bouton **Ajouter**.
-3. Tapez **MyFirstCalendar** dans le champ **Nom**.
-4. Entrez « **Ceci est un calendrier de test**. » dans l’espace **Documentation**. 
+3. Tapez ```MyFirstCalendar``` dans le champ Nom.
+4. Entrez ```Ceci est un calendrier de test``` dans l’espace Documentation. 
 5. Cliquez sur le bouton **Sauvegarder**.
-6. Cliquez sur plusieurs dates dans le **calendrier**.
+6. Cliquez sur **plusieurs dates** dans le calendrier.
 :::note Remarque
 Les dates sont enregistrées dynamiquement
 :::
 7. Cliquez sur la **flèche droite** à côté du mois juste au-dessus du calendrier pour passer aux mois suivants.
 8. Cliquez sur la **flèche vers le haut** à côté de l'année juste au-dessus du calendrier pour passer à l'année suivante.
-9. Sélectionnez **Master Holiday** dans la **liste des calendriers**.
-10. Cliquez sur les dates suivantes dans le calendrier pour configurer les jours fériés de l'année en cours, puis fermez l'onglet **Calendriers** :
+9. Sélectionnez **Master Holiday** dans la liste des calendriers.
+10. Cliquez sur les **dates suivantes** dans le calendrier pour configurer les jours fériés de l'année en cours, puis fermez l'onglet Calendriers :
 
 * 1er janvier - Jour de l'an
 * 5 avril - Lundi de Pâques
