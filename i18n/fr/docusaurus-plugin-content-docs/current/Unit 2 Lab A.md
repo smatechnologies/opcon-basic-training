@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Unite 2 Lab A'
+sidebar_label: 'Unité 2 Lab A'
 hide_title: 'false'
 ---
 
@@ -9,14 +9,14 @@ hide_title: 'false'
 
 Congo Online Retail Inc. doit payer ses employés à des intervalles différents en fonction de leur département. Cela se fait par le biais d'un Schedule nommé **CONGO PAYROLL PAYMENTS**.
 
-La semaine de travail du service de la paie de Congo Online Retail Inc s'étend du lundi au vendredi et utilise le **calendrier Master Holiday** créé lors des exercices de l'Unité 2.
+La semaine de travail du service de la paie de Congo Online Retail Inc s'étend du lundi au vendredi et utilise le calendrier **Master Holiday** créé lors des exercices de l'Unité 2.
 
 Chaque département nécessite des intervalles de planification spécifiques, comme indiqué :
 
 **Jouets - Legos et Nerf**
 
-* Tous les 14 jours à partir du 7 janvier de cette année
-    * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable précédent.
+* Tous les 14 jours à partir du 7 janvier de cette année.
+    * Si la date tombe un jour non ouvrable,  sélectionnez le jour ouvrable précédent.
  
 
 **Électronique - Smartphones et Xbox**
@@ -31,7 +31,7 @@ Chaque département nécessite des intervalles de planification spécifiques, co
 **Vêtements - Levis et Nike**  
 
 * Tous les vendredis
-    * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable précédent.
+    * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable suivant.
 * Une fois que chaque étape importante des ventes est atteinte (à la demande)
 
 
@@ -54,12 +54,12 @@ Your browser does not support the video tag.
 UTILISEZ UN TYPE DE JOB NULL POUR TOUS LES JOBS DE CE LABORATOIRE
 :::
 
-* Créer un schedule nommé **Congo Payroll Payments**
+* Créez un schedule nommé **Congo Payroll Payments**
 * Les jours ouvrables sont du lundi au vendredi  
-* Le **calendrier Master Holiday** est utilisé
-* Configurez une Mise au plan automatiquement du Schedule sur ```7``` jours à l'avance pendant ```1``` jour
-* Configurez la Suppression automatiquement du Schedule en Daily après ```7``` jours
-* Ajouter de la documentation pour le schedule
+* Le calendrier **Master Holiday** est utilisé
+* Configurez une Mise au plan automatiquement du Schedule sur ```7``` jours à l'avance pour ```1``` jour
+* Configurez la Suppression automatiquement du Schedule ```7``` jours en arrière
+* Ajoutez de la documentation pour le schedule
 
 * Quatre Null Jobs seront créés :
     * Les jouets auront besoin d'un job avec une fréquence
@@ -68,7 +68,7 @@ UTILISEZ UN TYPE DE JOB NULL POUR TOUS LES JOBS DE CE LABORATOIRE
         * Job 2 - une fréquence
     * Les vêtements auront besoin d'un job avec deux fréquences
 
-* Taguer tous les jobs en fonction du produit ( **jouets** , **électronique** et **vêtements** )
+* Taguez tous les jobs en fonction du produit ( **jouets** , **électronique** et **vêtements** )
 
 Une fois terminé, les résultats « **Prévisionnel Global** » ressembleront à ce qui suit :
 
