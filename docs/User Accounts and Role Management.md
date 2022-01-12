@@ -13,7 +13,7 @@ sidebar_label: 'User Accounts and Role Management'
     </audio>
 </figure>
 
-* SMA LDAP Monitor allows integration of network security for User Accounts with the automatic logins to OpCon
+* SMA LDAP Monitor allows integration of network security for User Accounts with automatic logins to OpCon
 * SMA LDAP Monitor checks the LDAP server to sync Active Directory Groups with OpCon Users
   * Can exist in Active Directory or OpenLDAP
     * SMA LDAP Monitor does not currently support Organizational Units in Active Directory
