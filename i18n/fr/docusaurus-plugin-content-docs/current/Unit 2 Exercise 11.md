@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Unite 2 Exercice 11'
+sidebar_label: 'Unité 2 Exercice 11'
 hide_title: 'false'
 ---
 
@@ -25,14 +25,12 @@ Your browser does not support the video tag.
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
-
-<summary>Cliquez pour obtenir des instructions étape par étape</summary>
+  <summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
 1.	**Fréquences multiples**
     * Créez un nouveau schedule
-    * Ajoutez un Job null et configurez des fréquences permettant à un Job de s'exécuter le **15 du mois** (jour ouvrable avant) et le **dernier jour ouvrable du mois**.
-        * Planification - Semaine de travail de 5 jours
+    * Ajoutez un Job Null et configurez des fréquences permettant à un Job de s'exécuter le **15 du mois** (jour ouvrable avant) et le **dernier jour ouvrable du mois**.
+        * Schedule - Jours ouvrés par semaine: 5 jours (du lundi au vendredi)
         * Le Job s'exécute à ```20h00``` lorsqu'il n'est pas le dernier jour du mois et à ```18h00``` lorsqu'il s'agit du dernier jour ouvrable du mois.
     * Utilisez le bouton Prévisionnel Global pour afficher les deux fréquences.
         * Le premier listé sera vert et le second sera jaune.
