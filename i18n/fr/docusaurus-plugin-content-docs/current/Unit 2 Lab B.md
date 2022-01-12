@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Unite 2 Lab B'
+sidebar_label: 'Unité 2 Lab B'
 hide_title: 'false'
 ---
 
@@ -50,42 +50,42 @@ Your browser does not support the video tag.
 
 **Instructions de laboratoire** : 
 
-* Créer un Schedule nommé **Congo Inventory Management** 
-* les jours ouvrables sont **Du lundi au dimanche** 
-* Configurer la Mise au Plan automatique du Schedule avec ```7``` jours à l'avance pour ```1``` jour 
-* Supprimer automatiquement le Schedule après ```7``` jours 
-* Ajouter de la documentation pour le Schedule
+* Créez un Schedule nommé ```Congo Inventory Management```.
+* les jours ouvrables sont **Du lundi au dimanche** .
+* Configurez la Mise au Plan automatique du Schedule avec ```7``` jours à l'avance pour ```1``` jour.
+* Supprimez automatiquement le Schedule après ```7``` jours.
+* Ajoutez de la documentation pour le Schedule.
 
-* Créez un Job Windows pour chacun des produits dans l'introduction
-    * Nommez chaque Job comme son nom de produit
-    * Ce job doit s'exécuter sous l'ID utilisateur ```SMATRAINING\SMAUSER```
-    * Ce job doit être exécuté sur la machine ```SMATRAINING```
+* Créez un Job Windows pour chacun des produits dans l'introduction.
+    * Nommez chaque Job comme son nom de produit.
+    * Ce job doit s'exécuter sous l'ID utilisateur **SMATRAINING\SMAUSER**
+    * Ce job doit être exécuté sur la machine **SMATRAINING**
     * Appelez les programmes sur la ligne de commande. Par exemple :
 
   ```   
-  “C:\scripts\CheckInvToys.EXE” -t11  
+  "C:\scripts\CheckInvToys.EXE" -t11  
   ```  
 
-* Ces jobs doivent être exécutés du lundi au dimanche
-* Ces jobs doivent être réexécutés ```toute les 30 minutes``` lorsqu'ils se sont terminés correctement
-* La dernière heure d'exécution des 6 Jobs est ```23h45``` 
+* Ces jobs doivent être exécutés du lundi au dimanche.
+* Ces jobs doivent être réexécutés ```toute les 30 minutes``` lorsqu'ils se sont terminés correctement.
+* La dernière heure d'exécution des 6 Jobs est ```23h45```. 
 * Ajoutez de la documentation pour chaque Job. Exemple : Nerf
-* Taguez ces 6 jobs en fonction du type de produit (**jouets** , **électronique** ou **vêtements** )
-* Créer un Job Unix nommé **Rapport d’inventaire d’achat**
-* Ce job doit être exécuté sur la machine ```SUSEVM```
-* Ce Job doit s'exécuter sous les IDs groupe/utilisateur ```0/0``` 
+* Taguez ces 6 jobs en fonction du type de produit (**jouets** , **électronique** ou **vêtements** ).
+* Créer un Job Unix nommé ```Rapport d’inventaire d'achat```.
+* Ce job doit être exécuté sur la machine ```SUSEVM```.
+* Ce Job doit s'exécuter sous les IDs groupe/utilisateur ```0/0```. 
 * Appelez les programmes sur la ligne de commande. Par exemple :
 
   ```  
   /usr/local/labfiles/CheckInvPurRpt –t100  
   ```  
   
-* Ce job doit être exécutée du **lundi au dimanche**
-* Le rapport d'inventaire d'achat nécessite les 6 jobs Windows et doit s'exécuter une fois que toutes les exécutions sont terminées
-* Mettre au Plan le Schedule pour aujourd'hui et demain
+* Ce job doit être exécutée du **lundi au dimanche**.
+* Le rapport d'inventaire d'achat nécessite les 6 jobs Windows et doit s'exécuter une fois que toutes les exécutions sont terminées.
+* Mettre au Plan le Schedule pour aujourd'hui et demain.
 
 :::note Remarque
-Une fois terminé, affichez les résultats dans le **Designer Workflow**. Ensuite, mettre au Plan le Schedule en « Release » pour aujourd'hui et vérifiez son exécution à l'aide de **Solution Manager**.
+Une fois terminé, affichez les résultats dans le **Designer Workflow**. Ensuite, mettre au Plan le Schedule en « Release » pour aujourd'hui et vérifiez son exécution à l'aide du **Solution Manager**.
 :::
 
 <a href="imgbasic/306.png" target="_blank"><img src="imgbasic/306.png" width="500"></img></a>
