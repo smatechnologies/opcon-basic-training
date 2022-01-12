@@ -18,7 +18,7 @@ Next, select the **Master Holiday Calendar** from the Calendar List. Add the fol
   *	January 17th – Martin Luther King Jr. Day
   *	February 21th – President’s Day
   *	May 30st – Memorial Day
-  * June 19th - Juneteenth National Independence Day
+  * June 20th - Juneteenth National Independence Day (Observed)
   *	July 4th – Independence Day
   *	September 5th – Labor Day
   *	October 10th – Columbus Day
