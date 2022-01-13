@@ -20,20 +20,14 @@ sidebar_label: 'OpCon User Help'
 <a href="imgbasic/273.png" target="_blank"><img src="imgbasic/273.png" width="500"></img></a>  
 <a href="imgbasic/274.png" target="_blank"><img src="imgbasic/274.png" width="500"></img></a>  
 
-
 ### OpCon User Help - Agents
 
 <a href="imgbasic/275.png" target="_blank"><img src="imgbasic/275.png" width="500"></img></a>  
-<a href="imgbasic/276.png" target="_blank"><img src="imgbasic/276.png" width="500"></img></a>  
 
 ### OpCon User Help - Concepts
 
 The Concepts section of OpCon User Help assists with basic and advanced automation concepts 
 
 <a href="imgbasic/277.png" target="_blank"><img src="imgbasic/277.png" width="500"></img></a>  
-
-### OpCon User Help - Release Notes
-
-<a href="imgbasic/278.png" target="_blank"><img src="imgbasic/278.png" width="500"></img></a>  
 
 ###### (Click Images to Enlarge)
