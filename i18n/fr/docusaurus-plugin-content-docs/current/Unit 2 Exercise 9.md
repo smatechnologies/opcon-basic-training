@@ -18,7 +18,7 @@ Dans le Job **On Request Frequency Practice**, créez une nouvelle fréquence no
 
 Dans le Job **Begin of Period Frequency Practice**, créez une nouvelle fréquence nommée ```BOM-A```. Cette fréquence doit fonctionner le 1er jour ouvrable de chaque mois, ou le lendemain en cas de vacances.
 
-Dansnle Job **Mid of Period Frequency Practice**, créez une nouvelle fréquence nommée ```Mid-Wed-A```. Cette fréquence doit s'exécuter le mercredi le plus proche du milieu du mois, ou le lendemain en cas de vacances.
+Dans le Job **Mid of Period Frequency Practice**, créez une nouvelle fréquence nommée ```Mid-Wed-A```. Cette fréquence doit s'exécuter le mercredi le plus proche du milieu du mois, ou le lendemain en cas de vacances.
 
 Dans le Job **End of Period Frequency Practice**, créez une nouvelle fréquence nommée ```EOM-B```. Cette fréquence doit être exécutée le dernier jour ouvrable du mois ou la veille en cas de vacances.
 
