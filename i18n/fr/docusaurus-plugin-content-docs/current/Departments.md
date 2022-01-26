@@ -33,8 +33,8 @@ _Trois étapes pour configurer des départements dans OpCon_ :
 
 * **Les Privilèges Fonction par Département** sont utilisés pour octroyer des privilèges opérationnels liés aux Jobs
 * Les Privilèges Fonction par Département peuvent être filtrés par département :
-    * <All Departments>
-    * <General>
+    * ```<All Departments>```
+    * ```<General>```
     * Départements définis par l'utilisateur
 * Lorsque certains privilèges sont accordés, le rôle sélectionné doit également avoir des privilèges de fonction `` supplémentaires '' accordés
     * Exemple: un rôle doté du privilège **Add Jobs to Daily Schedules** doit également disposer des privilèges **View Jobs in Daily Schedules** et **View Jobs in Master Schedules** pour exécuter cette fonction.
