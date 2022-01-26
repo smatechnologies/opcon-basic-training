@@ -30,7 +30,7 @@ Si l'un de ces processus n'est pas terminé à 5 heures du matin ou s'il prend p
 * Fin tardive (Late to Finish)
 * Durée d'exécution maximale dépassée (Exceeded Max Runtime)
 
-Construisez le Schedule publié pour aujourd'hui. Affichez les résultats dans Matrix View ou Solution Manager.
+Mettez le Schedule au plan en Release pour aujourd'hui. Affichez les résultats dans La vue Matrix Ou le Solution Manager.
 
 Ouvrez **Thunderbird** pour vérifier les notifications.
 
@@ -50,63 +50,63 @@ Your browser does not support the video tag.
 * **Informations sur le schedule**
     * Nommez le schedule **Congo Retail Order Processing**
     * Du lundi au dimanche
-    * **Auto Build** ```7``` jours à l'avance pour un 1 jour
-    * **Auto Delete** ```7``` Jours 
+    * **Mise au Plan automatique** ```7``` jours à l'avance pour un 1 jour
+    * **Suppression automatique** ```7``` Jours 
 
 *	**Information sur le Job**
 
 *  Legos
     * Command Line: 
      ```“C:\scripts\ShipmentProcessorToys.EXE” –t90```
-    * Start Offset: ```03:00```
-    * Absolute Late to Start Offset: ```01:55 (4:55 am)```
-    * Max Run Time: ```5```
-    * Add documentation
-    * Tag the Job under ```Toys```
+    * Ecart temps de soumission: ```03:00```
+    * Absolue indicateur retard Soumission: ```01:55 (4:55 am)```
+    * Temps Max d’Exécution: ```5```
+    * Ajouter de la documentation
+    * Taguer le job en tant que  ```Toys```
 * Nerf
     * Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” –t120```
-    * Start Offset: ```04:00```
-    * Absolute Late to Finish Offset: ```01:00 (5:00 am)```
-    * Max Run Time: ```5```
-    * Add documentation 
-    * Tag the Job under ```Toys```
+    * Ecart temps de soumission: ```04:00```
+    * Absolue indicateur retard Soumissiont: ```01:00 (5:00 am)```
+    * Temps Max d’Exécution: ```5```
+    * Ajouter de la documentation
+    * Taguer le job en tant que  ```Toys```
 * Smartphones
     * Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t15```
-    * Start Offset: ``04:30``
-    * Absolute Late to Finish Offset: ```00:30 (5:00 am)```
-    * Max Run Time: ```5```
-    * Add documentation 
-    * Tag the Job under ```Electronics```
+    * Ecart temps de soumission: ``04:30``
+    * Absolue indicateur retard Soumission: ```00:30 (5:00 am)```
+    * Temps Max d’Exécution: ```5```
+    * Ajouter de la documentation 
+    * Taguer le job en tant que  ```Electronics```
 * Xbox
     * Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t350```
-    * Start Offset: ```02:30```
-    * Absolute Late to Finish Offset: ```02:30 (5:00 am)```
-    * Max Run Time: ```5```
-    * Add documentation 
-    * Tag the Job under ```Electronics```
+    * Ecart temps de soumission: ```02:30```
+    * Absolue indicateur retard Soumission: ```02:30 (5:00 am)```
+    * Temps Max d’Exécution: ```5```
+    * AAjouter de la documentation 
+    * Taguer le job en tant que ```Electronics```
 * Levis
     * Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t45```
-    * Start Offset: ```03:10```
-    * Absolute Late to Start Offset: ```01:45 (4:55 am)```
-    * Max Run Time: ```5```
-    * Add documentation 
-    * Tag the Job under ```Clothing```
+    * Ecart temps de soumission: ```03:10```
+    * Absolue indicateur retard Soumission: ```01:45 (4:55 am)```
+    * Temps Max d’Exécution: ```5```
+    * Ajouter de la documentation 
+    * Taguer le job en tant que ```Clothing```
 * Nike
     * Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t75```
-    * Start Offset: ```03:45```
-    * Absolute Late to Finish Offset: ```01:15 (5:00 am)```
-    * Max Run Time: ```5```
-    * Add documentation 
-    * Tag the Job under ```Clothing```
+    * Ecart temps de soumission: ```03:45```
+    * Absolue indicateur retard Soumission: ```01:15 (5:00 am)```
+    * Temps Max d’Exécution: ```5```
+    * Ajouter de la documentation
+    * Taguer le job en tant que  ```Clothing```
 
 *	**Notifications**
-    *	Setup Email Notifications in Notification Manager using Global Properties to pass the Name of the Schedule and Job in the subject when the following conditions have been met:
-        *	Late to Start
-        *	Late to Finish
-        *	Exceeded Max Runtime
+    *Configurez les notifications par e-mail dans Le Gestionnaire de Notification à l'aide des propriétés globales pour transmettre le nom du schedule et Du Job dans l'objet lorsque les conditions suivantes sont remplies :
+        *	Retard de Soumission (Late to start)
+        *	Retard de Fin (Late to Finish)
+        *	Temps maximal dépassé (Excedeed Max RunTime)
 
-* **Construire**
-    * Créez le Schedule Released pour aujourd'hui et vérifiez les résultats à l'aide de Solution Manager
+* **Mise au Plan**
+    * Mettre au plan le Schedule en Released pour aujourd'hui et vérifiez les résultats à l'aide de Solution Manager
     * Ouvrez Thunderbird et vérifiez votre boîte de réception
 
 </details>

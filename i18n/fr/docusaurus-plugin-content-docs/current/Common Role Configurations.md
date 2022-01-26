@@ -3,7 +3,7 @@ sidebar_label: 'Configurations de rôles'
 hide_title: 'false'
 ---
 
-## Configurations de rôles courants - Meilleures pratiques
+## Configurations de rôles courants - Bonnes Pratiques
 
 <figure>
     <audio
@@ -39,7 +39,7 @@ hide_title: 'false'
 #### Les opérateurs
 
 * Ces personnes surveilleront les Jobs et les Schedules sur une base quotidienne
-* Ils auront besoin d'une autorisation pour voir chaque schedule et être en mesure d'effectuer la maintenance avant et après l'exécution d'un Job et / ou d'un schedule (Jobs de redémarrage, Jobs de démarrage forcé, Schedule de démarrage forcé, Schedule de publication, etc.)
+* Ils auront besoin d'une autorisation pour voir chaque schedule et être en mesure d'effectuer la maintenance avant et après l'exécution d'un Job et / ou d'un schedule << Restart Jobs, Force-Start Jobs, Force-Start Schedules, Release Schedules, etc >>
 * Les privilèges répertoriés dans le tableau peuvent être utilisés comme guide pour l'attribution de privilèges aux opérateurs OpCon
 
 <a href="imgbasic/318.png" target="_blank"><img src="imgbasic/318.png" width="500"></img></a>  

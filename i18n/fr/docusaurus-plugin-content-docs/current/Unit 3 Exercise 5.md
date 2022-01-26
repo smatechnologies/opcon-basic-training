@@ -3,7 +3,7 @@ sidebar_label: 'Unite 3 Exercice 5'
 hide_title: 'false'
 ---
 
-## Exercice 5: Privilèges de planification (Schedule)
+## Exercice 5: Privilèges Schedule
 
 ##### Objectif:
 
@@ -20,10 +20,10 @@ Your browser does not support the video tag.
 
 <summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1. Sous la rubrique **Security > Privileges**, double-cliquez sur **Schedule Privileges**.
-2. Dans la liste déroulante **Select Role** sélectionnez le **rôle de Training**.
-3. Notez que tous les Schedules sont présentés dans la liste Revoked (à gauche)
-4. Sous la liste Revoked, cliquez sur **My First Schedule**, puis sur la flèche verte (pointant vers la droite) pour placer **My First Schedule** dans la liste **Autorisé**.
-5. Fermez l'onglet **Schedule Privileges**.
+1. Sous la rubrique **Sécurité > Privilèges**, double-cliquez sur **Privilèges Schedule**.
+2. Dans la liste déroulante **Sélectionner un profil** sélectionnez le **rôle Training**.
+3. Notez que tous les Schedules sont présentés dans la liste Non-autorisé (à gauche)
+4. Sous la liste Non-autorisé, cliquez sur **My First Schedule**, puis sur la flèche verte (pointant vers la droite) pour placer **My First Schedule** dans la liste **Autorisé**.
+5. Fermez l'onglet **Privilèges Schedules**.
 
 </details>

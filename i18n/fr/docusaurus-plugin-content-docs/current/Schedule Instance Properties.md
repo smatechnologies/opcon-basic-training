@@ -3,7 +3,7 @@ sidebar_label: 'Propriétés de l instance de schedule'
 hide_title: 'false'
 ---
 
-## Propriétés de l'instance de schedule
+## Propriétés d’instance de schedule
 
 <figure>
     <audio
@@ -14,7 +14,7 @@ hide_title: 'false'
     </audio>
 </figure>
 
-* **Schedule Master** contient un onglet de **définition d'instance** pour chaque schedule individuel dans lequel **les propriétés de l'instance de planification** peuvent être définies ou modifiées
+* **Schedule Master** contient un onglet de **définition d'instance** pour chaque schedule individuel dans lequel **les propriétés de l'instance de Schedule** peuvent être définies ou modifiées
 * L'utilisation d'une propriété d'instance de schedule doit contenir « ```SI.```» devant un nom de propriété (par exemple, ```[[SI.ID]]```)
 * Identifie une propriété en tant que propriété d'instance de schedule
 
@@ -23,7 +23,7 @@ hide_title: 'false'
 
 ### Solution Manager - Définitions d'instances de Schedule
 
-* Les définitions d'instance peuvent être créées ou modifiées dans Schedule Build Wizard
+* Les définitions d'instance peuvent être créées ou modifiées Lors d’une mise au plan
     * Les noms de propriété peuvent être définis pour les schedules à instance unique
     * Les instances nommées peuvent être sélectionnées ou définies pour les schedules multi-instances
 

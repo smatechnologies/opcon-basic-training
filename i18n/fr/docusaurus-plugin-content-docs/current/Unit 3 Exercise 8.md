@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Objectif:
 
-Dans **Notification Manager**, créez une notification en ajoutant un **groupe racine (Root Group)** nommé ```ALL MACHINES``` et en ajoutant à la fois les machines ```WINDOWS``` et ```UNIX```.
+Dans **Gestionnaire de Notifications**, créez une notification en ajoutant un **groupe racine (Root Group)** nommé ```ALL MACHINES``` et en ajoutant à la fois les machines ```WINDOWS``` et ```UNIX```.
 
 Ajoutez un **déclencheur machine (Machine Trigger)** pour ```Machine Marked Up```.
 
@@ -27,21 +27,21 @@ Your browser does not support the video tag.
 
 <summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
-1. Sous la rubrique **Management**, double-cliquez sur **Notification Manager**.
+1. Sous la rubrique **Gestion**, double-cliquez sur **Gestionnaire Notification**.
 2. Cliquez sur l'onglet **Machines**.
-3. Cliquez avec le bouton droit de la souris dans la zone blanche sous l'onglet Machines et sélectionnez **Add Root Group**.
+3. Cliquez avec le bouton droit de la souris dans la zone blanche sous l'onglet Machines et sélectionnez **Ajouter un groupe Root**.
 4. Tapez le nom du groupe de machines (par exemple, Toutes les machines) et cliquez sur **OK**.
 5. Sur le côté droit de l'écran, développez les systèmes d'exploitation et cochez toutes les cases à côté de la ou des **machines**.
-6. Cliquez sur le bouton **Save** (en bas à droite).
-7. Cliquez avec le bouton droit sur le dossier **Groupe** créé à l'étape 4, déplacez la souris sur **Add Machine Trigger** et sélectionnez ```Machine Marked Up``` Trigger. 
-9. Sous **Notification Definitions** à droite :
-    * Cochez la case **Send Email (SMTP)** 
+6. Cliquez sur le bouton **Sauvegarder** (en bas à droite).
+7. Cliquez avec le bouton droit sur le dossier **Groupe** créé à l'étape 4, déplacez la souris sur **Ajouter déclenchement Machine** et sélectionnez ```Machine Marked Up```. 
+9. Sous **Définitions Notifications** à droite :
+    * Cochez la case **Envoyer Email (SMTP)** 
     * Cliquez sur l'onglet **Email**.
     * Dans le champ Email, saisissez ```smauser@congo.local```.
     * Entrez un **sujet**.
     * Dans le **message**, saisissez **Notification par e-mail de test**.
 10. Cliquez sur le bouton **Test** pour tester les résultats de votre notification
-11. Cliquez sur le bouton **Save**.
+11. Cliquez sur le bouton **Sauvegarder**.
 12. Ouvrez **Thunderbird** et vérifiez la boîte de réception.
 
 </details>

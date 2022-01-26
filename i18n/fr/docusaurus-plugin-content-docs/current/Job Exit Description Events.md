@@ -3,7 +3,7 @@ sidebar_label: 'Events basés sur la description de la sortie de Job'
 hide_title: 'false'
 ---
 
-## Events basés sur la description de la sortie de Job
+## Events basés sur la description de la sortie de Job (codes retour)
 
 <figure>
     <audio
@@ -17,9 +17,8 @@ hide_title: 'false'
 Lors de la définition d'un event basé sur la description de sortie, deux choses doivent être définies :
 
 * **Opérateur de comparaison**      
-    * Soyez prudent en n'utilisant rien d’autre que **Equal To**
     * Chaque système d'exploitation a des règles pour les noms et valeurs de description de sortie
-    * UNIX - Utilisez **Contains** à moins que **full Exit Code** ne soit précisé
+    * UNIX
         * Si Equal To est sélectionné, **full Exit Code** est requis, y compris les zéros précédents et les deux points, les signes plus, etc.
     * Windows - Utilisez les derniers chiffres
         * ```100``` à la place de ```000000000100```

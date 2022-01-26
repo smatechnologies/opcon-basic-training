@@ -9,19 +9,19 @@ hide_title: 'false'
 
 Dans Job Master, parmi les schedules existant **Exit Code Events**, sélectionnez **Job 1**.
 
-Sous l'onglet **Avanced**, définissez les **critères d'échec (Failure Criteria)** sur:
+Sous l'onglet **Avancé**, définissez les **critères d'échec (Failure Criteria)** sur:
 
-```Finish OK if Equal to 0```
+```Finish OK Si égal à 0```
 
 Et / OU
 
-```Finish OK if Equal to 100```
+```Finish OK Si égal à 100```
 
-Ajoutez un nouvel event basé sur **Exit Description** si la valeur est ```Equal to 100```. 
+Ajoutez un nouvel event basé sur **Description Sortie** si la valeur est ```Egal à 100```. 
 
 L'événement doit utiliser le modèle ```$JOB:SKIP``` pour ignorer **Job 2**.
 
-Construisez le schedule et affichez les résultats dans la vue matricielle.
+Mettre au Plan  le schedule et affichez les résultats dans la vue Matrix.
 
 
 <div>
@@ -38,31 +38,31 @@ Your browser does not support the video tag.
 1. Sous la rubrique **Administration**, double-cliquez sur **Job Master**.
 2. Dans la liste déroulante **Schedule**, sélectionnez **Exit Code Events**.
 3. Dans la liste déroulante **Job**, sélectionnez **Job 1**.
-4. Au bas de l'écran, cliquez sur l'onglet **Avanced**.
-5. Modifiez le menu déroulant **Results de Fail** à **Finish OK**.
-    * Cela inversera la logique indiquant que le Job ne se **terminera** que si le Job se termine avec les **codes de sortie** répertoriés.
-6. Modifiez **Comparison Operator** de ```Not Equal To``` à ```Equal To``` en laissant la valeur définie sur ```0```.
-7. Dans la deuxième ligne, modifiez le menu déroulant **Et / Ou** de **vide** à **OR**.
-8. Dans la deuxième ligne, modifiez **Comparison Operator** de **vide** à ```Equal To```.
-9. Dans la deuxième ligne, modifiez **Value** de ```0``` à ```100```.
-10. Cliquez sur le bouton **Save** en haut à droite de l'écran.
+4. Au bas de l'écran, cliquez sur l'onglet **Avancé**.
+5. Modifiez le menu déroulant **Résultat D’Echec** à **Finish OK**.
+    * Cela inversera la logique indiquant que le Job Sera OK si le Job se termine avec les **codes de sortie** listés.
+6. Modifiez **Comparison Operator** de ```inégal à ``` à ```égal à ``` en laissant la valeur définie sur ```0```.
+7. Dans la deuxième ligne, modifiez le menu déroulant **Et / Ou** de **vide** à **Ou**.
+8. Dans la deuxième ligne, modifiez **l’Opérateur de comparaison** de **vide** à ```égal à```.
+9. Dans la deuxième ligne, modifiez **La valeur** de ```0``` à ```100```.
+10. Cliquez sur le bouton **Sauvegarder** en haut à droite de l'écran.
 11. Cliquez sur l'onglet **Events**.
-12. Cliquez sur le bouton **Add** dans le cadre Events.
-13. Cliquez sur le bouton radio **Exit Description** dans **Event Definition Wizard**.
-14. Cliquez sur **Next**.
-15. Sélectionnez **Egal To** dans le menu déroulant **Comparison Operator**.
+12. Cliquez sur le bouton **Ajouter** dans le cadre Events.
+13. Cliquez sur le bouton radio **Description Sortie** dans **L’Assistant définition Event**.
+14. Cliquez sur **Suivant**.
+15. Sélectionnez **Egal à** dans le menu déroulant **Opérateur de comparaison**.
 16. Tapez dans la zone de texte Value ```100```.
-17. Cliquez sur **Next**.
-18. Sélectionnez le modèle ```$JOB:SKIP``` dans le menu déroulant Event Template.
+17. Cliquez sur **Suivant**.
+18. Sélectionnez le modèle ```$JOB:SKIP``` dans le menu déroulant Modèle Event.
 19. Mettre à jour ```<Schedule date>``` avec ```[[$SCHEDULE DATE]]```
 20. Mettre à jour ```<Schedule name>``` avec ```[[$SCHEDULE NAME]]```
 21. Mettre à jour ```<Job name>``` avec **Job 2**.
 22. Les **paramètres d'événement (Event Parameters)** devraient ressembler à ceci : ```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],Job 2```
-23. Cliquez sur le bouton **Finish**.
+23. Cliquez sur le bouton *Terminé**.
 24. Fermez l'onglet **Job Master**.
-25. Sous la rubrique **Operations**, double-cliquez sur **Schedule Build**.
-26. Sélectionnez Exit Code Events dans Schedule Selection.
-27. Cliquez sur le bouton **Build**.
+25. Sous la rubrique **Operations**, double-cliquez sur **Mise au Plan (Build)**.
+26. Sélectionnez codes de sortie dans Schedule Selection.
+27. Cliquez sur le bouton **Mise au Plan**.
 28. Sélectionnez le bouton radio **Released**.
 29. Cliquez sur **OK**.
 30. Ouvrez l'écran **Operations** de votre choix ( **Matrix** ou **List** ) ou utilisez **Solution Manager** .

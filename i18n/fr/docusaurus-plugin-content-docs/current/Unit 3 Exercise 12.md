@@ -15,7 +15,7 @@ Tapez ce qui suit :
 
 Enregistrez le fichier sous n'importe quel nom sous ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
 
-Ouvrez ```SAM Log``` et ```Critical Log``` et vérifiez les messages pour voir que la propriété n'existe pas.
+Ouvrez ```SAM Log``` et ```Critical Log``` et vérifiez les messages pour voir que la propriété n'existe pas (Property does not exist).
 
 
 <div>
@@ -33,9 +33,9 @@ Your browser does not support the video tag.
 2. Dans le **Bloc-notes**, tapez : ```$PROPERTY:SET,EVENTERROR,0,ocadm,opconxps```
 3. Enregistrez le fichier (sous n'importe quel nom) sur : ```C:\ProgramData\OpConxps\MSLSAM\MSGIN```
 4. Revenez à Enterprise Manager et ouvrez **SAM Log**.
-5. Vérifiez les messages (la propriété ne doit pas exister).
+5. Vérifiez les messages (Property does not exist).
 6. Ouvrez **Critical Log**.
-7. Vérifiez les messages (la propriété ne doit pas exister).
+7. Vérifiez les messages (Property does not exist).
 8. Fermez tous les onglets du Log et le **bloc - notes**.
 
 </details>

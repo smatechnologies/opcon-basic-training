@@ -14,27 +14,27 @@ hide_title: 'false'
     </audio>
 </figure>
 
-* Privilèges de fonction sécurisés associés à des enregistrements de Job individuel
+* Privilèges de fonction De sécurité associés aux jobs
 * Pour utiliser la catégorie Département, les privilèges de fonction doivent être autorisés et le code d'accès doit être associé aux Jobs nécessitant ce type de sécurité.
 * Un seul département peut être utilisé pour sécuriser autant de Jobs différents que nécessaire
 
 
 _Trois étapes pour configurer des départements dans OpCon_ :  
 
-* Créer un département (**Security > Departments**)
-* Autoriser des privilèges de fonction de département à un département (**Security > Privileges > Departmental Function Privileges**)
+* Créer un département (**Sécurité > Départements**)
+* Autoriser des privilèges de fonction de département à un département (**Sécurité > Privilèges > Privilèges Fonction par Département**)
 * Attribuer un Département à n'importe quel Job qui nécessite ces privilèges de fonction de Département (**Job Master**)
-* le seul champ obligatoire est le **Name**
+* le seul champ obligatoire est le **Nom**
 * Utiliser le champ Documentation pour la justification du Département est la meilleure pratique
 
 <a href="imgbasic/307.png" target="_blank"><img src="imgbasic/307.png" width="500"></img></a>
 
-### Privilèges de fonction Départemental
+### Privilèges Fonction par Département
 
-* **Les Privilèges de fonction Départemental** sont utilisés pour octroyer des privilèges opérationnels liés aux Jobs
-* Les privilèges des fonctions départementales peuvent être filtrés par département :
-    * Tous les départements
-    * Département
+* **Les Privilèges Fonction par Département** sont utilisés pour octroyer des privilèges opérationnels liés aux Jobs
+* Les Privilèges Fonction par Département peuvent être filtrés par département :
+    * <All Departments>
+    * <General>
     * Départements définis par l'utilisateur
 * Lorsque certains privilèges sont accordés, le rôle sélectionné doit également avoir des privilèges de fonction `` supplémentaires '' accordés
     * Exemple: un rôle doté du privilège **Add Jobs to Daily Schedules** doit également disposer des privilèges **View Jobs in Daily Schedules** et **View Jobs in Master Schedules** pour exécuter cette fonction.

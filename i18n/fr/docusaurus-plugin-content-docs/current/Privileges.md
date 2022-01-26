@@ -15,20 +15,20 @@ hide_title: 'false'
 </figure>
 
 * L'administrateur peut autoriser les privilèges suivants aux rôles :
-    * Machine Privileges
-    * Machine Group Privileges
-    * Batch User Privileges
-    * Schedule Privileges
-    * Access Code Privileges
-    * Function Privileges
-    * Departmental Function Privileges
+    * Privilèges Machine
+    * Privilèges Groupe de Machine
+    * Privilèges Utilisateurs Batch
+    * Privilège Schedule
+    * Privilèges Codes d’Accès
+    * Privilèges Fonction
+    * Privilèges Fonction par Département
     * Script Privileges
 * Les machines et les groupes de machines sont créés sur des écrans spécifiques dans la section **Administration** d’Enterprise Manager
-* Les codes d'accès, les Batch Users et les départements sont créés sur les écrans correspondants dans la section **Sécurité** d'Enterprise Manager
+* Les codes d'accès, Les Utilisateurs Batch et les départements sont créés sur les écrans correspondants dans la section **Sécurité** d'Enterprise Manager
 
 <a href="imgbasic/3303.png" target="_blank"><img src="imgbasic/3303.png" width="300"></img></a>  
 
-### Privilèges de la machine
+### Privilèges Machine
 
 <figure>
     <audio
@@ -39,9 +39,9 @@ hide_title: 'false'
     </audio>
 </figure>
 
-* Les privilèges de machine sont utilisés pour contrôler les machines pour les utilisateurs dans un rôle qui ont des privilèges pour créer et modifier des Jobs
+* Les privilèges machine sont utilisés pour contrôler les machines pour lesquelles les utilisateurs ont des droits (privilèges) lors de la création ou modification des jobs
 * Dans Job Master et Job Daily, les utilisateurs ne verront que les machines en fonction de leurs privilèges selon leur rôle
-* Dans les Schedule Operations, les privilèges de machine ne sont pas appliqués
+* Dans les Opérations des Schedules, les privilèges de machine ne sont pas appliqués
 
 <a href="imgbasic/3304.png" target="_blank"><img src="imgbasic/3304.png" width="500"></img></a>
 

@@ -3,7 +3,7 @@ sidebar_label: 'Propriétés de l instance de machine'
 hide_title: 'false'
 ---
 
-## Propriétés de l'instance de machine
+## Propriétés d’instance de machine
 
 <figure>
     <audio
@@ -14,7 +14,7 @@ hide_title: 'false'
     </audio>
 </figure>
 
-* L'écran Advanced Machine Properties est utilisé pour gérer les **propriétés d'instance de machine (Machine Instance Properties)** d'une machine spécifique
+* La fenêtre des propriétés avancées Machine est utilisé pour gérer les **propriétés d'instance de machine (Machine Instance Properties)** d'une machine spécifique
 * L'utilisation d'une propriété d'instance de machine doit contenir « ```MI.```» devant un nom de propriété (par exemple, ```[[MI.LSAMpath]]```)
 * Identifie une propriété en tant que propriété d'instance de machine
 * La communication avec une machine dans OpCon doit être arrêtée pour ajouter ou modifier les propriétés d'instance de machine

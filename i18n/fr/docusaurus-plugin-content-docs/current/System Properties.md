@@ -3,7 +3,7 @@ sidebar_label: 'Propriétés du système et de l instance'
 hide_title: 'false'
 ---
 
-## Propriétés du système et de l'instance
+## Propriétés système et d’instance
 
 <figure>
     <audio
@@ -21,17 +21,17 @@ Les **propriétés** sont des variables stockées dans la base de données qui p
 
 * **Les propriétés globales (Global Properties)** (propriétés d'instance OpCon) sont des variables associées à l'ensemble de l'environnement
 * **Les propriétés d'instance de Job (Job Instance Properties)** sont des variables associées à un Job spécifique
-* **Les propriétés d'instance de planification (Schedule Instance Properties)** sont des variables associées à un schedule spécifique
+* **Les propriétés d'instance de Schedule (Schedule Instance Properties)** sont des variables associées à un schedule spécifique
 * **Les propriétés d'instance de machine (Machine Instance Properties)** sont des variables associées à une machine spécifique
 
 ### Propriétés système et propriétés définies par l'utilisateur
 
 * Toutes les propriétés globales qui commencent par un symbole dollar (```$```) sont appelées propriétés système (System Properties).
 * Les propriétés système donnent des valeurs de variable dépendant du système
-* Plusieurs de ces systèmes de valeurs peuvent être modifiées au format
+* Plusieurs de Propriétés sysème peuvent être formatés
     * Exemple: ```$DATE``` peut être réglé sur ```mmddyy```, ```yyyymmdd```, ```mm```, etc.
 * ```$DATE``` est la date actuelle du serveur OpCon
-    * ```$SCHEDULE DATE``` est la date à laquelle un Schedule a été créé
+    * ```$SCHEDULE DATE``` est la date à laquelle un Schedule a été mise au plan
         * Si un schedule est créé pour le 1er janvier à 23h50, mais se termine le 2 janvier à 15h30, toutes les propriétés ```$SCHEDULE DATE``` seront résolues à la date du 1er janvier
 
 <a href="imgbasic/334.png" target="_blank"><img src="imgbasic/334.png" width="300"></img></a>

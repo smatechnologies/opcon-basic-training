@@ -19,10 +19,10 @@ hide_title: 'false'
 <a href="imgbasic/322.png" target="_blank"><img src="imgbasic/322.png" width="400"></img></a>  
 
 * Créer des groupes
-* Définissez les notifications en fonction des évents de modification :
+* Définissez les notifications en fonction des évènements de modification :
     * Machine
     * Schedule
-    * Job Status
+    * Job
 
 <a href="imgbasic/323.png" target="_blank"><img src="imgbasic/323.png" width="500"></img></a>  
 <a href="imgbasic/324.png" target="_blank"><img src="imgbasic/324.png" width="500"></img></a>  

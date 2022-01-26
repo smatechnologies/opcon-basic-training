@@ -65,7 +65,7 @@ hide_title: 'false'
 </figure>
 
 * Une fois l'escalade déclenchée, tout utilisateur lié à un groupe d'escalade doit confirmer pour arrêter le cycle d'escalade
-* Mettre fin à l'alerte dans l'écran de confirmation d'escalade
+* Mettre fin à l'alerte dans l'écran de Acquittement de Notification
 * Un symbole apparaîtra en bas d'Enterprise Manager près du SAM Pulse, indiquant le nombre de notifications en cours de remontée
 
 

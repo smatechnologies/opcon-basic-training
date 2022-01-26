@@ -14,7 +14,7 @@ hide_title: 'false'
     </audio>
 </figure>
 
-* Les codes d'accès peuvent être utilisés pour sécuriser les enregistrements de Jobs individuels
+* Les codes d'accès peuvent être utilisés pour sécuriser Les jobs
 * Pour utiliser un code d'accès, des privilèges doivent être accordés
 * Un seul code d'accès peut être utilisé pour sécuriser autant de Jobs différents que nécessaire
 
@@ -33,7 +33,7 @@ hide_title: 'false'
 
 <a href="imgbasic/314.png" target="_blank"><img src="imgbasic/314.png" width="500"></img></a>
 
-### Gestionnaire de solutions - Détails du service et du code d'accès
+### Solution Manager – Département et Code d’accès
 
 <a href="imgbasic/315.png" target="_blank"><img src="imgbasic/315.png" width="500"></img></a>
 

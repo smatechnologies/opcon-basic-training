@@ -25,9 +25,9 @@ Sélectionnez **WINDOWS JOB 4** dans **MY FIRST SCHEDULE**. Mettez à jour la li
 “[[MI.PathWindows]]\genericp.exe” -t[[SI.RUNTIME]] -e0
 ```
 
-Reconstruisez **MY FIRST SCHEDULE**, écrasez et publiez pour aujourd'hui. Libérez **WINDOWS JOB 1** et **WINDOWS JOB 2**.
+Re-mettre au plan **MY FIRST SCHEDULE**, écrasez et releasez pour aujourd'hui. Releasez **WINDOWS JOB 1** et **WINDOWS JOB 2**.
 
-Une fois tous les Jobs exécutés avec succès, vérifiez Property/Token success dans **Job Information > Configuration > Token Replacement Values** pour **WINDOWS JOB 4**.
+Une fois tous les Jobs exécutés avec succès, vérifiez La propriété (token) dans **Job Information > Configuration > Token Replacement Values** pour **WINDOWS JOB 4**.
 
 
 <div>
@@ -43,21 +43,21 @@ Your browser does not support the video tag.
 
 1. Sous la rubrique **Administration**, double-cliquez sur **Schedule Master**.
 2. Dans le menu déroulant **Schedule Selection** sélectionnez **My First Schedule**.
-3. Cliquez sur l'onglet **Instance Definition** sous Schedule Details.
+3. Cliquez sur l'onglet **Définitions Instance** sous Détails Schedule.
 4. Dans la zone de texte **Définir les valeurs de propriété**, tapez ```RUNTIME=20```.
-5. Cliquez sur le bouton **Add** à droite de la zone de texte **Définir les valeurs de propriété**.
-6. Cliquez sur le bouton **Save** dans la barre d'outils **Schedule Master**.
+5. Cliquez sur le bouton **Ajouter** à droite de la zone de texte **Définir les valeurs de propriété**.
+6. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils **Schedule Master**.
 7. Fermez le **Schedule Master**.
 8. Sous la rubrique **Administration**, double-cliquez sur **Machines**.
-9. Dans le menu déroulant **Select machine**, sélectionnez ```SMATraining```.
-10. Cliquez avec le bouton droit sur l'**icône de communication LSAM** sous Communication Status et sélectionnez **Stop Communication**.
-11. Cliquez sur le lien **Open Advanced Settings Panel** juste au-dessus de Communication Status.
-12. Cliquez sur Available Property row.
-13. Cliquez sur le bouton **Add**.
+9. Dans le menu déroulant **Sélectionner Machine**, sélectionnez ```SMATraining```.
+10. Cliquez avec le bouton droit sur l'**icône de communication LSAM** sous Statut Communication SAM/LSAM et sélectionnez **Interrompre Communication**.
+11. Cliquez sur le lien **Ouvrir le panneau Paramètres Avancésl** juste au-dessus de Statut Communication SAM/LSAM.
+12. Cliquez sur La ligne Available Property.
+13. Cliquez sur le bouton **Ajouter**.
 14. Tapez ```PathWindows=C:\Program Files\OpConxps\MSLSAM``` dans la zone de texte et cliquez sur **OK**.
-15. Cliquez sur le bouton **Update**.
-16. Cliquez sur le bouton **Save**.
-17. Cliquez avec le bouton droit de la souris sur l'icône de **LSAM Communication** sous **Communication Status** et sélectionnez Start **Communication**.
+15. Cliquez sur le bouton **Mise à jour**.
+16. Cliquez sur le bouton **Sauvegardere**.
+17. Cliquez avec le bouton droit de la souris sur l'icône de **Communication LSAM** sous **Statut Communication** et sélectionnez **Démarrer Communication**.
 18. Fermez l'onglet **Machines**.
 19. Sous **Administration**, cliquez sur **Job Master**.
 20. Dans la liste déroulante **Schedule**, sélectionnez **My First Schedule**.
@@ -74,10 +74,10 @@ Your browser does not support the video tag.
 “[[MI.PathWindows]]\genericp.exe” –t[[SI.RUNTIME]] –e0
 ```
 
-23. Cliquez sur le bouton **Save**.
+23. Cliquez sur le bouton **Sauvegarder**.
 24. Fermez le **Job Master**.
 25. Si **My First Schedule** est en cours, **annulez (Cancel)** toutes les tâches.
-26. Reconstruisez **My First Schedule** publié pour aujourd'hui.
+26. Re-mettre au plan **My First Schedule** En release pour aujourd’hui.
 27. Libérez le **Windows Job 1** et le **Windows Job 2**.
 28. Vérifiez les résultats d'Enterprise Manager (vérifiez les **Job Information> Configuration> Token Replacement Values** pour le **Windows Job 4**).
 
