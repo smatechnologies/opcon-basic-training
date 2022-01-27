@@ -9,8 +9,7 @@ sidebar_label: 'SMA History'
 </audio>
 </figure>
 
-
-<img src="imgbasic/Picture1.png" width="300"></img>
+![Picture1](/imgbasic/Picture1.png)
 
 * Founded in 1980
 * Headquarters in Houston, Texas
