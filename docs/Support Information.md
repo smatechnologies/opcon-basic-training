@@ -2,14 +2,12 @@
 sidebar_label: 'Support Information'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SMASupportInformation.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SMASupportInformation.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
 
 * Normal Support Hours  
   * Monday – Friday  
