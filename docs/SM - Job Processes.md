@@ -4,14 +4,10 @@ sidebar_label: 'SM - Job Processes'
 
 ### Solution Manager: Job Processes
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SolutionManagerJobProcesses.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/JobProcesses.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 ### Daily Processes
 
@@ -21,15 +17,13 @@ sidebar_label: 'SM - Job Processes'
 
 #### Select Date:  
 
-<a href="imgbasic/Picture67.png" target="_blank"><img src="imgbasic/Picture67.png" width="500"></img></a>  
+![Picture67](/imgbasic/Picture67.png) 
 
 #### Select Schedule:    
 
-<a href="imgbasic/Picture68.png" target="_blank"><img src="imgbasic/Picture68.png" width="500"></img></a>  
+![Picture68](/imgbasic/Picture68.png) 
 
 #### Select Jobs:    
 
-<a href="imgbasic/Picture69.png" target="_blank"><img src="imgbasic/Picture69.png" width="500"></img></a>  
-
-###### (Click Images to Enlarge)
+![Picture69](/imgbasic/Picture69.png) 
 

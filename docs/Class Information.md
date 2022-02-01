@@ -2,14 +2,10 @@
 sidebar_label: 'Class Information'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/ClassInformationAndTrainingMachines.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/ClassInformationAndTrainingMachines.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>    
 
 ### This Week...
 
@@ -24,7 +20,7 @@ sidebar_label: 'Class Information'
 
 ### Training Machines
 
-<img src="imgbasic/Picture2.png" width="300"></img>
+![Picture2](/imgbasic/Picture2.png)
 
 * Stand-Alone OpCon Environment
 * 1 Windows Agent and 1 Unix Agent

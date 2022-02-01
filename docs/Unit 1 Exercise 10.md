@@ -8,12 +8,10 @@ sidebar_label: 'Unit 1 Exercise 10'
 
 Open **Workflow Designer** and create a new Job named **WINDOWS JOB 5** in **MY FIRST SCHEDULE**. Give the Job the same details as the existing Jobs within this Schedule. Give the Job a **Requires Dependency** for **WINDOWS JOB 4**.
 
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U1E10.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

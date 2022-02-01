@@ -2,16 +2,12 @@
 sidebar_label: 'Dependencies'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/JobDependencies.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/JobDependencies.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
-<a href="imgbasic/Picture21.png" target="_blank"><img src="imgbasic/Picture21.png" width="500"></img></a>  
+![Picture21](/imgbasic/Picture21.png) 
 
 ### Job Dependency Definition Tab
 
@@ -19,8 +15,8 @@ sidebar_label: 'Dependencies'
 
 * Use the Dependencies tab to define Job Dependencies
 
-<a href="imgbasic/Picture22.png" target="_blank"><img src="imgbasic/Picture22.png" width="500"></img></a>  
-<a href="imgbasic/Picture23.png" target="_blank"><img src="imgbasic/Picture23.png" width="500"></img></a>  
-<a href="imgbasic/Picture24.png" target="_blank"><img src="imgbasic/Picture24.png" width="500"></img></a>  
+![Picture22](/imgbasic/Picture22.png)
+ 
+![Picture23](/imgbasic/Picture23.png)
 
-###### (Click Images to Enlarge)
+![Picture24](/imgbasic/Picture24.png)

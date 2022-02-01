@@ -11,20 +11,14 @@ Most screens under Administration section will present these buttons assigned to
 
 ### Shortcuts
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/Shortcuts.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/Shortcuts.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 * In Enterprise Manager, **Ctrl+Alt+K** (Show Key Assist) will display a shortcut menu
 * Content depends on the active screen
 
-<a href="imgbasic/Picture6.png" target="_blank"><img src="imgbasic/Picture6.png" width="200"></img></a>  
-<a href="imgbasic/Picture7.png" target="_blank"><img src="imgbasic/Picture7.png" width="200"></img></a>
-
-###### (Click Images to Enlarge)
-
+![Picture6](/imgbasic/Picture6.png)
+  
+![Picture7](/imgbasic/Picture7.png)

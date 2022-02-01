@@ -2,14 +2,10 @@
 sidebar_label: 'Solution Manager'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SolutionManager.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SolutionManager.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 SMA's **Solution Manager** is a *Web-based* OpCon User Interface 
 
@@ -25,8 +21,9 @@ The Following components have been added to SMA Solution Manager:
   * Self Service
   * Vision 
 
-<a href="imgbasic/Picture57.png" target="_blank"><img src="imgbasic/Picture57.png" width="500"></img></a>  
-<a href="imgbasic/Picture58.png" target="_blank"><img src="imgbasic/Picture58.png" width="500"></img></a>  
+![Picture57](/imgbasic/Picture57.png) 
+
+![Picture58](/imgbasic/Picture58.png)  
 
 ### Solution Manager Navigation from Enterprise Manager
 
@@ -34,17 +31,15 @@ The Following components have been added to SMA Solution Manager:
   - The Solution Manager topic will only appear in the Navigation Panel if the **Solution Manager URL** General Server Option is defined
     - In order to view licensed modules or features, the User must possess all appropriate Privileges
 
-<a href="imgbasic/PictureSMMenuEM.png" target="_blank"><img src="imgbasic/PictureSMMenuEM.png" width="500"></img></a>
+![PictureSMMenueEM](/imgbasic/PictureSMMenuEM.png) 
 
 * The URL must be set up in Server Options under the General Tab
   - If no value is defined for the Solution Manager URL option, the Solution Manager topic will not appear in the Navigation Frame
 
-<a href="imgbasic/PictureSMURLServerOptions.png" target="_blank"><img src="imgbasic/PictureSMURLServerOptions.png" width="500"></img></a>
+![PictureSMURLServerOptions](/imgbasic/PictureSMURLServerOptions.png) 
 
-<a href="imgbasic/PictureSMURLBar.png" target="_blank"><img src="imgbasic/PictureSMURLBar.png" width="500"></img></a>
+![PictureSMURLBar](/imgbasic/PictureSMURLBar.png) 
 
 :::note
 After defining the URL and saving the value, the User must log out and then log back in to Enterprise Manager in order for the Solution Manager topic Menu to appear in the Navigation Frame
 :::
-
-###### (Click Images to Enlarge)

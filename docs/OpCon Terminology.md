@@ -2,14 +2,10 @@
 sidebar_label: 'OpCon Terminology'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/OpConTerminology.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/OpConTerminology.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 **Schedule**: A Group of Jobs that make up a business process
 

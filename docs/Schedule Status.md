@@ -2,14 +2,10 @@
 sidebar_label: 'Schedule Status'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/ScheduleStatus.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/ScheduleStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * Possible Schedule statuses:
   * Wait to Start
@@ -19,18 +15,14 @@ sidebar_label: 'Schedule Status'
   * Completed–Contains Failed Jobs 
   * In Process-Contains Failed Jobs
 
-<a href="imgbasic/Picture45.png" target="_blank"><img src="imgbasic/Picture45.png" width="500"></img></a>  
+![Picture45](/imgbasic/Picture45.png)
 
 ### Update Schedule Status
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/UpdateScheduleStatus.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/UpdateScheduleStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * Update the Schedule status by right-clicking Schedule and selecting one of the available options:
   * Hold
@@ -40,19 +32,16 @@ sidebar_label: 'Schedule Status'
   * Update Jobs Statuses
 * From List view, change the status of any Schedule on a day by right-clicking **Date**
 
-<a href="imgbasic/Picture46.png" target="_blank"><img src="imgbasic/Picture46.png" width="300"></img></a>  
-<a href="imgbasic/Picture47.png" target="_blank"><img src="imgbasic/Picture47.png" width="500"></img></a>  
+![Picture46](/imgbasic/Picture46.png)
 
+![Picture47](/imgbasic/Picture47.png)
+ 
 ### Job Status <a name="JobStatus"></a>
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/JobStatus.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/JobStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 Jobs have many different statuses 
 
@@ -74,40 +63,32 @@ Jobs have many different statuses
   * Under Review 
   * Fixed
 
-<a href="imgbasic/Picture48.png" target="_blank"><img src="imgbasic/Picture48.png" width="400"></img></a>
+![Picture48](/imgbasic/Picture48.png)
 
 ### Update Job Status
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/UpdateJobStatus.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/UpdateJobStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * Update Job statuses by right-clicking the Job and selecting one of the available options
 * Options vary depending on current status of Job
 * From **List** or **Matrix** view, change the status of any Jobs in a Schedule by right-clicking **Schedule**
 
-<a href="imgbasic/Picture49.png" target="_blank"><img src="imgbasic/Picture49.png" width="300"></img></a>
+![Picture49](/imgbasic/Picture49.png)
 
 ### Bulk Update Job Status
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/BulkUpdateJobStatus.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/BulkUpdateJobStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
-<a href="imgbasic/Picture50.png" target="_blank"><img src="imgbasic/Picture50.png" width="500"></img></a>  
-<a href="imgbasic/Picture51.png" target="_blank"><img src="imgbasic/Picture51.png" width="300"></img></a>  
-<a href="imgbasic/Picture52.png" target="_blank"><img src="imgbasic/Picture52.png" width="300"></img></a>  
-
-
-###### (Click Images to Enlarge)
+![Picture50](/imgbasic/Picture50.png)
+ 
+![Picture51](/imgbasic/Picture51.png) 
+ 
+![Picture52](/imgbasic/Picture52.png) 
+ 
 

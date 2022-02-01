@@ -2,34 +2,23 @@
 sidebar_label: 'Schedule Master'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/ScheduleMaster.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/ScheduleMaster.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
-<a href="imgbasic/Picture11.png" target="_blank"><img src="imgbasic/Picture11.png" width="500"></img></a>
+![Picture11](/imgbasic/Picture11.png)
 
 ### Workflow Documentation
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/WorkflowDocumentation.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WorkflowDocumentation.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 * **Documentation** is important!
 * OpCon allows text and hyperlinks in Documentation
 * Check Documentation for Jobs under SMAUtility Schedule
   * Examples of documentation techniques 
 
-
-<a href="imgbasic/Picture12.png" target="_blank"><img src="imgbasic/Picture12.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+![Picture12](/imgbasic/Picture12.png)

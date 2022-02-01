@@ -4,33 +4,28 @@ sidebar_label: 'SM - Machine Status And User Accounts'
 
 ### Solution Manager: Machine Status and User Accounts
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SolutionManagerMachineStatusandUserAccounts.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SolutionManagerMachineStatusandUserAccounts.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * Machine Status can be determined by the heart icon in the bottom right hand corner of the screen
 * Selecting the icon will display all Agents and their status
 * Machines can be bulk selected for status updates
   * As with Schedule and Job status updates, only options available to a machine will be configurable
 
-<a href="imgbasic/Picture83.png" target="_blank"><img src="imgbasic/Picture83.png" width="500"></img></a>  
+![Picture83](/imgbasic/Picture83.png)  
 
 ### Select Machines
 
-
-<a href="imgbasic/Picture84.png" target="_blank"><img src="imgbasic/Picture84.png" width="500"></img></a>  
+![Picture84](/imgbasic/Picture84.png) 
 
 ### Machine Status
 
 * Right-click Machines and available actions appear
 * If multiple Machines are selected, Actions on those Machines can happen at once
 
-<a href="imgbasic/Picture85.png" target="_blank"><img src="imgbasic/Picture85.png" width="500"></img></a>  
+![Picture85](/imgbasic/Picture85.png) 
 
 ### User Accounts
 
@@ -40,7 +35,4 @@ OpCon User Account settings can be managed from SMA Solution Manager:
 * Change email address
 * Add Notes or Comments
 
-<a href="imgbasic/Picture86.png" target="_blank"><img src="imgbasic/Picture86.png" width="500"></img></a>  
-
-
-###### (Click Images to Enlarge)
+![Picture86](/imgbasic/Picture86.png) 

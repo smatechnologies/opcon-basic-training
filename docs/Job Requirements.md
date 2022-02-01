@@ -2,14 +2,10 @@
 sidebar_label: 'Job Requirements'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/JobRequirementsandJobType.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/JobRequirementsandJobType.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 OpCon needs some basic information to run a process:
 
@@ -26,18 +22,14 @@ OpCon needs some basic information to run a process:
 * Only Job Types configured within your OpCon Environment are shown
 * Once a Job Type is selected, parameters specific to the chosen technical environment are displayed
 
-<a href="imgbasic/Picture15.png" target="_blank"><img src="imgbasic/Picture15.png" width="500"></img></a> 
+![Picture15](/imgbasic/Picture15.png)
 
 ### Windows Job Type Definition Details
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/WindowsJobType.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WindowsJobType.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 Windows Job Type parameters must be set:
 
@@ -45,6 +37,4 @@ Windows Job Type parameters must be set:
 * User Id
 * Command Line
 
-<a href="imgbasic/Picture16.png" target="_blank"><img src="imgbasic/Picture16.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+![Picture16](/imgbasic/Picture16.png)

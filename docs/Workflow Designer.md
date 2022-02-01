@@ -2,51 +2,39 @@
 sidebar_label: 'Workflow Designer'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/WorkflowDesigner.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WorkflowDesigner.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * The **Workflow Designer** provides a graphical display and workflow for a selected Schedule
 * Drag and drop Dependencies for Jobs, Thresholds, and Resources
 * Each node on the layout represents a Job (rectangle), a Threshold (rounded rectangle), or a Resource (oval)
 * Lines between nodes represent Dependency relationships
 
-<a href="imgbasic/Picture87.png" target="_blank"><img src="imgbasic/Picture87.png" width="500"></img></a>  
+![Picture87](/imgbasic/Picture87.png) 
 
 ### Workflow Designer Job Type Icons
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/WorkflowDesignerIcons.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WorkflowDesignerIcons.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
-<a href="imgbasic/Picture88.png" target="_blank"><img src="imgbasic/Picture88.png" width="300"></img></a>  
+![Picture88](/imgbasic/Picture88.png) 
 
 ### Workflow Designer Indicator Icons
 
-<a href="imgbasic/Picture89.png" target="_blank"><img src="imgbasic/Picture89.png" width="600"></img></a>  
-<a href="imgbasic/Picture90.png" target="_blank"><img src="imgbasic/Picture90.png" width="300"></img></a>  
+![Picture89](/imgbasic/Picture89.png)
 
-
+![Picture90](/imgbasic/Picture90.png)  
+  
 #### Workflow Menu
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/WorkflowDesignerMenu.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WorkflowDesignerMenu.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * For Container Jobs - 
   * Open SubSchedule
@@ -56,6 +44,4 @@ sidebar_label: 'Workflow Designer'
   * Isolate a Dependency chain
   * Change layout
 
-<a href="imgbasic/Picture91.png" target="_blank"><img src="imgbasic/Picture91.png" width="400"></img></a> 
-
-###### (Click Images to Enlarge)
+![Picture91](/imgbasic/Picture91.png)

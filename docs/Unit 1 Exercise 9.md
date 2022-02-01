@@ -27,12 +27,10 @@ Return to Solution Manager and check that the Jobs have run. Next, click on the 
 
 Go back to Enterprise Manager and **Restart** communication.
 
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U1E9.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

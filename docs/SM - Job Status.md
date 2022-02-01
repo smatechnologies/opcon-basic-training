@@ -4,26 +4,23 @@ sidebar_label: 'SM - Job Status'
 
 ### Solution Manager: Job Status and Selection Options
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SolutionManagerJobStatusandSelectionOptions.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SolutionManagerJobStatusandSelectionOptions.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 ### Filter by Job Status  
 
-<a href="imgbasic/Picture70.png" target="_blank"><img src="imgbasic/Picture70.png" width="500"></img></a>  
-<a href="imgbasic/Picture71.png" target="_blank"><img src="imgbasic/Picture71.png" width="500"></img></a>  
+![Picture70](/imgbasic/Picture70.png) 
+
+![Picture71](/imgbasic/Picture71.png) 
+
 
 ### Scrolling Bulk-Selection
 
 * Multiple Schedules and/or Jobs can be selected at once by left-clicking and dragging the mouse pointer through desired selections
 
-<a href="imgbasic/Picture72.png" target="_blank"><img src="imgbasic/Picture72.png" width="500"></img></a>  
-
+![Picture72](/imgbasic/Picture72.png) 
 
 ### Job Selection Options
 
@@ -40,7 +37,6 @@ When a Job is selected with a right-click several options are made available in 
 
 * Right-clicking on a selected Job will provide a detailed Job Summary Tab Screen  
 
-<a href="imgbasic/Picture73.png" target="_blank"><img src="imgbasic/Picture73.png" width="500"></img></a>  
-<a href="imgbasic/Picture74.png" target="_blank"><img src="imgbasic/Picture74.png" width="250"></img></a>  
-
-###### (Click Images to Enlarge)
+![Picture73](/imgbasic/Picture73.png) 
+ 
+![Picture74](/imgbasic/Picture74.png) 

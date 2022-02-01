@@ -2,16 +2,12 @@
 sidebar_label: 'Frequency Definiton'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/FrequencyDefinition.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/FrequencyDefinition.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
-<a href="imgbasic/Picture17.png" target="_blank"><img src="imgbasic/Picture17.png" width="500"></img></a>
+![Picture17](/imgbasic/Picture17.png)
 
 ### Steps to Define a Frequency:  
 
@@ -22,7 +18,6 @@ sidebar_label: 'Frequency Definiton'
 * Click the Add Frequency Button
 * Choose Existing Frequency or Create New Frequency  
 
-<a href="imgbasic/Picture19.png" target="_blank"><img src="imgbasic/Picture19.png" width="500"></img></a>  
-<a href="imgbasic/Picture20.png" target="_blank"><img src="imgbasic/Picture20.png" width="500"></img></a>
+![Picture19](/imgbasic/Picture19.png)
 
-###### (Click Images to Enlarge)
+![Picture20](/imgbasic/Picture20.png)  

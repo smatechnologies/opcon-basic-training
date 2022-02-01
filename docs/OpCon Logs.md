@@ -2,14 +2,10 @@
 sidebar_label: 'OpCon Logs'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/OpConLogs.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/OpConLogs.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 ##### Log location  
 
@@ -27,18 +23,14 @@ C:\ProgramData\OpConxps\SAM\Log
   * Auto-updating Logs (current Logs)
   * **Requires OpConxps folder to be shared with users**
 
-<a href="imgbasic/Picture53.png" target="_blank"><img src="imgbasic/Picture53.png" width="300"></img></a>  
+![Picture53](/imgbasic/Picture53.png)  
 
 ### OpCon Logs - Support
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/OpConLogsSupport.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/OpConLogsSupport.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 * OpCon Logs are **VITAL** to the Support team when researching an issue
   * Please zip up full Log folder and upload it to SMA’s FTP site if an issue occurs
@@ -46,7 +38,7 @@ Log Collectors
 * The SMA DataCollector Program can collect all SMA application Logs
   * SMASUP will collect all LSAM (Agent) Logs
 
-<a href="imgbasic/Picture54.png" target="_blank"><img src="imgbasic/Picture54.png" width="500"></img></a>  
+![Picture54](/imgbasic/Picture54.png)  
 
 ### OpCon Log Files
 
@@ -60,14 +52,10 @@ OpCon Log files can help with troubleshooting
 
 ### SAM Log
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SAMLog.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SAMLog.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 SAM - Schedule Activity Monitor  
 
@@ -80,20 +68,16 @@ Running list of all transactions
 * Failures
 * License Information 
 
-<a href="imgbasic/Picture55.png" target="_blank"><img src="imgbasic/Picture55.png" width="500"></img></a>  
+![Picture55](/imgbasic/Picture55.png)  
 
 ---
 
 ### Critical Log
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/CriticalLog.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/CriticalLog.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
 * Reports SAM errors
 * Properties which cannot be resolved
@@ -102,6 +86,4 @@ Running list of all transactions
 * Machine communication issues
 * Database connection problems
 
-<a href="imgbasic/Picture56.png" target="_blank"><img src="imgbasic/Picture56.png" width="500"></img></a>  
-
-###### (Click Images to Enlarge)
+![Picture56](/imgbasic/Picture56.png)  

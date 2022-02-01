@@ -13,12 +13,10 @@ Tag the first three Jobs in **MY FIRST SCHEDULE** with the following Tags:
 
 Once the Jobs are tagged, view the Tag assignments in **Tag Manager**.
 
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U1E5.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

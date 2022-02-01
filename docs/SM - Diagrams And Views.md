@@ -4,14 +4,10 @@ sidebar_label: 'SM - Diagrams and Views'
 
 ### Solution Manager: Diagrams and Views
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SolutionManagerDiagramsandViews.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SolutionManagerDiagramsandViews.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * In the Diagram option of the Job Selection tab the user can select several options to manipulate PERT view in Solution Mananger:  
 * Progressive Discovery    
@@ -25,35 +21,26 @@ sidebar_label: 'SM - Diagrams and Views'
 
 ### Progressive Discovery View
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SolutionManagerProgressiveDiscoveryView.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SolutionManagerProgressiveDiscoveryView.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * View Group Selections and Job Chains
 * Isolate Dependency Chains, Predecessors, or Successors
 * Job Status indicated by colors and icons
 
-<a href="imgbasic/Picture80.png" target="_blank"><img src="imgbasic/Picture80.png" width="500"></img></a>  
-<a href="imgbasic/Picture81.png" target="_blank"><img src="imgbasic/Picture81.png" width="500"></img></a>  
+![Picture8](/imgbasic/Picture80.png) 
+
+![Picture81](/imgbasic/Picture81.png)    
 
 ### Bread Crumb Navigation
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/SolutionManagerBreadCrumbNavigation.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SolutionManagerBreadCrumbNavigation.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 In addition to selecting processes through the primary Date, Schedule, and Job panes, Navigation is also simplified with the Bread Crumb Navigation bar at the bottom of the browser 
 
-<a href="imgbasic/Picture82.png" target="_blank"><img src="imgbasic/Picture82.png" width="500"></img></a>  
-
-###### (Click Images to Enlarge)
+![Picture82](/imgbasic/Picture82.png) 

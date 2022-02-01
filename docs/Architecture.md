@@ -4,36 +4,23 @@ sidebar_label: 'Architecture'
 
 ### What is OpCon?
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/WhatIsOpCon.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WhatIsOpCon.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>    
 
 * A Platform independent Job Scheduling and Automation Solution that SMA provides to manage an entire Datacenter
 
-
-<img src="imgbasic/Picture3.png" width="300"></img>
+![Picture3](/imgbasic/Picture3.png)
 
 ### OpCon Architecture Overview
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/OpConArchitectureOverview.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/OpConArchitectureOverview.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
 
+![Picture4](/imgbasic/Picture4.png)
 
-<a href="imgbasic/Picture4.png" target="_blank"><img src="imgbasic/Picture4.png" width="500"></img></a>
-
-
-<a href="imgbasic/Picture5.png" target="_blank"><img src="imgbasic/Picture5.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+![Picture5](/imgbasic/Picture5.png)
 

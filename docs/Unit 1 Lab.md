@@ -30,13 +30,10 @@ The program that must be run in the Command Line for Job execution is:
 ```
 "C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t15 -e0
 ```
-
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U1LAB.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 
@@ -75,8 +72,6 @@ Your browser does not support the video tag.
 
 Upon completion, the Jobs will run in this order:
 
-<a href="imgbasic/Picture92.png" target="_blank"><img src="imgbasic/Picture92.png" width="250"></img></a>  
-
-###### (Click Image to Enlarge)
+![Picture92](/imgbasic/Picture92.png) 
 
 </details>
