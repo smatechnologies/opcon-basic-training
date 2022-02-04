@@ -34,12 +34,10 @@ The programs read the database and generate order requests to purchase new items
 
 ```/usr/local/labfiles/CheckInvPurRpt –t100```  
 
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U2LabB.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 
@@ -84,6 +82,6 @@ Your browser does not support the video tag.
 Upon completion, view the results in the **Workflow designer**. Then build the Schedule released for today and check the execution using **Solution Manager**.
 :::
 
-<a href="imgbasic/306.png" target="_blank"><img src="imgbasic/306.png" width="500"></img></a>
+![Picture306](/imgbasic/306.png)
 
 </details>

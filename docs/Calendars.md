@@ -2,27 +2,19 @@
 sidebar_label: 'Calendars'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/Calendars.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/Calendars.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
-<a href="imgbasic/225.png" target="_blank"><img src="imgbasic/225.png" width="200"></img></a>
+![Picture225](/imgbasic/225.png)
 
 ### Holiday Calendars
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/HolidayCalendars.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/HolidayCalendars.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * OpCon supports several types of Calendars to help provide flexible scheduling around holidays and any other non-working days 
 
@@ -41,25 +33,22 @@ sidebar_label: 'Calendars'
   * Stores non-working days for a single Schedule
   * Administrators must set additional days as non-working days when required
 
-<a href="imgbasic/226.png" target="_blank"><img src="imgbasic/226.png" width="500"></img></a>  
-<a href="imgbasic/227.png" target="_blank"><img src="imgbasic/227.png" width="500"></img></a>  
-<a href="imgbasic/228.png" target="_blank"><img src="imgbasic/228.png" width="500"></img></a>  
-<a href="imgbasic/229.png" target="_blank"><img src="imgbasic/229.png" width="500"></img></a>  
+![Picture226](/imgbasic/226.png)  
+
+![Picture227](/imgbasic/227.png)  
+
+![Picture228](/imgbasic/228.png)  
+
+![Picture229](/imgbasic/229.png)  
 
 ### Workdays Per Week
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/WorkdaysPerWeek.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WorkdaysPerWeek.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * Workdays Per Week combined with Schedule Holiday Calendars specify which dates are considered working days
 * Workdays Per Week can be overwritten by Frequencies
 
-<a href="imgbasic/230.png" target="_blank"><img src="imgbasic/230.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+![Picture230](/imgbasic/230.png)

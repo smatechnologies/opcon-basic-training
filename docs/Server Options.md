@@ -2,24 +2,21 @@
 sidebar_label: 'Server Options'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/ServerOptions.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/ServerOptions.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * The Server Options editor controls global settings for OpCon
 * Changes made in this screen will apply to the entire environment
 * Can only be accessed by users under **ocadm**
 
-<a href="imgbasic/301.png" target="_blank"><img src="imgbasic/301.png" width="250"></img></a>  
-<a href="imgbasic/302.png" target="_blank"><img src="imgbasic/302.png" width="500"></img></a>  
-<a href="imgbasic/303.png" target="_blank"><img src="imgbasic/303.png" width="500"></img></a>  
-<a href="imgbasic/304.png" target="_blank"><img src="imgbasic/304.png" width="500"></img></a>  
-<a href="imgbasic/305.png" target="_blank"><img src="imgbasic/305.png" width="500"></img></a>  
+![Picture301](/imgbasic/301.png)  
+ 
+![Picture302](/imgbasic/302.png) 
 
+![Picture303](/imgbasic/303.png)  
 
-###### (Click Images to Enlarge)
+![Picture304](/imgbasic/304.png)  
+
+![Picture305](/imgbasic/305.png)  

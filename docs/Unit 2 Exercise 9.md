@@ -22,13 +22,10 @@ In the **Mid of Period Frequency Practice** Job, create a new Frequency named ``
 
 In the **End of Period Frequency Practice** Job, create a new Frequency named ```EOM-B```. This Frequency should run on the last Working Day of the month, or the day before in case of a holiday.
 
-
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U2E9.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

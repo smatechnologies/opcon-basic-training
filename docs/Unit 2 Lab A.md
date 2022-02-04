@@ -31,12 +31,10 @@ Each Department requires specific scheduling intervals as noted:
 
 The required Frequencies should be run within Null Jobs in the **CONGO PAYROLL PAYMENTS** Schedule.
 
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U2LabA.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 
@@ -71,25 +69,20 @@ Upon completion, the “**Forecast All**” results will look like the following
 
 #### Toys
 
-<a href="imgbasic/268.png" target="_blank"><img src="imgbasic/268.png" width="300"></img></a>
-
+![Picture268](/imgbasic/268.png)
 
 #### Electronics - Not End of Year
 
-<a href="imgbasic/269.png" target="_blank"><img src="imgbasic/269.png" width="300"></img></a>
-
+![Picture269](/imgbasic/269.png)
 
 #### Electronics - End of Year
 
-<a href="imgbasic/270.png" target="_blank"><img src="imgbasic/270.png" width="300"></img></a>
-
+![Picture270](/imgbasic/270.png)
 
 #### Clothing
+ 
+![Picture271](/imgbasic/271.png)
 
-<a href="imgbasic/271.png" target="_blank"><img src="imgbasic/271.png" width="300"></img></a>  
-
-<a href="imgbasic/272.png" target="_blank"><img src="imgbasic/272.png" width="250"></img></a>
-
-###### (Click Images to Enlarge)
+![Picture272](/imgbasic/272.png)
 
 </details>

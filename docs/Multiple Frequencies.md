@@ -2,14 +2,10 @@
 sidebar_label: 'Multiple Frequencies'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/MultipleFrequencies.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/MultipleFrequencies.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * SAM checks the **Frequency list** at Job build time
   * Stops searching when a match is made
@@ -18,18 +14,14 @@ sidebar_label: 'Multiple Frequencies'
   * Run Jobs at different times for different days
   * Negative frequencies (do not run on End of Month)
 
-<a href="imgbasic/260.png" target="_blank"><img src="imgbasic/260.png" width="500"></img></a>
+![Picture260](/imgbasic/260.png)
 
 ### Frequencies - Job Build Status
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/FrequenciesJobBuildStatus.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/FrequenciesJobBuildStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * On Hold
 * Released
@@ -37,28 +29,27 @@ sidebar_label: 'Multiple Frequencies'
 * To Be Skipped
 * Disable Frequency
 
-<a href="imgbasic/261.png" target="_blank"><img src="imgbasic/261.png" width="500"></img></a>  
-<a href="imgbasic/262.png" target="_blank"><img src="imgbasic/262.png" width="250"></img></a>
+![Picture261](/imgbasic/261.png) 
 
-###### (Click Images to Enlarge)
+![Picture262](/imgbasic/262.png)
 
 ### Forecast
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/ForecastSideBySideAndForecastAll.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/ForecastSideBySideAndForecastAll.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 ### Forecast Side-by-Side
 
-<a href="imgbasic/263.png" target="_blank"><img src="imgbasic/263.png" width="350"></img></a><a href="imgbasic/264.png" target="_blank"><img src="imgbasic/264.png" width="350"></img></a>  
+![Picture263](/imgbasic/263.png)
+
+![Picture264](/imgbasic/264.png)  
 
 ### Forecast All
 
-<a href="imgbasic/265.png" target="_blank"><img src="imgbasic/265.png" width="500"></img></a>  
-<a href="imgbasic/266.png" target="_blank"><img src="imgbasic/266.png" width="500"></img></a>  
-<a href="imgbasic/267.png" target="_blank"><img src="imgbasic/267.png" width="500"></img></a>  
+![Picture265](/imgbasic/265.png)  
+
+![Picture266](/imgbasic/266.png)  
+
+![Picture267](/imgbasic/267.png)  

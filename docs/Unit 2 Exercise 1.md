@@ -25,13 +25,10 @@ Rebuild **MY FIRST SCHEDULE**, overwriting for Today. View the Schedule performa
 
 Verify that the proper values are attributed to the Properties used.
 
-
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U2E1.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

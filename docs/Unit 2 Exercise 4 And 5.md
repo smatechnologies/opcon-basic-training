@@ -20,13 +20,10 @@ Back in **Machines Status**, Stop Communication with the ```SUSEVM``` machine.  
 
 Restart communication with the ```SUSEVM``` machine. The connection should now be successful.
 
-
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U2E4and5.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

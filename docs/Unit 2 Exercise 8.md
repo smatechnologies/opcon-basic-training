@@ -18,13 +18,10 @@ In the **On Occurrence Frequency Practice** Job, create a new Frequency named ``
 
 In the **On Day Frequency Practice** Job, create a new Frequency named ```1st-day-of-month-wk```. This Frequency should run on the 1st Working Day of the month.
 
-
-<div>
 <video width="320" height="240" controls>
   <source src="videobasic/U2E8.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
-</div>
 
 <details>
 

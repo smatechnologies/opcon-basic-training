@@ -2,14 +2,10 @@
 sidebar_label: 'Audit Management'
 ---
 
-<figure>
-    <audio
-        controls
-        src="audiobasic/AuditManagement.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/AuditManagement.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 * Used to view history of User updates to the OpCon database
 * Resides under Management in Enterprise Manager
@@ -17,25 +13,22 @@ sidebar_label: 'Audit Management'
 * Select **Master Job** in Audit Categories drop-down list
 * Click View Audit button or export data to .CSV file
 
-<a href="imgbasic/295.png" target="_blank"><img src="imgbasic/295.png" width="250"></img></a>  
-<a href="imgbasic/296.png" target="_blank"><img src="imgbasic/296.png" width="500"></img></a>  
+![Picture295](/imgbasic/295.png)  
+
+![Picture296](/imgbasic/296.png)
 
 ### Transactions by User
 
-
-<a href="imgbasic/297.png" target="_blank"><img src="imgbasic/297.png" width="500"></img></a>
+![Picture297](/imgbasic/297.png)
 
 ### Transactions by Category
 
-
-<a href="imgbasic/298.png" target="_blank"><img src="imgbasic/298.png" width="500"></img></a>
+![Picture298](/imgbasic/298.png)
 
 ### Select a Date Range
 
-<a href="imgbasic/299.png" target="_blank"><img src="imgbasic/299.png" width="500"></img></a>
+![Picture299](/imgbasic/299.png)
 
 ### Audit Management Table
 
-<a href="imgbasic/300.png" target="_blank"><img src="imgbasic/300.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+![Picture300](/imgbasic/300.png)
