@@ -6,7 +6,7 @@ sidebar_label: 'Unit 2 Lab A'
 
 Congo Online Retail Inc. needs to pay its employees on different intervals based on their department. This is done through a Schedule named **CONGO PAYROLL PAYMENTS**.
 
-Congo Online Retail Inc’s Payroll Department work week is Monday through Friday and uses the **Master Holiday Calendar** created during the Unit 2 Exercises.  
+Congo Online Retail Inc’s Payroll Department work week is Monday through Friday and uses the **Master Holiday Calendar** updated during the Unit 2 Exercises.  
 
 Each Department requires specific scheduling intervals as noted:
 

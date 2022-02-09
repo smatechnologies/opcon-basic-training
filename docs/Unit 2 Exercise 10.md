@@ -8,9 +8,9 @@ sidebar_label: 'Unit 2 Exercise 10'
 
 Within the existing **Frequency Practice Schedule**, create three new Null Jobs:
 
-**On Interval Frequency Practice**
-**Annual Frequency Practice**
-**Annual Plan Frequency with Offsets**
+* **On Interval Frequency Practice**
+* **Annual Frequency Practice**
+* **Annual Plan Frequency with Offsets**
 
 In the **On Interval Frequency Practice** Job, create a new Frequency named ```Every-15thand30th-B```. This Frequency should run on intervals of the 15th and 30th of the month, or the day before in case of a holiday.
 
