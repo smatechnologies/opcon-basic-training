@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Unite 4 Lab B'
+sidebar_label: 'Unité 4 Lab B'
 hide_title: 'false'
 ---
 
-### Unite 4 Lab B
+### Unité 4 Lab B
 
 Congo Online Retail Inc. a un fichier pour chaque bureau qui a fait un changement de personnel au cours du mois.
 
@@ -16,17 +16,17 @@ Nous ne connaissons pas le nom des fichiers, mais nous connaissons le dossier da
 Un seul fichier peut être traité à un moment donné (Créer une **ressource** nommée ```HR``` avec une **valeur maximale** de ```1```).
 
 * La procédure comprend l'exécution quotidienne des Jobs suivants dans un sous-schedule nommé **HR Import Processing** : 
-	* **Decrypter** le fichier exécutant le script ```HR-Decrypt.cmd```
-	* **Importer** le fichier dans une base de données HR exécutant le script ```HR-Import.cmd```
-	* **Publier** les modifications que le fichier contient en exécutant le script ```HR-Post.cmd```
-	* **Archiver** le fichier en exécutant un Sous-type de Job Windows : ```File Move``` **Job Sub-Type**  
+	* **Decrypter** le fichier exécutant le script ```HR-Decrypt.cmd```.
+	* **Importer** le fichier dans une base de données HR exécutant le script ```HR-Import.cmd```.
+	* **Publier** les modifications que le fichier contient en exécutant le script ```HR-Post.cmd```.
+	* **Archiver** le fichier en exécutant un Sous-type de Job Windows : ```File Move```.
 * Tous les scripts sont stockés dans le dossier  ```C:\scripts```.
 * Tous les fichiers entrants arrivent dans le dossier  ```C:\Human Resources\Incoming Files```.
 * Tous les fichiers doivent être archivés dans le dossier  ```C:\Human Resources\Archive```.
 
 Utilisez **les propriétés globales (Global Properties)** pour appeler les dossiers Entrant (Incoming) et Archive.
 
-Utilisez le sous-type de **Job** ```Command : File Move``` pour archiver les fichiers
+Utilisez le **sous-type de Job** ```Command : File Move``` pour archiver les fichiers.
 
 Incoming (entrant) : ```"[[HR-Incoming]]\[[SI.FILENAME]]"```
 
@@ -37,10 +37,10 @@ Créez un Schedule principal nommé **HR Import**. Créez un Job container nomm�
 Ajoutez un event ```$JOB:RESTART``` au Job container avec les paramètres suivants:
 
 ```
-$JOB:RESTART event:[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival
+[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival
 ```
 
-Créez un job **File Arrival** qui surveillera : ```[[HR-Incoming]]\*.txt"```
+Créez un job **File Arrival** qui surveillera : ```[[HR-Incoming]]\*.txt"```.
 
 Heure de début de création de fichier : ```00:00 ```
 
@@ -91,7 +91,7 @@ Your browser does not support the video tag.
 
 :::note Exemple   
 ```
-“[[HR-Incoming]]\[[SI.FILENAME]]”
+"[[HR-Incoming]]\[[SI.FILENAME]]"
 ```
 :::
 
@@ -99,7 +99,7 @@ Your browser does not support the video tag.
 
 :::note Exemple   
 ```
-“[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]”
+"[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]"
 ```
 :::
 
@@ -117,17 +117,17 @@ la **propriété d'instance de schedule** ```[[SI.FILENAME]]``` sera transmise p
 	* Post
 	* Archive
 * Utilisez la propriété qui pointe vers le chemin ```C:\Scripts``` pour les **lignes de commande**
-* Créez un **Schedule principal** nommé **HR Import** (il doit être du **lundi au dimanche**)
+* Créez un **Schedule principal** nommé **HR Import** (les jours ouvrés doivent être du **lundi au dimanche**)
 * **Mise au plan automatique** ```7``` jours à l'avance pour ```1``` jour
 * **Suppression automatique** ```7``` jours en arrière 
-* Ajouter de la **documentatio**n pour le schedule
+* Ajouter de la **documentation** pour le schedule
 * Créez un **Job container** dans le schedule **HR Import** nommé **HR Import Processing**
 * Le Job container doit exécuter **HR Import Processing SubSchedule**.
-* Le Job container doit **autoriser la multi-instance**
+* Le Job container doit **autoriser le multi-instance**
 * Ajouter de la **documentation**
 * Donnez une fréquence ```OnRequest```
-* Donner au job une **dépendance de ressources** de ```1```
-* Une fois que le **Job de container** affiche « **Finished OK** » ajouter un event à supprimer ```$JOB:RESTAR```T, pour le job **File Arrival**.
+* Donner au job une **dépendance de ressources** à ```1```
+* Une fois que le **Job de container** affiche « **Finished OK** » ajouter un event ```$JOB:RESTART```, pour le job **File Arrival**.
 	* Voici les paramètres de l'event  ```$JOB:RESTART``` :
 ```
 [[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival
@@ -135,24 +135,21 @@ la **propriété d'instance de schedule** ```[[SI.FILENAME]]``` sera transmise p
 
 * Créez un Job **File Arrival** nommé **File Arrival**
 * Surveiller les éléments suivants :
-```“[[HR-Incoming]]\*.txt”```  
+```"[[HR-Incoming]]\*.txt"```  
 
 Ou   
 
-```“C:\Human Resources\Incoming Files\*.txt”```   
-* **Start Time** de la création du fichier doit être ```00:00``` (minuit)
-* **End Time** de la création du fichier doit être ```19:00```
+```"C:\Human Resources\Incoming Files\*.txt"```   
+* Le **Start Time** de la création du fichier doit être à ```00:00``` (minuit)
+* Le **End Time** de la création du fichier doit être à ```19:00```
 * Ajouter des **critères d'échec (Failure Criteria)**
-	* Définir l’**opérateur de comparaison** " Egal à " Valeur "```0```" Résultat « **Finish OK** »   
-
-Et / Ou  
-
-* Opérateur de comparaison « OU » « Egal à » Valeur ```1``` Résultat « **Finish OK** »
-    * Ajouter de la **documentation**
-    * Utilisez l'**event** ```$JOB:ADD``` pour les fichiers txt lorsque **File Arrival** trouve un fichier ```.txt```
-        * L'**event** ajoutera le **job container** au schedule **HR Import** au quotidien.
+	* Définir l'**opérateur de comparaison** " Egal à " Valeur "```0```"
+	* Opérateur de comparaison « OU » « Egal à » Valeur ```1``` Résultat « **Finish OK** »
+* Ajouter de la **documentation**
+* Utiliser l'**event** ```$JOB:ADD``` pour les fichiers textes lorsque **File Arrival** trouve un fichier ```.txt```
+        * L'**event** ajoutera le **job container** au schedule **HR Import**.
         * **Ajouter** un **event** au **Job File Arrival** pour transmettre une **propriété d'instance de job** nommée ```[[JI.FILENAME]]``` pour capturer le nom du fichier
-        * Voici les paramètres de l’event ```$JOB:ADD``` : 
+        * Voici les paramètres de l'event ```$JOB:ADD``` : 
 ```
 [[$SCHEDULE DATE]],[[$SCHEDULE NAME]],HR Import Processing,OnRequest,FILENAME=[[JI.$ARRIVED SHORT FILE NAME]]
 ```
