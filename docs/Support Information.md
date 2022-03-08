@@ -12,10 +12,7 @@ sidebar_label: 'Support Information'
   * Monday – Friday  
   * 8 AM – 5 PM Central  
 
-* Easiest Way to Open a Case  
-  * OpCon User Community 
-  * <a href="https://smatechnologies.force.com/SMAOpConUserCommunity/s/" target="_blank">https://smatechnologies.force.com/SMAOpConUserCommunity/s/</a>
-  * Email: <a href="mailto:support@smatechnologies.com">support@smatechnologies.com</a> 
+* Open a Case via OpCon User Community: <a href="https://smatechnologies.force.com/SMAOpConUserCommunity/s/" target="_blank">https://smatechnologies.force.com/SMAOpConUserCommunity/s/</a>
 
 * After Hours/Emergency  
   * Priority 1 or 2  
