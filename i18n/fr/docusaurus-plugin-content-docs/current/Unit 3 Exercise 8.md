@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Unite 3 Exercice 8'
+sidebar_label: 'Unité 3 Exercice 8'
 hide_title: 'false'
 ---
 
@@ -7,9 +7,9 @@ hide_title: 'false'
 
 ##### Objectif:
 
-Dans **Gestionnaire de Notifications**, créez une notification en ajoutant un **groupe racine (Root Group)** nommé ```ALL MACHINES``` et en ajoutant à la fois les machines ```WINDOWS``` et ```UNIX```.
+Dans le **Gestionnaire de Notifications**, créez une notification en ajoutant un **Groupe Racine (Root Group)** nommé ```ALL MACHINES``` et en ajoutant à la fois les machines ```WINDOWS``` et ```UNIX```.
 
-Ajoutez un **déclencheur machine (Machine Trigger)** pour ```Machine Marked Up```.
+Ajoutez un **Déclencheur Machine (Machine Trigger)** pour ```Machine Marked Up```.
 
 Envoyez un e-mail à ```smauser@congo.local``` avec le message: **"TESTING EMAIL NOTIFICATION"**.
 
@@ -19,7 +19,7 @@ Appuyez sur le bouton **Test** pour envoyer l'e-mail. Ouvrez Thunderbird pour v�
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E8.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
+Votre navigateur ne prend pas en charge la vidéo.
 </video>
 </div>
 
@@ -31,16 +31,16 @@ Your browser does not support the video tag.
 2. Cliquez sur l'onglet **Machines**.
 3. Cliquez avec le bouton droit de la souris dans la zone blanche sous l'onglet Machines et sélectionnez **Ajouter un groupe Root**.
 4. Tapez le nom du groupe de machines (par exemple, Toutes les machines) et cliquez sur **OK**.
-5. Sur le côté droit de l'écran, développez les systèmes d'exploitation et cochez toutes les cases à côté de la ou des **machines**.
+5. Sur le côté droit de l'écran, développez les systèmes d'exploitation et cochez toutes les cases des **Machines**.
 6. Cliquez sur le bouton **Sauvegarder** (en bas à droite).
 7. Cliquez avec le bouton droit sur le dossier **Groupe** créé à l'étape 4, déplacez la souris sur **Ajouter déclenchement Machine** et sélectionnez ```Machine Marked Up```. 
 9. Sous **Définitions Notifications** à droite :
-    * Cochez la case **Envoyer Email (SMTP)** 
+    * Cochez la case **Envoyer Email (SMTP)**.
     * Cliquez sur l'onglet **Email**.
     * Dans le champ Email, saisissez ```smauser@congo.local```.
     * Entrez un **sujet**.
-    * Dans le **message**, saisissez **Notification par e-mail de test**.
-10. Cliquez sur le bouton **Test** pour tester les résultats de votre notification
+    * Dans le **message**, saisissez **Notification de test email**.
+10. Cliquez sur le bouton **Test** pour tester les résultats de votre notification.
 11. Cliquez sur le bouton **Sauvegarder**.
 12. Ouvrez **Thunderbird** et vérifiez la boîte de réception.
 
