@@ -7,11 +7,11 @@ hide_title: 'false'
 
 ##### Schedule Build 
 
-1.	Dans **Enterprise Manager**, Ouvrir la vue Matrix ou Daily List et s’assurer que **My First Schedule** soit terminé. 
-2.	Cliquez droit sur **My First Schedule** et sélectionnez ```Maintenance > Delete Schedule```
-3.	Sélectionnez **Yes** pour effacer le Schedule
-4.	Dans **Solution Manager**, sélectionnez l’onglet **Self Service**
-5.	S’assurez que le Mode **Administrateur soit activé** en cliquant sur **le cadenas** dans le coin supérieur droit. Il doit être **vert** et **Ouvert**.
+1.	Dans **Enterprise Manager**, Ouvrir la vue Matrix ou Liste et s’assurer que **My First Schedule** soit terminé. 
+2.	Cliquez droit sur **My First Schedule** et sélectionnez ```Maintenance > Delete Schedule```.
+3.	Sélectionnez **Yes** pour effacer le Schedule.
+4.	Dans **Solution Manager**, sélectionnez l’onglet **Self Service**.
+5.	S’assurez que le Mode **Administrateur soit activé** en cliquant sur le **cadenas** dans le coin supérieur droit. Il doit être **vert** et **Ouvert**.
 6.	En mode Administrateur, cliquez sur le bouton vert **Créer** pour créer un nouveau bouton.
 7.	Dans la zone de texte, entrez **Schedule Build**.
 8.	Sous **Events**, cliquez sur la barre d’ajout **verte (```+```)**.
@@ -25,7 +25,7 @@ hide_title: 'false'
 16.	Laissez le format de sortie sous ```YYYY/MM/DD```.
 17.	Cliquez sur le bouton **OK**.
 18.	Faites défiler jusqu'en bas de la page et sélectionnez **Enregistrer**. 
-19.	Cliquez sur **le cadena**s pour retourner sous mode **Utilisateur**.
+19.	Cliquez sur **le cadenas** pour retourner sous mode **Utilisateur**.
 20.	Cliquez sur le bouton **Schedule Build** qui vient d’être crée.
 21.	Entrez la date du jour au format requis dans la zone **Schedule Date**.
 22.	Entrez **My First Schedule** dans la zone de texte **Schedule Name**.
@@ -36,10 +36,10 @@ hide_title: 'false'
 
 ##### Redémarrer un Job en attente
 
-1.	Après avoir vérifié que tous les Jobs sont achevés, vérifier que le Job de l’Event 3 a le statut d’annulé.
+1.	Après avoir vérifié que tous les Jobs sont achevés, vérifier que le Job de l’Event 3 a le statut Annulé.
 2.	Dans Self Service, activez le mode **Administrateur** en cliquant sur **le cadenas** dans le coin supérieur droit. Il doit être **vert** et **Ouvert**.
 3.	Cliquez sur le bouton vert Créer pour créer un nouveau bouton.
-4.	Dans la zone de texte **Name**, entrez **Hold Job**.
+4.	Dans la zone de texte **Name**, entrez ```Hold Job```.
 5.	Sous **Events**, cliquez sur la barre verte d’ajout (```+```).
 6.	Depuis le menu **Event Template**, sélectionnez ```$JOB:RESTARTHLD```.
 7.	Dans la zone de texte de Schedule Date, entrez la variable ```${SCHEDULE DATE}```.
@@ -62,11 +62,11 @@ hide_title: 'false'
 24.	Vérifiez dans la vue Operations ou dans la vue Matrix d’Enterprise Manager Matrix que **Test Event 3** dans **My First Schedule** a bien été mis sur ```On Hold```.
 
 
-##### Release Job 
+##### Libérer (Release) un Job 
 
 1.	Dans Self Service, activez le Mode **Administrateur** en cliquant sur le bouton Cadenas dans le coin en haut à droite. Il doit devenir **vert** et **déverrouillé**.
 2.	Cliquez sur le bouton vert **Créer** pour créer un nouveau bouton.
-3.	Dans la zone de texte **Name**, entrez **Release Job**.
+3.	Dans la zone de texte **Name**, entrez ```Release Job```.
 4.	Sous **Events**, cliquez sur la barre verte d'ajout (```+```)
 5.	Depuis le menu **Event Template**, sélectionnez ```$JOB:RELEASE```.
 6.	Dans la zone **Schedule Date**, entrez la variable ```${SCHEDULE DATE}```.
@@ -91,6 +91,14 @@ hide_title: 'false'
 
 ##### Suppression de Schedule
 
+1.	Dans Self Service, activez le Mode **Administrateur** en cliquant sur le bouton Cadenas dans le coin en haut à droite. Il doit devenir **vert** et **déverrouillé**.
+2.	Cliquez sur le bouton vert **Créer** pour créer un nouveau bouton.
+3.	Dans la zone de texte **Name**, entrez ```Suppression Schedule```.
+4.	Sous **Events**, cliquez sur la barre verte d'ajout (```+```).
+5.	Depuis le menu **Event Template**, sélectionnez ```$SCHEDULE:DELETE```.
+6.	Dans la zone **Schedule Date**, entrez la variable ```${SCHEDULE DATE}```.
+7.	Dans la zone **Schedule Name**, entrez la variable ```${SCHEDULE NAME}```.
+8.	Laissez la zone **Log File Name** vide.
 9.	Cliquez sur le bouton **OK**.
 10.	Basculez l’option **Submit Events as ```OCADM``` sur On (```vert```)**.
 11.	Depuis la section **Données Utilisateur**, sélectionnez l’outil **Blue Edit Pencil** à côté de l’option **Schedule Date**.
@@ -104,4 +112,4 @@ hide_title: 'false'
 19.	Entrez **My First Schedule** dans la zone **Schedule Name**.
 20.	Cliquez **Soumettre** pour démarrer la requête.
 21.	Sélectionnez **OK** pour sortir de la page de demande de processus.
-22.	Verifiez dans la vue **Operations View** ou dans la vue Matrix d’Enterprise Manager que **My First Schedule** a bien été ```supprimé``` dans **Daily List**.
+22.	Verifiez dans la vue **Operations View** ou dans la vue Matrix d’Enterprise Manager que **My First Schedule** a bien été ```supprimé```.
