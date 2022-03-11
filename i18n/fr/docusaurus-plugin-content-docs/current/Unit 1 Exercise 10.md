@@ -30,16 +30,16 @@ Your browser does not support the video tag.
  * Dans la liste déroulante **Machine Primaire**, sélectionnez la machine **SMATraining** sur laquelle le job doit être exécuté.
  * Dans la liste déroulante **User ID**, sélectionnez **SMATRAINING\SMAUSER**.
  * Sur la **Command Line (ligne de commande)**, utilisez le programme générique :
- * 	```"C:\Program Files\OpConxps\MSLSAM\Genericp.exe" -t10 -e0```
+ * ```"C:\Program Files\OpConxps\MSLSAM\Genericp.exe" -t10 -e0```
  * Cliquez sur le bouton **Sauvegarder** dans la barre d'outils Job Master.
  * Cliquez sur l'onglet **Fréquence** et **ajoutez une fréquence**.
  * Cliquez sur le **X** à droite de l'onglet **Job Master** pour fermer l'écran Job Master.
 2.  Ajout de la dépendance:
- * 	Dans la boite à Outils, cliquez sur **Ajouter une Dépendance**.
- * 	Tout d'abord, **cliquez** sur le Job qui fait l'objet de la Dépendance (exemple :  **Windows Job 4**).
- * 	**Cliquez** ensuite sur le Job dans lequel créer la dépendance (exemple :  **Windows Job 5**).
- * 	Dans la fenêtre Ajouter Dépendance du job, cochez le bouton d'option Type de Dépendance choisi (exemple : **Requise**).
- * 	Cliquez sur le bouton **OK** pour enregistrer la dépendance de Job ajoutée. Remarque : notez que l'icône de la souris conserve le pointeur « Ajouter une Dépendance ». Vous pouvez cliquer sur **Select** dans le panneau Outils ou appuyer simplement sur la touche **Echap**.
-19.	Fermez l'onglet Designer Workflow.
+ * Dans la boite à Outils, cliquez sur **Ajouter une Dépendance**.
+ * Tout d'abord, **cliquez** sur le Job qui fait l'objet de la Dépendance (exemple :  **Windows Job 4**).
+ * **Cliquez** ensuite sur le Job dans lequel créer la dépendance (exemple :  **Windows Job 5**).
+ * Dans la fenêtre Ajouter Dépendance du job, cochez le bouton d'option Type de Dépendance choisi (exemple : **Requise**).
+ * Cliquez sur le bouton **OK** pour enregistrer la dépendance de Job ajoutée. Remarque : notez que l'icône de la souris conserve le pointeur « Ajouter une Dépendance ». Vous pouvez cliquer sur **Select** dans le panneau Outils ou appuyer simplement sur la touche **Echap**.
+3.	Fermez l'onglet Designer Workflow.
 
 </details>
