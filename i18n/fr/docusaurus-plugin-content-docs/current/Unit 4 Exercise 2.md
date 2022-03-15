@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Objectif:
 
-Créez un **Threshold** nommé ```TRAININGTHRESHOLD``` avec une valeur de ```0```.
+Créez un **Threshold** nommé ```TrainingThreshold``` avec une valeur de ```0```.
 
 Créez un schedule nommée **My Threshold Schedule**.
 
