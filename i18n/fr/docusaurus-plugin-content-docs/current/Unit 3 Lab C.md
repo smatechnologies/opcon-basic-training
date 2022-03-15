@@ -64,7 +64,7 @@ N'oubliez pas que chaque Job est attribuée à un produit et que le nom du dossi
 :::
 
 * Le Job doit être exécuté du **lundi au vendredi**.
-* Les Jobs doivent être **Tagués** en fonction du produits (**jouets**,** **électronique** et **vêtements**).
+* Les Jobs doivent être **Tagués** en fonction du produits (**jouets**, **électroniques** et **vêtements**).
 * Les Jobs doivent s'exécuter dans l'ordre suivant (dépendance **Requise**):
     * Legos
     * Nerf
