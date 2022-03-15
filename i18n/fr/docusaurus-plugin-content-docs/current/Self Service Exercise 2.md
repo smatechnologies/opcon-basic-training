@@ -40,7 +40,7 @@ Assurez-vous que le **mode administrateur** est activé en cliquant sur le **cad
 ###### Réinitialiser le Token de désactivation sur False
 
 23. Dans l'écran principal de l'onglet **Self Service**, cliquez sur le bouton vert **Créer** pour créer un nouveau bouton.
-24. Dans la zone de texte **Nom**, entrez ```Reset Disable Rule Token False```.
+24. Dans la zone de texte **Nom**, entrez ```Réinitialisation du Token de règle de désactiviation à False```.
 25. Dans la zone de texte **Documentation**, entrez ```Ce bouton réinitialisera le Token de règle de désactivation à False```.
 26. Assurez-vous que l'option **Message de confirmation** est activée (```Vert```).
 27. Sous Evénements, cliquez sur la barre verte d'ajout (```+```).
@@ -66,10 +66,10 @@ Assurez-vous que le **mode administrateur** est activé en cliquant sur le **cad
 Assurez-vous que le **Mode Admin** est désactivé en cliquant sur le **bouton cadenas** dans le coin supérieur droit. Il devrait être **gris** et **Fermé**.
 :::
 
-38. En **mode utilisateur**, à partir de l'écran principal de l'onglet **Self Service**, cliquez sur le bouton **Create Disable Rule Token**.
+38. En **mode utilisateur**, à partir de l'écran principal de l'onglet **Self Service**, cliquez sur le bouton **Créer un token de règle de désactivation**.
 39. À partir de la page **Service Request**, cliquez sur le bouton **Soumettre** pour exécuter le processus. La barre de progression s'affiche. Une exécution réussie sera indiquée par une icône de coche **verte**.
 40. Cliquez sur le bouton **OK** pour quitter le processus de demande.
-41. Ensuite, dans l'écran principal de l'onglet **Self Service**, cliquez sur le bouton **Set Disable Rule Token True**.
+41. Ensuite, dans l'écran principal de l'onglet **Self Service**, cliquez sur le bouton **Réinitialisation du Token de règle de désactiviation à True**.
 42. À partir de la page **Service Request**, cliquez sur le bouton **Soumettre** pour exécuter le processus. La barre de progression s'affiche. Une exécution réussie sera indiquée par une icône de coche **verte**.
 43. Cliquez sur le bouton **OK** pour quitter le processus de demande.
 
@@ -77,7 +77,7 @@ Assurez-vous que le **Mode Admin** est désactivé en cliquant sur le **bouton c
 Si les deux Service Requests précédents ont abouti, le bouton de test 1 doit maintenant être grisé et indisponible
 :::
 
-44. Pour réactiver le bouton de **test 1**, à partir de l'écran principal de l'onglet **Self Service**, cliquez sur le bouton **Reset Disable Token False**.
+44. Pour réactiver le bouton de **test 1**, à partir de l'écran principal de l'onglet **Self Service**, cliquez sur le bouton **Réinitialisation du Token de règle de désactiviation à False**.
 45. À partir de la page **Service Request**, cliquez sur le bouton **Soumettre** pour exécuter le processus. La barre de progression s'affiche. Une exécution réussie sera indiquée par une icône de coche **verte**.
 46. Cliquez sur le bouton **OK** pour quitter le processus de demande.
 
