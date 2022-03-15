@@ -58,7 +58,7 @@ Votre navigateur ne prend pas en charge la vidéo.
 20. Mettre à jour ```<Schedule name>``` avec ```[[$SCHEDULE NAME]]```
 21. Mettre à jour ```<Job name>``` avec ```Job 2```.
 22. Les **paramètres d'événement (Event Parameters)** devraient ressembler à ceci : ```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],Job 2```
-23. Cliquez sur le bouton *Terminer**.
+23. Cliquez sur le bouton **Terminer**.
 24. Fermez l'onglet **Job Master**.
 25. Sous la rubrique **Operations**, double-cliquez sur **Mise au Plan (Build)**.
 26. Sélectionnez **Exit Code Events** dans Schedule Selection.
