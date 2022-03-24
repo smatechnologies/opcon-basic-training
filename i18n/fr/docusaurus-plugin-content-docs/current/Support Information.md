@@ -21,7 +21,6 @@ hide_title: 'false'
 
 * Le moyen le plus simple pour ouvrir un ticket
     * Support client en ligne <a href="https://smatechnologies.force.com/SMAOpConUserCommunity/s/" target="_blank">https://smatechnologies.force.com/smartusers/login</a>
-    * E-mail : support-eu@smatechnologies.com
 
 * En dehors des heures ouvrées / urgence
     * Priorité 1 ou 2

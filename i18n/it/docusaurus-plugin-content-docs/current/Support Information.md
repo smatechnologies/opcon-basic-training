@@ -21,7 +21,6 @@ hide_title: 'false'
 * Il modo più semplice per aprire un caso  
   * OpCon User Community 
   * <a href="https://smatechnologies.force.com/SMAOpConUserCommunity/s/" target="_blank">https://smatechnologies.force.com/SMAOpConUserCommunity/s/</a>
-  * Email: <a href="mailto:support@smatechnologies.com">support@smatechnologies.com</a> 
 
 * Fouri Orario/Emergenza
     * Priorità 1 o 2
