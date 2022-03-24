@@ -18,7 +18,6 @@ hide_title: 'false'
     * Lundi au vendredi
     * 9h00 à 18h00 
 
-
 * Le moyen le plus simple pour ouvrir un ticket
     * Support client en ligne <a href="https://smatechnologies.force.com/SMAOpConUserCommunity/s/" target="_blank">https://smatechnologies.force.com/smartusers/login</a>
 

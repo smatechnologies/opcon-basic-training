@@ -16,7 +16,7 @@ hide_title: 'false'
 
 * Orari di supporto normali
     * Lunedì – Venerdì
-    * 8:00 – 17
+    * 8:00 – 17:00
 
 * Il modo più semplice per aprire un caso  
   * OpCon User Community 
