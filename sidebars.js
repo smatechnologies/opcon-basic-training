@@ -182,8 +182,13 @@ module.exports = {
 },
   {  
   type: 'link',
-  label: 'Take OpCon Basic Training Exam',
+  label: 'OpCon Basic Training Exam',
   href: 'https://www.onlineexambuilder.com/opcon-basic-training-certification/exam-362330',
+},
+{  
+  type: 'link',
+  label: 'Student Feedback Survey',
+  href: 'https://forms.office.com/r/pQu8LwxYws',
 },
   ],
 };
