@@ -5,6 +5,7 @@ hide_title: 'false'
 
 ## Informations Support SMA
 
+<!--
 <figure>
     <audio
         controls
@@ -13,6 +14,7 @@ hide_title: 'false'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Heures ouvrées du support
     * Lundi au vendredi
