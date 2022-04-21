@@ -24,12 +24,14 @@ The **Role** should be able to View:
 
 Log out of Enterprise Manager and log back in as the new **User Account** to verify settings and restrictions.
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3LabA.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
 
 <details>
 

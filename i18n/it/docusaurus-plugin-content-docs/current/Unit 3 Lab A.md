@@ -25,12 +25,14 @@ Questo **Role **deve essere in grado di visualizzare:
 
 Esci e rientrare in Enterprise Manager come nuovo account utente per verificare le impostazioni e le restrizioni.
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3LabA.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
 
 <details>
 

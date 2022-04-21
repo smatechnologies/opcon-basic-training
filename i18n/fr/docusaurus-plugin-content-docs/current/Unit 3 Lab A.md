@@ -25,12 +25,14 @@ Le **rôle** doit être capable de voir :
 
 Déconnectez-vous d'Enterprise Manager et reconnectez-vous avec le nouveau compte utilisateur pour vérifier les paramètres et les restrictions.
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3LabA.mp4" type="video/mp4"></source>
 Votre navigateur ne prend pas en charge la vidéo.
 </video>
 </div>
+-->
 
 <details>
 
