@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Objectif: 
 
-Ouvrez le navigateur Chrome et accédez à ```https://SMATraining:9010```
+Ouvrez le navigateur Chrome et accédez à ```https://SMATraining```
 
 Connectez-vous à **Solution Manager** :
 
@@ -40,7 +40,7 @@ Your browser does not support the video tag.
 <summary>Cliquez pour obtenir des instructions étape par étape</summary>
 
   1. Connectez-vous au Solution Manager:
-      - Ouvrez **Google Chrome** depuis la barre des tâches et accédez à : ```https://SMATraining:9010```.
+      - Ouvrez **Google Chrome** depuis la barre des tâches et accédez à : ```https://SMATraining```.
         Si un écran de connexion autre que l'écran de connexion de Solution Manager apparaît, cliquez sur **Annuler**.
       - Dans l'**écran de connexion de Solution Manager**, saisissez ce qui suit :
         - Utilisateur : ```ocadm```

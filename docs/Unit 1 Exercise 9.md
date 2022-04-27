@@ -6,7 +6,7 @@ sidebar_label: 'Unit 1 Exercise 9'
 
 ##### Objective: 
 
-Open the Chrome Browser and navigate to ```https://SMATraining:9010```
+Open the Chrome Browser and navigate to ```https://SMATraining```
 
 Log in to **Solution Manager**: 
 
@@ -38,7 +38,7 @@ Your browser does not support the video tag.
 
 1.	Open **Google Chrome** from the taskbar and go to:
 ```
-https://SMATraining:9010
+https://SMATraining
 ```
   * If a login screen other than the **Solution Manager** login screen pops up, click **Cancel**.
 2.	In the **Solution Manager login screen** enter the following:

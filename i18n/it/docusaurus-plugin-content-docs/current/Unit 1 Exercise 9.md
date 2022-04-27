@@ -7,7 +7,7 @@ hide_title: 'false'
 
 ##### Obiettivo:
 
-Aprire il Browser Chrome e navigare all'indirizzo ```https://SMATraining:9010```
+Aprire il Browser Chrome e navigare all'indirizzo ```https://SMATraining```
 
 Effettuare il Log in **Solution Manager**: 
 
@@ -41,7 +41,7 @@ Your browser does not support the video tag.
 
 1.	Avviare **Google Chrome** e andare all'indirizzo:
 ```
-https://SMATraining:9010
+https://SMATraining
 ```
   * Se compare un Pop-Up di login ulteriore al login del **Solution Manager** selezionare **Cancel**.
 2.	In the **Solution Manager login screen** enter the following:
