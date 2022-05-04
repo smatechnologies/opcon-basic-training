@@ -2,10 +2,12 @@
 sidebar_label: 'SMA History'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/SMATechnologies.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 ![Picture1](/imgbasic/Picture1.png)
 
