@@ -41,7 +41,7 @@ Your browser does not support the video tag.
 8.	In the **Source Information File** textbox, enter the following for the path and file name to Transfer:
 
 ```
-/usr/local/files/FileToSend.txt
+/usr/local/files/FilesToSend.txt
 ```
 
 9.	In the **Destination Information Machine** drop-down list, select the ```SMATraining``` machine to specify where the file is going to. 
