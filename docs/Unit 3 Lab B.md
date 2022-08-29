@@ -47,7 +47,7 @@ Your browser does not support the video tag.
     * Name the Schedule **Congo Retail Order Processing**
     * Monday through Sunday
     * **Auto Build** ```7``` days in advance for ```1``` day
-    * **Auto Delete** ```7``` days
+    * **Auto Delete** for ```7``` days ago
 
 * **Job Information**
 

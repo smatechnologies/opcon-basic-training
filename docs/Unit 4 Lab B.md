@@ -113,7 +113,7 @@ The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the *
 
 * Create a **main Schedule** named **HR Import** (this must be a **Monday-Sunday** Schedule Calendar)
 * **Auto-build** the Schedule ```7``` days in advance for ```1``` day
-* **Auto-delete** the Schedule for ```7``` days
+* **Auto-delete** the Schedule for ```7``` days ago
 * Add **Documentation** for the Schedule 
 * Create a **Container Job** in the **HR Import Schedul**e named **HR Import Processing**
 * The **Container Job** should run the **HR Import Processing SubSchedule**

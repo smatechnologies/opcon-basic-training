@@ -50,7 +50,7 @@ USE NULL JOB TYPE FOR ALL JOBS IN THIS LAB
 *	Monday through Friday are working days
 *	The **Master Holiday Calendar** is used
 *	Auto-build the Schedule 7 days in advance for 1 day
-*	Auto-delete the Schedule for 7 days
+*	Auto-delete the Schedule for 7 days ago
 *	Add Documentation for the Schedule 
 
 *	Four Null Jobs will be created:

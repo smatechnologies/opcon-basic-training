@@ -43,7 +43,7 @@ Your browser does not support the video tag.
 * Create a Schedule named Congo Inventory Reports
 * Saturday and Sundays are non-working days 
 * Auto-build the Schedule ```7``` days in advance for ```1``` day
-* Auto-delete the Schedule for ```7``` days
+* Auto-delete the Schedule for ```7``` days ago
 * Add Documentation for the Schedule 
 * Create a **Windows Job** for each of the products in the introduction
 * Name each Job the same as its product name

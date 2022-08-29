@@ -72,7 +72,7 @@ Your browser does not support the video tag.
 		* Monday through Sunday are working days.
 		* Do **NOT** use the Master Holiday Calendar.
 		* Auto Build ```7``` days in advance for ```1``` days.
-		* Auto Delete ```7``` days.
+		* Auto Delete ```7``` days ago.
 	* Do not forget to add **Documentation** to your Schedule.
 	* Close the **Schedule Master** and open the **Job Master** to add your Jobs.
 	* Select the **My Threshold Schedule**.
