@@ -1,7 +1,7 @@
 ---
 sidebar_label: 'Access Codes'
 ---
-
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +10,7 @@ sidebar_label: 'Access Codes'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Access Codes can be used to secure individual Job records 
 * To make use of an Access Code, Privileges must be granted 

@@ -4,7 +4,9 @@ sidebar_label: 'About Self Service'
 
 ### Overview
 
+<!--
 <a href="imgbasic/SelfServiceButtonSolutionManager.png" target="_blank"><img src="imgbasic/SelfServiceButtonSolutionManager.png" width="500"></img></a>  
+-->
 
 * **Self Service** allows End-users to interact with OpCon without having to engage their IT department
     * A Web Browser is the only software requirement

@@ -2,6 +2,7 @@
 sidebar_label: 'Advanced Failure Criteria'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,8 @@ sidebar_label: 'Advanced Failure Criteria'
             <code>audio</code> element.
     </audio>
 </figure>
+
+-->
 
 * Failure Criteria - Advanced tab allows the specification of multiple Exit Codes
 * Combining this with Events based on Job Exit Description allows OpCon to behave differently based on Exit Condition

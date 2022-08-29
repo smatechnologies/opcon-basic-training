@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'SM Job Configuration'
+sidebar_label: 'SM - Job Configuration'
 ---
 
 ### Solution Manager: Job Configuration Screen
