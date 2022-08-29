@@ -17,10 +17,12 @@ sidebar_label: 'Architecture'
 
 ### OpCon Architecture Overview
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/OpConArchitectureOverview.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 ![Picture4](/imgbasic/Picture4.png)
 
