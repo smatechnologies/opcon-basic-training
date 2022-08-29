@@ -2,6 +2,7 @@
 sidebar_label: 'Privileges'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Privileges'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * The Administrator can grant the following Privileges to Roles:
     * Machine Privileges
@@ -27,6 +29,7 @@ sidebar_label: 'Privileges'
 
 ### Machine Privileges
 
+<!--
 <figure>
     <audio
         controls
@@ -35,6 +38,7 @@ sidebar_label: 'Privileges'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Machine Privileges are used to control Machines for Users in a Role that have Privileges to create and edit Jobs
 * Within Job Master and Job Daily, Users will only see Machines based on their Role Privileges

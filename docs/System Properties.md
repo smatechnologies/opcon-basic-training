@@ -4,6 +4,7 @@ sidebar_label: 'System Properties'
 
 ### System and Instance Properties
 
+<!--
 <figure>
     <audio
         controls
@@ -12,6 +13,7 @@ sidebar_label: 'System Properties'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 :::info
 **Properties** are variables stored in the database that can be used throughout OpCon
@@ -36,6 +38,7 @@ sidebar_label: 'System Properties'
 
 ### System Properties Offsets
 
+<!--
 <figure>
     <figcaption>Listen for information on System Properties - Offsets:</figcaption>
     <audio
@@ -45,6 +48,7 @@ sidebar_label: 'System Properties'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * ```$DATE``` or ```$SCHEDULE DATE``` System Properties can be offset
 * Example:

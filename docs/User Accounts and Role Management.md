@@ -4,6 +4,7 @@ sidebar_label: 'User Accounts and Role Management'
 
 ### SMA LDAP Monitor
 
+<!--
 <figure>
     <audio
         controls
@@ -12,6 +13,7 @@ sidebar_label: 'User Accounts and Role Management'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * SMA LDAP Monitor allows integration of network security for User Accounts with automatic logins to OpCon
 * SMA LDAP Monitor checks the LDAP server to sync Active Directory Groups with OpCon Users
@@ -29,6 +31,7 @@ sidebar_label: 'User Accounts and Role Management'
 
 ### User Accounts
 
+<!--
 <figure>
     <audio
         controls
@@ -37,6 +40,7 @@ sidebar_label: 'User Accounts and Role Management'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * User Accounts are Individual sign-ons and are required for access to OpCon 
 * Once authenticated, User Account inherits Privileges through **Roles**
@@ -53,6 +57,7 @@ sidebar_label: 'User Accounts and Role Management'
 
 ### Roles
 
+<!--
 <figure>
     <audio
         controls
@@ -61,6 +66,7 @@ sidebar_label: 'User Accounts and Role Management'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 Roles are used to maintain Privileges for multiple User Accounts  
 

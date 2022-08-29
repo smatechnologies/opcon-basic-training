@@ -4,10 +4,12 @@ sidebar_label: 'SM - Job Status'
 
 ### Solution Manager: Job Status and Selection Options
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/SolutionManagerJobStatusandSelectionOptions.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 ### Filter by Job Status  
 

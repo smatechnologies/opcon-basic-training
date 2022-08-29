@@ -2,6 +2,7 @@
 sidebar_label: 'Schedule Privileges'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Schedule Privileges'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Removes/Grants Privileges to specific Schedules
 * In order to view a Schedule, each OpCon user must be granted access

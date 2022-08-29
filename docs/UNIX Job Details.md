@@ -2,11 +2,12 @@
 sidebar_label: 'UNIX Job Details'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/UNIXJobDetails.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
-
+-->
 
 * Select Job Type based on where a Job will run
 * Once a Job type is selected, parameters specific to the chosen technical environment are displayed

@@ -2,10 +2,12 @@
 sidebar_label: 'Global Properties'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/GlobalProperties.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * **Global Properties** are variables stored in the database that can be used throughout OpCon 
   * Properties are defined with a name and a value
@@ -32,10 +34,12 @@ Example:
 
 ### Troubleshooting Global Properties
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/TroubleshootingGlobalProperties.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 :::note Example
 * Job Stays On Hold
@@ -47,10 +51,12 @@ Example:
 
 ### Encrypted Global Property
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/EncryptedGlobalProperty.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * The Value of a **Global Property** can be **Encrypted** by simply checking the **Encrypted** check box and saving the **Global Property**
 * This value is decrypted by **LSAM** at Runtime

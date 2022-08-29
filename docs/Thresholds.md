@@ -2,6 +2,7 @@
 sidebar_label: 'Thresholds'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Thresholds'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * User-defined placeholder 
 * Consists of a name and a numeric value 

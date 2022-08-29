@@ -4,10 +4,12 @@ sidebar_label: 'SM - Job Configuration'
 
 ### Solution Manager: Job Configuration Screen
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/SolutionManagerJobConfigurationScreen.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * The Job Configuration Screen (formerly “Edit Daily”) can be accessed from the Job Summary toolbar when a Job is selected
 

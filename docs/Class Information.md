@@ -2,10 +2,12 @@
 sidebar_label: 'Class Information'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/ClassInformationAndTrainingMachines.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>    
+-->
 
 ### This Week...
 

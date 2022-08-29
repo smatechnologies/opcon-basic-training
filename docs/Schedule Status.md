@@ -2,10 +2,12 @@
 sidebar_label: 'Schedule Status'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/ScheduleStatus.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Possible Schedule statuses:
   * Wait to Start
@@ -19,10 +21,12 @@ sidebar_label: 'Schedule Status'
 
 ### Update Schedule Status
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/UpdateScheduleStatus.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Update the Schedule status by right-clicking Schedule and selecting one of the available options:
   * Hold
@@ -38,10 +42,12 @@ sidebar_label: 'Schedule Status'
  
 ### Job Status <a name="JobStatus"></a>
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobStatus.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 Jobs have many different statuses 
 
@@ -67,10 +73,12 @@ Jobs have many different statuses
 
 ### Update Job Status
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/UpdateJobStatus.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Update Job statuses by right-clicking the Job and selecting one of the available options
 * Options vary depending on current status of Job
@@ -80,10 +88,12 @@ Jobs have many different statuses
 
 ### Bulk Update Job Status
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/BulkUpdateJobStatus.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 ![Picture50](/imgbasic/Picture50.png)
  

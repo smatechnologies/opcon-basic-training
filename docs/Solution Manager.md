@@ -2,10 +2,12 @@
 sidebar_label: 'Solution Manager'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/SolutionManager.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 SMA's **Solution Manager** is a *Web-based* OpCon User Interface 
 

@@ -2,10 +2,12 @@
 sidebar_label: 'Job Requirements'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobRequirementsandJobType.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 OpCon needs some basic information to run a process:
 
@@ -26,10 +28,12 @@ OpCon needs some basic information to run a process:
 
 ### Windows Job Type Definition Details
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/WindowsJobType.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 Windows Job Type parameters must be set:
 

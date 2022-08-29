@@ -4,10 +4,12 @@ sidebar_label: 'Job Dependency Types'
 
 ### Job Dependency Types
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencyTypes.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * **Requires** – The selected Job is required to exist and be in completed status before a dependent Job will run (default requires successful completion)
 * **After** – The selected Job must be in completed status before a dependent Job will run **IF** it exists (default requires successful completion)
@@ -18,10 +20,12 @@ sidebar_label: 'Job Dependency Types'
 
 ### Job Dependency Types - **After**
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencyTypesAfter.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Accounts for Jobs which are occasionally part of the Workflow
 * If Job Dependencies must be tied upstream when After Dependencies are used
@@ -36,10 +40,12 @@ Example:
 
 ### Job Dependency Types - **Excludes**
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencyTypesExcludes.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Allows Monthly Jobs to automatically remove daily Jobs from a Schedule
 * Alternative to **Negative Frequencies** using **Do Not Schedule**
@@ -50,10 +56,12 @@ Example:
 
 ### Job Dependency Types - **Conflict**
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencyTypesConflict.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Allows Jobs to wait only if a dependent Job is running
   * Identified with Pink Lines in chart 
@@ -75,10 +83,12 @@ Example:
 
 ### Job Dependency - **Failed**
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencyFailed.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * **Failed** option is valid for either the **Requires** or **After** Dependency Type
 * If selected, will allow the previous Job to fail then process other Jobs that are part of that path
@@ -89,10 +99,12 @@ Example:
 
 ### Job Dependency - **Offset**
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencyOffset.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Allows Cross Day Dependencies
 * Uses Physical Day instead of Working Day by default
@@ -104,10 +116,12 @@ Example:
 
 ### Job Dependency - **Based on Frequency**
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencyBasedOnFrequency.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Allows a Dependency to be set only when the Job is built using a specific Frequency 
   * If no Frequency is selected, the Dependency is always true

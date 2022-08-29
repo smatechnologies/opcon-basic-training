@@ -6,10 +6,12 @@ sidebar_label: 'On Request -- Periods'
 
 #### On Request
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardOnRequest.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Used for two reasons:
   * A Job needs to run on the same day every year
@@ -21,10 +23,12 @@ sidebar_label: 'On Request -- Periods'
 
 #### End of Period
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardEndofPeriod.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Allows a Job to run on the Last day of Week, Month, Quarter, or Year
 * Use **A/O/B/N** flag to specify the last working day of that Period
@@ -37,10 +41,13 @@ sidebar_label: 'On Request -- Periods'
 
 #### Beginning of Period
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardBegofPeriod.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
+
 
 * Allows a Job to run on the First of Week, Month, Quarter, or Year
 * Use **A/O/B/N** flag to specify the First Working Day of that Period
@@ -53,10 +60,12 @@ sidebar_label: 'On Request -- Periods'
 
 #### Middle of Period
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardMidofPeriod.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Allows a Job to run on Middle of Week, Month, Quarter, or Year
 

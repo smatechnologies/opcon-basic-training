@@ -6,10 +6,13 @@ sidebar_label: 'On Interval -- Odd Even -- Annual Plan'
 
 #### On Intervals
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardOnIntervals.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
+
 
 * Essentially the On Day option, but blocked in multiples of 5 (instead of creating 6 different Frequencies)
 
@@ -25,10 +28,12 @@ Or
 
 #### Odd and Even Weeks
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardOddAndEvenWeeks.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 Odd Weeks
 
@@ -53,10 +58,12 @@ Even Weeks
 
 #### Annual Plan Calendars
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardAnnualPlanCalendars.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Two Steps in Using Annual Plan Calendar:
   * Create/Maintain Calendar

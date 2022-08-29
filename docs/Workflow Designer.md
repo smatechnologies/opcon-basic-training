@@ -2,10 +2,12 @@
 sidebar_label: 'Workflow Designer'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/WorkflowDesigner.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * The **Workflow Designer** provides a graphical display and workflow for a selected Schedule
 * Drag and drop Dependencies for Jobs, Thresholds, and Resources
@@ -16,10 +18,12 @@ sidebar_label: 'Workflow Designer'
 
 ### Workflow Designer Job Type Icons
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/WorkflowDesignerIcons.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 ![Picture88](/imgbasic/Picture88.png) 
 
@@ -31,10 +35,12 @@ sidebar_label: 'Workflow Designer'
   
 #### Workflow Menu
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/WorkflowDesignerMenu.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * For Container Jobs - 
   * Open SubSchedule

@@ -4,6 +4,7 @@ sidebar_label: 'Common Role Configurations'
 
 ### Common Role Configurations - Best Practices
 
+<!--
 <figure>
     <audio
         controls
@@ -12,6 +13,8 @@ sidebar_label: 'Common Role Configurations'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
+
 
 * Three main user Groups (Roles) For OpCon Privileges:  
     * **Administrators**

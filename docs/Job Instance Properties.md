@@ -2,6 +2,7 @@
 sidebar_label: 'Job Instance Properties'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Job Instance Properties'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * **Job Master** contains an **Instance Definition** tab for each individual Job where **Job Instance Properties** can be defined or modified
 * Use of a Job Instance Property must contain "```JI.```" in front of the Property name (e.g., ```[[JI.Path]]```)

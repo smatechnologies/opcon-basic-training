@@ -2,6 +2,7 @@
 sidebar_label: 'Embedded Scripts'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Embedded Scripts'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * OpCon has ability to push Scripts from OpCon database to Windows and UNIX Machines (LSAMs) to run
 * Database has centralized Repository that is replicated with database
@@ -25,6 +27,7 @@ sidebar_label: 'Embedded Scripts'
 
 ### Embedded Scripts - Script Types
 
+<!--
 <figure>
     <audio
         controls
@@ -33,6 +36,8 @@ sidebar_label: 'Embedded Scripts'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
+
 
 * Configure type of Scripts which can be stored by OpCon
 
@@ -59,6 +64,7 @@ Example:
 
 ### Embedded Scripts - Script Repository
 
+<!--
 <figure>
     <audio
         controls
@@ -67,6 +73,7 @@ Example:
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Where Scripts are created and stored
 * Previous versions are accessible
@@ -90,6 +97,7 @@ Example:
 
 ### Embedded Scripts - Job Master
 
+<!--
 <figure>
     <audio
         controls
@@ -98,6 +106,8 @@ Example:
             <code>audio</code> element.
     </audio>
 </figure>
+-->
+
 
 * **Job Action** – Change from Run Program to Embedded Scripts
 * **Script** – Specifies which script to call

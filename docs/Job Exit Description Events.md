@@ -2,6 +2,7 @@
 sidebar_label: 'Job Exit Description Events'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Job Exit Description Events'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * When defining an Event based on Exit Description two things must be set:
     * **Comparison Operator**

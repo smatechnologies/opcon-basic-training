@@ -2,6 +2,7 @@
 sidebar_label: 'Departments'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Departments'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Secure Function Privileges associated with individual Job records
 * To make use of the Department category, Function Privileges must be granted, and Access Code must be associated with Jobs needing this type of security 

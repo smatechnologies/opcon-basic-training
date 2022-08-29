@@ -2,10 +2,12 @@
 sidebar_label: 'Batch Jobs'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/AutomationandBatchJobConcepts.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 ![Picture13](/imgbasic/Picture13.png)
 

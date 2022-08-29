@@ -2,10 +2,12 @@
 sidebar_label: 'Operation Views'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/OperationsViews.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * In Enterprise Manager Operation, there are several views to filter and update Schedule and Job information
   * Daily List View
@@ -20,10 +22,12 @@ sidebar_label: 'Operation Views'
 
 ### List View
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/ListView.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * **Daily List** view displays all dates that have Schedules built
   * **Daily List** provides a tree view for Schedule dates that can be expanded to show Schedule and Job information in alphabetical order
@@ -35,10 +39,12 @@ sidebar_label: 'Operation Views'
 
 ### Matrix View
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/MatrixView.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * **Matrix** view is used to view, filter, and update Schedule and Job information in grid format
 * **Matrix** view provides a tabular view that contains: 
@@ -50,10 +56,12 @@ sidebar_label: 'Operation Views'
 
 ### PERT View
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/PertView.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * **PERT** view provides the best graphical view for a Schedule’s individual Jobs and relationships
 * **PERT** displays Job Dependency, Threshold, and Resource relationships and Job current status in simple schedules
@@ -64,10 +72,12 @@ sidebar_label: 'Operation Views'
 
 ### Arrange Views and Synchronize
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/ArrangeViewsandSynchronize.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * Arrange **List**, **Matrix**, and **PERT** views on same screen 
 * In **Matrix** or **List** view, select date for the Schedule 

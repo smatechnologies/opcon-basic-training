@@ -4,6 +4,7 @@ sidebar_label: 'Windows File Movement Job Sub-Types'
 
 ### Windows File Movement Job Sub-Type
 
+<!--
 <figure>
     <audio
         controls
@@ -12,6 +13,7 @@ sidebar_label: 'Windows File Movement Job Sub-Types'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * OpCon brings some special **Job Sub-Types** related with file maintenance
 * Windows Job Sub-Types simplify the Job definition process by displaying fields to generate Command Line for programs commonly used by SMA customers

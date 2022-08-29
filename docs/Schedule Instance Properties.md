@@ -2,6 +2,7 @@
 sidebar_label: 'Schedule Instance Properties'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Schedule Instance Properties'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * **Schedule Master** contains an **Instance Definition** tab for each individual Schedule where **Schedule Instance Properties** can be defined or modified
 * Use of a Schedule Instance Property must contain "```SI.```" in front of a Property name (e.g., ```[[SI.ID]]```)  

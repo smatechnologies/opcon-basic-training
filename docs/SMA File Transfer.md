@@ -2,6 +2,7 @@
 sidebar_label: 'SMA File Transfer'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'SMA File Transfer'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Proprietary Agent to Agent File Transfer solution built into OpCon
 * Uses Job Type: **File Transfer**

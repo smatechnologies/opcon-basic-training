@@ -2,6 +2,7 @@
 sidebar_label: 'OpCon Events'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'OpCon Events'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * OpCon Events execute commands within OpCon
 * Events can be defined to execute upon:
@@ -39,6 +41,7 @@ sidebar_label: 'OpCon Events'
 
 ### Internal vs External Events
 
+<!--
 <figure>
     <audio
         controls
@@ -47,6 +50,7 @@ sidebar_label: 'OpCon Events'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Internal Events created from Enterprise Manager/Solution Manager (Self-Service)
     * Events tab in Schedule/Job Master
@@ -85,6 +89,7 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
 
 ### Troubleshooting Events - OpConLogs
 
+<!--
 <figure>
     <audio
         controls
@@ -93,6 +98,8 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
             <code>audio</code> element.
     </audio>
 </figure>
+
+-->
 
 * All failed Events will be listed in both the SAM Log and the Critical Log along with a brief failure description
 
@@ -106,6 +113,7 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
 
 ### MSGIN - External Events
 
+<!--
 <figure>
     <audio
         controls
@@ -114,6 +122,7 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * "External hook” into OpCon
 * ```MSGIN``` is a folder/directory monitored by OpCon’s Agent (LSAM) for Events to be passed to OpCon

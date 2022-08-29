@@ -2,10 +2,12 @@
 sidebar_label: 'Server Options'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/ServerOptions.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * The Server Options editor controls global settings for OpCon
 * Changes made in this screen will apply to the entire environment

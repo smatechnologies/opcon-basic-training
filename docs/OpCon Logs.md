@@ -2,10 +2,12 @@
 sidebar_label: 'OpCon Logs'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/OpConLogs.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 ##### Log location  
 
@@ -27,10 +29,12 @@ C:\ProgramData\OpConxps\SAM\Log
 
 ### OpCon Logs - Support
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/OpConLogsSupport.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * OpCon Logs are **VITAL** to the Support team when researching an issue
   * Please zip up full Log folder and upload it to SMA’s FTP site if an issue occurs
@@ -52,10 +56,12 @@ OpCon Log files can help with troubleshooting
 
 ### SAM Log
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/SAMLog.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 SAM - Schedule Activity Monitor  
 
@@ -74,10 +80,12 @@ Running list of all transactions
 
 ### Critical Log
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/CriticalLog.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * Reports SAM errors
 * Properties which cannot be resolved

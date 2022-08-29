@@ -2,6 +2,7 @@
 sidebar_label: 'Escalation Manager'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Escalation Manager'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Allows users to create Escalation Rules which will be tied to Notifications
 * Escalation Rules are tied to Notifications setup in Notification Manager
@@ -51,6 +53,7 @@ sidebar_label: 'Escalation Manager'
 
 ### Escalation Acknowledgement
 
+<!--
 <figure>
     <figcaption>Listen for information on Escalation Acknowledgement:</figcaption>
     <audio
@@ -60,6 +63,7 @@ sidebar_label: 'Escalation Manager'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Once Escalation is triggered, any User tied to an Escalation Group must Acknowledge it to stop the Escalation Cycle
 * End Alert in **Escalation Acknowledgement** screen

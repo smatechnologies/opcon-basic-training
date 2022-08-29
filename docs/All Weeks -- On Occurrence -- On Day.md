@@ -6,10 +6,12 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
 
 #### All Weeks
 
+<!-- 
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardAllWeeks.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Uses Day of the Week selected for **All Weeks**
   * Multiple Days of the Week can be Marked

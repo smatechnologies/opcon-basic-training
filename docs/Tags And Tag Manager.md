@@ -4,10 +4,12 @@ sidebar_label: 'Tags And Tag Manager'
 
 ### Job Tags
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobTags.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 ![Picture25](/imgbasic/Picture25.png)
 

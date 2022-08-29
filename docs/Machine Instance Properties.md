@@ -2,6 +2,7 @@
 sidebar_label: 'Machine Instance Properties'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Machine Instance Properties'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Advanced Machine Properties screen is used to manage **Machine Instance Properties** of a specific Machine
 * Use of a Machine Instance Property must contain "```MI.```" in front of a Property name (e.g., ```[[MI.LSAMpath]]```)  

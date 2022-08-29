@@ -4,10 +4,12 @@ sidebar_label: 'SM - Schedule Build'
 
 ### Solution Manager: Schedule Build
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/SolutionManagerScheduleBuild.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
 
 * The **Build** button on the Operations Summary Page activates the Schedule Build Wizard
 * The Selection page allows the user to choose a Master Schedule to build with multiple options:

@@ -2,6 +2,7 @@
 sidebar_label: 'Resources'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Resources'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * **Resource**: user-defined value consisting of name and numeric limit
 * Resources are used to manage and limit the number of concurrently running Jobs across Schedules and Machines in OpCon
@@ -40,6 +42,7 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 
 ### Frequency - SAM Priority
 
+<!--
 <figure>
     <audio
         controls
@@ -48,6 +51,7 @@ If all Resources are in use, SAM waits until a Resource is available before subm
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Used if Max Concurrent of the following two features is met:
 	* Machine has reached Max Jobs limit (Windows and UNIX defaults are ```50```)

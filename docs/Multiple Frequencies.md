@@ -2,10 +2,12 @@
 sidebar_label: 'Multiple Frequencies'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/MultipleFrequencies.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * SAM checks the **Frequency list** at Job build time
   * Stops searching when a match is made
@@ -18,10 +20,12 @@ sidebar_label: 'Multiple Frequencies'
 
 ### Frequencies - Job Build Status
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequenciesJobBuildStatus.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * On Hold
 * Released
@@ -35,10 +39,12 @@ sidebar_label: 'Multiple Frequencies'
 
 ### Forecast
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/ForecastSideBySideAndForecastAll.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 ### Forecast Side-by-Side
 

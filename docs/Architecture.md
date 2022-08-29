@@ -4,10 +4,12 @@ sidebar_label: 'Architecture'
 
 ### What is OpCon?
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/WhatIsOpCon.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>    
+-->
 
 * A Platform independent Job Scheduling and Automation Solution that SMA provides to manage an entire Datacenter
 

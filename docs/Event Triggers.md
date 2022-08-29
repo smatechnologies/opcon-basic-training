@@ -2,6 +2,7 @@
 sidebar_label: 'Event Triggers'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Event Triggers'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Two common ways to send internal Events:
     * Events based on Job Status

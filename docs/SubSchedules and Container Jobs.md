@@ -2,6 +2,7 @@
 sidebar_label: 'SubSchedules and Container Jobs'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'SubSchedules and Container Jobs'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 ### SubSchedule: Definition
 
@@ -40,6 +42,7 @@ sidebar_label: 'SubSchedules and Container Jobs'
 
 ### SubSchedule/Container Job: Setup
 
+<!--
 <figure>
     <audio
         controls
@@ -48,6 +51,7 @@ sidebar_label: 'SubSchedules and Container Jobs'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Create SubSchedule:
 	* Create Schedule in Schedule Master
@@ -74,6 +78,7 @@ sidebar_label: 'SubSchedules and Container Jobs'
 
 ### SubSchedule Usage Scenarios
 
+<!--
 <figure>
     <audio
         controls
@@ -82,6 +87,7 @@ sidebar_label: 'SubSchedules and Container Jobs'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 ### Scenario 1 - Multiple Runs/SubSchedule
 

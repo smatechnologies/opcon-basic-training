@@ -2,10 +2,13 @@
 sidebar_label: 'Audit Management'
 ---
 
+<!--
+
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/AuditManagement.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Used to view history of User updates to the OpCon database
 * Resides under Management in Enterprise Manager

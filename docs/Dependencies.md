@@ -2,10 +2,13 @@
 sidebar_label: 'Dependencies'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/JobDependencies.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
+
 
 ![Picture21](/imgbasic/Picture21.png) 
 

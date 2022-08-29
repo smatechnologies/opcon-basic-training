@@ -4,6 +4,7 @@ sidebar_label: 'Annual Plan Events'
 
 ### Annual Plan Calendar - Event Updates
 
+<!--
 <figure>
     <audio
         controls
@@ -12,6 +13,8 @@ sidebar_label: 'Annual Plan Events'
             <code>audio</code> element.
     </audio>
 </figure>
+
+-->
 
 * Two Steps in Using Annual Plan Calendar:
     * Create/Maintain a Calendar

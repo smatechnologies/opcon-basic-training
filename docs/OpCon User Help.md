@@ -4,10 +4,12 @@ sidebar_label: 'OpCon User Help'
 
 ### Troubleshooting - OpCon User Help
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/TroubleshootingOpConUserHelp.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * OpCon Documentation is a searchable website: <a href="https://help.smatechnologies.com" target="_blank">help.smatechnologies.com</a>
 * Documentation can be found under Solution Manager

@@ -2,6 +2,7 @@
 sidebar_label: 'Integrated File Watcher Job'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Integrated File Watcher Job'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * Job which runs until:
 	* File specified is detected

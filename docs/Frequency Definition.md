@@ -2,10 +2,13 @@
 sidebar_label: 'Frequency Definiton'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/FrequencyDefinition.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+-->
+
 
 ![Picture17](/imgbasic/Picture17.png)
 

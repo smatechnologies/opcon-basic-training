@@ -2,6 +2,7 @@
 sidebar_label: 'File Arrival Jobs'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,7 +11,7 @@ sidebar_label: 'File Arrival Jobs'
             <code>audio</code> element.
     </audio>
 </figure>
-
+-->
 
 ### Windows File Arrival Jobs
 

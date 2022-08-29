@@ -2,6 +2,7 @@
 sidebar_label: 'Batch Users'
 ---
 
+<!--
 <figure>
     <audio
         controls
@@ -10,6 +11,7 @@ sidebar_label: 'Batch Users'
             <code>audio</code> element.
     </audio>
 </figure>
+-->
 
 * The **Batch User** editor is used to create and maintain Batch Users that are required for processing Jobs on Windows, i5OS, MCP, UNIX and OpenVMS
 

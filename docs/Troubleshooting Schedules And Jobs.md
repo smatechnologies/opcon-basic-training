@@ -2,10 +2,12 @@
 sidebar_label: 'Troubleshooting Schedules And Jobs'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/TroubleshootingScheduleInformation.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 ### Solution Manager - Schedule Build Queue 
 
@@ -25,10 +27,12 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
 
 ### Job Information
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/TroubleshootingJobInformation.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * In **List**, **Matrix**, or **PERT** View, right-click on any Job and select **Job Information**
 
@@ -40,10 +44,12 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
 
 ### View Job Output 
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/TroubleshootingViewJobOutput.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * **Job Output** can be retrieved from Enterprise Manager
   * Sent by Agent/LSAM on target machine
@@ -62,10 +68,12 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
 
 ### View Job History
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/TroubleshootingViewJobHistory.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * Job Execution History screen displays a Job’s Runtime, Termination Status, and Exit Code
 
@@ -92,10 +100,12 @@ sidebar_label: 'Troubleshooting Schedules And Jobs'
 
 ### History Management
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/TroubleshootingHistoryManagement.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+-->
 
 * **History Management** is used to view Schedule and Job history information
   * Accessed under Management in Enterprise Manager

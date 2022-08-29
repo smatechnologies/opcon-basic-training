@@ -2,10 +2,13 @@
 sidebar_label: 'Machines'
 ---
 
+<!--
 <audio controls="controls">
   <source type="audio/mp3" src="audiobasic/Machines.mp3"></source>
   <p>Your browser does not support the audio element.</p>
 </audio> 
+
+-->
 
 * A Representation of an Agent **(LSAM)** in OpCon’s database
 * LSAM stands for “**Local Schedule Activity Monitor**”
