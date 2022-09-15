@@ -8,11 +8,11 @@ sidebar_label: 'Unit 4 Exercise 9'
 
 Within **MY FIRST SCHEDULE**, create a Job named **SMAFT Job 1** with a **Job Type** of ```File Transfer```. The Source Information Machine is ```SUSEVM```.  
 
-The **Source File** is: ```/usr/local/files/FileToSend.txt```
+The **Source File** is: ```/usr/local/files/FilesToSend.txt```
 
 The **Destination Information Machine** is: ```SMATraining```. 
 
-The **Destination File** is: ```C:\SMA File Transfer\FileToSend.txt```
+The **Destination File** is: ```C:\SMA File Transfer\FilesToSend.txt```
 
 For both the **Source** and **Destination Data Type**, choose ```ASCII``` and **Overwrite If File Exists**.
 
@@ -49,7 +49,7 @@ Your browser does not support the video tag.
 11.	In the **Destination Information File** textbox, enter the following for the path and file name to Transfer: 
 
 ```
-C:\SMA File Transfer\FileToSend.txt
+C:\SMA File Transfer\FilesToSend.txt
 ``` 
 
 12.	Click the **Options** Tab.
@@ -61,6 +61,6 @@ C:\SMA File Transfer\FileToSend.txt
 18.	Give the Job a **Frequency** that will allow it to run Today and close the **Job Master** tab.
 19.	Open the **Windows File Explorer** and check the ```C:\SMA File Transfer``` folder on the OpCon server verifying that it is **empty**.
 20.	In an **Operations View** Add this Job to today’s Schedule allowing it to run Released.
-21.	Once the Job finishes **OK**, verify that the ```FileToSend.txt``` is now in the ```C:\SMA File Transfer``` folder.
+21.	Once the Job finishes **OK**, verify that the ```FilesToSend.txt``` is now in the ```C:\SMA File Transfer``` folder.
 
 </details>
