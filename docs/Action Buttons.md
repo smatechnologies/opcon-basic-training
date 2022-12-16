@@ -2,32 +2,7 @@
 sidebar_label: 'Action Buttons'
 ---
 
-## Solution Manager
-
-<details>
-
-### Shortcuts
-
-The table contains the keyboard shortcuts for Solution Manager. If a shortcut has been implemented for a button, then the shortcut will be specified in the button tooltip.
-
-
-|Shortcut | Function | 
-|---------|----------|
-|Ctrl+Alt+A	| Admin Mode | 
-|Ctrl+Alt+H	| Help | 
-|Ctrl+Alt+R	| Refresh |
-|Ctrl+Enter	| Valid for form without Save button |
-|Ctrl+B	| Back | 
-|Ctrl+S	| Save |
-| Esc | Cancel/Undo/Exit/No |
-
-</details>
-
-## Enterprise Manager
-
-<details>
-
-* In Enterprise Manager, most screens under Administration section will present these buttons assigned to their respective actions:
+Most screens under Administration section will present these buttons assigned to their respective actions:
 
 **ADD** _(Ctrl + N)_: Adds appropriate editor information  
 **REMOVE** _(Ctrl + D)_: Deletes appropriate editor information  
@@ -36,15 +11,16 @@ The table contains the keyboard shortcuts for Solution Manager. If a shortcut ha
 
 ### Shortcuts
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/Shortcuts.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
+-->
+
 * In Enterprise Manager, **Ctrl+Alt+K** (Show Key Assist) will display a shortcut menu
 * Content depends on the active screen
 
-||
-|-----------------------------------|
-|![Picture6](../static/imgbasic/Picture6.png)|
-
-||
-|-----------------------------------|
-|![Picture7](../static/imgbasic/Picture7.png)|
-
-</details>
+![Picture6](/imgbasic/Picture6.png)
+  
+![Picture7](/imgbasic/Picture7.png)

@@ -10,9 +10,7 @@ To customize the button:
 * Toggle the **Custom Html** switch on  
 A text field displays for entering the custom HTML code
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCustomHTMLBlank.png)|
+<a href="imgbasic/SelfServiceCustomHTMLBlank.png" target="_blank"><img src="imgbasic/SelfServiceCustomHTMLBlank.png" width="500"></img></a>
 
 Enter the following template HTML code:
 
@@ -29,9 +27,7 @@ Modify the code as needed
 
 * A preview of the Button and any modifications will appear above the text field
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCustomHTMLExample.png)|
+<a href="imgbasic/SelfServiceCustomHTMLExample.png" target="_blank"><img src="imgbasic/SelfServiceCustomHTMLExample.png" width="500"></img></a>
 
 Below are a few recommendations for updating the icon and text on the button:
 
@@ -43,9 +39,7 @@ To modify the font icon that appears on the button:
 
  **#ff8f8f**
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCustomHTMLIconChange.png)|
+<a href="imgbasic/SelfServiceCustomHTMLIconChange.png" target="_blank"><img src="imgbasic/SelfServiceCustomHTMLIconChange.png" width="500"></img></a>
 
 * Change the **appearance** of the font icon by entering or pasting a new **Unicode** in the template code:
 
@@ -53,6 +47,4 @@ To modify the font icon that appears on the button:
 
 **xf1C0**
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCustomHTMLIconChangeUnicode.png)|
+<a href="imgbasic/SelfServiceCustomHTMLIconChangeUnicode.png" target="_blank"><img src="imgbasic/SelfServiceCustomHTMLIconChangeUnicode.png" width="500"></img></a>

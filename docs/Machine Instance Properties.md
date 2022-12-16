@@ -2,6 +2,17 @@
 sidebar_label: 'Machine Instance Properties'
 ---
 
+<!--
+<figure>
+    <audio
+        controls
+        src="audiobasic/MachineInstanceProperties.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+-->
+
 * Advanced Machine Properties screen is used to manage **Machine Instance Properties** of a specific Machine
 * Use of a Machine Instance Property must contain "```MI.```" in front of a Property name (e.g., ```[[MI.LSAMpath]]```)  
 * Identifies a Property as Machine Instance Property
@@ -11,50 +22,6 @@ sidebar_label: 'Machine Instance Properties'
 Machine Instance Properties are case sensitive
 ::::  
 
-## Solution Manager
-
-<details>
-
-### Agent Details
-
-||
-|---|
-|![](../static/imgbasic/sm-agent-details.png)|
-
-### Advanced Machine Properties
-
-||
-|---|
-|![](../static/imgbasic/sm-administrative-machine-information.png)|
-
-### Command Line Formatting
-
-||
-|---|
-|![](../static/imgbasic/sm-machine-properties-command-line.png)|
-
-</details>
-
-## Enterprise Manager
-
-<details>
-
-### Agent Details
-
-||
-|---|
-|![](../static/imgbasic/343.png)|
-
-### Advanced Machine Properties
-
-||
-|---|
-|![](../static/imgbasic/344.png)|
-
-### Command Line Formatting
-
-||
-|---|
-|![](../static/imgbasic/34501.png)|
-
-</details>
+<a href="imgbasic/343.png" target="_blank"><img src="imgbasic/343.png" width="300"></img></a>  
+<a href="imgbasic/344.png" target="_blank"><img src="imgbasic/344.png" width="500"></img></a>  
+<a href="imgbasic/34501.png" target="_blank"><img src="imgbasic/34501.png" width="500"></img></a>  

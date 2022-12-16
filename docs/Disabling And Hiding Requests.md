@@ -21,25 +21,17 @@ To define a rule for disabling a service request:
 
 * Click the Edit button at the top-right corner of the Service Request button 
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceSampleButton.png)|
+<a href="imgbasic/SelfServiceSampleButton.png" target="_blank"><img src="imgbasic/SelfServiceSampleButton.png" width="500"></img></a>
 
 * Toggle the Disable Rule switch on
     * A text field displays for entering the expression
     * Enter a boolean value, a token, or a complex expression
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceDisableRuleBoolean.png)|
+<a href="imgbasic/SelfServiceDisableRuleBoolean.png" target="_blank"><img src="imgbasic/SelfServiceDisableRuleBoolean.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceDisableRuleToken.png)|
+<a href="imgbasic/SelfServiceDisableRuleToken.png" target="_blank"><img src="imgbasic/SelfServiceDisableRuleToken.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceDisableRuleExpression.png)|
+<a href="imgbasic/SelfServiceDisableRuleExpression.png" target="_blank"><img src="imgbasic/SelfServiceDisableRuleExpression.png" width="500"></img></a>
 
 ### Hiding Service Requests
 
@@ -47,22 +39,16 @@ To define a rule for hiding a service request:
 
 * Click the Edit button at the top-right corner of the Service Request button
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceSampleButton.png)|
+<a href="imgbasic/SelfServiceSampleButton.png" target="_blank"><img src="imgbasic/SelfServiceSampleButton.png" width="500"></img></a>
 
 * Toggle the Hide Rule switch on
     * A text field displays for entering the expression
     * Enter a boolean value, a token, or a complex expression
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceHideRuleBoolean.png)|
+<a href="imgbasic/SelfServiceHideRuleBoolean.png" target="_blank"><img src="imgbasic/SelfServiceHideRuleBoolean.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceHideRuleToken.png)|
+<a href="imgbasic/SelfServiceHideRuleToken.png" target="_blank"><img src="imgbasic/SelfServiceHideRuleToken.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceHideRuleToken.png)|
+<a href="imgbasic/SelfServiceHideRuleExpression.png" target="_blank"><img src="imgbasic/SelfServiceHideRuleExpression.png" width="500"></img></a>
+
+###### (Click Images to Enlarge)

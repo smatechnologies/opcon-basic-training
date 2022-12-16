@@ -4,9 +4,7 @@ sidebar_label: 'Defining A Request'
 
 The Service Definition is composed of serveral fields, many of which are optional:
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceRequestDetails.png)|
+<a href="imgbasic/SelfServiceRequestDetails.png" target="_blank"><img src="imgbasic/SelfServiceRequestDetails.png" width="500"></img></a>
 
 * **Service Request Name** (```Required```)
     * The Service Request Name will display on the Service Request Button
@@ -25,9 +23,7 @@ The Service Definition is composed of serveral fields, many of which are optiona
 * **Hide Rule** (```Optional```)
     * Allows definition of a rule to hide the Service Request Button
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceRequestDetails2.png)|
+<a href="imgbasic/SelfServiceRequestDetails2.png" target="_blank"><img src="imgbasic/SelfServiceRequestDetails2.png" width="500"></img></a>
 
 * **Events** (```Required```)
     * Allows the definition of Events initiated by the Service Request Button
@@ -45,3 +41,5 @@ The Service Definition is composed of serveral fields, many of which are optiona
 * **Show for Role** (```Required```)
     * Allows the User to assign the Service Request to one or more OpCon Roles
     * Only users under the granted Role(s) are able to view and initiate the Service Request
+
+###### (Click Images to Enlarge)

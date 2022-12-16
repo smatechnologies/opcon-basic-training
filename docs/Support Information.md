@@ -2,6 +2,13 @@
 sidebar_label: 'Support Information'
 ---
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SMASupportInformation.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
 * Normal Support Hours  
   * Monday – Friday  
   * 8 AM – 5 PM Central  

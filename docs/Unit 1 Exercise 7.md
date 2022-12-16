@@ -12,16 +12,10 @@ Observe the ```Start Time``` for the Schedule. If it has not been reached, start
 
 Finally, put the Schedule back into an ```On Hold``` status.
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1E7.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
-
-:::tip [Walkthrough Video - Unit 1 Exercise 7](../static/videobasic/U1E7.mp4)
-
-:::
 
 <details>
 

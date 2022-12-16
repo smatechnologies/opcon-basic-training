@@ -12,16 +12,10 @@ In **Communication Settings**, update the **JORS Port Number** to ```3110```. Se
 
 Verify that all settings were saved.
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2E3.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
-
-:::tip [Walkthrough Video - Unit 2 Exercise 3](../static/videobasic/U2E3.mp4)
-
-:::
 
 <details>
 

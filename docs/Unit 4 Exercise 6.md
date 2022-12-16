@@ -18,18 +18,13 @@ Each Job should have a **Start Offset** equal to the name of the Job.
 
 Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule in Matrix View. Release the Schedule and let the Jobs run to verify results.
 
-<!--
+
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E6.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
--->
-
-:::tip [Walkthrough Video - Unit 4 Exercise 6](../static/videobasic/U4E6.mp4)
-
-:::
 
 <details>
 
