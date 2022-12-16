@@ -30,10 +30,17 @@ The program that must be run in the Command Line for Job execution is:
 ```
 "C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t15 -e0
 ```
+
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1LAB.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 1 Exercise 1](../static/videobasic/U1LAB.mp4)
+
+:::
 
 <details>
 

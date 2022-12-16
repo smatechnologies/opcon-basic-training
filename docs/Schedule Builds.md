@@ -2,27 +2,13 @@
 sidebar_label: 'Schedule Builds'
 ---
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/ScheduleBuilds.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio> 
--->
-
 * OpCon (SAM) will search the database for Schedules and Jobs that must run on a specific date
   * Based on information stored in Master tables, SAM will add Schedules and Jobs to Daily tables
 * Schedules can be built manually or automatically
 
-![Picture29](/imgbasic/Picture29.png)
+![Picture29](../static/imgbasic/Picture29.png)
 
 ### Auto Build
-
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/AutoBuild.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio> 
--->
 
 * Auto building **X days in advance** is the starting day to build on
 * Auto building **for Y days** is how far out to build
@@ -32,23 +18,71 @@ sidebar_label: 'Schedule Builds'
 
 * Best Practice for Autobuild is **7 days in advance for 1 day**
 
-#### Autobuild Example 1:
+## Solution Manager
 
-![Picture30](/imgbasic/Picture30.png)
-
-#### Autobuild Example 2:
-
-![Picture31](/imgbasic/Picture31.png)  
+<details>
 
 ### Manual Build
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/ManualBuild.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio> 
--->
+* The **Build** button on the Operations Summary Page activates the Schedule Build Wizard
+* The Selection page allows the user to choose a Master Schedule to build with multiple options:
+  * Date Range Selection
+  * On Hold or Release Status
+  * Overwrite Existing Schedules Option
+* Users can also filter Schedules with Auto-build or Multi-Instance configurations
+
+||
+|---|
+|![Picture59](../static/imgbasic/Picture59.png)|
+
+||
+|---|
+|![Picture60](../static/imgbasic/Picture60.png)|
+ 
+
+### Schedule Build Grouping
+
+* Multiple Builds can be bundled and tracked as a group
+* The bundle can be expanded to view and monitor the status of each Build
+
+||
+|---|
+|![Picture61](../static/imgbasic/Picture61.png)|
+
+||
+|---| 
+|![Picture62](../static/imgbasic/Picture62.png)|
+
+||
+|---|
+|![Picture63](../static/imgbasic/Picture63.png)|
+
+</details>
+
+## Enterprise Manager
+
+<details>
+
+### Autobuild
+
+#### Autobuild Example 1:
+
+||
+|---|
+|![Picture30](../static/imgbasic/Picture30.png)|
+
+#### Autobuild Example 2:
+
+||
+|---|
+|![Picture31](../static/imgbasic/Picture31.png)|
+
+### Manual Build
 
 * The **Build Schedules** screen contains a list of Schedules to build, all information needed to build a Schedule, and a Build Results list
 
-![Picture32](/imgbasic/Picture32.png)
+||
+|---|
+|![Picture32](../static/imgbasic/Picture32.png)|
+
+</details>

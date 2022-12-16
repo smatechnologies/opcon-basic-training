@@ -46,13 +46,18 @@ Add a ```$JOB: RESTART``` **Event** to the Job  with the following parameters:
 
 Build the Schedule Released for Today. Release the **Create File** Job in the **MultipleFiles-Main Schedule**. Check the Instance Properties of one of the Container Jobs in Job Information to verify file processing.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E12.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 4 Exercise 12](../static/videobasic/U4E12.mp4)
+
+:::
 
 <details>
 

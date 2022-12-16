@@ -2,17 +2,6 @@
 sidebar_label: 'SubSchedules and Container Jobs'
 ---
 
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/SubScheduleAndContainerJobDefinitions.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
-
 ### SubSchedule: Definition
 
 * Schedule which can be embedded in another Schedule (or other Schedules)
@@ -23,7 +12,7 @@ sidebar_label: 'SubSchedules and Container Jobs'
 
 ### SubSchedule Visualization
 
-<a href="imgbasic/424.png" target="_blank"><img src="imgbasic/424.png" width="500"></img></a>
+![](../static/imgbasic/424.png)
 
 ### Container Job: Definition
 
@@ -42,17 +31,6 @@ sidebar_label: 'SubSchedules and Container Jobs'
 
 ### SubSchedule/Container Job: Setup
 
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/SubScheduleContainerJobSetup.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
-
 * Create SubSchedule:
 	* Create Schedule in Schedule Master
 	* Mark Schedule as **SubSchedule**
@@ -60,41 +38,14 @@ sidebar_label: 'SubSchedules and Container Jobs'
 	* Create Job using Container Job Type
 	* Select SubSchedule that the Container Job will use
 
-### SubSchedule Designation in Schedule Master
-
-<a href="imgbasic/425.png" target="_blank"><img src="imgbasic/425.png" width="500"></img></a>  
-
-### SubSchedule Container Job
-
-<a href="imgbasic/426.png" target="_blank"><img src="imgbasic/426.png" width="500"></img></a>  
-
-### SubSchedule Container Definition
-
-<a href="imgbasic/427.png" target="_blank"><img src="imgbasic/427.png" width="500"></img></a>  
-
-### Solution Manager - Container Job Task Details Screen
-
-<a href="imgbasic/428.png" target="_blank"><img src="imgbasic/428.png" width="500"></img></a>  
-
 ### SubSchedule Usage Scenarios
-
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/SubSchedulesScenarios.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
 
 ### Scenario 1 - Multiple Runs/SubSchedule
 
 * Same 5 Job processes needs to run exact same way 4 times each day
 	* Instead of Looping Jobs or Events, use **SubSchedules**
 
-<a href="imgbasic/429.png" target="_blank"><img src="imgbasic/429.png" width="500"></img></a>  
+![](../static/imgbasic/429.png)
 
 ### Scenario 2 - Concurrent Processes
 
@@ -103,14 +54,14 @@ sidebar_label: 'SubSchedules and Container Jobs'
 * Same set of jobs will process the files
 * Files need to be processed one at a time
 
-<a href="imgbasic/430.png" target="_blank"><img src="imgbasic/430.png" width="500"></img></a>  
+![](../static/imgbasic/430.png)
 
 ### Scenario 3 - Daily and Monthly Process
 
 * Daily Schedule has 5 processes that must run every working day
 * If it is end of month, instead of running these 5 processes, Monthly Schedule, with 7 processes, must run **excluding** execution of Daily Schedule
 
-<a href="imgbasic/431.png" target="_blank"><img src="imgbasic/431.png" width="500"></img></a>
+![](../static/imgbasic/431.png)
 
 ### Scenario 3 - Daily and Monthly Process Solution
 
@@ -124,4 +75,45 @@ sidebar_label: 'SubSchedules and Container Jobs'
 This solution simplifies Frequencies definitions
 :::
 
-###### (Click Images to Enlarge)
+## Solution Manager
+
+### Container Job Schedule Path in Job Definition
+
+||
+|---|
+|![](../static/imgbasic/sm-subschedule-schedule-path-job-definition.png)| 
+
+### Container Job Task Details
+
+||
+|---|
+|![](../static/imgbasic/sm-subschedule-in-job-definition.png)| 
+
+### Container Job Details in Job Summary
+
+||
+|---|
+|![](../static/imgbasic/sm-subschedule-details-job-summary.png)| 
+
+## Enterprise Manager
+
+### SubSchedule Designation in Schedule Master
+
+||
+|---|
+|![](../static/imgbasic/425.png)| 
+
+### SubSchedule Container Job
+
+||
+|---|
+|![](../static/imgbasic/426.png)| 
+
+### SubSchedule Container Definition
+
+||
+|---|
+|![](../static/imgbasic/427.png)|
+
+
+
