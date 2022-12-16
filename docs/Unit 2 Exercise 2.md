@@ -12,10 +12,16 @@ Give the Job a frequency of **Mon-Sun-O**.
 
 Be sure to provide appropriate documentation.
 
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2E2.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 2 Exercise 2](../static/videobasic/U2E2.mp4)
+
+:::
 
 <details>
 

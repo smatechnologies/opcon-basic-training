@@ -8,12 +8,18 @@ sidebar_label: 'Unit 3 Exercise 5'
 
 Grant **Schedule Privileges** to the ```Training``` Role for **MY FIRST SCHEDULE**.
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E5.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 3 Exercise 5](../static/videobasic/U3E5.mp4)
+
+:::
 
 <details>
 

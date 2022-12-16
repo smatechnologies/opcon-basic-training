@@ -22,4 +22,22 @@ Example:
 	* Each time file arrives, process will add ```1``` to Threshold
 	* Set Notification to relay Threshold value
 
-<a href="imgbasic/415.png" target="_blank"><img src="imgbasic/415.png" width="500"></img></a>
+### Solution Manager
+
+<details>
+
+|| 
+|---------------------------------------------------------|
+| ![](../static/imgbasic/sm-external-threshold-event.png) |
+
+</details>
+
+### Enterprise Manager
+
+<details>
+
+||
+| ------------------------------------------|
+| ![](../static/imgbasic/415.png)           |
+
+</details>

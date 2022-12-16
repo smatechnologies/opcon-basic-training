@@ -11,10 +11,16 @@ Run two basic Batch Jobs from the Command Prompt window:
 * Job 1: Type ```timeout /t 15``` and press enter.
 * Job 2: Type ```cd "C:\Program Files\OpConxps\MSLSAM"``` and press enter. Then, Type ```"genericp.exe -t10 -e0"``` and press enter.
 
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1E2.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 1 Exercise 2](../static/videobasic/U1E2.mp4)
+
+:::
 
 <details>
 
