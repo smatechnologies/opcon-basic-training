@@ -2,33 +2,65 @@
 sidebar_label: 'Event Triggers'
 ---
 
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/EventTriggers.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
-
 * Two common ways to send internal Events:
     * Events based on Job Status
     * Events based on Exit Description
 
-<a href="imgbasic/350.png" target="_blank"><img src="imgbasic/350.png" width="500"></img></a>
+## Solution Manager
 
+<details>
 
-* An Event will send once a Job has reached any of the 9 statuses listed below:  
+### Event Definition Wizard
 
-<a href="imgbasic/351.png" target="_blank"><img src="imgbasic/351.png" width="500"></img></a>
+||
+|---|
+|![](../static/imgbasic/sm-event-triggers.png)|
+
+* An Event will send once a Job has reached any of the 9 statuses listed below: 
+
+### Event Trigger Details
+
+||
+|---|
+|![](../static/imgbasic/sm-event-trigger-details.png)|
 
 ### Event Template and Parameters
 
+||
+|---|
+|![](../static/imgbasic/sm-event-template-parameters.png)|
 
-<a href="imgbasic/352.png" target="_blank"><img src="imgbasic/352.png" width="500"></img></a>
+
+</details>
+
+## Enterprise Manager
+
+<details>
+
+### Event Definition Wizard
+
+||
+|---|
+|![](../static/imgbasic/350.png)|
+
+* An Event will send once a Job has reached any of the 9 statuses listed below:  
+
+### Event Trigger Details
+
+||
+|---|
+|![](../static/imgbasic/351.png)|
+
+### Event Template and Parameters
+
+||
+|---|
+|![](../static/imgbasic/352.png)|
 
 ### Event in Notification Manager
 
-<a href="imgbasic/353.png" target="_blank"><img src="imgbasic/353.png" width="500"></img></a>
+||
+|---|
+|![](../static/imgbasic/353.png)|
+
+</details>

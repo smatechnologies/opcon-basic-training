@@ -4,7 +4,9 @@ sidebar_label: 'User Mode'
 
 Users not in the ```ocadm``` Role or in a Role without the  ```Maintain Service Request``` privilege will see a Self Service Page with only the Service Request buttons to which they have privileges
 
-<a href="imgbasic/SelfServiceUserModeView.png" target="_blank"><img src="imgbasic/SelfServiceUserModeView.png" width="500"></img></a>
+||
+|---|
+|![](../static/imgbasic/SelfServiceUserModeView.png)|
 
 ### Run a Service Request in User Mode
 
@@ -16,6 +18,6 @@ Users not in the ```ocadm``` Role or in a Role without the  ```Maintain Service 
   - If the validation fails, a message in red text will indicate an invalid entry
   - Form vailidation takes place each time the ```Submit``` button is clicked
 
-<a href="imgbasic/SelfServiceRequestRequiredFields.png" target="_blank"><img src="imgbasic/SelfServiceRequestRequiredFields.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+||
+|---|
+|![](../static/imgbasic/SelfServiceRequestRequiredFields.png)|

@@ -14,13 +14,18 @@ In Matrix View, right-click the **Embedded Scripts Training Schedule** and Add t
 
 When the Job has finished, check the value of the Threshold. 
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E5.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 4 Exercise 5](../static/videobasic/U4E5.mp4)
+
+:::
 
 <details>
 

@@ -26,12 +26,18 @@ Build the **Main-Schedule** **On Hold** for Today. Then Build the Schedule **Rel
 
 In Matrix View, release the Schedule for Today to verify Job success.
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E8.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 4 Exercise 8](../static/videobasic/U4E8.mp4)
+
+:::
 
 <details>
 
