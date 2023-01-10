@@ -24,12 +24,18 @@ Edit the Job Command Line to:
 
 Restart the Job and when it finishes, check the value of TrainingThreshold again to verify success.
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E3.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 4 Exercise 3](../static/videobasic/U4E3.mp4)
+
+:::
 
 <details>
 

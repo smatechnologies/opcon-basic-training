@@ -23,13 +23,18 @@ Next, assign the ```TrainingDept``` to **WINDOWS JOB 1**, **WINDOWS JOB 2**, and
 
 Finally, log out of Enterprise Manager and log back in as ```Student1```. The user should be able to access the Job Master Topic but still be limited in what can be viewed or maintained because it lacks Schedule and Function Privileges.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E4.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 3 Exercise 4](../static/videobasic/U3E4.mp4)
+
+:::
 
 <details>
 

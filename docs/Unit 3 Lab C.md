@@ -30,12 +30,18 @@ Create three Global Properties that will be used in place of the following objec
 
     *	This will require a System Global Property ```[[$SCHEDULE DATE]]``` in the correct format
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3LabC.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 3 Lab C](../static/videobasic/U3LabC.mp4)
+
+:::
 
 <details>
 

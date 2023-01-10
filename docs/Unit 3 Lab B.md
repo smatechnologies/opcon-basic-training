@@ -29,12 +29,18 @@ Build the Schedule Released for Today. View results in Matrix View or Solution M
 
 Open **Thunderbird** to check for Notifications.
 
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3LabB.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 3 Lab B](../static/videobasic/U3LabB.mp4)
+
+:::
 
 <details>
 
