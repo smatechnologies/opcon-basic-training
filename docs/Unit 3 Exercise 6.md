@@ -14,18 +14,13 @@ Next, attempt to add a ```UNIX``` Job to **MY FIRST SCHEDULE**. The user will be
 
 Finally, rebuild **MY FIRST SCHEDULE**, overwriting for Today. Release the first and second Jobs. Right-Click on each Job and notice that some Functions are not available because they have not been granted to the ```Training``` Role (For example, **Force-Start Job** and **Cancel**).
 
-<!--
+
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E6.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
--->
-
-:::tip [Walkthrough Video - Unit 3 Exercise 6](../static/videobasic/U3E6.mp4)
-
-:::
 
 <details>
 

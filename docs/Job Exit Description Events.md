@@ -2,6 +2,17 @@
 sidebar_label: 'Job Exit Description Events'
 ---
 
+<!--
+<figure>
+    <audio
+        controls
+        src="audiobasic/EventsBasedOnJobExitDescription.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+-->
+
 * When defining an Event based on Exit Description two things must be set:
     * **Comparison Operator**
         * Be careful using anything but **Equal To**
@@ -11,31 +22,5 @@ sidebar_label: 'Job Exit Description Events'
     * **Windows** – Use the final digits
         * ```100``` instead of ```000000000100```
 
-
-## Solution Manager
-
-<details>
-
-### Trigger Details
-
-||
-|---|
-|![](../static/imgbasic/sm-exit-description-event.png)|
-
-</details>
-
-## Enterprise Manager
-
-<details>
-
-### Trigger Details
-
-||
-|---|
-|![](../static/imgbasic/354.png)|
-
-||
-|---|
-|![](../static/imgbasic/355.png)|
-
-</details>
+<a href="imgbasic/354.png" target="_blank"><img src="imgbasic/354.png" width="500"></img></a>  
+<a href="imgbasic/355.png" target="_blank"><img src="imgbasic/355.png" width="500"></img></a>  

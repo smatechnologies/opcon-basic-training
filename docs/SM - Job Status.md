@@ -4,24 +4,25 @@ sidebar_label: 'SM - Job Status'
 
 ### Solution Manager: Job Status and Selection Options
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/SolutionManagerJobStatusandSelectionOptions.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
 ### Filter by Job Status  
 
-||
-|---|
-|![](../static/imgbasic/Picture70.png)|
+![Picture70](/imgbasic/Picture70.png) 
 
-||
-|---|
-|![](../static/imgbasic/Picture71.png)|
+![Picture71](/imgbasic/Picture71.png) 
 
 
 ### Scrolling Bulk-Selection
 
 * Multiple Schedules and/or Jobs can be selected at once by left-clicking and dragging the mouse pointer through desired selections
 
-||
-|---|
-|![](../static/imgbasic/Picture72.png)|
+![Picture72](/imgbasic/Picture72.png) 
 
 ### Job Selection Options
 
@@ -38,10 +39,6 @@ When a Job is selected with a right-click several options are made available in 
 
 * Right-clicking on a selected Job will provide a detailed Job Summary Tab Screen  
 
-||
-|---|
-|![](../static/imgbasic/Picture73.png)|
+![Picture73](/imgbasic/Picture73.png) 
  
-||
-|---|
-|![](../static/imgbasic/Picture74.png)|
+![Picture74](/imgbasic/Picture74.png) 

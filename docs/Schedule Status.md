@@ -1,6 +1,13 @@
-# Schedule and Job Status
+---
+sidebar_label: 'Schedule Status'
+---
 
-## Schedule Status
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/ScheduleStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
 
 * Possible Schedule statuses:
   * Wait to Start
@@ -10,7 +17,37 @@
   * Completed–Contains Failed Jobs 
   * In Process-Contains Failed Jobs
 
-## Job Status
+![Picture45](/imgbasic/Picture45.png)
+
+### Update Schedule Status
+
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/UpdateScheduleStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
+* Update the Schedule status by right-clicking Schedule and selecting one of the available options:
+  * Hold
+  * Release
+  * Start
+  * Close
+  * Update Jobs Statuses
+* From List view, change the status of any Schedule on a day by right-clicking **Date**
+
+![Picture46](/imgbasic/Picture46.png)
+
+![Picture47](/imgbasic/Picture47.png)
+ 
+### Job Status <a name="JobStatus"></a>
+
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/JobStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
 
 Jobs have many different statuses 
 
@@ -32,80 +69,36 @@ Jobs have many different statuses
   * Under Review 
   * Fixed
 
-
-
-## Solution Manager
-
-<details>
-
-### Schedule Status Screen
-
-||
-|---|
-|![](../static/imgbasic/sm-schedule-status.png)|
-
-||
-|---|
-|![](../static/imgbasic/sm-schedule-status-options.png)|
-
-### Job Status Screen
-
-Right-Click Jobs and available actions appear
-
-* If Multiple Jobs are selected, Actions on those Jobs can occur at once selected 
-
-||
-|---|
-|![Picture78](../static/imgbasic/Picture78.png)|
-
-### Bulk Job Status Update
-
-||
-|---|
-|![Picture79](../static/imgbasic/Picture79.png)|
-
-</details>
-
-
-## Enterprise Manager
-
-<details>
-
-### Possible Job Statuses
-
-![Picture45](../static/imgbasic/Picture45.png)
-
-### Update Schedule Status
-
-* Update the Schedule status by right-clicking Schedule and selecting one of the available options:
-  * Hold
-  * Release
-  * Start
-  * Close
-  * Update Jobs Statuses
-* From List view, change the status of any Schedule on a day by right-clicking **Date**
-
-||
-|---|
-|![Picture46](../static/imgbasic/Picture46.png)|
-|![Picture47](../static/imgbasic/Picture47.png)|
+![Picture48](/imgbasic/Picture48.png)
 
 ### Update Job Status
+
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/UpdateJobStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
 
 * Update Job statuses by right-clicking the Job and selecting one of the available options
 * Options vary depending on current status of Job
 * From **List** or **Matrix** view, change the status of any Jobs in a Schedule by right-clicking **Schedule**
 
-||
-|---|
-|![Picture48](../static/imgbasic/Picture48.png)|
-|![Picture49](../static/imgbasic/Picture49.png)|
+![Picture49](/imgbasic/Picture49.png)
 
 ### Bulk Update Job Status
 
-||
-|---|
-|![Picture50](../static/imgbasic/Picture50.png)|
- |![Picture52](../static/imgbasic/Picture52.png)|
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/BulkUpdateJobStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
+![Picture50](/imgbasic/Picture50.png)
  
-</details>
+![Picture51](/imgbasic/Picture51.png) 
+ 
+![Picture52](/imgbasic/Picture52.png) 
+ 
+

@@ -10,18 +10,13 @@ Create a new ```Batch User``` named ```SMATRAINING\BATCHUSER``` for the ```WINDO
 
 Next, give **Batch User Privileges** to the ```Training``` Role for the ```WINDOWS``` Machine.
 
-<!--
+
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E3.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
--->
-
-:::tip [Walkthrough Video - Unit 3 Exercise 3](../static/videobasic/U3E3.mp4)
-
-:::
 
 <details>
 

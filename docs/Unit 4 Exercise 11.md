@@ -19,18 +19,13 @@ Create a Windows Job named **Create File** with an ```Embedded Script``` **Job A
 
 Build the Schedule Released for Today. In Matrix View, verify Job success.
 
-<!--
+
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E11.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
--->
-
-:::tip [Walkthrough Video - Unit 4 Exercise 11](../static/videobasic/U4E11.mp4)
-
-:::
 
 <details>
 

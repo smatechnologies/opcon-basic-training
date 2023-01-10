@@ -14,16 +14,10 @@ The Dependency Flow should be:
 
 where **WINDOWS JOB 4** Requires **WINDOWS JOB 3**, etc.
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1E4.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
-
-:::tip [Walkthrough Video - Unit 1 Exercise 4](../static/videobasic/U1E4.mp4)
-
-:::
 
 <details>
 

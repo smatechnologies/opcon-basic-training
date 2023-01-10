@@ -2,7 +2,14 @@
 sidebar_label: 'Batch Jobs'
 ---
 
-![Picture13](../static/imgbasic/Picture13.png)
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/AutomationandBatchJobConcepts.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
+-->
+
+![Picture13](/imgbasic/Picture13.png)
 
 ### Batch Jobs
 
@@ -15,6 +22,4 @@ sidebar_label: 'Batch Jobs'
 
 * Anything executed from CMD Window
 
-||
-|-------------------------------------|
-|![Picture14](../static/imgbasic/Picture14.png)|
+![Picture14](/imgbasic/Picture14.png)
