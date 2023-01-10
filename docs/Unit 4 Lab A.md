@@ -42,18 +42,13 @@ There are two exceptions:
 
 A **Notification** should be created for both Job Failure and Job Finished OK.
 
-<!--
+
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4LabA.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
--->
-
-:::tip [Walkthrough Video - Unit 4 Lab A](../static/videobasic/U4LabA.mp4)
-
-:::
 
 <details>
 

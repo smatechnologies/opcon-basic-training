@@ -6,6 +6,7 @@ sidebar_label: 'Setting Up Privileges'
     * At least one role access must be granted to the Service Request
     * Only the ```ocadm``` Role can grant the ```ocadm``` Role access to a Service Request
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceShowForRole.png)|
+<a href="imgbasic/SelfServiceShowForRole.png" target="_blank"><img src="imgbasic/SelfServiceShowForRole.png" width="500"></img></a>
+
+
+###### (Click Image to Enlarge)

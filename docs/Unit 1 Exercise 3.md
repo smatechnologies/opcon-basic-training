@@ -12,16 +12,10 @@ Create a Job named **WINDOWS JOB 1** within the schedule named **MY FIRST SCHEDU
 
 Assign the Job an **Existing Frequency** of ```Example-Mon-Sun-O```. Repeat the preceding steps to create 3 more Jobs identical to **WINDOWS JOB 1** following the same naming pattern.
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1E3.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
-
-:::tip [Walkthrough Video - Unit 1 Exercise 3](../static/videobasic/U1E3.mp4)
-
-:::
 
 <details>
 

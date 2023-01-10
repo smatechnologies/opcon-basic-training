@@ -20,16 +20,10 @@ Close the Job Daily tab and open the Job Master to ensure that the paths contain
 
 Select Schedule Build and Build and Release the **Murphy's Law** Schedule for the dates previously selected but not yet run. Build the Schedule and **Overwrite** the previous Builds.
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1E8.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
-
-:::tip [Walkthrough Video - Unit 1 Exercise 8](../static/videobasic/U1E8.mp4)
-
-:::
 
 <details>
 

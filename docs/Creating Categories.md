@@ -10,9 +10,7 @@ To Create and associate a Category:
 
 * Click the small  ```Create``` text in the Top Left-Hand Corner of the Self-Service Main Page
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCreateCategory.png)|
+<a href="imgbasic/SelfServiceCreateCategory.png" target="_blank"><img src="imgbasic/SelfServiceCreateCategory.png" width="500"></img></a>
 
 * The New Category page will display with the following options:
     * Name
@@ -22,12 +20,10 @@ To Create and associate a Category:
     * Service Requests
         * Select the Service Requests desired to be assigned to the New Category
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceNewCategoryScreen.png)|
+<a href="imgbasic/SelfServiceNewCategoryScreen.png" target="_blank"><img src="imgbasic/SelfServiceNewCategoryScreen.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceScreenwithCategory.png)|
+<a href="imgbasic/SelfServiceScreenWithCategory.png" target="_blank"><img src="imgbasic/SelfServiceScreenWithCategory.png" width="500"></img></a>
 
 * Once the Category is created, previously unassigned Service Requests can now be assigned to a preferred Category
+
+###### (Click Images to Enlarge)

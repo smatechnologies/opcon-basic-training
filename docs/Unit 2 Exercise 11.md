@@ -14,16 +14,10 @@ The Job should run at ```20:00``` on when it is not the last day of the month an
 
 Within the same Schedule, create a new Job named **NEGATIVE FREQUENCIES**. The Job should have Frequencies that allow it to run Monday-Friday, unless it is a **holiday** or the **last Day of the month**.
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2E11.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
-
-:::tip [Walkthrough Video - Unit 2 Exercise 11](../static/videobasic/U2E11.mp4)
-
-:::
 
 <details>
 

@@ -9,9 +9,7 @@ sidebar_label: 'Filtering And Querying'
   * OpCon Role
   * Service Request Name
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceFilterBar.png)|
+<a href="imgbasic/SelfServiceFilterBar.png" target="_blank"><img src="imgbasic/SelfServiceFilterBar.png" width="500"></img></a>
 
 ### Querying with Wildcards
 
@@ -20,3 +18,5 @@ sidebar_label: 'Filtering And Querying'
   * The question mark wildcard must match a single (```one```) character
   * By default, the Filter will perform a ```CONTAINS``` operation against the dataset with the given text query
   * If the Filter query begins with an equal sign (```=```), the query becomes strict instead of performing a ```CONTAINS``` operation
+
+###### (Click Image to Enlarge)

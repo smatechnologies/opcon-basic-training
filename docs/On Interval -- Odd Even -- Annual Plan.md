@@ -6,6 +6,14 @@ sidebar_label: 'On Interval -- Odd Even -- Annual Plan'
 
 #### On Intervals
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardOnIntervals.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
+
 * Essentially the On Day option, but blocked in multiples of 5 (instead of creating 6 different Frequencies)
 
 Or
@@ -16,11 +24,16 @@ Or
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![](../static/imgbasic/243.png)|
+![Picture243](/imgbasic/243.png)
 
 #### Odd and Even Weeks
+
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardOddAndEvenWeeks.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
 
 Odd Weeks
 
@@ -45,16 +58,18 @@ Even Weeks
 
 #### Annual Plan Calendars
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardAnnualPlanCalendars.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
 * Two Steps in Using Annual Plan Calendar:
   * Create/Maintain Calendar
   * Apply a Calendar to a frequency
 * **A/O/B/N** is _NOT_ configurable 
 * Offsets use workdays
 
-||
-|---|
-|![](../static/imgbasic/244.png)|
-
-||
-|---|
-|![](../static/imgbasic/245.png)|
+![Picture244](/imgbasic/244.png)
+![Picture245](/imgbasic/245.png)
