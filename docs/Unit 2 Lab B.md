@@ -34,10 +34,16 @@ The programs read the database and generate order requests to purchase new items
 
 ```/usr/local/labfiles/CheckInvPurRpt –t100```  
 
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2LabB.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 2 Lab B](../static/videobasic/U2LabB.mp4)
+
+:::
 
 <details>
 

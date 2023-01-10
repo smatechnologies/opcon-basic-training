@@ -28,13 +28,18 @@ Rebuild **MY FIRST SCHEDULE**, overwriting and Released for Today. Release **WIN
 
 After all Jobs have run successfully, verify Property/Token success in **Job Information > Configuration > Token Replacement Values** for **WINDOWS JOB 4**.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E11.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 3 Exercise 11](../static/videobasic/U3E11.mp4)
+
+:::
 
 <details>
 

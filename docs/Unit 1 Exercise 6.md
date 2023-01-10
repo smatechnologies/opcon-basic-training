@@ -8,10 +8,16 @@ sidebar_label: 'Unit 1 Exercise 6'
 
 Build the Schedule named **MY FIRST SCHEDULE** as Released for Today only. Open the **Matrix View** screen to confirm that the Schedule and its Jobs run correctly.
 
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1E6.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 1 Exercise 6](../static/videobasic/U1E6.mp4)
+
+:::
 
 <details>
 
