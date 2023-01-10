@@ -28,6 +28,6 @@ To Create and associate a Category:
 
 ||
 |---|
-|![](../static/imgbasic/SelfServiceScreenWithCategory.png)|
+|![](../static/imgbasic/SelfServiceScreenwithCategory.png)|
 
 * Once the Category is created, previously unassigned Service Requests can now be assigned to a preferred Category
