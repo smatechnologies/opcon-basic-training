@@ -4,13 +4,6 @@ sidebar_label: 'SM - Job Configuration'
 
 ### Solution Manager: Job Configuration Screen
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/SolutionManagerJobConfigurationScreen.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
--->
-
 * The Job Configuration Screen (formerly “Edit Daily”) can be accessed from the Job Summary toolbar when a Job is selected
 
 * Components accessible from Job Configuration:
@@ -22,11 +15,15 @@ sidebar_label: 'SM - Job Configuration'
   * Job Instance Properties
   * Frequency Details
 
-![Picture75](/imgbasic/Picture75.png)   
+||
+|---|
+|![](../static/imgbasic/Picture75.png)|
 
 ### Windows Job Task Details Screen:
 
-![Picture76](/imgbasic/Picture76.png) 
+||
+|---|
+|![](../static/imgbasic/Picture76.png)|
 
 ### Windows Job Task Configurable Options
 
@@ -45,7 +42,9 @@ Currently configurable options:
 * Job Output Parsing  
 * Environmental Variables  
 
-![Picture77](/imgbasic/Picture77.png)   
+||
+|---|
+|![](../static/imgbasic/Picture77.png)|
 
 ### Job Status Screen
 
@@ -53,8 +52,12 @@ Right-Click Jobs and available actions appear
 
 * If Multiple Jobs are selected, Actions on those Jobs can occur at once selected 
 
-![Picture78](/imgbasic/Picture78.png) 
+||
+|---|
+|![](../static/imgbasic/Picture78.png)|
 
 ### Bulk Job Status Update
 
-![Picture79](/imgbasic/Picture79.png)
+||
+|---|
+|![](../static/imgbasic/Picture79.png)|

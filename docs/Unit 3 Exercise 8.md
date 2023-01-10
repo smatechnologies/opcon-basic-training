@@ -14,13 +14,18 @@ Send an email to ```smauser@congo.local``` with the message: "TESTING EMAIL NOTI
 
 Press the **Test** button to send the email. Open Thunderbird to verify successful notification.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E8.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 3 Exercise 8](../static/videobasic/U3E8.mp4)
+
+:::
 
 <details>
 

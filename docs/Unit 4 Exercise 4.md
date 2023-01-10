@@ -12,13 +12,18 @@ Be sure that the **Global System Property** ```$SCHEDULE DATEYYYYMM``` exists. I
 
 Build the Schedule Released for Today and verify that the folder ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”``` was created for Today.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E4.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 4 Exercise 4](../static/videobasic/U4E4.mp4)
+
+:::
 
 <details>
 

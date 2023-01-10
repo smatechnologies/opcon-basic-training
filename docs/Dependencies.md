@@ -2,15 +2,37 @@
 sidebar_label: 'Dependencies'
 ---
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/JobDependencies.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio> 
--->
+![](../static/imgbasic/Picture21.png)
 
 
-![Picture21](/imgbasic/Picture21.png) 
+## Solution Manager
+
+<details>
+
+### Job Dependencies in Job Definition
+
+||
+|-----------------------------------------------------|
+| ![](../static/imgbasic/sm-daily-job-dependency.png) |
+
+### Set Job Dependency Details
+
+||
+|-----------------------------------------------------------|
+| ![](../static/imgbasic/sm-job-dependency-details-set.png) |
+
+### Job Dependency Status
+
+||
+|------------------------------------------------------|
+| ![](../static/imgbasic/sm-job-dependency-status.png) |
+
+
+</details>
+
+## Enterprise Manager
+
+<details>
 
 ### Job Dependency Definition Tab
 
@@ -18,8 +40,15 @@ sidebar_label: 'Dependencies'
 
 * Use the Dependencies tab to define Job Dependencies
 
-![Picture22](/imgbasic/Picture22.png)
- 
-![Picture23](/imgbasic/Picture23.png)
+||
+|-------------------------------------------------------|
+| ![](../static/imgbasic/Picture22.png)                 |
 
-![Picture24](/imgbasic/Picture24.png)
+### Add Job Dependency Details
+
+||
+|--------------------------------------------| 
+| ![](../static/imgbasic/Picture23.png)      |
+| ![](../static/imgbasic/Picture24.png)      |
+
+</details>

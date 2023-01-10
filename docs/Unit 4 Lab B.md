@@ -59,13 +59,18 @@ Finally, in the **HR Import** Schedule create an **Embedded Script** Job named *
 
 Build the Schedule to verify success.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4LabB.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+:::tip [Walkthrough Video - Unit 4 Lab B](../static/videobasic/U4LabB.mp4)
+
+:::
 
 <details>
 

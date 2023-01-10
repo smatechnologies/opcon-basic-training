@@ -20,14 +20,18 @@ Build the **Escalation Example** Schedule released for Today.
 
 The Job will fail, triggering Escalation. The user must acknowledge the Escalation by entering the **Escalation Acknowledgement** topic or double-clicking the **Escalation Acknowledgement** icon left of the SAM Pulse.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E9.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
 
+:::tip [Walkthrough Video - Unit 3 Exercise 9](../static/videobasic/U3E9.mp4)
+
+:::
 
 <details>
 

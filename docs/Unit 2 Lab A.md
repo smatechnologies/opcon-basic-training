@@ -31,10 +31,16 @@ Each Department requires specific scheduling intervals as noted:
 
 The required Frequencies should be run within Null Jobs in the **CONGO PAYROLL PAYMENTS** Schedule.
 
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2LabA.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 2 Lab A](../static/videobasic/U2LabA.mp4)
+
+:::
 
 <details>
 

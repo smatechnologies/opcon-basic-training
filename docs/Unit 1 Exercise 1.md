@@ -8,10 +8,16 @@ sidebar_label: 'Unit 1 Exercise 1'
 
 Create and save a Schedule named **MY FIRST SCHEDULE**. Provide documentation to detail that this is a training schedule. Set the Schedule to **Auto Build** ```7 days``` in Advance for ```1 day```. Set the schedule to **Auto Delete** for ```7 days ago```.
 
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U1E1.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 1 Exercise 1](../static/videobasic/U1E1.mp4)
+
+:::
 
 <details>
 
