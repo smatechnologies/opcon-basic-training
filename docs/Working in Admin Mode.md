@@ -6,27 +6,19 @@ sidebar_label: 'Working in Admin Mode'
 
 To Create and Modify Requests, be sure that the Administrator User Functionality is available by *unlocking* the Admin Console in the Top Right-Hand Corner
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceAdminLocked.png)|
+<a href="imgbasic/SelfServiceAdminLocked.png" target="_blank"><img src="imgbasic/SelfServiceAdminLocked.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceAdminUnlocked.png)|
+<a href="imgbasic/SelfServiceAdminUnlocked.png" target="_blank"><img src="imgbasic/SelfServiceAdminUnlocked.png" width="500"></img></a>
 
 * The ```Admin Mode``` button will not be visible to non ```ocadm``` Role users or a Role with no ```Maintain Service Request``` Privileges.
 
 * To create a **Category** used to group Requests, select the small ```Create``` text in the Left-Hand Corner
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCreateCategory.png)|
+<a href="imgbasic/SelfServiceCreateCategory.png" target="_blank"><img src="imgbasic/SelfServiceCreateCategory.png" width="500"></img></a>
 
 * To create a **Request** select the **Center *Green* ** ```Create``` **Button**
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCreateRequest.png)|
+<a href="imgbasic/SelfServiceCreateRequest.png" target="_blank"><img src="imgbasic/SelfServiceCreateRequest.png" width="500"></img></a>
 
 ### Managing Service Requests
 
@@ -40,9 +32,7 @@ To Edit a Service Request:
 * Modify any of the existing information or settings
 * Click the ```Save``` button
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceEditRequest.png)|
+<a href="imgbasic/SelfServiceEditRequest.png" target="_blank"><img src="imgbasic/SelfServiceEditRequest.png" width="500"></img></a>
 
 ### Copying Service Requests
 
@@ -51,9 +41,7 @@ To Edit a Service Request:
 * Modify any of the existing information or settings necessary
 * Click the ```Save``` button
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCopyRequest.png)|
+<a href="imgbasic/SelfServiceCopyRequest.png" target="_blank"><img src="imgbasic/SelfServiceCopyRequest.png" width="500"></img></a>
 
 ### Deleting Service Requests
 
@@ -61,6 +49,6 @@ To Edit a Service Request:
 * Click **OK** on the **Confirmation** page 
     * The Service Request will be deleted
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceDeleteRequest.png)|
+<a href="imgbasic/SelfServiceDeleteRequest.png" target="_blank"><img src="imgbasic/SelfServiceDeleteRequest.png" width="500"></img></a>
+
+###### (Click Images to Enlarge)

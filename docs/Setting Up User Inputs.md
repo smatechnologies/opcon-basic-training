@@ -5,9 +5,7 @@ sidebar_label: 'Setting Up User Inputs'
 * After a variable has been defined within the OpCon Event definition it will become available as a User Input
 * User Input fields will display when the Service Request Button is clicked
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceRequestUserInputMainScreen.png)|
+<a href="imgbasic/SelfServiceRequestUserInputMainScreen.png" target="_blank"><img src="imgbasic/SelfServiceRequestUserInputMainScreen.png" width="500"></img></a>
 
 * There are several options for User Input types:
     * Text
@@ -32,19 +30,13 @@ or
     * The content of that text field will be placed into the OpCon Event just before the SAM receives it
 * The order of the User Inputs is modified by using the up/down arrows at the top of the User Input List
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputSelect.png)|
+<a href="imgbasic/SelfServiceUserInputSelect.png" target="_blank"><img src="imgbasic/SelfServiceUserInputSelect.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputSelectType.png)|
+<a href="imgbasic/SelfServiceUserInputSelectType.png" target="_blank"><img src="imgbasic/SelfServiceUserInputSelectType.png" width="500"></img></a>
 
 ### Configuring Text User Inputs
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputText.png)|
+<a href="imgbasic/SelfServiceUserInputText.png" target="_blank"><img src="imgbasic/SelfServiceUserInputText.png" width="500"></img></a>
 
 * Select ```Text``` in the User Input Type drop-down list
 * Specify the validation rules for the User Input, using the following options:
@@ -62,9 +54,7 @@ or
 
 ### Configuring Number User Inputs
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputNumber.png)|
+<a href="imgbasic/SelfServiceUserInputNumber.png" target="_blank"><img src="imgbasic/SelfServiceUserInputNumber.png" width="500"></img></a>
 
 * Select ```Number``` in the User Input Type drop-down list
 * Specify the validation rules for the User Input, using the following options:
@@ -73,9 +63,7 @@ or
 
 ### Configuring Date User Inputs
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputDate.png)|
+<a href="imgbasic/SelfServiceUserInputDate.png" target="_blank"><img src="imgbasic/SelfServiceUserInputDate.png" width="500"></img></a>
 
 * Select ```Date``` in the User Input Type drop-down list
 * Set a date range for the User Input, using the following options:
@@ -104,13 +92,9 @@ When setting custom date patterns (e.g., ```dd/mm/yyyy```, ```mm/dd/yyyy```, ```
 
 ### Configuring Choice User Inputs
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputChoiceMain.png)|
+<a href="imgbasic/SelfServiceUserInputChoiceMain.png" target="_blank"><img src="imgbasic/SelfServiceUserInputChoiceMain.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputChoiceConfigure.png)|
+<a href="imgbasic/SelfServiceUserInputChoiceConfigure.png" target="_blank"><img src="imgbasic/SelfServiceUserInputChoiceConfigure.png" width="500"></img></a>
 
 * Select ```Choice``` in the User Input Type drop-down list
 
@@ -119,9 +103,7 @@ When setting custom date patterns (e.g., ```dd/mm/yyyy```, ```mm/dd/yyyy```, ```
 
 ### Configuring Text Collection User Inputs
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputTextCollection.png)|
+<a href="imgbasic/SelfServiceUserInputTextCollection.png" target="_blank"><img src="imgbasic/SelfServiceUserInputTextCollection.png" width="500"></img></a>
 
 * Select ```Text Collection``` in the User Input Type drop-down list
 * Specify the validation rules for the User Input, using the following options:
@@ -139,16 +121,12 @@ When setting custom date patterns (e.g., ```dd/mm/yyyy```, ```mm/dd/yyyy```, ```
 
 ### Configuring Master Schedule User Inputs
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputMasterSchedule.png)|
+<a href="imgbasic/SelfServiceUserInputMasterSchedule.png" target="_blank"><img src="imgbasic/SelfServiceUserInputMasterSchedule.png" width="500"></img></a>
 
 * Select Master Schedule in the User Input Type drop-down list
 
 ### Configuring Master Job User Inputs
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceUserInputMasterJob.png)|
+<a href="imgbasic/SelfServiceUserInputMasterJob.png" target="_blank"><img src="imgbasic/SelfServiceUserInputMasterJob.png" width="500"></img></a>
 
 * Select Master Job in the User Input Type drop-down list

@@ -20,18 +20,12 @@ Be sure to give the Job a Frequency.
 
 In Matrix View, add the Job to the Schedule and Release it to run Today. Once the Job finishes, Check the file path to be sure the file was transferred.
 
-<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U4E9.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
--->
-
-:::tip [Walkthrough Video - Unit 4 Exercise 9](../static/videobasic/U4E9.mp4)
-
-:::
 
 <details>
 

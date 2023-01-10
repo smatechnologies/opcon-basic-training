@@ -2,6 +2,13 @@
 sidebar_label: 'Job Requirements'
 ---
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/JobRequirementsandJobType.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
+-->
+
 OpCon needs some basic information to run a process:
 
 * Job type (Windows, UNIX, etc.)
@@ -17,7 +24,16 @@ OpCon needs some basic information to run a process:
 * Only Job Types configured within your OpCon Environment are shown
 * Once a Job Type is selected, parameters specific to the chosen technical environment are displayed
 
+![Picture15](/imgbasic/Picture15.png)
+
 ### Windows Job Type Definition Details
+
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/WindowsJobType.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
+-->
 
 Windows Job Type parameters must be set:
 
@@ -25,32 +41,4 @@ Windows Job Type parameters must be set:
 * User Id
 * Command Line
 
-## Solution Manager
-
-<details>
-
-### Job Details - Solution Manager
-
-| Job Type Definition Details - Solution Manager         |
-|--------------------------------------------------------|
-| ![](../static/imgbasic/sm-job-type-details.png)                 |
-
-</details>
-
-## Enterprise Manager
-
-<details>
-
-### Job Type - Enterprise Manager
-
-| Job Type - Enterprise Manager         |
-|---------------------------------------|
-| ![](../static/imgbasic/Picture15.png) |
-
-### Job Details - Enterprise Manager
-
-| Job Type Definition Details - Enterprise Manager       |
-|--------------------------------------------------------|
-| ![](../static/imgbasic/Picture16.png)                           |
-
-</details>
+![Picture16](/imgbasic/Picture16.png)

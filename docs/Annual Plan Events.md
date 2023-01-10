@@ -2,8 +2,19 @@
 sidebar_label: 'Annual Plan Events'
 ---
 
-## Annual Plan Calendar - Event Updates
+### Annual Plan Calendar - Event Updates
 
+<!--
+<figure>
+    <audio
+        controls
+        src="audiobasic/AnnualPlanCalendarsEventUpdates.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+
+-->
 
 * Two Steps in Using Annual Plan Calendar:
     * Create/Maintain a Calendar
@@ -11,7 +22,10 @@ sidebar_label: 'Annual Plan Events'
 * **A/O/B/N** is not configurable 
 * Offsets use workdays
 
-## Calendar Events
+<a href="imgbasic/357.png" target="_blank"><img src="imgbasic/357.png" width="500"></img></a>  
+<a href="imgbasic/358.png" target="_blank"><img src="imgbasic/358.png" width="500"></img></a> 
+
+### Calendar Events
 
 * Dates can be added or removed from a Calendar through Events
 
@@ -32,38 +46,4 @@ $CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps
 * A Job needs to run the working day before a different Job scheduled for the 15th-B
     * Date calculation tool – **Chronoman**
 
-## Solution Manager
-
-<details>
-
-### Calendar Add Event Definition
-
-||
-|---|
-|![](../static/imgbasic/sm-calendar-add-event.png)|
-
-</details>
-
-## Enterprise Manager
-
-<details>
-
-### Annual Plan Frequency
-
-||
-|---|
-|![](../static/imgbasic/357.png)|
-
-### Forecast Annual Plan
-
-||
-|---|
-|![](../static/imgbasic/358.png)|
-
-### Calendar Add Event Definition
-
-||
-|---|
-|![](../static/imgbasic/359.png)|
-
-</details>
+<a href="imgbasic/359.png" target="_blank"><img src="imgbasic/359.png" width="500"></img></a>  

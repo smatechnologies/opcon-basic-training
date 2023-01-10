@@ -8,15 +8,11 @@ To add a new OpCon Event in Self Service:
 * Select an **OpCon Event Template** 
 * Insert **Variables** into the Event using the notation: ```${variable}```
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceEditEvent.png)|
+<a href="imgbasic/SelfServiceEditEvent.png" target="_blank"><img src="imgbasic/SelfServiceEditEvent.png" width="500"></img></a>
 
 * The Variables will then be picked up as **User Inputs** to be configured upon Request Initiation
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceVariableUserInputs.png)|
+<a href="imgbasic/SelfServiceVariableUserInputs.png" target="_blank"><img src="imgbasic/SelfServiceVariableUserInputs.png" width="500"></img></a>
 
 The following **System Variables** are available specifically for **Solution Manager**:
 
@@ -40,19 +36,15 @@ To Manually Edit an Event, click the **Manual Edit** button
 
 * Manual Edit can be used to define an Event manually or to Edit an Event that was defined with the Event Template
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceEventManualEditButton.png)|
+<a href="imgbasic/SelfServiceEventManualEditButton.png" target="_blank"><img src="imgbasic/SelfServiceEventManualEditButton.png" width="500"></img></a>
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceEventManualEditScreen.png)|
+<a href="imgbasic/SelfServiceEventManualEditScreen.png" target="_blank"><img src="imgbasic/SelfServiceEventManualEditScreen.png" width="500"></img></a>
 
 ### Order of Events
 
 * The order of Defined Events can be altered by using the Up and Down arrows at the top of the Events List
     * The order shown in the Events List is the order, Top Down, in which the Events will be passed to and processed by the SAM
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceEventOrder.png)|
+<a href="imgbasic/SelfServiceEventOrder.png" target="_blank"><img src="imgbasic/SelfServiceEventOrder.png" width="500"></img></a>
+
+###### (Click Images to Enlarge)

@@ -2,35 +2,15 @@
 sidebar_label: 'Frequency Definiton'
 ---
 
-![Picture17](../static/imgbasic/Picture17.png)
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/FrequencyDefinition.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio> 
+-->
 
-## Solution Manager
 
-<details>
-
-* In Solution Manager, a **Frequencies List** is found in **Library > Management > Frequencies**
-
-||
-|---|
-|![](../static/imgbasic/sm-frequencies-list.png)|
-
-* Frequencies can be edited by selecting a Frequency from the **Frequencies List** and clicking the **Edit** button
-
-||
-|---|
-|![](../static/imgbasic/sm-frequency-manager-wizard-edit.png)|
-
-* Frequency details for a Job can be viewed in the DEaily Job Definition
-
-||
-|---|
-|![](../static/imgbasic/sm-frequency-in-daily-job.png)|
-
-</details>
-
-## Enterprise Manager
-
-<details>
+![Picture17](/imgbasic/Picture17.png)
 
 ### Steps to Define a Frequency:  
 
@@ -41,12 +21,6 @@ sidebar_label: 'Frequency Definiton'
 * Click the Add Frequency Button
 * Choose Existing Frequency or Create New Frequency  
 
+![Picture19](/imgbasic/Picture19.png)
 
-### Add a Frequency to a Job
-
-||
-|---|
-| ![Picture19](../static/imgbasic/Picture19.png) |
-| ![Picture20](../static/imgbasic/Picture20.png) | 
-
-</details>
+![Picture20](/imgbasic/Picture20.png)  

@@ -2,6 +2,13 @@
 sidebar_label: 'Multiple Frequencies'
 ---
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/MultipleFrequencies.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
 * SAM checks the **Frequency list** at Job build time
   * Stops searching when a match is made
   * Checks list in order
@@ -9,11 +16,16 @@ sidebar_label: 'Multiple Frequencies'
   * Run Jobs at different times for different days
   * Negative frequencies (do not run on End of Month)
 
-||
-|---|
-|![](../static/imgbasic/260.png)|
+![Picture260](/imgbasic/260.png)
 
 ### Frequencies - Job Build Status
+
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/FrequenciesJobBuildStatus.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
 
 * On Hold
 * Released
@@ -21,37 +33,29 @@ sidebar_label: 'Multiple Frequencies'
 * To Be Skipped
 * Disable Frequency
 
-||
-|---|
-|![](../static/imgbasic/261.png)|
+![Picture261](/imgbasic/261.png) 
 
-||
-|---|
-|![](../static/imgbasic/262.png)|
+![Picture262](/imgbasic/262.png)
 
 ### Forecast
 
+<!--
+<audio controls="controls">
+  <source type="audio/mp3" src="audiobasic/ForecastSideBySideAndForecastAll.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+-->
+
 ### Forecast Side-by-Side
 
-||
-|---|
-|![](../static/imgbasic/263.png)|
+![Picture263](/imgbasic/263.png)
 
-||
-|---|
-|![](../static/imgbasic/264.png)|
+![Picture264](/imgbasic/264.png)  
 
 ### Forecast All
 
-||
-|---|
-|![](../static/imgbasic/265.png)|
+![Picture265](/imgbasic/265.png)  
 
-||
-|---|
-|![](../static/imgbasic/266.png)|
+![Picture266](/imgbasic/266.png)  
 
-||
-|---|
-|![](../static/imgbasic/267.png)|
- 
+![Picture267](/imgbasic/267.png)  
