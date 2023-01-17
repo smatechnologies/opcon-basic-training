@@ -15,16 +15,16 @@ Provide appropriate documentation for the new Calendar.
 
 Next, select the **Master Holiday Calendar** from the Calendar List. Add the following Federal Holidays to the Calendar:
 
-  *	January 17th – Martin Luther King Jr. Day
-  *	February 21th – President’s Day
-  *	May 30st – Memorial Day
-  * June 20th - Juneteenth National Independence Day (Observed)
+  *	January 16th – Martin Luther King Jr. Day
+  *	February 20th – President’s Day
+  *	May 29th – Memorial Day
+  * June 19th - Juneteenth National Independence Day
   *	July 4th – Independence Day
-  *	September 5th – Labor Day
-  *	October 10th – Columbus Day
+  *	September 4th – Labor Day
+  *	October 9th – Columbus Day
   *	November 11th – Veterans Day
-  *	November 24th – Thanksgiving Day
-  * December 26th - Christmas Day (Observed)
+  *	November 23th – Thanksgiving Day
+  * December 25th - Christmas Day
 
 <video width="320" height="240" controls>
   <source src="videobasic/U2E7.mp4" type="video/mp4"></source>
@@ -49,15 +49,15 @@ The dates are saved dynamically
 9.	Select **Master Holiday** from the **Calendar List**.
 10.	Click the following dates in the Calendar to set up the current year Federal Holidays, then close the **Calendars** tab:
 
-  *	January 17th – Martin Luther King Jr. Day
-  *	February 21th – President’s Day
-  *	May 30st – Memorial Day
-  * June 20th - Juneteenth National Independence Day (Observed)
+  *	January 16th – Martin Luther King Jr. Day
+  *	February 20th – President’s Day
+  *	May 29th – Memorial Day
+  * June 19th - Juneteenth National Independence Day
   *	July 4th – Independence Day
-  *	September 5th – Labor Day
-  *	October 10th – Columbus Day
+  *	September 4th – Labor Day
+  *	October 9th – Columbus Day
   *	November 11th – Veterans Day
-  *	November 24th – Thanksgiving Day
-  * December 26th - Christmas Day (Observed)
+  *	November 23th – Thanksgiving Day
+  * December 25th - Christmas Day
 
 </details>
