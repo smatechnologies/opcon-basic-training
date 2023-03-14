@@ -2,19 +2,48 @@
 sidebar_label: 'UNIX Jobs'
 ---
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/UNIXJobs.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
--->
+### Unix Agent Details
 
-![Picture208](/imgbasic/208.png)
+||
+|---|
+|![](../static/imgbasic/sm-unix-agent-details.png)|
 
-### UNIX - Advanced Machine Properties
+### Machine Information
 
-![Picture209](/imgbasic/209.png)
+||
+|---|
+|![](../static/imgbasic/sm-unix-agent-machine-information.png)|
 
-### UNIX - File Transfer Settings
+### Communication Settings
 
-![Picture210](/imgbasic/210.png)
+||
+|---|
+|![](../static/imgbasic/sm-unix-agent-communication-settings.png)|
+
+### File Transfer Settings
+
+||
+|---|
+|![](../static/imgbasic/sm-unix-agent-file-transfer-settings.png)|
+
+## Enterprise Manager
+
+<details>
+
+||
+|---|
+|![Picture208](../static/imgbasic/208.png)|
+
+#### Advanced Machine Properties
+
+||
+|---|
+|![Picture209](../static/imgbasic/209.png)|
+
+#### File Transfer Settings
+
+||
+|---|
+|![Picture210](../static/imgbasic/210.png)|
+
+</details>

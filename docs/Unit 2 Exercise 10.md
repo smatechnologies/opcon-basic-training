@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 2 Exercise 10'
 ---
 
-### Exercise 10: Frequencies - On Interval and Annual Plan Calendar
+## Exercise 10: Frequencies - On Interval and Annual Plan Calendar
 
-##### Objective:
+### Objective
 
 Within the existing **Frequency Practice Schedule**, create three new Null Jobs:
 
@@ -20,14 +20,94 @@ In the **Annual Frequency Practice** Job, create a new Frequency named ```Compan
 
 In the **Annual Plan Frequency with Offsets** Job, create a new Frequency named ```CompanyHoliday+1```. This Frequency should use the ```Company Holiday Calendar``` **Annual Plan** with an offset of ```1 day```.
 
+### Instructions
+
+1.	In **Studio**, select the **Frequency Practice** Schedule and click **View**.
+2.	In the side menu, select **Add Job** to add a Null Job.
+3.  Select the **Frequency Practice** Schedule in the Schedule dropdown list.
+4.	Enter **On Interval Frequency Practice** in the **Name** text field.
+5.  Leave the **Job Type** as **Null Job**.
+6.	Click the **Save** button.
+7.  Click the **Back** button in the upper right-hand corner.
+8.  Click anywhere in the **Studio** screen.
+9.	Repeat Steps 2-6 creating three Null Jobs:
+  *	**Annual Frequency Practice**.
+  *	**Annual Plan Frequency with Offsets**.
+
+10.	Frequency: **On Interval**
+ * Click the **Back** button in the upper right-hand corner.
+  *	Click the **On Interval Frequency Practice** Job.
+  *	In the side menu, click on the **Wrench** icon.
+  * Click the **Lock** button in the upper right-hand corner.
+  * Scroll to the **Frequency** tab and expand the dialog box.
+  *	Click the **Add** button.
+  *	Type **Every-15thand-30th-B** in the Frequency Name field.
+  * In the **When to Schedule** dropdown list, select **On Intervals**.
+  * Mark the  checkboxes for the ```15``` and ```30``` in the **On Intervals** parameter.
+  * Set the **A/O/B/N** flag set to **Before Date**.
+  * Click the **Save** button.
+
+  *	Click the **Forecast** button.
+
+  *	On the **Forecast** screen, the **15th and 30th days** of each month are green, moving **“Before”** for holidays and weekends and holidays.
+
+
+11.	Frequency: **Annual Plan**
+* In **Library**, select **Calendars**.
+* Click the **Add** button.
+  *	Type **Company Holiday Calendar** in the **Name** field.
+  *	Enter a **Description** like: **This Calendar will be used in an Annual Plan Frequency**.
+  * Click several dates in the Calendar.
+    *Note: The dates are saved dynamically
+  * Click **Save**.
+ * In **Studio**, select the **Frequency Practice** Schedule and click **View**.
+  *	Click the **Annual Frequency Practice** Job.
+  *	In the side menu, click on the **Wrench** icon.
+  * Click the **Lock** button in the upper right-hand corner.
+  * Scroll to the **Frequency** tab and expand the dialog box.
+  *	Click the **Add** button.
+  *	Type **CompanyHoliday** in the Frequency Name field.
+  * In the **When to Schedule** dropdown list, select **Annual Plan**.
+  * From the **Calendar** dropdown menu, select **Company Holiday Calendar**.
+  * Click the **Save** button.
+
+  *	Click **Forecast** to view the Frequency.
+    * The dates should match those you entered in the Calendar.
+
+
+12.	Frequency: **Annual Plan with Offsets**
+ * In **Studio**, select the **Frequency Practice** Schedule and click **View**.
+  *	Click the **Annual Plan Frequency with Offsets** Frequency Practice Job.
+  *	In the side menu, click on the **Wrench** icon.
+  * Click the **Lock** button in the upper right-hand corner.
+  * Scroll to the **Frequency** tab and expand the dialog box.
+  *	Click the **Add** button.
+  *	Type **CompanyHoliday+1** in the **Frequency Name** field.
+  *	In the **When to Schedule** section, click the **Annual Plan** radio button.
+  *	From the **Calendar** drop-down menu, select the **Company Holiday Calendar**.
+  *	In the **Offset Days** box change the number of workdays to ```1```.
+
+  *	Click **Forecast** to view the Frequency. 
+    *	The dates selected should be the next working day of the dates selected in the Calendar.
+
+
+
+
+## Enterprise Manager
+
+<details>
+
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2E10.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
 
-<details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 2 Exercise 10](../static/videobasic/U2E10.mp4)
+
+:::
 
 1.	Open the **Job Master**.
 2.	Select **Frequency Practice Schedule** from the **Schedule** drop-down menu.

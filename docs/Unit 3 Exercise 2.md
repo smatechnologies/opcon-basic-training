@@ -2,27 +2,28 @@
 sidebar_label: 'Unit 3 Exercise 2'
 ---
 
-### Exercise 2: Machine Privileges
+## Exercise 2: Machine Privileges
 
-##### Objective:
+### Objective
 
-Grant the ```Training``` Role **Machine Privileges**. 
+In **Enterprise Manager**, grant the ```Training``` Role **Machine Privileges**. 
 
 Verify that Machine Privileges have been granted by logging out of Enterprise Manager and logging back in as Student1. 
 
 Notice that ```Student1``` will still not have privileges to see Machines in Administration, but will be able to see the SMATraining Machine in Machine Status (but will not be able to change Communication Status or edit the Machine).
 
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E2.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+### Instructions
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 2](../static/videobasic/U3E2.mp4)
+
+:::
+
 
 1.	Under the **Security> Privileges** topic, Double-Click on **Machine Privileges**. 
 2.	On the **Select Role** drop-down list select the **Training** Role.

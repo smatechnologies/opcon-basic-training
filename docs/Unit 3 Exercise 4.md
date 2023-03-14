@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 3 Exercise 4'
 ---
 
-### Exercise 4: Department Privileges
+## Exercise 4: Department Privileges
 
-##### Objective:
+### Objective
 
 Create a **Department** named ```TrainingDept```.
 
@@ -21,19 +21,83 @@ Assign the following ```TrainingDept``` **Departmental Function Privileges** to 
 
 Next, assign the ```TrainingDept``` to **WINDOWS JOB 1**, **WINDOWS JOB 2**, and **WINDOWS JOB 3** in **MY FIRST SCHEDULE**.
 
-Finally, log out of Enterprise Manager and log back in as ```Student1```. The user should be able to access the Job Master Topic but still be limited in what can be viewed or maintained because it lacks Schedule and Function Privileges.
+Finally, log out and log back in as ```Student1```. The user should be able to access the Master Jobs topic but still be limited in what can be viewed or maintained because it lacks Schedule and Function Privileges.
+
+### Instructions
+
+In **Solution Manager**:
+
+1.	Create a Department
+    *	In **Library**, Under **Security**, click on **Departments**. 
+    *	Click the **Add** button.
+    *	Type **TrainingDept** in the **Name** field.
+    *	Type **Department created for training** in the **Documentation** field.
+    *	Click the **Save** button.
 
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E4.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+In **Enterprise Manager**:
+
+2.	Assign Departmental Function Privileges to the Role
+    *	Under the **Security > Privileges** topic, Double-Click on **Departmental Function Privileges**. 
+    *	On the **Select Role** drop-down list select **Training** role.
+        *	Notice that all privileges are under the **Revoked** list (on the left) 
+    *	On the **Departments** drop-down list select **TrainingDept**.
+    *	Grant the Role the following Departmental Function Privileges
+        *	Add Jobs to Master Schedules
+        *	Delete Jobs from Master Schedules
+        *	Modify Jobs in Master Schedules
+        *	View Jobs in Daily Schedules
+        *	View Jobs in Master Schedules
+        *	View Jobs in Schedules Operations
+        *	Release Jobs
+        *	Hold Jobs
+    *	Close the Departamental Privileges tab.
+
+:::note
+The User Student1 (which is under the Training Role) now can add/modify/delete Jobs to Schedules and see them in the Operations Views screen. The user can also Hold and Release Jobs.
+:::
+
+In **Solution Manager**:
+
+3.	Assign the Department to a Job
+    *	In **Library**, under the **Administration** topic, select **Master Jobs**. 
+    *	Select **Windows Job 1** in **My First Schedule** and click the **Edit** button.
+    *   Click the **Lock** button in the upper right-hand corner.
+    *	Select **TrainingDept** in the “**Department**” Field.
+    *	Expand the **Frequency** tab.
+    *   Select the **Active Frequency** for the Job.
+    *	Under **Job Ingformation** > **Job Build Status**, activate ‘**On Hold**’.
+    *	Click the **Save** button.
+    *   Repeat steps for **Windows Job 2**.
+    *   Repeat steps for **Windows Job 3** but do not place the Job on hold.
+
+4.	Check User Access
+    *	Logout from **Solution Mananger.
+    *	Click **OK** to confirm you are logging out.
+    *	From the Login screen type **Student1** on the **Username** field and **password1** on the **Password** Field. Click **Login**.
+    *   Click on **Library**.
+    *   Notice that the user still does not have privilege to see **Machines** under the **Administration** topic.
+    *	Notice that now this user is able to access the **Master Jobs** topic.
+    *	Click the **Master Jobs** topic.
+    *   What happened?
+
+:::caution Warning
+Note: The user **Student1** cannot view or maintain Jobs in a Schedule because we did not setup Schedule and Functional Privileges yet.
+:::
+
+*	Be sure to logout from the **Student1** profile and return to the **smauser** profile.
+
+
+
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 4](../static/videobasic/U3E4.mp4)
+
+:::
 
 1.	Create a Department
     *	Under **Security**, Double-Click on **Departments**. 

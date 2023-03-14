@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 4 Exercise 7'
 ---
 
-### Exercise 7: SubSchedule - Concurrent Processes
+## Exercise 7: SubSchedule - Concurrent Processes
 
-##### Objective:
+### Objective
 
 Create a **Resource** named ```ProcessFile``` with a **Max Resources** value of ```1```.
 
@@ -14,17 +14,73 @@ Copy the **Process File 1** Job to create 4 more Jobs with the same naming patte
 
 Build the Schedule Released for Today and view results in Matrix View.
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U4E7.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+**Create the Primary Schedule**
+
+1.	In **Library**, under the **Administration** topic, select **Master Schedules**. 
+2.	Click the **Add**. 
+3.	In the **Name** textbox, enter **ProcessFile-Main Schedule**. 
+4.	In the **Documentation** textbox, enter **This is the Parent Schedule**.
+5.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
+6.	Keep the defaults selected for the **Workdays per Week** for the Schedule to run.
+7.	Click the **Save** button.
+
+**Create a Resource**
+
+8.	In **Library**, under the **Administration** topic, select **Resources**. 
+9.	Click the **Add** button. 
+10.	In the **Name** textbox, enter **ProcessFile**. 
+11.	In the **Description** textbox, enter **This resource is used in the ProcessFile SubSchedule exercise**.
+12.	In the **Max Resources** box, enter ```1```.
+13.	Click the **Save** button.
+14.	In **Library**, under the **Administration** topic, select on **Master Schedules**.
+15.	Select the **ProcessFile-Main** Schedule.
+16. Click the **View** button.
+18. Select **Add Job** in the side menu.
+19.	In the **Name** textbox, enter **Process File 1**. 
+20.	In the **Job Type** dropdown list, select **Container**.
+21.	On the **Master SubSchedule** dropdown list select the **Repeating-SubSchedule**.
+
+:::note
+
+* This SubSchedule can be used even though it is used in another Schedule
+
+:::
+
+22.	Click the **Save** button.
+23. Click the **Lock** icon in the upper right-hand corner.
+24.	Scroll to and expand the **Frequency** box.
+25.	Within the **Frequency** box, move the ```Mon-Fri-N``` Frequency from the **Inactive** list to the **Active** list.
+26.	Click **Save**.
+
+**Setup Resource Dependency**
+
+27. Click the **Lock** icon in the upper right-hand corner.
+28.	Scroll to and expand the **Resource Dependency** box.
+30.	Click the **(+)** button.
+31.	Select the **ProcessFile** Resource from the dropdown list.
+32.	Enter the value of ```1``` in the **Value** box.
+33.	Click the **Save** button.
+
+**Create Copies of the Container Job**
+
+34.	In **Studio**, select the **Process File 1** Job. 
+35. Click the **Copy** button in the side menu.
+35.	Name the new Job **Process File 2**.
+36.	Click the **OK** button.
+37.	Repeat those steps to create Jobs **Process File 3**, **Process File 4**, and **Process File 5**.
+38.	In **Studio**, verify that all 5 Jobs are tied to the **ProcessFile** Resource.
+39.	In **Operations**, build the **ProcessFile-Main Schedule** (**Released**) for today and check the results in **Processes**,
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 4 Exercise 7](../static/videobasic/U4E7.mp4)
+
+:::
+
 
 **Create the Primary Schedule**
 
@@ -59,7 +115,7 @@ Your browser does not support the video tag.
 22.	Click the **Frequency** tab.
 23.	Within the **Frequency** list frame, click the **Add** button.
 24.	Click inside the option button to **Use Existing Frequency**.
-25.	Select **Mon-Fri-N** from the drop-down list.
+25.	Select ```Mon-Fri-N``` from the drop-down list.
 26.	Click **Next**.
 27.	Click **Finish**.
 

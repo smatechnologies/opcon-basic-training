@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 2 Exercise 6'
 ---
 
-### Exercise 6: Create a UNIX Job
+## Exercise 6: Create a UNIX Job
 
-##### Objective:
+### Objective
 
 Create a ```UNIX``` Job under **MY FIRST SCHEDULE**. Name the Job **UNIX Job 1**.
 Set the **Job Type** as ```UNIX``` and the **Primary Machine** as ```SUSEVM```. 
@@ -19,14 +19,45 @@ Give the Job an Existing Frequency of ```Example-Mon-Sun-O```.
 
 Be sure to provide appropriate documentation.
 
-<video width="320" height="240" controls>
-  <source src="videobasic/U2E6.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+### Instructions
+
+1.	In **Studio**, select **My First Schedule**.
+2.	Click the **View** button.
+3.	In the side menu, select **Add Job**.
+4.  Select **My First Schedule** in the Schedule dropdown menu.
+4.	In the **Name** textbox, enter ```UNIX Job 1```.
+5.	In the **Job Type** drop-down list, select **UNIX**.
+6.	In the **Machine Selection** > **Machines or Machine Group** drop-down list, select the **SUSEVM** machine for the Job to run on. 
+7.	In the **General** > **User ID** drop-down list, select ```0/0```
+8.	In the **Run** > **Start Image** field, type: 
+
+```
+/usr/local/lsam/bin/genericpgm
+```
+
+9.	In the **Run** > **Parameters** section, enter:  
+
+```
+–t20 –e0
+```
+
+10.	Click the **Save** button
+11. Click the **Lock** icon in the upper right-hand corner.
+12.	Select the **Frequency** tab.   
+13.	Within the **Frequency** frame:
+14.	Select ```Example-Mon-Sun-O``` in the Inactive list.
+15. Move the Frequency to the Active List using the **<** button.
+16.	Expand the **Documentation** tab and enter **This is a UNIX training Job**.
+17.	Click the **Save** button.
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 2 Exercise 6](../static/videobasic/U2E6.mp4)
+
+:::
 
 **_Scenario: You will create 1 UNIX Job in OpCon to run the same program in the previous exercise_**.
 

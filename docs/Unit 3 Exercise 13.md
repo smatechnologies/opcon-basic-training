@@ -2,8 +2,9 @@
 sidebar_label: 'Unit 3 Exercise 13'
 ---
 
-### Exercise 13: Events
-##### Objective:
+## Exercise 13: Events
+
+### Objective
 
 Create three new Windows Jobs in **MY FIRST SCHEDULE** named **Test Event 1**, **Test Event 2**, and **Test Event 3**. 
 
@@ -17,17 +18,93 @@ Create a ```$JOB:CANCEL``` Event for the **Test Event 1** Job that will cancel *
 
 Build the Schedule and view the results in Matrix View.
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E13.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+1.	Create the Schedules/Jobs
+    *	In **Library**, under the **Administration** topic, Double-Click on **Master Schedules**. 
+    *	In the **Schedule** list, select **My First Schedule**.
+    * Click the **View** button.
+    * In the side menu, select **Add Job**.
+    *	In the **Name** textbox, enter **Test Event 1**.
+    *	In the **Job Type** drop-down list, select **Windows**.
+    *	In the **Machine Selection** drop-down list, select the **SMATraining** machine for the Job to run on. 
+    *	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER``` 
+    *	In the Command Line, enter:  
+    ```
+    “[[PathWindows]]\genericp.exe” –t[[RUNTIME]]
+    ```  
+    *	Click the **Save** button.
+    * Click the **Lock** button in the upper right-hand corner.
+    *	Expand the **Frequency** box.
+    *	In the **Inactive** list, select **Mon-Sun-O** and move it to the **Active** list.
+    *	Click the **Save** button.
+  
+
+    *	In **Studio**, with **My First Schedule** selected, click the **Test Event 1 Job** and click the **Copy** button in the side menu. 
+    *	Name the Job **Test Event 2**.
+    *	Click OK.
+    *	Repeat the Copy process once more and name the Job **Test Event 3**.
+    *	Click **OK**.
+    * Click on **Test Event 3** and click the **Wrench** in side menu.
+    * Click the **Lock** button in the upper right-hand corner.
+    *	Expand the **Frequency** box.
+    * Select the active Frequency.
+    *	In the **Job Information** > **Job Build Status** drop down menu, select **On Hold**.
+    *	Click the **Save** button.
+    *	Select **Studio**.
+    * Click **Test Event 3** and select **Add Dependency** in the side menu.
+    * Select **Test Event 2** in the **Job** drop down list.
+    * Leave the Dependency Type as **Requires**.
+    * Click the **Save** button.
+    * Click **Test Event 2** and select **Add Dependency** in the side menu.
+    * Select **Test Event 1** in the **Job** drop down list.
+    * Leave the Dependency Type as **Requires**.
+    * Click the **Save** button.
+
+2.	Create the Events
+    * In **Studio**, select **Test Event 1**.
+    * Click the **Wrench** icon.
+    * Click the **Lock** icon.
+    *	Expand the **Events** box.
+    *	In the **Events** box, click the **Add** button. 
+    *	In the **Create New Event** menu, under **Send Event on** select the option button for **Job Status**. 
+    *	In the **Job Status** drop down list, select **Finished OK**.
+    *	In the **Event Template** drop-down list, select the ```$JOB:CANCEL Event```. 
+
+:::note Example:
+
+```
+$JOB:CANCEL,<Schedule date>,<Schedule name>,<Job name>
+```        
+* ```<Schedule date>``` needs to be replaced with either ```CURRENT```, ```[[$DATE]]```, or ```[[$SCHEDULE DATE]]```  
+* ```<Schedule name>``` needs to be replaced with either the **full name of the Schedule the Job is in**, or ```[[$SCHEDULE NAME]]```  
+* ```<Job name>``` needs to be replaced with **the name of the Job this Event is going to cancel**  
+* Your Event should look like this: 
+
+```
+[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],Test Event 3
+```
+
+:::
+
+* Click the **Save** button.  
+* Click the **Save** button in the **Master Job Definition**.
+* In **Operations**, select **Schedule Build**.
+* Select **My First Schedule**.
+* Set the Schedule Build options to **Released** and toggle on the **Overwrite Existing Schedules** option.
+* Click the **Build** button.
+* Expand the Job results and click the Job link for **My First Schedules** to return to the **Processes** screen and watch the Jobs process.
+
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 13](../static/videobasic/U3E13.mp4)
+
+:::
+
 
 1.	Create the Schedules/Jobs
     *	Under the **Administration** topic, Double-Click on **Job Master**. 
@@ -35,7 +112,7 @@ Your browser does not support the video tag.
     *	On the **Job Master Toolbar**, click the **Add** button. 
     *	In the **Name** textbox, enter **Test Event 1**.
     *	In the **Job Type** drop-down list, select **Windows**.
-    *	In the P**rimary Machine** drop-down list, select the **SMATraining** machine for the Job to run on. 
+    *	In the **Primary Machine** drop-down list, select the **SMATraining** machine for the Job to run on. 
     *	In the User ID drop-down list, select ```SMATRAINING\SMAUSER``` 
     *	In the Command Line, type Ctrl + F and Double-Click on the command that looks like this:  
     ```

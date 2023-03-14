@@ -2,13 +2,6 @@
 sidebar_label: 'OpCon Terminology'
 ---
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/OpConTerminology.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio> 
--->
-
 **Schedule**: A Group of Jobs that make up a business process
 
 * Schedules must be created before any Jobs can be defined

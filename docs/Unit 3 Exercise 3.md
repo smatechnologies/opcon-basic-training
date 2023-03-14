@@ -2,25 +2,42 @@
 sidebar_label: 'Unit 3 Exercise 3'
 ---
 
-### Exercise 3: Batch Users
+## Exercise 3: Batch Users
 
-##### Objective:
+### Objective
 
 Create a new ```Batch User``` named ```SMATRAINING\BATCHUSER``` for the ```WINDOWS``` Machine. The Password should be set as ```password```.
 
 Next, give **Batch User Privileges** to the ```Training``` Role for the ```WINDOWS``` Machine.
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E3.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+1.	In **Library**, under the **Security** topic, click on **Batch Users**. 
+2.  Click the **Add** button.
+3.	Type ```SMATRAINING\BATCHUSER``` in the **User Profile** field.
+4.  Select **Windows** as the target OS.
+5.	Type the word **password** in the **Password** and **Confirm Password** fields.
+6.	Click the **Save** button.
+7. Click the **Manage Privileges** button. 
+8.	In the **Select Role** dropdown list select the **Training** role.
+9.	In the **Target OS** dropdown list select **Windows**.
+    * Notice that the ```SMATRAINING\BATCHUSER``` is presented on the Revoked list (on the left) 
+10.	Under the Revoked list, click the ```SMATRAINING\BATCHUSER``` and then click the **>** button to put ```SMATRAINING\BATCHUSER``` under the **Granted** list.
+11. Click the **Save** button.
+
+:::note
+The User **Student1** (which is under the Training Role) now can select this user to run Jobs when setting them up in the Job Details screen.
+:::
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::
+
+:::tip [Walkthrough Video - Unit 3 Exercise 3](../static/videobasic/U3E3.mp4)
+
+:::
 
 1.	Under the **Security** topic, Double-Click on **Batch Users**. 
 2.	Select **Windows** from the **Select the target OS** drop-down list.
@@ -35,7 +52,7 @@ _(Be sure to click the Add button. Do not type over the currently existing Batch
 10.	On the **Select Role** drop-down list select the **Training Role**.
 11.	On the **Target Operating System** drop-down list select **Windows**.
 12.	Notice that the ```SMATRAINING\BATCHUSER``` is presented on the Revoked list (on the left) 
-13.	Under the Revoked list, click the ```SMATRAINING\BATCHUSER``` and then click the the green arrow (pointing to the right) to put ```SMATRAINING\BATCHUSER``` under the **Granted** list.
+13.	Under the Revoked list, click the ```SMATRAINING\BATCHUSER``` and then click the green arrow (pointing to the right) to put ```SMATRAINING\BATCHUSER``` under the **Granted** list.
 14.	Close the **Batch User** Privileges tab.
 :::note
 The User **Student1** (which is under the Training Role) now can select this user to run Jobs when setting them up in the Job Details screen.

@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 4 Exercise 8'
 ---
 
-### Exercise 8: SubSchedule Daily and Monthly Process
+## Exercise 8: SubSchedule Daily and Monthly Process
 
-##### Objective: 
+### Objective
 
 Create a Schedule named **Daily-SubSchedule**. Mark the Schedule as a **SubSchedule**. 
 
@@ -26,16 +26,165 @@ Build the **Main-Schedule** **On Hold** for Today. Then Build the Schedule **Rel
 
 In Matrix View, release the Schedule for Today to verify Job success.
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U4E8.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+
+### Instructions
+
+**Create the first SubSchedule (Daily)**
+
+1.	In **Library**, under the **Administration** topic, select **Master Schedules**. 
+2.	Click the **Add** button. 
+3.	In the **Name** textbox, enter **Daily-SubSchedule**. 
+4.	In the **Documentation** textbox, enter **This is the Daily SubSchedule**.
+5.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
+6.	Keep **Monday through Friday** selected for the **Workdays per Week** for the Schedule to run.
+7.	In **Schedule Settings**, mark the **SubSchedule** checkbox.
+8.	Click the **Save** button.
+
+**Create the SubSchedule (Monthly)**
+
+9.	In **Library**, under the **Administration** topic, select **Master Schedules**. 
+10.	Click the **Add** button on the **Schedule Master** toolbar. 
+11.	In the **Name** textbox, enter **Monthly-SubSchedule**. 
+12.	In the **Documentation** textbox, enter **This is the Monthly SubSchedule**.
+13.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
+14.	Keep **Monday through Friday** selected for the **Workdays per Week** for the Schedule to run.
+15.	In **Schedule Settings**, mark the **SubSchedule** checkbox.
+16.	Click the **Save** button.
+
+
+**Add Jobs within the Daily SubSchedule**
+
+17.	In **Studio**,, select the **Daily-SubSchedule** and click the **View** button.
+18.	Select **Add Job** in the side menu. 
+19.	In the **Name** textbox, enter **Daily Job 1**.
+20.	In the **Job Type** dropdown list, select ```Windows```.
+21.	In the **Machine Selection** dropdown list, select the ```SMATraining``` machine. 
+22.	In the **User ID** dropdown list, select ```SMATRAINING\SMAUSER```. 
+23.	In the **Command Line** enter:
+```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
+25.	Click the **Save** button. 
+26. Click the **Lock** icon in the upper right-hand corner.
+27. Scroll to and expand the **Frequency** box.
+28. Select the ```Mon-Fri-N``` Frequency and move it from the **Inactive** list to the **Active** list.
+29. Click the **Save** button.
+30.	In **Studio**, within the **Daily-SubSchedule**, select **Daily Job 1** and **Copy** the Job.
+31.	Name the new Job **Daily Job 2**.
+32.	Click **OK**.
+33.	Repeat steps to create Jobs **Daily Job 3**, **Daily Job 4**, and **Daily Job 5**.
+34.	Create **Dependencies**
+    * **Daily Job 5** requires **Daily Job 4**
+    * **Daily Job 4** requires **Daily Job 3**
+    * **Daily Job 3** requires **Daily Job 2**
+    * **Daily Job 2** requires **Daily Job 1**
+
+**Add Jobs within the Monthly SubSchedule**
+
+35.	In **Studio**,, select the **Monthly-SubSchedule** and click the **View** button.
+36.	Select **Add Job** in the side menu.
+37.	In the **Name** textbox, enter **Monthly Job 1**.
+38.	In the **Job Type** dropdown list, select ```Windows```.
+39.	In the **Machine Selection** dropdown list, select the ```SMATraining``` machine. 
+40.	In the **User ID** dropdown list, select ```SMATRAINING\SMAUSER```. 
+41.	In the **Command Line** enter:
+```"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0```
+42.	Click the **Save** button. 
+43. Click the **Lock** icon in the upper right-hand corner.
+44. Scroll to and expand the **Frequency** box.
+45. Select the ```EOM-B``` Frequency and move it from the **Inactive** list to the **Active** list.
+46.	Click the **Save** button.
+47.	In **Studio**, within the **Daily-SubSchedule**, select **Monthly Job 1** and **Copy** the Job.
+48.	Name the Job **Monthly Job 2**.
+49.	Click **OK**.
+50.	Repeat steps to create Jobs **Monthly Job 3**, **Monthly Job 4**, **Monthly Job 5**, **Monthly Job 6**, and **Monthly Job 7**.
+51.	Create **Dependencies**
+	* **Monthly Job 7** requires **Monthly Job 6**
+    * **Monthly Job 6** requires **Monthly Job 5**
+	* **Monthly Job 5** requires **Monthly Job 4**
+    * **Monthly Job 4** requires **Monthly Job 3**
+    * **Monthly Job 3** requires **Monthly Job 2**
+    * **Monthly Job 2** requires **Monthly Job 1**
+
+**Create the Primary Schedule**
+
+58.	In **Library**, under the **Administration** topic, select on **Master Schedules**. 
+59.	Click the **Add** button. 
+60.	In the **Name** textbox, enter **Main-Schedule**. 
+61.	In the **Documentation** textbox, enter **This is the Main Schedule**.
+62.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
+63.	Keep **Monday through Friday** selected for the **Workdays per Week** for the Schedule to run.
+64.	Click the **Save** button.
+
+**Add the Daily SubSchedule to the Primary Schedule**
+
+67.	In **Studio**,, select the **Main-SubSchedule** and click the **View** button.
+68.	Select  **Add Job** in the side menu. 
+69.	In the **Name** textbox, enter **Daily-Jobs**. 
+70.	In the **Job Type** drop-down list, select **Container**.
+71.	In the **Master SubSchedule** dropdown list select the **Daily-SubSchedule**.
+72.	Click the **Save** button.
+73. Click the **Lock** icon in the upper right-hand corner.
+74.	Scroll to and expand the **Frequency** box.
+75.	Select the ```Mon-Fri-N``` Frequency and move it from the **Inactive** list to the **Active** list.
+76.	Scroll to and expand the **Instance Properties** box.
+77.	Click in the **Add New Property Set** button.
+78. Click the **(+)** button to add an Instance Property.
+79.	Enter: ```RUNTIME``` in the **Name** textbox.
+80. Enter: ```10``` in the **Value** textbox.
+81. Click the **check mark** to save the Instance Property.
+82.	In the **Documentation** textbox, enter **This is a container Job that has the Daily Jobs**.
+83.	Click the **Save** button
+
+**Add the Monthly SubSchedule to the Primary Schedule**
+
+84. In **Studio**, stilly within **Main-Schedule**, select **Add Job** in the side menu. 
+86.	Click the **Add** button. 
+87.	In the **Name** textbox, enter **Monthly-Jobs**. 
+88.	In the **Job Type** dropdown list, select **Container**.
+89.	In the **Master SubSchedule** dropdown list select the **Monthly-SubSchedule**.
+90.	Click the **Save** button.
+91. Click the **Lock** icon in the upper right-hand corner.
+92.	Scroll to and expand the **Frequency** box.
+93.	Select the ```EOM-B``` Frequency and move it from the **Inactive** list to the **Active** list.
+94.	Scroll to and expand the **Instance Properties** box.
+95.	Click in the **Add New Property Set** button.
+96. Click the **(+)** button to add an Instance Property.
+97.	Enter: ```RUNTIME``` in the **Name** textbox.
+98. Enter: ```20``` in the **Value** textbox.
+99. Click the **check mark** to save the Instance Property.
+100. In the **Documentation** textbox, enter **This is a container Job that has the Daily Jobs**.
+101. Click the **Save** button
+
+**Setup Job Dependencies between Container Jobs**
+
+102. In **Studio**, select **Main-Schedule**.
+103. Click the **View** button.
+104. Click **Daily-Jobs** and select **Add Dependency** in the side menu.
+105. Select **Monthly-Jobs** in the **Job** dropdown list.
+106. Select **Excludes** in the **Dependency Type** dropdown list.
+107. Click the **Save** button.
+
+
+**Build the Schedule**
+
+108. In **Operations**, **Build** the **Main-Schedule** but leave it **On Hold** *.
+		* Notice that **both SubSchedules _ARE NOT_ shown in the Schedule Selection** list.  
+109. In **Operations**, **Build** the **Main-Schedule** again but in the **Start date**, select the **last working day of the month** and **Released** for that day.
+		* The **Stop date** should be the same as **Start date**.  
+		* This will build the Schedule **Released for the end of the month**.   
+110.  View the results in **Processess**.  
+111.  **Release the Schedule** for today (if you want to see the Jobs running).  
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip 
+
+[Walkthrough Video - Unit 4 Exercise 8](../static/videobasic/U4E8.mp4)
+
+:::
+
 
 **Create the first SubSchedule (Daily)**
 

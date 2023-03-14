@@ -2,22 +2,23 @@
 sidebar_label: 'Unit 3 Exercise 5'
 ---
 
-### Exercise 5: Schedule Privileges
+## Exercise 5: Schedule Privileges
 
-##### Objective:
+### Objective
 
-Grant **Schedule Privileges** to the ```Training``` Role for **MY FIRST SCHEDULE**.
+In **Enterprise Manager**, grant **Schedule Privileges** to the ```Training``` Role for **MY FIRST SCHEDULE**.
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E5.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+### Instructions
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip 
+
+[Walkthrough Video - Unit 3 Exercise 5](../static/videobasic/U3E5.mp4)
+
+:::
 
 1.	Under the **Security > Privileges** topic, Double-Click on **Schedule Privileges**. 
 2.	On the **Select Role** drop-down list select the **Training Role**.

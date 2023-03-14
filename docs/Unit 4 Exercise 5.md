@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 4 Exercise 5'
 ---
 
-### Exercise 5: Importing a Script
+## Exercise 5: Importing a Script
 
-##### Objective:
+### Objective
 
 In the **Script Repository**, Add a new Script named ```SetThreshold```. Import the ```ExerciseThreshold.cmd``` file and select ```Command Shell``` and ```Initial Version``` for the Script options. Be sure the Script is assigned to ```Role_ocadm```.
 
@@ -14,17 +14,53 @@ In Matrix View, right-click the **Embedded Scripts Training Schedule** and Add t
 
 When the Job has finished, check the value of the Threshold. 
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U4E5.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+1.	In **Library**, under the **Scripts** topic, click the **Add** button. 
+2.	Type **SetThreshold** in the **Name** textbox.
+3.  Select **Command Shell** from the **Type** dropdown list.
+4.  Leave **Initial Version** in the Initial Version Comments textbox
+3.	Type some **Documentation** in the Description field.
+5.	Click the **Open File** button.
+6.	Navigate to the ```C:\scripts``` folder, select the ```ExerciseThreshold.cmd``` file and click **Open**.
+7.	The script is loaded to your screen.
+8.	Verify that ```Role_ocadm``` is granted Role permissions.
+9.	Click the **Save** button.
+10.	In **Library**, under the **Administration** select **Master Schedules**. 
+11.	Select **Embedded Scripts Training**.
+12.	Click the **Add** button. 
+13. Select **Add Job** in the side menu.
+14.	In the **Name** textbox, enter **ExerciseThreshold** and click the **View** button. 
+15.	In the **Job Type** dropdown list, select ```Windows```.
+16.	In the **Machine Selection** dropdown list, select the ```SMATraining```. 
+17.	In the **User ID** dropdown menu, select ```SMATRAINING\SMAUSER```.
+18.	In the **Job Action** dropdown list, select ```Embedded Script```.
+19.	In the **Script** dropdown list, select the ```SetThreshold```. 
+20.	Leave the **Version** as ```LATEST```.
+21.	In the **Runner** dropdown menu, select ```Command Shell```.
+22.	In the **Arguments** textbox, type the following: ```+2```
+23.	Click the **Save** button.
+24. Click the **Lock** icon in the upper right-hand corner.
+25.	Give the Job a Frequency of ```Mon-Fri-N```.
+26. Click the **Save** button.
+27.	Open **Thresholds** and check the current value of the **TrainingThreshold**. It should be ```0```.
+28.	In **Processes**, right-click on **Embedded Scripts Training** for today.
+29. Click the **(+)** icon in the side menu.
+30.	Select the **ExerciseThreshold** Job and click the **Next** button.
+31.	Set the Build Status as **Released** and click the **Next** button.
+32.	Click **Submit**.
+33.	After the Job is finished, open the **Thresholds** tab and check the value. It must be ```2```.
+34.	For practice, **edit the Daily Job** changing the **Parameter** back to ```0```, restart the Job and check the **Threshold** again.
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 4 Exercise 5](../static/videobasic/U4E5.mp4)
+
+:::
+
 
 :::note
 In this exercise we will import a script created in Unit 3 to the OpCon database

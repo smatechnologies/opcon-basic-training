@@ -2,7 +2,7 @@
 sidebar_label: 'Unit 2 Lab A'
 ---
 
-### Objective: 
+### Objective 
 
 Congo Online Retail Inc. needs to pay its employees on different intervals based on their department. This is done through a Schedule named **CONGO PAYROLL PAYMENTS**.
 
@@ -31,14 +31,67 @@ Each Department requires specific scheduling intervals as noted:
 
 The required Frequencies should be run within Null Jobs in the **CONGO PAYROLL PAYMENTS** Schedule.
 
+### Lab Instructions  
+
+:::note
+USE NULL JOB TYPE FOR ALL JOBS IN THIS LAB
+:::
+
+*	Create a Schedule named **Congo Payroll Payments**
+*	Monday through Friday are working days
+*	The **Master Holiday Calendar** is used
+*	Auto-build the Schedule 7 days in advance for 1 day
+*	Auto-delete the Schedule for 7 days ago
+*	Add Documentation for the Schedule 
+
+*	Four Null Jobs will be created:
+
+*	**Toys** will need **one Job** with **one Frequency**
+
+*	**Electronics** will need **two Jobs**  
+  *	Job 1 - **three Frequencies** 
+  *	Job 2 - **one Frequency**
+
+*	**Clothing** will need **one Job** with **two Frequencies**
+
+*	Tag all Jobs according to the product (**Toys**, **Electronics** and **Clothing**)
+
+Upon completion, the “**Forecast All**” results will look like the following:
+
+|Toys|
+|---|
+|![](../static/imgbasic/SM_Forecast-Interval_Lab.png)|
+
+|Electronics - Monthly|
+|---|
+|![](../static/imgbasic/SM_Frequency_NotEOY_LabA.png)|
+
+|Electronics - EOY|
+|---|
+|![](../static/imgbasic/Electronics_EOY_Frequency_LabA.png)|
+
+|Clothing - All Weeks Friday|
+|---|
+|![](../static/imgbasic/Clothing_Friday_Frequency_LabA.png)|
+
+|Clothing - OnRequest|
+|---|
+|![](../static/imgbasic/Clothing_OnRequest_Frequency_LabA.png)|
+
+## Enterprise Manager
+
+<details>
+
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2LabA.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
 
-<details>
+:::tip [Walkthrough Video - Unit 2 Lab A](../static/videobasic/U2LabA.mp4)
 
-<summary>Click for More Detailed Lab Instructions</summary>
+:::
 
 **Lab Instructions**:    
 

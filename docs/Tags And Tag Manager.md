@@ -2,31 +2,57 @@
 sidebar_label: 'Tags And Tag Manager'
 ---
 
-### Job Tags
-
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/JobTags.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio> 
--->
-
-![Picture25](/imgbasic/Picture25.png)
+![Picture25](../static/imgbasic/Picture25.png)
 
 * Tags are labels assigned to Jobs 
   * Allow filtered Operations views
   * Do not affect the way Jobs will run 
 
-![Picture26](/imgbasic/Picture26.png)  
+* In Solution Manager, **Tag Management** is found in **Library > Management > Tags**
 
-### Add a Job Tag
+### Tag Manager/Add a Job Tag
 
-![Picture27](/imgbasic/Picture27.png)
+###3 Select Add to Create a New Tag 
 
-### Tag Manager
+|                                 |
+|---------------------------------|
+|![SM Tags](../static/imgbasic/sm-tags.png)|
+
+#### Enter a Tag Name
+|                                 |
+|---------------------------------|
+|![SM Tag Add](../static/imgbasic/sm-tag-add.png)|
+
+#### Select Jobs to Tag
+
+* Click the Filter bar to populate a list of available Schedules and Jobs
+
+|                                 |
+|---------------------------------|
+|![SM Tag Add List](../static/imgbasic/sm-tag-add-list.png)|
+
+
+## Enterprise Manager
+
+<details>
+
+|                                 |
+|---------------------------------|
+|![Picture26](../static/imgbasic/Picture26.png)|  
+
+#### Add a Job Tag
+
+|                                 |
+|---------------------------------|
+|![Picture27](../static/imgbasic/Picture27.png)|
+
+#### Tag Manager
 
 * Tag Manager provides an easy way to search and view any Jobs using that Tag 
 * Allows for renaming and deleting Tags
 
-![Picture28](/imgbasic/Picture28.png)
+|                                 |
+|---------------------------------|
+|![Picture28](../static/imgbasic/Picture28.png)|
 
+</details>

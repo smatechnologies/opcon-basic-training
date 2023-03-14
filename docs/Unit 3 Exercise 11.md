@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 3 Exercise 11'
 ---
 
-### Exercise 11: Instance Properties
+##  Exercise 11: Instance Properties
 
-##### Objective:
+### Objective
 
 Within **MY FIRST SCHEDULE**, create an **Instance Definition** named ```RUNTIME``` with a value of ```20```.
 
@@ -28,17 +28,62 @@ Rebuild **MY FIRST SCHEDULE**, overwriting and Released for Today. Release **WIN
 
 After all Jobs have run successfully, verify Property/Token success in **Job Information > Configuration > Token Replacement Values** for **WINDOWS JOB 4**.
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E11.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+1.	In **Library**, under the **Administration** topic, click on **Master Schedules**. 
+2.	In the **Schedule** selection list, select **My First Schedule**.
+3.  Click the **Edit** button.
+4.  Click the **Lock** icon in the upper right-hand corner.
+5.  Expand the **Instance Definition** box
+6.	Click the **Add New Property Set**.
+7.	In the **Name** text box, type ```RUNTIME```.
+8.  In the **Value** text box, type ```20```.
+9.  Click the **Check Mark** button to verify the the entry.
+10. Click the **Save** button.
+11.	Under **Operations** > **Operations Summary**, click on **Agents**. 
+12.	In the **Agents** list, right-click **SMATraining**.
+13. Click the **Disable Communication** button.
+14. When the Agent has stopped, right-click again. 
+15. Click the **Wrench** icon in the side menu.
+16. Expand the **Administrative Machine Information**.
+17. In the **Available Properties** section, click the **+** button.
+18. In the **Name** text box type ```PathWindows```.
+19. In the **Value** text box type ```C:\Program Files\OpConxps\MSLSAM```.
+20. Click the **Check Mark** button to verify the entry.
+21.	Click the **Save** Button.
+22.	Click the **Change Communication Status** button and select **Enable Full Comm. (Job Start Enabled)**.
+23.	Under **Library** > **Administration**, select **Master Jobs**.
+24.	In the **Master Jobs** list, select **Windows Job 4**.
+25. Click the **Edit** button.
+26. Click the **Lock** button in the upper right-hand corner.
+27. Expand the **Task Details**  box.
+28.	Update the **Command Line** to use the new properties by placing **Properties** to point to the **Machine** or **Schedule Instance Properties** instead of the **Global Properties**:
+
+```
+“[[PathWindows]]\genericp.exe” –t[[RUNTIME]]
+```
+
+to:
+
+```
+“[[MI.PathWindows]]\genericp.exe” –t[[SI.RUNTIME]]
+```
+
+29.	Click the **Save** button.
+30.	If **My First Schedule** is In Process, **Cancel** all jobs.
+26.	In **Schedule Build**, rebuild **My First Schedule** released for today by selecting the **Overwrite Existing Schedules** option in the Schedule Build options.
+27.	Release **Windows Job 1** and **Windows Job 2** by right-clicking and selecting **Release** in the **Job Status Update** section of the **Job Selection** side menu.
+28.	Check that all Jobs run successfully. 
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 11](../static/videobasic/U3E11.mp4)
+
+:::
+
 
 1.	Under the **Administration** topic, double click on **Schedule Master**. 
 2.	In the **Schedule Selection** drop-down menu select **My First Schedule**.

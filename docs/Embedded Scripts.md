@@ -2,17 +2,6 @@
 sidebar_label: 'Embedded Scripts'
 ---
 
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/EmbeddedScripts.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
-
 * OpCon has ability to push Scripts from OpCon database to Windows and UNIX Machines (LSAMs) to run
 * Database has centralized Repository that is replicated with database
 * Version Control
@@ -23,21 +12,7 @@ sidebar_label: 'Embedded Scripts'
 	* Script Repository
 	* Job Master
 
-<a href="imgbasic/416.png" target="_blank"><img src="imgbasic/416.png" width="250"></img></a>
-
 ### Embedded Scripts - Script Types
-
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/EmbeddedScriptsTypesAndRunners.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
-
 
 * Configure type of Scripts which can be stored by OpCon
 
@@ -47,8 +22,6 @@ sidebar_label: 'Embedded Scripts'
 	* PowerShell (.ps1)
 	* Python (.py)
 	* VBScript (.vbs)
-
-<a href="imgbasic/417.png" target="_blank"><img src="imgbasic/417.png" width="500"></img></a>
 
 ### Embedded Scripts - Script Runners
 
@@ -60,25 +33,10 @@ Example:
 
 * Allows more than one Script runner per Script Type
 
-<a href="imgbasic/418.png" target="_blank"><img src="imgbasic/418.png" width="500"></img></a>
-
-### Embedded Scripts - Script Repository
-
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/EmbeddedScriptsScriptRepository.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
+### Script Repository
 
 * Where Scripts are created and stored
 * Previous versions are accessible
-
-<a href="imgbasic/419.png" target="_blank"><img src="imgbasic/419.png" width="500"></img></a>
 
 * **Name** – Defines Name of Script (No spaces allowed in Name)
 * **Description** – Documents purpose of Script
@@ -87,27 +45,11 @@ Example:
 * **Type** – Specifies Script Type 
 * **Initial Comments** – Documents differences between Script versions
 
-<a href="imgbasic/420.png" target="_blank"><img src="imgbasic/420.png" width="300"></img></a>
-
 ### Assign a Role to a New Script
 
 * A Role must be assigned when a Script is created or imported to the Script Repository
 
-<a href="imgbasic/421.png" target="_blank"><img src="imgbasic/421.png" width="300"></img></a>
-
 ### Embedded Scripts - Job Master
-
-<!--
-<figure>
-    <audio
-        controls
-        src="audiobasic/EmbeddedScriptsJobMaster.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
-</figure>
--->
-
 
 * **Job Action** – Change from Run Program to Embedded Scripts
 * **Script** – Specifies which script to call
@@ -118,6 +60,124 @@ Example:
 * **Arguments** – Enter the parameter(s) passed to Script (if needed)
 * **Working Dir.** – Working Directory (starting directory) for Script
 
-<a href="imgbasic/422.png" target="_blank"><img src="imgbasic/422.png" width="500"></img></a>
+## Solution Manager
 
-###### (Click Images to Enlarge)
+* In Solution Manager, **Scripts** is found in **Library > Administration > Scripts**
+
+### Scripts Menu
+
+||
+|-----------------------------------|
+|![](../static/imgbasic/sm-scripts.png)|
+
+### Script Types
+
+||
+|-----------------------------------|
+|![](../static/imgbasic/sm-script-types.png)|
+
+### Script Runners
+
+||
+|-----------------------------------|
+|![](../static/imgbasic/sm-script-runners.png)|
+
+### Copy Script to Edit Version
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-copy-script-edit.png)|
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-edit-script-version.png)|
+
+### Add Script
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-add-script.png)|
+
+### Assign a Role to a New Script
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-assign-role-script.png)|
+
+### Deploy Script
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-deploy-script-button.png)|
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-script-deploy.png)|
+
+### Script Cross References
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-script-cross-references.png)|
+
+:::warning
+
+A Script with Cross References cannot be deleted
+
+:::
+
+### Script in Job Properties
+
+||
+|-------------------------------|
+|![](../static/imgbasic/sm-script-in-job-properties.png)|
+
+## Enterprise Manager
+
+* In Enterprise Manager, **Scripts** is found in **Scripts**
+
+<details>
+
+### Scripts Menu
+
+||
+|-----------------------------------|
+|![](../static/imgbasic/416.png)|
+
+### Script Types
+
+||
+|-----------------------------------|
+|![](../static/imgbasic/417.png)  |
+
+### Script Runners
+
+||
+|-------------------------------------|
+|![](../static/imgbasic/418.png)|
+
+### Edit Script/Version Scripts
+
+||
+|-------------------------------|
+|![](../static/imgbasic/419.png)|
+
+### Add Script
+
+||
+|--------------------------------|
+|![](../static/imgbasic/420.png)|
+
+### Assign a Role to a New Script
+
+||
+|---------------------------------------------------|
+|![](../static/imgbasic/421.png)|
+
+### Scripts in Job Properties
+
+||
+|------------------------------------------------|
+|![](../static/imgbasic/422.png)|
+
+</details>
