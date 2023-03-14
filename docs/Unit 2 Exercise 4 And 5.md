@@ -2,32 +2,67 @@
 sidebar_label: 'Unit 2 Exercise 4 And 5'
 ---
 
-### Exercise 4: Steps to Modify Machine Status
-### & 
-### Exercise 5: Fix the Communication Problem
+## Modify Machine Status & Fix the Communication Problem
 
-##### Objective:
+### Objective
 
-In **Machines Status**, Start Communication for the ```SUSEVM``` Machine.
+Start Communication for the ```SUSEVM``` Machine.
 
 :::note
 DO NOT PANIC – Communication will not begin because of an error we will correct.
 :::
 
-Under the Information Topic, expand **Logs**. Open the **Netcom Log** and find the ```ConnectToMachine()``` error to verify the issue.
+View **Logs**. Open the **Netcom Log** and find the ```ConnectToMachine()``` error to verify the issue.
 
-Back in **Machines Status**, Stop Communication with the ```SUSEVM``` machine.  Edit the Machine and change the **Socket Number** to ```3100```.
+Stop Communication with the ```SUSEVM``` machine.  Edit the Machine information to change the **Socket Number** to ```3100```.
 
 Restart communication with the ```SUSEVM``` machine. The connection should now be successful.
 
+### Instructions
+
+### Exercise 4
+
+1.	In **Library**, under the **Operations** topic, select **Agents**. 
+2.	Right-Click on the **SUSEVM** machine and in the side menu, select **Enable Full Comm. (Job start Enabled)**.
+
+:::note
+Do not panic! It is not going to communicate.
+:::
+
+### Exercise 5
+
+1. Open the Windows **File Explorer**
+2. Follow the file path by clicking to **Windows  (C:)** > **ProgramData** > **OpConxps** > **SAM** > **Log**
+3. Double click on the **SMANetcom.log** file.
+4. Scroll to the bottom of the .log file and look for this entry in the Log file:
+
+```
+ConnectToMachine() -- Exception happens at machine [SUSEVM]: No connection could be made because the target machine actively refused it. [[IP ADDRESS:PORT]]
+```
+
+5.	Back in Solution Manager, Right-Click the SUSEVM machine and select **Disable Communication**.
+6.	Right-Click the SUSEVM machine and select **Wrench** icon to edit Machine details.
+7.	In the **General Settings** tab, change the Socket Number to ```3100```.
+8.	Click the Save button.
+9.	Close the Machines tab.
+10.	Click the **Change Communication Status** button and select **Enable Full Comm. (Job Start Enabled)**.
+11. Return to the **Agents** main screen and verify that the **SUSEVM** machine is now communicating.
+
+## Enterprise Manager
+
+<details>
+
+<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2E4and5.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
 
-<details>
+:::tip [Walkthrough Video - Unit 2 Exercises 4 and 5](../static/videobasic/U2E4and5.mp4)
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::
+
 
 ### Exercise 4
 

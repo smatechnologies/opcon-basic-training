@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 4 Exercise 12'
 ---
 
-### Exercise 12: File Arrival - Multiple Files
+## Exercise 12: File Arrival - Multiple Files
 
-##### Objective:
+### Objective
 
 Create a Schedule named **MultipleFiles-Main Schedule**.
 
@@ -46,17 +46,125 @@ Add a ```$JOB: RESTART``` **Event** to the Job  with the following parameters:
 
 Build the Schedule Released for Today. Release the **Create File** Job in the **MultipleFiles-Main Schedule**. Check the Instance Properties of one of the Container Jobs in Job Information to verify file processing.
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U4E12.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+#### MultipleFiles-Main Schedule
+
+1.	Create a new Main Schedule using the default settings. Name it **MultipleFiles-Main Schedule**. Add **Documentation** to the Schedule. 
+
+#### File Arrival Job
+
+2.	Add a **Windows File Arrival Job** to the **MultipleFiles-Main** Schedule.
+	* **Name**: **File Arrival Job**
+	* **Job Type**: ```Windows```
+	* **Machine Selection**: ```SMATraining```
+	* **Job Action**: ```File Arrival```
+	* **User ID**: ```SMATRAINING\SMAUSER```
+	* **File Name**: ```"C:\Multi-File Arrival\MultiFile*.txt"```
+	* **Start Time**: ```0900```
+	* **End Time**: ```1700```
+	* **File Size Stable Duration (in secs)**: ```5```
+3.	Give the Job the ```Mon-Fri-N``` Frequency.
+4.	In the **Events** box, **Add** a new Event.
+	* For **Event Trigger** select the **Job Status**
+	* For **Trigger Details** select **Finished OK**
+	* For **Event Template** select:   
+
+	```$JOB:ADD,<Schedule date>,<Schedule name>,<Job name>,<Frequency name>,[Job instance property definitions]```
+
+	* For the **Event Parameters**, use the following, 
+		* **Schedule Date**: ```[[$SCHEDULE DATE]]```
+		* **Schedule Name**: ```[[$SCHEDULE NAME]]```,
+		* **Job Name**: ```MultiFile Processing Job```
+		* **Frequency Name**: ```OnRequest```
+		* **Job Instance Definition Name**: ```FILENAME```
+		* **Job Instance Definition Value**: ```[[JI.$ARRIVED FILE NAME]]```
+		* Click the **Save** button
+
+#### Create File Job
+
+5.	Create another Job in **MultipleFiles-Main**. This will be an **embedded script Job** (already configured) that will create the files.
+	* **Name**: **Create File**
+	* **Job Type**: ```Windows```
+	* **Primary Machine**: ```SMATraining```
+	* **Job Action**: ```Embedded Script```
+	* **User ID**: ```SMATRAINING\SMAUSER```
+	* **Script**: ```Windows_MultiFile_Arrival```
+	* **Version**: ```LATEST```
+	* **Runner**: ```PowerShell```
+	* **Arguments**: Do not type anything (leave it blank)
+6.	Give the Job the ```Mon-Fri-N``` Frequency.
+7.	Give the Job a **Job Build Status**, of ```On Hold```.
+8.	Add **Documentation** to the Job.
+9.	Outside of OpCon verify that the follow folder exists:
+```C:\Multi-File Arrival```
+
+#### MultipleFiles-SubSchedule
+
+10.	Create a new **Schedule** and name it **MultipleFiles-SubSchedule**.
+12.	Under the **Schedule Properties** frame, mark it as a **SubSchedule**.
+13.	Add **Documentation** to the SubSchedule.
+14.	Leave the other fields with the **default values**.
+
+#### Process File Job
+
+15.	In  **MultipleFiles-SubSchedule** add a new Windows Job.
+	* In the **Name** textbox, enter **Process File**.
+	* Run the **Windows Genericp program** in the **Command Line**.
+		* Example: ```"[[MI.PathWindows]]\genericp.exe" -t10 -e0```
+16.	Give the Job a **Frequency** of ```Mon-Fri-N```.
+17.	Add **Documentation** to the Job. 
+
+#### Archive File Job
+
+18.	Add another Job to  **MultipleFiles-SubSchedule**.
+	* **Name**: **Archive File**
+	* **Job Type**: ```Windows```
+	* **Job Sub-Type**: ```Command: File Move```
+	* **Primary Machine**: ```SMATraining```
+	* **User ID**: ```SMATTRAINING\SMAUSER```
+	* **Source**: ```“[[SI.FILENAME]]”```
+	* **Destination**: ```“C:\Multi-File Arrival\Archive\”```
+19.	Give the Job a **Frequency** of ```Mon-Fri-N```.
+20.	Add **Documentation** to the Job.
+21.	Make the **Archive File Job** dependent on the **Process File Job** completing successfully.
+
+#### MultiFile Processing Job
+
+22.	Add another Job to the **MultipleFiles-Main** Schedule.
+	* In the **Name** textbox, enter **MultiFile Processing Job**.
+	* In the **Job Type** dropdown list, select **Container**.
+	* In the **Master SubsSchedule** dropdown select **MultipleFiles-SubSchedule**.
+23.	Give the Job a **Frequency** of ```OnRequest```.
+24.	Add **Documentation** to the Job.
+25.	Add an **Event** to the Job
+	* For **Event Trigger** select the **Job Status** radio button, click **Next**.
+	* For **Job Status**, select **Finished OK**, click **Next**.
+	* For **Event Template** select:   
+	```$JOB:RESTART <Schedule date>,<Schedule name>,<Job name>```
+
+	* For the **Event Parameters**, use the following:   
+	```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival Job ```
+
+	* and click **Finish**.
+
+#### Build and Verify Results
+
+26.	Build the **MultipleFiles-Main Schedule** for today **Released**.
+27. In **Processes**, notice the **File Arrival Job** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (```OnRequest``` – It will be added by the File Arrival Job).
+28.	Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
+29.	Notice that as the **File Arrival Job** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
+30.	If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).
+	* Check the **Job Information**.
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 4 Exercise 12](../static/videobasic/U4E12.mp4)
+
+:::
+
 
 1.	Create a new **Main Schedule** using the default settings. Name it **MultipleFiles-Main Schedule**. Add **Documentation** to the Schedule. 
 2.	Add a **Windows File Arrival Job** to the **MultipleFiles-Main** Schedule.
@@ -130,19 +238,17 @@ Your browser does not support the video tag.
 	* Click the **Save** button.
 29.	Give the Job a **Frequency** of ```OnRequest```.
 30.	Add **Documentation** to the Job.
-31.	Add an **Event** to the Job
-	* On the **Event Trigger** screen select the **Job Status** radio button, click **Next**.
-	* On the **Trigger Details** screen for **Job Status**, select **Finished OK**, click **Next**.
-	* On the **Event Definition** screen, for the **Event Template** select:   
+31.	In the **Events** box, **Add** a new Event.
+	* For **Event Trigger** select the **Job Status** radio button, click **Next**.
+	* For **Job Status**, select **Finished OK**, click **Next**.
+	* For **Event Template** select:   
 	```$JOB:RESTART <Schedule date>,<Schedule name>,<Job name>```
 
 	* For the **Event Parameters**, use the following:   
 	```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival Job ```
 
-	* and click **Finish**.
-32.	Build the **MultipleFiles-Main** Schedule for today **Released**.
-33.	Switch to an **Operations View**.  
-34.	Notice the **File Arrival Job** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (```OnRequest``` – It will be added by the File Arrival Job).
+32.	Build the **MultipleFiles-Main Schedule** for today **Released**.
+33. In a View, notice the **File Arrival Job** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (```OnRequest``` – It will be added by the File Arrival Job).
 35.	Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
 36.	Notice that as the **File Arrival Job** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
 37.	If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).

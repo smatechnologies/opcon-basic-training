@@ -4,7 +4,7 @@ sidebar_label: 'Unit 1 Exercise 4'
 
 ## Exercise 4: Job Dependencies
 
-##### Objective:
+### Objective
 
 Create a **REQUIRES** Dependency Chain for the four Jobs in **MY FIRST SCHEDULE**. 
 
@@ -14,14 +14,37 @@ The Dependency Flow should be:
 
 where **WINDOWS JOB 4** Requires **WINDOWS JOB 3**, etc.
 
-<video width="320" height="240" controls>
-  <source src="videobasic/U1E4.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+### Instructions
+
+1.	In Solution Manger, select **Studio**. 
+2.	In the **Schedule** list, select **My First Schedule**.
+3. Click the **View** button.
+3.	Click **Windows Job 4**.
+4.	In the Job menu, click **Add Dependency**.
+5.	In the **Schedule** Schedule frame, select **My First Schedule**.
+6.  In the **Job** drop down list, select **Windows Job 3**.
+7.	In the **Dependency** frame, select **Requires** and **Finished OK**.
+8.	Click **Windows Job 3**.
+9.	In the Job menu, click **Add Dependency**.
+10.	In the **Schedule** Schedule frame, select **My First Schedule**.
+11.  In the **Job** drop down list, select **Windows Job 2**.
+12.	In the **Dependency** frame, select **Requires** and **Finished OK**.
+13.	Click **Windows Job 2**.
+14.	In the Job menu, click **Add Dependency**.
+15.	In the **Schedule** Schedule frame, select **My First Schedule**.
+16.  In the **Job** drop down list, select **Windows Job 1**.
+17.	In the **Dependency** frame, select **Requires** and **Finished OK**.
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+<!--
+:::tip [Walkthrough Video - Unit 1 Exercise 4](../static/videobasic/U1E4.mp4)
+
+:::
+
+-->
 
 1.	Under the **Administration** topic, Double-Click on **Job Master**. 
 2.	In the **Schedule** drop-down list, select **My First Schedule**.

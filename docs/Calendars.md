@@ -2,21 +2,7 @@
 sidebar_label: 'Calendars'
 ---
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/Calendars.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
--->
-
-![Picture225](/imgbasic/225.png)
-
 ### Holiday Calendars
-
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/HolidayCalendars.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
 
 * OpCon supports several types of Calendars to help provide flexible scheduling around holidays and any other non-working days 
 
@@ -35,22 +21,62 @@ sidebar_label: 'Calendars'
   * Stores non-working days for a single Schedule
   * Administrators must set additional days as non-working days when required
 
-![Picture226](/imgbasic/226.png)  
-
-![Picture227](/imgbasic/227.png)  
-
-![Picture228](/imgbasic/228.png)  
-
-![Picture229](/imgbasic/229.png)  
-
 ### Workdays Per Week
-
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/WorkdaysPerWeek.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
 
 * Workdays Per Week combined with Schedule Holiday Calendars specify which dates are considered working days
 * Workdays Per Week can be overwritten by Frequencies
 
-![Picture230](/imgbasic/230.png)
+## Solution Manager
+
+* In Solution Manager, **Calendars** is found in **Library > Administration > Calendars**
+
+### Calendar Select/Add/Edit Main Screen
+
+||
+|--------------------------------------------|
+|![](../static/imgbasic/sm-calendar-main.png)|
+
+### Calendar Add/Edit Selections
+
+||
+|------------------------------------------------|
+|![](../static/imgbasic/sm-calendar-add-edit.png)|
+
+### Calendar Associations
+
+||
+|----------------------------------------------------|
+|![](../static/imgbasic/sm-calendar-associations.png)|
+
+## Enterprise Manager
+
+<details>
+
+In Enterprise Manager, **Calendars** is found in **Adminstration > Calendars**
+
+### Calendar Screen Descriptions
+
+||
+|-----------------------------------------|
+|![Picture226](../static/imgbasic/226.png)|  
+
+### Schedules and Frequencies that Use Selected Calendar
+
+||
+|-----------------------------------------|
+|![Picture227](../static/imgbasic/227.png)|
+
+### Select Additional Calendars in Schedule Master
+
+||
+|-----------------------------------------|
+|![Picture228](../static/imgbasic/228.png)|
+|![Picture229](../static/imgbasic/229.png)|
+
+### Select Workdays per Week
+
+||
+|-----------------------------------------|
+|![Picture230](../static/imgbasic/230.png)|
+
+</details>

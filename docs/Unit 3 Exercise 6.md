@@ -2,29 +2,27 @@
 sidebar_label: 'Unit 3 Exercise 6'
 ---
 
-### Exercise 6: Function Privileges
+## Exercise 6: Function Privileges
 
-##### Objective:
+### Objective
 
-Grant the ```Training``` Role the **Function Privilege** of **Build Daily Schedules**.
+In **Enterprise Manager**, grant the ```Training``` role the **Function Privilege** of **Build Daily Schedules**.
 
-Log out of Enterprise Manager and log back in as ```Student1```. The user should be able to see **MY FIRST SCHEDULE**, but in Job Master, see only the first three Windows Jobs in the Schedule. This is because the ```Training``` Role only has access to Jobs assigned to the ```TrainingDept``` Windows Machines.
+Log out and log back in as ```Student1```. The user should be able to see **MY FIRST SCHEDULE**, but in Job Master, see only the first three Windows Jobs in the Schedule. This is because the ```Training``` role only has access to Jobs assigned to the ```TrainingDept``` Windows Machines.
 
 Next, attempt to add a ```UNIX``` Job to **MY FIRST SCHEDULE**. The user will be unable to do so because no ```UNIX``` machine is assigned.
 
 Finally, rebuild **MY FIRST SCHEDULE**, overwriting for Today. Release the first and second Jobs. Right-Click on each Job and notice that some Functions are not available because they have not been granted to the ```Training``` Role (For example, **Force-Start Job** and **Cancel**).
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E6.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 6](../static/videobasic/U3E6.mp4)
+
+:::
 
 1.	Under **Security > Privileges**, Double-Click on **Function Privileges**. 
 2.	On the **Select Role** drop-down list select **Training Role**.
@@ -44,7 +42,7 @@ Your browser does not support the video tag.
 14.	Click the Job drop-down list.  What do you see?
 
 :::info
-Only 3 Windows Jobs. Why? Because the role associated with this user has access only to Jobs assigned to the TrainingDept.Windows Machines.
+Only 3 Windows Jobs. Why? Because the role associated with this user has access only to Jobs assigned to the TrainingDept Windows Machines.
 :::
 
 15.	Select a Windows Job. What is the User ID associated with this Job?

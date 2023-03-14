@@ -2,11 +2,11 @@
 sidebar_label: 'Unit 3 Exercise 1'
 ---
 
-### Exercise 1: Create a Role and User Account
+## Exercise 1: Create a Role and User Account
 
-##### Objective:
+### Objective
 
-Create a **Role** named ```Training```. Be sure that it does NOT Inherit Privileges.
+In **Enterprise Manager**, create a **Role** named ```Training```. Be sure that it does NOT Inherit Privileges.
 
 Create a **User Account** named ```Student1``` (Full User Name: ```Student Number 1```).
 
@@ -16,17 +16,24 @@ Give ```Student 1``` the Role of ```Training```.
 
 Verify the User Account Privileges by logging out of Enterprise Manager and logging back in as Student1. The user should have limited access to topics that can be verified by choosing Machine Status. No Machines should be visible.
 
-
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E1.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+### Instructions
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 1](../static/videobasic/U3E1.mp4)
+
+:::
 
 1.	Create a Role
   * Under the **Security** topic, Double-Click on **Roles**. 

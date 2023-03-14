@@ -2,27 +2,53 @@
 sidebar_label: 'Unit 3 Exercise 7'
 ---
 
-### Exercise 7: Access Codes
+## Exercise 7: Access Codes
 
-##### Objective:
+### Objective
 
 Create an **Access Code** named ```Training```. Within Job Master, assign the **Access Code** to **WINDOWS JOB 1** in **MY FIRST SCHEDULE**.
 
 Log out of Enterprise Manager and log back in as ```Student1```. 
 
-Select Job Master and **MY FIRST SCHEDULE**. Notice that the user cannot view **WINDOWS JOB 1** because the ```Training``` **Access Code** has not been assigned to the ```Training``` Role.
+View the Jobs in **MY FIRST SCHEDULE**. Notice that the user cannot view **WINDOWS JOB 1** because the ```Training``` **Access Code** has not been assigned to the ```Training``` Role.
 
 
+### Instructions
+
+1.	In **Library > Security** topic, select **Access Codes**. 
+2.	Click the **Add** button.
+3.	Type **Training** in the **Name** field.
+4.	Type **This is an Access Code for the Training**. in the Description field.
+5.	Click the Save button on the Access Codes toolbar.
+6.	Close the Access Codes tab.
+7.	Be sure you are logged on with your ```SMATRAINING\SMAUSER``` login.
+8.	In **Library > Administration** topic, click **Master Jobs**.
+9.	Select **Windows Job 1** from the Job list and click the **Edit** button.
+10. Click the **Lock** button in the upper right-hand corner.
+11.	In the **Access Code** drop-down list, select **Training**.
+12.	Click the **Save** button and close the Master Job screen.
+13.	Logout from **Solution Manager**. 
+14. Login by typing ```Student1``` in the **Username** field and ```password1``` in the **Password** field. 
+15.	Under the **Library** > **Administration** topic, click **Master Jobs**.
+16. What do you see? Why?
+19.	Be sure to logout of the **Student1** profile and log back in as **smauser**.
+
+## Enterprise Manager
+
+<details>
+
+<!--
 <div>
 <video width="320" height="240" controls>
   <source src="videobasic/U3E7.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
 </div>
+-->
 
-<details>
+:::tip [Walkthrough Video - Unit 3 Exercise 7](../static/videobasic/U3E7.mp4)
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::
 
 1.	Under the **Security** topic, Double-Click on **Access Codes**. 
 2.	Click the Add button on the Access Codes toolbar.

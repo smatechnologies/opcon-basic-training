@@ -2,79 +2,48 @@
 sidebar_label: 'Unit 1 Exercise 9'
 ---
 
-### Exercise 9: Solution Manager Operations
+### Exercise 9: Workflow Designer
 
-##### Objective: 
+##### Objective:
 
-Open the Chrome Browser and navigate to ```https://SMATraining```
+Open **Workflow Designer** and create a new Job named **WINDOWS JOB 5** in **MY FIRST SCHEDULE**. Give the Job the same details as the existing Jobs within this Schedule. Give the Job a **Requires Dependency** for **WINDOWS JOB 4**.
 
-Log in to **Solution Manager**: 
-
-**Username**: ```ocadm```
-**Password**: ```***********``` **(12 asterisks)**
-
-Select the Operations button and navigate to Jobs. View the Job Processes for Today. 
-
-Enable the Schedules Selection and select **MY FIRST SCHEDULE**.
-
-Set the status of both **WINDOWS JOB 1** and **WINDOWS JOB 2** as ```Restart On Hold```.
-
-Go back to Enterprise Manager and open Matrix View. View the Jobs in **MY FIRST SCHEDULE** and release the two Jobs ```On Hold```.
-
-Return to Solution Manager and check that the Jobs have run. Next, click on the Green Heart at the bottom of the screen to view available **Agents**.
-
-**Disable** communication with the ```SMATraining``` machine.
-
-Go back to Enterprise Manager and **Restart** communication.
-
+<!--
 <video width="320" height="240" controls>
-  <source src="videobasic/U1E9.mp4" type="video/mp4"></source>
+  <source src="videobasic/U1E10.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
+-->
+
+:::tip [Walkthrough Video - Unit 1 Exercise 10](../static/videobasic/U1E10.mp4)
+
+:::
 
 <details>
 
 <summary>Click for Step-By-Step Instructions</summary>
 
-1.	Open **Google Chrome** from the taskbar and go to:
+1.	Under the **Administration** topic, Double-Click on **Workflow Designer**. 
+2.	From the **Select Schedule** list, select **My First Schedule**.
+3.	**Click** and **drag** around the area where you want to select and move a group of items.
+4.	In the **Tools** frame, **click**, **drag**, and **drop** the **Add Job** icon to the Schedule diagram.     
+5.	In the **Job Master** screen, enter **Windows Job 5** for the name.
+6.	Select **Windows** as Job Type
+7.	In the **Primary Machine** drop-down list, select the **SMATraining** machine for the Job to run on.
+8.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```   
+9.	On the **Command Line**, use the generic program:
 ```
-https://SMATraining
+"C:\Program Files\OpConxps\MSLSAM\Genericp.exe" -t10 -e0
 ```
-  * If a login screen other than the **Solution Manager** login screen pops up, click **Cancel**.
-2.	In the **Solution Manager login screen** enter the following:
-
-  *	Username: ```ocadm```
-  * Password: ```************``` (12 asterisks)
-
-3.	Click **Sign in**.
-4.	In the **Solution Manager Home** screen, click the **Operations** button.
-5.	In the **Operations Summary** screen, click **Jobs**.
-6.	Once the **Processes** screen is presented, be sure you have todays **date** selected on the left side of the screen.
-7.	Turn on the **Enable/Disable Schedules Selection** (on the top right of the screen).
-  *	The list of Schedules for today will be presented.
-8.	Click **My First Schedule**.
-  *	You should be able to see all 4 Jobs built for today in the Job List. 
-9.	From the **Job** list, select **Windows Job 1** and **Windows Job 2**.
-10.	Right-Click one of the Jobs.
-  *	The **Job Status Update** screen will appear on the right.
-  *	Notice that not all actions are available. Only the actions that can be performed for both Jobs.
-11.	Select **Restart on Hold**.
-  *	Solution Manager will show a message in the top of the screen confirming the action was processed.
-12.	Close the **Job Status Update** screen, minimize Google Chrome and go back to **Enterprise Manager**.
-13.	Open the **List** or **Matrix** view, go to today’s date and check the Jobs under **My First Schedule**.
-  *	The status for **Windows Job 1** and **Windows Job 2** should be **On Hold**.
-14.	Still from **Enterprise Manager**, Right-Click the Jobs and select **Release**. You must perform this action for each Job.
-15.	Go back to Solution Manager. What happened to **Windows Job 1** and **Windows Job 2**?
-16.	From **Solution Manager**, click the Back button (top right).
-17.	Click the **Green Heart** located on the bottom right of the screen.
-  *	Solution Manager will present the **Agents** screen.
-18.	Select the **SMATraining** machine and then Right-Click the machine.
-19.	In the **Agent Status Update** screen (on the right side), click **Disable Communication**.
-20.	Close the Agent Status Update screen, minimize Google Chrome and go back to **Enterprise Manager**.
-21.	Open the Machine Status tab and check the status of the **SMATraining**.
-  *	It should be **Not Responding** (Gray).
-22.	Right-Click the machine and select **Start Communication**.
-23.	Close all the tabs in **Enterprise Manager**.
-24.	Close Google Chrome.
+10.	Click the **Save** button on the Job Master toolbar. 
+11.	Click the **Frequency** tab and add any Frequency.
+12.	Click on the **X** to the right of the **Job Master** tab to close the Job Master screen.
+13.	In the **Tools** frame, click Add **Dependency**.
+14.	First, **click** on the Job that is the object of the Dependency (example: **Windows Job 4**).
+15.	Then **click** on the Job in which to create the dependency (example: **Windows Job 5**).
+16.	In the Job Dependency window, mark the preferred Dependency Type option button (example: **Requires**).
+17.	Click the **OK** button to save the added Job dependency.
+Note: Notice that the mouse icon keeps the “Add Dependency” pointer. You can click “Select” from the Tools panel or just press the escape key.
+18.	Close the **Workflow Designer** tab.
 
 </details>

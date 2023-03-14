@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 3 Lab A'
 ---
 
-### LAB A
+## LAB A
 
-##### Objective:
+### Objective
 
 Congo Online Retail Inc.’s., Board of Directors would like to have access to OpCon so they can check the progress of the automated processes.
 
@@ -22,7 +22,13 @@ The **Role** should be able to View:
 * Jobs in Daily Schedules
 * Jobs in Schedule Operations
 
-Log out of Enterprise Manager and log back in as the new **User Account** to verify settings and restrictions.
+Log out and log back in as the new **User Account** to verify settings and restrictions.
+
+### Lab Instructions
+
+## Enterprise Manager
+
+<details>
 
 <!--
 <div>
@@ -33,11 +39,6 @@ Your browser does not support the video tag.
 </div>
 -->
 
-<details>
-
-<summary>Click for Step-By-Step Instructions</summary>
-
-**Lab Instructions**:  
 
 *	Create a **Role** named **Board Member**
 *	Grant permissions to view the following Lab Schedules:

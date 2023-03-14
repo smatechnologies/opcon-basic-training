@@ -1,15 +1,65 @@
 ---
-sidebar_label: 'Frequency Definition Wizard'
+sidebar_label: 'Frequency Definition'
 ---
 
 ### Overview
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardOverview.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
--->
+Click the **Add** button under the **Frequency list** to create a **New Frequency**   
+
+-or-
+
+Select an existing Frequency from the **Inactive** list and move it to the **Active** list
+
+||
+|---|
+|![](../static/imgbasic/SM_Frequency_Master_Job.png)|
+
+||
+|---|
+|![](../static/imgbasic/SM_Frequency_Manager_Wizard_Main.png)|
+
+:::caution
+Always start with **“When to Schedule”**
+:::
+
+* Depending on selection, different fields will be available
+* Select desired days, interval, occurrence, or period
+
+||
+|---|
+|![](../static/imgbasic/SM_Frequency_WhentoSchedule.png)|
+
+* Frequencies reference two settings from a Schedule to determine what is considered a working day
+  * Workdays per Week
+  * Holiday Calendars
+* Selections for workdays per week and a Holiday Calendar will determine non-working days for that Schedule
+
+||
+|---|
+|![](../static/imgbasic/Frequency_Calendar.png)|
+
+||
+|---|
+|![](../static/imgbasic/SM_Frequency_Days.png)|
+
+#### Frequency Definition Wizard - A/O/B/N
+
+* **A/O/B/N** flag will tell a Frequency how to react if the selected day is non-working day
+  * **After Date** will run a Job on the first working day after a non-working day
+  * **On Date** will run a Job on a non-working day anyway
+  * **Before Date** will run a Job on the first working day prior to a non-working day
+  * **Not Schedule** will simply not run a Job on a non-working day
+
+||
+|---|
+|![](../static/imgbasic/SM_AOBN_Flag.png)|
+
+
+## Enterprise Manager
+
+<details>
+
+### Overview
 
 * After clicking the **Add** button under **Frequency list**:
   * Create **New Frequency**   
@@ -23,29 +73,32 @@ Always start with **“When to Schedule”**
 * Depending on selection, different fields will be available
 * Select desired days, interval, occurrence, or period
 
-![Picture231](/imgbasic/231.png)  
+||
+|---|
+|![](../static/imgbasic/231.png)|
 
-![Picture232](/imgbasic/232.png)  
+||
+|---|
+|![](../static/imgbasic/232.png)|
 
-![Picture233](/imgbasic/233.png)
+||
+|---|
+|![](../static/imgbasic/233.png)|
 
 * Frequencies reference two settings from a Schedule to determine what is considered a working day
   * Workdays per Week
   * Holiday Calendars
 * Selections for workdays per week and a Holiday Calendar will determine non-working days for that Schedule
 
-![Picture234](/imgbasic/234.png)  
- 
-![Picture235](/imgbasic/235.png)
+||
+|---|
+|![](../static/imgbasic/234.png)|
 
-### Frequency Definition Wizard - A/O/B/N
+||
+|---|
+|![](../static/imgbasic/235.png)|
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/FrequencyDefinitionWizardAOBN.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
--->
+#### Frequency Definition Wizard - A/O/B/N
 
 * **A/O/B/N** flag will tell a Frequency how to react if the selected day is non-working day
   * **After Date** will run a Job on the first working day after a non-working day
@@ -53,4 +106,8 @@ Always start with **“When to Schedule”**
   * **Before Date** will run a Job on the first working day prior to a non-working day
   * **Not Schedule** will simply not run a Job on a non-working day
 
-![Picture236](/imgbasic/236.png)
+||
+|---|
+|![](../static/imgbasic/236.png)|
+
+</details>

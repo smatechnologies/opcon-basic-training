@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 4 Exercise 10'
 ---
 
-### Exercise 10: File Movement
+## Exercise 10: File Movement
 
-##### Objective:
+### Objective
 
 In Windows Explorer, create two folders named ```C:\Temp``` and ```C:\RMExample```.
 
@@ -35,18 +35,132 @@ Create a **Dependency** Chain:
 
 **File Copy > File Rename > File Move > File Delete**
 
-Build the Schedule Release for Today. Manually Release each Job individually, checking the created folders each time to verify Job success.
+Build the Schedule Released for Today. Manually Release each Job individually, checking the created folders each time to verify Job success.
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U4E10.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+### Instructions
+
+**Create a New File and a New Schedule**
+
+1.	Go to **Windows Explorer** and create the ``C:\Temp`` and ```C:\RMExample``` folders.
+2.	If not running, open **Notepad** and create a new file.
+3.	Type something and save the file as ```C:\RMExample\File-to-be-copied.txt.```
+4.	Close **Notepad**.
+5.	In **Library**, under the **Administration** topic, select **Master Schedules**. 
+6.	Click the **Add** button.
+7.	In the **Name** textbox, enter **My Windows Sub-Types Schedule**.
+8.	In the **Documentation** textbox, enter **This is a training Schedule for Windows Sub-Type Jobs**.
+9.	Keep **Monday through Friday** selected for the **Workdays per Week** for the Schedule to run.
+10.	In the **Schedule Properties > Build frame**, keep the **Auto Build** unchecked.
+11.	Click the **Save** button on the **Schedule Master** toolbar.
+
+**Add Jobs to the New Schedule**
+
+12.	In **Library**, under the **Administration** topic, select on **Master Schedule**. 
+13.	In the **Schedule** dropdown list, select **My Windows Sub-Types Schedule**.
+14. In **Studio**, select **My Windows Sub-Types Schedule** and click the **View** button.
+15. Select **Add Job** in the side menu.
+16.	In the **Name** textbox, enter **File Copy**.
+17.	In the **Job Type** dropdown list, select ```Windows```.
+18.	In the **Machine Selection** dropdown list, select the ```SMATraining``` machine for the Job to run on. 
+19. In the **User ID** dropdown list, select ```SMATRAINING\SMAUSER```
+20. Click the **Edit** button in the **Job Sub-Type** section.
+21.	In the **Job Sub-Type** dropdown list select ```Command: File Copy```.	
+22.	In the **Source** field, type ```C:\RMExample\File-to-be-copied.txt```
+23.	In the **Destination** field, type ```C:\RMExample\File-to-be-renamed.txt```
+24.	Click the **Save** button.
+25. Click the **Save** button in the **Master Job Definition**.
+26. Click the **Lock** button in the upper right-hand corner.
+27. Scroll to and expand the Frequency box.
+28. Select the ```Mon-Sun-O``` Frequency in the **Inactive** list and move it to the **Active** list.
+29. Select the Frequency and in the **Job Information - Job Build Status** dropdown, change the status to **On Hold**.
+30. Be sure to add some documentation to the Job.
+31. Click the **Save** button.
+32. Back in **Studio**, within the **My Windows Sub-Types Schedule**, select **Add Job** in the side menu.
+33.	In the **Name** textbox, enter **File Rename**.
+34.	In the **Job Type** drop-down list, select ```Windows```.
+35.	In the **Machine Selection** dropdown list, select the ```SMATraining``` machine for the Job to run on. 
+36. In the **User ID** dropdown list, select ```SMATRAINING\SMAUSER```
+37. Click the **Edit** button in the **Job Sub-Type** section.
+38.	In the **Job Sub-Type** dropdown list select ```Command: File Rename```.	
+39.	In the **Source** field, type ```C:\RMExample\File-to-be-renamed.txt```
+40.	In the **Destination** field, type ```File-to-be-moved.txt```
+
+:::tip Note
+
+You are renaming the file! So you do not specify the whole path!
+
+:::
+
+41.	Click the **Save** button.
+42. Click the **Save** button in the **Master Job Definition**.
+43. Click the **Lock** button in the upper right-hand corner.
+44. Scroll to and expand the Frequency box.
+45. Select the ```Mon-Sun-O``` Frequency in the **Inactive** list and move it to the **Active** list.
+46. Select the Frequency and in the **Job Information - Job Build Status** dropdown, change the status to **On Hold**.
+47. Be sure to add some documentation to the Job.
+48. Click the **Save** button.
+49. Back in **Studio**, within the **My Windows Sub-Types Schedule**, select **Add Job** in the side menu.
+50.	In the **Name** textbox, enter **File Move**.
+51.	In the **Job Type** drop-down list, select ```Windows```.
+52.	In the **Machine Selection** dropdown list, select the ```SMATraining``` machine for the Job to run on. 
+53. In the **User ID** dropdown list, select ```SMATRAINING\SMAUSER```
+54. Click the **Edit** button in the **Job Sub-Type** section.
+55.	In the **Job Sub-Type** dropdown list select ```Command: File Move```.	
+56.	In the **Source** field, type ```C:\RMExample\File-to-be-moved.txt```
+57.	In the **Destination** field, type ```C:\Temp\File-to-be-deleted.txt```
+58.	Click the **Save** button.
+59. Click the **Save** button in the **Master Job Definition**.
+60. Click the **Lock** button in the upper right-hand corner.
+61. Scroll to and expand the Frequency box.
+62. Select the ```Mon-Sun-O``` Frequency in the **Inactive** list and move it to the **Active** list.
+63. Select the Frequency and in the **Job Information - Job Build Status** dropdown, change the status to **On Hold**.
+64. Be sure to add some documentation to the Job.
+65. Click the **Save** button.
+
+66. Back in **Studio**, within the **My Windows Sub-Types Schedule**, select **Add Job** in the side menu.
+67.	In the **Name** textbox, enter **File Delete**.
+68.	In the **Job Type** drop-down list, select ```Windows```.
+69.	In the **Machine Selection** dropdown list, select the ```SMATraining``` machine for the Job to run on. 
+70. In the **User ID** dropdown list, select ```SMATRAINING\SMAUSER```
+71. Click the **Edit** button in the **Job Sub-Type** section.
+72.	In the **Job Sub-Type** dropdown list select ```Command: File Delete```.	
+73.	In the **Source** field, type ```C:\Temp\File-to-be-deletd.txt```
+74.	Click the **Save** button.
+75. Click the **Save** button in the **Master Job Definition**.
+76. Click the **Lock** button in the upper right-hand corner.
+77. Scroll to and expand the Frequency box.
+78. Select the ```Mon-Sun-O``` Frequency in the **Inactive** list and move it to the **Active** list.
+79. Select the Frequency and in the **Job Information - Job Build Status** dropdown, change the status to **On Hold**.
+80. Be sure to add some documentation to the Job.
+81. Click the **Save** button.
+82.	Create **Dependencies**
+	* **File Delete** requires **File Move**
+	* **File Move** requires **File Rename**
+	* **File Rename** requires **File Copy**
+
+
+**Testing the Configuration**
+
+82.	In **Operations**, Build **My Windows Sub-Types Schedule** in a **Released** state.
+83.	In **Processes**, check that all Jobs are **On Hold**.
+84.	Open the folder ```C:\RMExample``` using **Windows Explorer** and check that the file ```File-to-be-copied.txt``` is there.
+85.	In **Processes**, release the File **Copy Job**.
+86.	Go back to **Windows Explorer** and check that the ```File-to-be-renamed``` was created.
+87.	In **Processes**, release the Job **File Rename**.
+88.	Go back to **Windows Explorer** and check that the ```File-to-be-renamed``` is renamed to ```File-to-be-moved```
+89.	In **Processes**, release the Job **File Move**.
+90.	Go back to **Windows Explorer** and check that the ```File-to-be-moved``` was moved to the ```C:\Temp``` folder and has the ```File-to-be-deleted``` name.
+91.	In **Processes**, release the Job **File Delete**.
+92.	Go back to **Windows Explorer** and check that the ```File-to-be-deleted``` was deleted.
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 4 Exercise 10](../static/videobasic/U4E10.mp4)
+
+:::
+
 
 **Create a New File and a New Schedule**
 

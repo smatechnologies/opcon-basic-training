@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 3 Exercise 8'
 ---
 
-### Exercise 8: Notification Mananger
+## Exercise 8: Notification Mananger
 
-##### Objective:
+### Objective
 
 In **Notification Manager**, create a Notification by adding a **Root Group** named ```ALL MACHINES``` and adding both the ```WINDOWS``` and ```UNIX``` machine.
 
@@ -14,17 +14,38 @@ Send an email to ```smauser@congo.local``` with the message: "TESTING EMAIL NOTI
 
 Press the **Test** button to send the email. Open Thunderbird to verify successful notification.
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E8.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+1.	In **Library**, under the **Management** topic, click on **Notification Triggers**. 
+2.  Click on **Manage Groups** in the upper right-hand corner.
+3.  Click the **Add** button.
+4.  In the **Name** textbox, type **All Machines**.
+5.  In the **Type** dropdown list, seleect **Machine**.
+6.  In the **Machine** list, select the **Included** radio button.
+7.  Click **Selected** for both the **SMATraining** and ***SUSEVM** machines.
+8.  Click the **Save** button. 
+9.  Click on **Notification Triggers** in the upper right-hand corner.
+10. Click the **Add** button.
+11. In the **Group Name** dropdown list, select **All Machines**.
+12. In the **Trigger Name** dropdown list, select ```Machine Marked Up```.
+13. Click the **Save** button.
+14. Select the **All Machines** trigger from the main list.
+14. Click the **(+)** sign on **Email** to add an email notification.
+15. In the **To** field, type ```smauser@congo.local```.
+16. In the **Subject** field, type ```Notification Test```.
+17. In the **Message** box, enter ```Testing email notification```.
+18. Click the **Test** button to test your notifcation results.
+19. Click the **OK** button.
+20. Open the Thunderbird email client and check the inbox.
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 8](../static/videobasic/U3E8.mp4)
+
+:::
 
 1.	Under the **Management** topic, Double-Click on **Notification Manager**. 
 2.	Click on the **Machines** tab. 

@@ -2,24 +2,46 @@
 sidebar_label: 'Dependencies'
 ---
 
-<!--
-<audio controls="controls">
-  <source type="audio/mp3" src="audiobasic/JobDependencies.mp3"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio> 
--->
+![](../static/imgbasic/Picture21.png)
+
+### Job Dependencies in Job Definition
+
+||
+|-----------------------------------------------------|
+| ![](../static/imgbasic/sm-daily-job-dependency.png) |
+
+### Set Job Dependency Details
+
+||
+|-----------------------------------------------------------|
+| ![](../static/imgbasic/sm-job-dependency-details-set.png) |
+
+### Job Dependency Status
+
+||
+|------------------------------------------------------|
+| ![](../static/imgbasic/sm-job-dependency-status.png) |
 
 
-![Picture21](/imgbasic/Picture21.png) 
+## Enterprise Manager
 
-### Job Dependency Definition Tab
+<details>
+
+#### Job Dependency Definition Tab
 
 * OpCon allows the definition of a Job Run sequence
 
 * Use the Dependencies tab to define Job Dependencies
 
-![Picture22](/imgbasic/Picture22.png)
- 
-![Picture23](/imgbasic/Picture23.png)
+||
+|-------------------------------------------------------|
+| ![](../static/imgbasic/Picture22.png)                 |
 
-![Picture24](/imgbasic/Picture24.png)
+#### Add Job Dependency Details
+
+||
+|--------------------------------------------| 
+| ![](../static/imgbasic/Picture23.png)      |
+| ![](../static/imgbasic/Picture24.png)      |
+
+</details>

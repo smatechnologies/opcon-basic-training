@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 2 Exercise 9'
 ---
 
-### Exercise 9: Frequencies - On Request & Beginning, Middle, End of Period
+## Exercise 9: Frequencies - On Request & Beginning, Middle, End of Period
 
-##### Objective: 
+### Objective
 
 Within the existing **Frequency Practice Schedule**, create four new Null Jobs:
 
@@ -22,14 +22,101 @@ In the **Mid of Period Frequency Practice** Job, create a new Frequency named ``
 
 In the **End of Period Frequency Practice** Job, create a new Frequency named ```EOM-B```. This Frequency should run on the last Working Day of the month, or the day before in case of a holiday.
 
-<video width="320" height="240" controls>
-  <source src="videobasic/U2E9.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+### Instructions
+
+1.	In **Studio**, select the **Frequency Practice** Schedule and click **View**.
+2.	In the side menu, select **Add Job** to add a Null Job.
+3.  Select the **Frequency Practice** Schedule in the Schedule dropdown list.
+4.	Enter **On Request Frequency Practice** in the **Name** text field.
+5.  Leave the **Job Type** as **Null Job**.
+6.	Click the **Save** button.
+7.  Click the **Back** button in the upper right-hand corner.
+8.  Click anywhere in the **Studio** screen.
+9.	Repeat Steps 2-6 creating three Null Jobs:
+  *	**Begin of Period Frequency Practice**
+  *	**Mid of Period Frequency Practice**
+  *	**End of Period Frequency Practice**
+
+
+10.	Frequency: **On Request**
+ * Click the **Back** button in the upper right-hand corner.
+  *	Click the **On Request Frequency Practice** Job.
+  *	In the side menu, click on the **Wrench** icon.
+  * Click the **Lock** button in the upper right-hand corner.
+  * Scroll to the **Frequency** tab and expand the dialog box.
+  *	Click the **Add** button.
+  *	Type **OnRequest** in the Frequency Name field.
+  *	In the **Request Date** dialog box select **January 3rd** of the current year.
+  * Leave the **A/O/B/N** flag set to **On Date**.
+  * Click the **Save** button.
+
+  *	Click the **Forecast** Button.
+    *	On the **Forecast** screen, only **January 3rd** for this year should be green. 
+
+
+11.	Frequency: **Begin of Period**
+ * Click the **Back** button in the upper right-hand corner.
+  *	Click the **Begin of Period Frequency Practice** Job.
+  *	In the side menu, click on the **Wrench** icon.
+  * Click the **Lock** button in the upper right-hand corner.
+  * Scroll to the **Frequency** tab and expand the dialog box.
+  *	Click the **Add** button.
+  *	Type **BOM-A** in the Frequency Name field.
+  *	In the **When to Schedule** dropdown list, select **Beg of Period**.
+  * Leave the **Period** set to **Month**.
+  * Set the **A/O/B/N** flag set to **After Date**.
+  * Make sure the **Day Type** is set to **Working**.
+  * Click the **Save** button.
+
+  *	Click the **Forecast** Button.
+    *	On the **Forecast** screen, the **first working day** of every month should be green. Notice how holidays and weekends affect this Frequency.
+
+
+12.	Frequency: **Mid of Period**
+ * Click the **Back** button in the upper right-hand corner.
+  *	Click the **Mid of Period Frequency Practice** Job.
+  *	In the side menu, click on the **Wrench** icon.
+  * Click the **Lock** button in the upper right-hand corner.
+  * Scroll to the **Frequency** tab and expand the dialog box.
+  *	Click the **Add** button.
+  *	Type **Mid-Wed-A** in the Frequency Name field.
+  *	In the **When to Schedule** dropdown list, select **Mid of Period**.
+  * Leave the **Period** set to **Month**.
+  * Select **Wednesday** from the **Days of the Week** parameter.
+  * Set the **A/O/B/N** flag set to **After Date**.
+  * Make sure the **Day Type** is set to **Working**.
+  * Click the **Save** button.
+
+  *	Click the **Forecast** Button.
+    *	On the **Forecast** screen, the Wednesday closest to the middle of every month should be green. Notice how holidays and weekends affect this Frequency.
+
+
+13.	Frequency: **End of Period**
+ * Click the **Back** button in the upper right-hand corner.
+  *	Click the **End of Period Frequency Practice** Job.
+  *	In the side menu, click on the **Wrench** icon.
+  * Click the **Lock** button in the upper right-hand corner.
+  * Scroll to the **Frequency** tab and expand the dialog box.
+  *	Click the **Add** button.
+  *	Type **EOM-B** in the Frequency Name field.
+  *	In the **When to Schedule** dropdown list, select **End of Period**.
+  * Leave the **Period** set to **Month**.
+  * Set the **A/O/B/N** flag set to **Before Date**.
+  * Make sure the **Day Type** is set to **Working**.
+  * Click the **Save** button.
+
+  *	Click the **Forecast** Button.
+    *	On the **Forecast** screen, the **last working day** of every month should be green. Notice how holidays and weekends affect this Frequency.
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 2 Exercise 9](../static/videobasic/U2E9.mp4)
+
+:::
+
 
 1.	Open the **Job Master**.
 2.	Select **Frequency Practice** Schedule from the **Schedule** drop-down menu.

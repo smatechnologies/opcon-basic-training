@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 1 Lab'
 ---
 
-### Unit 1 Lab
+## Unit 1 Lab
 
-##### Objective:
+### Objective
 
 Congo Online Retail Inc. needs to run a Schedule named **CONGO INVENTORY REPORTS** that will create separate Inventory reports for six products every working day. These reports must run **sequentially** and be **Tagged** within the following categories:
 
@@ -30,16 +30,14 @@ The program that must be run in the Command Line for Job execution is:
 ```
 "C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t15 -e0
 ```
-<video width="320" height="240" controls>
-  <source src="videobasic/U1LAB.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+<!--
+:::tip [Walkthrough Video - Unit 1 Exercise 1](../static/videobasic/U1LAB.mp4)
 
-<details>
+:::
+-->
 
-<summary>Click for More Detailed Lab Instructions</summary>
+### Lab Instructions
 
-#### Lab Instructions:
 * Create a Schedule named Congo Inventory Reports
 * Saturday and Sundays are non-working days 
 * Auto-build the Schedule ```7``` days in advance for ```1``` day
@@ -67,11 +65,11 @@ Your browser does not support the video tag.
 * The Jobs cannot start until **8:00 AM**
 * **Tag** the Jobs according to the product type (Toys, Electronics or Clothing)
 * Build the Schedule Released for today and tomorrow
-* Open the Matrix or List view under Operations to check
+* Check the status of the Schedule and Jobs in the Processes screen
 
 
 Upon completion, the Jobs will run in this order:
 
-![Picture92](/imgbasic/Picture92.png) 
-
-</details>
+||
+|---|
+|![](/imgbasic/unit1lab1dependencyview.png)|

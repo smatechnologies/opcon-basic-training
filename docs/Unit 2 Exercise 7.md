@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 2 Exercise 7'
 ---
 
-### Exercise 7: Create Additional Calendars and Update the Master Holiday Calendar
+## Exercise 7: Create Additional Calendars & Update Master Holiday Calendar
 
-##### Objective:
+### Objective
 
 Create a new Calendar named **MYFIRSTCALENDAR**. Click several dates by navigating through the Calendar. 
 :::note
@@ -18,22 +18,52 @@ Next, select the **Master Holiday Calendar** from the Calendar List. Add the fol
   *	January 16th – Martin Luther King Jr. Day
   *	February 20th – President’s Day
   *	May 29th – Memorial Day
-  * June 19th - Juneteenth National Independence Day
+  * June 19th - Juneteenth National Independence Day (Observed)
   *	July 4th – Independence Day
   *	September 4th – Labor Day
   *	October 9th – Columbus Day
   *	November 11th – Veterans Day
-  *	November 23th – Thanksgiving Day
-  * December 25th - Christmas Day
+  *	November 23rd – Thanksgiving Day
+  * December 25th - Christmas Day (Observed)
 
-<video width="320" height="240" controls>
-  <source src="videobasic/U2E7.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
+### Instructions
+
+1.	In **Library**, select **Calendars**.
+2.	Click the **Add** Button.
+3.	Type **MyFirstCalendar** in the **Name** field.
+4.	Enter a **Description** like: **This is a test Calendar**.
+5.	Click several dates in the **Calendar**.
+6.	Click the **Save** Button.
+
+:::note
+The dates are saved dynamically
+:::
+
+7.  Return to the **Calendars** main page.
+7.	Select **Master Holiday** and click the **Edit** button.
+10.	Click the following dates in the Calendar to set up the current year Federal Holidays, then click the **Save** button.
+
+  *	January 16th – Martin Luther King Jr. Day
+  *	February 20th – President’s Day
+  *	May 29th – Memorial Day
+  * June 19th - Juneteenth National Independence Day (Observed)
+  *	July 4th – Independence Day
+  *	September 4th – Labor Day
+  *	October 9th – Columbus Day
+  *	November 11th – Veterans Day
+  *	November 23rd – Thanksgiving Day
+  * December 25th - Christmas Day (Observed)
+
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+
+:::tip [Walkthrough Video - Unit 2 Exercise 7](../static/videobasic/U2E7.mp4)
+
+:::
+
 
 1.	Click on **Calendars** from the **Navigation Panel**.
 2.	Click the **Add** Button.
@@ -52,12 +82,12 @@ The dates are saved dynamically
   *	January 16th – Martin Luther King Jr. Day
   *	February 20th – President’s Day
   *	May 29th – Memorial Day
-  * June 19th - Juneteenth National Independence Day
+  * June 19th - Juneteenth National Independence Day (Observed)
   *	July 4th – Independence Day
   *	September 4th – Labor Day
   *	October 9th – Columbus Day
   *	November 11th – Veterans Day
-  *	November 23th – Thanksgiving Day
-  * December 25th - Christmas Day
+  *	November 23rd – Thanksgiving Day
+  * December 25th - Christmas Day (Observed)
 
 </details>

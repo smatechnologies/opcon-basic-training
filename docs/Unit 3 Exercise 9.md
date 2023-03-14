@@ -2,9 +2,9 @@
 sidebar_label: 'Unit 3 Exercise 9'
 ---
 
-### Exercise 9: Email Escalation
+## Exercise 9: Email Escalation
 
-##### Objective: 
+### Objective
 
 In **Escalation Manager**, add a **Group** named ```First Level``` and assign both ```Student1``` and ```SMATRAINING\SMAUSER```.
 
@@ -20,18 +20,57 @@ Build the **Escalation Example** Schedule released for Today.
 
 The Job will fail, triggering Escalation. The user must acknowledge the Escalation by entering the **Escalation Acknowledgement** topic or double-clicking the **Escalation Acknowledgement** icon left of the SAM Pulse.
 
+### Instructions
 
-<div>
-<video width="320" height="240" controls>
-  <source src="videobasic/U3E9.mp4" type="video/mp4"></source>
-Your browser does not support the video tag.
-</video>
-</div>
+1.	In **Library**, under the **Management** topic, cllick on **Escalation Manager**. 
+2.	In the **Groups** frame, click the **Add** button.
+3.	In the **Group Name** textbox, type ```First Level```.
+4.	In the **Available Users** box select ```Student1``` and ```SMATRAINING\SMAUSER```.
+5.	Click the **>** button to push the selected users to the **Assigned Users** box. 
+6.	Click the **Save** Button.
+7.	In the **Rules** frame, click the **Add** button.
+11.	In the **Rule Name** textbox, type ```First Level```.
+12.	Under **Rule Sequences** click the **Add** button.
+13.	In the **Number of Times To Be Notified** textbox, enter ```6```.
+14.	In the **Time between Notifications (minutes)**: textbox, enter ```00:05```.
+15.	In the **Group** drop-down, select ```First Level```.
+16.	Click the **Add** Button.
+17.	Make sure the new **Rule** is listed in the grid of the **Escalation Rule Add/Edit** screen and click **Save**.
 
+:::note
+If you needed to add multiple escalation levels, you would click add again and follow that the same process.
+:::
+
+18.	Click the **Back** button to close **Escalation Manager**.
+19.	Under the **Library** > **Management** topic, click on **Notification Triggers**. 
+20.	Under the listed **Notification Triggers**, click on the **Escalation Example** .
+21.	Make sure the **Job Failed** Trigger is selected in **Trigger Name**.
+22.	Click the **Escalation Rule** drop-down menu and select ```First Level```.
+23.	Click the **Save** Button.
+24.	Close the **Notification Manager** by clicking the **Back** button.
+25.	Click the **Operations** topic in the left-hand menu. 
+26. Click on **Schedule Build**. 
+27.	In the Schedule list, select **Escalation Example**.
+28. Select the **Released** radio button.
+29.	Click the **Build** button.
+30.	Expand the Schedule Build results and click the link to the **Processes** menu.
+* The only Job in the **Escalation Example** Schedule will fail triggering the **Escalation Event**.
+* You will receive a pop-up alert that reads **You have notifications to acknowledge**.
+* If you open Thunderbird you should see also the initial alert, as well as another email informing you that this process has been placed in escalation.
+31.	There are two ways to open the **Acknowledgement** screen. Either click the **Escalation Acknowledgement** option in the pop-up or click on the **Escalation Acknowledgement** icon on the left of the **SAM Pulse**.
+32.	Check the checkbox by the Escalation Event you want to **Acknowledge**.
+33.	Click the **Acknowledge** button.
+34.	Verify that the Event is marked as **Acknowledged** and it will clear from the screen.
+35.	Close the Escalation Acknowledgement box.
+
+## Enterprise Manager
 
 <details>
 
-<summary>Click for Step-By-Step Instructions</summary>
+:::tip [Walkthrough Video - Unit 3 Exercise 9](../static/videobasic/U3E9.mp4)
+
+:::
+
 
 1.	Under the **Management** topic, Double-Click on **Escalation Manager**. 
 2.	In the **Group** frame, click the Add button.
