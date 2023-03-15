@@ -10,6 +10,10 @@ sidebar_label: 'Integrated File Watcher Job'
 	* Centralizes Workflow setup
 	* Visual in Workflows
  
+## Enterprise Manager
+
+<details>
+
 ||
 |---|
 |![](../static/imgbasic/439.png)|
@@ -17,3 +21,5 @@ sidebar_label: 'Integrated File Watcher Job'
 ||
 |---|
 |![](../static/imgbasic/440.png)|
+
+</details>
