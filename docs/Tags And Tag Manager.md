@@ -12,7 +12,7 @@ sidebar_label: 'Tags And Tag Manager'
 
 ### Tag Manager/Add a Job Tag
 
-###3 Select Add to Create a New Tag 
+#### Select Add to Create a New Tag 
 
 |                                 |
 |---------------------------------|

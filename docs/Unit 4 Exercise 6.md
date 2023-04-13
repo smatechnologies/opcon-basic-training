@@ -78,7 +78,7 @@ Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule
 
 **Add the SubSchedule as a Container Job into the Primary Schedule**
 
-41.	In **Studio**, select **Repeating-SubSchedule-Primary**. 
+41.	In **Studio**, select **Repeating-Schedule-Primary**. 
 42. Click the **View** button.
 43.	Select **Add Job** in the side menu. 
 44.	In the **Name** textbox, enter **0700 Job**. 

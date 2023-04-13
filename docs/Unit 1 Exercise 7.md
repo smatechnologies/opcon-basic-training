@@ -20,7 +20,7 @@ Finally, put the Schedule back into an ```On Hold``` status.
     * In the Schedule Selection list, select **Schedule and Job Statuses** to build.
     * In the **Build Properties** side menu, click the **On Hold** radio button.
     * Click the **Build** button.
-2.	Click on the Schedule link to return to the **Processes** screen.
+2.	Click on **Back** to return to the **Processes** screen.
 3.	Release **Schedule and Job Statuses**.
     * Right-click on the **Schedule and Job Statuses** to open the **Schedule Selection** side menu.
     *	Click **Release** in the **Schedule Status Update** options to release the schedule.

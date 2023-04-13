@@ -38,8 +38,6 @@ Build the Schedule and view the results in Matrix View.
     *	Expand the **Frequency** box.
     *	In the **Inactive** list, select **Mon-Sun-O** and move it to the **Active** list.
     *	Click the **Save** button.
-  
-
     *	In **Studio**, with **My First Schedule** selected, click the **Test Event 1 Job** and click the **Copy** button in the side menu. 
     *	Name the Job **Test Event 2**.
     *	Click OK.
