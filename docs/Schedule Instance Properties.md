@@ -13,15 +13,11 @@ sidebar_label: 'Schedule Instance Properties'
 
 ### Add Instance Definition in Schedule Definition
 
-||
-|---|
-|![](../static/imgbasic/sm-schedule-instance-schedule-definition.png)|
+![](../static/imgbasic/sm-schedule-instance-schedule-definition.png)
 
 ### Add Instance Definition in Schedule Build
 
-||
-|---|
-|![](../static/imgbasic/342.png)|
+![](../static/imgbasic/342.png)
 
 ## Enterprise Manager
 
@@ -31,14 +27,10 @@ sidebar_label: 'Schedule Instance Properties'
 
 #### Schedule Instance Definition
 
-||
-|---|
-|![](../static/imgbasic/340.png)|
+![](../static/imgbasic/340.png)
 
 #### Command Line Syntax
 
-||
-|---|
-|![](../static/imgbasic/341.png)|
+![](../static/imgbasic/341.png)
 
 </details>

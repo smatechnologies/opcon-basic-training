@@ -79,21 +79,15 @@ This solution simplifies Frequencies definitions
 
 ### Container Job Schedule Path in Job Definition
 
-||
-|---|
-|![](../static/imgbasic/sm-subschedule-schedule-path-job-definition.png)| 
+![](../static/imgbasic/sm-subschedule-schedule-path-job-definition.png)
 
 ### Container Job Task Details
 
-||
-|---|
-|![](../static/imgbasic/sm-subschedule-in-job-definition.png)| 
+![](../static/imgbasic/sm-subschedule-in-job-definition.png) 
 
 ### Container Job Details in Job Summary
 
-||
-|---|
-|![](../static/imgbasic/sm-subschedule-details-job-summary.png)| 
+![](../static/imgbasic/sm-subschedule-details-job-summary.png) 
 
 ## Enterprise Manager
 
@@ -101,21 +95,15 @@ This solution simplifies Frequencies definitions
 
 ### SubSchedule Designation in Schedule Master
 
-||
-|---|
-|![](../static/imgbasic/425.png)| 
+![](../static/imgbasic/425.png) 
 
 ### SubSchedule Container Job
 
-||
-|---|
-|![](../static/imgbasic/426.png)| 
+![](../static/imgbasic/426.png) 
 
 ### SubSchedule Container Definition
 
-||
-|---|
-|![](../static/imgbasic/427.png)|
+![](../static/imgbasic/427.png)
 
 </details>
 

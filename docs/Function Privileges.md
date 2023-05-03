@@ -9,8 +9,6 @@ sidebar_label: 'Function Privileges'
 
 <details>
 
-||
-|---|
-|![](../static/imgbasic/310.png)|
+![](../static/imgbasic/310.png)
 
 </details>

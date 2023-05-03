@@ -7,14 +7,14 @@ sidebar_label: 'Action Buttons'
 The table contains the keyboard shortcuts for Solution Manager. If a shortcut has been implemented for a button, then the shortcut will be specified in the button tooltip.
 
 
-|Shortcut | Function | 
-|---------|----------|
-|Ctrl+Alt+A	| Admin Mode | 
-|Ctrl+Alt+H	| Help | 
-|Ctrl+Alt+R	| Refresh |
-|Ctrl+Enter	| Valid for form without Save button |
-|Ctrl+B	| Back | 
-|Ctrl+S	| Save |
+| Shortcut | Function | 
+| --- | --- |
+| Ctrl+Alt+A | Admin Mode | 
+| Ctrl+Alt+H | Help | 
+| Ctrl+Alt+R | Refresh |
+| Ctrl+Enter | Valid for form without Save button |
+| Ctrl+B | Back | 
+| Ctrl+S | Save |
 | Esc | Cancel/Undo/Exit/No |
 
 
@@ -34,12 +34,8 @@ The table contains the keyboard shortcuts for Solution Manager. If a shortcut ha
 * In Enterprise Manager, **Ctrl+Alt+K** (Show Key Assist) will display a shortcut menu
 * Content depends on the active screen
 
-||
-|-----------------------------------|
-|![Picture6](../static/imgbasic/Picture6.png)|
+![Picture6](../static/imgbasic/Picture6.png)
 
-||
-|-----------------------------------|
-|![Picture7](../static/imgbasic/Picture7.png)|
+![Picture7](../static/imgbasic/Picture7.png)
 
 </details>

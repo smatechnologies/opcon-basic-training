@@ -6,22 +6,15 @@ sidebar_label: 'SM - Job Status'
 
 ### Filter by Job Status  
 
-||
-|---|
-|![](../static/imgbasic/Picture70.png)|
+![](../static/imgbasic/Picture70.png)
 
-||
-|---|
-|![](../static/imgbasic/Picture71.png)|
-
+![](../static/imgbasic/Picture71.png)
 
 ### Scrolling Bulk-Selection
 
 * Multiple Schedules and/or Jobs can be selected at once by left-clicking and dragging the mouse pointer through desired selections
 
-||
-|---|
-|![](../static/imgbasic/Picture72.png)|
+![](../static/imgbasic/Picture72.png)
 
 ### Job Selection Options
 
@@ -38,10 +31,6 @@ When a Job is selected with a right-click several options are made available in 
 
 * Right-clicking on a selected Job will provide a detailed Job Summary Tab Screen  
 
-||
-|---|
-|![](../static/imgbasic/Picture73.png)|
- 
-||
-|---|
-|![](../static/imgbasic/Picture74.png)|
+![](../static/imgbasic/Picture73.png)
+
+![](../static/imgbasic/Picture74.png)

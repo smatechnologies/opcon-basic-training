@@ -78,7 +78,7 @@ In the **On Day Frequency Practice** Job, create a new Frequency named ```1st-da
   * Scroll to the **Frequency** tab and expand the dialog box.
   *	Click the **Add** button.
   *	Type **1st-day-of-month-wk** in the **Frequency Name** field.
-  *	In the **When to Schedule** dropdown list, select **On Occurrence**.
+  *	In the **When to Schedule** dropdown list, select **On Day**.
   *	Leave **Month Days** set to **On ```1``` Days of the week**.
   *	Select the **1st Working day** radio button for the **Day Type** parameter.
   * Click the **Save** button.

@@ -35,21 +35,15 @@ _Three Steps to setting up Departments in OpCon_:
 
 ### Create or Select a Department
 
-||
-|------------------------------------------------------------------------------------|
-|![Departments Main Screen (Solution Manager)](../static/imgbasic/department-main-screen.png)|
+![Departments Main Screen (Solution Manager)](../static/imgbasic/department-main-screen.png)
 
 ### Create Department
 
-||
-|---|
-|![](../static/imgbasic/sm-departments-create.png)|
+![](../static/imgbasic/sm-departments-create.png)
 
 ### Department in Job Details
 
-||
-|---|
-|![](../static/imgbasic/sm-departments-job-definition.png)|
+![](../static/imgbasic/sm-departments-job-definition.png)
 
 ## Enterprise Manager
 
@@ -59,20 +53,14 @@ _Three Steps to setting up Departments in OpCon_:
 
 #### Create or Select a Department
 
-||
-|------------------------------------------------------------------------------------|
-|![](../static/imgbasic/307.png)|
+![](../static/imgbasic/307.png)
 
 #### Department Privileges
 
-||
-|-------------------------------------------|
-|![](../static/imgbasic/308.png)|
+![](../static/imgbasic/308.png)
 
 #### Department in Job Master
 
-||
-|------------------------------------------------|
-|![](../static/imgbasic/309.png) |
+![](../static/imgbasic/309.png)
 
 </details>

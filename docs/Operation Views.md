@@ -6,15 +6,11 @@ sidebar_label: 'Operation Views'
 
 ### Operations Portal Buttons
 
-||
-|---|
-|![](../static/imgbasic/sm-operations-home.png)|
+![](../static/imgbasic/sm-operations-home.png)
 
 ### Operations Summary
 
-||
-|---|
-|![](../static/imgbasic/sm-operations-summary-screen.png)|
+![](../static/imgbasic/sm-operations-summary-screen.png)
 
 ### Daily Processes
 
@@ -52,42 +48,29 @@ sidebar_label: 'Operation Views'
 * Isolate Dependency Chains, Predecessors, or Successors
 * Job Status indicated by colors and icons
 
-||
-|---|
-|![Picture8](../static/imgbasic/Picture80.png)|
+![Picture8](../static/imgbasic/Picture80.png)
 
-||
-|---|
-|![Picture81](../static/imgbasic/Picture81.png)|  
+![Picture81](../static/imgbasic/Picture81.png)  
 
 ### Bread Crumb Navigation
 
 In addition to selecting processes through the primary Date, Schedule, and Job panes, Navigation is also simplified with the Bread Crumb Navigation bar at the bottom of the browser 
 
-||
-|---|
-|![Picture82](../static/imgbasic/Picture82.png)| 
+![Picture82](../static/imgbasic/Picture82.png) 
 
 ### Job Status and Selection Options
 
 #### Filter by Job Status  
 
-||
-|---|
-|![Picture70](../static/imgbasic/Picture70.png)|
+![Picture70](../static/imgbasic/Picture70.png)
 
-||
-|---|
-|![Picture71](../static/imgbasic/Picture71.png)|
-
+![Picture71](../static/imgbasic/Picture71.png)
 
 ### Scrolling Bulk-Selection
 
 * Multiple Schedules and/or Jobs can be selected at once by left-clicking and dragging the mouse pointer through desired selections
 
-||
-|---|
-|![Picture72](../static/imgbasic/Picture72.png)|
+![Picture72](../static/imgbasic/Picture72.png)
 
 ### Job Selection Options
 
@@ -104,14 +87,9 @@ When a Job is selected with a right-click several options are made available in 
 
 * Right-clicking on a selected Job will provide a detailed Job Summary Tab Screen  
 
-||
-|---|
-|![Picture73](../static/imgbasic/Picture73.png)|
+![Picture73](../static/imgbasic/Picture73.png)
 
-||
-|---|
-|![Picture74](../static/imgbasic/Picture74.png)|
-
+![Picture74](../static/imgbasic/Picture74.png)
 
 ## Enterprise Manager
 
@@ -122,32 +100,21 @@ When a Job is selected with a right-click several options are made available in 
   * Matrix View
   * PERT View 
 
-||
-|---|
-|![Picture33](../static/imgbasic/Picture33.png)|
+![Picture33](../static/imgbasic/Picture33.png)
 
-||
-|---| 
-|![Picture34](../static/imgbasic/Picture34.png)|
+![Picture34](../static/imgbasic/Picture34.png)
 
-||
-|---|
-|![Picture35](../static/imgbasic/Picture35.png)|
+![Picture35](../static/imgbasic/Picture35.png)
 
 #### List View
-
 
 * **Daily List** view displays all dates that have Schedules built
   * **Daily List** provides a tree view for Schedule dates that can be expanded to show Schedule and Job information in alphabetical order
   * View, filter, and update Schedule and Job information
 
-||
-|---|
-|![Picture36](../static/imgbasic/Picture36.png)|
+![Picture36](../static/imgbasic/Picture36.png)
 
-||
-|---|
-|![Picture36](../static/imgbasic/Picture36.png)|
+![Picture36](../static/imgbasic/Picture36.png)
 
 #### Matrix View
 
@@ -157,21 +124,16 @@ When a Job is selected with a right-click several options are made available in 
   * A List of Schedules for selected day
   * The Job Matrix table shows all Jobs in a selected Schedule
 
-||
-|---|
-|![Picture38](../static/imgbasic/Picture38.png)| 
+![Picture38](../static/imgbasic/Picture38.png) 
 
 #### PERT View
-
 
 * **PERT** view provides the best graphical view for a Schedule’s individual Jobs and relationships
 * **PERT** displays Job Dependency, Threshold, and Resource relationships and Job current status in simple schedules
 * **Listen for Selection Changes in Other Views** (located on PERT toolbar) must be activated in **PERT** view
 * **Date** or **Schedule** must be selected in **List** or **Matrix** view before any information will display in **PERT** view
 
-||
-|---|
-|![Picture39](../static/imgbasic/Picture39.png)|
+![Picture39](../static/imgbasic/Picture39.png)
 
 #### Arrange Views and Synchronize
 
@@ -179,13 +141,9 @@ When a Job is selected with a right-click several options are made available in 
 * In **Matrix** or **List** view, select date for the Schedule 
 * View the output inside all three of these views
 
-||
-|---|
-|![Picture40](../static/imgbasic/Picture40.png)|
+![Picture40](../static/imgbasic/Picture40.png)
 
-||
-|---|
-|![Picture41](../static/imgbasic/Picture41.png)|
+![Picture41](../static/imgbasic/Picture41.png)
 
 ##### Multiple Views – One Screen 
 
@@ -197,9 +155,7 @@ Example:
 * The **Rectangle** represents new postion of PERT tab  
 * Release mouse button  
 
-||
-|---|
-|![Picture42](../static/imgbasic/Picture42.png)|
+![Picture42](../static/imgbasic/Picture42.png)
 
 * **Listen for Selection Changes in Other Views** and **Send current selection to other views in List and Matrix views** must be activated
 * **Listen for selection changes in other** views must be activated in PERT view
@@ -208,12 +164,8 @@ Example:
 * Select a schedule to view
 * Arrange the views so that Daily List, Matrix, and PERT views are all visible in the Enterprise Manager interface
 
-||
-|---|
-|![Picture44](../static/imgbasic/Picture44.png)|
+![Picture44](../static/imgbasic/Picture44.png)
 
-||
-|---|
-|![Picture43](../static/imgbasic/Picture43.png)|
+![Picture43](../static/imgbasic/Picture43.png)
 
 </details>

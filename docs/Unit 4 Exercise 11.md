@@ -6,7 +6,6 @@ sidebar_label: 'Unit 4 Exercise 11'
 
 ### Objective:
 
-
 Create a Schedule named **Windows File Arrival**.
 Within the **Windows File Arrival** Schedule, create a Windows Job named **Windows File Arrival Job** with a ```File Arrival``` **Job Action** running a Monday-Friday Frequency.
 

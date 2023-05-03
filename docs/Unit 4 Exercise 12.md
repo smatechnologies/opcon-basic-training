@@ -61,8 +61,8 @@ Build the Schedule Released for Today. Release the **Create File** Job in the **
 	* **Job Action**: ```File Arrival```
 	* **User ID**: ```SMATRAINING\SMAUSER```
 	* **File Name**: ```"C:\Multi-File Arrival\MultiFile*.txt"```
-	* **Start Time**: ```0900```
-	* **End Time**: ```1700```
+	* **Start Time**: ```09:00 AM```
+	* **End Time**: ```05:00 PM```
 	* **File Size Stable Duration (in secs)**: ```5```
 3.	Give the Job the ```Mon-Fri-N``` Frequency.
 4.	In the **Events** box, **Add** a new Event.

@@ -26,11 +26,9 @@ Create and save a Schedule named **MY FIRST SCHEDULE**. Provide documentation to
 
 <details>
 
-<!--
 :::tip [Walkthrough Video - Unit 1 Exercise 1](../static/videobasic/U1E1.mp4)
 
 :::
--->
 
 Steps to Create a Schedule  
 1.	Under the **Administration** tab, Double-Click on **Schedule Master**.   

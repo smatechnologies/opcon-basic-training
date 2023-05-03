@@ -8,9 +8,7 @@ sidebar_label: 'File Arrival Jobs'
 * Use Properties in Path if needed
 * Windows File Arrival Jobs can utilize Advanced Failure Criteria
 
-||
-|---|
-|![](../static/imgbasic/File_Arrival_Windows_SM.png)|
+![](../static/imgbasic/File_Arrival_Windows_SM.png)
 
 
 ### UNIX File Arrival Jobs
@@ -18,18 +16,14 @@ sidebar_label: 'File Arrival Jobs'
 * UNIX standard wildcards allowed in file name
 * Use Properties in the Path if needed
 
-||
-|---|
-|![](../static/imgbasic/File_Arrival_UNIX_SM.png)|
+![](../static/imgbasic/File_Arrival_UNIX_SM.png)
 
 * File Arrival Job finishes OK
 	* Fails if file does not arrive in Time Stamp Window
 * LSAMs (Windows and UNIX) set some Properties for that Job
 	* Work as Job Instance Properties for File Arrival Job:
 
-||
-|---|
-|![](../static/imgbasic/444.png)|
+![](../static/imgbasic/444.png)|
 
 ###### Example:
 
@@ -52,33 +46,25 @@ sidebar_label: 'File Arrival Jobs'
  Windows standard wildcards allowed in file name
 * Use Properties in Path if needed
 
-||
-|---|
-|![](../static/imgbasic/441.png)|
+![](../static/imgbasic/441.png)
 
 * Windows File Arrival Jobs can utilize Advanced Failure Criteria
 
-||
-|---|
-|![](../static/imgbasic/442.png)|
+![](../static/imgbasic/442.png)
 
 #### UNIX File Arrival Jobs
 
 * UNIX standard wildcards allowed in file name
 * Use Properties in the Path if needed
 
-||
-|---|
-|![](../static/imgbasic/443.png)|
+![](../static/imgbasic/443.png)
 
 * File Arrival Job finishes OK
 	* Fails if file does not arrive in Time Stamp Window
 * LSAMs (Windows and UNIX) set some Properties for that Job
 	* Work as Job Instance Properties for File Arrival Job:
 
-||
-|---|
-|![](../static/imgbasic/444.png)|
+![](../static/imgbasic/444.png)
 
 ###### Example:
 

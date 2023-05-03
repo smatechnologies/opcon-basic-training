@@ -12,9 +12,7 @@ sidebar_label: 'Looping Jobs'
 Job Dependency of subsequent Jobs will not be met until last run
 :::
 
-||
-|---|
-|![](../static/imgbasic/SM_LoopingJobs_RunAgain.png)|
+![](../static/imgbasic/SM_LoopingJobs_RunAgain.png)
 
 ### Looping Jobs - Restart Offset
 
@@ -26,9 +24,7 @@ Job Dependency of subsequent Jobs will not be met until last run
 Job Dependency of subsequent Jobs will not be met until last run
 :::
 
-||
-|---|
-|![](../static/imgbasic/SM_LoopingJobs_RestartOffset.png)|
+![](../static/imgbasic/SM_LoopingJobs_RestartOffset.png)
 
 ### Looping Jobs - Recurring Instances
 
@@ -39,10 +35,7 @@ Job Dependency of subsequent Jobs will not be met until last run
 Job Dependency of subsequent Jobs will not be met until last run
 :::
 
-||
-|---|
-|![](../static/imgbasic/SM_LoopingJobs_RecurringInstances.png)|
-
+![](../static/imgbasic/SM_LoopingJobs_RecurringInstances.png)
 
 ### Looping Jobs on Failure
 
@@ -52,9 +45,7 @@ Job Dependency of subsequent Jobs will not be met until last run
 OpCon will flag a Job as failed after the last attempt
 :::
 
-||
-|---|
-|![](../static/imgbasic/SM_LoopingJobs_JobFails.png)|
+![](../static/imgbasic/SM_LoopingJobs_JobFails.png)
 
 ## Enterprise Manager
 
@@ -68,9 +59,7 @@ OpCon will flag a Job as failed after the last attempt
 Job Dependency of subsequent Jobs will not be met until last run
 :::
 
-||
-|---|
-|![](../static/imgbasic/256.png)|
+![](../static/imgbasic/256.png)
 
 #### Looping Jobs - Restart Offset
 
@@ -82,9 +71,7 @@ Job Dependency of subsequent Jobs will not be met until last run
 Job Dependency of subsequent Jobs will not be met until last run
 :::
 
-||
-|---|
-|![](../static/imgbasic/257.png)|
+![](../static/imgbasic/257.png)
 
 #### Looping Jobs - Recurring Instances
 
@@ -95,10 +82,7 @@ Job Dependency of subsequent Jobs will not be met until last run
 Job Dependency of subsequent Jobs will not be met until last run
 :::
 
-||
-|---|
-|![](../static/imgbasic/258.png)|
-
+![](../static/imgbasic/258.png)
 
 #### Looping Jobs on Failure
 
@@ -108,8 +92,6 @@ Job Dependency of subsequent Jobs will not be met until last run
 OpCon will flag a Job as failed after the last attempt
 :::
 
-||
-|---|
-|![](../static/imgbasic/259.png)|
+![](../static/imgbasic/259.png)
 
 </details>

@@ -15,17 +15,12 @@ sidebar_label: 'Windows File Movement Job Sub-Types'
 	* **Corelation** - Special integration with Corelation
   * **WSFTP Pro** - Special integration with WSFTP Pro
 
-
-||
-|---|
-|![](../static/imgbasic/Job_Subtypes_SM.png)|
+![](../static/imgbasic/Job_Subtypes_SM.png)
 
 ## Enterprise Manager
 
 <details>
 
-||
-|---|
-|![](../static/imgbasic/436.png)|
+![](../static/imgbasic/436.png)
 
 </details>

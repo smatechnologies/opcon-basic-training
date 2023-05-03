@@ -35,9 +35,7 @@ sidebar_label: 'User Accounts and Role Management'
   * This is required for Email Escalation (to be covered later in this Unit)
   * If the field is not editable, the SMTP connection information is not configured within OpCon
 
-||
-|---|
-|![](../static/imgbasic/3301.png)|
+![](../static/imgbasic/3301.png)
 
 #### Roles
 
@@ -50,8 +48,6 @@ Roles are used to maintain Privileges for multiple User Accounts
     * **If marked**: Role will automatically include Privileges granted for all items including all new items
     * **If not marked**: Role will only include specific Privileges granted
 
-||
-|---|
-|![](../static/imgbasic/3302.png)|
+![](../static/imgbasic/3302.png)
 
 </details>

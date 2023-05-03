@@ -31,15 +31,11 @@ Log Collectors
 * The SMA DataCollector Program can collect all SMA application Logs
   * SMASUP will collect all LSAM (Agent) Logs
 
-||
-|---|
-|![Picture54](../static/imgbasic/Picture54.png)|  
+![Picture54](../static/imgbasic/Picture54.png)  
 
 #### Log Location in Windows
 
-||
-|---|
-|![](../static/imgbasic/sm-log-folder-window-file.png)|
+![](../static/imgbasic/sm-log-folder-window-file.png)
 
 ### SAM Log
 
@@ -65,32 +61,21 @@ Running list of all transactions
 
 #### Sam Log Windows File
 
-||
-|---|
-|![](../static/imgbasic/sm-sam-log-windows-file.png)|
+![](../static/imgbasic/sm-sam-log-windows-file.png)
 
 #### Critical Log Windows File
 
-||
-|---|
-|![](../static/imgbasic/sm-critical-log-windows-file.png)|
+![](../static/imgbasic/sm-critical-log-windows-file.png)
 
 ### Job Output Menu in Job Processes
 
-||
-|---|
-|![](../static/imgbasic/sm-job-output-from-processes.png)|
+![](../static/imgbasic/sm-job-output-from-processes.png)
 
-||
-|---|
-|![](../static/imgbasic/sm-job-output-side-panel.png)|
+![](../static/imgbasic/sm-job-output-side-panel.png)
 
 ### Job Output File
 
-||
-|---|
-|![](../static/imgbasic/sm-job-output-log-file.png)|
-
+![](../static/imgbasic/sm-job-output-log-file.png)
 
 ## Enterprise Manager
 
@@ -98,23 +83,17 @@ Running list of all transactions
 
 #### Log Shortcuts Shortcuts  
 
-  * Auto-updating Logs (current Logs)
-  * **Requires OpConxps folder to be shared with users**
+* Auto-updating Logs (current Logs)
+* **Requires OpConxps folder to be shared with users**
 
-||
-|---|
-|![Picture53](../static/imgbasic/Picture53.png)|
+![Picture53](../static/imgbasic/Picture53.png)
 
 #### SAM Log
 
-||
-|---|
-|![Picture55](../static/imgbasic/Picture55.png) | 
+![Picture55](../static/imgbasic/Picture55.png)
 
 #### Critical Log
 
-||
-|---|
-|![Picture56](../static/imgbasic/Picture56.png)| 
+![Picture56](../static/imgbasic/Picture56.png) 
 
 </details>

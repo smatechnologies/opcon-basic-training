@@ -63,7 +63,7 @@ Open **Thunderbird** to verify Notifications.
 	* Change the **Value** in the textbox to ```4```.
 	* Click the **Save** button
 	* Click the **Save** button in **Master Job Definition**
-18.	In **Library**, under **Management** select **Notification Triggers** and click the **Jobs** tab.
+18.	In **Library**, under **Management** select **Notification Triggers**.
 19. Select **Manage Groups** and click the **Add** button.
 20. In the **Name** textbox, type **ExerciseResource**
 21. In the **Type** dropdown list, select **Job**.

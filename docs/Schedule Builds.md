@@ -13,10 +13,16 @@ sidebar_label: 'Schedule Builds'
 * Auto building **X days in advance** is the starting day to build on
 * Auto building **for Y days** is how far out to build
 * OpCon builds Schedules automatically at midnight (by default)
-  * Example: ```7``` days in advance for 1 day will build on the 7th counted day in the future (the first counted day is Day ```0```)
-  * Example: ```0``` days in advance for ```7``` days will build **daily** for ```7``` days (the first counted day is Day ```0```)
-
 * Best Practice for Autobuild is **7 days in advance for 1 day**
+ 
+  * Example: ```7``` days in advance for 1 day will build on the 7th counted day in the future (the first counted day is Day ```0```)
+
+   ![](../static/imgbasic/7-1-build-settings.jpg)
+
+  * Example: ```0``` days in advance for ```7``` days will build **daily** for ```7``` days (the first counted day is Day ```0```)
+ 
+   ![](../static/imgbasic/1-7-build-settings.jpg)
+
 
 ### Manual Build
 
@@ -27,31 +33,20 @@ sidebar_label: 'Schedule Builds'
   * Overwrite Existing Schedules Option
 * Users can also filter Schedules with Auto-build or Multi-Instance configurations
 
-||
-|---|
-|![Picture59](../static/imgbasic/Picture59.png)|
+![Picture59](../static/imgbasic/Picture59.png)
 
-||
-|---|
-|![Picture60](../static/imgbasic/Picture60.png)|
- 
+![Picture60](../static/imgbasic/Picture60.png)
 
 ### Schedule Build Grouping
 
 * Multiple Builds can be bundled and tracked as a group
 * The bundle can be expanded to view and monitor the status of each Build
 
-||
-|---|
-|![Picture61](../static/imgbasic/Picture61.png)|
+![Picture61](../static/imgbasic/Picture61.png)
 
-||
-|---| 
-|![Picture62](../static/imgbasic/Picture62.png)|
+![Picture62](../static/imgbasic/Picture62.png)
 
-||
-|---|
-|![Picture63](../static/imgbasic/Picture63.png)|
+![Picture63](../static/imgbasic/Picture63.png)
 
 ## Enterprise Manager
 
@@ -61,22 +56,16 @@ sidebar_label: 'Schedule Builds'
 
 ##### Autobuild Example 1:
 
-||
-|---|
-|![Picture30](../static/imgbasic/Picture30.png)|
+![Picture30](../static/imgbasic/Picture30.png)
 
 ##### Autobuild Example 2:
 
-||
-|---|
-|![Picture31](../static/imgbasic/Picture31.png)|
+![Picture31](../static/imgbasic/Picture31.png)
 
 #### Manual Build
 
 * The **Build Schedules** screen contains a list of Schedules to build, all information needed to build a Schedule, and a Build Results list
 
-||
-|---|
-|![Picture32](../static/imgbasic/Picture32.png)|
+![Picture32](../static/imgbasic/Picture32.png)
 
 </details>

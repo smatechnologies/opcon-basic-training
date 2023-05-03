@@ -6,27 +6,19 @@ sidebar_label: 'Working in Admin Mode'
 
 To Create and Modify Requests, be sure that the Administrator User Functionality is available by *unlocking* the Admin Console in the Top Right-Hand Corner
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceAdminLocked.png)|
+![](../static/imgbasic/SelfServiceAdminLocked.png)
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceAdminUnlocked.png)|
+![](../static/imgbasic/SelfServiceAdminUnlocked.png)
 
 * The ```Admin Mode``` button will not be visible to non ```ocadm``` Role users or a Role with no ```Maintain Service Request``` Privileges.
 
 * To create a **Category** used to group Requests, select the small ```Create``` text in the Left-Hand Corner
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCreateCategory.png)|
+![](../static/imgbasic/SelfServiceCreateCategory.png)
 
 * To create a **Request** select the **Center *Green* ** ```Create``` **Button**
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCreateRequest.png)|
+![](../static/imgbasic/SelfServiceCreateRequest.png)
 
 ### Managing Service Requests
 
@@ -40,9 +32,7 @@ To Edit a Service Request:
 * Modify any of the existing information or settings
 * Click the ```Save``` button
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceEditRequest.png)|
+![](../static/imgbasic/SelfServiceEditRequest.png)
 
 ### Copying Service Requests
 
@@ -51,9 +41,7 @@ To Edit a Service Request:
 * Modify any of the existing information or settings necessary
 * Click the ```Save``` button
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceCopyRequest.png)|
+![](../static/imgbasic/SelfServiceCopyRequest.png)
 
 ### Deleting Service Requests
 
@@ -61,6 +49,4 @@ To Edit a Service Request:
 * Click **OK** on the **Confirmation** page 
     * The Service Request will be deleted
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceDeleteRequest.png)|
+![](../static/imgbasic/SelfServiceDeleteRequest.png)

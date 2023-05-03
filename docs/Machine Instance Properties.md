@@ -13,21 +13,15 @@ Machine Instance Properties are case sensitive
 
 ### Agent Details
 
-||
-|---|
-|![](../static/imgbasic/sm-agent-details.png)|
+![](../static/imgbasic/sm-agent-details.png)
 
 ### Advanced Machine Properties
 
-||
-|---|
-|![](../static/imgbasic/sm-administrative-machine-information.png)|
+![](../static/imgbasic/sm-administrative-machine-information.png)
 
 ### Command Line Formatting
 
-||
-|---|
-|![](../static/imgbasic/sm-machine-properties-command-line.png)|
+![](../static/imgbasic/sm-machine-properties-command-line.png)
 
 ## Enterprise Manager
 
@@ -35,20 +29,14 @@ Machine Instance Properties are case sensitive
 
 #### Agent Details
 
-||
-|---|
-|![](../static/imgbasic/343.png)|
+![](../static/imgbasic/343.png)
 
 #### Advanced Machine Properties
 
-||
-|---|
-|![](../static/imgbasic/344.png)|
+![](../static/imgbasic/344.png)
 
 #### Command Line Formatting
 
-||
-|---|
-|![](../static/imgbasic/34501.png)|
+![](../static/imgbasic/34501.png)
 
 </details>
