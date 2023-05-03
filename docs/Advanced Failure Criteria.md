@@ -9,9 +9,7 @@ sidebar_label: 'Advanced Failure Criteria'
 
 ### Basic Failure Criteria
 
-||
-|---|
-|![](../static/imgbasic/sm-failure-criteria-job-definition.png)|
+![](../static/imgbasic/sm-failure-criteria-job-definition.png)
 
 ## Enterprise Manager
 
@@ -19,8 +17,6 @@ sidebar_label: 'Advanced Failure Criteria'
 
 #### Advanced Failure Criteria
 
-||
-|---|
-|![](../static/imgbasic/356.png)
+![](../static/imgbasic/356.png)
 
 </details>

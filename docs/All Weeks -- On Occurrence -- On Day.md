@@ -12,9 +12,7 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within the Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![Picture237](../static/imgbasic/SM_Frequency_AllWeeks.png)|
+![Picture237](../static/imgbasic/SM_Frequency_AllWeeks.png)
 
 ### On Occurrence
 
@@ -24,9 +22,7 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![Picture238](../static/imgbasic/SM_Frequency_OnOccurrence.png)|
+![Picture238](../static/imgbasic/SM_Frequency_OnOccurrence.png)
 
 ### On Day
 
@@ -37,9 +33,7 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![Picture239](../static/imgbasic/SM_Frequency_OnDay.png)|
+![Picture239](../static/imgbasic/SM_Frequency_OnDay.png)
 
 
 ## Enterprise Manager
@@ -56,9 +50,7 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within the Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![Picture237](../static/imgbasic/237.png)|
+![Picture237](../static/imgbasic/237.png)
 
 #### On Occurrence
 
@@ -68,9 +60,7 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![Picture238](../static/imgbasic/238.png)|
+![Picture238](../static/imgbasic/238.png)
 
 #### On Day
 
@@ -81,9 +71,6 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![Picture239](../static/imgbasic/239.png)|
-
+![Picture239](../static/imgbasic/239.png)
 
 </details>

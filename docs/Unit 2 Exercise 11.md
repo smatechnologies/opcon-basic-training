@@ -25,7 +25,7 @@ Within the same Schedule, create a new Job named **NEGATIVE FREQUENCIES**. The J
   *	Use the Multi-Forecast button to view both Frequencies.
 
 2.	**Negative Frequencies**
-  *	In a new Null Job (same Schedule) named **NEGATIVE FREQUENCIES, set up Frequencies allowing the Job to run every day of the month, Monday through Friday, unless it is a Holiday or the last Day of the Month.
+  *	In a new Null Job (same Schedule) named **NEGATIVE FREQUENCIES**, set up Frequencies allowing the Job to run every day of the month, Monday through Friday, unless it is a Holiday or the last Day of the Month.
 
   *	Use the Multi-Forecast button to view both Frequencies.
 

@@ -15,15 +15,11 @@ sidebar_label: 'SM - Job Configuration'
   * Job Instance Properties
   * Frequency Details
 
-||
-|---|
-|![](../static/imgbasic/Picture75.png)|
+![](../static/imgbasic/Picture75.png)
 
 ### Windows Job Task Details Screen:
 
-||
-|---|
-|![](../static/imgbasic/Picture76.png)|
+![](../static/imgbasic/Picture76.png)
 
 ### Windows Job Task Configurable Options
 
@@ -42,9 +38,7 @@ Currently configurable options:
 * Job Output Parsing  
 * Environmental Variables  
 
-||
-|---|
-|![](../static/imgbasic/Picture77.png)|
+![](../static/imgbasic/Picture77.png)
 
 ### Job Status Screen
 
@@ -52,12 +46,8 @@ Right-Click Jobs and available actions appear
 
 * If Multiple Jobs are selected, Actions on those Jobs can occur at once selected 
 
-||
-|---|
-|![](../static/imgbasic/Picture78.png)|
+![](../static/imgbasic/Picture78.png)
 
 ### Bulk Job Status Update
 
-||
-|---|
-|![](../static/imgbasic/Picture79.png)|
+![](../static/imgbasic/Picture79.png)

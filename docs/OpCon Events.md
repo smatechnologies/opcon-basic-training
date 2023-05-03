@@ -50,9 +50,9 @@ Beginning with OpCon 20.0 - External Event Passwords must be created by generati
 
 ### Generate External Token
 
-|                                                  |
-|--------------------------------------------------|
-|![](../static/imgbasic/PictureExternalTokenSM.png)|
+![](../static/imgbasic/PictureExternalTokenSM.png)
+
+<!--
 
 To add a new OpCon Event in Self Service:
 
@@ -62,17 +62,13 @@ To add a new OpCon Event in Self Service:
 
 ### Add New Event
 
-|                                                |
-|------------------------------------------------|
-|![](../static/imgbasic/SelfServiceEditEvent.png)|
+![](../static/imgbasic/SelfServiceEditEvent.png)
 
 * The Variables will then be picked up as **User Inputs** to be configured upon Request Initiation
 
 ### User Inputs
 
-|                                                         |
-|---------------------------------------------------------|
-|![](../static/imgbasic/SelfServiceVariableUserInputs.png)|
+![](../static/imgbasic/SelfServiceVariableUserInputs.png)
 
 The following **System Variables** are available specifically for **Solution Manager**:
 
@@ -98,19 +94,16 @@ To Manually Edit an Event, click the **Manual Edit** button
 
 ### Edit User Events
 
-|                                                            |
-|------------------------------------------------------------|
-|![](../static/imgbasic/SelfServiceEventManualEditButton.png)|
-|![](../static/imgbasic/SelfServiceEventManualEditScreen.png)| 
+![](../static/imgbasic/SelfServiceEventManualEditButton.png)
+![](../static/imgbasic/SelfServiceEventManualEditScreen.png)
 
 ### Order of Events
 
 * The order of Defined Events can be altered by using the Up and Down arrows at the top of the Events List
     * The order shown in the Events List is the order, Top Down, in which the Events will be passed to and processed by the SAM
 
-| Event Order - Solution Manager                                       |
-|----------------------------------------------------------------------|
-|![](../static/imgbasic/SelfServiceEventOrder.png)                     |
+![](../static/imgbasic/SelfServiceEventOrder.png)
+-->
 
 ## Enterprise Manager
 
@@ -118,17 +111,13 @@ To Manually Edit an Event, click the **Manual Edit** button
 
 #### Event Quick Search
 
-|                                         |
-|-----------------------------------------|
-|![](../static/imgbasic/346.png)          |
+![](../static/imgbasic/346.png)
 
 #### Generate External Token
 
-| Generate External Token - Enterprise Manager                        |
-|---------------------------------------------------------------------|
-|![](../static/imgbasic/PictureExternalTokenMenuEM.png)               |
-|![](../static/imgbasic/PictureExternalTokenEM.png)                   |
-
+Generate External Token - Enterprise Manager
+![](../static/imgbasic/PictureExternalTokenMenuEM.png)
+![](../static/imgbasic/PictureExternalTokenEM.png)
 
 :::note
 Beginning with OpCon 20.0 - External Events are disabled by default and must be enabled by ```ocadm``` or a User with appropriate Administrative Privileges
@@ -141,15 +130,13 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
 
 ##### SAM Log
 
-| SAM LOG - Enterprise Manager                 |
-|----------------------------------------------|
-|![](../static/imgbasic/347.png)               |
+SAM LOG - Enterprise Manager
+![](../static/imgbasic/347.png)
 
 ##### Critical Log
 
-| Critical LOG - Enterprise Manager            |
-|----------------------------------------------|
-|![](../static/imgbasic/348.png)               |
+Critical LOG - Enterprise Manager
+![](../static/imgbasic/348.png)
 
 #### MSGIN - External Events
 
@@ -160,8 +147,6 @@ Beginning with OpCon 20.0 - External Events are disabled by default and must be 
     * ```MSGIN``` path in UNIX is ```/usr/local/lsam```
     * The Folder should always be empty because Agents pick up Events extremely quickly after dropped into ```MSGIN``` – Testing can be done by viewing SAM.log for behavior status
 
-| MSGIN - Enterprise Manager                                          |
-|---------------------------------------------------------------------|
-|![](../static/imgbasic/349.png)                                      |
+![](../static/imgbasic/349.png)
 
 </details>

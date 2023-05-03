@@ -8,6 +8,7 @@ sidebar_label: 'System Properties'
 **Properties** are variables stored in the database that can be used throughout OpCon
 * Defined with name and value
 :::
+
 * **Global Properties** (OpCon Instance Properties) are variables associated with the entire environment  
 * **Job Instance Properties** are variables associated with a specific Job
 * **Schedule Instance Properties** are variables associated with a specific Schedule
@@ -45,15 +46,11 @@ sidebar_label: 'System Properties'
 
 ### Global Properties List
 
-||
-|---|
-|![](../static/imgbasic/sm-global-properties-list.png)|
+![](../static/imgbasic/sm-global-properties-list.png)
 
 ### System Properties in Command Line
 
-|                                                                 |
-|-----------------------------------------------------------------|
-|![](../static/imgbasic/sm-system-properties-command-line.png)|
+![](../static/imgbasic/sm-system-properties-command-line.png)
 
 ## Enterprise Manager 
 
@@ -61,21 +58,14 @@ sidebar_label: 'System Properties'
 
 #### Global Properties List
 
-||
-|---|
-|![](../static/imgbasic/334.png)|
+![](../static/imgbasic/334.png)
 
 #### System Properties in Command Line
 
-||
-|---|
-|![](../static/imgbasic/335.png)|
+![](../static/imgbasic/335.png)
 
 #### System Properties in File Transfer
 
-||
-|---|
-|![](../static/imgbasic/336.png)|
-
+![](../static/imgbasic/336.png)
 
 </details>

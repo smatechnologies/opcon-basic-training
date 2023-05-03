@@ -14,45 +14,33 @@ sidebar_label: 'Tags And Tag Manager'
 
 #### Select Add to Create a New Tag 
 
-|                                 |
-|---------------------------------|
-|![SM Tags](../static/imgbasic/sm-tags.png)|
+![SM Tags](../static/imgbasic/sm-tags.png)
 
 #### Enter a Tag Name
-|                                 |
-|---------------------------------|
-|![SM Tag Add](../static/imgbasic/sm-tag-add.png)|
+
+![SM Tag Add](../static/imgbasic/sm-tag-add.png)
 
 #### Select Jobs to Tag
 
 * Click the Filter bar to populate a list of available Schedules and Jobs
 
-|                                 |
-|---------------------------------|
-|![SM Tag Add List](../static/imgbasic/sm-tag-add-list.png)|
-
+![SM Tag Add List](../static/imgbasic/sm-tag-add-list.png)
 
 ## Enterprise Manager
 
 <details>
 
-|                                 |
-|---------------------------------|
-|![Picture26](../static/imgbasic/Picture26.png)|  
+![Picture26](../static/imgbasic/Picture26.png)  
 
 #### Add a Job Tag
 
-|                                 |
-|---------------------------------|
-|![Picture27](../static/imgbasic/Picture27.png)|
+![Picture27](../static/imgbasic/Picture27.png)
 
 #### Tag Manager
 
 * Tag Manager provides an easy way to search and view any Jobs using that Tag 
 * Allows for renaming and deleting Tags
 
-|                                 |
-|---------------------------------|
-|![Picture28](../static/imgbasic/Picture28.png)|
+![Picture28](../static/imgbasic/Picture28.png)
 
 </details>

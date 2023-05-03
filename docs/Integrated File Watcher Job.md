@@ -14,12 +14,8 @@ sidebar_label: 'Integrated File Watcher Job'
 
 <details>
 
-||
-|---|
-|![](../static/imgbasic/439.png)|
+![](../static/imgbasic/439.png)
 
-||
-|---|
-|![](../static/imgbasic/440.png)|
+![](../static/imgbasic/440.png)
 
 </details>

@@ -21,21 +21,15 @@ SQL Agent also requires an added valid Batch User Privilege
 
 ### Batch User Selection
 
-||
-| ------------------------------ |
-|![](../static/imgbasic/sm-batch-users-select.png)| 
+![](../static/imgbasic/sm-batch-users-select.png)
 
 ### Add Batch User
 
-||
-| ------------------------------------|
-|![](../static/imgbasic/sm-batch-users-add.png)|
+![](../static/imgbasic/sm-batch-users-add.png)
 
 ### Batch User Privileges
 
-||
-| ------------------------------------------ |
-|![](../static/imgbasic/sm-batch-user-privileges.png)|
+![](../static/imgbasic/sm-batch-user-privileges.png)
 
 ## Enterprise Manager
 
@@ -45,14 +39,10 @@ SQL Agent also requires an added valid Batch User Privilege
 
 #### Batch User Selection
 
-|| 
-| --------------------------------------- |
-|![](../static/imgbasic/3305.png)|
+![](../static/imgbasic/3305.png)
 
 #### Batch User Privileges
 
-||
-| --------------------- |
-|![](../static/imgbasic/3306.png)|
+![](../static/imgbasic/3306.png)
 
 </details>

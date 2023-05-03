@@ -8,18 +8,13 @@ sidebar_label: 'Null Jobs'
 
 ### Null Job Task Details
 
-|                                         | 
-|-----------------------------------------|
-|![Picture207](../static/imgbasic/207.png)|
-
+![Picture207](../static/imgbasic/207.png)
 
 ## Enterprise Manager
 
 <details>
 
 #### Null Job Task Details
-|                                         |
-|-----------------------------------------|
-|![Picture206](../static/imgbasic/206.png)| 
+![Picture206](../static/imgbasic/206.png) 
 
 </details>

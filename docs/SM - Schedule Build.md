@@ -11,28 +11,17 @@ sidebar_label: 'SM - Schedule Build'
   * Overwrite Existing Schedules Option
 * Users can also filter Schedules with Auto-build or Multi-Instance configurations
 
-||
-|---|
-|![](../static/imgbasic/Picture59.png)|
+![](../static/imgbasic/Picture59.png)
 
-||
-|---|
-|![](../static/imgbasic/Picture60.png)|
+![](../static/imgbasic/Picture60.png)
 
 ### Schedule Build Grouping
 
 * Multiple Builds can be bundled and tracked as a group
 * The bundle can be expanded to view and monitor the status of each Build
 
-||
-|---|
-|![](../static/imgbasic/Picture61.png)|
- 
-||
-|---|
-|![](../static/imgbasic/Picture62.png)|
+![](../static/imgbasic/Picture61.png)
 
-||
-|---|
-|![](../static/imgbasic/Picture63.png)|
+![](../static/imgbasic/Picture62.png)
 
+![](../static/imgbasic/Picture63.png)

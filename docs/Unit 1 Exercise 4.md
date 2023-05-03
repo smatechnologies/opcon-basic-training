@@ -39,12 +39,9 @@ where **WINDOWS JOB 4** Requires **WINDOWS JOB 3**, etc.
 
 <details>
 
-<!--
 :::tip [Walkthrough Video - Unit 1 Exercise 4](../static/videobasic/U1E4.mp4)
 
 :::
-
--->
 
 1.	Under the **Administration** topic, Double-Click on **Job Master**. 
 2.	In the **Schedule** drop-down list, select **My First Schedule**.

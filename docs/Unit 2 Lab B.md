@@ -75,9 +75,7 @@ Upon completion, view the results in the **Studio - Canvas**. Then build the Sch
 (The jobs will complete and return to a waiting status until the repeating offset is qualified. The **SAM.log** can be checked to verify the jobs have executed successfully)
 :::
 
-||
-|---|
-|![](../static/imgbasic/dependency_LabB.png)|
+![](../static/imgbasic/dependency_LabB.png)
 
 ## Enterprise Manager
 

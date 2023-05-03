@@ -6,21 +6,15 @@ sidebar_label: 'Frequency Definiton'
 
 * In Solution Manager, a **Frequencies List** is found in **Library > Management > Frequencies**
 
-||
-|---|
-|![](../static/imgbasic/sm-frequencies-list.png)|
+![](../static/imgbasic/sm-frequencies-list.png)
 
 * Frequencies can be edited by selecting a Frequency from the **Frequencies List** and clicking the **Edit** button
 
-||
-|---|
-|![](../static/imgbasic/sm-frequency-manager-wizard-edit.png)|
+![](../static/imgbasic/sm-frequency-manager-wizard-edit.png)
 
 * Frequency details for a Job can be viewed in the DEaily Job Definition
 
-||
-|---|
-|![](../static/imgbasic/sm-frequency-in-daily-job.png)|
+![](../static/imgbasic/sm-frequency-in-daily-job.png)
 
 ## Enterprise Manager
 
@@ -38,9 +32,7 @@ sidebar_label: 'Frequency Definiton'
 
 #### Add a Frequency to a Job
 
-||
-|---|
-| ![Picture19](../static/imgbasic/Picture19.png) |
-| ![Picture20](../static/imgbasic/Picture20.png) | 
+![Picture19](../static/imgbasic/Picture19.png)
+![Picture20](../static/imgbasic/Picture20.png)
 
 </details>

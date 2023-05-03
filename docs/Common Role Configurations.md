@@ -21,10 +21,8 @@ sidebar_label: 'Common Role Configurations'
 * They will need as much access as possible to every section within Enterprise Manager except for ‘Administration’ section 
 * Privileges listed in chart can be used as a guide for assigning Privileges to OpCon Schedulers
 
-||
-|---|
-|![](../static/imgbasic/316.png)|
-|![](../static/imgbasic/317.png)|
+![](../static/imgbasic/316.png)
+![](../static/imgbasic/317.png)
 
 
 #### Operators
@@ -33,8 +31,5 @@ sidebar_label: 'Common Role Configurations'
 * They will need authority to see every Schedule and be able to perform maintenance before and after a Job and/or Schedule runs (Restart Jobs, Force-Start Jobs, Force-Start Schedules, Release Schedules, etc.) 
 * Privileges listed in the chart can be used as a guide for assigning Privileges to OpCon Operators
 
-
-||
-|---|
-|![](../static/imgbasic/318.png)|
-|![](../static/imgbasic/319.png)|
+![](../static/imgbasic/318.png)
+![](../static/imgbasic/319.png)

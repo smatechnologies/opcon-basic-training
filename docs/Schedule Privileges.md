@@ -11,8 +11,6 @@ sidebar_label: 'Schedule Privileges'
 
 <details>
 
-||
-|---|
-|![](../static/imgbasic/311.png)|
+![](../static/imgbasic/311.png)
 
 </details>

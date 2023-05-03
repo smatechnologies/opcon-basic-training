@@ -19,15 +19,11 @@ sidebar_label: 'Machines'
 
 ### Agent List Screen
 
-||
-|------------------------------------------|
-|![](../static/imgbasic/sm-agents-list.png)|
+![](../static/imgbasic/sm-agents-list.png)
 
 ### Agent Details
 
-||
-|--------------------------------------------|
-|![](../static/imgbasic/sm-agent-details.png)|
+![](../static/imgbasic/sm-agent-details.png)
 
 ## Enterprise Manager
 
@@ -35,16 +31,10 @@ sidebar_label: 'Machines'
 
 #### Machine Status
 
-||
-|-----------------------------------|
-|![Picture8](../static/imgbasic/Picture8.png)|
+![Picture8](../static/imgbasic/Picture8.png)
 
-||
-|-----------------------------------|  
-|![Picture9](../static/imgbasic/Picture9.png)|
+![Picture9](../static/imgbasic/Picture9.png)
 
-||
-|-------------------------------------| 
-|![Picture10](../static/imgbasic/Picture10.png)|
+![Picture10](../static/imgbasic/Picture10.png)
 
 </details>

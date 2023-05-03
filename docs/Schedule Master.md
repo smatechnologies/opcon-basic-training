@@ -4,11 +4,7 @@ sidebar_label: 'Schedule Master'
 
 * In Solution Manager, Schedule creation is performed in **Library > Master Schedules** or **Studio > Add**
 
-||
-|-------------------------------------|
-|![](../static/imgbasic/sm-create-schedule.png)|
-
-
+![](../static/imgbasic/sm-create-schedule.png)
 
 ### Workflow Documentation
 
@@ -17,18 +13,13 @@ sidebar_label: 'Schedule Master'
 * Check Documentation for Jobs under SMAUtility Schedule
   * Examples of documentation techniques 
 
-||
-|-------------------------------------|
-|![](../static/imgbasic/sm-master-documentation.png)|
-
+![](../static/imgbasic/sm-master-documentation.png)
 
 ## Enterprise Manager
 
 <details>
 
-||
-|-------------------------------------|
-|![Picture11](../static/imgbasic/Picture11.png)|
+![Picture11](../static/imgbasic/Picture11.png)
 
 #### Workflow Documentation
 
@@ -37,8 +28,6 @@ sidebar_label: 'Schedule Master'
 * Check Documentation for Jobs under SMAUtility Schedule
   * Examples of documentation techniques 
 
-||
-|-------------------------------------|
-|![Picture12](../static/imgbasic/Picture12.png)|
+![Picture12](../static/imgbasic/Picture12.png)
 
 </details>

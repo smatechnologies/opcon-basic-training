@@ -6,21 +6,15 @@ sidebar_label: 'Dependencies'
 
 ### Job Dependencies in Job Definition
 
-||
-|-----------------------------------------------------|
-| ![](../static/imgbasic/sm-daily-job-dependency.png) |
+![](../static/imgbasic/sm-daily-job-dependency.png)
 
 ### Set Job Dependency Details
 
-||
-|-----------------------------------------------------------|
-| ![](../static/imgbasic/sm-job-dependency-details-set.png) |
+![](../static/imgbasic/sm-job-dependency-details-set.png)
 
 ### Job Dependency Status
 
-||
-|------------------------------------------------------|
-| ![](../static/imgbasic/sm-job-dependency-status.png) |
+![](../static/imgbasic/sm-job-dependency-status.png)
 
 
 ## Enterprise Manager
@@ -33,15 +27,11 @@ sidebar_label: 'Dependencies'
 
 * Use the Dependencies tab to define Job Dependencies
 
-||
-|-------------------------------------------------------|
-| ![](../static/imgbasic/Picture22.png)                 |
+![](../static/imgbasic/Picture22.png)
 
 #### Add Job Dependency Details
 
-||
-|--------------------------------------------| 
-| ![](../static/imgbasic/Picture23.png)      |
-| ![](../static/imgbasic/Picture24.png)      |
+![](../static/imgbasic/Picture23.png)
+![](../static/imgbasic/Picture24.png)
 
 </details>

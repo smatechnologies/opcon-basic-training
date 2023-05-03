@@ -42,13 +42,9 @@ Repeat steps 3 to 15 to create three jobs that are identical to **Windows Job 1*
 
 <details>
 
-<!--
-
 :::tip [Walkthrough Video - Unit 1 Exercise 3](../static/videobasic/U1E3.mp4)
 
 :::
-
--->
 
 1.	Under the Administration topic, Double-Click on **Job Master**. 
 2.	In the Schedule drop-down list, select My First Schedule.

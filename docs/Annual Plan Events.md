@@ -34,9 +34,7 @@ $CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps
 
 ### Calendar Add Event Definition
 
-||
-|---|
-|![](../static/imgbasic/sm-calendar-add-event.png)|
+![](../static/imgbasic/sm-calendar-add-event.png)
 
 ## Enterprise Manager
 
@@ -44,20 +42,14 @@ $CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps
 
 #### Annual Plan Frequency
 
-||
-|---|
-|![](../static/imgbasic/357.png)|
+![](../static/imgbasic/357.png)
 
 #### Forecast Annual Plan
 
-||
-|---|
-|![](../static/imgbasic/358.png)|
+![](../static/imgbasic/358.png)
 
 #### Calendar Add Event Definition
 
-||
-|---|
-|![](../static/imgbasic/359.png)|
+![](../static/imgbasic/359.png)
 
 </details>

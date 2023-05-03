@@ -25,11 +25,9 @@ Build the Schedule named **MY FIRST SCHEDULE** as Released for Today only. View 
 
 <details>
 
-<!--
 :::tip [Walkthrough Video - Unit 1 Exercise 6](../static/videobasic/U1E6.mp4)
 
 :::
--->
 
 1.	Under the **Operation** topic, Double-Click on **Schedule Build**. 
 2.	In the **Schedule Selection** section, select **My First Schedule** to build.

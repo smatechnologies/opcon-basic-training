@@ -24,17 +24,13 @@ Example:
 
 ### Solution Manager
 
-|| 
-|---------------------------------------------------------|
-| ![](../static/imgbasic/sm-external-threshold-event.png) |
+![](../static/imgbasic/sm-external-threshold-event.png)
 
 
 ### Enterprise Manager
 
 <details>
 
-||
-| ------------------------------------------|
-| ![](../static/imgbasic/415.png)           |
+![](../static/imgbasic/415.png)
 
 </details>

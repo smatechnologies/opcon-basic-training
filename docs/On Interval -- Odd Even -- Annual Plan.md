@@ -16,13 +16,9 @@ Or
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![](../static/imgbasic/SM_OnIntervals_Main.png)|
+![](../static/imgbasic/SM_OnIntervals_Main.png)
 
-||
-|---|
-|![](../static/imgbasic/SM_OnIntervals_Dates.png)|
+![](../static/imgbasic/SM_OnIntervals_Dates.png)
 
 ### Odd and Even Weeks
 
@@ -55,18 +51,11 @@ Even Weeks
 * **A/O/B/N** is _NOT_ configurable 
 * Offsets use workdays
 
-||
-|---|
-|![](../static/imgbasic/SM_AnnualPlan_Main.png)|
+![](../static/imgbasic/SM_AnnualPlan_Main.png)
 
-||
-|---|
-|![](../static/imgbasic/SM_AnnualPlan_Offset.png)|
+![](../static/imgbasic/SM_AnnualPlan_Offset.png)
 
-||
-|---|
-|![](../static/imgbasic/SM_AnnualPlan_Forecast.png)|
-
+![](../static/imgbasic/SM_AnnualPlan_Forecast.png)
 
 ## Enterprise Manager
 
@@ -86,9 +75,7 @@ Or
   * **A/O/B/N** flag is applicable
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
-||
-|---|
-|![](../static/imgbasic/243.png)|
+![](../static/imgbasic/243.png)
 
 #### Odd and Even Weeks
 
@@ -121,12 +108,8 @@ Even Weeks
 * **A/O/B/N** is _NOT_ configurable 
 * Offsets use workdays
 
-||
-|---|
-|![](../static/imgbasic/244.png)|
+![](../static/imgbasic/244.png)
 
-||
-|---|
-|![](../static/imgbasic/245.png)|
+![](../static/imgbasic/245.png)
 
 </details>

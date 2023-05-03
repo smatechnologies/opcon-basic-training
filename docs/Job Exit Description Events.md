@@ -14,9 +14,7 @@ sidebar_label: 'Job Exit Description Events'
 
 ### Trigger Details
 
-||
-|---|
-|![](../static/imgbasic/sm-exit-description-event.png)|
+![](../static/imgbasic/sm-exit-description-event.png)
 
 ## Enterprise Manager
 
@@ -24,12 +22,8 @@ sidebar_label: 'Job Exit Description Events'
 
 #### Trigger Details
 
-||
-|---|
-|![](../static/imgbasic/354.png)|
+![](../static/imgbasic/354.png)
 
-||
-|---|
-|![](../static/imgbasic/355.png)|
+![](../static/imgbasic/355.png)
 
 </details>

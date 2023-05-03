@@ -20,9 +20,12 @@ Be sure to give the Job a Frequency.
 
 Manually add the Job to the Schedule and Release it to run Today. Once the Job finishes, Check the file path to be sure the file was transferred.
 
-### Instructions
+## Solution Manager
 
-1.	In **Library**, under the **Administration** topic, select **Master Schedules**. 
+<details>
+<summary> Instructions </summary>
+
+1.	In **Library**, under the **Administration** topic, select **Master Schedules**.
 2.	In the **Schedule** list, select **My First Schedule** and click the **View** button.  
 3.	Select **Add* Job* button in the side menu. 
 4.	In the **Name** textbox, enter **SMAFT Job 1**.
@@ -53,10 +56,11 @@ C:\SMA File Transfer\FilesToSend.txt
 20.	In **Processes**, add this Job to today’s Schedule allowing it to run Released.
 21.	Once the Job finishes **OK**, verify that the ```FilesToSend.txt``` is now in the ```C:\SMA File Transfer``` folder.
 
+</details>
 
 ## Enterprise Manager
 
-<details>
+### Instructions
 
 :::tip [Walkthrough Video - Unit 4 Exercise 9](../static/videobasic/U4E9.mp4)
 
@@ -95,4 +99,3 @@ C:\SMA File Transfer\FilesToSend.txt
 20.	In an **Operations View** Add this Job to today’s Schedule allowing it to run Released.
 21.	Once the Job finishes **OK**, verify that the ```FilesToSend.txt``` is now in the ```C:\SMA File Transfer``` folder.
 
-</details>

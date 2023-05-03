@@ -18,9 +18,7 @@ sidebar_label: 'Privileges'
 * Machines and Machine Groups are created on specific screens in **Administration** section of Enterprise Manager  
 * Access Codes, Batch Users, and Departments are created on corresponding screens within **Security** section of Enterprise Manager
 
-||
-|---|
-|![](../static/imgbasic/3303.png)|
+![](../static/imgbasic/3303.png)
 
 ### Machine Privileges
 
@@ -28,8 +26,6 @@ sidebar_label: 'Privileges'
 * Within Job Master and Job Daily, Users will only see Machines based on their Role Privileges
 * In Schedule Operations, Machine Privileges are not applied
 
-||
-|---|
-|![](../static/imgbasic/3304.png)|
+![](../static/imgbasic/3304.png)
 
 </details>

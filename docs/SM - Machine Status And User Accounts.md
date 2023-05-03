@@ -9,24 +9,18 @@ sidebar_label: 'SM - Machine Status And User Accounts'
 * Machines can be bulk selected for status updates
   * As with Schedule and Job status updates, only options available to a machine will be configurable
 
-||
-|---|
-|![](../static/imgbasic/Picture83.png)|
+![](../static/imgbasic/Picture83.png)
 
 ### Select Machines
 
-||
-|---|
-|![](../static/imgbasic/Picture84.png)|
+![](../static/imgbasic/Picture84.png)
 
 ### Machine Status
 
 * Right-click Machines and available actions appear
 * If multiple Machines are selected, Actions on those Machines can happen at once
 
-||
-|---|
-|![](../static/imgbasic/Picture85.png)|
+![](../static/imgbasic/Picture85.png)
 
 ### User Accounts
 
@@ -36,6 +30,4 @@ OpCon User Account settings can be managed from SMA Solution Manager:
 * Change email address
 * Add Notes or Comments
 
-||
-|---|
-|![](../static/imgbasic/Picture86.png)|
+![](../static/imgbasic/Picture86.png)

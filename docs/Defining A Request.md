@@ -4,9 +4,7 @@ sidebar_label: 'Defining A Request'
 
 The Service Definition is composed of serveral fields, many of which are optional:
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceRequestDetails.png)|
+![](../static/imgbasic/SelfServiceRequestDetails.png)
 
 * **Service Request Name** (```Required```)
     * The Service Request Name will display on the Service Request Button
@@ -25,9 +23,7 @@ The Service Definition is composed of serveral fields, many of which are optiona
 * **Hide Rule** (```Optional```)
     * Allows definition of a rule to hide the Service Request Button
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceRequestDetails2.png)|
+![](../static/imgbasic/SelfServiceRequestDetails2.png)
 
 * **Events** (```Required```)
     * Allows the definition of Events initiated by the Service Request Button

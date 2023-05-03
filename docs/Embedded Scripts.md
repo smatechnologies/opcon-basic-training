@@ -66,59 +66,39 @@ Example:
 
 ### Scripts Menu
 
-||
-|-----------------------------------|
-|![](../static/imgbasic/sm-scripts.png)|
+![](../static/imgbasic/sm-scripts.png)
 
 ### Script Types
 
-||
-|-----------------------------------|
-|![](../static/imgbasic/sm-script-types.png)|
+![](../static/imgbasic/sm-script-types.png)
 
 ### Script Runners
 
-||
-|-----------------------------------|
-|![](../static/imgbasic/sm-script-runners.png)|
+![](../static/imgbasic/sm-script-runners.png)
 
 ### Copy Script to Edit Version
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-copy-script-edit.png)|
+![](../static/imgbasic/sm-copy-script-edit.png)
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-edit-script-version.png)|
+![](../static/imgbasic/sm-edit-script-version.png)
 
 ### Add Script
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-add-script.png)|
+![](../static/imgbasic/sm-add-script.png)
 
 ### Assign a Role to a New Script
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-assign-role-script.png)|
+![](../static/imgbasic/sm-assign-role-script.png)
 
 ### Deploy Script
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-deploy-script-button.png)|
+![](../static/imgbasic/sm-deploy-script-button.png)
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-script-deploy.png)|
+![](../static/imgbasic/sm-script-deploy.png)
 
 ### Script Cross References
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-script-cross-references.png)|
+![](../static/imgbasic/sm-script-cross-references.png)
 
 :::warning
 
@@ -128,9 +108,7 @@ A Script with Cross References cannot be deleted
 
 ### Script in Job Properties
 
-||
-|-------------------------------|
-|![](../static/imgbasic/sm-script-in-job-properties.png)|
+![](../static/imgbasic/sm-script-in-job-properties.png)
 
 ## Enterprise Manager
 
@@ -140,44 +118,30 @@ A Script with Cross References cannot be deleted
 
 ### Scripts Menu
 
-||
-|-----------------------------------|
-|![](../static/imgbasic/416.png)|
+![](../static/imgbasic/416.png)
 
 ### Script Types
 
-||
-|-----------------------------------|
-|![](../static/imgbasic/417.png)  |
+![](../static/imgbasic/417.png)
 
 ### Script Runners
 
-||
-|-------------------------------------|
-|![](../static/imgbasic/418.png)|
+![](../static/imgbasic/418.png)
 
 ### Edit Script/Version Scripts
 
-||
-|-------------------------------|
-|![](../static/imgbasic/419.png)|
+![](../static/imgbasic/419.png)
 
 ### Add Script
 
-||
-|--------------------------------|
-|![](../static/imgbasic/420.png)|
+![](../static/imgbasic/420.png)
 
 ### Assign a Role to a New Script
 
-||
-|---------------------------------------------------|
-|![](../static/imgbasic/421.png)|
+![](../static/imgbasic/421.png)
 
 ### Scripts in Job Properties
 
-||
-|------------------------------------------------|
-|![](../static/imgbasic/422.png)|
+![](../static/imgbasic/422.png)
 
 </details>

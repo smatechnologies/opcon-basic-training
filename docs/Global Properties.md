@@ -40,28 +40,21 @@ Example:
 
 ### Add New Global Property
 
-|                                                                 |
-|-----------------------------------------------------------------|
-|![](../static/imgbasic/sm-global-properties-add-new-property.png)|
+![](../static/imgbasic/sm-global-properties-add-new-property.png)
 
 ### Global Properties in Command Line
 
 ### Encrypted Global Properties
 
-|                                                               |
-|---------------------------------------------------------------|
-|![](../static/imgbasic/sm-global-properties-encrypted-set.png) |
-|![](../static/imgbasic/sm-global-properties-encrypted-view.png)|
+![](../static/imgbasic/sm-global-properties-encrypted-set.png)
 
-|                                                             |
-|-------------------------------------------------------------|
-|![](../static/imgbasic/sm-global-properties-command-line.png)|
+![](../static/imgbasic/sm-global-properties-encrypted-view.png)
+
+![](../static/imgbasic/sm-global-properties-command-line.png)
 
 ### Troubleshooting Global Properties in Logs
 
-|                                                       |
-|-------------------------------------------------------|
-|![](../static/imgbasic/sm-global-property-fail-summary.png)|
+![](../static/imgbasic/sm-global-property-fail-summary.png)
 
 
 ## Enterprise Manager
@@ -72,29 +65,19 @@ Example:
 
 #### Add Global Properties
 
-|                                         |
-|-----------------------------------------|
-|![Picture201](../static/imgbasic/201.png)|
+![Picture201](../static/imgbasic/201.png)
 
 #### Global Properties in Command Line
 
-|                                         |
-|-----------------------------------------|
-|![Picture202](../static/imgbasic/202.png)|
-
+![Picture202](../static/imgbasic/202.png)
 
 #### Encrpyted Global Properties
 
-|                                         |
-|-----------------------------------------|
-|![Picture204](../static/imgbasic/204.png)|
-|![Picture205](../static/imgbasic/205.png)|
-
+![Picture204](../static/imgbasic/204.png)
+![Picture205](../static/imgbasic/205.png)
 
 #### Troubleshooting Global Properties in Logs
 
-|                                         |
-|-----------------------------------------|
-|![Picture203](../static/imgbasic/203.png)|
+![Picture203](../static/imgbasic/203.png)
 
 </details>

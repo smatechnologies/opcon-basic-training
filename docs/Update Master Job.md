@@ -19,15 +19,11 @@ When a Job is edited in Daily List, changes are applied **only** to a specific c
   * Job Instance Properties
   * Frequency Details
 
-||
-|---|
-|![Picture75](../static/imgbasic/Picture75.png)|   
+![Picture75](../static/imgbasic/Picture75.png)   
 
 ### Windows Job Task Details Screen:
 
-||
-|---|
-|![Picture76](../static/imgbasic/Picture76.png)|
+![Picture76](../static/imgbasic/Picture76.png)
 
 ### Windows Job Task Configurable Options
 
@@ -46,9 +42,7 @@ Currently configurable options:
 * Job Output Parsing  
 * Environmental Variables  
 
-||
-|---|
-|![Picture77](../static/imgbasic/Picture77.png)|  
+![Picture77](../static/imgbasic/Picture77.png)  
 
 ## Enterprise Manager
 
@@ -56,14 +50,10 @@ Currently configurable options:
 
 #### Edit Daily Job Menu
 
-||
-|---|
-|![Picture65](../static/imgbasic/Picture65.png)|
+![Picture65](../static/imgbasic/Picture65.png)
 
 #### Edit Daily Job Screen
 
-||
-|---|
-|![Picture66](../static/imgbasic/Picture66.png)|
+![Picture66](../static/imgbasic/Picture66.png)
 
 </details>

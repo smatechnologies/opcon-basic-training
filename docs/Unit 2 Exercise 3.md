@@ -23,7 +23,7 @@ Verify that all settings were saved.
 7.	Hard code the **IP address** to the address given by the instructor.
 8.	Click the **Save** button.
 9.	Expand the **Communication Settings** tab.
-10.	Type 3110 into the **JJORS Port Number** textbox.
+10.	Type 3110 into the **JORS Port Number** textbox.
 11.	Expand the **File Transfer Settings** tab.
 13.	Click on the **File Transfer Role** row, select **Both**.
 14. Change the **File Transfer Port Number (Non-TLS)** to ```3110```.

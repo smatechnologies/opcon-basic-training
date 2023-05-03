@@ -6,33 +6,23 @@ sidebar_label: 'Server Options'
 
 ### User Account Settings
 
-||
-|---|
-|![](../static/imgbasic/sm-account-settings.png)|
+![](../static/imgbasic/sm-account-settings.png)
 
 ### Profile Application Settings
 
-||
-|---|
-|![](../static/imgbasic/sm-application-settings.png)|
+![](../static/imgbasic/sm-application-settings.png)
 
 ### Profile General Settings
 
-||
-|---|
-|![](../static/imgbasic/sm-settings.png)|
+![](../static/imgbasic/sm-settings.png)
 
 ### Agent Details Settings Options
 
-||
-|---|
-|![](../static/imgbasic/sm-agent-details-settings.png)|
+![](../static/imgbasic/sm-agent-details-settings.png)
 
 ### Agent Details Time Settings
 
-||
-|---|
-|![](../static/imgbasic/sm-time-settings.png)|
+![](../static/imgbasic/sm-time-settings.png)
 
 ## Enterprise Manager
 
@@ -46,26 +36,18 @@ sidebar_label: 'Server Options'
 
 ### General Options
 
-||
-|---|
-|![](../static/imgbasic/302.png)|
+![](../static/imgbasic/302.png)
 
 ### Time Settings
 
-||
-|---|
-|![](../static/imgbasic/303.png)|
+![](../static/imgbasic/303.png)
 
 ### License Notifications
 
-||
-|---|
-|![](../static/imgbasic/304.png)|
+![](../static/imgbasic/304.png)
 
 ### SMTP Server Settings
-
-||
-|---|
-|![](../static/imgbasic/305.png)|
+  
+![](../static/imgbasic/305.png)
 
 </details>

@@ -34,13 +34,9 @@ Jobs have many different statuses
 
 ### Schedule Status Screen
 
-||
-|---|
-|![](../static/imgbasic/sm-schedule-status.png)|
+![](../static/imgbasic/sm-schedule-status.png)
 
-||
-|---|
-|![](../static/imgbasic/sm-schedule-status-options.png)|
+![](../static/imgbasic/sm-schedule-status-options.png)
 
 ### Job Status Screen
 
@@ -48,16 +44,11 @@ Right-Click Jobs and available actions appear
 
 * If Multiple Jobs are selected, Actions on those Jobs can occur at once selected 
 
-||
-|---|
-|![Picture78](../static/imgbasic/Picture78.png)|
+![Picture78](../static/imgbasic/Picture78.png)
 
 ### Bulk Job Status Update
 
-||
-|---|
-|![Picture79](../static/imgbasic/Picture79.png)|
-
+![Picture79](../static/imgbasic/Picture79.png)
 
 ## Enterprise Manager
 
@@ -77,10 +68,8 @@ Right-Click Jobs and available actions appear
   * Update Jobs Statuses
 * From List view, change the status of any Schedule on a day by right-clicking **Date**
 
-||
-|---|
-|![Picture46](../static/imgbasic/Picture46.png)|
-|![Picture47](../static/imgbasic/Picture47.png)|
+![Picture46](../static/imgbasic/Picture46.png)
+![Picture47](../static/imgbasic/Picture47.png)
 
 #### Update Job Status
 
@@ -88,16 +77,12 @@ Right-Click Jobs and available actions appear
 * Options vary depending on current status of Job
 * From **List** or **Matrix** view, change the status of any Jobs in a Schedule by right-clicking **Schedule**
 
-||
-|---|
-|![Picture48](../static/imgbasic/Picture48.png)|
-|![Picture49](../static/imgbasic/Picture49.png)|
+![Picture48](../static/imgbasic/Picture48.png)
+![Picture49](../static/imgbasic/Picture49.png)
 
 #### Bulk Update Job Status
 
-||
-|---|
-|![Picture50](../static/imgbasic/Picture50.png)|
- |![Picture52](../static/imgbasic/Picture52.png)|
+![Picture50](../static/imgbasic/Picture50.png)
+![Picture52](../static/imgbasic/Picture52.png)
  
 </details>

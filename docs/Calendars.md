@@ -32,21 +32,15 @@ sidebar_label: 'Calendars'
 
 ### Calendar Select/Add/Edit Main Screen
 
-||
-|--------------------------------------------|
-|![](../static/imgbasic/sm-calendar-main.png)|
+![](../static/imgbasic/sm-calendar-main.png)
 
 ### Calendar Add/Edit Selections
 
-||
-|------------------------------------------------|
-|![](../static/imgbasic/sm-calendar-add-edit.png)|
+![](../static/imgbasic/sm-calendar-add-edit.png)
 
 ### Calendar Associations
 
-||
-|----------------------------------------------------|
-|![](../static/imgbasic/sm-calendar-associations.png)|
+![](../static/imgbasic/sm-calendar-associations.png)
 
 ## Enterprise Manager
 
@@ -56,27 +50,19 @@ In Enterprise Manager, **Calendars** is found in **Adminstration > Calendars**
 
 ### Calendar Screen Descriptions
 
-||
-|-----------------------------------------|
-|![Picture226](../static/imgbasic/226.png)|  
+![Picture226](../static/imgbasic/226.png)| 
 
 ### Schedules and Frequencies that Use Selected Calendar
 
-||
-|-----------------------------------------|
-|![Picture227](../static/imgbasic/227.png)|
+![Picture227](../static/imgbasic/227.png)
 
 ### Select Additional Calendars in Schedule Master
 
-||
-|-----------------------------------------|
-|![Picture228](../static/imgbasic/228.png)|
-|![Picture229](../static/imgbasic/229.png)|
+![Picture228](../static/imgbasic/228.png)
+![Picture229](../static/imgbasic/229.png)
 
 ### Select Workdays per Week
 
-||
-|-----------------------------------------|
-|![Picture230](../static/imgbasic/230.png)|
+![Picture230](../static/imgbasic/230.png)
 
 </details>

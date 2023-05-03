@@ -22,7 +22,7 @@ Restart communication with the ```SUSEVM``` machine. The connection should now b
 
 ### Exercise 4
 
-1.	In **Library**, under the **Operations** topic, select **Agents**. 
+1.	In **Library**, under the **Administration** topic, select **Agents**. 
 2.	Right-Click on the **SUSEVM** machine and in the side menu, select **Enable Full Comm. (Job start Enabled)**.
 
 :::note

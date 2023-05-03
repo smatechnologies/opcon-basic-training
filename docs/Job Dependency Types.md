@@ -62,15 +62,11 @@ Example:
 
 ### Dependency Types
 
-||
-|---|
-|![](../static/imgbasic/sm-job-dependency-types.png)|
+![](../static/imgbasic/sm-job-dependency-types.png)
 
 ### Condition Types
 
-||
-|---|
-|![](../static/imgbasic/sm-job-dependency-conditions.png)|
+![](../static/imgbasic/sm-job-dependency-conditions.png)
 
 ## Enterprise Manager
 
@@ -78,64 +74,42 @@ Example:
 
 #### Dependency Types
 
-||
-|---|
-|![Picture214](../static/imgbasic/214.png)|
+![Picture214](../static/imgbasic/214.png)
 
 #### After
 
-||
-|---|
-|![Picture215](../static/imgbasic/215.png)|
+![Picture215](../static/imgbasic/215.png)
 
 #### Excludes
 
-||
-|---|
-|![Picture216](../static/imgbasic/216.png)|
+![Picture216](../static/imgbasic/216.png)
 
 #### Conflict
 
-||
-|---|
-|![Picture217](../static/imgbasic/217.png)|
+![Picture217](../static/imgbasic/217.png)
 
 #### Ignore Exit Code
 
-||
-|---|
-|![Picture218](../static/imgbasic/218.png)|
+![Picture218](../static/imgbasic/218.png)
 
 #### Failed
 
-||
-|---|
-|![Picture219](../static/imgbasic/219.png)|
+![Picture219](../static/imgbasic/219.png)
 
-||
-|---|
-|![Picture220](../static/imgbasic/220.png)|
+![Picture220](../static/imgbasic/220.png)
 
 #### Offset
 
-||
-|---|
-|![Picture221](../static/imgbasic/221.png)|
+![Picture221](../static/imgbasic/221.png)
 
-||
-|---|
-|![Picture222](../static/imgbasic/222.png)|
+![Picture222](../static/imgbasic/222.png)
 
 #### Based on Frequency
 
-||
-|---|
-|![Picture223](../static/imgbasic/223.png) |
+![Picture223](../static/imgbasic/223.png)
 
 #### Conflicts with other days
 
-||
-|---|
-|![Picture224](../static/imgbasic/224.png)|
+![Picture224](../static/imgbasic/224.png)
 
 </details>

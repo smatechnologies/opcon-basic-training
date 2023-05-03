@@ -28,9 +28,9 @@ When the Job has finished, check the value of the Threshold.
 9.	Click the **Save** button.
 10.	In **Library**, under the **Administration** select **Master Schedules**. 
 11.	Select **Embedded Scripts Training**.
-12.	Click the **Add** button. 
+12. Click the **Add** button. 
 13. Select **Add Job** in the side menu.
-14.	In the **Name** textbox, enter **ExerciseThreshold** and click the **View** button. 
+14. In the **Name** textbox, enter **ExerciseThreshold** and click the **View** button. 
 15.	In the **Job Type** dropdown list, select ```Windows```.
 16.	In the **Machine Selection** dropdown list, select the ```SMATraining```. 
 17.	In the **User ID** dropdown menu, select ```SMATRAINING\SMAUSER```.

@@ -27,9 +27,7 @@ Windows Job Type parameters must be set:
 
 ### Job Details - Solution Manager
 
-| Job Type Definition Details - Solution Manager         |
-|--------------------------------------------------------|
-| ![](../static/imgbasic/sm-job-type-details.png)                 |
+![](../static/imgbasic/sm-job-type-details.png)
 
 
 ## Enterprise Manager
@@ -38,14 +36,10 @@ Windows Job Type parameters must be set:
 
 #### Job Type - Enterprise Manager
 
-| Job Type - Enterprise Manager         |
-|---------------------------------------|
-| ![](../static/imgbasic/Picture15.png) |
+![](../static/imgbasic/Picture15.png)
 
 #### Job Details - Enterprise Manager
 
-| Job Type Definition Details - Enterprise Manager       |
-|--------------------------------------------------------|
-| ![](../static/imgbasic/Picture16.png)                           |
+![](../static/imgbasic/Picture16.png)
 
 </details>

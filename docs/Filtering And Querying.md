@@ -9,9 +9,7 @@ sidebar_label: 'Filtering And Querying'
   * OpCon Role
   * Service Request Name
 
-||
-|---|
-|![](../static/imgbasic/SelfServiceFilterBar.png)|
+![](../static/imgbasic/SelfServiceFilterBar.png)
 
 ### Querying with Wildcards
 

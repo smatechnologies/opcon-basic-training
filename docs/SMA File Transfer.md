@@ -15,25 +15,16 @@ sidebar_label: 'SMA File Transfer'
 * Wildcards only loosely supported
 * Renaming File during transit is allowed
 
-||
-|---|
-|![](../static/imgbasic/File_Transfer_Task_Details_SM.png)|
+![](../static/imgbasic/File_Transfer_Task_Details_SM.png)
 
-||
-|---|
-|![](../static/imgbasic/File_Transfer_Options_SM.png)|
-
+![](../static/imgbasic/File_Transfer_Options_SM.png)
 
 ## Enterprise Manager
 
 <details>
 
-||
-|---|
-|![](../static/imgbasic/434.png)|
+![](../static/imgbasic/434.png)
 
-||
-|---|
-|![](../static/imgbasic/435.png)|
+![](../static/imgbasic/435.png)
 
 </details>

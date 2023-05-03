@@ -4,15 +4,11 @@ sidebar_label: 'Canvas/Workflow Designer'
 
 # Canvas/Workflow Designer
 
-||
-|---|
-|![Picture87](../static/imgbasic/sm-studio-designer.png)|
+![Picture87](../static/imgbasic/sm-studio-designer.png)
 
 ## Add Job/Dependency
 
-||
-|---|
-|![Picture87](../static/imgbasic/sm-studio-designer-add.png)|
+![Picture87](../static/imgbasic/sm-studio-designer-add.png)
 
 ## Enterprise Manager
 
@@ -24,25 +20,17 @@ sidebar_label: 'Canvas/Workflow Designer'
   * Each node on the layout represents a Job (rectangle), a Threshold (rounded rectangle), or a Resource (oval)
   * Lines between nodes represent Dependency relationships
 
-||
-|---|
-|![Picture87](../static/imgbasic/Picture87.png)|
+![Picture87](../static/imgbasic/Picture87.png)
 
 ### Workflow Designer Job Type Icons
 
-||
-|---|
-|![Picture88](../static/imgbasic/Picture88.png)|
+![Picture88](../static/imgbasic/Picture88.png)
 
 ### Workflow Designer Indicator Icons
 
-||
-|---|
-|![Picture89](../static/imgbasic/Picture89.png)|
+![Picture89](../static/imgbasic/Picture89.png)
 
-||
-|---|
-|![Picture90](../static/imgbasic/Picture90.png)|
+![Picture90](../static/imgbasic/Picture90.png)
   
 ### Workflow Menu
 
@@ -54,8 +42,6 @@ sidebar_label: 'Canvas/Workflow Designer'
   * Isolate a Dependency chain
   * Change layout
 
-||
-|---|
-|![Picture91](../static/imgbasic/Picture91.png)|
+![Picture91](../static/imgbasic/Picture91.png)
 
 </details>

@@ -15,6 +15,4 @@ sidebar_label: 'Batch Jobs'
 
 * Anything executed from CMD Window
 
-||
-|-------------------------------------|
-|![Picture14](../static/imgbasic/Picture14.png)|
+![Picture14](../static/imgbasic/Picture14.png)

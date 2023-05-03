@@ -20,18 +20,12 @@ sidebar_label: 'SM - Diagrams and Views'
 * Isolate Dependency Chains, Predecessors, or Successors
 * Job Status indicated by colors and icons
 
-||
-|---|
-|![](../static/imgbasic/Picture80.png)|
+![](../static/imgbasic/Picture80.png)
 
-||
-|---|
-|![](../static/imgbasic/Picture81.png)|
+![](../static/imgbasic/Picture81.png)
 
 ### Bread Crumb Navigation
 
 In addition to selecting processes through the primary Date, Schedule, and Job panes, Navigation is also simplified with the Bread Crumb Navigation bar at the bottom of the browser 
 
-||
-|---|
-|![](../static/imgbasic/Picture82.png)|
+![](../static/imgbasic/Picture82.png)
