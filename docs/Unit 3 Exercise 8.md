@@ -2,7 +2,7 @@
 sidebar_label: 'Unit 3 Exercise 8'
 ---
 
-## Exercise 8: Notification Mananger
+## Exercise 8: Notification Manager
 
 ### Objective
 

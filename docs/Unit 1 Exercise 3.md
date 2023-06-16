@@ -33,10 +33,15 @@ Assign the Job an **Existing Frequency** of ```Example-Mon-Sun-O```. Repeat the 
 14. Select the **Frequency** tab in the left-hand menu and scroll down to the Frequency box.
 15.	From the **Inactive** Frequency drop-down bar, select the Frequency named ```Example-Mon-Sun-O``` and click the **<** button to move the Frequency to active.
 16. Click **Save**.
-Repeat steps 3 to 15 to create three jobs that are identical to **Windows Job 1**.
-15.	**Windows Job 2**
-16.	**Windows Job 3**
-17.	**Windows Job 4**
+Create three jobs that are identical to Windows Job 1.
+15. Navigate to **Library** > **Master Jobs**.
+16. In the Master Jobs screen, select **Windows Job 1** 
+17. Click the **Copy** button.
+18. Enter the Job Name as **Windows Job 2**.
+19. Deselect the "Navigate to Maser Job Definition Page after copy" option.
+20. Click the **OK** button.
+21. Repeat the copy process to create **Windows Job 3** and **Windows Job 4**.
+22.	Close the **Job Master**.
 
 ## Enterprise Manager
 
