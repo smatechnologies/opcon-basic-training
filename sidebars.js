@@ -171,7 +171,15 @@ module.exports = {
     'Self Service Lab'
   ],
 },
-  {  
+{
+  type: 'category',
+  label: 'Concept Walkthroughs',
+  collapsed: true,
+  items: [
+    'EM_Walkthroughs',
+  ],
+},
+{  
   type: 'link',
   label: 'OpCon Basic Training Exam',
   href: 'https://www.onlineexambuilder.com/opcon-basic-training-certification/exam-362330',
