@@ -131,6 +131,6 @@ Your browser does not support the video tag.
 Upon completion, view the results in the **Workflow designer**. Then build the Schedule released for today and check the execution using **Solution Manager**.
 :::
 
-![Picture306](/imgbasic/306.png)
+![Picture306](../static/imgbasic/306.png)
 
 </details>

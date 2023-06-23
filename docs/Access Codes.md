@@ -20,10 +20,10 @@ sidebar_label: 'Access Codes'
 ### Add Access Code
 
 
-![Access Codes Main Screen](/imgbasic/access-codes-main.png)
+![Access Codes Main Screen](../static/imgbasic/access-codes-main.png)
 
 
-![Access Codes Add](/imgbasic/sm-access-codes-add.png)
+![Access Codes Add](../static/imgbasic/sm-access-codes-add.png)
 
 
 ## Enterprise Manager
@@ -34,14 +34,14 @@ sidebar_label: 'Access Codes'
 
 ### Access Codes
 
-![Access Codes Main Screen](/imgbasic/312.png)
+![Access Codes Main Screen](../static/imgbasic/312.png)
 
 ### Access Code Privileges
 
-![Access Codes Privileges](/imgbasic/313.png)
+![Access Codes Privileges](../static/imgbasic/313.png)
 
 ### Job Master
 
-![Access Codes in Job Master](/imgbasic/314.png)
+![Access Codes in Job Master](../static/imgbasic/314.png)
 
 </details>

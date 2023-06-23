@@ -32,19 +32,19 @@ sidebar_label: 'Escalation Manager'
 
 ### Primary Screen
 
-![](/imgbasic/sm-escalation-manager-main.png)
+![](../static/imgbasic/sm-escalation-manager-main.png)
 
 ### Add a Group
 
-![](/imgbasic/sm-escalation-manager-group.png)
+![](../static/imgbasic/sm-escalation-manager-group.png)
 
 ### Add a Rule
 
-![](/imgbasic/sm-escalation-rule-add.png)
+![](../static/imgbasic/sm-escalation-rule-add.png)
 
 ### Rule Sequence
 
-![](/imgbasic/sm-escalation-rule-sequence.png)
+![](../static/imgbasic/sm-escalation-rule-sequence.png)
 
 ## Enterprise Manager
 
@@ -52,19 +52,19 @@ sidebar_label: 'Escalation Manager'
 
 #### Selection Screen
 
-![](/imgbasic/326.png)
+![](../static/imgbasic/326.png)
 
 #### Add a Group
 
-![](/imgbasic/328.png)
+![](../static/imgbasic/328.png)
 
 #### Rule Sequence
 
-![](/imgbasic/329.png)
+![](../static/imgbasic/329.png)
 
 #### Definitions/Descriptions
 
-![](/imgbasic/330.png)
+![](../static/imgbasic/330.png)
 
 
 #### Escalation Acknowledgement (Enterprise Manager)
@@ -73,12 +73,12 @@ sidebar_label: 'Escalation Manager'
 * End Alert in **Escalation Acknowledgement** screen
 * A Symbol will appear in bottom of Enterprise Manager near the SAM Pulse, showing how many Notifications are being Escalated
 
-![](/imgbasic/331.png)
+![](../static/imgbasic/331.png)
 
-![](/imgbasic/332.png)
+![](../static/imgbasic/332.png)
  
 #### Escalation Alert Icon in Tooltip Bar
 
-![](/imgbasic/333.png)
+![](../static/imgbasic/333.png)
 
 </details>

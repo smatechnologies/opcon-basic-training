@@ -13,13 +13,13 @@ sidebar_label: 'SM - Job Processes'
 
 #### Select Date:  
 
-![Picture67](/imgbasic/Picture67.png) 
+![Picture67](../static/imgbasic/Picture67.png) 
 
 #### Select Schedule:    
 
-![Picture68](/imgbasic/Picture68.png) 
+![Picture68](../static/imgbasic/Picture68.png) 
 
 #### Select Jobs:    
 
-![Picture69](/imgbasic/Picture69.png) 
+![Picture69](../static/imgbasic/Picture69.png) 
 

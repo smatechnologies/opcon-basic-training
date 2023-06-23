@@ -139,6 +139,6 @@ Build the Schedule Released for Today and view results in Matrix View.
 40.	Close the **Workflow Designer**.
 41.	Build the **ProcessFile-Main Schedule** (**Released**) for today and check the results using the **List**/**Matrix** views and the **PERT** view
 
-<a href="imgbasic/432.png" target="_blank"><img src="imgbasic/432.png" width="500"></img></a>
+ ![](../static/imgbasic/432.png)
 
 </details>

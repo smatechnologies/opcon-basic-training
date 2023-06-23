@@ -241,12 +241,10 @@ Or
 
 #### HR Import Processing (The SubSchedule)
 
-<a href="imgbasic/445.png" target="_blank"><img src="imgbasic/445.png" width="400"></img></a>
+![](../static/imgbasic/445.png)
 
 #### HR Import (The Main Schedule)
 
-<a href="imgbasic/446.png" target="_blank"><img src="imgbasic/446.png" width="500"></img></a>
-
-###### (Click Images to Enlarge)
+![](../static/imgbasic/446.png)
 
 </details>

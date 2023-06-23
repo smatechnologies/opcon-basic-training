@@ -25,23 +25,23 @@ sidebar_label: 'Thresholds'
 
 ### Add/Edit Threshold Menu
 
-![](/imgbasic/sm-thresholds-main.png)
+![](../static/imgbasic/sm-thresholds-main.png)
 
 ### Create/Edit Threshold
 
-![](/imgbasic/sm-thresholds-add.png)
+![](../static/imgbasic/sm-thresholds-add.png)
 
 ### Threshold Options in Job Details
 
-![](/imgbasic/sm-thresholds-job.png)
+![](../static/imgbasic/sm-thresholds-job.png)
 
 ### Threshold Update
 
-![](/imgbasic/sm-thresholds-update.png)
+![](../static/imgbasic/sm-thresholds-update.png)
 
 ### Threshold Dependencies
 
-![](/imgbasic/sm-thresholds-dependency.png)
+![](../static/imgbasic/sm-thresholds-dependency.png)
 
 ### Threshold Instance Properties
 
@@ -50,9 +50,9 @@ sidebar_label: 'Thresholds'
 
 ### Threshold Email Alerts
 
-![](/imgbasic/sm-threshold-properties-notification.png)
+![](../static/imgbasic/sm-threshold-properties-notification.png)
 
-![](/imgbasic/sm-threshold-email-result.png)
+![](../static/imgbasic/sm-threshold-email-result.png)
 
 ## Enterprise Manager
 
@@ -60,26 +60,26 @@ sidebar_label: 'Thresholds'
 
 * In Enterprise Manager, **Thresholds** is found in **Administration > Thresholds**
 
-![](/imgbasic/407.png)
+![](../static/imgbasic/407.png)
 
 ### Create a Threshold
 
-![](/imgbasic/408.png) 
+![](../static/imgbasic/408.png) 
 
 ### Threshold Update
 
-![](/imgbasic/409.png)
+![](../static/imgbasic/409.png)
 
-![](/imgbasic/410.png)
+![](../static/imgbasic/410.png)
 
 ### Threshold Dependencies
 
-![](/imgbasic/411.png)
+![](../static/imgbasic/411.png)
 
 ### Threshold Instance Properties
 
 * Current value of Threshold can be retrieved: ```[[TH.ThresholdName]]```
 
-![](/imgbasic/413.png)
+![](../static/imgbasic/413.png)
 
 </details>

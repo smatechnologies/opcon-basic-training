@@ -250,7 +250,7 @@ You are renaming the file! So you do not specify the whole path!
 80.	Use **Workflow Designer** to create your **Job Dependencies**.
 81.	Your **Schedule** should look like this:
 
-<a href="imgbasic/438.png" target="_blank"><img src="imgbasic/438.png" width="250"></img></a>
+![](../static/imgbasic/438.png)
 
 **Testing the Configuration**
 

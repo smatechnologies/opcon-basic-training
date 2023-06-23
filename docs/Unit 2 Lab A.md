@@ -122,20 +122,20 @@ Upon completion, the “**Forecast All**” results will look like the following
 
 #### Toys
 
-![Picture268](/imgbasic/268.png)
+![Picture268](../static/imgbasic/268.png)
 
 #### Electronics - Not End of Year
 
-![Picture269](/imgbasic/269.png)
+![Picture269](../static/imgbasic/269.png)
 
 #### Electronics - End of Year
 
-![Picture270](/imgbasic/270.png)
+![Picture270](../static/imgbasic/270.png)
 
 #### Clothing
  
-![Picture271](/imgbasic/271.png)
+![Picture271](../static/imgbasic/271.png)
 
-![Picture272](/imgbasic/272.png)
+![Picture272](../static/imgbasic/272.png)
 
 </details>

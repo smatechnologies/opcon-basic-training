@@ -246,7 +246,7 @@ Open **Thunderbird** to verify Notifications.
 12.	Open Workflow Designer to set Dependencies.
 	* Select the **My Threshold Schedule** from the Select Schedule frame.
 
-<a href="imgbasic/414.png" target="_blank"><img src="imgbasic/414.png" width="500"></img></a>
+![](../static/imgbasic/414.png)
 
 13.	**Build** the Schedule **Released** for today.
 	* Open one of the operations views (**List** or **Matrix**) or use **Solution Manager**. 

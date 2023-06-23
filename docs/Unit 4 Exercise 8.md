@@ -322,7 +322,7 @@ In Matrix View, release the Schedule for Today to verify Job success.
 109. Click **OK**.
 110. Close the **Workflow Designer** tab.
 
-<a href="imgbasic/433.png" target="_blank"><img src="imgbasic/433.png" width="250"></img></a>
+![](../static/imgbasic/433.png)
 
 **Build the Schedule**
 

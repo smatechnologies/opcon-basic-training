@@ -72,4 +72,4 @@ Upon completion, the Jobs will run in this order:
 
 ||
 |---|
-|![](/imgbasic/unit1lab1dependencyview.png)|
+|![](../static/imgbasic/unit1lab1dependencyview.png)|

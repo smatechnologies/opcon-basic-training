@@ -17,25 +17,25 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 
 * In Solution Manager, **Resources** is found in **Library > Administration > Resources**
 
-![](/imgbasic/sm-resources-main.png)
+![](../static/imgbasic/sm-resources-main.png)
 
 ### Create/Edit Resource
 
-![](/imgbasic/sm-resource-add.png)
+![](../static/imgbasic/sm-resource-add.png)
 
 ### Resource Dependencies in Job Details
 
-![](/imgbasic/sm-resource-job-screen.png)
+![](../static/imgbasic/sm-resource-job-screen.png)
 
 ### Edit/Set Resource Dependency
 
-![](/imgbasic/sm-resource-dependency-add.png)
+![](../static/imgbasic/sm-resource-dependency-add.png)
 
 ### Trigger Email Alert of Resource Properties
 
-![](/imgbasic/sm-resource-properties.png)
+![](../static/imgbasic/sm-resource-properties.png)
 
-![](/imgbasic/sm-resource-properties-email.png)
+![](../static/imgbasic/sm-resource-properties-email.png)
 
 ### Frequency - SAM Priority
 
@@ -44,9 +44,9 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 	* A Resource has all Resources in use
 * The Job with highest **SAM Priority** will run first if several Jobs are waiting for a Resource or a Machine Max Job to free up
 
-![](/imgbasic/sm-sam-priority-job-screen.png)
+![](../static/imgbasic/sm-sam-priority-job-screen.png)
 
-![](/imgbasic/sm-sam-priority-list.png)
+![](../static/imgbasic/sm-sam-priority-list.png)
 
 ## Enterprise Manager
 
@@ -56,15 +56,15 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 
 ### Create/Edit Resource
 
-![](/imgbasic/403.png)
+![](../static/imgbasic/403.png)
 
 ### Resource Dependencies
 
-![](/imgbasic/401.png)
+![](../static/imgbasic/401.png)
 
 ### Edit/Set Resource Dependency
 
-![](/imgbasic/402.png)
+![](../static/imgbasic/402.png)
 
 ### Resources - Instance Properties
 
@@ -76,7 +76,7 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 
 ```[[RU.ResourceName]]```
 
-![](/imgbasic/404.png)
+![](../static/imgbasic/404.png)
 
 ### Frequency - SAM Priority
 
@@ -85,8 +85,8 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 	* A Resource has all Resources in use
 * The Job with highest **SAM Priority** will run first if several Jobs are waiting for a Resource or a Machine Max Job to free up
 
-![](/imgbasic/405.png)
+![](../static/imgbasic/405.png)
 
-![](/imgbasic/406.png)
+![](../static/imgbasic/406.png)
 
 </details>

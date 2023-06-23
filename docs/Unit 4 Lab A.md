@@ -167,6 +167,6 @@ Upon completion, view the results in **Workflow designer**
 
 **Build** the Schedule for today **Released**
 
-<a href="imgbasic/423.png" target="_blank"><img src="imgbasic/423.png" width="300"></img></a>
+![](../static/imgbasic/423.png)
 
 </details>
