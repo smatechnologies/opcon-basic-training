@@ -20,4 +20,4 @@ jobs:
       - uses: kheiakiyama/install-azcopy-action@v1
         with:
           version: 'v10'
-      - run: azcopy_v10 copy 'build/*' '${{ secrets.DOCS_STORAGE_URL }}/${{ secrets.DOCS_STORAGE_PATH }}?${{ secrets.DOCS_STORAGE_KEY }}' --recursive
+      - run: azcopy_v10 copy 'build/*' '${{ secrets.TRAINING_STORAGE_URL }}/${{ secrets.CONTENT_STORAGE_PATH }}?${{ secrets.TRAINING_STORAGE_KEY }}' --recursive
