@@ -33,6 +33,7 @@ module.exports = {
       'Update Master Job',
       'Unit 1 Exercise 8',
       'Workflow Designer',
+      'Unit 1 Exercise 9',
       'OpCon Logs',
       'Unit 1 Lab',
     ],
