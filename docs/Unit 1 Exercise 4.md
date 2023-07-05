@@ -21,17 +21,17 @@ where **WINDOWS JOB 4** Requires **WINDOWS JOB 3**, etc.
 3. Click the **View** button.
 3.	Click **Windows Job 4**.
 4.	In the Job menu, click **Add Dependency**.
-5.	In the **Schedule** Schedule frame, select **My First Schedule**.
+5.	In the **Schedule** Schedule frame, check that **My First Schedule** is selected.
 6.  In the **Job** drop down list, select **Windows Job 3**.
 7.	In the **Dependency** frame, select **Requires** and **Finished OK**.
 8.	Click **Windows Job 3**.
 9.	In the Job menu, click **Add Dependency**.
-10.	In the **Schedule** Schedule frame, select **My First Schedule**.
+10.	In the **Schedule** Schedule frame, check that **My First Schedule** is selected.
 11.  In the **Job** drop down list, select **Windows Job 2**.
 12.	In the **Dependency** frame, select **Requires** and **Finished OK**.
 13.	Click **Windows Job 2**.
 14.	In the Job menu, click **Add Dependency**.
-15.	In the **Schedule** Schedule frame, select **My First Schedule**.
+15.	In the **Schedule** Schedule frame, check that **My First Schedule** is selected.
 16.  In the **Job** drop down list, select **Windows Job 1**.
 17.	In the **Dependency** frame, select **Requires** and **Finished OK**.
 
