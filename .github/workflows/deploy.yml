@@ -25,4 +25,4 @@ jobs:
       # publish compiled output to existing app
       - run: yarn install
       - run: yarn build
-      - run: azcopy_v10 copy 'build/*' '${{ secrets.TRAINING_STORAGE_URL }}/${{ secrets.TRAINING_STORAGE_PATH }}?${{ secrets.TRAINING_STORAGE_KEY }}' --recursive   
+      - run: azcopy_v10 copy 'build/*' '${{ secrets.TRAINING_STORAGE_URL }}/${{ secrets.CONTENT_PATH }}?${{ secrets.TRAINING_STORAGE_KEY }}' --recursive   
