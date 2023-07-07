@@ -17,8 +17,9 @@ Build the Schedule named **MY FIRST SCHEDULE** as Released for Today only. View 
   *	Select today's dates for **From** and **To**. 
 5.	In **Schedule Build** window:
   * Select the **Released** option to automatically build the Schedule.
-6.	In the next sreen (Build Results), click down to select and click on **My First Schedule** .
-7.	The **Processes** screen will allow review of the Job Run results and details.
+6. Click the **Build** button.
+7.	In the next sreen (Build Results), expand the dropdown men and click down to select and click on **My First Schedule** .
+8.	The **Processes** screen will allow review of the Job Run results and details.
 
 
 ## Enterprise Manager
