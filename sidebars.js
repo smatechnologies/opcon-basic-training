@@ -181,11 +181,11 @@ module.exports = {
     'EM_Walkthroughs',
   ],
 },
-{  
-  type: 'link',
-  label: 'OpCon Basic Training Exam',
-  href: 'https://www.onlineexambuilder.com/opcon-basic-training-certification/exam-362330',
-},
+//{  
+//  type: 'link',
+//  label: 'OpCon Basic Training Exam',
+//  href: 'https://www.onlineexambuilder.com/opcon-basic-training-certification/exam-362330',
+//},
 {  
   type: 'link',
   label: 'Student Feedback Survey',
