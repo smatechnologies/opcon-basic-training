@@ -129,7 +129,7 @@ Or
 	* Add **Documentation**
 	* Use the ```$JOB:ADD``` **Event** for the txt files when the **File Arrival** finds a **.txt** file
 		* The **Event** will add the **Container Job** to the **HR Import Schedule** in the daily
-		* **Add** an **Event** to the **File Arrival Job** to pass a **Job Instance Property** named ```[[JI.FILENAME]]``` to capture the file name
+		* **Add** an **Event** to the **File Arrival Job** to pass a **Job Instance Property** named ```[[JI.$ARRIVED SHORT FILE NAME]]``` to capture the file name
 * These are the parameters for the ```$JOB:ADD``` Event:
 ```
 [[$SCHEDULE DATE]],[[$SCHEDULE NAME]],HR Import Processing,OnRequest,FILENAME=[[JI.$ARRIVED SHORT FILE NAME]]
@@ -222,7 +222,7 @@ Or
 	* Add **Documentation**
 	* Use the ```$JOB:ADD``` **Event** for the txt files when the **File Arrival** finds a **.txt** file
 		* The **Event** will add the **Container Job** to the **HR Import Schedule** in the daily
-		* **Add** an **Event** to the **File Arrival Job** to pass a **Job Instance Property** named ```[[JI.FILENAME]]``` to capture the file name
+		* **Add** an **Event** to the **File Arrival Job** to pass a **Job Instance Property** named ```[[JI.$ARRIVED SHORT FILE NAME]]``` to capture the file name
 * These are the parameters for the ```$JOB:ADD``` Event:
 ```
 [[$SCHEDULE DATE]],[[$SCHEDULE NAME]],HR Import Processing,OnRequest,FILENAME=[[JI.$ARRIVED SHORT FILE NAME]]
