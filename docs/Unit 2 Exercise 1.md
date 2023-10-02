@@ -45,7 +45,7 @@ This Global Property will store the number of seconds to run the program.
 11.	Click the **Save** button on the Global Properties toolbar.
 12.	Close the **Global Properties** tab.
 13.	Under **Library** > **Administration**, select **Master Jobs**.
-14.	Select **Windwos Job 1** in **My First Schedule**.
+14.	Select **Windows Job 1** in **My First Schedule**.
 15. Click the **Edit** button. 
 16. Click the **Lock** icon in the upper right-hand corner.
 17.	In **Task Details**, Update your **Command Line** to use the new properties in place of the hard-coded text.
