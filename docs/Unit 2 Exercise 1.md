@@ -39,7 +39,7 @@ The command line should change from ```“C:\Program Files\OpConxps\MSLSAM\gener
 
 13.	Under **Library** > **Administration**, select **Master Jobs**.
 14.	Using the filters, locate and select **Windows Job 1** in **My First Schedule**.
-15. Click the **Edit** button. 
+15. Click the **Edit** button.
 16. Click the **Lock** icon in the upper right-hand corner.
 17.	Expand **Task Details**, if not already expanded.
 18. Locate the **Command Line** and highlight ```C:\Program Files\OpConxps\MSLSAM```.
