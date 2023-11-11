@@ -6,47 +6,60 @@ sidebar_label: 'Unit 2 Exercise 4 And 5'
 
 ### Objective
 
-Start Communication for the ```SUSEVM``` Machine.
-
-:::note
-DO NOT PANIC – Communication will not begin because of an error we will correct.
-:::
-
-View **Logs**. Open the **Netcom Log** and find the ```ConnectToMachine()``` error to verify the issue.
-
-Stop Communication with the ```SUSEVM``` machine.  Edit the Machine information to change the **Socket Number** to ```3100```.
-
-Restart communication with the ```SUSEVM``` machine. The connection should now be successful.
-
-### Instructions
+To successfully establish communication to the new agent.
 
 ### Exercise 4
 
-1.	In **Library**, under the **Administration** topic, select **Agents**. 
-2.	Right-Click on the **SUSEVM** machine and in the side menu, select **Enable Full Comm. (Job start Enabled)**.
+### Summary
 
-:::note
-Do not panic! It is not going to communicate.
+Start Communication for the ```SUSEVM``` Machine.
+
+:::tip
+**DO NOT PANIC** – Communication will not be successful because of a port error that will be corrected by the end of Exercise 5.
+:::
+
+### Instructions
+
+#### Attempt to Establish Communication 
+
+1.	Click on the 88Change Communication Status** button.
+2.  Select **Enable Full Comm. (Job start Enabled)**.
+3.  Click **Back**.
+4.  You should receive a **Not Responding** in the **Status** column.
+5.  Continue on to **Exercise 5**.
+
+:::info Note
+Do not panic! This is an expected behaviour based on the port number we ented when defining the **Socket Number** in Exercise 3. Please continue on to Exercise 5 to correct this issue.
 :::
 
 ### Exercise 5
 
-1. Open the Windows **File Explorer**
-2. Follow the file path by clicking to **Windows  (C:)** > **ProgramData** > **OpConxps** > **SAM** > **Log**
+### Summary
+
+View the **Netcom Log** to determine the reason why you are unable to establish communication. Walk through steps to correct this issue and successfully establish communication with the **Agent**.
+
+### Instructions
+
+#### Viewing the Log
+
+1. Open a **File Explorer** window
+2. Navigate to where the logs are stored. In this environment they are stored in the following path:  **C:\ProgramData\OpConxps\SAM\Log**
 3. Double click on the **SMANetcom.log** file.
-4. Scroll to the bottom of the .log file and look for this entry in the Log file:
+4. Scroll to the bottom of the **SMANetcom.log** file and look for this entry in the Log file: 
+  * ```ConnectToMachine() -- Exception happens at machine [SUSEVM]: No connection could be made because the target machine actively refused it. [[<IP ADDRESS>:3111]]```
 
-```
-ConnectToMachine() -- Exception happens at machine [SUSEVM]: No connection could be made because the target machine actively refused it. [[IP ADDRESS:PORT]]
-```
+#### Correcting the Communication Error
 
-5.	Back in Solution Manager, Right-Click the SUSEVM machine and select **Disable Communication**.
-6.	Right-Click the SUSEVM machine and select **Wrench** icon to edit Machine details.
-7.	In the **General Settings** tab, change the Socket Number to ```3100```.
-8.	Click the Save button.
-9.	Close the Machines tab.
-10.	Click the **Change Communication Status** button and select **Enable Full Comm. (Job Start Enabled)**.
-11. Return to the **Agents** main screen and verify that the **SUSEVM** machine is now communicating.
+5.	Back in Solution Manager, right click the **SUSEVM** machine
+6.	Select the **Wrench** icon to edit Machine details.
+7.  Click the **Change Communication Status** button at the bottom of the screen, select **Disable Communication**.
+8.	In the **General Settings** tab, change the **Socket Number** to ```3100```.
+9.	Click the **Save**.
+11.	Click the **Change Communication Status** button, select **Enable Full Comm. (Job Start Enabled)**.
+12. Click the **Back** button in the top right-hand corner to return to the **Agents** main screen to verify that the **SUSEVM** machine is now communicating.
+13. Close **Operations**.
+14. Close **Library**.
+
 
 ## Enterprise Manager
 

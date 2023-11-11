@@ -6,31 +6,44 @@ sidebar_label: 'Unit 2 Exercise 3'
 
 ### Objective
 
-Add a ```UNIX``` machine in Enterprise Manager. Name the machine ```SUSEVM```. Set the **Machine Type** as ```UNIX``` and the **Socket Number** as ```3111```. Hardcode the **IP Address** with the information provided by the instructor. 
+To define a new Agent in Solution Manager.
 
-In **Communication Settings**, update the **JORS Port Number** to ```3110```. Set the **File Transfer Role** to ```BOTH```. Set the **File Transfer Port Number (Non-TLS)** to ```3110```.
+### Summary
 
-Verify that all settings were saved.
+Add a ```UNIX``` machine named ```SUSEVM``` that communicates across port ```3111```. The **IP Address** for this agent will be provided by the instructor. 
+
+The **JORS Port Number** for this agent will be ```3110```. This agent will be used for SMAFT jobs, so the **File Transfer Role** needs to be set to ```BOTH``` and the **File Transfer Port Number (Non-TLS)** set to ```3110```.
 
 ### Instructions
 
-1.	In **Library**, under the **Administration** topic, select **Agents**. 
-2.	Click the **Add** button. 
-3.	In the **Name** textbox, enter **SUSEVM**. 
-4.	In the **Documentation** textbox, enter **This is My First UNIX machine**.
-5.	In the **Type** drop-down list, select **UNIX**.
-6.	Under **General Settings**, make sure the **Socket Number** is ```3111```.
-7.	Hard code the **IP address** to the address given by the instructor.
-8.	Click the **Save** button.
-9.	Expand the **Communication Settings** tab.
-10.	Type 3110 into the **JORS Port Number** textbox.
-11.	Expand the **File Transfer Settings** tab.
-13.	Click on the **File Transfer Role** row, select **Both**.
-14. Change the **File Transfer Port Number (Non-TLS)** to ```3110```.
-15. Set **Support non-TLS for SMAFT Agent Communications** to ```True```.
-16. Set **Support non-TLS for SMAFT Server Communications** to ```True```.
-17.	Click **Save**.
+#### Adding the Machine
 
+1.	In **Library** > **Administration**, select **Agents**. 
+2.	Click the **Add** button. 
+3.	In the **Name** field, enter **SUSEVM**. 
+4.	In the **Documentation** field, enter **This is my first UNIX machine**.
+5.	In the **Type** drop-down list, select **UNIX**.
+6.  Click **Save**.
+
+#### Define the General Settings
+
+7.  Expand the **General Settings** section.
+8.	In the **IP Address** field, enter in the IP Address assigned to you by the instructor.
+9.  In the **Socket Number** field, enter the port number ```3111```.
+
+#### Define the Communication Settings
+
+10.	Expand the **Communication Settings** section.
+11.	In the **JORS Port Number** field, eneter ```3110```.
+
+#### Define the File Transfer Settings
+
+12.	Expand the **File Transfer Settings** section.
+13.	In the **File Transfer Role** field, select **Both** from the drop down menu.
+14. In the **File Transfer Port Number (Non-TLS)** field, enter ```3110```.
+15. In the **Support non-TLS for SMAFT Agent Communications** field, select ```True``` from the drop down menu.
+16. In the **Support non-TLS for SMAFT Server Communications** field, select ```True``` from the drop down menu.
+17.	Continue on to **Exercise 4**.
 
 ## Enterprise Manager
 

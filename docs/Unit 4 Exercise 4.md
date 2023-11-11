@@ -6,38 +6,40 @@ sidebar_label: 'Unit 4 Exercise 4'
 
 ### Objective
 
-Within the existing **Embedded Scripts Training Schedule**, create a Windows Job named **Create Daily Folde**r that runs a Monday-Friday Frequency. The Job should run a **Job Action** of ```Embedded Script```. The Script should be the ```Create_Folder``` script using the ```LATEST``` version with a ```Command Shell``` **Runner**.
+To use an existing embedded script to create folders.
 
-Be sure that the **Global System Property** ```$SCHEDULE DATEYYYYMM``` exists. If it does not, create it.
+### Summary
 
-Build the Schedule Released for Today and verify that the folder ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”``` was created for Today.
+Using the existing schedule called, **Embedded Scripts Training**, create a Windows Job called, **Create Daily Folder**. The job should run the script **Create_Folder** utilizing the **Embedded Script Job Action**.
 
 ### Instructions
 
-1.	In **Library**, under the **Administration** topic, select  **Master Schedules**. 
-2.	In the **Schedule** drop-down list, select **Embedded Scripts Training** and click the **View** button.
+1.	In **Library** > **Administration**, select  **Master Schedules**. 
+2.	In the **Schedule** list, select **Embedded Scripts Training** and click the **View** button.
+
+#### Create the Embedded Script Job
+
 3.	Click the **Add Job** button on the side menu. 
-4.	In the **Name** textbox, enter **Create Daily Folder**.
-5.	In the **Job Type** drop-down list, select ```Windows```.
-6.	In the **Machine Selection** drop-down list, select ```SMATraining```. 
-7.	In the **Job Action** drop-down list, select ```Embedded Script```.
-8.	In the **User ID** drop-down menu, select ```SMATRAINING\SMAUSER```.
-9.	In the **Script** drop-down list, select the ```Create_Folder```. 
-10.	Leave the Version as ```LATEST```.
-11.	In the **Runner** drop-down menu, select ```Command Shell```.
-12.	In the **Arguments** textbox, type the following: 
-```
-“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
-```
+4.	In the **Name** textbox, enter ```Create Daily Folder```.
+5.	In the **Job Type** drop-down list, select **Windows**.
+6.	In the **Machine Selection** drop-down list, select **SMATraining**. 
+7.	In the **Job Action** drop-down list, select **Embedded Script**.
+8.	In the **User ID** drop-down menu, select **SMATRAINING\SMAUSER**.
+9.	In the **Script** drop-down list, select the **Create_Folder**. 
+10.	Leave the Version as **LATEST (X)**.
+11.	In the **Runner** drop-down menu, select **Command Shell**.
+12.	In the **Arguments** textbox, type the following, ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”```
+* _Remember to use properties where acceptable_
 13.	Click the **Save** button.
 14. Click the **Lock** icon in the upper right-hand corner.
-15.	Scroll to the **Frequency** sections and give the Job a Frequency of **Mon-Fri-N**.
+15.	Scroll to the **Frequency** sections and **ADD** a Frequency called ```Mon-Fri-N```.
 16.	Add **Documentation** and then click the **Save** button.
-17.	Outside of OpCon (Using **Windows File Explorer**) verify that the following folder does not exist:  
-```
-“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
-```
-(where ```$SCHEDULE DATEYYYYMM``` refers to the current month of the current year)
+
+#### Verify Directory Does NOT Exsist
+
+17.	Outside of OpCon (Using **Windows File Explorer**) verify that the following folder does not exist in the following path, ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”```, (where ```$SCHEDULE DATEYYYYMM``` refers to the current month of the current year)
+
+#### Build Schedule
 
 28.	Return to **Solution Manager** and build the **Embedded Scripts Training Schedule** **Released** for today.
 24.	Once the Job completes successfully, verify that the folder was created in **Windows File Explorer**.

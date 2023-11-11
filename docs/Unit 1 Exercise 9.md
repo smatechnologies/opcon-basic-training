@@ -2,11 +2,21 @@
 sidebar_label: 'Unit 1 Exercise 9'
 ---
 
-### Exercise 9: Workflow Designer
+## Exercise 9: Workflow Designer
 
-##### Objective:
+### Objective
+
+To use **Wokflow Designer** in **Enterprise Manager** to add a job and its dependency to an existing schedule.
+
+### Summary
 
 Open **Workflow Designer** and create a new Job named **WINDOWS JOB 5** in **MY FIRST SCHEDULE**. Give the Job the same details as the existing Jobs within this Schedule. Give the Job a **Requires Dependency** for **WINDOWS JOB 4**.
+
+:::info Note
+This exercise will be work in Enterprise Manager
+:::
+
+### Instructions
 
 <!--
 <video width="320" height="240" controls>
@@ -16,34 +26,44 @@ Your browser does not support the video tag.
 -->
 
 :::tip [Walkthrough Video - Unit 1 Exercise 10](../static/videobasic/U1E10.mp4)
-
 :::
 
-<details>
+1. Open Enterprise Manager.
+2. Click on **Yes**, on the **Daily Purge** popup window, if it occurs.
 
-<summary>Click for Step-By-Step Instructions</summary>
+#### In Workflow Designer In Enterprise Manager
 
-1.	Under the **Administration** topic, Double-Click on **Workflow Designer**. 
-2.	From the **Select Schedule** list, select **My First Schedule**.
-3.	**Click** and **drag** around the area where you want to select and move a group of items.
-4.	In the **Tools** frame, **click**, **drag**, and **drop** the **Add Job** icon to the Schedule diagram.     
-5.	In the **Job Master** screen, enter **Windows Job 5** for the name.
-6.	Select **Windows** as Job Type
-7.	In the **Primary Machine** drop-down list, select the **SMATraining** machine for the Job to run on.
-8.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```   
-9.	On the **Command Line**, use the generic program:
+3.	Under the **Administration** topic, double-click on **Workflow Designer**. 
+4.	From the **Select Schedule** list on the right, select **My First Schedule**.
+5.	In the **Tools** section on the right, select the **Add Job** tool.
+6. In the white workspace, click to **add a job**.
+
+#### Creating the New Job on the Job Master Screen
+
+7.	In the **Name** field, enter **Windows Job 5**.
+8.	In the **Job Type** drop-down, select **Windows** as **Job Type**.
+9.	In the **Primary Machine** drop-down list, select the ```SMATraining``` machine for the Job to run on.
+10.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```   
+11.	In the **Command Line** field, use **CTRL + F** to pull up the previous command lines used and select one that looks similar to the following:
 ```
 "C:\Program Files\OpConxps\MSLSAM\Genericp.exe" -t10 -e0
 ```
-10.	Click the **Save** button on the Job Master toolbar. 
-11.	Click the **Frequency** tab and add any Frequency.
-12.	Click on the **X** to the right of the **Job Master** tab to close the Job Master screen.
-13.	In the **Tools** frame, click Add **Dependency**.
-14.	First, **click** on the Job that is the object of the Dependency (example: **Windows Job 4**).
-15.	Then **click** on the Job in which to create the dependency (example: **Windows Job 5**).
-16.	In the Job Dependency window, mark the preferred Dependency Type option button (example: **Requires**).
-17.	Click the **OK** button to save the added Job dependency.
-Note: Notice that the mouse icon keeps the “Add Dependency” pointer. You can click “Select” from the Tools panel or just press the escape key.
-18.	Close the **Workflow Designer** tab.
+12.	Click the **Save** button in the Job Master toolbar at the top right of the screen. 
+13.	Click on **Frequency** tab.
+14. Under the **Frequency List** box, click **Add**.
+15. In the **Frequency Definition Wizard**, select **Example-Mon-Sun-O** from the drop-down list.
+16. Click **Next** and **Finish**.
+17.	Click on the **X** to the right of the **Job Master** tab to close the Job Master screen.
 
-</details>
+#### Adding the Dependency in Workflow Designer
+
+18.	In the **Tools** section on the right of the **Workflow Deisgner** screen, click **Add Dependency**.
+19.	**Click** on **Windows Job 4**, which is the object of the dependency.
+20.	**Click** on **Windows Job 5**, to create the dependency.
+21.	In the **Job Dependency** window, validate that **Requires** is the **Dependency Type** and that **Finished OK** is the **Option** selected.
+22.	Click **OK** to save the Job dependency.
+23.	Close the **Workflow Designer** tab.
+
+:::info Note
+Notice that the mouse icon keeps the “Add Dependency” pointer. You can click “Select” from the Tools panel or just press the escape key.
+:::

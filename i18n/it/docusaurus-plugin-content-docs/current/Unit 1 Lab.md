@@ -17,7 +17,7 @@ Congo Online Retail Inc. ha bisogno di eseguire un programma chiamato **CONGO IN
 **Electronics**
 
 * Smartphones
-* Xbox
+* XBOX
 
 **Clothing**
 
@@ -66,7 +66,7 @@ Your browser does not support the video tag.
   * Legos
   * Nerf
   * Smartphones
-  * Xbox
+  * XBOX
   * Levis
   * Nike
 * I lavori non possono iniziare prima delle ```8:00 AM```

@@ -6,6 +6,9 @@ sidebar_label: 'Dependencies'
 
 ### Job Dependencies in Job Definition
 
+* OpCon utilizes Dependencies to define the run sequence of a process.
+* Dependencies are defined on the **Job Master** under the **Job Dependency** section.
+
 ![](../static/imgbasic/sm-daily-job-dependency.png)
 
 ### Set Job Dependency Details

@@ -6,13 +6,11 @@ sidebar_label: 'Unit 3 Lab A'
 
 ### Objective
 
-Congo Online Retail Inc.’s., Board of Directors would like to have access to OpCon so they can check the progress of the automated processes.
+To create a new Role and User Account for Congo Online Retail to limit what the Board of Directors sees.
 
-The IT Management does not want the Board of Directors to be able to make any changes in OpCon and can only view the Schedules created during these Labs. 
+### Summary
 
-Create a **Role** named ```Board Member```. 
-
-Create a **User Account** named ```Congo Management``` (**Full Username**: ```Board of Directors```) and assign it the ```Board Member``` Role.
+Congo Online Retail Inc.’s., Board of Directors would like to have access to OpCon so they can check the progress of the automated processes. The IT Management does not want the Board of Directors to be able to make any changes in OpCon and can only view the Schedules created during these Labs. 
 
 The **Role** should be able to View:
 
@@ -22,9 +20,11 @@ The **Role** should be able to View:
 * Jobs in Daily Schedules
 * Jobs in Schedule Operations
 
-Log out and log back in as the new **User Account** to verify settings and restrictions.
-
 ### Lab Instructions
+
+:::info
+This exercise will be worked in **Enterprise Manager**. Expand the section below to walk through the exercise.
+:::
 
 ## Enterprise Manager
 
@@ -41,22 +41,41 @@ Your browser does not support the video tag.
 
 
 *	Create a **Role** named **Board Member**
-*	Grant permissions to view the following Lab Schedules:
-    *	Congo Inventory Management
-    *	Congo Inventory Reports 
-    *	Congo Payroll Payments
-*	Create a **User Account** named **Congo Management**
-*	Give a **Full Username** of **Board of Directors**
-*	Change the password to ```opconxps```
+*	Create a **User Account** called **Congo Management**
+*	Provide a **Full Username** for **Congo Management**.
+*	Change the user password to be ```opconxps```
 *	Assign the **Board Member** role to the Congo Management User Account
-*	The **Board Member** Role should be able to View Jobs in Daily Schedules
-*	The **Board Member** Role should be able to View Jobs in Schedule Operations
-*	Logout of the Enterprise Manager
-*	From top left, choose **Enterprise Manager > Logout**
-*	Login with the new User account and password
-*	Verify the permissions are accurate
-*	The Jobs are visible in the operations view
-*	Changes cannot be made to Jobs
-*	Logout and login again using leaving the Username and Password blank
+
+:::tip
+You can reference Unit 3 - Exercise 1 to create a User and Role.
+:::
+
+*	Grant permissions so the **Board Member** can view the following schedules:
+  *	**Congo Inventory Management**
+  *	**Congo Inventory Reports**
+  *	**Congo Payroll Payments**
+
+:::tip
+You can reference Unit 3 - Exercise 5 to assign Schedule Privileges.
+:::
+
+*	Grant permissions so the **Board Member** role can:
+  * **View Jobs in Daily Schedules**
+ 	* **View Jobs in Schedule Operations**
+
+:::tip
+You can reference Unit 3 - Exercise 4 to assign Departmental Function Privileges.
+:::
+
+*	Logout of the Enterprise Manager.
+*	Login with **Congo Management**.
+*	Verify the user can see the schedules and jobs in Matrix view.
+
+:::note
+*	Attempt to make changes to the jobs.
+* Why can't you make changes?
+:::
+
+* Be sure to logout as the **Congo Management** user and back in as the **SMAUSER**.
 
 </details>

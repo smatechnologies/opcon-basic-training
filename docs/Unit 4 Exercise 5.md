@@ -6,51 +6,67 @@ sidebar_label: 'Unit 4 Exercise 5'
 
 ### Objective
 
-In the **Script Repository**, Add a new Script named ```SetThreshold```. Import the ```ExerciseThreshold.cmd``` file and select ```Command Shell``` and ```Initial Version``` for the Script options. Be sure the Script is assigned to ```Role_ocadm```.
+To import a script into the repository and create a job to run it.
 
-Within the existing **Embedded Scripts Training Schedule**, create a Job named **ExerciseThreshold** that runs a Monday-Friday Frequency. The job should run a **Job Action** of ```Embedded Script```. The Script should be the SetThreshold script using the LATEST version with a ```Command Shell``` Runner. In the **Arguments** textbox: ```+2```.
+### Summary
 
-In Matrix View, right-click the **Embedded Scripts Training Schedule** and Add the **ExerciseThreshold** Job Released for Today.
-
-When the Job has finished, check the value of the Threshold. 
+In the **Script Repository**, import a script called **ExerciseThreshold.cmd**. Utilizing the existing schedule called **Embedded Scripts Training**, create a Job named **ExerciseThreshold** that runs the newly imported script.
 
 ### Instructions
 
-1.	In **Library**, under the **Scripts** topic, click the **Add** button. 
-2.	Type **SetThreshold** in the **Name** textbox.
-3.  Select **Command Shell** from the **Type** dropdown list.
-4.  Leave **Initial Version** in the Initial Version Comments textbox
-3.	Type some **Documentation** in the Description field.
-5.	Click the **Open File** button.
-6.	Navigate to the ```C:\scripts``` folder, select the ```ExerciseThreshold.cmd``` file and click **Open**.
-7.	The script is loaded to your screen.
-8.	Verify that ```Role_ocadm``` is granted Role permissions.
-9.	Click the **Save** button.
-10.	In **Library**, under the **Administration** select **Master Schedules**. 
-11.	Select **Embedded Scripts Training**.
-12. Click the **Add** button. 
-13. Select **Add Job** in the side menu.
-14. In the **Name** textbox, enter **ExerciseThreshold** and click the **View** button. 
-15.	In the **Job Type** dropdown list, select ```Windows```.
-16.	In the **Machine Selection** dropdown list, select the ```SMATraining```. 
-17.	In the **User ID** dropdown menu, select ```SMATRAINING\SMAUSER```.
-18.	In the **Job Action** dropdown list, select ```Embedded Script```.
-19.	In the **Script** dropdown list, select the ```SetThreshold```. 
-20.	Leave the **Version** as ```LATEST```.
-21.	In the **Runner** dropdown menu, select ```Command Shell```.
-22.	In the **Arguments** textbox, type the following: ```+2```
-23.	Click the **Save** button.
-24. Click the **Lock** icon in the upper right-hand corner.
-25.	Give the Job a Frequency of ```Mon-Fri-N```.
-26. Click the **Save** button.
-27.	Open **Thresholds** and check the current value of the **TrainingThreshold**. It should be ```0```.
-28.	In **Processes**, right-click on **Embedded Scripts Training** for today.
-29. Click the **(+)** icon in the side menu.
-30.	Select the **ExerciseThreshold** Job and click the **Next** button.
-31.	Set the Build Status as **Released** and click the **Next** button.
-32.	Click **Submit**.
-33.	After the Job is finished, open the **Thresholds** tab and check the value. It must be ```2```.
-34.	For practice, **edit the Daily Job** changing the **Parameter** back to ```0```, restart the Job and check the **Threshold** again.
+1.	In **Library** > **Administration**, select **Scripts**.
+2.  Click **Add**.
+3.  On the **Add New Script** page:
+*  In the **Name** field, enter ```SetThreshold```
+*  In the **Type** drop-down, select **Command Shell**.
+*  In the **Description** field, enter in some documentation.
+*  Verify that **Role_ocadm** is granted permissions.
+*  In the **Comment** box, leave **Initial Version**.
+*  In the **Script** field, click the **Open File** button.
+*  Navigate to the **C:\scripts** folder, select the **ExerciseThreshold.cmd** file and click **Open**.
+*  Click the **Save** button.
+
+#### Create the Job
+
+4.  In **Library** > **Administration**, select **Master Schedules**. 
+5.	Select **Embedded Scripts Training** and click **View**.
+6.  Select **Add Job** in the side menu.
+7.  In the **Master Job Definition** screen:
+*  In the **Name** textbox, enter ```ExerciseThreshold```. 
+*  In the **Job Type** dropdown list, select **Windows**.
+*  In the **Machine Selection** dropdown list, select the **SMATraining**. 
+*  In the **User ID** dropdown menu, select **SMATRAINING\SMAUSER**.
+*  In the **Job Action** dropdown list, select **Embedded Script**.
+*  In the **Script** dropdown list, select the **SetThreshold**. 
+*  Leave the **Version** as **LATEST (X)**.
+*  In the **Runner** dropdown menu, select **Command Shell**.
+*  In the **Arguments** textbox, type the following: ```+2```
+*  Click the **Save** button.
+8. Click the **Lock** icon in the upper right-hand corner.
+9.	Give the Job a Frequency of **Example-Mon-Fri-O**.
+10. Click the **Save** button.
+
+#### Validate the Initial Threshold Value
+
+11.	Open **Thresholds** and check the current value of the **TrainingThreshold**. It should be ```0```.
+
+#### Build the Job
+
+12.	In **Processes**, right-click on **Embedded Scripts Training** for today.
+13. Click the **(+)** icon in the side menu.
+14. In the Add Job pop-up window:
+* Select **Exercise Threshold** and click the **Next** button.
+* Change the Build Status to **Released**.
+* Click the **Next** button.
+* Click the **Submit** button.
+* Close the **Add Jobs** results screen.
+* Wait until the Job finishes **OK**.
+15.	After the Job is finished, open the **Thresholds** tab and check the value. It must be ```2```.
+16.	For practice, **edit the Daily Job** and change the value in the **Arguements** field to ```0```, restart the Job and check the **Threshold** again.
+
+:::note
+The TrainingThreshold should have a value of 0 when this exercise is complete.
+:::
 
 
 ## Enterprise Manager

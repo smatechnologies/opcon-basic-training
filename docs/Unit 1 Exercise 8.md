@@ -6,63 +6,89 @@ sidebar_label: 'Unit 1 Exercise 8'
 
 ### Objective
 
-Build and Release the **Murphy's Law** Schedule for Today plus ```7 days``` from Today on the Calendar. In Matrix View, select **Edit Daily Job** for the **Wrong Path Job**. Edit the Command Line Path AND Working Directory Path by changing ```MSLSAM2``` to ```MSLSAM```. Save the Daily Job then save the Job Definition to the Master Schedule.
+To walk through and understand the steps needed to troubleshoot and correct a job after a failure has occured. And utilize the the **Overwrite** flag when rebuilding future dates.
 
-Restart the Job.
+### Summary
 
-In Matrix View, select tomorrow's date and select the **Murphy's Law** Schedule. Select **Edit Daily Job** for the **Wrong Path Job** and notice that ```MSLSAM2``` appears again. 
+Build the **Murphy's Law** schedule for today plus the next ```7 days```. In the **Processes** screen, you will edit the **Daily Job** for a job called **Wrong Path Job**. Correct the **Command Line** AND **Working Directory** paths by changing ```MSLSAM2``` to ```MSLSAM```. Rerun the Job. Compare today's version of the job with the next day's version of the job. Make note of the differences.
 
 :::caution Warning
-All of the copies of the Daily Table must be rebuild when the Master Record is changed
+All of the future instances of the jobs must be rebuilt after the Master Record is corrected so they will reflect the correction.
 :::
 
-Close the Job Daily tab and open the Job Master to ensure that the paths contain the corrected ```MSLSAM```. 
-
-Select Schedule Build and Build and Release the **Murphy's Law** Schedule for the dates previously selected but not yet run. Build the Schedule and **Overwrite** the previous Builds.
+Close out of **Operations** and navigate to the job in the **Master Job** section to correct the paths to reflect ```MSLSAM```. Rebuild the **Murphy's Law** schedule for the future dates that have not yet run and utilize the **Overwrite** flag.
 
 ### Instructions
 
-1.	Build the **Murphy’s Law** schedule.
-2.	In Solution Manger, select the **Operation** tab, double click on **Schedule Build**. 
-3.	In the Schedule Selection section, select **Murphy’s Law**.
-4.	In the **From** field, keep today’s date.
-5.	In the **To** field, update the date to 7 days from today.
-6.	Select the **Released** radio button to release the Schedule for today.
-7.	Click the Build button.
-8.	Click the link for the **Murphys Law** Schedule to open the **Processes** screen.
-9.	Right-click on the **Wrong Path Job**
-10.	Click the **Wrench** icon in the Job Selection side menu.
-11.	The Daily Job Definition screen will appear.
-12. Click the **Lock** icon in the upper right-hand corner.
-13. Expand the **Task Details** section.
-14.	In the Command Line path **and** Working Directory path, change **MSLSAM2** to **MSLSAM**.
-15.	Click the Save button. 
-16.	Right-click on the job and select **Restart** in the Job Selection side menu.
-17.	The job should succeed because you fixed the invalid command.
-18.	In the **Processes** screen date menu, Select Tomorrow’s Date.
-19.	Select **Murphy’s Law** Schedule.
-20.	Right-click on the **Wrong Path** Job.
-21. Click the **Wrench** icon in the Job Selection side menue.
-22. Expand the **Task Details** section.
-23.	Notice that the path still contains **MSLSAM2** instead of **MSLSAM**.
-  *	Remember that you need to rebuild all copies of the Daily Tables when the Master Record is changed.
-  *	Don’t make any changes. Just close the Job Daily (Wrong Path) tab.
-24. In the **Library** selection, click the **Master Jobs** topic.
-25. Select the **Wrong Path** Job in the **Murphys Law** Schedule.
-26. Click the **Edit** button.
-27. Click the **Lock** icon in the upper right-hand corner.
-28. In the Command Line path and the Working Directory path, change **MSLSAM2** to **MSLSAM**
-29. Click **Save**.
+#### Build the Murphy’s Law schedule
+1.	In Solution Manger, select the **Operation** tab, click on **Schedule Build**. 
+2.	In the **From** field, keep today’s date.
+3.	In the **To** field, update the date to 7 days from today.
+4.	Select the **Released** radio button.
+5.	In the Schedule Selection section, select **Murphy’s Law**.
+6.	Click the **Build** button.
+7.	Click the link for the **Murphys Law** Schedule to open the **Processes** screen.
 
-31.	Select the **Operations** tab, then click on Schedule Build. 
-32.	In the Schedule Selection section, select **Murphy’s Law**.
-33.	In the Scheduling Dates section:
-  *	Enter the **From** and **To** dates for the build covering the range of dates this Schedule is already built **but has not run**.  
-34. Select the **Released** radio button in the Schedule Build section. 
-35. Click the **Overwrite Existing Schedules** toggle to turn on.
-34.	Click the **Build** button.
-35.	In the **Build Properties** window:
-37.	After the Schedule Build is complete the new Daily Schedules will have the updates in them.
+#### On the Processes screen
+:::tip
+The job **Wrong Path** will have an **Return Code** of ```31001```. This **Return Code** means there is an issue with the **Command Line**.
+:::
+
+8.	Right-click on the **Wrong Path** job.
+9.	In the **Job Selection** side menu, click the **Wrench** icon.
+
+#### Correct the Daily Job Definition
+10.	The **Daily Job Definition** screen will appear.
+11. Click the **Lock** icon in the upper right-hand corner.
+12. Expand the **Task Details** section.
+13.	In the **Run** section, modify the **Command Line** AND **Working Directory** paths from ```MSLSAM2``` to ```MSLSAM```.
+14.	Click the **Save** button. 
+
+#### On the Processes screen
+15.	In the **Job Selection** menu, click **Job Status Update** and select **Restart**.
+16. Close the **Job Selection** menu.
+17.	The job should have a **Finished OK** status because you corrected the invalid command in the **Command Line**.
+18.	In the **Processes** screen, in the **Date** list, select tomorrow’s date. 
+19.	Select the **Murphy’s Law** shedule with tomorrow's date in the **Date** column in the **Schedule** section.
+20.	Right-click on the **Wrong Path** Job.
+21. In the **Job Selection** side menu, click the **Wrench** icon.
+
+#### On the Daily Job Definition screen
+22. Expand the **Task Details** section.
+23.	Notice that the paths still contains **MSLSAM2** instead of **MSLSAM**.
+24. Don’t make any changes.
+25. Close **Operations**.
+
+:::info
+Remember that you need to rebuild all copies of the Daily Tables when the Master Record is changed. 
+:::
+
+#### Correcting the Master Job
+26. Navigate to **Library**, click the **Master Jobs** topic.
+27. Use the search field at the top of the **Master Job** list to locate the **Wrong Path** Job in the **Murphys Law** Schedule.
+28. Select the job and click the **Edit** button.
+29. Click the **Lock** icon in the upper right-hand corner.
+30. Expand **Task Details** and locate the **Run** section.
+31. In the **Command Line** AND **Working Directory** paths, change ```MSLSAM2``` to ```MSLSAM```.
+32. Click **Save**.
+33. Close **Library**.
+
+#### Rebuild the Furture Dates
+34.	Select the **Operations** tab, then click on **Schedule Build**. 
+35.	In the **From** field select tomorrow.
+36. In the **To** field select 7 days from today.
+37. Select the **Released** radio button in the **Schedule Build** section. 
+38. Click the **Overwrite Existing Schedules** toggle to turn on.
+39.	In the **Schedule Selection** section, select **Murphy's Law**.
+40.	Click the **Build** button.
+41. Click the link for the **Murphys Law** schedule for any date you just built out.
+
+#### Validate the Change
+42. Right-click on the **Wrong Path** job.
+43. Click the **Wrench** icon.
+44. On the **Daily Job Definition** screen, expand the **Task Details**
+45. In the **Run** section, validate that the **Command Line** AND **Working Directory** paths show ```MSLSAM```.
+46. Close **Operations**.
 
 
 ## Enterprise Manager
@@ -73,55 +99,69 @@ Select Schedule Build and Build and Release the **Murphy's Law** Schedule for th
 
 :::
 
-1.	Build the **Murphy’s Law** schedule.
-2.	Under the Operation topic, double click on **Schedule Build**. 
-3.	In the Schedule Selection section, select Murphy’s Law to build.
-4.	In the Start field, keep today’s date.
-5.	In the Stop field, update the date to 7 days from today.
-6.	Click the Build button and Release the Schedule for today.
+#### Build the **Murphy’s Law** schedule.
+1.	Under the **Operation** topic, double click on **Schedule Build**. 
+2.	In the **Schedule Selection** section, select **Murphy’s Law** to build.
+3.	In the **Start** field, keep today’s date.
+4.	In the **Stop** field, update the date to 7 days from today.
+5.	Click the **Build** button.
+6. In the **Build Properties** window, select **Released** for today and the future dates.
 7.	Click OK.
-8.	Close the Build Schedules screen.
-9.	Under the Operation topic, double click on the List or Matrix view. 
-10.	Select the Schedule Date.
+8.	Close the **Build Schedules** screen.
+
+#### On the Matrix
+9.	Under the **Operation** topic, double click on **Matrix**. 
+10.	Select today's date in the **Calendar**.
 11.	Select the **Murphy’s Law** Schedule.
 12.	Right-click on the **Wrong Path Job**
-  *	(in the PERT view, right-click on the Wrong Path Job) 
-13.	Select Maintenance > **Edit Daily Job** 
-  *	(in the PERT view go to Job > Maintenance > Edit Daily Job).
+13.	Select **Maintenance** > **Edit Daily Job** 
 14.	The Job Daily screen will appear.
-15.	In the Command Line path **and** Working Directory path, change **MSLSAM2** to **MSLSAM**.
-16.	Click the Save button on the Job Daily toolbar. 
-17.	Click the Save Job Definition to Master Button and confirm the action.
-  *	This will push the change you made to the Job Master.
+
+#### Correcting and restarting the Job
+15.	In the **Windows Definiton** section, modify the **Command Line** AND **Working Directory** paths from ```MSLSAM2``` to ```MSLSAM```.
+16.	Click the **Save** button on the Job Daily toolbar. 
+17.	Click the **Save Job Definition to Master** button and confirm the action in the pop-up window.
+
+:::info Note
+This button will push changes made in the **Windows Definition** section back to the Job Master.
+:::
+
 18.	Close the Job Daily screen.
-19.	Right-click on the job and select Restart.
-20.	Enter a comment and click OK.
-21.	The job should succeed because you fixed the invalid command.
-22.	Under the Operation topic, double click on the List or Matrix view. You can also open the PERT view, if you want.
-23.	Select Tomorrow’s Date,
-24.	Select **Murphy’s Law** Schedule.
-25.	Right-click on Wrong Path Job
-  * (in the PERT view, right-click on the Wrong Path Job) 
-26.	Select Maintenance > Edit Daily Job 
-  *	(in the PERT view go to Job > Maintenance > Edit Daily Job).
-27.	The Job Daily screen will appear.
-28.	Notice that the path still contains **MSLSAM2** instead of **MSLSAM**.
-  *	Remember that you need to rebuild all copies of the Daily Tables when the Master Record is changed.
-  *	Don’t make any changes. Just close the Job Daily (Wrong Path) tab.
-29.	Go back to the Job Master and verify that the Command Line path **and** Working Directory path have been changed from **MSLSAM2** to **MSLSAM**.
-30.	Close the Job Master.
-31.	Under the Operation topic, double click on Schedule Build. 
-32.	In the Schedule Selection section, select Murphy’s Law to build.
-33.	In the Scheduling Dates section:
-  *	Enter the Start and Stop dates for the build covering the range of dates this Schedule is already built **but has not run**.  
-    -- or -- 
-  *	Click the **Calendar** button (to the right of the text box) to select the date from the monthly Calendar. 
+19.	Right-click on the **Wrong Path** job and select **Restart**.
+20.	Enter a comment and click **OK**.
+21.	The job should complete with a **Finished OK** status because you corrected the invalid command in the **Command Line**.
+
+#### Checking Future Dates
+22. In the **Calendar** on the **Matrix** screen, select tomorrow's date.
+23.	Select **Murphy’s Law** Schedule.
+24.	Right-click on **Wrong Path** job
+25.	Select **Maintenance** > **Edit Daily Job** 
+26.	The **Job Daily** screen will appear.
+27.	Notice that the path still contains ```MSLSAM2``` instead of ```MSLSAM```.
+
+:::info
+Remember that you need to rebuild all copies of the Daily Tables when the Master Record is changed. 
+:::
+
+28. Don’t make any changes, close the **Job Daily (Wrong Path)** tab.
+
+#### Rebuild the Future Dates
+29.	Under the **Operation** topic, double click on **Schedule Build**. 
+30.	In the **Schedule Selection** section, select **Murphy’s Law** to build.
+31.	In the **Start** field, select tomorrow's date.
+32.	In the **Stop** field, update the date to 7 days from today.
+33. Check the **Overwrite existing schedules** box.
 34.	Click the **Build** button.
-35.	In the **Build Properties** window:
-  *	Click the OK button (leave the Released radio button selected).
-  *	As the Schedule was already built for those dates, you will be prompted to overwrite those builds. Click Yes when prompted (for each date).
-36.	Close the Build Schedules screen.
-37.	After the Schedule Build is complete the new Daily Schedules will have the updates in them.
-38.	Close all tabs, but keep Enterprise Manager open.
+35. In the **Build Properties** window, select **Released**.
+36.	Click **OK**.
+37.	Close the **Build Schedules** screen.
+
+#### Validate the Change
+38. In the **Matrix**, select a date in the future.
+39. Select the **Murphy's Law** schedule.
+40. Right-click on the **Wrong Path** job.
+41. Select **Maintenance** > **Edit Daily Job** 
+42. On the **Daily Job Definition** screen, validate that the **Command Line** AND **Working Directory** paths show ```MSLSAM```.
+43. Close **Job Daily** screen.
 
 </details>

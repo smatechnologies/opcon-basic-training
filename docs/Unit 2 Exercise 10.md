@@ -6,92 +6,95 @@ sidebar_label: 'Unit 2 Exercise 10'
 
 ### Objective
 
-Within the existing **Frequency Practice Schedule**, create three new Null Jobs:
+To become familiar with the Interval and Annual Plan frequencies.
 
-* **On Interval Frequency Practice**
-* **Annual Frequency Practice**
-* **Annual Plan Frequency with Offsets**
+### Summary
 
-In the **On Interval Frequency Practice** Job, create a new Frequency named ```Every-15thand30th-B```. This Frequency should run on intervals of the 15th and 30th of the month, or the day before in case of a holiday.
+Utilizing the **Frequency Practice Schedule**, you will create three new Null jobs called:
 
-In the **Calendar Master**, add a new Calendar named ```Company Holiday Calendar``` and select several dates from this year. Provide appropriate documentation.
+* **On Interval Freq**
+* **Annual Plan Freq**
+* **Annual Plan Plus One Freq**
 
-In the **Annual Frequency Practice** Job, create a new Frequency named ```CompanyHoliday```. Schedule the Frequency using an **Annual Plan** by selecting the ```Company Holiday Calendar```.
+In the **On Interval Freq** job, create a new frequency that will run on the 15th and 30th of every month or on the day before in case of a holiday.
 
-In the **Annual Plan Frequency with Offsets** Job, create a new Frequency named ```CompanyHoliday+1```. This Frequency should use the ```Company Holiday Calendar``` **Annual Plan** with an offset of ```1 day```.
+In the **Annual Plan Freq** job, create a new frequency that will utilize a custom calendar.
+
+In the **Annual Plan Plus One Freq** job, create a new frequency that will utilize a custom calendar with a day offset of one.
 
 ### Instructions
 
 1.	In **Studio**, select the **Frequency Practice** Schedule and click **View**.
-2.	In the side menu, select **Add Job** to add a Null Job.
-3.  Select the **Frequency Practice** Schedule in the Schedule dropdown list.
-4.	Enter **On Interval Frequency Practice** in the **Name** text field.
-5.  Leave the **Job Type** as **Null Job**.
-6.	Click the **Save** button.
-7.  Click the **Back** button in the upper right-hand corner.
-8.  Click anywhere in the **Studio** screen.
-9.	Repeat Steps 2-6 creating three Null Jobs:
-  *	**Annual Frequency Practice**.
-  *	**Annual Plan Frequency with Offsets**.
+2.	In the side menu, select **Add Job**.
 
-10.	Frequency: **On Interval**
- * Click the **Back** button in the upper right-hand corner.
-  *	Click the **On Interval Frequency Practice** Job.
-  *	In the side menu, click on the **Wrench** icon.
-  * Click the **Lock** button in the upper right-hand corner.
-  * Scroll to the **Frequency** tab and expand the dialog box.
-  *	Click the **Add** button.
-  *	Type **Every-15thand-30th-B** in the Frequency Name field.
-  * In the **When to Schedule** dropdown list, select **On Intervals**.
-  * Mark the  checkboxes for the ```15``` and ```30``` in the **On Intervals** parameter.
-  * Set the **A/O/B/N** flag set to **Before Date**.
+#### Create the On Interval Freq Job
+
+3. In the **Name** field, enter **All Weeks Freq**.
+4. Leave the **Job Type** as **Null Job**.
+5. Click the **Save** button.
+6. Click the **Lock** button to enter **Admin Mode**.
+7. Expand the **Frequency** section, if not already expanded.
+8. Click the **Add** button.
+9. In the **Frequency Manager Wizard**:
+  * In the **Name** field, enter ```15th+30th-B```.
+  * In the **When to Scheduled** dop-down menu, select **On Intervals**.
+  * In the **On Intervals** section, check the boxes for **15** and **30**.
+  * In the **A/O/B/N** section, select **Before Date**.
+  * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
+10. In the **Active** column, select the frequency then select **Forcast**.
 
-  *	Click the **Forecast** button.
+:::tip
+The **Forecast** screen should show the **15th and 30th days of each month** as green. If the 15th or 30th is a holiday the previous working day should be green.
+:::
 
-  *	On the **Forecast** screen, the **15th and 30th days** of each month are green, moving **“Before”** for holidays and weekends and holidays.
+#### Create the Annual Plan Freq Job
 
-
-11.	Frequency: **Annual Plan**
-* In **Library**, select **Calendars**.
-* Click the **Add** button.
-  *	Type **Company Holiday Calendar** in the **Name** field.
-  *	Enter a **Description** like: **This Calendar will be used in an Annual Plan Frequency**.
-  * Click several dates in the Calendar.
-    *Note: The dates are saved dynamically
-  * Click **Save**.
- * In **Studio**, select the **Frequency Practice** Schedule and click **View**.
-  *	Click the **Annual Frequency Practice** Job.
-  *	In the side menu, click on the **Wrench** icon.
-  * Click the **Lock** button in the upper right-hand corner.
-  * Scroll to the **Frequency** tab and expand the dialog box.
-  *	Click the **Add** button.
-  *	Type **CompanyHoliday** in the Frequency Name field.
-  * In the **When to Schedule** dropdown list, select **Annual Plan**.
-  * From the **Calendar** dropdown menu, select **Company Holiday Calendar**.
+11. Click the **Back** button to navigate back to the **Studio** workspace.
+12. In the side menu, select **Add Job**.
+13. In the **Name** field, enter **Annual Plan Freq**.
+14. Leave the **Job Type** as **Null Job**.
+15. Click the **Save** button.
+16. Click the **Lock** button to enter **Admin Mode**.
+17. Expand the **Frequency** section, if not already expanded.
+18. Click the **Add** button.
+19. In the **Frequency Manager Wizard**:
+  * In the **Name** field, enter ```Annual```.
+  * In the **When to Scheduled** dop-down menu, select **Annual Plan**.
+  * In the **Calendar** drop-down menu, select **Master Calendar**.
+  * In the **A/O/B/N** section, select **Before Date**.
   * Click the **Save** button.
+20. In the **Active** column, select the frequency then select **Forcast**.
 
-  *	Click **Forecast** to view the Frequency.
-    * The dates should match those you entered in the Calendar.
+:::tip
+The **Forecast** screen should show the **date you selected in Exercise 7** as green.
+:::
 
+#### Create the Annual Plan Plus One Freq Job
 
-12.	Frequency: **Annual Plan with Offsets**
- * In **Studio**, select the **Frequency Practice** Schedule and click **View**.
-  *	Click the **Annual Plan Frequency with Offsets** Frequency Practice Job.
-  *	In the side menu, click on the **Wrench** icon.
-  * Click the **Lock** button in the upper right-hand corner.
-  * Scroll to the **Frequency** tab and expand the dialog box.
-  *	Click the **Add** button.
-  *	Type **CompanyHoliday+1** in the **Frequency Name** field.
-  *	In the **When to Schedule** section, click the **Annual Plan** radio button.
-  *	From the **Calendar** drop-down menu, select the **Company Holiday Calendar**.
-  *	In the **Offset Days** box change the number of workdays to ```1```.
+11. Click the **Back** button to navigate back to the **Studio** workspace.
+12. In the side menu, select **Add Job**.
+13. In the **Name** field, enter **Annual Plan Plus One Freq**.
+14. Leave the **Job Type** as **Null Job**.
+15. Click the **Save** button.
+16. Click the **Lock** button to enter **Admin Mode**.
+17. Expand the **Frequency** section, if not already expanded.
+18. Click the **Add** button.
+19. In the **Frequency Manager Wizard**:
+  * In the **Name** field, enter ```Annual+1```.
+  * In the **When to Scheduled** dop-down menu, select **Annual Plan**.
+  * In the **Calendar** drop-down menu, select **My First Calendar**.
+  * in the **Offset Days**, enter ```1```.
+  * In the **A/O/B/N** section, select **Before Date**.
+  * Click the **Save** button.
+20. In the **Active** column, select the frequency then select **Forcast**.
 
-  *	Click **Forecast** to view the Frequency. 
-    *	The dates selected should be the next working day of the dates selected in the Calendar.
+:::tip
+The **Forecast** screen should show the **date you selected in Exercise 7** as green.
+:::
 
-
-
+31. Close **Library**.
+32. Close **Studio**.
 
 ## Enterprise Manager
 

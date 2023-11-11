@@ -15,7 +15,7 @@ Congo Online Retail Inc. doit exécuter un Schedule nommé **CONGO INVENTORY REP
 
 **Électronique**
 *	Smartphones
-*	Xbox
+*	XBOX
 
 **Vêtements**
 *	Levi's
@@ -66,7 +66,7 @@ Your browser does not support the video tag.
     * Legos
     * Nerf
     * Smartphones
-    * Xbox
+    * XBOX
     * Levis
     * Nike
 * Les jobs ne peuvent pas démarrer avant **8h00**.

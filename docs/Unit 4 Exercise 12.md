@@ -6,156 +6,161 @@ sidebar_label: 'Unit 4 Exercise 12'
 
 ### Objective
 
-Create a Schedule named **MultipleFiles-Main Schedule**.
+To use File Arrival to detect the arrival of a multiple files and add a container jobs to process each one.
 
-Within the **MultipleFiles-Main Schedule**, create a Windows Job named **File Arrival Job** with a ```File Arrival``` **Job Action** running a Monday-Friday Frequency.
+### Summary
 
-**File Name**: ```“C:\Multi-File Arrival\MultiFile*.txt”```
-**Start Time**: ```0900```
-**End Time**: ```1700```
-**File Size Stable Duration (in secs)**: ```5```
-
-Add a ```$JOB:ADD``` **Event** on the Job with the following parameters:
-
-```
-[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],MultiFile Processing Job,OnRequest,FILENAME=[[JI.$ARRIVED FILE NAME]]
-```
-
-Within the **MultipleFiles-Main Schedule**, create a Windows Job named **Create File** with an ```Embedded Script``` **Job Action** running a Monday-Friday Frequency. The Job should run the ```Windows_MultiFile_Arrival``` Script with a ```PowerShell``` Runner. Give the Job a Build Status of ```On Hold```.
-
-Create a Schedule named **MultipleFiles-SubSchedule**. Mark the Schedule as a **SubSchedule**.
-
-Within the **MultipleFiles-SubSchedule**, create a Windows Job named **Process File** running the genericp program on a Monday-Friday Frequency.
-
-Within the **MultipleFiles-SubSchedule**, create a Windows Job named **Archive File** with a **Job Sub-Type** of ```Command: File Move``` running a Monday-Friday Frequency.
-
-**Source**: ```“[[SI.FILENAME]]”```
-**Destination**: ```“C:\Multi-File Arrival\Archive\”```
-
-Create a **Requires Dependency** for the **Archive File** Job and **Process File** Job.
-
-**Archive File Job > Process File Job**
-
-Within the **MultipleFiles-Main Schedule**, create a Job named **MultiFile Processing Job** that runs the **MultipFiles-SubSchedule** as a **Container Job** with an ```OnRequest``` Frequency.
-
-Add a ```$JOB: RESTART``` **Event** to the Job  with the following parameters:
-
-```
-[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival Job
-```
-
-Build the Schedule Released for Today. Release the **Create File** Job in the **MultipleFiles-Main Schedule**. Check the Instance Properties of one of the Container Jobs in Job Information to verify file processing.
+You are going to create a schedule with three jobs. One job will create the files we are looking for, one will be the File Arrival job to 'look' for the new created files, and the last will be a Container job to process each file found.
 
 ### Instructions
 
-#### MultipleFiles-Main Schedule
+#### Create the Sub-Schedule to Processs the Files
 
-1.	Create a new Main Schedule using the default settings. Name it **MultipleFiles-Main Schedule**. Add **Documentation** to the Schedule. 
+1.  In **Library** > **Administration**, select on **Master Schedule**. 
+2.  Click the **Add** button.
+3.  On the **Master Schedule Definition** screen:
+* In the **Name** field, enter ```SS-MultipleFiles```
+* Add **Documentation**
+* Click **Sub Schedule**
+* Saturday and Sunday are working day
+* Do **NOT** use **Master Schedule**
+* Click **Save**
+4.  Click **Back**
 
-#### File Arrival Job
+#### Add the Process File Job
 
-2.	Add a **Windows File Arrival Job** to the **MultipleFiles-Main** Schedule.
-	* **Name**: **File Arrival Job**
-	* **Job Type**: ```Windows```
-	* **Machine Selection**: ```SMATraining```
-	* **Job Action**: ```File Arrival```
-	* **User ID**: ```SMATRAINING\SMAUSER```
-	* **File Name**: ```"C:\Multi-File Arrival\MultiFile*.txt"```
-	* **Start Time**: ```09:00 AM```
-	* **End Time**: ```05:00 PM```
-	* **File Size Stable Duration (in secs)**: ```5```
-3.	Give the Job the ```Mon-Fri-N``` Frequency.
-4.	In the **Events** box, **Add** a new Event.
-	* For **Event Trigger** select the **Job Status**
-	* For **Trigger Details** select **Finished OK**
-	* For **Event Template** select:   
+5.  In the **Schedule List**, search for and select the **SS-MultipleFiles** sub-schedule.
+6.  Click **View**
+7.  Click **Add Job**
+8.  On the **Master Job Definition** screen:
+* In the **Name** field, enter ```Process File```
+* In the **Job Type** drop-down, select **Windows**
+* In the **Machine Selection** drop-down, select **SMATraining**
+* In the **User ID** drop-down, select **SMATRAINING\SMAUSER**
+* In the **Command Line** field, enter ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t10```
+  * _Remeber to use properties where acceptable._
+* Click **Save**
+* Add **Documentation** to the Job. 
+* Give the Job a **Frequency** of ```Mon-Sun-O```.
+* click **Save**
+9.  Click **Back**
 
-	```$JOB:ADD,<Schedule date>,<Schedule name>,<Job name>,<Frequency name>,[Job instance property definitions]```
+#### Add the Archive File Job
 
-	* For the **Event Parameters**, use the following, 
-		* **Schedule Date**: ```[[$SCHEDULE DATE]]```
-		* **Schedule Name**: ```[[$SCHEDULE NAME]]```,
-		* **Job Name**: ```MultiFile Processing Job```
-		* **Frequency Name**: ```OnRequest```
-		* **Job Instance Definition Name**: ```FILENAME```
-		* **Job Instance Definition Value**: ```[[JI.$ARRIVED FILE NAME]]```
-		* Click the **Save** button
+7.  Click **Add Job**
+8.  On the **Master Job Definition** screen:
+* In the **Name** field, enter ```Archive File```
+* In the **Job Type** dropdown, select **Windows**.
+* In the **Machine Selection** dropdown, select the **SMATraining** machine for the Job to run on. 
+* In the **Job Sub-Type** section, click the blue **Edit** button.
+* In the **Job Sub-Type Details** pop-up window: 
+  * Select **Command: File Move**.  
+  * In the **Source** field, type ```"[[SI.FILENAME]]"```
+  * In the **Destination** field, type ```"C:\Multi-File Arrival\Archive\"```
+  * Click the **Save** button.
+* In the **User ID** dropdown, select **SMATRAINING\SMAUSER**
+* Click the **Save** 
+* Click the **Lock** button in the upper right-hand corner.
+* Add some **Documentation** to the Job.
+* In the **Frequency** section, move **Mon-Sun-O** from the **Inactive** column and to the **Active** column.
+* Click **Save**
+9.  Click **Back**
+10. Make the **Archive File** job dependent on the **Process File** job when it completes successfully.
+11. Click **Back**
 
-#### Create File Job
+#### Create the Parent Schedule
 
-5.	Create another Job in **MultipleFiles-Main**. This will be an **embedded script Job** (already configured) that will create the files.
-	* **Name**: **Create File**
-	* **Job Type**: ```Windows```
-	* **Primary Machine**: ```SMATraining```
-	* **Job Action**: ```Embedded Script```
-	* **User ID**: ```SMATRAINING\SMAUSER```
-	* **Script**: ```Windows_MultiFile_Arrival```
-	* **Version**: ```LATEST```
-	* **Runner**: ```PowerShell```
-	* **Arguments**: Do not type anything (leave it blank)
-6.	Give the Job the ```Mon-Fri-N``` Frequency.
-7.	Give the Job a **Job Build Status**, of ```On Hold```.
-8.	Add **Documentation** to the Job.
-9.	Outside of OpCon verify that the follow folder exists:
-```C:\Multi-File Arrival```
+12. Click the **Add** button.
+13. On the **Master Schedule Definistion screen:
+* In the **Name** field, enter ```File Arrival - Multiple Files```
+* Add **Documentation**
+* Pick your working days
+* Configure **Auto Build** and **Auto Delete**.
+* Click **Save**
+14. Click **Back**
 
-#### MultipleFiles-SubSchedule
+#### Add the FA MultiFile
 
-10.	Create a new **Schedule** and name it **MultipleFiles-SubSchedule**.
-12.	Under the **Schedule Properties** frame, mark it as a **SubSchedule**.
-13.	Add **Documentation** to the SubSchedule.
-14.	Leave the other fields with the **default values**.
+15.  In the **Schedule List**, search for and select the **File Arrival - Multiple Filess** schedule.
+16.  Click **View**
+17.  Click **Add Job**
+18. On the **Master Schedule Definition** screen:
+* In the **Name** field, enter ```FA MultiFile```
+* In the **Job Type** drop-down, select **Windows**
+* In the **Machine Selection**drop-down, select **SMATraining**
+* In the **User ID** drop-down, select **SMATRAINING\SMAUSER**
+* In the **Job Action** drop-down, select **File Arrival**
+* In the **File Name** field, enter ```"C:\Multi-File Arrival\MultiFile*.txt"```
+* In the **Start Time** drop-down, enter 0 day at ```09:00 AM```
+* In the **End Time** drop-down, enter 0 day at ```06:00 PM```
+* In the **File Size Stable Duration (in secs)** drop-down, enter ```5```
+19. Add **Documentation** to the Job.
+20. Give the Job a **Frequency** of **Mon-Fri-N**
+21. In the **Events** section, click **Add**.
+22. In the **Create new Event** pop-up window:
+* In the **Event Trigger** drop-down, select the **Job Status**
+* In the **Trigger Details** drop-down, select **Finished OK**
+* In the **Event Template** drop-down, select the **$JOB:ADD** event
+* For the **Event Parameters**, use the following, 
+  * In the **Schedule Date** field, enter ```[[$SCHEDULE DATE]]```
+  * In the **Schedule Name** field, enter ```[[$SCHEDULE NAME]]```,
+  * In the **Job Name** field, enter ```MultiFile Processing Job```
+  * In the **Frequency Name** field, enter ```OnRequest```
+  * In the **Job Instance Definition Name** field, enter ```FILENAME```
+  * In the **Job Instance Definition Value** field, enter ```[[JI.$ARRIVED FILE NAME]]```
+  * Click the **Save** button
+* Click **Save**
+23. Click **Back**
 
-#### Process File Job
+#### Add the Create File Job
 
-15.	In  **MultipleFiles-SubSchedule** add a new Windows Job.
-	* In the **Name** textbox, enter **Process File**.
-	* Run the **Windows Genericp program** in the **Command Line**.
-		* Example: ```"[[MI.PathWindows]]\genericp.exe" -t10 -e0```
-16.	Give the Job a **Frequency** of ```Mon-Fri-N```.
-17.	Add **Documentation** to the Job. 
+24. Select **Add Job**.
+25. On the **Master Job Definition** screen:
+* In the **Name** field, enter ```Create File```
+* In the **Job Type** drop-down, select **Windows**
+* In the **Machine Selection** drop-down, select **SMATraining**
+* In the **Job Action** drop-down, select **Embedded Script**
+* In the **User ID** drop-down, select **SMATRAINING\SMAUSER**
+* In the **Script** drop-down, select **Windows_MultiFile_Arrival**
+* In the **Version** drop-down, select **LATEST (X)**
+* In the **Runner** drop-down, select **PowerShell**
+* Click **Save**
+26. Add **Documentation** to the Job.
+27. Give the Job a **Frequency** of **Mon-Fri-N**
+28. Select the **Frequecny** in the **Active** column, in the **Job Build Status** drop-down, select **On Hold**
+29. Click **Save**
+30. click **Back**
 
-#### Archive File Job
+#### Add the Container Job
 
-18.	Add another Job to  **MultipleFiles-SubSchedule**.
-	* **Name**: **Archive File**
-	* **Job Type**: ```Windows```
-	* **Job Sub-Type**: ```Command: File Move```
-	* **Primary Machine**: ```SMATraining```
-	* **User ID**: ```SMATTRAINING\SMAUSER```
-	* **Source**: ```“[[SI.FILENAME]]”```
-	* **Destination**: ```“C:\Multi-File Arrival\Archive\”```
-19.	Give the Job a **Frequency** of ```Mon-Fri-N```.
-20.	Add **Documentation** to the Job.
-21.	Make the **Archive File Job** dependent on the **Process File Job** completing successfully.
-
-#### MultiFile Processing Job
-
-22.	Add another Job to the **MultipleFiles-Main** Schedule.
-	* In the **Name** textbox, enter **MultiFile Processing Job**.
-	* In the **Job Type** dropdown list, select **Container**.
-	* In the **Master SubsSchedule** dropdown select **MultipleFiles-SubSchedule**.
-23.	Give the Job a **Frequency** of ```OnRequest```.
-24.	Add **Documentation** to the Job.
-25.	Add an **Event** to the Job
-	* For **Event Trigger** select the **Job Status** radio button, click **Next**.
-	* For **Job Status**, select **Finished OK**, click **Next**.
-	* For **Event Template** select:   
-	```$JOB:RESTART <Schedule date>,<Schedule name>,<Job name>```
-
-	* For the **Event Parameters**, use the following:   
-	```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival Job ```
-
-	* and click **Finish**.
+31.	Select **Add Job** in the side menu. 
+32. On the **Job Master Definition** screen:
+* In the **Name** textbox, enter ```MultiFile Processing Job```. 
+* In the **Job Type** dropdown list, select **Container**.
+* On the **Master SubSchedule** dropdown list select **SS-MultipleFiles**.
+* Click the **Save** button.
+* Click the **Lock** icon in the upper right-hand corner.
+33. Expand the **Documentation** box and enter in some documentation.
+34. Give the Job a **Frequency** of **OnRequest**
+35. In the **Create new Event** pop-up window:
+* In the **Event Trigger** drop-down, select the **Job Status**
+* In the **Trigger Details** drop-down, select **Finished OK**
+* In the **Event Template** drop-down, select the **$JOB:RESTART** event
+* For the **Event Parameters**, use the following, 
+  * In the **Schedule Date** field, enter ```[[$SCHEDULE DATE]]```
+  * In the **Schedule Name** field, enter ```[[$SCHEDULE NAME]]```,
+  * In the **Job Name** field, enter ```FA MultiFile```
+  * Click the **Save** button
+36. Click the **Save** button.
+37. Click **Back**.
 
 #### Build and Verify Results
 
-26.	Build the **MultipleFiles-Main Schedule** for today **Released**.
-27. In **Processes**, notice the **File Arrival Job** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (```OnRequest``` – It will be added by the File Arrival Job).
-28.	Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
-29.	Notice that as the **File Arrival Job** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
-30.	If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).
-	* Check the **Job Information**.
+26. Build the **File Arrival - Multiple Files** for today **Released**.
+27. In **Processes**, notice the **FA MultiFile** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (It will be added by the FA MultiFile).
+28. Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
+29. Notice that as the **FA MultiFile** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
+30. If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).
 
 ## Enterprise Manager
 
@@ -166,92 +171,92 @@ Build the Schedule Released for Today. Release the **Create File** Job in the **
 :::
 
 
-1.	Create a new **Main Schedule** using the default settings. Name it **MultipleFiles-Main Schedule**. Add **Documentation** to the Schedule. 
-2.	Add a **Windows File Arrival Job** to the **MultipleFiles-Main** Schedule.
-	* **Name**: **File Arrival Job**
-	* **Job Type**: ```Windows```
-	* **Primary Machine**: ```SMATraining```
-	* **Job Action**: ```File Arrival```
-	* **User ID**: ```SMATRAINING\SMAUSER```
-	* **File Name**: ```"C:\Multi-File Arrival\MultiFile*.txt"```
-	* **Start Time**: ```0900```
-	* **End Time**: ```1700```
-	* **File Size Stable Duration (in secs)**: ```5```
-3.	Give the Job the ```Mon-Fri-N``` Frequency.
-4.	On the **Events** tab, Add a new Event
-	* On the **Event Trigger** screen select the **Job Status** radio button, click **Next**.
-	* On the **Trigger Details** screen for **Job Status**, select **Finished OK**, click **Next**.
-	* On the **Event Definition** screen, for the **Event Template** select:   
+1. Create a new **Main Schedule** using the default settings. Name it ** File Arrival - Multiple Files**. Add **Documentation** to the Schedule. 
+2. Add a **Windows FA MultiFile** to the **MultipleFiles-Main** Schedule.
+ * **Name**: **FA MultiFile**
+ * **Job Type**: ```Windows```
+ * **Primary Machine**: ```SMATraining```
+ * **Job Action**: ```File Arrival```
+ * **User ID**: ```SMATRAINING\SMAUSER```
+ * **File Name**: ```"C:\Multi-File Arrival\MultiFile*.txt"```
+ * **Start Time**: ```0900```
+ * **End Time**: ```1700```
+ * **File Size Stable Duration (in secs)**: ```5```
+3. Give the Job the ```Mon-Fri-N``` Frequency.
+4. On the **Events** tab, Add a new Event
+ * On the **Event Trigger** screen select the **Job Status** radio button, click **Next**.
+ * On the **Trigger Details** screen for **Job Status**, select **Finished OK**, click **Next**.
+ * On the **Event Definition** screen, for the **Event Template** select:   
 
-	```$JOB:ADD,<Schedule date>,<Schedule name>,<Job name>,<Frequency name>,[Job instance property definitions]```
+ ```$JOB:ADD,<Schedule date>,<Schedule name>,<Job name>,<Frequency name>,[Job instance property definitions]```
 
-	* For the **Event Parameters**, use the following, 
+ * For the **Event Parameters**, use the following, 
 
-	```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],MultiFile Processing Job,OnRequest,FILENAME=[[JI.$ARRIVED FILE NAME]]```
+ ```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],MultiFile Processing Job,OnRequest,FILENAME=[[JI.$ARRIVED FILE NAME]]```
 
-	click **Finish**.
-6.	Still in the **Job Master** tab and with the **MultipleFiles-Main** Schedule selected, add a new Job. This will be an **embedded script Job** (already configured) that will create the files.
-	* **Name**: **Create File**
-	* **Job Type**: ```Windows```
-	* **Primary Machine**: ```SMATraining```
-	* **Job Action**: ```Embedded Script```
-	* **User ID**: ```SMATRAINING\SMAUSER```
-	* **Script**: ```Windows_MultiFile_Arrival```
-	* **Version**: ```LATEST```
-	* **Runner**: ```PowerShell```
-	* **Arguments**: Do not type anything (leave it blank)
-7.	Give the Job the ```Mon-Fri-N``` Frequency.
-8.	Give the Job a **Job Build Status**, of ```On Hold```.
-9.	Add **Documentation** to the Job.
-10.	Outside of OpCon verify that the follow folder exists:
+ click **Finish**.
+6. Still in the **Job Master** tab and with the **MultipleFiles-Main** Schedule selected, add a new Job. This will be an **embedded script Job** (already configured) that will create the files.
+ * **Name**: **Create File**
+ * **Job Type**: ```Windows```
+ * **Primary Machine**: ```SMATraining```
+ * **Job Action**: ```Embedded Script```
+ * **User ID**: ```SMATRAINING\SMAUSER```
+ * **Script**: ```Windows_MultiFile_Arrival```
+ * **Version**: ```LATEST```
+ * **Runner**: ```PowerShell```
+ * **Arguments**: Do not type anything (leave it blank)
+7. Give the Job the ```Mon-Fri-N``` Frequency.
+8. Give the Job a **Job Build Status**, of ```On Hold```.
+9. Add **Documentation** to the Job.
+10. Outside of OpCon verify that the follow folder exists:
 ```C:\Multi-File Arrival```
-11.	Back to **Enterprise Manager**, create a new **Schedule**, name it **MultipleFiles-SubSchedule**.
-12.	Under the **Schedule Properties** frame, mark it as a **SubSchedule**.
-13.	Add **Documentation** to the SubSchedule.
-14.	Leave the other fields with the **default values**.
-15.	Under the **Administration** topic, Double-Click on **Job Master**. 
-16.	In the **Schedule** drop-down list, select **MultipleFiles-SubSchedule**.
-17.	Click the **Add** button on the **Job Master** toolbar.
-18.	In the **Name** textbox, enter **Process File**.
-19.	Run the **Windows Genericp program** in the **Command Line**.
-	* Example: ```"[[MI.PathWindows]]\genericp.exe" -t10 -e0```
-20.	Give the Job a **Frequency** of ```Mon-Fri-N```.
-21.	Add **Documentation** to the Job. 
-22.	With the **MultipleFiles-SubSchedule** selected, click the **Add** button on the **Job Master** toolbar. 
-	* **Name**: **Archive File**
-	* **Job Type**: ```Windows```
-	* **Job Sub-Type**: ```Command: File Move```
-	* **Primary Machine**: ```SMATraining```
-	* **User ID**: ```SMATTRAINING\SMAUSER```
-	* **Source**: ```“[[SI.FILENAME]]”```
-	* **Destination**: ```“C:\Multi-File Arrival\Archive\”```
-23.	Click the **Save** button.
-24.	Give the Job a **Frequency** of ```Mon-Fri-N```.
-25.	Add **Documentation** to the Job.
-26.	Make the **Archive File Job** dependent on the **Process File Job** completing successfully.
-27.	In the **Job Master**, be sure you have the **MultipleFiles-Main** Schedule selected.
-28.	Add a Job to the **MultipleFiles-Main** Schedule.
-	* Click the **Add** button on the **Job Master** toolbar. 
-	* In the **Name** textbox, enter **MultiFile Processing Job**.
-	* In the **Job Type** drop-down list, select **Container**.
-	* In the **Schedule to run as SubSchedule** drop down select **MultipleFiles-SubSchedule**.
-	* Click the **Save** button.
-29.	Give the Job a **Frequency** of ```OnRequest```.
-30.	Add **Documentation** to the Job.
-31.	In the **Events** box, **Add** a new Event.
-	* For **Event Trigger** select the **Job Status** radio button, click **Next**.
-	* For **Job Status**, select **Finished OK**, click **Next**.
-	* For **Event Template** select:   
-	```$JOB:RESTART <Schedule date>,<Schedule name>,<Job name>```
+11. Back to **Enterprise Manager**, create a new **Schedule**, name it **MultipleFiles-SubSchedule**.
+12. Under the **Schedule Properties** frame, mark it as a **SubSchedule**.
+13. Add **Documentation** to the SubSchedule.
+14. Leave the other fields with the **default values**.
+15. Under the **Administration** topic, Double-Click on **Job Master**. 
+16. In the **Schedule** drop-down list, select **MultipleFiles-SubSchedule**.
+17. Click the **Add** button on the **Job Master** toolbar.
+18. In the **Name** textbox, enter **Process File**.
+19. Run the **Windows Genericp program** in the **Command Line**.
+ * Example: ```"[[MI.PathWindows]]\genericp.exe" -t10 -e0```
+20. Give the Job a **Frequency** of ```Mon-Fri-N```.
+21. Add **Documentation** to the Job. 
+22. With the **MultipleFiles-SubSchedule** selected, click the **Add** button on the **Job Master** toolbar. 
+ * **Name**: **Archive File**
+ * **Job Type**: ```Windows```
+ * **Job Sub-Type**: ```Command: File Move```
+ * **Primary Machine**: ```SMATraining```
+ * **User ID**: ```SMATTRAINING\SMAUSER```
+ * **Source**: ```“[[SI.FILENAME]]”```
+ * **Destination**: ```“C:\Multi-File Arrival\Archive\”```
+23. Click the **Save** button.
+24. Give the Job a **Frequency** of ```Mon-Fri-N```.
+25. Add **Documentation** to the Job.
+26. Make the **Archive File Job** dependent on the **Process File Job** completing successfully.
+27. In the **Job Master**, be sure you have the **MultipleFiles-Main** Schedule selected.
+28. Add a Job to the **MultipleFiles-Main** Schedule.
+ * Click the **Add** button on the **Job Master** toolbar. 
+ * In the **Name** textbox, enter **MultiFile Processing Job**.
+ * In the **Job Type** drop-down list, select **Container**.
+ * In the **Schedule to run as SubSchedule** drop down select **MultipleFiles-SubSchedule**.
+ * Click the **Save** button.
+29. Give the Job a **Frequency** of ```OnRequest```.
+30. Add **Documentation** to the Job.
+31. In the **Events** box, **Add** a new Event.
+ * For **Event Trigger** select the **Job Status** radio button, click **Next**.
+ * For **Job Status**, select **Finished OK**, click **Next**.
+ * For **Event Template** select:   
+ ```$JOB:RESTART <Schedule date>,<Schedule name>,<Job name>```
 
-	* For the **Event Parameters**, use the following:   
-	```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival Job ```
+ * For the **Event Parameters**, use the following:   
+ ```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],FA MultiFile ```
 
-32.	Build the **MultipleFiles-Main Schedule** for today **Released**.
-33. In a View, notice the **File Arrival Job** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (```OnRequest``` – It will be added by the File Arrival Job).
-35.	Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
-36.	Notice that as the **File Arrival Job** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
-37.	If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).
-	* Check the **Job Information**.
+32. Build the ** File Arrival - Multiple Files** for today **Released**.
+33. In a View, notice the **FA MultiFile** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (```OnRequest``` – It will be added by the FA MultiFile).
+35. Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
+36. Notice that as the **FA MultiFile** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
+37. If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).
+ * Check the **Job Information**.
 
 </details>
