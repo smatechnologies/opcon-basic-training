@@ -12,7 +12,7 @@ sidebar_label: 'Frequency Definiton'
 
 ![](../static/imgbasic/sm-frequency-manager-wizard-edit.png)
 
-* Frequency details for a Job can be viewed in the DEaily Job Definition
+* Frequency details for a Job can be viewed in the Daily Job Definition
 
 ![](../static/imgbasic/sm-frequency-in-daily-job.png)
 
