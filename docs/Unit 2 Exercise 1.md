@@ -6,72 +6,78 @@ sidebar_label: 'Unit 2 Exercise 1'
 
 ### Objective
 
-Create two Global Properties:
+To replace hardcoded text in the command line with Global Properties so that the command lines are future proofed should the values need to be changed.
 
-```RUNTIME``` – Value: ```10```
+### Summary
 
-```PathWindows``` – Value : ```C:\Program Files\OpConxps\MSLSAM```
+Create two Global Properties, ```RUNTIME``` with a value of ```10``` and ```PATH_Windows``` with a value of ```C:\Program Files\OpConxps\MSLSAM```. For four of the jobs in **MY FIRST SCHEDULE**, replace the hardcoded text with the newly created properties.
 
+Build **MY FIRST SCHEDULE** for today, then view the schedule's performance in Processes screen. Verify that the proper values are attributed to the Properties used.
 
-For each of the Jobs in **MY FIRST SCHEDULE**, replace the hard-coded text with the newly created Properties:
-
-```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20```
-
-To:
-
-```“[[PathWindows]]\genericp.exe” -t[[RUNTIME]]```
-
-Rebuild **MY FIRST SCHEDULE**, overwriting for Today. View the Schedule performance in Matrix View and Right-Click on **WINDOWS JOB 1** to view **Job Information > Configuration > Token Replacement Values**. 
-
-Verify that the proper values are attributed to the Properties used.
+The command line should change from ```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20``` to ```“[[PATH_Windows]]\genericp.exe” -t[[RUNTIME]]```.
 
 ### Instructions
 
-1.	Under the **Library** > **Administration** topic, select **Global Properties**. 
+#### Create the Global Properties
+
+1.	In the **Library** > **Administration**, select **Global Properties**. 
 2.	Click the **Add** button. 
-3.	In the **Name** textbox, type ```RUNTIME```.
-4.	Add this **Documentation** to the **Global Property**:
-This Global Property will store the number of seconds to run the program.
-5.	In the **Value** textbox, type ```10```.
-  * **Do not check the Encrypted checkbox.**
+3.	In the **Name** field, enter ```RUNTIME```.
+4.	In the **Value** field, enter ```10```.
+5.	Add this **Documentation** to the **Global Property** 
+  * Example: This Global Property will store the number of seconds to run the program.
 6.	Click the **Save** button.
 7.	Click the **Add** button on the Global Properties toolbar. 
-8.	In the **Name** textbox, type ```PathWindows```.
-9.	Add Documentation to the Global Property.
-10.	In the **Value** textbox, type:
-
-```C:\Program Files\OpConxps\MSLSAM```
-
+8.	In the **Name** textbox, type ```PATH_Windows```.
+9.	In the **Value** textbox, enter ```C:\Program Files\OpConxps\MSLSAM```
+10.	Add **Documentation** to the Global Property. 
+  * Example: This Global Property will store the path to the MSLSAM directory.
 11.	Click the **Save** button on the Global Properties toolbar.
-12.	Close the **Global Properties** tab.
+12.	Close **Library**.
+
+#### Modify the Jobs
+
 13.	Under **Library** > **Administration**, select **Master Jobs**.
-14.	Select **Windows Job 1** in **My First Schedule**.
-15. Click the **Edit** button. 
+14.	Using the filters, locate and select **Windows Job 1** in **My First Schedule**.
+15. Click the **Edit** button.
 16. Click the **Lock** icon in the upper right-hand corner.
-17.	In **Task Details**, Update your **Command Line** to use the new properties in place of the hard-coded text.
+17.	Expand **Task Details**, if not already expanded.
+18. Locate the **Command Line** and highlight ```C:\Program Files\OpConxps\MSLSAM```.
+19. Using either, the **Magic Wand** or **CTRL+SPACE**, pull up the **Property Selector** window.
+20. Using the Search filter, locate and select the property called ```PATH_Windows```.
+21. Click **OK**.
+22. Locate the **Command Line** and highlight ```10```.
+23. Using either, the **Magic Wand** or **CTRL+SPACE**, pull up the **Property Selector** window.
+24. Using the Search filter, locate and select the property called ```RUNTIME```.
+25. Click **OK**.
 
-Change the following:
+:::info Note
+Your updated **Command Line** should now look like:
 
-```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t20```  
+```“[[PATH_Windows]]\genericp.exe” –t[[RUNTIME]]```
+:::
 
-to:
+26.	Click the **Save** button.
+27.	Repeat steps 14-25 to modify the **Command Lines** for **Windows Job 2** and **Windows Job 3**.
+28. Close **Library**.
 
-```“[[PathWindows]]\genericp.exe” –t[[RUNTIME]]```
+#### Build the Schedule and Validate that the Global Properties are resolved
 
-18.	Click the **Save** button.
-19.	Repeat for **Windows Job 2** through **Windows Job 4**.
-20.	Open **Operations** and click on **Processes**.
-21.	Select the current date.
-22.	Verify that **My First Schedule** has completed.  
-  * **_If not, then we need to cancel all Jobs to close the Schedule_**.
-23.	Select **Schedule Build**.
-24.	Select **My First Schedule**.
-25.	Click the **Overwrite Existing Schedule** checkbox.
-26. Select the **Released** radio button.
-27.	Click the **Build** button.
-29.	Close the **Build Schedules** screen.
-30.	Click the **My First Schedule** link to open the Schedule in **Processes**.
-31.	Verify that all Jobs **Finished OK**.
+29.	Open **Operations** and click on **Schedule Build**.
+30. Validate that today is the date for the **From** and **To** fields.
+31. In the **Schedule Build** section, select the **Released** radial button.
+32. Select **My First Schedule** from the **Schedule List**.
+33. Click **Build**
+34.	On the **Build Results** screen, expand the dropdown menus until you can see and click on **My First Schedule**.
+35.	Click the **My First Schedule** link to open the Schedule in **Processes**.
+36.	Verify that all Jobs **Finished OK**.
+37. Right-click on one of the four jobs that were modified.
+38. In the **Job Selection** panel, select **Job Output**.
+39. Click **Refresh**.
+40. Click on the link that appears after the **Refresh** is compelete.
+41. Look at lines four and five and validate that the **Global Properties** resolved to ```C:\Program Files\OpConxps\MSLSAM``` and ```10``` respectively.
+42. Close the **Job Output**.
+43. Close **Operations**.
 
 <!--
 34.	Right-Click on **Windows Job 1**.
@@ -105,7 +111,7 @@ This Global Property will store the number of seconds to run the program.
   * **Do not check the Encrypted checkbox.**
 6.	Click the **Save** button on the Global Properties toolbar.
 7.	Click the **Add** button on the Global Properties toolbar. 
-8.	In the **Name** textbox, type ```PathWindows```.
+8.	In the **Name** textbox, type ```PATH_Windows```.
 9.	Add Documentation to the Global Property.
 10.	In the **Value** textbox, type:
 
@@ -123,7 +129,7 @@ Change the following:
 
 to:
 
-```“[[PathWindows]]\genericp.exe” –t[[RUNTIME]]```
+```“[[PATH_Windows]]\genericp.exe” –t[[RUNTIME]]```
 
 17.	Click the **Save** button.
 18.	Repeat for **Windows Job 2** through **Windows Job 4**.

@@ -6,42 +6,53 @@ sidebar_label: 'Unit 1 Exercise 3'
 
 ### Objective 
 
-Create a Job named **WINDOWS JOB 1** within the schedule named **MY FIRST SCHEDULE**. The Job must run on the ```WINDOWS``` machine type. The Job must use the ```SMATRAINING``` machine and the ```SMATRAINING\SMAUSER``` User Id. The command line should run the following program:
+To succesfully add 4 Windows jobs to My First Schedule.
+
+### Summary
+
+Create 4 **Windows** jobs within the schedule named **MY FIRST SCHEDULE**. Each of the jobs will run on the machine called **SMATRAINING** as the **SMATRAINING\SMAUSER** User Id. The command line should run the GenericP Program provided with OpCon, as stated below.
 
 ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t10```
 
-Assign the Job an **Existing Frequency** of ```Example-Mon-Sun-O```. Repeat the preceding steps to create 3 more Jobs identical to **WINDOWS JOB 1** following the same naming pattern.
+Each of the 4 jobs will use the **Inactive Frequency** called **Example-Mon-Sun-O**.
 
 ### Instructions
 
 1.	In Solution Manager, select **Studio**. 
-2.	In the Schedule list, select **My First Schedule**.
-3.	Click the **View** button. 
+2.	In the **Schedule List**, select **My First Schedule**.
+3.	Click the **View** button in the toolbar.
 4.	In the Menu to the right, select **Add Job**.
-5.	In the Schedule drop-down list, select **My First Schedule**.
-6.  In the Name textbox, enter **Windows Job 1**
-7.  In the Job Type drop-down list, select **Windows**.
-8.  Click on **Task Details** to open the Details box.
-9.	In the Machines or Machine Group drop-down list, select the SMATraining machine. 
-10.	In the User ID drop-down list, select ```SMATRAINING\SMAUSER```
-11.	Under **Run**, in the **Command Line**, type: 
+
+#### Create Your First Job
+
+5.  In the Name textbox, enter **Windows Job 1**
+6.  In the Job Type drop-down list, select **Windows**.
+7.  Expand the **Task Details** section to open the Details box.
+8.	In the **Machine Selection** section, select the **SMATraining** machine from the **Machines or Machine Group** drop down. 
+9.	In the **General** section, select **SMATRAINING\SMAUSER** from the **User Id** drop down.
+10.	Under the **Run** section, **type** the following in the **Command Line** box:
+```cmd
+"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t10
 ```
-“C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t10
-```
-12.	Click the **Save** button.
-13. Click the **Lock** button in the right hand corner of the Master Job Details screen.
-14. Select the **Frequency** tab in the left-hand menu and scroll down to the Frequency box.
-15.	From the **Inactive** Frequency drop-down bar, select the Frequency named ```Example-Mon-Sun-O``` and click the **<** button to move the Frequency to active.
-16. Click **Save**.
-Create three jobs that are identical to Windows Job 1.
-15. Navigate to **Library** > **Master Jobs**.
-16. In the Master Jobs screen, select **Windows Job 1** 
-17. Click the **Copy** button.
-18. Enter the Job Name as **Windows Job 2**.
-19. Deselect the "Navigate to Maser Job Definition Page after copy" option.
-20. Click the **OK** button.
-21. Repeat the copy process to create **Windows Job 3** and **Windows Job 4**.
-22.	Close the **Job Master**.
+11.	Click the **Save** button.
+12. Click the **Lock** button in the top right-hand corner of the **Master Job Details** screen.
+13. Scroll down and expand the **Frequency** section.
+14.	From the **Inactive** column, select the Frequency named **Example-Mon-Sun-O** and click the **<** button to move the Frequency to **Active** column.
+15. Click **Save**.
+16. Close **Studio** and **Library**.
+
+#### Duplicate Windows Job 1
+
+17. Navigate to **Library**.
+18. Select **Master Jobs** under the **Administration** column.
+19. On the **Master Jobs** screen, use the search field at the top of the screen and locate **Windows Job 1** 
+20. Select **Windows Job 1**.
+21. Click the **Copy** button.
+22. Enter the **Name** as **Windows Job 2**.
+23. **Deselect** the **Navigate to Master Job Definition Page after copy** option.
+24. Click the **OK** button.
+25. Repeat steps 19-24 to create **Windows Job 3** and **Windows Job 4**.
+26.	Close **Library**.
 
 ## Enterprise Manager
 
@@ -51,27 +62,26 @@ Create three jobs that are identical to Windows Job 1.
 
 :::
 
-1.	Under the Administration topic, Double-Click on **Job Master**. 
-2.	In the Schedule drop-down list, select My First Schedule.
-3.	Click the Add button on the Job Master toolbar. 
-4.	In the Name textbox, enter **Windows Job 1**.
-5.	In the Job Type drop-down list, select Windows.
-6.	In the Primary Machine drop-down list, select the SMATraining machine for the Job to run on. 
-7.	In the User ID drop-down list, select ```SMATRAINING\SMAUSER```
-8.	In the **Command Line**, type: 
+1.	Under the **Administration** topic, double-click on **Job Master**. 
+2.	In the **Schedule** drop-down list, select **My First Schedule**.
+3.	Click the **Add** button on the **Job Master** toolbar. 
+4.	In the **Name** textbox, enter **Windows Job 1**.
+
+#### In the **Job Properties** Section:
+5.	In the **Job Type** drop-down list, select **Windows**.
+6.	In the **Primary Machine** drop-down list, select the ```SMATraining``` machine. 
+7.	In the **User ID** drop-down list, select ```SMATRAINING\SMAUSER```.
+8.	In the **Command Line** box, type: 
+```cmd
+"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t10
 ```
-“C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t10
-```
-9.	Click the **Save** button on the Job Master toolbar.
-10.	Inside the **Job Master** screen under Job Properties, click on the Frequency tab.   
-11.	Within the **Frequency List** frame, click the Add button (located under the Frequency List).
-12.	The **Frequency Definition Wizard** will start.
-13.	Select **Use Existing Frequency**.
-14.	From the drop-down bar, select the Frequency named ```Example-Mon-Sun-O``` and click **Next** and then **Finish**.
-Repeat steps 3 to 14 to create three jobs that are identical to Windows Job 1.
-15.	**Windows Job 2**
-16.	**Windows Job 3**
-17.	**Windows Job 4**
-18.	Close the **Job Master**.
+9.	Click the **Save** button on the **Job Master** toolbar.
+10.	Select the **Frequency** tab.   
+11.	Within the **Frequency List** frame, click the **Add** button (located under the Frequency List).
+12.	In the **Frequency Definition Wizard** pop-up window, select **Use Existing Frequency**.
+13.	In the drop-down, select ```Example-Mon-Sun-O```.
+14. Click **Next** and then **Finish**.
+15. Use the **Copy** icon in the upper right-hand corner to create 3 more jobs that are identical to Windows Job 1. They will be called: **Windows Job 2**, **Windows Job 3**, and **Windows Job 4**
+16.	Close the **Job Master**.
 
 </details>

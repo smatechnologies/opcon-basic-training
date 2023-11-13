@@ -6,24 +6,28 @@ sidebar_label: 'Unit 3 Exercise 5'
 
 ### Objective
 
-In **Enterprise Manager**, grant **Schedule Privileges** to the ```Training``` Role for **MY FIRST SCHEDULE**.
+To grant the Training Role privileges to Schedules.
+
+### Summary
+
+In **Enterprise Manager**, grant **Schedule Privileges** to the **Training Role** so that **Student1** has access to **MY FIRST SCHEDULE**.
 
 ### Instructions
+
+:::info
+This exercise will be worked in **Enterprise Manager**. Expand the section below to walk through the exercise.
+:::
 
 ## Enterprise Manager
 
 <details>
 
-:::tip 
-
-[Walkthrough Video - Unit 3 Exercise 5](../static/videobasic/U3E5.mp4)
-
+:::tip[Walkthrough Video - Unit 3 Exercise 5](../static/videobasic/U3E5.mp4)
 :::
 
-1.	Under the **Security > Privileges** topic, Double-Click on **Schedule Privileges**. 
-2.	On the **Select Role** drop-down list select the **Training Role**.
-3.	Notice that all Schedules are presented on the Revoked list (on the left) 
-4.	Under the Revoked list, click the **My First Schedule** Schedule and then click the green arrow (pointing to the right) to put **My First Schedule** under the **Granted** list.
-5.	Close the **Schedule Privileges** tab.
+1. In the **Security**, expand **Privileges**, double click on **Schedule Privileges**. 
+2. In the **Select Role** drop-down, select the **Training**.
+3. In the **Revoked** column, click **My First Schedule** and using the green arrow move the schedule to the **Granted** column.
+4. Close the **Schedule Privileges** tab.
 
 </details>

@@ -14,7 +14,7 @@ Congo Online Retail deve assicurarsi che tutti gli ordini di spedizione siano el
 *	Legos - Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” –t90```
 *	Nerf - Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” –t120```
 *	Smartphones - Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t15```
-*	Xbox - Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t350```
+*	XBOX - Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t350```
 *	Levis - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t45```
 *	Nike - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t75```
 
@@ -75,7 +75,7 @@ Your browser does not support the video tag.
         * Max Run Time: ```5```
         * Aggiungere la Documentazione
         * Aggiungere il Tag al Job come ```Electronics```
-    * Xbox
+    * XBOX
         * Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t350```
         * Start Offset: ```02:30```
         * Absolute Late to Finish Offset: ```02:30 (5:00 am)```

@@ -6,34 +6,38 @@ sidebar_label: 'Unit 1 Exercise 4'
 
 ### Objective
 
-Create a **REQUIRES** Dependency Chain for the four Jobs in **MY FIRST SCHEDULE**. 
+Add dependencies to the jobs created in Exercise 3 so they run in a sequence.
 
-The Dependency Flow should be:
+### Summary
 
-**WINDOWS JOB 1** <- **WINDOWS JOB 2** <- **WINDOWS JOB 3** <- **WINDOWS JOB 4**
+Utilize a **REQUIRES - Finished OK Dependency** between each of the four 4 jobs in **MY FIRST SCHEDULE** so they run the following order:
 
-where **WINDOWS JOB 4** Requires **WINDOWS JOB 3**, etc.
+**WINDOWS JOB 1** &rarr; **WINDOWS JOB 2** &rarr; **WINDOWS JOB 3** &rarr; **WINDOWS JOB 4**
 
 ### Instructions
 
 1.	In Solution Manger, select **Studio**. 
-2.	In the **Schedule** list, select **My First Schedule**.
-3. Click the **View** button.
-3.	Click **Windows Job 4**.
-4.	In the Job menu, click **Add Dependency**.
-5.	In the **Schedule** Schedule frame, check that **My First Schedule** is selected.
-6.  In the **Job** drop down list, select **Windows Job 3**.
-7.	In the **Dependency** frame, select **Requires** and **Finished OK**.
-8.	Click **Windows Job 3**.
-9.	In the Job menu, click **Add Dependency**.
-10.	In the **Schedule** Schedule frame, check that **My First Schedule** is selected.
-11.  In the **Job** drop down list, select **Windows Job 2**.
-12.	In the **Dependency** frame, select **Requires** and **Finished OK**.
-13.	Click **Windows Job 2**.
-14.	In the Job menu, click **Add Dependency**.
-15.	In the **Schedule** Schedule frame, check that **My First Schedule** is selected.
-16.  In the **Job** drop down list, select **Windows Job 1**.
-17.	In the **Dependency** frame, select **Requires** and **Finished OK**.
+2.	In the Schedule list, select **My First Schedule**.
+3.  Click the **View** button in the toolbar.
+4.	Click on **Windows Job 4**.
+5.	In the menu to the right, select **Add Dependency**.
+
+#### In the Job Dependency Window
+6.	In the **Predecessor Job** section, validate that **My First Schedule** shows for the **Schedule**.
+7.  In the **Job** drop down list, select **Windows Job 3**.
+8.	In the **Dependency** section, validate that **Requires** and **Finished OK** are selected.
+9.  Click **Save**.
+
+#### Set remaining Dependencies
+10.	Click on **Windows Job 3**.
+11.	Repeat Steps 5-8 to create a dependency between **Windows Job 2** and **Windows Job 3**.
+12.	Click on **Windows Job 2**.
+13.	Repeat Steps 5-8 to create a dependency between **Windows Job 1** and **Windows Job 2**. 
+14. Close **Studio**
+
+:::tip
+You can also 'Click and Drag' from dot to dot on each job to pull up the Job Dependency window.
+:::
 
 ## Enterprise Manager
 
@@ -43,27 +47,23 @@ where **WINDOWS JOB 4** Requires **WINDOWS JOB 3**, etc.
 
 :::
 
-1.	Under the **Administration** topic, Double-Click on **Job Master**. 
+1.	Under the **Administration** topic, double-click on **Job Master**. 
 2.	In the **Schedule** drop-down list, select **My First Schedule**.
 3.	In the **Job** drop-down list, select **Windows Job 4**.
 4.	Under **Job Properties**, click on the **Dependencies** tab.
-5.	In the **Job Dependency** frame, click the **Add** button.
-6.	In the **Add Dependency** frame:
-  * In the **Job** drop-down list, select **Windows Job 3**.
-  *	Select the **Requires** Dependency Type.
-  *	Click the **OK** button.
-7.	In the **Job** drop-down list, select **Windows Job 3**.
-8.	In the **Job Dependency** frame, click the **Add** button.
-9.	In the **Add Dependency** frame:
-  * In the **Job** drop-down list, select **Windows Job 2**.
-  *	Select the **Requires** Dependency Type.
-  *	Click the **OK** button.
-10.	In the **Job** drop-down list, select **Windows Job 2**.
-11.	In the **Job Dependency** frame, click the **Add** button.
-12.	In the **Add Dependency** frame:
-  *	In the **Job** drop-down list, select **Windows Job 1**.
-  *	Select the **Requires** Dependency Type.
-  *	Click the **OK** button.
-13.	Close the **Job Master**.
+5.	In the **Job Dependency** sub-tab, click the **Add** button.
+
+#### In the Add Dependency Pop-Up Window
+6.  In the **Predecessor Job** section, 
+  * Validate that **My First Schedule** is seclected for **Schedule** drop-down list
+  * In the **Job** drop-down, select **Windows Job 3**.
+7.	Under **Dependency Type**, validate that **Requires** is selected.
+8.  Under **Options**, validate that **Finished OK** is selected.
+9.  Click the **OK** button.
+10.	In the **Job** drop-down list, select **Windows Job 3**.
+11.	Repeate Steps 4-6 to create a dependency between **Windows job 2** and **Windows Job 3**.
+12.  In the **Job** drop-down list, select **Windows Job 2**.
+13.	Repeate Steps 4-6 to create a dependency between **Windows job 1** and **Windows Job 2**.
+14.	Close the **Job Master**.
 
 </details>

@@ -6,85 +6,98 @@ sidebar_label: 'Unit 2 Exercise 8'
 
 ### Objective
 
-Within the existing **Frequency Practice Schedule**, create three new Null Jobs:
+To become familiar with the All Weeks, On Occurrence, and On Day frequencies.
 
-**Daily Frequency Practice**
-**On Occurrence Frequency Practice**
-**On Day Frequency Practice****
+### Summary
 
-In the **Daily Frequency Practice** Job, create a new Frequency named ```Tue+Thu-B```. This Frequency should run on Tuesday and Thursday every week and on the day before in case of a holiday.
+Utilizing the **Frequency Practice Schedule**, you will create three new Null jobs called:
 
-In the **On Occurrence Frequency Practice** Job, create a new Frequency named ```4th-Thu-B```. This Frequency should run on the occurrence of the 4th Thursday of the month, or the day before in case of a holiday.
+* **All Weeks Freq**
+* **On Occurrence Freq**
+* **On Day Freq**
 
-In the **On Day Frequency Practice** Job, create a new Frequency named ```1st-day-of-month-wk```. This Frequency should run on the 1st Working Day of the month.
+In the **All Weeks Freq** job, create a new frequency that will run every Tuesday and Thursday and on the day before in case of a holiday.
+
+In the **On Occurrence Freq** job, create a new frequency that will run on the 4th Thursday of the month and the day before in case of a holiday.
+
+In the **On Day Freq** job, create a new frequency named that will run on the 1st Working Day of the month.
 
 ### Instructions
 
 1.	In **Studio**, select the **Frequency Practice** Schedule and click **View**.
-2.	In the side menu, select **Add Job** to add a Null Job.
-3.  Select the **Frequency Practice** Schedule in the Schedule dropdown list.
-4.	Enter **Daily Frequency Practice** in the **Name** text field.
-5.  Leave the **Job Type** as **Null Job**.
-6.	Click the **Save** button.
-7.  Click the **Back** button in the upper right-hand corner.
-8.  Click anywhere in the **Studio** screen.
-9.	Repeat Steps 2-6 creating two more Null Jobs:
-  *	**On Occurrence Frequency Practice**
-  *	**On Day Frequency Practice**
+2.	In the side menu, select **Add Job**.
 
-10.	Frequency: **All Weeks**
-  * Click the **Back** button in the upper right-hand corner.
-  *	Click the **Daily Frequency Practice** Job.
-  *	In the side menu, click on the **Wrench** icon.
-  * Click the **Lock** button in the upper right-hand corner.
-  * Scroll to the **Frequency** tab and expand the dialog box.
-  *	Click the **Add** button.
-  *	Type **Tue+Thu-B** in the Frequency Name field.
-  *	In the **When to Schedule** dropdown list, select **All Weeks**.
-  *	Mark the checkboxes next to **Tuesday** and **Thursday** in the **Days of the Week** parameter.
-  * Set the **A/O/B/N** flag to **Before Date**.
+#### Create the All Weeks Freq Job
+
+3. In the **Name** field, enter **All Weeks Freq**.
+4. Leave the **Job Type** as **Null Job**.
+5. Click the **Save** button.
+6. Click the **Lock** button to enter **Admin Mode**.
+7. Expand the **Frequency** section, if not already expanded.
+8. Click the **Add** button.
+9. In the **Frequency Manager Wizard**:
+  * In the **Name** field, enter ```Tue+Thurs-B```.
+  * In the **When to Scheduled** dop-down menu, select **All Weeks**.
+  * In the **Days of the Week** section, select **Tuesday** and **Thursday**.
+  * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
+10. In the **Active** column, select the frequency then select **Forcast**.
 
-*	Click the **Forecast** button.
-  *	The **Forecast** screen should show all Tuesday and Thursday dates in green unless they are a holiday. If there is a Tuesday or Thursday holiday the previous day should be green.
+:::tip
+The **Forecast** screen should show **all Tuesday and Thursday** dates in green unless they are a holiday. If there is a Tuesday or Thursday holiday the previous day should be green.
+:::
 
+#### Create the On Occurrence Freq Job
 
-11.	Frequency: **On Occurrence**
-  * Click the **Back** button in the upper right-hand corner.
-  *	Click the **On Occurrence Frequency Practice** Job.
-  *	In the side menu, click on the **Wrench** icon.
-  * Click the **Lock** button in the upper right-hand corner.
-  * Scroll to the **Frequency** tab and expand the dialog box.
-  *	Click the **Add** button.
-  *	Type **4th-Thu-B** in the **Frequency Name** field.
-  *	In the **When to Schedule** dropdown list, select **On Occurrence**.
-  *	Mark the checkbox next to **Thursday** in the **Days of the Week** parameter.
-  *	Select the **4th** in the **On Occurrence** dropdown list.
-  *	Leave the **A/O/B/N** setting on **Before Date**
+11. Click the **Back** button to navigate back to the **Studio** workspace.
+12. In the side menu, select **Add Job**.
+13. In the **Name** field, enter **On Occurrence Freq**.
+14. Leave the **Job Type** as **Null Job**.
+15. Click the **Save** button.
+16. Click the **Lock** button to enter **Admin Mode**.
+17. Expand the **Frequency** section, if not already expanded.
+18. Click the **Add** button.
+19. In the **Frequency Manager Wizard**:
+  * In the **Name** field, enter ```4th-Thurs-B```.
+  * In the **When to Scheduled** dop-down menu, select **On Ocurrence**.
+  * In the **On Occurrence** drop-down menu, select **Fourth**.
+  * In the **Period** drop-down, select **Month**.
+  * In the **Days of the Week** section, select **Thursday**.
+  * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
+20. In the **Active** column, select the frequency then select **Forcast**.
 
-*	Click the **Forecast** Button.
-  *	On the **Forecast** screen, the 4th Thursday of every month should be green except for Thanksgiving. The day before Thanksgiving should be green.
+:::tip
+The **Forecast** screen should show the **4th Thursday of every month** should be green except for Thanksgiving. The day before Thanksgiving should be green because the 4th Thursday of Novemeber is a holiday.
+:::
 
+#### Create the On Day Freq Job
 
-
-12.	Frequency: **On Day**
-  * Click the **Back** button in the upper right-hand corner.
-  *	Click the **On Day Frequency Practice** Job.
-  *	In the side menu, click on the **Wrench** icon.
-  * Click the **Lock** button in the upper right-hand corner.
-  * Scroll to the **Frequency** tab and expand the dialog box.
-  *	Click the **Add** button.
-  *	Type **1st-day-of-month-wk** in the **Frequency Name** field.
-  *	In the **When to Schedule** dropdown list, select **On Day**.
-  *	Leave **Month Days** set to **On ```1``` Days of the week**.
-  *	Select the **1st Working day** radio button for the **Day Type** parameter.
+21. Click the **Back** button to navigate back to the **Studio** workspace.
+22. In the side menu, select **Add Job**.
+23. In the **Name** field, enter **On Day Freq**.
+24. Leave the **Job Type** as **Null Job**.
+25. Click the **Save** button.
+26. Click the **Lock** button to enter **Admin Mode**.
+27. Expand the **Frequency** section, if not already expanded.
+28. Click the **Add** button.
+29. In the **Frequency Manager Wizard**:
+  * In the **Name** field, enter ```1st-WDOM```.
+  * In the **When to Scheduled** dop-down menu, select **On Day**.
+  * In the **On** *X* **days of week**, enter ```1```.
+  * In the **Day Type** field, select **On 1st working day**.
+  * In the **A/O/B/N** section, select **On Date**.
   * Click the **Save** button.
+30. In the **Active** column, select the frequency then select **Forcast**.
 
-*	Click the **Forecast** Button.
-  *	On the **Forecast screen**, the **1st working day of every month** should be green _except for New Year’s Day_. Notice how holidays and weekends affect this Frequency.
+:::tip
+The **Forecast** screen should show the **1st working day of every month** should be green _except for New Year’s Day_. Notice how holidays and weekends affect this Frequency.
+:::
+
+31. Close **Library**.
+32. Close **Studio**.
 
 
 

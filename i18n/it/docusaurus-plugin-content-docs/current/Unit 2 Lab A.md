@@ -18,7 +18,7 @@ Ogni Dipartimento richiede specifici intervalli di programmazione come indicato:
 * Ogni 14 giorni a partire dal 7 gennaio di quest'anno
     * Il giorno lavorativo precedente, se la data cade in un giorno non lavorativo
 
-**Electronics – Smartphones and Xbox**
+**Electronics – Smartphones and XBOX**
 
 * Il 15 del Mese
     * Il giorno lavorativo precedente, se la data cade in un giorno non lavorativo

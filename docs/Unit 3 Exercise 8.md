@@ -6,37 +6,50 @@ sidebar_label: 'Unit 3 Exercise 8'
 
 ### Objective
 
-In **Notification Manager**, create a Notification by adding a **Root Group** named ```ALL MACHINES``` and adding both the ```WINDOWS``` and ```UNIX``` machine.
+To set up notifications via Notification Manager.
 
-Add a **Machine Trigger** for ```Machine Marked Up```.
+### Summary
 
-Send an email to ```smauser@congo.local``` with the message: "TESTING EMAIL NOTIFICATION". 
-
-Press the **Test** button to send the email. Open Thunderbird to verify successful notification.
+Using **Notification Manager** you will create an email notification to alert **smauser@congo.local** when a machine is marked up. You will use the Thunderbird Mail Client to manage the notificaitons.
 
 ### Instructions
 
 1.	In **Library**, under the **Management** topic, click on **Notification Triggers**. 
-2.  Click on **Manage Groups** in the upper right-hand corner.
-3.  Click the **Add** button.
-4.  In the **Name** textbox, type **All Machines**.
-5.  In the **Type** dropdown list, seleect **Machine**.
-6.  In the **Machine** list, select the **Included** radio button.
-7.  Click **Selected** for both the **SMATraining** and ***SUSEVM** machines.
-8.  Click the **Save** button. 
-9.  Click on **Notification Triggers** in the upper right-hand corner.
-10. Click the **Add** button.
-11. In the **Group Name** dropdown list, select **All Machines**.
-12. In the **Trigger Name** dropdown list, select ```Machine Marked Up```.
-13. Click the **Save** button.
-14. Select the **All Machines** trigger from the main list.
-14. Click the **(+)** sign on **Email** to add an email notification.
-15. In the **To** field, type ```smauser@congo.local```.
-16. In the **Subject** field, type ```Notification Test```.
-17. In the **Message** box, enter ```Testing email notification```.
-18. Click the **Test** button to test your notifcation results.
-19. Click the **OK** button.
-20. Open the Thunderbird email client and check the inbox.
+2.  Click **Manage Groups** in the upper right corner.
+
+#### Create a Notification Group
+
+3.  On the **Manage Groups** screen, click **Add**.
+4.  In the **Name** field, type ```All Machines```.
+5.  In the **Type** drop-down, seleect **Machine**.
+6.  Under the **Name** field, select **Included** so that future machines are included in this trigger.
+7.  Validate that the **Selected** check boxes for both machines is checked.
+8.  Click **Save**.
+
+:::info Note
+Notice that the new group has been added to the top section of the Manage Groups screen.
+:::
+
+#### Create the Nofitication Trigger
+
+9.  Click on **Notification Triggers** in the upper right corner.
+10. On the **Notification Trigger** screen, click **Add**.
+11. In the **Group Name** drop-down, select **All Machines**.
+12. In the **Trigger Name** drop-down, select **Machine Marked Up**.
+14. Click the **+** sign on **Email** to add an email notification.
+15. In the **Email** pop-up window:
+  * In the **To** field, type ```smauser@congo.local```.
+  * In the **Subject** field, type ```Notification Test```.
+  * In the **Message** box, enter ```Testing email notifications.```
+  * Click the **OK** button.
+16. Click **Save**.
+
+#### Test the Notification
+
+17. Select the **All Machines** trigger from the **Main List** in the top half of the screen.
+18. Click **Test All** to test your notifcation.
+19. Open the Thunderbird email client and check the inbox.
+20. Close **Library**.
 
 
 ## Enterprise Manager

@@ -4,7 +4,7 @@ sidebar_label: 'Unit 1 Exercise 9'
 
 ### Exercise 9: Solution Manager Operations
 
-##### Objective: 
+#### Objective: 
 
 Open the Chrome Browser and navigate to ```https://SMATraining```
 

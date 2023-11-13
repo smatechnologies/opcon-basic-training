@@ -31,7 +31,7 @@ Levis: ```[[SCRIPTS]]\UpdInvLevis.CMD```
 
 Smartphones: ```[[SCRIPTS]]\UpdInvSmartphones.CMD``` 
 
-Xbox: ```[[SCRIPTS]]\UpdInvXbox.CMD```
+XBOX: ```[[SCRIPTS]]\UpdInvXBOX.CMD```
 
 I Jobs devono essere eseguiti nell'ordine in cui sono elencati sopra dal lunedì al venerdì.
 
@@ -39,7 +39,7 @@ Ci sono 2 eccezioni:
 
 1. Il Job **Nike** richiede molto tempo per finire; Il Job **Levis non deve** attendere il completamento job **Nike** – Lo script **Nike** aggiornerà una **Threshold** chiamata ```LEVISThreshold``` che deve essere creata con un valore ```0``` sul Job Levis Job. Un **Evento** ```$THRESHOLD:SET``` deve essere impostato sul Job **Levis** per far tornare il valore a ```0```.
 
-2. Gli script **Smartphones** e **Xbox** usano molta CPU – Non **possono essere eseguiti contemporaneamente**, ma non importa quale viene eseguito per primo. Ad entrambi i Job deve essere assegnata una **Resource Dependency** su una **Resource** chiamata ```Electronics``` con il valore di **Max Resources** pari a ```1```.
+2. Gli script **Smartphones** e **XBOX** usano molta CPU – Non **possono essere eseguiti contemporaneamente**, ma non importa quale viene eseguito per primo. Ad entrambi i Job deve essere assegnata una **Resource Dependency** su una **Resource** chiamata ```Electronics``` con il valore di **Max Resources** pari a ```1```.
 
 Dovrebbe essere creata una **notifica** sia per un Job fallito che per un Job terminato correttamente.
 
@@ -69,7 +69,7 @@ Your browser does not support the video tag.
 	* Nike
 	* Levis
 	* Smartphones
-	* Xbox
+	* XBOX
     * Questi Job devono essere eseguiti con la **User ID** ```SMATRAINING\SMAUSER```
     * Questi Job devono essere eseguiti sulla **macchina** ```SMATRAINING```
     * Richiamare i programmi sulla **command line** utilizzando le **Global Property**
@@ -95,10 +95,10 @@ _** C'è un punto nello script ```"UpdInvNike.CMD"``` per eseguire ```“$THRESH
 * Sul Job **Levis** creare una **Threshold Dependency** sulla ```LEVISThreshold``` che richiede il valore ```1```
 * Aggiungere l'evento ```$THRESHOLD:SET``` al Job **Levis** Job per impostare ```LEVISThreshold``` nuovamente al valore ```0``` al completamento del Job
 * Aggiungere una **Resource** chiamata **Electronics** con un valore di **Max Resources** uguale a ```1```
-* Aggiungere una **Resource Dependency** per i Job **Smartphones** and **Xbox** per richiedere l'uso della **Resource** a ```1```
+* Aggiungere una **Resource Dependency** per i Job **Smartphones** and **XBOX** per richiedere l'uso della **Resource** a ```1```
 
 :::note Nota 
-Gli script ```Smartphones``` e ```XboxConsoles``` useranno la funzionalità delle **Resource** per escludere l'esecuzione in contemporanea_
+Gli script ```Smartphones``` e ```XBOXConsoles``` useranno la funzionalità delle **Resource** per escludere l'esecuzione in contemporanea_
 :::
 
 * Usare il **Notification Manager** per impostare gli alerts se i Jobs nello schedule **Congo Update Inventory Schedule** finiscono **OK** o **Falliscono**.

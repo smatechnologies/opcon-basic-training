@@ -6,15 +6,13 @@ sidebar_label: 'Unit 2 Exercise 7'
 
 ### Objective
 
-Create a new Calendar named **MYFIRSTCALENDAR**. Click several dates by navigating through the Calendar. 
-:::note
-(The dates chosen are saved dynamically)
-:::
+To update the Master Holiday Calendar and create a seperate calendar with customized dates.
 
-Provide appropriate documentation for the new Calendar.
+### Summary
 
-Next, select the **Master Holiday Calendar** from the Calendar List. Add the following Federal Holidays to the Calendar:
+Update the **Master Holiday Calendar** so the following dates are marked as holidays:
 
+  * January 1st - New Years Day
   *	January 16th – Martin Luther King Jr. Day
   *	February 20th – President’s Day
   *	May 29th – Memorial Day
@@ -25,34 +23,29 @@ Next, select the **Master Holiday Calendar** from the Calendar List. Add the fol
   *	November 11th – Veterans Day
   *	November 23rd – Thanksgiving Day
   * December 25th - Christmas Day (Observed)
+
+You will also create a new calendar called **My First Calendar** and select several dates of your choosing.
 
 ### Instructions
 
-1.	In **Library**, select **Calendars**.
-2.	Click the **Add** Button.
-3.	Type **MyFirstCalendar** in the **Name** field.
-4.	Enter a **Description** like: **This is a test Calendar**.
-5.	Click several dates in the **Calendar**.
-6.	Click the **Save** Button.
+1.	In **Library** > **Administration** , select **Calendars**.
 
-:::note
-The dates are saved dynamically
-:::
+#### Update the Master Holiday Calendar
 
-7.  Return to the **Calendars** main page.
-7.	Select **Master Holiday** and click the **Edit** button.
-10.	Click the following dates in the Calendar to set up the current year Federal Holidays, then click the **Save** button.
+2.	Select **Master Holiday** from the list of Caledars.
+3. Click **Edit**.
+4.	In the **Calendar Settings**, select the dates listed in the **Summary** section above.
+5. Click **Save**.
 
-  *	January 16th – Martin Luther King Jr. Day
-  *	February 20th – President’s Day
-  *	May 29th – Memorial Day
-  * June 19th - Juneteenth National Independence Day (Observed)
-  *	July 4th – Independence Day
-  *	September 4th – Labor Day
-  *	October 9th – Columbus Day
-  *	November 11th – Veterans Day
-  *	November 23rd – Thanksgiving Day
-  * December 25th - Christmas Day (Observed)
+#### Creating the Custom Calendar
+
+6.	Above the **Calendar** list, click **Add**.
+7.	In the **Name** field, type **My First Calendar**.
+8.	Enter in a **Description** for this new calendar.
+  * Example: This is a test Calendar.
+9.	In the **Calendar Settings** section, select several dates of your choosing from the calendar.
+10.	Click **Save**.
+11. Close **Library**.
 
 
 ## Enterprise Manager
