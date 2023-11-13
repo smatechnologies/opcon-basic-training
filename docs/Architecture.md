@@ -13,5 +13,6 @@ sidebar_label: 'Architecture'
 
 ![Picture4](../static/imgbasic/Picture4.png)
 
-![Picture5](../static/imgbasic/Picture5.png)
+![SMHeartbeat](../static/imgbasic/SMHeartbeat.png)
 
+![Picture5](../static/imgbasic/Picture5.png)

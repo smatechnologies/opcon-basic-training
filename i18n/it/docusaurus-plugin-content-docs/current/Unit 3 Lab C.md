@@ -12,7 +12,7 @@ Attraverso uno Schedule chiamato **CONGO ACCOUNTING FOLDERS**, il Team Contabili
 * Legos
 * Nerf
 * Smartphones
-* Xbox
+* XBOX
 * Levis
 * Nike
 
@@ -69,7 +69,7 @@ _Ricorda che ogni Job è assegnato a un prodotto e il nome della cartella deve c
     *	Legos
     *	Nerf
     *	Smartphones
-    *	Xbox
+    *	XBOX
     *	Levis
     *	Nike
 * Mettere a piano (Build) lo Schedule per oggi e domani (in stato Rilacito)

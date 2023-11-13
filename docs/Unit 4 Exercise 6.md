@@ -6,104 +6,92 @@ sidebar_label: 'Unit 4 Exercise 6'
 
 ### Objective
 
-Create a Schedule named **Repeating-SubSchedule** with an **Instance Definition** of ```RUNTIME=10```. Mark the Schedule as a **SubSchedule**.
+To create a schedule that utilizes a sub-schedule called by multiple container jobs.
 
-Within the **Repeating-SubSchedule**, create five daily Windows Jobs with the naming pattern **Daily Job 1**. The Jobs should run on a Monday-Friday Frequency and run the genericp program. Create a linear **Dependency Chain** between the 5 Jobs.
+### Summary
 
-Next, create a Schedule named **Repeating-Schedule-Primary**.
+Create a **Sub-Schedule** named **SS-Repeating** with an **Instance Definition** called **RUNTIME** with a values of **10**. This Sub-Schedule will have 5 Windows jobs that run in a sequential chain. 
 
-Within the **Repeating-Schedule-Primary** Schedule, create 4 Jobs named **0700 Job**, **1000 Job**, **1400 Job**, and **1900 Job**. Each Job should run on a Monday-Friday Frequency and run the **Repeating-SubSchedule** Schedule as a **Container Job**.
+Example: Job 1 &rarr; Job 2 &rarr; Job 3 &rarr; Job 4 &rarr; Job 5
 
-Each Job should have a **Start Offset** equal to the name of the Job.
-
-Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule in Matrix View. Release the Schedule and let the Jobs run to verify results.
+Create a Schedule named **Repeating Schedule**. This schedule will contain 4 container jobs that each will call the sub-schedule and will run at specified times during the day.
 
 ### Instructions
+ 
+#### Create the Sub-Schedule
 
-**Create the SubSchedule**  
-
-1.	In **Library**, under the **Administration** topic, select on **Master Schedules**. 
+1.	In **Library** > **Administration**, select on **Master Schedules**. 
 2.	Click the **Add** button. 
-3.	In the **Name** textbox, enter **Repeating-SubSchedule**. 
-4.	In the **Documentation** textbox, enter This is the Daily SubSchedule.
-5.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-6.	Keep the defaults selected for the **Workdays per Week** for the Schedule to run.
-7.	In the **Schedule Settings** frame, mark the **SubSchedule** checkbox.
-8.	Click the **Save** button.
-9.  Click the **Lock** icon in the upper right-hand corner.
-10.	Scroll to and expand the **Instance Definition** box and click the **Add New Property Set** button.
-11. In the **Name** field, type: ```RUNTIME```.
-12. In the **Value** field, type: ```10```.
-13. Click the **Checkmark** button to save the Instance Definition.
-14.	Click the **Save** button.
+3. On Master Schedule Definition screen:
+* In the **Name** field, enter ```SS-Repeating```. 
+* In the **Documentation** field, enter some documentation
+  * _Example: This is the Daily Sub-Schedule._
+* In the **Schedule Settings** frame, mark the **SubSchedule** checkbox.
+* Saturday and Sunday are **working days**.
+* This sub-schedule doesn't use the **Master Calendar**
+* Click the **Save** button.
+4. Click **Back**
 
-**Add Jobs to the SubSchedule**
+#### Add Jobs to the SubSchedule
 
-15.	In **Studio**, select **Repeating-SubSchedule**. 
-16.	Click the **View** button. 
-17. Select **Add Job** in the side menu.
-18.	In the **Name** textbox, enter **Daily Job 1**.
-19.	In the **Job Type** dropdown list, select **Windows**.
-20.	In the **Machine Selection** dropdown list, select the **SMATraining** machine. 
-21.	In the **User ID** dropdown list, select ```SMATRAINING\SMAUSER```. 
-22.	In the **Command Line**, enter:
-```"[[MI.PathWindows]]\genericp.exe" -t[[RUNTIME]] -e0```
-23.	Click the **Save**. 
-24. Click the **Lock** icon in the upper right-hand corner.
-25.	Scroll to and expand the **Frequency** box.
-26.	Within the **Frequency** box, select ```Mon-Fri-N``` in the **Inactive** list and move it to the **Active** list. 
-27.	Click the **Save** button.
-28.	Back in **Studio** within **Repeating-SubSchedule** copy **Daily Job 1**.
-29.	Name the Job **Daily Job 2**.
-30.	Click **OK**.
-31.	Change the **Documentation** if needed.
-32.	Repeat steps 27 to 30 to create Jobs **Daily Job 3**, **Daily Job 4**, and **Daily Job 5**.
-33.	Create **Dependencies**
-    * **Daily Job 5** requires **Daily Job 4**
-    * **Daily Job 4** requires **Daily Job 3**
-    * **Daily Job 3** requires **Daily Job 2**
-    * **Daily Job 2** requires **Daily Job 1**
+5.	In **Studio**, select **SS-Repeating**. 
+6.	Click the **View** button. 
+7.  Select **Add Job** in the side menu.
+8.  On the **Master Job Definition** screen:
+* In the **Name** textbox, enter ```Job 1```.
+* In the **Job Type** dropdown, select **Windows**.
+* In the **Machine Selection** dropdown, select the **SMATraining**. 
+* In the **User ID** dropdown, select **SMATRAINING\SMAUSER**. 
+* In the **Command Line** field, type: ```"[[PATH_Windows]]\genericp.exe" -t[[RUNTIME]]```
+* Click the **Save**. 
+* Click the **Lock** icon in the upper right-hand corner.
+* Scroll to and expand the **Frequency** box.
+* Within the **Frequency** box, select **Example-Mon-Sun-O** in the **Inactive** list and move it to the **Active** list. 
+* Click the **Save** button.
+9.  Click **Back**.
+10.  Utilizing the **Copy** function, copy Job 1 unitl you have 5 jobs total.
+11.	Create **Dependencies** between the 5 jobs so they run in a sequential chain.
+* Job 1 &rarr; Job 2 &rarr; Job 3 &rarr; Job 4 &rarr; Job 5
 
+#### Create the Primary Schedule
 
-**Create the Primary Schedule**
+12.	In **Library** > **Administration**, select on **Master Schedules**. 
+13.	Click the **Add** button. 
+* In the **Name** field, enter ```Repeating Schedule```. 
+* In the **Documentation** field, enter some documentation
+  * _Example: This is the Primary Schedule for the Repeating SubSchedule example._
+* Saturday and Sunday are **NOT working days**.
+* This sub-schedule does use the **Master Calendar**
+* Click the **Save** button.
+14. Click **Back**.
 
-34.	In **Library**, under the **Administration** topic, select **Master Schedules**. 
-35.	Click the **Add** button. 
-36.	In the **Name** textbox, enter **Repeating-Schedule-Primary**. 
-37.	In the **Documentation** textbox, enter **This is the Primary Schedule for the Repeating SubSchedule example**.
-38.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
-39.	Keep the default selected for the **Workdays per Week** for the Schedule to run.
-40.	Click the **Save** button.
+#### Add the Container Job to the Schedule
 
+15.	In **Studio**, using the filter locate and select **Repeating Schedule**. 
+16. Click the **View** button.
+17.	Select **Add Job** in the side menu. 
+18. On the **Job Master Definition** screen:
+* In the **Name** textbox, enter ```0700 Job```. 
+* In the **Job Type** dropdown list, select **Container**.
+* On the **Master SubSchedule** dropdown list select **SS-Repeating**.
+* Click the **Save** button.
+* Click the **Lock** icon in the upper right-hand corner.
+* Expand the **Documentation** box and enter in some documentation.
+  * _Example: **This is a container Job that has the Daily Jobs._
+* Scroll to and expand the **Frequency** box.
+* Within the **Frequency** box, select ```Mon-Fri-N``` in the **Inactive** list and move it to the **Active** list. 
+* Select the **Active Frequency**. 
+* Scroll down to the **Offset Information**, in the **Start Offset** field, enter ```07:00```.
+* Click the **Save** button.
+19. Click **Back**.
+20. Utilizing the **Copy** function, copy the 0700 Job until you have a **1000 Job**, **1400 Job**, and **1900 Job**.
+21. Edit each of the copied jobs to modify the **Frequency Information** so the **Start Offset** matches the time in the job name.
+* _Example: **1000 Job** would have a **Start Offset** of ```10:00```._
 
-**Add the SubSchedule as a Container Job into the Primary Schedule**
+#### Build the Schedule
 
-41.	In **Studio**, select **Repeating-Schedule-Primary**. 
-42. Click the **View** button.
-43.	Select **Add Job** in the side menu. 
-44.	In the **Name** textbox, enter **0700 Job**. 
-45.	In the **Job Type** dropdown list, select **Container**.
-48.	On the **Master SubSchedule** dropdown list select **Repeating-SubSchedule**.
-49.	Click the **Save** button.
-50. Click the **Lock** icon in the upper right-hand corner.
-51.	Scroll to and expand the **Frequency** box.
-52.	Within the **Frequency** box, select ```Mon-Fri-N``` in the **Inactive** list and move it to the **Active** list. 
-53. Select the Active Frequency. 
-54.	Under **Ofset Information**, in the **Start Offset** box, enter ```07:00```.
-55.	Expand the **Documentation** box.
-56.	In the **Documentation** textbox, enter **This is a container Job that has the Daily Jobs**.
-57.	Click the **Save** button.
-58.	**Copy** the **0700 Job**. 
-59.	Name the new Job **1000 Job**.
-60. Edit the Frequency informatio to update the **Start Offset** box to ```10:00```.
-61.	Repeat steps to create a **1400 Job** and a **1900 Job** running at ```2 pm``` and ```7 pm```. You will need to change the **Start Offset** for these Jobs. Change the Documentation if needed.
-
-**Build the Schedule**
-
-62.	Build the **Repeating-Schedule-Primary**, leaving the Schedule **On Hold**.
-63.	Check the result of the Schedule and Job runs in **Processes**.
-64.	Right-click on **Repeating-Schedule-Primary**, select **Schedule Status Update** in the side menu.
-65. Release the Schedule and let the Jobs run.
+22.	Build the **Repeating Schedule** for today and allow it to run.
+23. Valdiate that the jobs in one of the 4 sub-schedules run successfully.
 
 ## Enterprise Manager
 
@@ -117,7 +105,7 @@ Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule
 
 1.	Under the **Administration** topic, Double-Click on **Schedule Master**. 
 2.	Click the **Add** button on the **Schedule Master** toolbar. 
-3.	In the **Name** textbox, enter **Repeating-SubSchedule**. 
+3.	In the **Name** textbox, enter **SS-Repeating**. 
 4.	In the **Documentation** textbox, enter This is the Daily SubSchedule.
 5.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
 6.	Keep the defaults selected for the **Workdays per Week** for the Schedule to run.
@@ -125,12 +113,12 @@ Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule
 8.	Click the **Save** button on the Schedule Master toolbar.
 9.	Click the **Instance Definition** tab and type the **Instance** in the **Define Property Values** field: ```RUNTIME=10```
 10.	Press the **Add** button 
-11.	Save the **Repeating-SubSchedule** and close the Schedule Master tab.
+11.	Save the **SS-Repeating** and close the Schedule Master tab.
 
 **Add Jobs to the SubSchedule**
 
 12.	Under the **Administration** topic, Double-Click on **Job Master**. 
-13.	Select the **Repeating-SubSchedule** Schedule.
+13.	Select the **SS-Repeating** Schedule.
 14.	Click the **Add** button on the **Job Master** toolbar. 
 15.	In the **Name** textbox, enter **Daily Job 1**.
 16.	In the **Job Type** drop-down list, select **Windows**.
@@ -146,7 +134,7 @@ Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule
 25.	Click **Next**.
 26.	Click the **Finish** button.
 27.	Add **Documentation** to the Job.
-28.	On the **Job Master** toolbar, be sure you have the **Repeating-SubSchedule** selected and click the **Copy** button or press **Ctrl+Insert**. 
+28.	On the **Job Master** toolbar, be sure you have the **SS-Repeating** selected and click the **Copy** button or press **Ctrl+Insert**. 
 29.	Name the Job **Daily Job 2**.
 30.	Click **OK**.
 31.	Change the **Documentation** if needed.
@@ -158,7 +146,7 @@ Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule
 
 35.	Under the **Administration** topic, Double-Click on **Schedule Master**. 
 36.	Click the **Add** button on the **Schedule Master** toolbar. 
-37.	In the **Name** textbox, enter **Repeating-Schedule-Primary**. 
+37.	In the **Name** textbox, enter **Repeating Schedule**. 
 38.	In the **Documentation** textbox, enter **This is the Primary Schedule for the Repeating SubSchedule example**.
 39.	In the **Start Time** box, notice the default of ```00:00``` (midnight).
 40.	Keep the default selected for the **Workdays per Week** for the Schedule to run.
@@ -168,11 +156,11 @@ Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule
 **Add the SubSchedule as a Container Job into the Primary Schedule**
 
 43.	Under the **Administration** topic, Double-Click on **Job Master**. 
-44.	Select the **Repeating-Schedule-Primary** from the Schedule drop-down list.
+44.	Select the **Repeating Schedule** from the Schedule drop-down list.
 45.	Click the **Add** button on the **Job Master** toolbar. 
 46.	In the **Name** textbox, enter **0700 Job**. 
 47.	In the **Job Type** drop-down list, select **Container**.
-48.	On the **Schedule to run as SubSchedule** drop-down list select the **Repeating-SubSchedule**.
+48.	On the **Schedule to run as SubSchedule** drop-down list select the **SS-Repeating**.
 49.	Click the **Save** button on the **Job Master** toolbar.
 50.	Click the **Frequency** tab.
 51.	Within the **Frequency list** frame, click the **Add** button.
@@ -196,7 +184,7 @@ Build the **Repeating-Schedule-Primary** Schedule **On Hold**. View the Schedule
 
 67.	Under the **Operation** topic, Double-Click **Schedule Build**.
 68.	Is the SubSchedule visible? Why?
-69.	Click the **Repeating-Schedule-Primary** and click the **Build** button.
+69.	Click the **Repeating Schedule** and click the **Build** button.
 70.	On the **Build Properties** screen, leave **On Hold** selected and click **OK**. This will build the Schedule for **today only**.
 71.	Close the Build Schedules screen.
 72.	Under **Operations**, open the **List** or **Matrix** view or use **Solution Manager** to check the results.

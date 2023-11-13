@@ -19,6 +19,6 @@ SMA's **Solution Manager** is a *Web-based* OpCon User Interface
 
 ![PictureSMURLBar](../static/imgbasic/PictureSMURLBar.png)
 
-:::note
+:::info Note
 After defining the URL and saving the value, the User must log out and then log back in to Enterprise Manager in order for the Solution Manager topic Menu to appear in the Navigation Frame
 :::

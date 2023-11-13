@@ -6,32 +6,49 @@ sidebar_label: 'Unit 3 Exercise 7'
 
 ### Objective
 
-Create an **Access Code** named ```Training```. Within Job Master, assign the **Access Code** to **WINDOWS JOB 1** in **MY FIRST SCHEDULE**.
+To create an Access Code and assign it to a job.
 
-Log out of Enterprise Manager and log back in as ```Student1```. 
+### Summary
 
-View the Jobs in **MY FIRST SCHEDULE**. Notice that the user cannot view **WINDOWS JOB 1** because the ```Training``` **Access Code** has not been assigned to the ```Training``` Role.
+Create an **Access Code** called **TrainingAC** and assign the **Access Code** to **WINDOWS JOB 1** in **MY FIRST SCHEDULE**. Log out of Enterprise Manager and log back in as **Student1** and note that the user cannot view **WINDOWS JOB 1** because the **TrainingAC Access Code** has not been assigned to the **Training** role.
 
 
 ### Instructions
 
-1.	In **Library > Security** topic, select **Access Codes**. 
-2.	Click the **Add** button.
-3.	Type **Training** in the **Name** field.
-4.	Type **This is an Access Code for the Training**. in the Description field.
-5.	Click the Save button on the Access Codes toolbar.
-6.	Close the Access Codes tab.
-7.	Be sure you are logged on with your ```SMATRAINING\SMAUSER``` login.
-8.	In **Library > Administration** topic, click **Master Jobs**.
-9.	Select **Windows Job 1** from the Job list and click the **Edit** button.
-10. Click the **Lock** button in the upper right-hand corner.
-11.	In the **Access Code** drop-down list, select **Training**.
-12.	Click the **Save** button and close the Master Job screen.
-13.	Logout from **Solution Manager**. 
-14. Login by typing ```Student1``` in the **Username** field and ```password1``` in the **Password** field. 
-15.	Under the **Library** > **Administration** topic, click **Master Jobs**.
-16. What do you see? Why?
-19.	Be sure to logout of the **Student1** profile and log back in as **smauser**.
+#### Create the Access Code
+
+1.	In **Library** under **Security**, select **Access Codes**. 
+2.	Click **Add**.
+3.	In the **Access Code** pop-up window:
+  * In the **Name** field, enter ```TrainingAC```.
+  * In the **Description** field, enter in some **documentation**.
+    * Example: This is an Access Code for the Training.
+  * Click **Save**.
+4.  Click **Back** in the top right corner.
+
+#### Assign the Access Code to the Job
+5.	In **Library** > **Administration**, select **Master Jobs**.
+6.	Using the filers at the top of the job table, search for and select **Windows Job 1**.
+7.  Click **Edit**.
+8.  Click the **Lock** button in the upper right-hand corner.
+9.	In the **Access Code** drop-down list, select **TrainingAC**.
+10.	Click the **Save**.
+11. Close **Library**.
+
+#### Validate the Privileges
+12.	Logout of **Solution Manager**. 
+13. On the **Login** screen:
+  * In the **Username** field, enter ```Student1```.
+  * In the **Password** field, enter ```password1```. 
+14.	Under the **Library** > **Administration** topic, click **Master Jobs**.
+
+:::note
+* What do you see?
+* Why?
+* You should not see **Windows Job 1** because the **Training** role, isn't granted access to the **TrainingAC Access Code**.
+:::
+
+15. Be sure to logout of the **Student1** profile and log back in as **smauser**.
 
 ## Enterprise Manager
 

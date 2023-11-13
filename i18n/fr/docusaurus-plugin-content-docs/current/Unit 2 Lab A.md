@@ -19,7 +19,7 @@ Chaque département nécessite des intervalles de planification spécifiques, co
     * Si la date tombe un jour non ouvrable,  sélectionnez le jour ouvrable précédent.
  
 
-**Électronique - Smartphones et Xbox**
+**Électronique - Smartphones et XBOX**
 
 * Le 15 du mois 
     * Si la date tombe un jour non ouvrable,  sélectionner le jour ouvrable précédent.

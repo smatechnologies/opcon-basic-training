@@ -16,7 +16,7 @@ Congo Online Retail Inc. deve eseguire controlli giornalieri dell'inventario (7 
   *	Nerf
 *	**Electronics** – ```"C:\scripts\CheckInvElectronics.EXE"```
   *	Smartphones
-  *	Xbox
+  *	XBOX
 *	**Clothing** – ```"C:\scripts\CheckInvClothing.EXE"```
   *	Levis
   *	Nike
@@ -26,7 +26,7 @@ Ad ogni prodotto viene assegnato un **Product ID Number**. Questo ID Number verr
   * Legos - ```11```
   * Nerf - ```12```
   * Smartphones - ```21```
-  * Xbox - ```22```
+  * XBOX - ```22```
   * Levis - ```31```
   * Nike - ```32```
   * Inventory Report - ```100```

@@ -16,7 +16,7 @@ Un programme spécifique doit être exécuté pour chaque département de produi
     *	Nerf
 *	**Électronique** – ```"C:\scripts\CheckInvElectronics.EXE"```
     *	Smartphones
-    *	Xbox
+    *	XBOX
 *	**Vêtements** – ```"C:\scripts\CheckInvClothing.EXE"```
     *	Levis
     *	Nike
@@ -26,7 +26,7 @@ Chaque produit se voit attribuer un **Product ID Number**. Ce numéro d'identifi
   * Legos - ```11```
   * Nerf - ```12```
   * Smartphones - ```21```
-  * Xbox - ```22```
+  * XBOX - ```22```
   * Levis - ```31```
   * Nike - ```32```
   * Inventory Report - ```100```

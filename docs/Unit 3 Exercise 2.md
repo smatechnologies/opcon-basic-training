@@ -6,46 +6,53 @@ sidebar_label: 'Unit 3 Exercise 2'
 
 ### Objective
 
-In **Enterprise Manager**, grant the ```Training``` Role **Machine Privileges**. 
+To grant Machine Privileges to the Training Role.
 
-Verify that Machine Privileges have been granted by logging out of Enterprise Manager and logging back in as Student1. 
+### Summary
 
-Notice that ```Student1``` will still not have privileges to see Machines in Administration, but will be able to see the SMATraining Machine in Machine Status (but will not be able to change Communication Status or edit the Machine).
-
+Grant  **Machine Privileges** to the **Training Role** so that the **Student1** user can see the machines but not make changes to them.
 
 ### Instructions
 
+:::info
+This exercise will be worked in **Enterprise Manager**. Expand the section below to walk through the exercise.
+:::
 
 ## Enterprise Manager
 
 <details>
 
 :::tip [Walkthrough Video - Unit 3 Exercise 2](../static/videobasic/U3E2.mp4)
-
 :::
 
+#### Granting Machine Privileges
 
-1.	Under the **Security> Privileges** topic, Double-Click on **Machine Privileges**. 
-2.	On the **Select Role** drop-down list select the **Training** Role.
-3.	Under the Revoked list, click the **SMATraining** machine and then click the the green arrow (pointing to the right) to put **SMATraining** under the **Granted** list.
-4.	Close the Machine Privileges tab.
+1. In the **Security** section, expand **Privileges** 
+2. Double click on **Machine Privileges**. 
+3. In the **Select Role** drop-down, select the **Training** Role.
+4. In the **Revoked** column, click **SMATraining** and then click the the green arrow (pointing to the right) to move it to the **Granted** column.
+5. Close the **Machine Privileges** tab.
 
-:::note  
-The User **Student1** (which is under the **Training Role**) now can select this machine to run Jobs when setting them up in the Job Details screen.
-:::
+#### Verify the Machine Privileges
 
-5.	Logout from Enterprise Manager. Click the Logout button or select Logout from the Enterprise Manager Menu bar.
-6.	Click **OK** to confirm you are logging out.
-7.	From the OpCon/xps Login screen type **Student1** on the **Username** field and **password1** on the **Password** Field. Click **Login**.
-8.	Notice that the user still does not have privilege to see **Machines** under the **Administration** topic
-9.	Double-Click **Machine Status** under Operations
-10.	Right-Click the **SMATraining** machine and check that the user cannot change the Communication status of the machine.
-11.	Try to select **Edit Machine**. You will receive an error message.
-12.	Close the Machine Status tab and then logout from Enterprise Manager. Click OK to confirm you are logging out.
-13.	From the OpCon/xps Login screen leave both the **Username** and the **Password** fields blank and click **Login**.
+21. Click the **Lock** icon in the top left corner to log out of Enterprise Manager.
+22. In the **Confirm Logout** window, click **OK**.
+23. From the OpCon/xps Login screen:
+  * In the **Username** field, enter ```Student1```.
+  * In the **Password** field, enter ```password1```.
+  * Click **Login**.
+24. In **Operations**, double click **Machine Status**.
+25. In **Machine Status** tab, right click the **SMATraining** machine.
+26. Validate that the user cannot change the communication status of the machine.
+27. Attempt to select **Edit Machine**. You should receive an error message.
+28. Close the **Machine Status** tab.
+29. Logout of Enterprise Manager. 
+30. Click **OK** to confirm you are logging out.
+31. Leave both the **Username** and the **Password** fields blank.
+32. Click **Login**.
 
 :::caution Warning
-The User **Student1** cannot update any information for any machine in the configuration, but will be able to select this machine when setting up Jobs IF the privileges for that machine are configured.
+The User **Student1** cannot update any information for any machine in the configuration, but will be able to select this machine when setting up jobs **IF** the privileges for that machine are configured.
 :::
 
 </details>

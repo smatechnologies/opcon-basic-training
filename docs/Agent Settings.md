@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'UNIX Jobs'
+sidebar_label: 'Agent Settings'
 ---
 
-### Unix Agent Details
+### Agent Details
 
 ![](../static/imgbasic/sm-unix-agent-details.png)
 

@@ -12,7 +12,7 @@ A travers un schedule nommé **CONGO ACCOUNTING FOLDERS**, votre équipe comptab
 * Legos
 * Nerf
 * Smartphones
-* Xbox
+* XBOX
 * Levis
 * Nike
 
@@ -69,7 +69,7 @@ N'oubliez pas que chaque Job est attribuée à un produit et que le nom du dossi
     * Legos
     * Nerf
     * Smartphones
-    * Xbox
+    * XBOX
     * Levis
     * Nike
 * **Mettre au Plan** le schedule pour aujourd'hui et demain (Released).

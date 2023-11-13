@@ -6,33 +6,27 @@ sidebar_label: 'Unit 2 Exercise 2'
 
 ### Objective
 
-Create a Null Job in **MY FIRST SCHEDULE** named **NULL JOB 1**. 
+To successfully create a NULL job.
 
-Give the Job a frequency of **Mon-Sun-O**. 
+### Summary
 
-Be sure to provide appropriate documentation.
+Create a Null Job in **MY FIRST SCHEDULE** called **NULL JOB 1**. Be sure to provide appropriate documentation.
 
 ### Instructions
 
-1. In **Studio**, select **My First Schedule**. 
-2. Click the **View** button.
-3. In the side menu, select **Add Job**.
-4. Select **My First Schedule** from the Schedule dropdown list.
-5. In the **Name** textbox, enter **Null Job 1**.
-6. Leave the **Job Type** as **Null Job**.
-7. Click the **Save** button.
-8. Click the **Lock** button in the upper right-hand corner.
-9. Select the **Frequency** tab.   
-10. Within the Frequency list frame, click the **Add** button.
-  * Click the radio button to **Create New Frequency**.
-  * In the **Frequency Name** box, type **Mon-Sun-O**.
-  * Set **When to Schedule** as **All Weeks**.
-  * Select all days of the week by marking their check boxes.
-  * Be sure that the A/O/B/N radio button is set to **On Date**.
-  *	Click the **Save** button.
-11. Click the **Lock** button in the uper right-hand corner.
-12.	Click on the Documentation tab and enter **This is a Null Job exercise**.
-13.	Click the **Save** button on the Job Master toolbar.
+1. In **Library** > **Administration**, select **Master Job**.
+2. Click **Add**.
+3. In the **Schedule** drop-down, select **My First Schedule**.
+4. In the **Name** textbox, enter **Null Job 1**.
+5. Leave the **Job Type** as **Null Job**.
+6. Click the **Save** button.
+7. Click the **Lock** button in the upper right-hand corner.
+8. Expand the **Documentation** section, and add documentation. 
+  * Example: This is a Null Job exercise.
+9. Expand the **Frequency** section, if not already expanded.
+10. Move the ```Example-Mon-Sun-O``` frequency into the **Active** column using the **<** arrow.
+11. Click **Save**
+12. Close **Library**.
 
 ## Enterprise Manager
 
