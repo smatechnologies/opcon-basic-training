@@ -22,7 +22,7 @@ Start Communication for the ```SUSEVM``` Machine.
 
 #### Attempt to Establish Communication 
 
-1.	Click on the 88Change Communication Status** button.
+1.	Click on the **Change Communication Status** button.
 2.  Select **Enable Full Comm. (Job start Enabled)**.
 3.  Click **Back**.
 4.  You should receive a **Not Responding** in the **Status** column.
