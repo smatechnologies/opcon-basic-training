@@ -14,7 +14,7 @@ Create a customized **System Property** using the **$DATE** Property, that has a
 
 ### Instructions
 
-1.	In **Library** > **Administration**, click on **Global Properties**. 
+1.	In **Library** > **Administration**, select **Global Properties**. 
 2.	In the **Global Properties** list select **$DATE**.
 3.	Click the **Copy** button.
 4.	In the **Global Property** pop-up window, 

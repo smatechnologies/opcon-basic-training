@@ -19,12 +19,9 @@ sidebar_label: 'Access Codes'
 
 ### Add Access Code
 
-
 ![Access Codes Main Screen](../static/imgbasic/access-codes-main.png)
 
-
 ![Access Codes Add](../static/imgbasic/sm-access-codes-add.png)
-
 
 ## Enterprise Manager
 

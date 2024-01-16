@@ -4,7 +4,7 @@ sidebar_label: 'SM - Diagrams and Views'
 
 ### Solution Manager: Diagrams and Views
 
-* In the Diagram option of the Job Selection tab the user can select several options to manipulate PERT view in Solution Mananger:  
+* In the Diagram option of the Job Selection tab the user can select several options to manipulate PERT view in Solution Manager:  
 * Progressive Discovery    
   * A focused view of Dependency relationships  
 * Isolate Dependency Chain View  

@@ -39,7 +39,7 @@ sidebar_label: 'Support Information'
 ##### OpCon Roundtables
 
 * <a href="https://smatechnologies.com/roundtables" target="_blank">SMA Roundtables</a>
-* Roundtables are frequent OpCon-centered technical discussions and Q & A sessions hosted digitally the third Thursday of each month by Product Manangement and Technical Specialists.
+* Roundtables are frequent OpCon-centered technical discussions and Q & A sessions hosted digitally the third Thursday of each month by Product Management and Technical Specialists.
 
 ##### Webinars
 

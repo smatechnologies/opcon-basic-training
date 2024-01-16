@@ -49,7 +49,7 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
 * Within the **Frequency** box, select **Example-Mon-Sun-O** in the **Inactive** list and move it to the **Active** list. 
 * Click the **Save** button.
 9.  Click **Back**.
-10.  Utilizing the **Copy** function, copy Job 1 unitl you have 5 jobs total.
+10.  Utilizing the **Copy** function, copy Job 1 until you have 5 jobs total.
 11.	Create **Dependencies** between the 5 jobs so they run in a sequential chain.
 * Job 1 &rarr; Job 2 &rarr; Job 3 &rarr; Job 4 &rarr; Job 5
 

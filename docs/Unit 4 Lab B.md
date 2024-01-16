@@ -10,7 +10,7 @@ To use File Arrival to detect the arrival of a multiple files and add a containe
 
 ### Summary
 
-Congo Online Retail Inc. has a file for every office that made a staffing change during the month. There is no way to predict the number of files that will be present every day of the month but will always show up between **00:00 (midnight)** and **7:00 PM**. We will not know the name of the files, but we know the directory where they will be placed and the extention, **.txt**. Since these files come in randomly and multiple files can show up at once, only one file can be processed at a given time.
+Congo Online Retail Inc. has a file for every office that made a staffing change during the month. There is no way to predict the number of files that will be present every day of the month but will always show up between **00:00 (midnight)** and **7:00 PM**. We will not know the name of the files, but we know the directory where they will be placed and the extension, **.txt**. Since these files come in randomly and multiple files can show up at once, only one file can be processed at a given time.
 
 The steps taken to process each file are: 
 * **Decrypt** 
@@ -72,7 +72,7 @@ The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the *
     * [[$SCHEDULE NAME]]
     * File Arrival
 * Create a **File Arrival** job called **FA Incoming**
-  * Monitor the **C:\Human Resources\Incoming Files** for any files that have a ***.txt** extention.
+  * Monitor the **C:\Human Resources\Incoming Files** for any files that have a ***.txt** extension.
     * _Example: "[[HR-Incoming]]\*.txt" or "C:\Human Resources\Incoming Files\*.txt"_
   * **Start Time** for file creation should be ```00:00``` (midnight) 
   * **End Time** for the file creation should be ```07:00 PM```
@@ -97,7 +97,7 @@ The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the *
 #### Build the Schedule
 
 * Build the schedule for today's date
-* Monitor the scheudle to ensure that each of the 5 files is processed.
+* Monitor the schedule to ensure that each of the 5 files is processed.
 * You should process a file for each of the following cities but not necessarily in this order:
   * Chicago
   * Houston
@@ -158,7 +158,7 @@ The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the *
 * **Auto-build** the Schedule ```7``` days in advance for ```1``` day
 * **Auto-delete** the Schedule for ```7``` days ago
 * Add **Documentation** for the Schedule 
-* Create a **Container Job** in the **HR Import Schedul**e named **HR Import Processing**
+* Create a **Container Job** in the **HR Import Schedule** named **HR Import Processing**
 * The **Container Job** should run the **SS-HR Import Processing SubSchedule**
 * The container Job should **Allow Multi-Instance** 
 * Add **Documentation**

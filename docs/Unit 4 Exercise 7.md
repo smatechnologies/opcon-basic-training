@@ -10,7 +10,7 @@ To use a Resource to prevent multiple Container jobs from kicking off at the sam
 
 ### Summary
 
-Create a Schedule called **Process Files**. Create 5 new container jobs named **File 1**, **File 2**, etc. within this Schedule and assign the **SS_Repeating** sub-schedule that was created in Exercise 6. These contaner jobs will also have a **Resource Dependency** to prevent them from all kicking off at the same time.
+Create a Schedule called **Process Files**. Create 5 new container jobs named **File 1**, **File 2**, etc. within this Schedule and assign the **SS_Repeating** sub-schedule that was created in Exercise 6. These container jobs will also have a **Resource Dependency** to prevent them from all kicking off at the same time.
 
 ### Instructions
 
@@ -35,7 +35,7 @@ Create a Schedule called **Process Files**. Create 5 new container jobs named **
 * In the **Documentation** field, enter some documentation
   * _Example: This is the Parent Schedule._
 * Saturday and Sunday are **NOT working days**.
-* This sub-schedule does use the **Master Calendar**
+* This schedule does use the **Master Calendar**
 * Click the **Save** button.
 8.  Close **Studio**
 

@@ -42,15 +42,16 @@ In the **On Day Freq** job, create a new frequency named that will run on the 1s
   * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
-10. In the **Active** column, select the frequency then select **Forcast**.
+10. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
 The **Forecast** screen should show **all Tuesday and Thursday** dates in green unless they are a holiday. If there is a Tuesday or Thursday holiday the previous day should be green.
 :::
 
+11. Click the **Back** button to navigate back to the **Studio** workspace.
+
 #### Create the On Occurrence Freq Job
 
-11. Click the **Back** button to navigate back to the **Studio** workspace.
 12. In the side menu, select **Add Job**.
 13. In the **Name** field, enter **On Occurrence Freq**.
 14. Leave the **Job Type** as **Null Job**.
@@ -60,22 +61,23 @@ The **Forecast** screen should show **all Tuesday and Thursday** dates in green 
 18. Click the **Add** button.
 19. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```4th-Thurs-B```.
-  * In the **When to Scheduled** dop-down menu, select **On Ocurrence**.
+  * In the **When to Scheduled** dop-down menu, select **On Occurrence**.
   * In the **On Occurrence** drop-down menu, select **Fourth**.
   * In the **Period** drop-down, select **Month**.
   * In the **Days of the Week** section, select **Thursday**.
   * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
-20. In the **Active** column, select the frequency then select **Forcast**.
+20. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
-The **Forecast** screen should show the **4th Thursday of every month** should be green except for Thanksgiving. The day before Thanksgiving should be green because the 4th Thursday of Novemeber is a holiday.
+The **Forecast** screen should show the **4th Thursday of every month** should be green except for Thanksgiving. The day before Thanksgiving should be green because the 4th Thursday of November is a holiday.
 :::
+
+21. Click the **Back** button to navigate back to the **Studio** workspace.
 
 #### Create the On Day Freq Job
 
-21. Click the **Back** button to navigate back to the **Studio** workspace.
 22. In the side menu, select **Add Job**.
 23. In the **Name** field, enter **On Day Freq**.
 24. Leave the **Job Type** as **Null Job**.
@@ -90,7 +92,7 @@ The **Forecast** screen should show the **4th Thursday of every month** should b
   * In the **Day Type** field, select **On 1st working day**.
   * In the **A/O/B/N** section, select **On Date**.
   * Click the **Save** button.
-30. In the **Active** column, select the frequency then select **Forcast**.
+30. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
 The **Forecast** screen should show the **1st working day of every month** should be green _except for New Year’s Day_. Notice how holidays and weekends affect this Frequency.

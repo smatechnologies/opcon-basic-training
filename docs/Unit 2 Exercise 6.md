@@ -74,7 +74,7 @@ Create a ```UNIX``` job in **MY FIRST SCHEDULE** called **UNIX Job 1**. This job
 
 1.	Under the **Administration** topic, Double-Click on **Job Master**. 
 2.	In the **Schedule** drop-down list, select **My First Schedule**.
-3.	Click the **Add** button on the **Job Maste**r toolbar. 
+3.	Click the **Add** button on the **Job Master** toolbar. 
 4.	In the **Name** textbox, enter ```UNIX Job 1```.
 5.	In the **Job Type** drop-down list, select **UNIX**.
 6.	In the **Primary Machine** drop-down list, select the **SUSEVM** machine for the Job to run on. 

@@ -79,13 +79,14 @@ Utilizing a **Threshold** called **TrainingThreshold** to prevent a job from run
 
 22. In the side menu in **Studio**, select **Add Job**
 23. On the **Master Job Definition** screen:
-  * In the **Name** field, eneter ```Initial Value Notification```.
+  * In the **Name** field, enter ```Initial Value Notification```.
   * In the **Job Type** field, leave it as **Null Job**.
   * Add **Documentation**.
   * In the **Frequency** section, move the **Mon-Sun-O** frequency into the **Active** column.
+  * Click **Save**.
 24. Click **Back** to get back to the **Studio**. 
 25. Utilizing the **Copy** function, copy the **Initial Value Notification** job to create 2 more jobs. One called, **After Update Job** and the other called **Final Value Job**.
-26. Select the **Initial Value Notificaiton**, click the **Wrench** icon and enter **Admin Mode**. 
+26. Select the **Initial Value Notification**, click the **Wrench** icon and enter **Admin Mode**. 
   * In the **Event** section, click **+**
   * In the **Event** pop-up window:
     * In the **Send Event On** dropdown, select **Job Status**.
@@ -97,7 +98,7 @@ Utilizing a **Threshold** called **TrainingThreshold** to prevent a job from run
     * Click the **Save** button.
   * Click the **Save** button in **Master Job Definition**.
   * Click **Back**
-27. Select the **After Value Notificaiton**, click the **Wrench** icon and enter **Admin Mode**. 
+27. Select the **After Value Notification**, click the **Wrench** icon and enter **Admin Mode**. 
   * In the **Event** section, click **+**
   * In the **Event** pop-up window:
     * In the **Send Event On** dropdown, select **Job Status**.
@@ -109,7 +110,7 @@ Utilizing a **Threshold** called **TrainingThreshold** to prevent a job from run
     * Click the **Save** button.
   * Click the **Save** button in **Master Job Definition**.
   * Click **Back**
-28. Select the **Final Value Notificaiton**, click the **Wrench** icon and enter **Admin Mode**. 
+28. Select the **Final Value Notification**, click the **Wrench** icon and enter **Admin Mode**. 
   * In the **Event** section, click **+**
   * In the **Event** pop-up window:
     * In the **Send Event On** dropdown, select **Job Status**.

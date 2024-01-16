@@ -10,18 +10,18 @@ To set up notifications via Notification Manager.
 
 ### Summary
 
-Using **Notification Manager** you will create an email notification to alert **smauser@congo.local** when a machine is marked up. You will use the Thunderbird Mail Client to manage the notificaitons.
+Using **Notification Manager** you will create an email notification to alert **smauser@congo.local** when a machine is marked up. You will use the Thunderbird Mail Client to manage the notifications.
 
 ### Instructions
 
-1.	In **Library**, under the **Management** topic, click on **Notification Triggers**. 
+1.	In **Library** > **Management**, select **Notification Triggers**. 
 2.  Click **Manage Groups** in the upper right corner.
 
 #### Create a Notification Group
 
 3.  On the **Manage Groups** screen, click **Add**.
 4.  In the **Name** field, type ```All Machines```.
-5.  In the **Type** drop-down, seleect **Machine**.
+5.  In the **Type** drop-down, select **Machine**.
 6.  Under the **Name** field, select **Included** so that future machines are included in this trigger.
 7.  Validate that the **Selected** check boxes for both machines is checked.
 8.  Click **Save**.
@@ -30,7 +30,7 @@ Using **Notification Manager** you will create an email notification to alert **
 Notice that the new group has been added to the top section of the Manage Groups screen.
 :::
 
-#### Create the Nofitication Trigger
+#### Create the Notification Trigger
 
 9.  Click on **Notification Triggers** in the upper right corner.
 10. On the **Notification Trigger** screen, click **Add**.
@@ -47,7 +47,7 @@ Notice that the new group has been added to the top section of the Manage Groups
 #### Test the Notification
 
 17. Select the **All Machines** trigger from the **Main List** in the top half of the screen.
-18. Click **Test All** to test your notifcation.
+18. Click **Test All** to test your notification.
 19. Open the Thunderbird email client and check the inbox.
 20. Close **Library**.
 

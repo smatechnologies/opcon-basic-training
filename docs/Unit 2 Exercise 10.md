@@ -23,13 +23,11 @@ In the **Annual Plan Freq** job, create a new frequency that will utilize a cust
 In the **Annual Plan Plus One Freq** job, create a new frequency that will utilize a custom calendar with a day offset of one.
 
 ### Instructions
-
 1.	In **Studio**, select the **Frequency Practice** Schedule and click **View**.
 2.	In the side menu, select **Add Job**.
 
 #### Create the On Interval Freq Job
-
-3. In the **Name** field, enter **All Weeks Freq**.
+3. In the **Name** field, enter **On Interval Freq**.
 4. Leave the **Job Type** as **Null Job**.
 5. Click the **Save** button.
 6. Click the **Lock** button to enter **Admin Mode**.
@@ -42,15 +40,15 @@ In the **Annual Plan Plus One Freq** job, create a new frequency that will utili
   * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
-10. In the **Active** column, select the frequency then select **Forcast**.
+10. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
 The **Forecast** screen should show the **15th and 30th days of each month** as green. If the 15th or 30th is a holiday the previous working day should be green.
 :::
 
-#### Create the Annual Plan Freq Job
-
 11. Click the **Back** button to navigate back to the **Studio** workspace.
+
+#### Create the Annual Plan Freq Job
 12. In the side menu, select **Add Job**.
 13. In the **Name** field, enter **Annual Plan Freq**.
 14. Leave the **Job Type** as **Null Job**.
@@ -62,35 +60,35 @@ The **Forecast** screen should show the **15th and 30th days of each month** as 
   * In the **Name** field, enter ```Annual```.
   * In the **When to Scheduled** dop-down menu, select **Annual Plan**.
   * In the **Calendar** drop-down menu, select **Master Calendar**.
-  * In the **A/O/B/N** section, select **Before Date**.
+  * In the **A/O/B/N** section, select **On Date**.
   * Click the **Save** button.
-20. In the **Active** column, select the frequency then select **Forcast**.
+20. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
-The **Forecast** screen should show the **date you selected in Exercise 7** as green.
+The **Forecast** screen should show the **dates selected on the Master Calendar in Exercise 7** as green.
 :::
 
-#### Create the Annual Plan Plus One Freq Job
+21. Click the **Back** button to navigate back to the **Studio** workspace.
 
-11. Click the **Back** button to navigate back to the **Studio** workspace.
-12. In the side menu, select **Add Job**.
-13. In the **Name** field, enter **Annual Plan Plus One Freq**.
-14. Leave the **Job Type** as **Null Job**.
-15. Click the **Save** button.
-16. Click the **Lock** button to enter **Admin Mode**.
-17. Expand the **Frequency** section, if not already expanded.
-18. Click the **Add** button.
-19. In the **Frequency Manager Wizard**:
-  * In the **Name** field, enter ```Annual+1```.
+#### Create the Annual Plan Plus One Freq Job
+22. In the side menu, select **Add Job**.
+23. In the **Name** field, enter **Annual Plan Plus One Freq**.
+24. Leave the **Job Type** as **Null Job**.
+25. Click the **Save** button.
+26. Click the **Lock** button to enter **Admin Mode**.
+27. Expand the **Frequency** section, if not already expanded.
+28. Click the **Add** button.
+29. In the **Frequency Manager Wizard**:
+  * In the **Name** field, enter ```Annual+1WD```.
   * In the **When to Scheduled** dop-down menu, select **Annual Plan**.
   * In the **Calendar** drop-down menu, select **My First Calendar**.
   * in the **Offset Days**, enter ```1```.
-  * In the **A/O/B/N** section, select **Before Date**.
+  * In the **A/O/B/N** section, select **On Date**.
   * Click the **Save** button.
-20. In the **Active** column, select the frequency then select **Forcast**.
+30. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
-The **Forecast** screen should show the **date you selected in Exercise 7** as green.
+The **Forecast** screen should show the **date selected on My First Calendar in Exercise 7 with an offset of +1** as green.
 :::
 
 31. Close **Library**.

@@ -31,7 +31,7 @@ You will then have each job trigger a notification, so that you know how many re
 
 5.	In **Library** > **Administration**, select **Master Schedules**.
 6.	Click the **Add** button.
-7.	On the **Master Scheudle Definition** screen:
+7.	On the **Master Schedule Definition** screen:
   * In the **Schedule Name** field, enter ```My Resource Schedule```.
   * Add **Documentation** to your Schedule.
   * Monday through Sunday are working days
@@ -49,9 +49,9 @@ You will then have each job trigger a notification, so that you know how many re
 12.	On the **Master Job Definition** screen, 
   * In the **Name** field, enter ```Use 2 Job A```.
   * In the **Job Type** drop down, select **Windows**.
-  * In the **Machine** drop downd, select **SMATraining**
-  * In the **User ID** drop down, selet **SMATRAINING\SMAUSER**
-  * In the **Command Line** field, enter ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t20```. _Remeber to user properties where acceptable._
+  * In the **Machine** drop down, select **SMATraining**
+  * In the **User ID** drop down, select **SMATRAINING\SMAUSER**
+  * In the **Command Line** field, enter ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t20```. _Remember to user properties where acceptable._
   * Click **Save**.
 13. Click the **Lock** icon to enter **Admin Mode**.
 14. In the **Documentation** section, add some **documentation**.

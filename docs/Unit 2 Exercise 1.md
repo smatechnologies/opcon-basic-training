@@ -10,7 +10,7 @@ To replace hardcoded text in the command line with Global Properties so that the
 
 ### Summary
 
-Create two Global Properties, ```RUNTIME``` with a value of ```10``` and ```PATH_Windows``` with a value of ```C:\Program Files\OpConxps\MSLSAM```. For four of the jobs in **MY FIRST SCHEDULE**, replace the hardcoded text with the newly created properties.
+Create two Global Properties, ```RUNTIME``` with a value of ```10``` and ```PATH_Windows``` with a value of ```C:\Program Files\OpConxps\MSLSAM```. For three of the jobs in **MY FIRST SCHEDULE**, replace the hardcoded text with the newly created properties.
 
 Build **MY FIRST SCHEDULE** for today, then view the schedule's performance in Processes screen. Verify that the proper values are attributed to the Properties used.
 
@@ -54,7 +54,7 @@ The command line should change from ```“C:\Program Files\OpConxps\MSLSAM\gener
 :::info Note
 Your updated **Command Line** should now look like:
 
-```“[[PATH_Windows]]\genericp.exe” –t[[RUNTIME]]```
+```"[[PATH_Windows]]\genericp.exe" -t[[RUNTIME]]```
 :::
 
 26.	Click the **Save** button.
@@ -74,7 +74,7 @@ Your updated **Command Line** should now look like:
 37. Right-click on one of the four jobs that were modified.
 38. In the **Job Selection** panel, select **Job Output**.
 39. Click **Refresh**.
-40. Click on the link that appears after the **Refresh** is compelete.
+40. Click on the link that appears after the **Refresh** is complete.
 41. Look at lines four and five and validate that the **Global Properties** resolved to ```C:\Program Files\OpConxps\MSLSAM``` and ```10``` respectively.
 42. Close the **Job Output**.
 43. Close **Operations**.

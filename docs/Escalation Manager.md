@@ -6,17 +6,21 @@ sidebar_label: 'Escalation Manager'
 * Escalation Rules are tied to Notifications setup in Notification Manager
 * **Groups** must be created **BEFORE Rules**
 
-### Escalation Manager - Groups
+![](../static/imgbasic/sm-escalation-manager-main.png)
+
+### Groups
 
 * Groups specify who will be tied to a Notification
 * Email address is gathered from the User Account screen
 * Specifies who can acknowledge an Escalated Notification
 
-### Escalation Manager - Global Property
+![](../static/imgbasic/sm-escalation-manager-group.png)
+
+### Global Property
 
 * A Global Property can have OpCon automatically update which users are tied to group
 
-### Escalation Manager - Rules
+### Rules
 
 * Escalation Rules lists:
     * Which group will be alerted
@@ -24,27 +28,17 @@ sidebar_label: 'Escalation Manager'
     * Minutes between alerts
 * Multiple Groups can be listed to elevate alerts after a configured number of Notifications
 
-### Notification Manager - Escalation Rule
+![](../static/imgbasic/sm-escalation-rule-add.png)
+
+![](../static/imgbasic/sm-escalation-rule-sequence.png)
+
+### Escalation Rule
 
 * Tie Escalated Notifications within Notification Manager
 * Only one Escalation Rule can be set up per Notification
 * Escalation Rules can only be set to emails at this time
 
-### Primary Screen
 
-![](../static/imgbasic/sm-escalation-manager-main.png)
-
-### Add a Group
-
-![](../static/imgbasic/sm-escalation-manager-group.png)
-
-### Add a Rule
-
-![](../static/imgbasic/sm-escalation-rule-add.png)
-
-### Rule Sequence
-
-![](../static/imgbasic/sm-escalation-rule-sequence.png)
 
 ## Enterprise Manager
 

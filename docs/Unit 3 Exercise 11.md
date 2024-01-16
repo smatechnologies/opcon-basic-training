@@ -10,13 +10,13 @@ To use different types of **Instance Properties** in place of hard coded values 
 
 ### Summary
 
-Modify **Windows Job 4** and **Windows Job 5** to use **Schedule and Job Instance Properties** for the ```Path``` and ```-t``` parameter. Within **MY FIRST SCHEDULE**, you will create a **Schedule Instance Property** called ```Path``` with a value of ```C:\Program Files\OpConxps\MSLSAM```. Within **Windows Job 4** and **Windows Job 5**, you will create a **Job Instance Property** called ```TIME``` with a numerical value of your choosing.
+Modify **Windows Job 4** to use **Schedule and Job Instance Properties** for the ```Path``` and ```-t``` parameter. Within **MY FIRST SCHEDULE**, you will create a **Schedule Instance Property** called ```Path``` with a value of ```C:\Program Files\OpConxps\MSLSAM```. Within **Windows Job 4**, you will create a **Job Instance Property** called ```TIME``` with a numerical value of your choosing.
 
 ### Instructions
 
 #### Create the Schedule Instance Property
 
-1.  In **Library** > **Administration**, click on **Master Schedules**. 
+1.  In **Library** > **Administration**, select **Master Schedules**. 
 2.  In the **Schedule** list, select **My First Schedule**.
 3.  Click the **Edit** button.
 4.  Click the **Lock** icon in the upper right-hand corner.
@@ -32,36 +32,29 @@ Modify **Windows Job 4** and **Windows Job 5** to use **Schedule and Job Instanc
 
 9.  Under **Library** > **Administration**, select **Master Jobs**.
 10. In the **Master Jobs** list, select **Windows Job 4**.
-11. While holding down the **CNTL key**, click the **Edit** button and the job should open in a new tab.
+11. While holding down the **CTRL key**, click the **Edit** button and the job should open in a new tab.
 12. In the new tab, click the **Lock** button in the upper right-hand corner.
 13. Expand **Instance Properties**.
-  * Click **+ Add New Property Set**.
+  * Click **+ Add New Property Set** button.
   * Click the **green + button**.
   * In the **Name** field, enter ```TIME```.
   * In the **Value** field, enter a number of your choice between 10 and 60.
   * Click the **Check Mark** button to verify the the entry.
   * click **Save**.
-14. Close the tab.
-15. Repeat Steps 10-14 to add a **Instance Property** to **Windows Job 5**.
+14. Refresh the web page.
 
-#### Modify the Jobs to use the Instance Properties
+#### Modify the Job to use the Instance Properties
 
-16. Under **Library** > **Administration**, select **Master Jobs**.
-17. In the **Master Jobs** list, select **Windows Job 4**.
-18. Click the **Lock** button in the upper right-hand corner.
-19. Click the **Edit** button.
-20. Expand the **Task Details**  box.
-21. Locate the **Command Line** and highlight ```C:\Program Files\OpConxps\MSLSAM```.
-22. Using either, the **Magic Wand** or **CTRL+SPACE**, pull up the **Property Selector** window.
-23. In the **Property Selectory** pop-up window:
-  * In the **Scope** field, uncheck **Global** and **Machine**.
+15. While still on the **Master Job Definition** screen for **Windows Job 4, click the **Lock** button in the upper right-hand corner.
+16. Expand the **Task Details**  box.
+17. Locate the **Command Line** and highlight ```C:\Program Files\OpConxps\MSLSAM```.
+18. Using either, the **Magic Wand** or **CTRL+SPACE**, pull up the **Property Selector** window.
+19. In the **Property Selector** pop-up window:
+  * In the **Scope** field, uncheck **Global**, **Job**, and **Machine**.
   * In the **Search** field, enter ```Path```.
   * Select the Property named, **SI.Path**.
   * Click **OK**
-24. Using the search filter, locate and select the property called ```Path```.
-25. Click **OK**.
-26. Repeat **Steps 21-25** to replace the ```10``` with the Job Instance Property called **JI.TIME**.
-27. Repeat **Steps 17-26** for **Windows Job 5**.
+20. Repeat **Steps 21-25** to replace the ```10``` with the Job Instance Property called **JI.TIME**.
 
 :::tip
 The new command line should look similar to the following: 
@@ -70,23 +63,22 @@ The new command line should look similar to the following:
 ```
 :::
 
-28. Click the **Save** button.
-29. Close **Library**.
+21. Click **Save**.
+22. Close **Library**.
 
 #### Build the Schedule
 
 :::tip
-Validate that all the jobs in **My First Schedule** are in a completed state and that the **Schedule Status** shows as **Completed**. As you may need to overwrite the exsiting schedule during the build process.
+Validate that all the jobs in **My First Schedule** are in a completed state and that the **Schedule Status** shows as **Completed**. As you may need to overwrite the existing schedule during the build process.
 :::
 
-30. In **Operations**, click on **Schedule Build**. 
-31. In the **From** field, select today's date.
-32. In the **To** field, select today's date.
-33. Select the **Released** radio button.
-34. In the **Schedule List**, select **My First Schedule**.
-35. Click the **Build** button.
-36. Expand and click on the schedule link for **My First Schedule** to return to the **Processes** screen.
-
+23. In **Operations**, click on **Schedule Build**. 
+24. In the **From** field, select today's date.
+25. In the **To** field, select today's date.
+26. Select the **Released** radio button.
+27. In the **Schedule List**, select **My First Schedule**.
+28. Click the **Build** button.
+29. Expand and click on the schedule link for **My First Schedule** to return to the **Processes** screen.
 
 ## Enterprise Manager
 

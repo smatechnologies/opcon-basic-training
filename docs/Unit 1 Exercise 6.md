@@ -32,7 +32,7 @@ Build the schedule called **MY FIRST SCHEDULE** as **Released** for today only. 
 10. Select **Tags** from the **Job Filters** menu.
 11. Select either ```CRITICAL``` or ```GENERICP``` from the **Tags** list.
 12. You should see **Windows Job 1-Windows Job 3**.
-13. Close **Operations**.
+13. Close **Operations** once all jobs **Finished OK**.
 
 
 ## Enterprise Manager

@@ -26,7 +26,7 @@ sidebar_label: 'SM - Job Configuration'
 Currently configurable options:  
 
 * Machines/Machine Groups  
-* Prerun Command Line  
+* Pre-run Command Line  
   * Working Directory  
   * Failure Criteria  
 * Run Command Line  

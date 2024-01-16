@@ -5,7 +5,7 @@ sidebar_label: 'Architecture'
 ### What is OpCon?
 
 
-* A Platform independent Job Scheduling and Automation Solution that SMA provides to manage an entire Datacenter
+* A Platform independent Job Scheduling and Automation Solution that SMA provides to manage an entire data center
 
 ![Picture3](../static/imgbasic/Picture3.png)
 

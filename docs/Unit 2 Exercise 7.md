@@ -6,23 +6,23 @@ sidebar_label: 'Unit 2 Exercise 7'
 
 ### Objective
 
-To update the Master Holiday Calendar and create a seperate calendar with customized dates.
+To update the Master Holiday Calendar and create a separate calendar with customized dates.
 
 ### Summary
 
 Update the **Master Holiday Calendar** so the following dates are marked as holidays:
 
-  * January 1st - New Years Day
-  *	January 16th – Martin Luther King Jr. Day
-  *	February 20th – President’s Day
-  *	May 29th – Memorial Day
-  * June 19th - Juneteenth National Independence Day (Observed)
-  *	July 4th – Independence Day
-  *	September 4th – Labor Day
-  *	October 9th – Columbus Day
-  *	November 11th – Veterans Day
-  *	November 23rd – Thanksgiving Day
-  * December 25th - Christmas Day (Observed)
+  * Monday, January 1st - New Years Day
+  *	Monday, January 15th – Martin Luther King Jr. Day
+  *	Monday, February 19th – President’s Day
+  *	Monday, May 27th – Memorial Day
+  * Wednesday, June 19th - Juneteenth National Independence Day (Observed)
+  *	Thursday, July 4th – Independence Day
+  *	Monday, September 2nd – Labor Day
+  *	Monday, October 14th – Columbus Day
+  *	Monday, November 11th – Veterans Day
+  *	Thursday, November 28rd – Thanksgiving Day
+  * Wednesday, December 25th - Christmas Day (Observed)
 
 You will also create a new calendar called **My First Calendar** and select several dates of your choosing.
 
@@ -32,7 +32,7 @@ You will also create a new calendar called **My First Calendar** and select seve
 
 #### Update the Master Holiday Calendar
 
-2.	Select **Master Holiday** from the list of Caledars.
+2.	Select **Master Holiday** from the list of Calendars.
 3. Click **Edit**.
 4.	In the **Calendar Settings**, select the dates listed in the **Summary** section above.
 5. Click **Save**.
@@ -52,11 +52,8 @@ You will also create a new calendar called **My First Calendar** and select seve
 
 <details>
 
-
 :::tip [Walkthrough Video - Unit 2 Exercise 7](../static/videobasic/U2E7.mp4)
-
 :::
-
 
 1.	Click on **Calendars** from the **Navigation Panel**.
 2.	Click the **Add** Button.
@@ -72,15 +69,16 @@ The dates are saved dynamically
 9.	Select **Master Holiday** from the **Calendar List**.
 10.	Click the following dates in the Calendar to set up the current year Federal Holidays, then close the **Calendars** tab:
 
-  *	January 16th – Martin Luther King Jr. Day
-  *	February 20th – President’s Day
-  *	May 29th – Memorial Day
-  * June 19th - Juneteenth National Independence Day (Observed)
-  *	July 4th – Independence Day
-  *	September 4th – Labor Day
-  *	October 9th – Columbus Day
-  *	November 11th – Veterans Day
-  *	November 23rd – Thanksgiving Day
-  * December 25th - Christmas Day (Observed)
+  * Monday, January 1st - New Years Day
+  *	Monday, January 15th – Martin Luther King Jr. Day
+  *	Monday, February 19th – President’s Day
+  *	Monday, May 27th – Memorial Day
+  * Wednesday, June 19th - Juneteenth National Independence Day (Observed)
+  *	Thursday, July 4th – Independence Day
+  *	Monday, September 2nd – Labor Day
+  *	Monday, October 14th – Columbus Day
+  *	Monday, November 11th – Veterans Day
+  *	Thursday, November 28rd – Thanksgiving Day
+  * Wednesday, December 25th - Christmas Day (Observed)
 
 </details>

@@ -19,7 +19,7 @@ To add a **File Transfer** job to **My First Schedule**. This job will move a fi
 1.  In **Library** > **Administration**, select **Master Jobs**.
 2.  Click **ADD**.
 3.  On the **Master Job Definition** screen:
-* In the **Schedule** drop-down, select **My First Scheudle**.
+* In the **Schedule** drop-down, select **My First Schedule**.
 * In the **Name** field, enter ```SMAFT Job 1```.
 * In the **Job Type** dropdown list, select **File Transfer**.
 * In the **Source** section:

@@ -10,7 +10,7 @@ To use the skills learned so far to alert you when jobs are **Late to Start**, *
 
 ### Summary
 
-Congo Online Retail needs to make sure all shipping orders are processed and ready to go before 5 am (Monday - Sunday) utilizing a Schedule called **Conge Retail Order Processing**.   
+Congo Online Retail needs to make sure all shipping orders are processed and ready to go before 5 am (Monday - Sunday) utilizing a Schedule called **Congo Retail Order Processing**.   
 
 **_If any of these processes have not completed by 5 am or if any are taking longer than 5 minutes, you need to be notified._** 
 
@@ -25,7 +25,7 @@ Congo Online Retail needs to make sure all shipping orders are processed and rea
   * **Auto Delete** for ```7``` days ago
 
 :::tip
-* You can reference [Unit 1 - Exercise 1](/docs/Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
+You can reference [**Unit 1 - Exercise 1**](/docs/Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
 :::
 
 #### Create the Jobs
@@ -34,56 +34,58 @@ Congo Online Retail needs to make sure all shipping orders are processed and rea
   * **Legos**
     * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t90```
     * Add documentation
+    * Tag the Job under ```Toys```
     * Add a frequency that will allow the job to run everyday.
     * Start Offset: ```03:00```
     * Late to Start Offset: ```01:55 (4:55 am)```
     * Max Run Time: ```5```
-    * Tag the Job under ```Toys```
   * **Nerf**
     * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t120```
     * Add documentation
+    * Tag the Job under ```Toys```
     * Add a frequency that will allow the job to run everyday.
     * Start Offset: ```04:00```
     * Late to Finish Offset: ```01:00 (5:00 am)```
     * Max Run Time: ```5```
-    * Tag the Job under ```Toys```
   * **Smartphones**
     * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t15```
     * Add documentation 
+    * Tag the Job under ```Electronics```
     * Add a frequency that will allow the job to run everyday.
     * Start Offset: ``04:30``
     * Late to Finish Offset: ```00:30 (5:00 am)```
     * Max Run Time: ```5```
-    * Tag the Job under ```Electronics```
   * **XBOX**
     * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t350```
     * Add documentation 
+    * Tag the Job under ```Electronics```
     * Add a frequency that will allow the job to run everyday.
     * Start Offset: ```02:30```
     * Late to Finish Offset: ```02:30 (5:00 am)```
     * Max Run Time: ```5```
-    * Tag the Job under ```Electronics```
   * **Levis**
     * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t45```
     * Add documentation 
+    * Tag the Job under ```Clothing```
     * Add a frequency that will allow the job to run everyday.
     * Start Offset: ```03:10```
     * Late to Start Offset: ```01:45 (4:55 am)```
     * Max Run Time: ```5```
-    * Tag the Job under ```Clothing```
   * **Nike**
     * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t75```
     * Add documentation 
+    * Tag the Job under ```Clothing```
     * Add a frequency that will allow the job to run everyday.
     * Start Offset: ```03:45```
     * Late to Finish Offset: ```01:15 (5:00 am)```
     * Max Run Time: ```5```
-    * Tag the Job under ```Clothing```
 
 :::tip
-* You can reference [Unit 1 - Exercise 3](/docs/Unit%201%20Exercise%203.md) for steps on how to create a Windows Job.
-* You can reference [Unit 1 - Exercise 5](/docs/Unit%201%20Exercise%205.md) for steps on how to add Tags.
-* You can reference [Unit 2 - Exercise 11](/docs/Unit%202%20Exercise%2011.md) and Other Frequency Details for steps on how to set up Start Offsets, Late to Start, and Late to Finish settings.
+You can reference [**Unit 1 - Exercise 3**](/docs/Unit%201%20Exercise%203.md) for steps on how to create a Windows Job.
+
+You can reference [**Unit 1 - Exercise 5**](/docs/Unit%201%20Exercise%205.md) for steps on how to add Tags.
+
+You can reference [**Unit 2 - Exercise 11**](/docs/Unit%202%20Exercise%2011.md) and Other Frequency Details for steps on how to set up Start Offsets, Late to Start, and Late to Finish settings.
 :::
 
 #### Create the Notifications
@@ -100,7 +102,7 @@ It is best practice to setup email notifications using **System Properties** to 
 :::
 
 :::tip
-* You can reference [Unit 3 - Exercise 8](/docs/Unit%203%20Exercise%208.md) for steps on how to create Notifications.
+You can reference [**Unit 3 - Exercise 8**](/docs/Unit%203%20Exercise%208.md) for steps on how to create Notifications.
 :::
 
 #### Create the Schedule
@@ -114,7 +116,7 @@ You should receive 7 emails: 2 Late to Start, 4 Late to Finish, and 1 Exceeded M
 :::
 
 :::tip
-* You can reference [Unit 1 - Exercise 6](/docs/Unit%201%20Exercise%206.md) for steps on how to build a schedule.
+You can reference [**Unit 1 - Exercise 6**](/docs/Unit%201%20Exercise%206.md) for steps on how to build a schedule.
 :::
 
 

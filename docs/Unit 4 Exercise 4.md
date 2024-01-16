@@ -23,8 +23,8 @@ Using the existing schedule called, **Embedded Scripts Training**, create a Wind
 4.	In the **Name** textbox, enter ```Create Daily Folder```.
 5.	In the **Job Type** drop-down list, select **Windows**.
 6.	In the **Machine Selection** drop-down list, select **SMATraining**. 
-7.	In the **Job Action** drop-down list, select **Embedded Script**.
 8.	In the **User ID** drop-down menu, select **SMATRAINING\SMAUSER**.
+7.	In the **Job Action** drop-down list, select **Embedded Script**.
 9.	In the **Script** drop-down list, select the **Create_Folder**. 
 10.	Leave the Version as **LATEST (X)**.
 11.	In the **Runner** drop-down menu, select **Command Shell**.
@@ -35,7 +35,7 @@ Using the existing schedule called, **Embedded Scripts Training**, create a Wind
 15.	Scroll to the **Frequency** sections and **ADD** a Frequency called ```Mon-Fri-N```.
 16.	Add **Documentation** and then click the **Save** button.
 
-#### Verify Directory Does NOT Exsist
+#### Verify Directory Does NOT Exist
 
 17.	Outside of OpCon (Using **Windows File Explorer**) verify that the following folder does not exist in the following path, ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”```, (where ```$SCHEDULE DATEYYYYMM``` refers to the current month of the current year)
 

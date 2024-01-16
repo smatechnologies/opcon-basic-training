@@ -30,7 +30,7 @@ When a Job is edited in Daily List, changes are applied **only** to a specific c
 Currently configurable options:  
 
 * Machines/Machine Groups  
-* Prerun Command Line  
+* Pre-run Command Line  
   * Working Directory  
   * Failure Criteria  
 * Run Command Line  

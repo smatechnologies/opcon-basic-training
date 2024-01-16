@@ -10,7 +10,7 @@ To use Negative Frequency to prevent 2 container jobs from being built on the sa
 
 ### Summary
 
-In a single schedule called, **NightlyProcessing**, you will have 2 container jobs each calling a unique sub-schedule, **SS_Daily** and **SS-Monthly**. One container called, **Daily**, will run evey day except for the end of the month. The other called, **Monthly**, will run only at end of month.
+In a single schedule called, **NightlyProcessing**, you will have 2 container jobs each calling a unique sub-schedule, **SS_Daily** and **SS-Monthly**. One container called, **Daily**, will run every day except for the end of the month. The other called, **Monthly**, will run only at end of month.
 
 ### Instructions
 
@@ -32,7 +32,7 @@ In a single schedule called, **NightlyProcessing**, you will have 2 container jo
 6.  Using the filters, locate and select **SS-Monthly**. 
 7.  Click the **View**.
 8.  Utilizing the **Copy** function, copy **Job 1** two times to create **Job 6** and **Job 7**.
-9.  **Add Dependencies** to have the new jobs run after **Job 5** in sequencial order.
+9.  **Add Dependencies** to have the new jobs run after **Job 5** in sequential order.
 * _Job 1 &rarr; Job 2 &rarr; Job 3 &rarr; Job 4 &rarr; Job 5 &rarr; Job 6 &rarr; Job 7_
 10. Click **Back** until you return the **Schedule List**
 
@@ -44,7 +44,7 @@ In a single schedule called, **NightlyProcessing**, you will have 2 container jo
 * In the **Name** field, enter ```NightlyProcessing```. 
 * In the **Documentation** field, enter **This is the Main Schedule**.
 * In the **Start Offset Hours** box, enter ```19``` (19:00 or 07:00 PM).
-* In the **Work Days** section, select Sautrday and Sunday.
+* In the **Work Days** section, select Saturday and Sunday.
 * In the **Holiday Calendar Settings**, select **Use Master Holiday**.
 * Select **Auto Build** and set it as ```7``` days in advance for ```1```.  
 * Select **Auto Delete** and set it as ```7```.

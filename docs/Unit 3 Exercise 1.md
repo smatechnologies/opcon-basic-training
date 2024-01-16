@@ -10,15 +10,7 @@ To create your first Role and assign your first User Account to it.
 
 ### Summary
 
-Utilizing **Enterprise Manager**, you will create a new **Role** and **User Account**. Then utilizing **Solution Manager***, you will assign this new user to the new role.
-
-  called ```Student1```. Then you will assign ```Student 1``` the **Role** of ```Training```.
-
-By logging out of Enterprise Manager and logging back in as Student1 you will validate that the user has limited access with the UI. The access can be validated by attempting to view the **Machines** that are defined.
-
-
- (Full User Name: ```Student Number 1```).
-
+Utilizing **Enterprise Manager**, you will create a new **Role** and **User Account**. Then utilizing **Solution Manager***, you will assign this new user to the new role. By logging out of Enterprise Manager and logging back in as Student1 you will validate that the user has limited access with the UI. The access can be validated by attempting to view the **Machines** that are defined.
 
 ### Instructions
 

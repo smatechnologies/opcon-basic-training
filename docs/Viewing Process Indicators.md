@@ -2,7 +2,7 @@
 sidebar_label: 'Viewing Process Indicators'
 ---
 
-* When a Service Request is submitted, a page will dispay to indicate the execution of the Request with a progress bar 
+* When a Service Request is submitted, a page will display to indicate the execution of the Request with a progress bar 
     * This page can be exited by clicking **OK**
 
 ![](../static/imgbasic/SelfServiceRequestProgressBar.png)

@@ -16,7 +16,7 @@ Then you will manually release each of the jobs and monitor the movement of the 
 
 ### Instructions
 
-#### Create Driectories and a File
+#### Create Directories and the File
 
 1.  In a **Windows Explorer** create two directories, ```C:\Finish``` and ```C:\Start```.
 2.  Open **Notepad** and create a new file.
@@ -31,14 +31,14 @@ Then you will manually release each of the jobs and monitor the movement of the 
 * In the **Name** field, enter ```Windows Sub-Types Exercise```.
 * In the **Documentation** field, enter in some documentation.
   * _Example: This is a training Schedule for Windows Sub-Type Jobs._
-* Saturday and Sunday are 88non-working days**.
+* Saturday and Sunday are **non-working days**.
 * Do **NOT** configure **Auto Build**.
 * Click the **Save**.
 8. Click **Back**.
 
 #### Add the Copy Job to the Schedule
 
-9.  Utilizing the filters in the **Scheudle List**, locate and select **Windows Sub-Types Exercise**.
+9.  Utilizing the filters in the **Schedule List**, locate and select **Windows Sub-Types Exercise**.
 10. Select **Add Job** in the side menu.
 11. On **Master Job Definition** screen:
 * In the **Name** field, enter ```File Copy```.

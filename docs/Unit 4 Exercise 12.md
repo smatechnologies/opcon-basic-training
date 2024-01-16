@@ -14,7 +14,7 @@ You are going to create a schedule with three jobs. One job will create the file
 
 ### Instructions
 
-#### Create the Sub-Schedule to Processs the Files
+#### Create the Sub-Schedule to Process the Files
 
 1.  In **Library** > **Administration**, select on **Master Schedule**. 
 2.  Click the **Add** button.
@@ -38,7 +38,7 @@ You are going to create a schedule with three jobs. One job will create the file
 * In the **Machine Selection** drop-down, select **SMATraining**
 * In the **User ID** drop-down, select **SMATRAINING\SMAUSER**
 * In the **Command Line** field, enter ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t10```
-  * _Remeber to use properties where acceptable._
+  * _Remember to use properties where acceptable._
 * Click **Save**
 * Add **Documentation** to the Job. 
 * Give the Job a **Frequency** of ```Mon-Sun-O```.
@@ -71,7 +71,7 @@ You are going to create a schedule with three jobs. One job will create the file
 #### Create the Parent Schedule
 
 12. Click the **Add** button.
-13. On the **Master Schedule Definistion screen:
+13. On the **Master Schedule Definition** screen:
 * In the **Name** field, enter ```File Arrival - Multiple Files```
 * Add **Documentation**
 * Pick your working days
@@ -81,7 +81,7 @@ You are going to create a schedule with three jobs. One job will create the file
 
 #### Add the FA MultiFile
 
-15.  In the **Schedule List**, search for and select the **File Arrival - Multiple Filess** schedule.
+15.  In the **Schedule List**, search for and select the **File Arrival - Multiple Files** schedule.
 16.  Click **View**
 17.  Click **Add Job**
 18. On the **Master Schedule Definition** screen:

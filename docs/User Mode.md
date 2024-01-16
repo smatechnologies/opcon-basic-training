@@ -16,7 +16,7 @@ Users not in the ```ocadm``` Role or in a Role without the  ```Maintain Service 
   - If user inputs are configured, the Service Request will allow the User to configure the User Input field(s) for the Service Request
 * The page will enforce any validation rules
   - If the validation fails, a message in red text will indicate an invalid entry
-  - Form vailidation takes place each time the ```Submit``` button is clicked
+  - Form validation takes place each time the ```Submit``` button is clicked
 
 ||
 |---|

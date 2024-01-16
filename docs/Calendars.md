@@ -46,7 +46,7 @@ sidebar_label: 'Calendars'
 
 <details>
 
-In Enterprise Manager, **Calendars** is found in **Adminstration > Calendars**
+In Enterprise Manager, **Calendars** is found in **Administration > Calendars**
 
 ### Calendar Screen Descriptions
 

@@ -30,13 +30,14 @@ Utilize a **REQUIRES - Finished OK Dependency** between each of the four 4 jobs 
 
 #### Set remaining Dependencies
 10.	Click on **Windows Job 3**.
-11.	Repeat Steps 5-8 to create a dependency between **Windows Job 2** and **Windows Job 3**.
+11.	Repeat Steps 5-9 to create a dependency between **Windows Job 2** and **Windows Job 3**.
 12.	Click on **Windows Job 2**.
-13.	Repeat Steps 5-8 to create a dependency between **Windows Job 1** and **Windows Job 2**. 
+13.	Repeat Steps 5-9 to create a dependency between **Windows Job 1** and **Windows Job 2**. 
 14. Close **Studio**
 
 :::tip
-You can also 'Click and Drag' from dot to dot on each job to pull up the Job Dependency window.
+You can also 'Click and Drag' from the bottom dot on a job to the top dot on the next job to pull up the Job Dependency window.
+![Click-n-Drag Dependency Creation](../static/imgbasic/Click-n-Drag.png)
 :::
 
 ## Enterprise Manager

@@ -29,7 +29,7 @@ Start Communication for the ```SUSEVM``` Machine.
 5.  Continue on to **Exercise 5**.
 
 :::info Note
-Do not panic! This is an expected behaviour based on the port number we ented when defining the **Socket Number** in Exercise 3. Please continue on to Exercise 5 to correct this issue.
+Do not panic! This is an expected behavior based on the port number we entered when defining the **Socket Number** in Exercise 3. Please continue on to Exercise 5 to correct this issue.
 :::
 
 ### Exercise 5
