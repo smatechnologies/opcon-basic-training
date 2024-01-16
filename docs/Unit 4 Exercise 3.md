@@ -24,7 +24,7 @@ Utilizing the **My Threshold Schedule** created in the previous exercise, you wi
 * In the **Job Type** drop down, select **Windows**.
 * In the **Machine** drop down, select **SMATraining**.
 * In the **User ID** drop down, select **SMATRAINING\SMAUSER**.
-* In the **Command Line** field, enter ```"C:\scripts\ExerciseThreshold.cmd" +1```. _Remeber to use properties where acceptable._
+* In the **Command Line** field, enter ```"C:\scripts\ExerciseThreshold.cmd" +1```. _Remember to use properties where acceptable._
 * Do not forget to add **Documentation**.
 * In the **frequency** section, move the ```Mon-Sun-O``` frequency into the **Active** column.
   
@@ -37,7 +37,7 @@ Utilizing the **My Threshold Schedule** created in the previous exercise, you wi
 
 #### Add the Job to Operations
 
-8.	Open **Processses** to verify that **My Threshold Schedule** is completed.
+8.	Open **Processes** to verify that **My Threshold Schedule** is completed.
 9. Return to **My Threshold Schedule** and add the Job just created to the Daily Schedule list.
 * Select **My Threshold Schedule** and click the **(+)** button in the **Schedule Selection** side menu.
 * Select **Threshold External Event Job** and click the **Next** button.
@@ -62,7 +62,7 @@ What happened?
 15. Click the **Wrench** icon to open the **Daily Job Definition**.
 16. Click the **Lock** icon to edit Daily details.
 17.	In **Task Details**, change the **Command Line** to this: ```“C:\scripts\ExerciseThreshold.cmd” -1```
-18.	Click the **Save** button (This will only save the Job in the Daily Definiton).
+18.	Click the **Save** button (This will only save the Job in the Daily Definition).
 19.	In **Processes**, right-Click the Job and select **Restart** in the **Job Status Update**.
 20.	Wait until the Job finishes **OK**.
 21.	In **Library** > **Administration**, select **Thresholds**.

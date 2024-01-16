@@ -32,7 +32,7 @@ sidebar_label: 'Operation Views'
 
 ### Diagrams and Views
 
-* In the Diagram option of the Job Selection tab the user can select several options to manipulate PERT view in Solution Mananger:  
+* In the Diagram option of the Job Selection tab the user can select several options to manipulate PERT view in Solution Manager:  
 * Progressive Discovery    
   * A focused view of Dependency relationships  
 * Isolate Dependency Chain View  
@@ -152,7 +152,7 @@ Example:
 * Open List or Matrix View  
 * Open PERT View  
 * Click PERT tab, then drag and drop to left until a rectangle appears  
-* The **Rectangle** represents new postion of PERT tab  
+* The **Rectangle** represents new position of PERT tab  
 * Release mouse button  
 
 ![Picture42](../static/imgbasic/Picture42.png)

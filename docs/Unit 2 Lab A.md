@@ -14,24 +14,24 @@ Congo Online Retail Inc’s Payroll Department work week is Monday through Frida
 
 #### Toys Department
 
-*	Every 14 Days starting on January 7th of this year
-    * The Working Day before, if date falls on a Non-Working Day  
+* Every 14 Days starting on January 7th of this year
+  * The Working Day before, if date falls on a Non-Working Day  
 
 #### Electronics Department
 
 * 15th of the Month
-    * The Working Day before, if date falls on a Non-Working Day
-*	Last Working Day of the month
-    *  The Working Day before, if date falls on a Non-Working Day
-*	End of Year (Negative)
-    * Payroll that includes both the monthly Payroll and Bonuses is run in place of the End of Month Payroll on the last working day of the year  
+  * The Working Day before, if date falls on a Non-Working Day
+* Last Working Day of the month
+  * The Working Day before, if date falls on a Non-Working Day
+* End of Year (Negative)
+  * Payroll that includes both the monthly Payroll and Bonuses is run in place of the End of Month Payroll on the last working day of the year  
 
 #### Clothing Department
 
-*	Every Friday
-    * The Working Day after, if date falls on a Non-Working Day
+* Every Friday
+  * The Working Day after, if date falls on a Non-Working Day
 * OnRequest
-    * After every major sales milestone is reached
+  * After every major sales milestone is reached
 
 ### Lab Instructions  
 
@@ -39,37 +39,37 @@ Congo Online Retail Inc’s Payroll Department work week is Monday through Frida
 Use the **NULL JOB Job Type** for all jobs in this lab.
 :::
 
-*	Create a S**chedule** called **Congo Payroll Payments**
-*	Add **Documentation** for the Schedule 
+* Create a **Schedule** called **Congo Payroll Payments**
+* Add **Documentation** for the Schedule 
 * Saturday and Sundays are non-working days
-*	The **Master Holiday Calendar** is used
-*	**Auto-build** the Schedule 7 days in advance for 1 day
-*	**Auto-delete** the Schedule for 7 days ago
+* The **Master Holiday Calendar** is used
+* **Auto-build** the Schedule 7 days in advance for 1 day
+* **Auto-delete** the Schedule for 7 days ago
 
 :::tip
-* You can reference [Unit 1 - Exercise 1](/docs/Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
+You can reference [**Unit 1 - Exercise 1**](/docs/Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
 :::
 
-*	Four **Null Jobs** will be created:
-    *	**Toys** will need **one Job** with **one Frequency**
-    *	**Electronics** will need **two Jobs**  
-        *	Job 1 - **three Frequencies** 
-        *	Job 2 - **one Frequency**
-    *	**Clothing** will need **one Job** with **two Frequencies**
+* Four **Null Jobs** will be created:
+  * **Toys** will need **one Job** with **one Frequency**
+  * **Electronics** will need **two Jobs**  
+    * Job 1 - **three Frequencies** 
+    * Job 2 - **one Frequency**
+  * **Clothing** will need **one Job** with **two Frequencies**
 
 :::tip
-* You can reference [Unit 2 - Exercise 2](/docs/Unit%202%20Exercise%202.md) for steps on how to create Null jobs.
+You can reference [**Unit 2 - Exercise 2**](/docs/Unit%202%20Exercise%202.md) for steps on how to create Null jobs.
 :::
 
-*	Tag all Jobs according to the product (**Toys**, **Electronics** and **Clothing**)
+* Tag all Jobs according to the product (**Toys**, **Electronics** and **Clothing**)
 
 :::tip
-* You can reference [Unit 1 - Exercise 5](/docs/Unit%201%20Exercise%205.md) for steps on how to add Tags.
+You can reference [**Unit 1 - Exercise 5**](/docs/Unit%201%20Exercise%205.md) for steps on how to add Tags.
 :::
 
 * Upon completion, the “**Forecast All**” results will look like the following:
 
-#### Forcasts of Frequencies
+#### Forecasts of Frequencies
 
 #### Toys
 ![](../static/imgbasic/SM_Forecast-Interval_Lab.png)

@@ -59,7 +59,7 @@ You are going to create a schedule with two jobs. One job will create the file w
 * Click **Save**
 12. Add **Documentation** to the Job.
 13. Give the Job a **Frequency** of **Mon-Fri-N**
-14. Select the **Frequecny** in the **Active** column, in the **Job Build Status** drop-down, select **On Hold**
+14. Select the **Frequency** in the **Active** column, in the **Job Build Status** drop-down, select **On Hold**
 15. Click **Save**
 16. click **Back**
 

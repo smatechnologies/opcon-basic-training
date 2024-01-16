@@ -6,7 +6,7 @@ sidebar_label: 'Unit 1 Exercise 3'
 
 ### Objective 
 
-To succesfully add 4 Windows jobs to My First Schedule.
+To successfully add 4 Windows jobs to My First Schedule.
 
 ### Summary
 
@@ -21,12 +21,12 @@ Each of the 4 jobs will use the **Inactive Frequency** called **Example-Mon-Sun-
 1.	In Solution Manager, select **Studio**. 
 2.	In the **Schedule List**, select **My First Schedule**.
 3.	Click the **View** button in the toolbar.
-4.	In the Menu to the right, select **Add Job**.
+4.	In the **Menu** to the right, select **Add Job**.
 
 #### Create Your First Job
 
-5.  In the Name textbox, enter **Windows Job 1**
-6.  In the Job Type drop-down list, select **Windows**.
+5.  In the **Name** textbox, enter **Windows Job 1**
+6.  In the **Job Type** drop-down list, select **Windows**.
 7.  Expand the **Task Details** section to open the Details box.
 8.	In the **Machine Selection** section, select the **SMATraining** machine from the **Machines or Machine Group** drop down. 
 9.	In the **General** section, select **SMATRAINING\SMAUSER** from the **User Id** drop down.
@@ -35,13 +35,13 @@ Each of the 4 jobs will use the **Inactive Frequency** called **Example-Mon-Sun-
 "C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t10
 ```
 11.	Click the **Save** button.
-12. Click the **Lock** button in the top right-hand corner of the **Master Job Details** screen.
+12. Click the **Lock (or CTRL + Alt + A)** button in the top right-hand corner of the **Master Job Details** screen.
 13. Scroll down and expand the **Frequency** section.
 14.	From the **Inactive** column, select the Frequency named **Example-Mon-Sun-O** and click the **<** button to move the Frequency to **Active** column.
 15. Click **Save**.
 16. Close **Studio** and **Library**.
 
-#### Duplicate Windows Job 1
+#### Create Windows Job 2, 3, and 4
 
 17. Navigate to **Library**.
 18. Select **Master Jobs** under the **Administration** column.

@@ -10,7 +10,6 @@ sidebar_label: 'File Arrival Jobs'
 
 ![](../static/imgbasic/File_Arrival_Windows_SM.png)
 
-
 ### UNIX File Arrival Jobs
 
 * UNIX standard wildcards allowed in file name
@@ -19,14 +18,26 @@ sidebar_label: 'File Arrival Jobs'
 ![](../static/imgbasic/File_Arrival_UNIX_SM.png)
 
 * File Arrival Job finishes OK
-	* Fails if file does not arrive in Time Stamp Window
+  * Fails if file does not arrive in Time Stamp Window
 * LSAMs (Windows and UNIX) set some Properties for that Job
-	* Work as Job Instance Properties for File Arrival Job:
+  * Work as Job Instance Properties for File Arrival Job:
 
-![](../static/imgbasic/444.png)|
+### File Arrival Properties
 
-###### Example:
+:::note
+The file being searched in the table below for by the File Arrival job resides in **"D:\NewFiles\File123456789.txt"**
+:::
 
+| Property Name | Description | Example |
+| --- | --- | --- |
+| JI.$ARRIVED BASE FILE NAME | Resolves to the file found by the File Arrival job. | File123456789 |
+| JI.$ARRIVED FILE EXTENSION | Resolves to the extension of the file found by the File Arrival job. | .txt |
+| JI.$ARRIVED FILE NAME | Resolves to the directory path and file name of the file found by the File Arrival job. | D:\NewFiles\File123456789.txt |
+| JI.$ARRIVED FILE PATH | Resolves to the directory path of the file found by the File Arrival job. | D:\NewFiles |
+| JI.$ARRIVED SHORT FILE NAME | Resolves to the file name and extension of the  found by the File Arrival job. | File123456789.txt |
+
+
+:::tip Example
 * Receive 5 files and all should be processed the same way
 * Order of file processing does not matter
 * Set up:
@@ -37,7 +48,7 @@ sidebar_label: 'File Arrival Jobs'
 		* The Event adds a Multi-Instance Container Job that calls the processing SubSchedule
 		* Once the Container Job finishes, it triggers the  Event to restart the File Watcher  
 			* This will loop through all 5 files
-
+:::
 
 ## Enterprise Manager
 

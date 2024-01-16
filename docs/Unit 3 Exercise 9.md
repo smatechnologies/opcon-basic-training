@@ -23,7 +23,7 @@ Once that the **Escalation Rule** is defined, you will assign that rule to a **N
 2.	In the **Groups** section on the right side, click **Add**.
 3.	In the **Add New Escalation Group** pop-up window:
   * In the **Name** field, enter ```Level 1```.
-  * In the **Users** section, select ```Student1``` and ```SMATRAINING\SMAUSER``` in the **Available Users** column by holding down the **CNTL Key**.
+  * In the **Users** section, select ```Student1``` and ```SMATRAINING\SMAUSER``` in the **Available Users** column by holding down the **CTRL Key**.
   * Click the **>** button to move the users to the **Assigned Users** column. 
   * Click the **Save** Button.
 
@@ -48,9 +48,9 @@ If you needed to add multiple escalation levels, you would click add again on th
 
 #### Applying the Escalation
 
-7.  Under the **Library** > **Management**, click on **Notification Triggers**. 
+7.  Under the **Library** > **Management**, select **Notification Triggers**. 
 8.	In the **Notification Triggers** section, click on **Escalation Example**.
-9.	In the **Trigger** drop-down in the bottom half of the screen, validate that **Job Failed** is selected.
+9.	In the **Trigger Name** drop-down in the bottom half of the screen, validate that **Job Failed** is selected.
 10.	In the **Escalation Rule** drop-down, select **Escalation Job Failure**.
 11.	Click the **Save** Button.
 12.	Close **Library**.

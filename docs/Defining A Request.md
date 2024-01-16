@@ -2,7 +2,7 @@
 sidebar_label: 'Defining A Request'
 ---
 
-The Service Definition is composed of serveral fields, many of which are optional:
+The Service Definition is composed of several fields, many of which are optional:
 
 ![](../static/imgbasic/SelfServiceRequestDetails.png)
 

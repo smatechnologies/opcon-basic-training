@@ -34,7 +34,7 @@ The **JORS Port Number** for this agent will be ```3110```. This agent will be u
 #### Define the Communication Settings
 
 10.	Expand the **Communication Settings** section.
-11.	In the **JORS Port Number** field, eneter ```3110```.
+11.	In the **JORS Port Number** field, enter ```3110```.
 
 #### Define the File Transfer Settings
 
@@ -43,7 +43,8 @@ The **JORS Port Number** for this agent will be ```3110```. This agent will be u
 14. In the **File Transfer Port Number (Non-TLS)** field, enter ```3110```.
 15. In the **Support non-TLS for SMAFT Agent Communications** field, select ```True``` from the drop down menu.
 16. In the **Support non-TLS for SMAFT Server Communications** field, select ```True``` from the drop down menu.
-17.	Continue on to **Exercise 4**.
+17. Click **Save**.
+18.	Continue on to **Exercise 4**.
 
 ## Enterprise Manager
 

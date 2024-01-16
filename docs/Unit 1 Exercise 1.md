@@ -15,15 +15,15 @@ Create a Schedule named **MY FIRST SCHEDULE**. Provide documentation about this 
 ### Instructions
 
 1.	In Solution Manager, from the **Home** tab, select **Studio**.   
-2.	Click the **Add** button on the toolbar.   
-3.	In the Schedule Name textbox, enter **My First Schedule**.   
-4.	In the Documentation textbox, enter **This is a training schedule**.  
-5.	In the **Schedule Build and Maintenance** frame, select the **Auto Build** checkbox.  
+2.	Click the **Add** button in the toolbar.   
+3.	In the **Schedule Name** textbox, enter **My First Schedule**.   
+4.	In the **Documentation** textbox, enter **This is a training schedule**.  
+5.	In the **Schedule Build and Maintenance** section, select the **Auto Build** checkbox.  
 6.	Set ```7``` for the number of days in advance for Auto Build.  
 7.	Set ```1``` for the number of days to Auto Build.  
 8.	Select the **Auto Delete** checkbox.  
 9.	Set ```7``` for the number of days to Auto Delete.  
-10.	Click the Save button. 
+10.	Click the **Save**. 
 11. Close **Studio**.  
 
 ## Enterprise Manager
@@ -35,7 +35,7 @@ Create a Schedule named **MY FIRST SCHEDULE**. Provide documentation about this 
 :::
 
 Steps to Create a Schedule  
-1.	In **Librarby** > **Administration**, double-click on **Schedule Master**.   
+1.	In **Library** > **Administration**, double-click on **Schedule Master**.   
 2.	Click the **Add** button on the toolbar.   
 3.	In the Name textbox, enter **My First Schedule**.   
 4.	In the Documentation textbox, enter **This is a training Schedule**.  

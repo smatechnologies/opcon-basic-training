@@ -10,59 +10,41 @@ sidebar_label: 'Notification Manager'
 
 ### Notification Triggers Main Screen
 
-||
-|---|
-|![](../static/imgbasic/sm-notification-trigger-main.png)|
+![](../static/imgbasic/sm-notification-trigger-main.png)
 
 ### Add/Edit Trigger Output
 
-||
-|---|
-|![](../static/imgbasic/sm-notification-trigger-set-email.png)|
+![](../static/imgbasic/sm-notification-trigger-set-email.png)
 
 ### Manage Trigger Groups
 
-||
-|---|
-|![](../static/imgbasic/sm-notification-triggers-manage-groups.png)|
+![](../static/imgbasic/sm-notification-triggers-manage-groups.png)
 
 ## Enterprise Manager
 
 <details>
 
-||
-|---|
-|![](../static/imgbasic/320.png)|
+![](../static/imgbasic/320.png)
 
 #### Add Schedule Trigger
 
-||
-|---|
-|![](../static/imgbasic/321.png)|
+![](../static/imgbasic/321.png)
 
 #### Add Job Trigger
 
-||
-|---|
-|![](../static/imgbasic/322.png)|
+![](../static/imgbasic/322.png)
 
 #### Machine Trigger
 
-||
-|---|
-|![](../static/imgbasic/323.png)|
+![](../static/imgbasic/323.png)
 
 #### Schedule Select
 
-||
-|---|
-|![](../static/imgbasic/324.png)|
+![](../static/imgbasic/324.png)
 
 
 #### Notification Types
 
-||
-|---|
-|![](../static/imgbasic/325.png)|
+![](../static/imgbasic/325.png)
 
 </details>

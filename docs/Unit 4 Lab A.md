@@ -16,18 +16,18 @@ A unique script is run for each product:
 
 **Toys** 
 
-*  Legos: ```C:\scripts\UpdInvLegos.CMD``` 
-*  Nerf: ```C:\scripts\UpdInvNerf.CMD```
+* Legos: ```C:\scripts\UpdInvLegos.CMD``` 
+* Nerf: ```C:\scripts\UpdInvNerf.CMD```
 
 **Clothing**
 
-*  Nike: ```C:\scripts\UpdInvNike.CMD```   
-*  Levis: ```C:\scripts\UpdInvLevis.CMD``` 
+* Nike: ```C:\scripts\UpdInvNike.CMD```   
+* Levis: ```C:\scripts\UpdInvLevis.CMD``` 
 
 **Electronics**
 
-*  Smartphones: ```C:\scripts\UpdInvSmartphones.CMD``` 
-*  XBOX: ```C:\scripts\UpdInvXBOX.CMD```
+* Smartphones: ```C:\scripts\UpdInvSmartphones.CMD``` 
+* XBOX: ```C:\scripts\UpdInvXBOX.CMD```
 
 
 These jobs can run in the order they are listed above with two exceptions:

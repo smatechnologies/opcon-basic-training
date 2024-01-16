@@ -62,7 +62,7 @@ In the **Script Repository**, import a script called **ExerciseThreshold.cmd**. 
 * Close the **Add Jobs** results screen.
 * Wait until the Job finishes **OK**.
 15.	After the Job is finished, open the **Thresholds** tab and check the value. It must be ```2```.
-16.	For practice, **edit the Daily Job** and change the value in the **Arguements** field to ```0```, restart the Job and check the **Threshold** again.
+16.	For practice, **edit the Daily Job** and change the value in the **Arguments** field to ```0```, restart the Job and check the **Threshold** again.
 
 :::note
 The TrainingThreshold should have a value of 0 when this exercise is complete.

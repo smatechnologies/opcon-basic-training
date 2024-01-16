@@ -2,7 +2,7 @@
 sidebar_label: 'On Request -- Periods'
 ---
 
-## Frequency Definition Wizard - On Request & Beginning, Middle, End of Period
+## Frequency Definition Wizard -- On Request -- Beginning, Middle, End of Period
 
 ### On Request
 
@@ -13,17 +13,6 @@ sidebar_label: 'On Request -- Periods'
   * **A/O/B/N** flag is applicable
 
 ![](../static/imgbasic/SM_Frequency_OnRequest.png)
-
-### End of Period
-
-* Allows a Job to run on the Last day of Week, Month, Quarter, or Year
-* Use **A/O/B/N** flag to specify the last working day of that Period
-* Offset Days is in Working Days
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
-
-![](../static/imgbasic/SM_Frequency_EOP.png)
 
 ### Beginning of Period
 
@@ -50,6 +39,17 @@ For 31 day months, 15.5 is rounded up to 16
 
 ![](../static/imgbasic/SM_Frequency_MOP.png)
 
+### End of Period
+
+* Allows a Job to run on the Last day of Week, Month, Quarter, or Year
+* Use **A/O/B/N** flag to specify the last working day of that Period
+* Offset Days is in Working Days
+* Other Fields:
+  * **A/O/B/N** flag is applicable
+  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+
+![](../static/imgbasic/SM_Frequency_EOP.png)
+
 ## Enterprise Manager
 
 <details>
@@ -65,17 +65,6 @@ For 31 day months, 15.5 is rounded up to 16
   * **A/O/B/N** flag is applicable
 
 ![](../static/imgbasic/240.png)
-
-#### End of Period
-
-* Allows a Job to run on the Last day of Week, Month, Quarter, or Year
-* Use **A/O/B/N** flag to specify the last working day of that Period
-* Offset Days is in Working Days
-* Other Fields:
-  * **A/O/B/N** flag is applicable
-  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
-
-![](../static/imgbasic/241.png)
 
 #### Beginning of Period
 
@@ -102,5 +91,16 @@ For 31 day months, 15.5 is rounded up to 16
   * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
 
 ![](../static/imgbasic/24301.png)
+
+#### End of Period
+
+* Allows a Job to run on the Last day of Week, Month, Quarter, or Year
+* Use **A/O/B/N** flag to specify the last working day of that Period
+* Offset Days is in Working Days
+* Other Fields:
+  * **A/O/B/N** flag is applicable
+  * The Calendar selected will block off days listed within a Calendar AFTER **A/O/B/N** days are set
+
+![](../static/imgbasic/241.png)
 
 </details>

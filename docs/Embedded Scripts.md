@@ -2,41 +2,50 @@
 sidebar_label: 'Embedded Scripts'
 ---
 
-* OpCon has ability to push Scripts from OpCon database to Windows and UNIX Machines (LSAMs) to run
-* Database has centralized Repository that is replicated with database
-* Version Control
+* OpCon has ability to push Scripts from the OpCon database to Windows and UNIX environments
+* The OpCon Database acts as a centralized Repository that is replicated with database
+* The Repository allows for Version Control
 
-* Four places used in OpCon to setup and use Embedded Scripts:
-	* Script Types
-	* Script Runners
-	* Script Repository
-	* Job Master
+![](../static/imgbasic/sm-scripts.png)
 
-### Embedded Scripts - Script Types
+#### Four part make up Embedded Scripts
+
+* Script Types
+* Script Runners
+* Script Repository
+* Job Master
+
+### Script Types
 
 * Configure type of Scripts which can be stored by OpCon
-
 * There are 5 **predefined** Script types, but more can be added
-	* Command Shell (.cmd)
-	* Perl (.ps)
-	* PowerShell (.ps1)
-	* Python (.py)
-	* VBScript (.vbs)
+  * Command Shell (.cmd)
+  * Perl (.ps)
+  * PowerShell (.ps1)
+  * Python (.py)
+  * VBScript (.vbs)
 
-### Embedded Scripts - Script Runners
+![](../static/imgbasic/sm-script-types.png)
+
+### Script Runners
 
 * Script Runners define Command Line created to run Script
-
-Example:
-
-* Powershell includes ```“–ExecutionPolicy Bypass and –File”``` before command 
-
 * Allows more than one Script runner per Script Type
+
+![](../static/imgbasic/sm-script-runners.png)
+
+:::tip Example
+* Powershell would include ```“–ExecutionPolicy Bypass and –File”``` before command, so the Script Runner would look like: ```powershell.exe -ExecutionPolicy Bypass -File $FILE $ARGUMENTS```.
+:::
 
 ### Script Repository
 
 * Where Scripts are created and stored
 * Previous versions are accessible
+
+![](../static/imgbasic/sm-add-script.png)
+
+#### Required Fields
 
 * **Name** – Defines Name of Script (No spaces allowed in Name)
 * **Description** – Documents purpose of Script
@@ -45,11 +54,42 @@ Example:
 * **Type** – Specifies Script Type 
 * **Initial Comments** – Documents differences between Script versions
 
-### Assign a Role to a New Script
+#### Assign a Role to a New Script
 
 * A Role must be assigned when a Script is created or imported to the Script Repository
 
-### Embedded Scripts - Job Master
+![](../static/imgbasic/sm-assign-role-script.png)
+
+#### Edit a Script
+
+* In the Repository, a **Copy** of the script must be made before you can **Edit** it.
+
+![](../static/imgbasic/sm-copy-script-edit.png)
+
+![](../static/imgbasic/sm-edit-script-version.png)
+
+#### Deploy Script
+
+* Multiple jobs can run differnt versions of the same Embedded script.
+* To have all jobs run the same version, one needs to **Deploy** that version to the jobs.
+
+![](../static/imgbasic/sm-deploy-script-button.png)
+
+![](../static/imgbasic/sm-script-deploy.png)
+
+#### Script Cross References
+
+* Cross Reference in the Repository allows one to see all the jobs that are running the same script.
+
+![](../static/imgbasic/sm-script-cross-references.png)
+
+:::warning
+A Script with Cross References cannot be deleted
+:::
+
+### Embedded Script Job
+
+![](../static/imgbasic/sm-script-in-job-properties.png)
 
 * **Job Action** – Change from Run Program to Embedded Scripts
 * **Script** – Specifies which script to call
@@ -59,56 +99,6 @@ Example:
 * **Version** – Specifies Script Version selected
 * **Arguments** – Enter the parameter(s) passed to Script (if needed)
 * **Working Dir.** – Working Directory (starting directory) for Script
-
-## Solution Manager
-
-* In Solution Manager, **Scripts** is found in **Library > Administration > Scripts**
-
-### Scripts Menu
-
-![](../static/imgbasic/sm-scripts.png)
-
-### Script Types
-
-![](../static/imgbasic/sm-script-types.png)
-
-### Script Runners
-
-![](../static/imgbasic/sm-script-runners.png)
-
-### Copy Script to Edit Version
-
-![](../static/imgbasic/sm-copy-script-edit.png)
-
-![](../static/imgbasic/sm-edit-script-version.png)
-
-### Add Script
-
-![](../static/imgbasic/sm-add-script.png)
-
-### Assign a Role to a New Script
-
-![](../static/imgbasic/sm-assign-role-script.png)
-
-### Deploy Script
-
-![](../static/imgbasic/sm-deploy-script-button.png)
-
-![](../static/imgbasic/sm-script-deploy.png)
-
-### Script Cross References
-
-![](../static/imgbasic/sm-script-cross-references.png)
-
-:::warning
-
-A Script with Cross References cannot be deleted
-
-:::
-
-### Script in Job Properties
-
-![](../static/imgbasic/sm-script-in-job-properties.png)
 
 ## Enterprise Manager
 

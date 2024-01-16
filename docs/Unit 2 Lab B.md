@@ -8,9 +8,9 @@ To use the concepts presented in Units 1 and 2 to create a schedule that will jo
 
 ### Objective
 
-Congo Online Retail Inc. needs to run daily inventory checks every day of the week using a schedule called **Conge Inventory Management**. 
+Congo Online Retail Inc. needs to run daily inventory checks every day of the week using a schedule called **Congo Inventory Management**. 
 
-To manange the inventory for each product, a special program must be run for each department:
+To manage the inventory for each product, a special program must be run for each department:
   
 *	**Toys** – ```"C:\scripts\CheckInvToys.EXE"```
 *	**Electronics** – ```"C:\scripts\CheckInvElectronics.EXE"```
@@ -38,7 +38,7 @@ The programs read the database and generate order requests to purchase new items
 *	Auto-delete the schedule for ```7``` days ago
 
 :::tip
-* You can reference [Unit 1 - Exercise 1](/docs/Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
+You can reference [**Unit 1 - Exercise 1**](/docs/Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
 :::
 
 *	Create a **Windows Job** for each of the products in the introduction.
@@ -54,9 +54,11 @@ The programs read the database and generate order requests to purchase new items
 *	Tag these 6 Jobs according to the product type (**Toys**, **Electronics**, or **Clothing**)
 
 :::tip
-* You can reference [Unit 1 - Exercise 3](/docs/Unit%201%20Exercise%203.md) for steps on how to create a Windows Job.
-* You can reference [Unit 2 - Exercise 11](/docs/Unit%202%20Exercise%2011.md) for stepts on how to create a Looping Job.
-* You can reference [Unit 1 - Exercise 5](/docs/Unit%201%20Exercise%205.md) for steps on how to add Tags.
+You can reference [**Unit 1 - Exercise 3**](/docs/Unit%201%20Exercise%203.md) for steps on how to create a Windows Job.
+
+You can reference [**Unit 2 - Exercise 11**](/docs/Unit%202%20Exercise%2011.md) for steps on how to create a Looping Job.
+
+You can reference [**Unit 1 - Exercise 5**](/docs/Unit%201%20Exercise%205.md) for steps on how to add Tags
 :::
 
 *	Create a Unix Job named **Inventory Purchase Report**
@@ -68,14 +70,15 @@ The programs read the database and generate order requests to purchase new items
 *	The Inventory Purchase Report requires the 6 Windows Jobs and must run after all runs have completed
 
 :::tip 
-* You can reference [Unit 2 - Exercise 6](/docs/Unit%202%20Exercise%206.md) for steps on how to create a UNIX Job.
-* You can reference [Unit 1 - Exercise 4](/docs/Unit%201%20Exercise%204.md) for steps on how to add dependencies.
+You can reference [**Unit 2 - Exercise 6**](/docs/Unit%202%20Exercise%206.md) for steps on how to create a UNIX Job.
+
+You can reference [**Unit 1 - Exercise 4**](/docs/Unit%201%20Exercise%204.md) for steps on how to add Dependencies.
 :::
 
 *	Build the Schedule for today and tomorrow
 
 :::tip
-* You can reference [Unit 1 - Exercise 6](/docs/Unit%201%20Exercise%206.md) for steps on how to build the Schedule.
+You can reference [**Unit 1 - Exercise 6**](/docs/Unit%201%20Exercise%206.md) for steps on how to build the Schedule.
 :::
 
 :::info

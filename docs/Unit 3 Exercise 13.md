@@ -6,7 +6,7 @@ sidebar_label: 'Unit 3 Exercise 13'
 
 ### Objective
 
-To use Events to cancel a job in a workflow when a preceeding job finishes okay.
+To use Events to cancel a job in a workflow when a preceding job finishes okay.
 
 ### Summary
 
@@ -31,7 +31,7 @@ These jobs should run in a particular order so that the event will cancel the th
 9. Click the **Save** button.
 10. Click the **Lock** button in the upper right-hand corner.
 11. Expand the **Frequency** box.
-12. **Add** a frequncy for a **Mon-Sun-O** pattern.
+12. **Add** a frequency for a **Mon-Sun-O** pattern.
   * In the **Frequency Name** box, type **Mon-Sun-O**.
   * Set **When to Schedule** as **All Weeks**.
   * Select all days of the week by marking their check boxes.
@@ -50,9 +50,9 @@ These jobs should run in a particular order so that the event will cancel the th
 20. In the **Create new Event** screen:
   * In the **Send Event On** dropdown, select **Job Status**.
   * In the **Job Status** dropdown, select **Finished OK**.
-  * In the **Event Templete** dropdown, select the **$JOB:CANCEL** event.
-  * In the **Schedule Date** field, use the **Magic Wand** or **CNTL+SPACE** to enter in **$SCHEDULE DATE**.
-  * In the **Schedule Name** field, use the **Magic Wand** or **CNTL+SPACE** to enter in **$SCHEDULE NAME**.
+  * In the **Event Template** dropdown, select the **$JOB:CANCEL** event.
+  * In the **Schedule Date** field, use the **Magic Wand** or **CTRL+SPACE** to enter in **$SCHEDULE DATE**.
+  * In the **Schedule Name** field, use the **Magic Wand** or **CTRL+SPACE** to enter in **$SCHEDULE NAME**.
   * In the **Job Name** field, enter in the job name for **Test Event 3**.
   * Click **Save**.
 21. Click **Save**.
@@ -61,7 +61,7 @@ These jobs should run in a particular order so that the event will cancel the th
 :::info
 
 For all events, you can use **System Properties** for fields like the **Schedule Date** and **Schedule Name**.
-* For example: To use a ```$JOB:CANCEL,<Schedule date>,<Schedule name>,<Job name>``` event, you can substatute the following for the appropriate fields:   
+* For example: To use a ```$JOB:CANCEL,<Schedule date>,<Schedule name>,<Job name>``` event, you can substitute the following for the appropriate fields:   
   * ```<Schedule date>``` can be replaced with either ```CURRENT```, ```[[$DATE]]```, or ```[[$SCHEDULE DATE]]```  
   * ```<Schedule name>``` needs to be replaced with either the **full name of the Schedule the Job is in** or ```[[$SCHEDULE NAME]]```  
   * ```<Job name>``` needs to be replaced with **the name of the Job this Event is going to cancel**
@@ -77,7 +77,7 @@ For all events, you can use **System Properties** for fields like the **Schedule
 28. In the **Job Dependency** pop-up, select **Test Event 2** in the **Job** drop down list.
 29. Verify that the **Dependency Type** is **Requires** and the **Condition** is **Finished OK**.
 30. Click the **Save** button.
-31. Repeat **Steps 26-30** to add a dependnecy between **Test Event 1** and **Test Event 2**.
+31. Repeat **Steps 26-30** to add a dependency between **Test Event 1** and **Test Event 2**.
 32. Close **Studio**.
 
 #### Rebuild the Schedule

@@ -19,19 +19,17 @@ Utilizing the **Frequency Practice Schedule**, you will create four new Null job
 
 In the **On Request Freq** job, create a new frequency that will be used to add jobs dynamically to a schedule.
 
-In the **Begining of Period Freq** job, create a new frequency that will run on the 1st Working Day (WD) of the month or the day after in case of a holiday.
+In the **Beginning of Period Freq** job, create a new frequency that will run on the 1st Working Day (WD) of the month or the day after in case of a holiday.
 
 In the **Middle of Period Freq** job, create a new frequency named that will run on the Wednesday closest to the middle of the month or the day after in case of a holiday.
 
 In the **End of Period Freq** job, create a new frequency named that will run on the last Working Day (WD) of the month or the day before in case of a holiday.
 
 ### Instructions
-
 1.	In **Studio**, select the **Frequency Practice** Schedule and click **View**.
 2.	In the side menu, select **Add Job**.
 
 #### Create the On Request Freq Job
-
 3. In the **Name** field, enter **On Request Freq**.
 4. Leave the **Job Type** as **Null Job**.
 5. Click the **Save** button.
@@ -40,17 +38,18 @@ In the **End of Period Freq** job, create a new frequency named that will run on
 8. Click the **Add** button.
 9. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```OnRequest```.
-  * In the **Requst Date** field, select a date on the calendar that is in the past.
+  * In the **When to Scheduled** dop-down menu, select **On Request**.
+  * In the **Request Date** field, select a date on the calendar that is in the past.
   * Click the **Save** button.
-10. In the **Active** column, select the frequency then select **Forcast**.
+10. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
 The **Forecast** screen should show only the date that you chose in green.
 :::
 
-#### Create the Beginning of Period Freq Job
-
 11. Click the **Back** button to navigate back to the **Studio** workspace.
+
+#### Create the Beginning of Period Freq Job
 12. In the side menu, select **Add Job**.
 13. In the **Name** field, enter **Beginning of Period Freq**.
 14. Leave the **Job Type** as **Null Job**.
@@ -65,15 +64,15 @@ The **Forecast** screen should show only the date that you chose in green.
   * In the **A/O/B/N** section, select **After Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
-20. In the **Active** column, select the frequency then select **Forcast**.
+20. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
 The **Forecast** screen should show the **first working day of every month** as green. Notice how holidays and weekends affect this Frequency.
 :::
 
-#### Create the Middle of Period Freq Job
-
 21. Click the **Back** button to navigate back to the **Studio** workspace.
+
+#### Create the Middle of Period Freq Job
 22. In the side menu, select **Add Job**.
 23. In the **Name** field, enter **Middle of Period Freq**.
 24. Leave the **Job Type** as **Null Job**.
@@ -89,15 +88,15 @@ The **Forecast** screen should show the **first working day of every month** as 
   * In the **A/O/B/N** section, select **After Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
-30. In the **Active** column, select the frequency then select **Forcast**.
+30. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
 The **Forecast** screen should show the **Wednesday closest to the middle of every month** as green. Notice how holidays and weekends affect this Frequency.
 :::
 
-#### Create the End of Period Freq Job
-
 31. Click the **Back** button to navigate back to the **Studio** workspace.
+
+#### Create the End of Period Freq Job
 32. In the side menu, select **Add Job**.
 33. In the **Name** field, enter **End of Period Freq**.
 34. Leave the **Job Type** as **Null Job**.
@@ -112,11 +111,10 @@ The **Forecast** screen should show the **Wednesday closest to the middle of eve
   * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
   * Click the **Save** button.
-40. In the **Active** column, select the frequency then select **Forcast**.
+40. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
 The **Forecast** screen should show the **last working day of every month** as green. Notice how holidays and weekends affect this Frequency.
-
 :::
 
 41. Close **Library**.

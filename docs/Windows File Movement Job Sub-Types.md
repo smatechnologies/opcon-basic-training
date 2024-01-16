@@ -13,7 +13,7 @@ sidebar_label: 'Windows File Movement Job Sub-Types'
 	* **File Rename** - Renames a file
 	* **File Delete** - Delete files
 	* **Corelation** - Special integration with Corelation
-  * **WSFTP Pro** - Special integration with WSFTP Pro
+  * **WS-FTP Pro** - Special integration with WS-FTP Pro
 
 ![](../static/imgbasic/Job_Subtypes_SM.png)
 

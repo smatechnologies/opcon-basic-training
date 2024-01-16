@@ -39,15 +39,20 @@ The job **Wrong Path** will have an **Return Code** of ```31001```. This **Retur
 
 #### Correct the Daily Job Definition
 10.	The **Daily Job Definition** screen will appear.
-11. Click the **Lock** icon in the upper right-hand corner.
+11. Click the **Lock (or CRTL + ALT + A)** icon in the upper right-hand corner.
 12. Expand the **Task Details** section.
 13.	In the **Run** section, modify the **Command Line** AND **Working Directory** paths from ```MSLSAM2``` to ```MSLSAM```.
-14.	Click the **Save** button. 
+
+:::info
+We can validate that this is the error by navigating to that location via a Windows Explorer Window on this server. You will notice that in the OpConxps directory there is no MSLSAM2 directory.
+:::
+
+14.	Click the **Save**. This should take you back to the Processes screen.
 
 #### On the Processes screen
-15.	In the **Job Selection** menu, click **Job Status Update** and select **Restart**.
+15.	The **Job Selection** menu should still be open, click **Job Status Update** and select **Restart**.
 16. Close the **Job Selection** menu.
-17.	The job should have a **Finished OK** status because you corrected the invalid command in the **Command Line**.
+17.	The job should have a **Finished OK** status because the invalid command in the **Command Line** has been corrected.
 18.	In the **Processes** screen, in the **Date** list, select tomorrow’s date. 
 19.	Select the **Murphy’s Law** shedule with tomorrow's date in the **Date** column in the **Schedule** section.
 20.	Right-click on the **Wrong Path** Job.
@@ -56,16 +61,17 @@ The job **Wrong Path** will have an **Return Code** of ```31001```. This **Retur
 #### On the Daily Job Definition screen
 22. Expand the **Task Details** section.
 23.	Notice that the paths still contains **MSLSAM2** instead of **MSLSAM**.
+
+:::info
+This is because only today's instance of the job has been corrected. All other versions in the Processes screen will have the error. In order to correct the other daily instances, the Master version will need to be corrected and the Schedule will need to be rebuilt.
+:::
+
 24. Don’t make any changes.
 25. Close **Operations**.
 
-:::info
-Remember that you need to rebuild all copies of the Daily Tables when the Master Record is changed. 
-:::
-
 #### Correcting the Master Job
 26. Navigate to **Library**, click the **Master Jobs** topic.
-27. Use the search field at the top of the **Master Job** list to locate the **Wrong Path** Job in the **Murphys Law** Schedule.
+27. Use the search field at the top of the **Master Job** list to locate the **Wrong Path** Job in the **Murphy's Law** Schedule.
 28. Select the job and click the **Edit** button.
 29. Click the **Lock** icon in the upper right-hand corner.
 30. Expand **Task Details** and locate the **Run** section.
@@ -73,7 +79,11 @@ Remember that you need to rebuild all copies of the Daily Tables when the Master
 32. Click **Save**.
 33. Close **Library**.
 
-#### Rebuild the Furture Dates
+:::info
+Remember that all future instances of the Schedule will need to be rebuild after the Master version has been changed. 
+:::
+
+#### Rebuild the Future Dates
 34.	Select the **Operations** tab, then click on **Schedule Build**. 
 35.	In the **From** field select tomorrow.
 36. In the **To** field select 7 days from today.
@@ -81,7 +91,7 @@ Remember that you need to rebuild all copies of the Daily Tables when the Master
 38. Click the **Overwrite Existing Schedules** toggle to turn on.
 39.	In the **Schedule Selection** section, select **Murphy's Law**.
 40.	Click the **Build** button.
-41. Click the link for the **Murphys Law** schedule for any date you just built out.
+41. Click the link for the **Murphy's Law** schedule for any date you just built out.
 
 #### Validate the Change
 42. Right-click on the **Wrong Path** job.

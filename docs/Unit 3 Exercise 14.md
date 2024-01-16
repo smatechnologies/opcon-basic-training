@@ -38,9 +38,9 @@ You will also add a new Event triggered on **Exit Description** of 100 and will 
   * In the **Send Event On** drop down, select **Exit Description**.
   * In the **Comparison Operator** dropdown, select **Equal To**.
   * In the **Value** field, enter ```100```.
-  * In the **Event Templete** drop down, select the **$JOB:SKIP** event.
-  * In the **Schedule date** field, use the **Magic Wand** or **CNTL+SPACE** to select **$SCHEDULE DATE** property.
-  * In the **Schedule name** field, use the **Magic Wand** or **CNTL+SPACE** to select **$SCHEDULE NAME** property.
+  * In the **Event Template** drop down, select the **$JOB:SKIP** event.
+  * In the **Schedule date** field, use the **Magic Wand** or **CTRL+SPACE** to select **$SCHEDULE DATE** property.
+  * In the **Schedule name** field, use the **Magic Wand** or **CTRL+SPACE** to select **$SCHEDULE NAME** property.
   * In the **Job name** field, enter ```Job 2```.
   * Click the **Save** button.
 13. Click the **Save** button in the **Master Job Definition**.

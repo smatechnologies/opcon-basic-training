@@ -54,11 +54,11 @@ sidebar_label: 'Schedule Builds'
 
 #### Autobuild
 
-##### Autobuild Example 1:
+##### Auto-build Example 1:
 
 ![Picture30](../static/imgbasic/Picture30.png)
 
-##### Autobuild Example 2:
+##### Auto-build Example 2:
 
 ![Picture31](../static/imgbasic/Picture31.png)
 

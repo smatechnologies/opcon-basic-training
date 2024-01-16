@@ -8,9 +8,9 @@ sidebar_label: 'Event Triggers'
 
 ### Event Definition Wizard
 
-![](../static/imgbasic/sm-event-triggers.png)
-
 * An Event will send once a Job has reached any of the 9 statuses listed below: 
+
+![](../static/imgbasic/sm-event-triggers.png)
 
 ### Event Trigger Details
 
@@ -19,6 +19,8 @@ sidebar_label: 'Event Triggers'
 ### Event Template and Parameters
 
 ![](../static/imgbasic/sm-event-template-parameters.png)
+
+
 
 ## Enterprise Manager
 
