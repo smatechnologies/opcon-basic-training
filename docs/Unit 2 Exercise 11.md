@@ -6,7 +6,7 @@ sidebar_label: 'Unit 2 Exercise 11'
 
 ### Objective 
 
-To become utilize the Restart setting to create a Looping Job.
+Utilize the Restart settings to create a Looping Job.
 
 ### Summary
 
