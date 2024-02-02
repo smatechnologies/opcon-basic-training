@@ -38,7 +38,7 @@ Utilizing the **My Threshold Schedule** created in the previous exercise, you wi
 #### Add the Job to Operations
 
 8.	Open **Processes** to verify that **My Threshold Schedule** is completed.
-9. Return to **My Threshold Schedule** and add the Job just created to the Daily Schedule list.
+9. Right-click to **My Threshold Schedule** and add the Job just created to the Daily Schedule list.
 * Select **My Threshold Schedule** and click the **(+)** button in the **Schedule Selection** side menu.
 * Select **Threshold External Event Job** and click the **Next** button.
 * Change the Build Status to **Released**.

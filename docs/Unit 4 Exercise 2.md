@@ -98,7 +98,7 @@ Utilizing a **Threshold** called **TrainingThreshold** to prevent a job from run
     * Click the **Save** button.
   * Click the **Save** button in **Master Job Definition**.
   * Click **Back**
-27. Select the **After Value Notification**, click the **Wrench** icon and enter **Admin Mode**. 
+27. Select the **After Update Job**, click the **Wrench** icon and enter **Admin Mode**. 
   * In the **Event** section, click **+**
   * In the **Event** pop-up window:
     * In the **Send Event On** dropdown, select **Job Status**.
@@ -110,7 +110,7 @@ Utilizing a **Threshold** called **TrainingThreshold** to prevent a job from run
     * Click the **Save** button.
   * Click the **Save** button in **Master Job Definition**.
   * Click **Back**
-28. Select the **Final Value Notification**, click the **Wrench** icon and enter **Admin Mode**. 
+28. Select the **Final Value Job**, click the **Wrench** icon and enter **Admin Mode**. 
   * In the **Event** section, click **+**
   * In the **Event** pop-up window:
     * In the **Send Event On** dropdown, select **Job Status**.

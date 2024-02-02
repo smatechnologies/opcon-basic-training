@@ -65,10 +65,10 @@ You are going to create a schedule with two jobs. One job will create the file w
 
 #### Build the Schedule
 11. Outside of OpCon verify that the folder: ```C:\Windows File Arrival``` **DOES** exist and is **Empty**.
-12. Build the **Windows File Arrival** Schedule Released for today.
+12. Build the **File Arrival - Single File** Schedule Released for today.
 13. In **Processes**, view the Schedule and Job runs.  
 14. Notice the **Windows File Arrival Job** is just running.
-15. Release the **Create File Job** in the **Windows File Arrival** Schedule.  
+15. Release the **Create File Job** in the **File Arrival - Single File** Schedule.  
 16. Once the Job runs, verify that the file was created, and both Jobs **Finished OK**.
 
 

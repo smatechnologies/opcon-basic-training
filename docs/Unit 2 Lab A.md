@@ -47,7 +47,7 @@ Use the **NULL JOB Job Type** for all jobs in this lab.
 * **Auto-delete** the Schedule for 7 days ago
 
 :::tip
-You can reference [**Unit 1 - Exercise 1**](/docs/Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
+You can reference [**Unit 1 - Exercise 1**](./Unit%201%20Exercise%201.md) for steps on how to create a Schedule.
 :::
 
 * Four **Null Jobs** will be created:
@@ -58,13 +58,13 @@ You can reference [**Unit 1 - Exercise 1**](/docs/Unit%201%20Exercise%201.md) fo
   * **Clothing** will need **one Job** with **two Frequencies**
 
 :::tip
-You can reference [**Unit 2 - Exercise 2**](/docs/Unit%202%20Exercise%202.md) for steps on how to create Null jobs.
+You can reference [**Unit 2 - Exercise 2**](./Unit%202%20Exercise%202.md) for steps on how to create Null jobs.
 :::
 
 * Tag all Jobs according to the product (**Toys**, **Electronics** and **Clothing**)
 
 :::tip
-You can reference [**Unit 1 - Exercise 5**](/docs/Unit%201%20Exercise%205.md) for steps on how to add Tags.
+You can reference [**Unit 1 - Exercise 5**](./Unit%201%20Exercise%205.md) for steps on how to add Tags.
 :::
 
 * Upon completion, the “**Forecast All**” results will look like the following:
@@ -72,16 +72,16 @@ You can reference [**Unit 1 - Exercise 5**](/docs/Unit%201%20Exercise%205.md) fo
 #### Forecasts of Frequencies
 
 #### Toys
-![](../static/imgbasic/SM_Forecast-Interval_Lab.png)
+![](../static/imgbasic/U2LA_Toys.png)
 
 #### Electronics - Monthly
-![](../static/imgbasic/SM_Frequency_NotEOY_LabA.png)
+![](../static/imgbasic/U2LA_ElectronicsA.png)
 
 #### Electronics - EOY
-![](../static/imgbasic/Electronics_EOY_Frequency_LabA.png)
+![](../static/imgbasic/U2LA_ElectronicsB.png)
 
 #### Clothing - All Weeks Friday
-![](../static/imgbasic/Clothing_Friday_Frequency_LabA.png)
+![](../static/imgbasic/U2LA_Clothing.png)
 
 ![](../static/imgbasic/Clothing_OnRequest_Frequency_LabA.png)
 
