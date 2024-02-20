@@ -178,7 +178,7 @@ module.exports = {
   collapsed: true,
   items: [
     'EM_Walkthroughs',
-    'EM_Walkthroughs_Alt',
+//    'EM_Walkthroughs_Alt',
   ],
 },
 //{  

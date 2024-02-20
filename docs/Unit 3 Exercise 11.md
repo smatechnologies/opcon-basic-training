@@ -54,7 +54,7 @@ Modify **Windows Job 4** to use **Schedule and Job Instance Properties** for the
   * In the **Search** field, enter ```Path```.
   * Select the Property named, **SI.Path**.
   * Click **OK**
-20. Repeat **Steps 21-25** to replace the ```10``` with the Job Instance Property called **JI.TIME**.
+20. Repeat **Steps 17-19** to replace the ```10``` with the Job Instance Property called **JI.TIME**.
 
 :::tip
 The new command line should look similar to the following: 
