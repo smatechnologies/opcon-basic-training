@@ -9,7 +9,7 @@ sidebar_label: 'OpCon User Help'
 
 ![Picture274](../static/imgbasic/274.png)
 
-### OpCon User Help - Agents
+### OpCon User Help - Integrations
 
 ![Picture275](../static/imgbasic/275.png)
 

@@ -85,16 +85,15 @@ You can reference [**Unit 1 - Exercise 5**](./Unit%201%20Exercise%205.md) for st
 
 ![](../static/imgbasic/Clothing_OnRequest_Frequency_LabA.png)
 
+<!--
 ## Enterprise Manager
 
 <details>
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2LabA.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
 
 :::tip [Walkthrough Video - Unit 2 Lab A](../static/videobasic/U2LabA.mp4)
 
@@ -146,3 +145,4 @@ Upon completion, the “**Forecast All**” results will look like the following
 ![Picture272](../static/imgbasic/272.png)
 
 </details>
+-->

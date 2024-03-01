@@ -9,12 +9,14 @@ sidebar_label: 'Job Dependency Types'
 * **Excludes** – The selected Job will be removed from the Schedule on days the dependent Job is scheduled
 * **Conflict** – Dependent Job will not start if the selected Job is currently running
 
-![Job Dependency Types](../static/imgbasic/sm-job-dependency-types.png)
+![Job Dependency Types](../static/imgbasic/Job_Dependency_Fields.png)
 
 #### Requires
 
 * Represented with a solid line
 * Accounts for Jobs which are always part of the Workflow
+
+![Reqires](../static/imgbasic/Required_Depen.png)
 
 #### After
 
@@ -26,37 +28,51 @@ sidebar_label: 'Job Dependency Types'
 * **Job 1** and **Job 3** have an everyday Frequency, **Job 2** is only built on Fridays
 * **Job 3** has an After Dependency on **Job 2** because it is only occasionally present
 * **Job 3** also needs a Dependency on **Job 1** to make sure **Job 1** runs before **Job 3** when **Job 2** does not exist
+
+![After](../static/imgbasic/Afrer_Depen.png)
 :::
 
 #### Excludes
 
+* Represented with a magenta solid line
 * Allows Monthly Jobs to automatically remove daily Jobs from a Schedule
 * Alternative to **Negative Frequencies** using **Do Not Schedule**
   * Excludes Dependencies are not represented in Forecast Screens
   * To test, build a Schedule for the proper date and include the correct Jobs
 
+![Excludes](../static/imgbasic/Exclude_Depen.png)
+
 #### Conflict
 
+* Represented with dashed pink line and should for a circular dependency
 * Allows Jobs to wait only if a dependent Job is running
   * Identified with Pink Lines in chart 
   * If neither Job should start when the other is running, a Dependency should be set from **Job 1** to **Job 4** as well as from **Job 4** to **Job 1**
+* Alternative to **Resource Dependencies**
+
+![Conflict](../static/imgbasic/Conflict_Depen.png)
 
 ### Job Dependency Conditions
 
 ![Job Dependency Conditions](../static/imgbasic/sm-job-dependency-conditions.png)
 
+![Job Dependency Conditions](../static/imgbasic/Conditions.png)
+
 #### Finished OK
 
+* When used with **Requires** or **After** the dependency line is in **Green**
 * **Finished OK** option is valid for either the **Requires** or **After** Dependency Type
 * If selected, the previous Job will need to have finished successfully before other Jobs can run.
 
 #### Failed
 
+* When used with **Requires** or **After** the dependency line is in **Red**
 * **Failed** option is valid for either the **Requires** or **After** Dependency Type
 * If selected, will allow the previous Job to fail then process other Jobs that are part of that path
 
 #### Ignore Exit Code
 
+* When used with **Requires** or **After** the dependency line is in **Black**
 * **Ignore Exit Code** option is valid for either a **Requires** or a **After** Dependency Type
 * If selected, the option will allow a selected Job to run once the Dependent Job is complete regardless of Exit Code status
 

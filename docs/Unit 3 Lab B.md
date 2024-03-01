@@ -119,7 +119,7 @@ You should receive 7 emails: 2 Late to Start, 4 Late to Finish, and 1 Exceeded M
 You can reference [**Unit 1 - Exercise 6**](./Unit%201%20Exercise%206.md) for steps on how to build a schedule.
 :::
 
-
+<!--
 ## Enterprise Manager
 
 <details>
@@ -192,3 +192,4 @@ You can reference [**Unit 1 - Exercise 6**](./Unit%201%20Exercise%206.md) for st
     * Open Thunderbird and check your inbox
 
 </details>
+-->

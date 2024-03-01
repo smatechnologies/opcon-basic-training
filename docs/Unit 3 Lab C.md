@@ -50,6 +50,7 @@ Best practice is to create a property for any value that will be typed more than
 * Use **Operations View** to check if the jobs Finish OK
 * After all Jobs are finished, verify that **ALL** folders were created.
 
+<!--
 ## Enterprise Manager
 
 <details>
@@ -92,3 +93,4 @@ Remember that each Job is assigned to a product and the folder name must match t
 *	After all Jobs are finished, check that **all** folders were created
 
 </details>
+-->

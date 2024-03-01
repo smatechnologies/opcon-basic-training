@@ -2,6 +2,33 @@
 sidebar_label: 'Privileges'
 ---
 
+## Solution Manager
+
+### Privileges
+
+* The Administrator can grant a variety of Privileges to Roles using the Role Definition sections on the Role page:
+  * General
+  * Activities
+  * Batch Users
+  * Departments
+  * Resources
+
+![](../static/imgbasic/Privileges.png)
+
+* Machines and Machine Groups are maintained using the **Agents** table.
+* Access Codes, Batch Users, and Departments are created on corresponding screens within **Security** section of the **Library**
+
+![](../static/imgbasic/SecuritySection.png)
+
+### Machine Privileges
+
+* Machine Privileges are used to control Machines for Users in a Role that have Privileges to create and edit Jobs
+* Within Master Job and Operations, Users will only see Machines based on their Role Privileges
+* In Schedule Operations, Machine Privileges are not applied
+
+![](../static/imgbasic/Machine_Privileges.png)
+
+
 ## Enterprise Manager
 
 <details>

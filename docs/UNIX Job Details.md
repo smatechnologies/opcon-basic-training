@@ -12,7 +12,7 @@ sidebar_label: 'UNIX Job Details'
 
 ### UNIX Job Details
 
-![](../static/imgbasic/sm-unix-daily-job-definition.png)
+![](../static/imgbasic/UNIX_Job_Details.png)
 
 ### UNIX Job Summary Bar
 

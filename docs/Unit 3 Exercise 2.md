@@ -14,8 +14,41 @@ Grant  **Machine Privileges** to the **Training Role** so that the **Student1** 
 
 ### Instructions
 
-:::info
-This exercise will be worked in **Enterprise Manager**. Expand the section below to walk through the exercise.
+#### Granting Machine Privileges
+
+1.  In **Library** > **Security** > **Access Management**, select the **Training** Role
+2.  Click **Resources**, in the Role Definition section.
+3.  Expand **Machine**
+  * Select the **SMATraining** machine
+  * Select **Allow Job Updates**
+  * Click **Save**
+
+#### Validate Privileges
+
+4.  Click the **Logout** icon.
+5.  In the **Logout** pop-up, click **Yes**.
+6.  On the Login screen:
+  * In the **Username** field, enter ```Student1```.
+  * In the **Password** field, enter ```password1```.
+  * Click **Login**.
+7.  Click the **Heart Icon** in the bottom right corner of Solution Manager.
+
+:::note
+You should see the machine(s) that you granted the Role access too.
+:::
+
+8. Right click on the **SMATraining** machine
+9. In the **Agent Selection** panel:
+  * Click the **Wrench** icon to edit the machine. 
+  * You should receive an error message.
+    * Error: _Function Privileges [Maintain Machines] are required to access this page._
+10. Close the **Error Message**
+11. **Logout** of Solution Manager. 
+12. Click **Yes** to confirm you are logging out.
+13. Click **Log In With Windows**.
+
+:::caution Warning
+The User **Student1** cannot update any information for any machine in the configuration, but will be able to select this machine when setting up jobs **IF** the privileges for that machine are configured.
 :::
 
 ## Enterprise Manager

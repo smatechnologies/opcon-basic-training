@@ -18,9 +18,83 @@ Then attempt to to add a UNIX job to the schedule in Job Master. Finally, attemp
 
 ### Instructions
 
-:::info
-This exercise will be worked in **Enterprise Manager**. Expand the section below to walk through the exercise.
+#### Granting the Function Privilege
+
+1. In **Library** > **Security** > **Access Management**
+2. In the **Role** list, select **Training**.
+3. In the **Role Definition** section, select **Activities**
+4. Expand **Schedule**.
+5. Select the checkbox for **Build Daily Schedules**
+6. Click **Save**
+
+#### Validate Privileges
+
+7. Click **Logout**
+8. In the **Logout** pop-up, click **yes**.
+9. From the **Login** screen:
+  * In the **Username** field, enter ```Student1```.
+  * In the **Password** field, enter ```password1```.
+  * Click **Login**.
+10. In **Library** > **Administration**, select **Master Job**.
+11. In the **Job** list, what do you see?
+
+:::note
+You should only see 3 Windows Jobs. Why? 
+
+Because the **Training** role associated with the **Student1** user has access only to the jobs assigned to the **TrainingDept**.
 :::
+
+12. Select **Windows Job 1**, what is the User ID associated with this Job?
+
+:::caution Warning
+The field should be empty. This is because in Exercise 3, we granted the **Training** role access to **SMATRAINING\BATCHUSER** and **NOT** to **SMATRAINING\SMAUSER**. 
+
+**DO NOT Change the User ID.**
+:::
+
+#### Attempt to Add a UNIX Job
+13. Click **Back** in the upper right corner.
+14. Click **Add**.
+15. In **Job Type** field, try to select UNIX.
+
+:::note
+* What happens?
+* Can you select a UNIX machine?
+You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
+:::
+
+16. Close **Library**
+
+#### Change Job Statuses in Matrix
+
+17. In the **Operation** section, click **Processes** in the top right corner.
+18. In the **Schedule Build** screen:
+  * In the **Scheduling Dates** section, validate that today is selected for both **From** and **To**.
+  * In the **Schedule Build** section, select **Released**
+  * Toggle **Overwrite Existing Schedules** on
+  * In the **Schedule List** section, select **My First Schedule**.
+  * Click **Build**.
+19. On the **Build*** screen, expand out the date until you can click on the **Schedule Name**.
+20. Once in the **Processes** screen, make sure that **My First Schedule** is in the **Schedule** section.
+21. In the **Job** section, right click **Windows Job 2** and select **Release**. The job should move to a **Waiting on Dependency** status.
+22. Right-Click **Windows Job 2** again and click **Force Start**.
+
+:::note
+* Notice that **Force Start** is not enabled. 
+* Why?
+* Because the **Force-Start Job Departmental Function Privilege** is not granted to this user’s role.
+:::
+
+23. Right-click **Windows Job 3** and notice that the **Cancel** option is not enabled. 
+
+:::note
+* Why?
+* Because the **Cancel Jobs Departmental Function Privilege** is not granted to this user’s role.
+:::
+
+24. Right-click **Windows Job 1** and select **Release** to allow the jobs in **My First Schedule** to complete.
+25. **Logout** of Solution Manager once **My First Schedule** is complete 
+26. Log back in by clicking the **Login with Windows** button.
 
 ## Enterprise Manager
 

@@ -85,6 +85,7 @@ There is a point in the ```"UpdInvNike.CMD"``` script to execute ```“$THRESHOL
 
 ![Lab4A](../static/imgbasic/lab4aSM.png)
 
+<!-->
 ## Enterprise Manager
 
 <details>
@@ -155,3 +156,4 @@ Upon completion, view the results in **Workflow designer**
 ![](../static/imgbasic/423.png)
 
 </details>
+-->

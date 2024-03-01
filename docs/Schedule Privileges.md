@@ -7,6 +7,8 @@ sidebar_label: 'Schedule Privileges'
     * If a User does not have access to see a Schedule, that User would never know it exists
 * If a User creates a Schedule, that User is automatically granted access
 
+![SchedulePrivileges](../static/imgbasic/Schedule_Privilges.png)
+
 ## Enterprise Manager
 
 <details>
