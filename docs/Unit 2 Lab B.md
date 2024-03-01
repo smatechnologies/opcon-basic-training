@@ -89,16 +89,15 @@ The jobs will complete and return to a waiting status until the repeating offset
 
 ![](../static/imgbasic/dependency_LabB.png)
 
+<!--
 ## Enterprise Manager
 
 <details>
 
-<!--
 <video width="320" height="240" controls>
   <source src="videobasic/U2LabB.mp4" type="video/mp4"></source>
 Your browser does not support the video tag.
 </video>
--->
 
 :::tip [Walkthrough Video - Unit 2 Lab B](../static/videobasic/U2LabB.mp4)
 
@@ -146,3 +145,4 @@ Upon completion, view the results in the **Workflow designer**. Then build the S
 ![Picture306](../static/imgbasic/306.png)
 
 </details>
+-->

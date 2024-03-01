@@ -14,9 +14,14 @@ In **Enterprise Manager**, grant **Schedule Privileges** to the **Training Role*
 
 ### Instructions
 
-:::info
-This exercise will be worked in **Enterprise Manager**. Expand the section below to walk through the exercise.
-:::
+#### Granting Schedule Privileges
+
+1.  In **Library** > **Security** > **Access Management**, select the **Training** Role
+2.  Click **Resources**, in the Role Definition section.
+3.  Expand **Schedule**
+  * Select the **My First Schedule** schedule
+  * Click **Save**
+
 
 ## Enterprise Manager
 

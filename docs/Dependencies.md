@@ -2,22 +2,22 @@
 sidebar_label: 'Dependencies'
 ---
 
-![](../static/imgbasic/Picture21.png)
+![When_Where_What](../static/imgbasic/Picture21.png)
 
 ### Job Dependencies in Job Definition
 
 * OpCon utilizes Dependencies to define the run sequence of a process.
 * Dependencies are defined on the **Job Master** under the **Job Dependency** section.
 
-![](../static/imgbasic/sm-daily-job-dependency.png)
+![Job_Master_Screen](../static/imgbasic/Job_Dependency_Screen_1.png)
 
 ### Set Job Dependency Details
 
-![](../static/imgbasic/sm-job-dependency-details-set.png)
+![Job_Dependency_Popup](../static/imgbasic/Job_Dependency_Fields.png)
 
 ### Job Dependency Status
 
-![](../static/imgbasic/sm-job-dependency-status.png)
+![Job_Master_Screen](../static/imgbasic/Job_Dependency_Screen_2.png)
 
 
 ## Enterprise Manager

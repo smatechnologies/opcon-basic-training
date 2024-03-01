@@ -4,25 +4,76 @@ sidebar_label: 'Server Options'
 
 ## Solution Manager
 
-### User Account Settings
+### Server Options
 
-![](../static/imgbasic/sm-account-settings.png)
+* Found under **Library** > **Administration** > **Server Options**.
+* Only available to those in the Role, **Role_ocadm**, or those with **View Server Options** or **Maintain Server Options**
+* Here admins can manage the settings for:
+  * SAM (General)
+  * Logging
+  * Security
+  * Notification
+  * SMTP
+  * Vision
+  * Time
 
-### Profile Application Settings
+#### SAM or General Settings
 
-![](../static/imgbasic/sm-application-settings.png)
+* Here you can configure the settings for things like:
+  * Job Dependency Offset Type
+  * Allowing wildcards in Events
+  * TLS Certificate Number
 
-### Profile General Settings
+![GeneralSettings](../static/imgbasic/General.png)
 
-![](../static/imgbasic/sm-settings.png)
+#### Logging
 
-### Agent Details Settings Options
+* Here you can configure the settings for things like:
+  * Log job dependency errors to Critical.log
+  * Maximum number of days logs should be kept
 
-![](../static/imgbasic/sm-agent-details-settings.png)
+![LoggingSettings](../static/imgbasic/Logging.png)
 
-### Agent Details Time Settings
+#### Security
 
-![](../static/imgbasic/sm-time-settings.png)
+* Here you can configure the settings for things like:
+  * Password Experation Rules
+  * Password Strength Requirements
+  * Number of failed log in attempts
+
+![SecuritySettings](../static/imgbasic/Security.png)
+
+#### Notifications
+
+* Here you can configure the settings for things like:
+  * Number of days to keep notification history
+  * SPO & SNMP settings
+  * License Notificaitons
+
+![NotificationsSettings](../static/imgbasic/Notifications.png)
+
+#### SMTP
+
+* Here you can configure the settings for things like:
+  * UNC Access
+  * SMTP Settings
+  * SMS Settings
+
+![SMTPSettings](../static/imgbasic/SMTP.png)
+
+#### Vision
+
+* Here you can configure the settings for things like:
+  * Vision card history
+
+![VisionSettings](../static/imgbasic/Vision.png)
+
+#### Time
+
+* Here you can configure the settings for things like:
+  * Build Time
+
+![TimeSettings](../static/imgbasic/Time.png)
 
 ## Enterprise Manager
 

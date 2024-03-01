@@ -12,16 +12,11 @@ OpCon Log files can help with troubleshooting
   * **SAM log**
   * **Critical log**
 
-##### Log location  
+#### Log Location
 
-* If OpCon was installed on a **system drive**, Logs will be stored in **ProgramData**  
-```
-C:\ProgramData\OpConxps\SAM\Log
-```
-* If OpCon was installed on a **non-system drive**, Logs will be stored in **Program Files**  
-```
-[[Drive]]\[[Location selected for Output Files]]
-```
+* Application Logs as well as Schedule Build and Archived Logs are accessible under **Library** > **Administration** > **Logs**.
+
+![OpCOn Application Logs](../static/imgbasic/Logs.png)
 
 ### OpCon Logs - Support
 
@@ -34,6 +29,16 @@ Log Collectors
 ![Picture54](../static/imgbasic/Picture54.png)  
 
 #### Log Location in Windows
+
+* If OpCon was installed on a **system drive**, Logs will be stored in **ProgramData**  
+```
+C:\ProgramData\OpConxps\SAM\Log
+```
+
+* If OpCon was installed on a **non-system drive**, Logs will be stored in **Program Files**  
+```
+[[Drive]]\[[Location selected for Output Files]]
+```
 
 ![](../static/imgbasic/sm-log-folder-window-file.png)
 
@@ -50,6 +55,8 @@ Running list of all transactions
 * Failures
 * License Information 
 
+![](../static/imgbasic/SAM_Log.png)
+
 ### Critical Log
 
 * Reports SAM errors
@@ -59,13 +66,8 @@ Running list of all transactions
 * Machine communication issues
 * Database connection problems
 
-#### Sam Log Windows File
+![](../static/imgbasic/Critical_Log.png)
 
-![](../static/imgbasic/sm-sam-log-windows-file.png)
-
-#### Critical Log Windows File
-
-![](../static/imgbasic/sm-critical-log-windows-file.png)
 
 ### Job Output Menu in Job Processes
 

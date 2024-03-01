@@ -6,24 +6,19 @@ sidebar_label: 'Unit 3 Exercise 4'
 
 ### Objective
 
-To create a **Department** and assign it 3 jobs. Then assign **Departmental Function Privilges** to the **Training** role for the **Department**.
+To create a **Department** and assign it 3 jobs. Then assign **Departmental Function Privileges** to the **Training** role for the **Department**.
 
 ### Summary
 
 Create a **Department** called **TrainingDept** and assign to **WINDOWS JOB 1**, **WINDOWS JOB 2**, and **WINDOWS JOB 3** in **MY FIRST SCHEDULE**.
 
-Then assign assign eight **Departmental Function Priviliges** to the **Training** role.
+Then assign assign eight **Departmental Function Privileges** to the **Training** role.
 
 Finally, log in as **Student1** to validate that the user can access the Master Jobs topic but 
 
 still be limited in what can be viewed or maintained because it lacks Schedule and Function Privileges.
 
-
 ### Instructions
-
-:::info Note
-This exercise will be worked in both **Solution Manager** and **Enterprise Manager**.
-:::
 
 #### Create a Department
 
@@ -55,10 +50,10 @@ This exercise will be worked in both **Solution Manager** and **Enterprise Manag
 
 #### Assign the Departmental Function Privileges
 
-16. In **Enterprise Manager**, under **Security**, expand **Privileges**, double click on **Departmental Function Privileges**.
-17. In the **Select Role** drop-down, select **Training** role.
-18. In the **Departments** drop-down, select **TrainingDept**.
-19. Grant the Role the following Departmental Function Privileges
+16. In **Library** > **Security** > **Access Management**, select the **Training** Role.
+17. In the **Role Definition** section, select **Departments**
+18. In the **Departments** section, select **TrainingDept**.
+19. Using the pick list, grant the Role the following Department Privileges:
   * Add Jobs to Master Schedules
   * Delete Jobs from Master Schedules
   * Hold Jobs
@@ -67,35 +62,31 @@ This exercise will be worked in both **Solution Manager** and **Enterprise Manag
   * View Jobs in Daily Schedules
   * View Jobs in Master Schedules
   * View Jobs in Schedules Operations
-20. Close **Departamental Privileges** tab.
-21. Minimize **Enterprise Manager**.
+20. Click **Save**
 
 :::note
 The User Student1 (which is under the Training Role) now can add/modify/delete jobs to schedules and see schedules and jobs in the Operations Views screen. The user can also Hold and Release Jobs.
 :::
 
-#### Valdate Privileges
+#### Validate Privileges
 
-22. Navigate back to **Solution Mangaer**
-23. In the blue column on the left, click **Logout**.
-24. Click **Yes** to confirm you are logging out.
-25. From the **Login Screen**
+21. **Logout** of **Solution Manager**.
+22. Click **Yes** to confirm you are logging out.
+23. From the **Login Screen**
   * In the **Username** field, enter ``` Student1```
   * In the **Password** field, enter ```password1```
   * Click **Login**.
-26. Click on **Library**.
-27. Notice that the user still does not have privilege to see **Machines** under the **Administration** topic.
-28. Notice that now this user is able to access the **Master Jobs** topic.
-29. Click the **Master Jobs** topic.
-30. What happened?
-31. In the blue column on the left, click **Logout**.
-32. Click **Yes** to confirm you are logging out.
-33. From the **Login Screen**, click the **Log in with Windows**
+24. Click on **Library**.
+25. Notice that the user still does not have privilege to see **Agents** under the **Administration** topic but now has access to **Master Jobs** and ** Master Schedule**.
+26. Click the **Master Jobs** topic.
+27. What happened?
+28. **Logout** of **Solution Manager**.
+29. Click **Yes** to confirm you are logging out.
+30. From the **Login Screen**, click the **Log in with Windows**
 
 :::caution Warning
 Note: The user **Student1** cannot view or maintain Jobs in a Schedule because we did not setup Schedule and Functional Privileges yet.
 :::
-
 
 ## Enterprise Manager
 

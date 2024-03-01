@@ -4,13 +4,15 @@ sidebar_label: 'Frequency Definiton'
 
 ![Picture17](../static/imgbasic/Picture17.png)
 
-* In Solution Manager, a **Frequencies List** is found in **Library > Management > Frequencies**
+![](../static/imgbasic/Frequency.png)
 
-![](../static/imgbasic/sm-frequencies-list.png)
-
-* Frequencies can be edited by selecting a Frequency from the **Frequencies List** and clicking the **Edit** button
+* Frequencies can be edited using the **Frequency Manager Wizard**.
 
 ![](../static/imgbasic/sm-frequency-manager-wizard-edit.png)
+
+* In Solution Manager, a list of existing frequencies can be found in **Library > Management > Frequencies**.
+
+![](../static/imgbasic/sm-frequencies-list.png)
 
 * Frequency details for a Job can be viewed in the Daily Job Definition
 
