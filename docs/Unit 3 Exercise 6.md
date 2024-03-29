@@ -2,188 +2,90 @@
 sidebar_label: 'Unit 3 Exercise 6'
 ---
 
-## Exercise 6: Function Privileges
+## Exercise 6: Access Codes
 
 ### Objective
 
-To grant the Training Role some Function Privileges.
+To create an Access Code and assign it to a job.
 
 ### Summary
 
-Grant the **Training** role the **Function Privilege** of **Build Daily Schedules**.
+Create an **Access Code** called **TrainingAC** and assign the **Access Code** to **WINDOWS JOB 1** in **MY FIRST SCHEDULE**. Log out of Enterprise Manager and log back in as **Student1** and note that the user cannot view **WINDOWS JOB 1** because the **TrainingAC Access Code** has not been assigned to the **Training** role.
 
-Validate that **Student1** should be able to see the jobs in **MY FIRST SCHEDULE** but not all of them. **Student1** should only see the first three Windows jobs in the schedule. This is because the **Training** role only has access to the jobs that the ** TrainingDept** department was assigned to.
-
-Then attempt to to add a UNIX job to the schedule in Job Master. Finally, attempt to change the job status of existing jobs in the daily schedule.
 
 ### Instructions
 
-#### Granting the Function Privilege
+#### Create the Access Code
 
-1. In **Library** > **Security** > **Access Management**
-2. In the **Role** list, select **Training**.
-3. In the **Role Definition** section, select **Activities**
-4. Expand **Schedule**.
-5. Select the checkbox for **Build Daily Schedules**
-6. Click **Save**
+1.	In **Library** under **Security**, select **Access Codes**. 
+2.	Click **Add**.
+3.	In the **Access Code** pop-up window:
+  * In the **Name** field, enter ```TrainingAC```.
+  * In the **Description** field, enter in some **documentation**.
+    * Example: This is an Access Code for the Training.
+  * Click **Save**.
+4.  Click **Back** in the top right corner.
 
-#### Validate Privileges
+#### Assign the Access Code to the Job
+5.	In **Library** > **Administration**, select **Master Jobs**.
+6.	Using the filers at the top of the job table, search for and select **Windows Job 1**.
+7.  Click **Edit**.
+8.  Click the **Lock** button in the upper right-hand corner.
+9.	In the **Access Code** drop-down list, select **TrainingAC**.
+10.	Click the **Save**.
+11. Close **Library**.
 
-7. Click **Logout**
-8. In the **Logout** pop-up, click **yes**.
-9. From the **Login** screen:
+#### Validate the Privileges
+12.	Logout of **Solution Manager**. 
+13. On the **Login** screen:
   * In the **Username** field, enter ```Student1```.
-  * In the **Password** field, enter ```password1```.
-  * Click **Login**.
-10. In **Library** > **Administration**, select **Master Job**.
-11. In the **Job** list, what do you see?
+  * In the **Password** field, enter ```password1```. 
+14.	Under the **Library** > **Administration** topic, click **Master Jobs**.
 
 :::note
-You should only see 3 Windows Jobs. Why? 
-
-Because the **Training** role associated with the **Student1** user has access only to the jobs assigned to the **TrainingDept**.
-:::
-
-12. Select **Windows Job 1**, what is the User ID associated with this Job?
-
-:::caution Warning
-The field should be empty. This is because in Exercise 3, we granted the **Training** role access to **SMATRAINING\BATCHUSER** and **NOT** to **SMATRAINING\SMAUSER**. 
-
-**DO NOT Change the User ID.**
-:::
-
-#### Attempt to Add a UNIX Job
-13. Click **Back** in the upper right corner.
-14. Click **Add**.
-15. In **Job Type** field, try to select UNIX.
-
-:::note
-* What happens?
-* Can you select a UNIX machine?
-You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
-:::
-
-16. Close **Library**
-
-#### Change Job Statuses in Matrix
-
-17. In the **Operation** section, click **Processes** in the top right corner.
-18. In the **Schedule Build** screen:
-  * In the **Scheduling Dates** section, validate that today is selected for both **From** and **To**.
-  * In the **Schedule Build** section, select **Released**
-  * Toggle **Overwrite Existing Schedules** on
-  * In the **Schedule List** section, select **My First Schedule**.
-  * Click **Build**.
-19. On the **Build*** screen, expand out the date until you can click on the **Schedule Name**.
-20. Once in the **Processes** screen, make sure that **My First Schedule** is in the **Schedule** section.
-21. In the **Job** section, right click **Windows Job 2** and select **Release**. The job should move to a **Waiting on Dependency** status.
-22. Right-Click **Windows Job 2** again and click **Force Start**.
-
-:::note
-* Notice that **Force Start** is not enabled. 
+* What do you see?
 * Why?
-* Because the **Force-Start Job Departmental Function Privilege** is not granted to this user’s role.
+* You should not see **Windows Job 1** because the **Training** role, isn't granted access to the **TrainingAC Access Code**.
 :::
 
-23. Right-click **Windows Job 3** and notice that the **Cancel** option is not enabled. 
-
-:::note
-* Why?
-* Because the **Cancel Jobs Departmental Function Privilege** is not granted to this user’s role.
-:::
-
-24. Right-click **Windows Job 1** and select **Release** to allow the jobs in **My First Schedule** to complete.
-25. **Logout** of Solution Manager once **My First Schedule** is complete 
-26. Log back in by clicking the **Login with Windows** button.
+15. Be sure to logout of the **Student1** profile and log back in as **smauser**.
 
 ## Enterprise Manager
 
 <details>
 
-:::tip [Walkthrough Video - Unit 3 Exercise 6](../static/videobasic/U3E6.mp4)
+<!--
+<div>
+<video width="320" height="240" controls>
+  <source src="videobasic/U3E7.mp4" type="video/mp4"></source>
+Your browser does not support the video tag.
+</video>
+</div>
+-->
+
+:::tip [Walkthrough Video - Unit 3 Exercise 7](../static/videobasic/U3E7.mp4)
+
 :::
 
-#### Granting the Function Privilege
-
-1. In **Security**, expand **Privileges**, double click on **Function Privileges**. 
-2. In the **Select Role** drop-down, select **Training**.
-3. In the **Revoked** column, select **Build Daily Schedules** and using the green arrow move the privilege to the **Granted** column.
-4. Close the **Function Privileges** tab.
-5. Open the **Matrix** view and check if **My First Schedule** is completed. If not, cancel any Job that is keeping the Schedule open.
-6. Close the **Matrix** view.
-
-#### Validate Privileges
-
-7. Click the **Lock** icon in the top left corner to log out of Enterprise Manager.
-8. In the **Confirm Logout** window, click **OK**.
-9. From the OpCon/xps Login screen:
-  * In the **Username** field, enter ```Student1```.
-  * In the **Password** field, enter ```password1```.
-  * Click **Login**.
-10. In **Administration** section, double click **Job Master**.
-11. In the **Schedule** drop-down, select **My First Schedule**.
-12. In the **Job** Drop-down, what do you see?
-
-:::note
-You should only see 3 Windows Jobs. Why? 
-
-Because the **Training** role associated with the **Student1** user has access only to the jobs assigned to the **TrainingDept**.
-:::
-
-13. Select **Windows Job 1**, what is the User ID associated with this Job?
-
-:::caution Warning
-The field should be empty. This is becuase in Exercise 3, we granted the **Training** role access to **SMATRAINING\BATCHUSER** and **NOT** to **SMATRAINING\SMAUSER**. 
-
-**DO NOT Change the User ID.**
-:::
-
-#### Attempt to Add a UNIX Job
-14. Click **Add** in the upper right corner.
-15. In **Job Type** field, try to select UNIX.
-
-:::note
-* What happens?
-* Can you select a UNIX machine?
-You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
-:::
-
-16. Click **Cancel** in the top right corner.
-17. Close the **Job Master** tab.
-
-#### Change Job Statuses in Matrix
-**
-18. In the **Operation** section, double click **Schedule Build**.
-19. In the **Schedule Build** pop-up window:
-  * In the **Scheudle Selection** section, select **My First Schedule**.
-  * In the **Scheduling Dates** section, validate that today is selected for both **Start** and **Stop**.
-  * Check the box for **Overwrite existing schedules**.
-  * Click **Build**.
-  * In the **Build Properties** window, select **Released** and ** OK**.
-  * Close the **Schedule Build** pop-up window
-20. In the **Operation** section, double click **Matrix**.
-21. In the **Calendar** on the **Matrix** screen, make sure today’s date is selected.
-22. In the **Schedule** section, select **My First Schedule**.
-23. In the **Job** section, right click **Windows Job 2** and select **Release**. The job should move to a **Waiting on Dependency** status.
-24. Right-Click **Windows Job 2** again and click **Force Start**.
-
-:::note
-* Notice that **Force Start** is not enabled. 
-* Why?
-* Because the **Force-Start Job Departmental Function Privilege** is not granted to this user’s role.
-:::
-
-25. Right-click **Windows Job 3** and notice that the **Cancel** option is not enabled. 
-
-:::note
-* Why?
-* Because the **Cancel Jobs Departmental Function Privilege** is not granted to this user’s role.
-:::
-
-26. Right-click **Windows Job 1** and select **Release** to allow the jobs in **My First Schedule** to complete.
-28. Click the **Lock** icon to logout of Enterprise Manager. 
-29. Click **OK** to confirm you are logging out.
-30. Leave both the **Username** and the **Password** fields blank.
-31. Click **Login**.
+1.	Under the **Security** topic, Double-Click on **Access Codes**. 
+2.	Click the Add button on the Access Codes toolbar.
+3.	Type **Training** in the **Name** field.
+4.	Type **This is an Access code for the Training**. in the Documentation field.
+5.	Click the Save button on the Access Codes toolbar.
+6.	Close the Access Codes tab.
+7.	Be sure you are logged on with your ```SMATRAINING\SMAUSER``` login.
+8.	Under the **Administration** topic, Double-Click **Job Master**.
+9.	Select My **First Schedule** from the **Schedule** drop-down list.
+10.	Select **Windows Job 1** from the **Job** drop-down list.
+11.	On the **Access Code** drop-down list, select **Training**.
+12.	**Save** your Job and close the Job Master tab..
+13.	Logout from Enterprise Manager. Click the Logout button or select Logout from the Enterprise Manager Menu bar.
+14.	Click **OK** to confirm you are logging out.
+15.	From the OpCon/xps Login screen type ```Student1``` in the **Username** field and ```password1``` in the **Password** Field. Click Login.
+16.	Under the **Administration** topic, Double-Click **Job Master**.
+17.	Select **My First Schedule** from the **Schedule** drop-down list.
+18.	Click the Job drop-down list. What do you see? Why?
+19.	Close the Job Master tab and then logout from Enterprise Manager. Click **OK** to confirm you are logging out.
+20.	From the OpCon/xps Login screen leave both the **Username** and the **Password** fields blank and click **Login**.
 
 </details>

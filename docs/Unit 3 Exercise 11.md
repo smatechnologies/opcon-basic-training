@@ -76,9 +76,10 @@ Validate that all the jobs in **My First Schedule** are in a completed state and
 24. In the **From** field, select today's date.
 25. In the **To** field, select today's date.
 26. Select the **Released** radio button.
-27. In the **Schedule List**, select **My First Schedule**.
-28. Click the **Build** button.
-29. Expand and click on the schedule link for **My First Schedule** to return to the **Processes** screen.
+27. Toggle on the **Overwrite Exsisting** switch
+28. In the **Schedule List**, select **My First Schedule**.
+29. Click the **Build** button.
+30. Expand and click on the schedule link for **My First Schedule** to return to the **Processes** screen.
 
 ## Enterprise Manager
 

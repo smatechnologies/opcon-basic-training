@@ -46,7 +46,7 @@ Right-Click Jobs and available actions appear
 
 ![Picture78](../static/imgbasic/Picture78.png)
 
-### Bulk Job Status Update
+### Bulk Status Update
 
 ![Picture79](../static/imgbasic/Picture79.png)
 

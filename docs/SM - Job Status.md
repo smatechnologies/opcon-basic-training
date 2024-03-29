@@ -23,7 +23,7 @@ When a Job is selected with a right-click several options are made available in 
 * Job Configuration Tool
 * Job Executions History
 * Job Summary
-* Job Status Update
+* Status Update
 * Job Output
 * Diagram
 

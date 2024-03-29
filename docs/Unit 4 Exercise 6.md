@@ -28,7 +28,7 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
   * _Example: This is the Daily Sub-Schedule._
 * In the **Schedule Settings** frame, mark the **SubSchedule** checkbox.
 * Saturday and Sunday are **working days**.
-* This sub-schedule doesn't use the **Master Calendar**
+* This sub-schedule doesn't use the **Master Holiday Calendar**
 * Click the **Save** button.
 4. Click **Back**
 
@@ -61,7 +61,7 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
 * In the **Documentation** field, enter some documentation
   * _Example: This is the Primary Schedule for the Repeating SubSchedule example._
 * Saturday and Sunday are **NOT working days**.
-* This sub-schedule does use the **Master Calendar**
+* This sub-schedule does use the **Master Holiday Calendar**
 * Click the **Save** button.
 14. Click **Back**.
 

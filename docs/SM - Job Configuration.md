@@ -48,6 +48,6 @@ Right-Click Jobs and available actions appear
 
 ![](../static/imgbasic/Picture78.png)
 
-### Bulk Job Status Update
+### Bulk Status Update
 
 ![](../static/imgbasic/Picture79.png)
