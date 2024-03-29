@@ -67,6 +67,7 @@ Utilizing a **Threshold** called **TrainingThreshold** to prevent a job from run
   * In the **Job Status** drop down, select **Finish OK**.
   * In the **Value** field, enter ```0```.
   * Click **Save**.
+  * Click **Back**.
 19. In **Studio**, select the **Threshold Update Job**.
 20. In the side menu, select **Add Threshold Update**.
 21. In the **Threshold** pop-up window:

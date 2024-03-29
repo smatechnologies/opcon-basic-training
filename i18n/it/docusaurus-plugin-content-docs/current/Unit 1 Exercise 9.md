@@ -59,11 +59,11 @@ https://SMATraining
     * Dovresti essere in grado di vedere tutti e 4 i Job costruiti per oggi nella lista dei Jobs.
 9. Dalla lista dei Job selezionare **Windows Job 1** e **Windows Job 2**.
 10. Fare clic con il tasto destro del mouse su uno dei Jobs.
-    * Comparirà sulla destra il riquadro **Job Status Update**.
+    * Comparirà sulla destra il riquadro **Status Update**.
     * Notate che non tutte le azioni sono disponibili. Solo le azioni che possono essere eseguite per entrambi i Jobs.
 11. Seleziona ```Restart on Hold```.
     * Solution Manager mostrerà un messaggio nella parte superiore dello schermo che conferma che l'azione è stata elaborata.
-12. Chiudere la schermata **Job Status Update** minimizzare Google Chrome e tornare a **Enterprise Manager**.
+12. Chiudere la schermata **Status Update** minimizzare Google Chrome e tornare a **Enterprise Manager**.
 13. Apreire la vista **List** o **Matrix**, andare alla data di oggi e controllare i Job sotto **My First Schedule**.
     * Lo stato dei Job **Windows Job 1** and **Windows Job 2** dovrebbero essere ```On Hold```.
 14. Sempre dall' **Enterprise Manager**, Fare clic con il tasto destro del mouse sui Job e selezionare ```Release```. È necessario eseguire questa azione per ogni Job.

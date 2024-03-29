@@ -36,7 +36,7 @@ You will create a new **Role** and **User Account**, then assign this new user t
   * In the **Description** field, enter some documentation.
     * Example: Role to be used during the security exercises.
   * Click **Save**
-8.  Click on the **User** section within the **Role Definition** section
+8.  Click on the **Users** section within the **Role Definition** section
 9.  Select the check-box for **Student Number1**
 10. Click **Save**.
 11. Close **Library**
@@ -58,7 +58,7 @@ You will create a new **Role** and **User Account**, then assign this new user t
 
 :::note
 * License & Support should show you the version information and links for various SMA and OpCon websites.
-* Tags is accessible but if you try to create a new tag you won't be able to do to a lack pf permissions.
+* Tags is accessible but if you try to create a new tag you won't be able to do to a lack of permissions.
 :::
 
 16. **Logout** of **Student1** and back in as the **SMAUSER**

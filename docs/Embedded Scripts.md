@@ -18,12 +18,13 @@ sidebar_label: 'Embedded Scripts'
 ### Script Types
 
 * Configure type of Scripts which can be stored by OpCon
-* There are 5 **predefined** Script types, but more can be added
+* There are 6 **predefined** Script types, but more can be added
   * Command Shell (.cmd)
   * Perl (.ps)
   * PowerShell (.ps1)
   * Python (.py)
   * VBScript (.vbs)
+  8 SQL (.sql)
 
 ![](../static/imgbasic/sm-script-types.png)
 

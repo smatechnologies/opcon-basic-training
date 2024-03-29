@@ -51,8 +51,8 @@ You are going to create a schedule with two jobs. One job will create the file w
 * In the **Name** field, enter ```Create File```
 * In the **Job Type** drop-down, select **Windows**
 * In the **Machine Selection** drop-down, select **SMATraining**
-* In the **Job Action** drop-down, select **Embedded Script**
 * In the **User ID** drop-down, select **SMATRAINING\SMAUSER**
+* In the **Job Action** drop-down, select **Embedded Script**
 * In the **Script** drop-down, select **Windows_File_Arrival**
 * In the **Version** drop-down, select **LATEST (X)**
 * In the **Runner** drop-down, select **PowerShell**

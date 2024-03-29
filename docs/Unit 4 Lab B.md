@@ -70,10 +70,10 @@ The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the *
   * These are the parameters for the ```$JOB:RESTART``` event:  
     * [[$SCHEDULE DATE]]
     * [[$SCHEDULE NAME]]
-    * File Arrival
+    * FA Incoming
 * Create a **File Arrival** job called **FA Incoming**
   * Monitor the **C:\Human Resources\Incoming Files** for any files that have a ***.txt** extension.
-    * _Example: "[[HR-Incoming]]\*.txt" or "C:\Human Resources\Incoming Files\*.txt"_
+    * _Example: ```"[[HR-Incoming]]\*.txt"``` or ```"C:\Human Resources\Incoming Files\*.txt"```_
   * **Start Time** for file creation should be ```00:00``` (midnight) 
   * **End Time** for the file creation should be ```07:00 PM```
 * Set **Failure Criteria** so that 0 or 1 will be considered Finish OK

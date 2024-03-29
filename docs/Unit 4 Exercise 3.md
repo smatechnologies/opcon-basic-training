@@ -63,7 +63,7 @@ What happened?
 16. Click the **Lock** icon to edit Daily details.
 17.	In **Task Details**, change the **Command Line** to this: ```“C:\scripts\ExerciseThreshold.cmd” -1```
 18.	Click the **Save** button (This will only save the Job in the Daily Definition).
-19.	In **Processes**, right-Click the Job and select **Restart** in the **Job Status Update**.
+19.	In **Processes**, right-Click the Job and select **Restart** in the **Status Update**.
 20.	Wait until the Job finishes **OK**.
 21.	In **Library** > **Administration**, select **Thresholds**.
 22.	Select **TrainingThreshold**.

@@ -7,7 +7,7 @@ sidebar_label: 'SM - Machine Status And User Accounts'
 * Machine Status can be determined by the heart icon in the bottom right hand corner of the screen
 * Selecting the icon will display all Agents and their status
 * Machines can be bulk selected for status updates
-  * As with Schedule and Job status updates, only options available to a machine will be configurable
+  * As with Schedule and Status Updates, only options available to a machine will be configurable
 
 ![](../static/imgbasic/Picture83.png)
 

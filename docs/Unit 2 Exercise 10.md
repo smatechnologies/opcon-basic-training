@@ -59,13 +59,13 @@ The **Forecast** screen should show the **15th and 30th days of each month** as 
 19. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```Annual```.
   * In the **When to Scheduled** dop-down menu, select **Annual Plan**.
-  * In the **Calendar** drop-down menu, select **Master Calendar**.
+  * In the **Calendar** drop-down menu, select **Master Holiday**.
   * In the **A/O/B/N** section, select **On Date**.
   * Click the **Save** button.
 20. In the **Active** column, select the frequency then select **Forecast**.
 
 :::tip
-The **Forecast** screen should show the **dates selected on the Master Calendar in Exercise 7** as green.
+The **Forecast** screen should show the **dates selected on the Master Holiday in Exercise 7** as green.
 :::
 
 21. Click the **Back** button to navigate back to the **Studio** workspace.

@@ -36,12 +36,12 @@ sidebar_label: 'Support Information'
 * <a href="https://www.linkedin.com/groups/12274641" target="_blank">OpCon Wizards Group</a>
 * A Learning Community hosted as a LinkedIn Group that provides communication and feedback with OpCon experts within SMA and with other users
 
-##### OpCon Roundtables
+##### OpCon Connections
 
-* <a href="https://smatechnologies.com/roundtables" target="_blank">SMA Roundtables</a>
-* Roundtables are frequent OpCon-centered technical discussions and Q & A sessions hosted digitally the third Thursday of each month by Product Management and Technical Specialists.
+* <a href="https://smatechnologies.com/connections" target="_blank">SMA Connections</a>
+* A new series of sessions designed to develop meaningful connections with and among our valued customers. These sessions will provide a space where you can engage not only with our products but also with each other, fostering a collaborative information network..
 
-##### Webinars
+##### SMA Webinars
 
 * <a href="https://smatechnologies.com/webinars" target="_blank">SMA Webinars</a>
 * Webinars are educational presentations updating clients on releases and improvements as well as demonstrations of OpCon use cases.

@@ -32,7 +32,7 @@ Quando un Job viene selezionato con un clic destro, diverse opzioni sono rese di
 * Strumenti di configurazione del Job (Job Configuration Tool)
 * Storia delle esecuzini dei (Job Executions History)
 * Sintesi del Job (Job Summary)
-* Aggiornamento dello stato del Job(Job Status Update)
+* Aggiornamento dello stato del Job(Status Update)
 * Job Output
 * Diagram
 

@@ -4,10 +4,22 @@ sidebar_label: 'Audit Management'
 
 
 * Used to view history of User updates to the OpCon database
-* Resides under Management in Enterprise Manager
+* Resides under **Management** > **Reporting**
 * The Audit Management (view) screen displays drop list for user, audit category selection, and options for date range to view preferred Audit information
 * Select **Master Job** in Audit Categories drop-down list
 * Click View Audit button or export data to .CSV file
+
+![AuditHistory](../static/imgbasic/AuditHistory.png)
+
+![AuditHistory2](../static/imgbasic/AuditHistory2.png)
+
+![Columns](../static/imgbasic/Columns.png)
+
+![Categories](../static/imgbasic/Categories.png)
+
+## Enterprise Manager
+
+<details>
 
 ![Picture295](../static/imgbasic/295.png)
 
@@ -28,3 +40,5 @@ sidebar_label: 'Audit Management'
 ### Audit Management Table
 
 ![Picture300](../static/imgbasic/300.png)
+
+</details>

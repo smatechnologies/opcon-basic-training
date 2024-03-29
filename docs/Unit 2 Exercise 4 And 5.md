@@ -26,7 +26,8 @@ Start Communication for the ```SUSEVM``` Machine.
 2.  Select **Enable Full Comm. (Job start Enabled)**.
 3.  Click **Back**.
 4.  You should receive a **Not Responding** in the **Status** column.
-5.  Continue on to **Exercise 5**.
+5. Close **Operations**
+6.  Continue on to **Exercise 5**.
 
 :::info Note
 Do not panic! This is an expected behavior based on the port number we entered when defining the **Socket Number** in Exercise 3. Please continue on to Exercise 5 to correct this issue.
@@ -42,19 +43,20 @@ View the **Netcom Log** to determine the reason why you are unable to establish 
 
 #### Viewing the Log
 
-1. Open a **File Explorer** window
-2. Navigate to where the logs are stored. In this environment they are stored in the following path:  **C:\ProgramData\OpConxps\SAM\Log**
-3. Double click on the **SMANetcom.log** file.
-4. Scroll to the bottom of the **SMANetcom.log** file and look for this entry in the Log file: 
+1. In **Library** > **Administration** > **Logs**
+2. Click on the **SMANetcom.log** file.
+3. Scroll to the bottom of the **SMANetcom.log** file and look for this entry in the Log file: 
   * ```ConnectToMachine() -- Exception happens at machine [SUSEVM]: No connection could be made because the target machine actively refused it. [[<IP ADDRESS>:3111]]```
+4. Click **Back** until you get to the main **Library** page.
 
 #### Correcting the Communication Error
 
-5.	Back in Solution Manager, right click the **SUSEVM** machine
-6.	Select the **Wrench** icon to edit Machine details.
-7.  Click the **Change Communication Status** button at the bottom of the screen, select **Disable Communication**.
-8.	In the **General Settings** tab, change the **Socket Number** to ```3100```.
-9.	Click the **Save**.
+5.	In **Library** > **Administration** > **Agents**.
+6.  Right-click on the **SUSEVM** Unix Agent.
+7.	Click the **Wrench** icon in the Agent Selection panel to edit the Machine details.
+8.  Click the **Change Communication Status** button at the bottom of the screen, select **Disable Communication**.
+9.	In the **General Settings** tab, change the **Socket Number** to ```3100```.
+10.	Click the **Save**.
 11.	Click the **Change Communication Status** button, select **Enable Full Comm. (Job Start Enabled)**.
 12. Click the **Back** button in the top right-hand corner to return to the **Agents** main screen to verify that the **SUSEVM** machine is now communicating.
 13. Close **Operations**.

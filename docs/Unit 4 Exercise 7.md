@@ -35,7 +35,7 @@ Create a Schedule called **Process Files**. Create 5 new container jobs named **
 * In the **Documentation** field, enter some documentation
   * _Example: This is the Parent Schedule._
 * Saturday and Sunday are **NOT working days**.
-* This schedule does use the **Master Calendar**
+* This schedule does use the **Master Holiday Calendar**
 * Click the **Save** button.
 8.  Close **Studio**
 

@@ -56,11 +56,11 @@ https://SMATraining
   *	You should be able to see all 4 Jobs built for today in the Job List. 
 9.	From the **Job** list, select **Windows Job 1** and **Windows Job 2**.
 10.	Right-Click one of the Jobs.
-  *	The **Job Status Update** screen will appear on the right.
+  *	The **Status Update** screen will appear on the right.
   *	Notice that not all actions are available. Only the actions that can be performed for both Jobs.
 11.	Select **Restart on Hold**.
   *	Solution Manager will show a message in the top of the screen confirming the action was processed.
-12.	Close the **Job Status Update** screen, minimize Google Chrome and go back to **Enterprise Manager**.
+12.	Close the **Status Update** screen, minimize Google Chrome and go back to **Enterprise Manager**.
 13.	Open the **List** or **Matrix** view, go to today’s date and check the Jobs under **My First Schedule**.
   *	The status for **Windows Job 1** and **Windows Job 2** should be **On Hold**.
 14.	Still from **Enterprise Manager**, Right-Click the Jobs and select **Release**. You must perform this action for each Job.

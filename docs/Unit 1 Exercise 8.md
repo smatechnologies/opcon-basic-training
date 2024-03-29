@@ -50,7 +50,7 @@ We can validate that this is the error by navigating to that location via a Wind
 14.	Click the **Save**. This should take you back to the Processes screen.
 
 #### On the Processes screen
-15.	The **Job Selection** menu should still be open, click **Job Status Update** and select **Restart**.
+15.	The **Job Selection** menu should still be open, click **Status Update** and select **Restart**.
 16. Close the **Job Selection** menu.
 17.	The job should have a **Finished OK** status because the invalid command in the **Command Line** has been corrected.
 18.	In the **Processes** screen, in the **Date** list, select tomorrow’s date. 
