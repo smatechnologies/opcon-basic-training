@@ -49,9 +49,9 @@ You can reference Unit 3 - Exercise 5 to assign Schedule Privileges.
 You can reference Unit 3 - Exercise 4 to assign Departmental Function Privileges.
 :::
 
-*	Logout of the Enterprise Manager.
+*	Logout of the Solution Manager.
 *	Login with **Congo Management**.
-*	Verify the user can see the schedules and jobs in Matrix view.
+*	Verify the user can see the schedules and jobs in Process view.
 
 :::note
 *	Attempt to make changes to the jobs.

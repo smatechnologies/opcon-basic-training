@@ -10,7 +10,7 @@ To use Events to cancel a job in a workflow when a preceding job finishes okay.
 
 ### Summary
 
-Utilizing your **MY FIRST SCHEDULE**, you will add 3 new jobs. The first job will **Finish OK*** and will trigger an **$JOB:CANCEL** event to cancel the third job. All the jobs will run the GenericP program and should run 7 days a week.
+Utilizing your **MY FIRST SCHEDULE**, you will add 3 new jobs. The first job will **Finish OK** and will trigger an **$JOB:CANCEL** event to cancel the third job. All the jobs will run the GenericP program and should run 7 days a week.
 
 These jobs should run in a particular order so that the event will cancel the third job.
 

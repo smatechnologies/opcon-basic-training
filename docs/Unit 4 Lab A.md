@@ -145,9 +145,9 @@ There is a point in the ```"UpdInvNike.CMD"``` script to execute ```“$THRESHOL
 Note: The **Smartphones** and **XBOXConsoles** scripts will use the **Resource** feature to avoid running at the same time
 * Use **Notification Manager** to setup alerts if Jobs in the **Congo Update Inventory Schedule** finish **OK** or **Fail**. 
 * Send an email to: ```smauser@congo.local``` with the subject:  
-A Job in ```[[$SCHEDULE NAME]]``` Schedule has ***Failed***   
+A Job in ```[[$SCHEDULE NAME]]``` Schedule has **Failed**   
 OR  
-A Job in ```[[$SCHEDULE NAME]]``` Schedule has ***Finished OK***
+A Job in ```[[$SCHEDULE NAME]]``` Schedule has **Finished OK**
 
 Upon completion, view the results in **Workflow designer**
 
