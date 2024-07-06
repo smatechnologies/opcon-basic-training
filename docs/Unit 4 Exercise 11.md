@@ -28,7 +28,7 @@ You are going to create a schedule with two jobs. One job will create the file w
 
 #### Create the File Arrival Job
 
-4. Select the **Windows File Arrival** schedule in **Schedule List** and click the **View** button.
+4. Select the **File Arrival - Single File** schedule in **Schedule List** and click the **View** button.
 5. Select **Add Job** in the side menu 
 6. On the **Master Schedule Definition** screen:
 * In the **Name** field, enter ```FA WindowsFile1```

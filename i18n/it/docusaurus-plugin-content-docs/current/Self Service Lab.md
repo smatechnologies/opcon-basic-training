@@ -91,7 +91,7 @@ hide_title: 'false'
 1. In Self Service, attivare la modalità **Admin Mode** facendo clic sul **Lock Button** nell'angolo in alto a destra. Dovrebbe essere **Verde** e **Sbloccato**.
 2. Fare clic su click sul pulsante verde **Create** per creare un nuovo Pulsante.
 3. Nella casella di testo **Name** inserire **Delete Schedule**.
-4. In Events, fare clic sulla barra verde Add (***+***).
+4. In Events, fare clic sulla barra verde Add (**+**).
 5. Dal Menù **Event Template**, selezionare ```$SCHEDULE:DELETE```.
 6. Nel riquadro **Schedule Date**, inserire la Variabile ```${SCHEDULE DATE}```.
 7. Nel riquadro **Schedule Name**, inserire la Variabile ```${SCHEDULE NAME}```.

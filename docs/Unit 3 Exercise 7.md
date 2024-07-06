@@ -39,12 +39,12 @@ Then attempt to to add a UNIX job to the schedule in Job Master. Finally, attemp
 11. In the **Job** list, what do you see?
 
 :::note
-You should only see 3 Windows Jobs. Why? 
+You should not see Windows Job 1. Why? 
 
-Because the **Training** role associated with the **Student1** user has access only to the jobs assigned to the **TrainingDept**.
+Because the **Training** role associated with the **Student1** user has access only to the jobs assigned to the **< None >** Access Code.
 :::
 
-12. Select **Windows Job 1**, what is the User ID associated with this Job?
+12. Edit one of the Windows Jobs, what is the User ID associated with this Job?
 
 :::caution Warning
 The field should be empty. This is because in Exercise 3, we granted the **Training** role access to **SMATRAINING\BATCHUSER** and **NOT** to **SMATRAINING\SMAUSER**. 
@@ -65,7 +65,7 @@ You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
 
 16. Close **Library**
 
-#### Change Job Statuses in Matrix
+#### Change Job Statuses in Operations
 
 17. In the **Operation** section, click **Processes** in the top right corner.
 18. In the **Schedule Build** screen:
@@ -74,7 +74,7 @@ You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
   * Toggle **Overwrite Existing Schedules** on
   * In the **Schedule List** section, select **My First Schedule**.
   * Click **Build**.
-19. On the **Build*** screen, expand out the date until you can click on the **Schedule Name**.
+19. On the **Build** screen, expand out the date until you can click on the **Schedule Name**.
 20. Once in the **Processes** screen, make sure that **My First Schedule** is in the **Schedule** section.
 21. In the **Job** section, right click **Windows Job 2** and select **Release**. The job should move to a **Waiting on Dependency** status.
 22. Right-Click **Windows Job 2** again and click **Force Start**.
@@ -95,6 +95,13 @@ You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
 24. Right-click **Windows Job 1** and select **Release** to allow the jobs in **My First Schedule** to complete.
 25. **Logout** of Solution Manager once **My First Schedule** is complete 
 26. Log back in by clicking the **Login with Windows** button.
+
+#### Reset the Jobs to Original State
+
+27. In **Library** > **Administration** > **Master Jobs**
+28. Using the Schedule Filter at the top of the Schedule Column, locate **My First Schedule**.
+29. Edit **Windows Job 1**, **Windows Job 2**, and **Windows Job 3** to change the **Build Status** to be **Released**.
+30. Close **Library**.
 
 ## Enterprise Manager
 

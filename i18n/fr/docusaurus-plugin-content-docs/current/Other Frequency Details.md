@@ -52,7 +52,7 @@ hide_title: 'false'
 * La zone horaire de saisie est le l’écart temps du job
     * L’heure en vert est un décalage combiné
 * **Absolue** - basé sur une horloge de 24 heures
-*** Relatif** - le décalage commence une fois que le Schedule a démarré.
+** Relatif** - le décalage commence une fois que le Schedule a démarré.
 
 <a href="imgbasic/248.png" target="_blank"><img src="imgbasic/248.png" width="200"></img></a>
 

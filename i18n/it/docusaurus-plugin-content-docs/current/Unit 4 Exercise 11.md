@@ -43,7 +43,7 @@ Your browser does not support the video tag.
 	* **Start Time**: ```0900```
 	* **End Time**: ```1700```
 	* **File Size Stable Duration (in secs)**: ```5```
-3. Assegnare al Job la ***Frequency*** di ```Mon-Fri-N```
+3. Assegnare al Job la **Frequency** di ```Mon-Fri-N```
 4. Aggiungere la **Documentation** al Job.
 5. Con lo Schedule **Windows File Arrival** ancora selezionato nel **Job Master** fare clic sul pulsante **Add** nella barra strumenti di Job Master (or premere Ctrl+N) per aggiungere un nuovo Job.
 	* **Name**: Create File
