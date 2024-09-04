@@ -51,6 +51,8 @@ You should see the machine(s) that you granted the Role access too.
 The User **Student1** cannot update any information for any machine in the configuration, but will be able to select this machine when setting up jobs **IF** the privileges for that machine are configured.
 :::
 
+
+
 ## Enterprise Manager
 
 <details>

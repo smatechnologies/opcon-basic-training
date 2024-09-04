@@ -48,6 +48,8 @@ Roles are used to maintain Privileges for multiple User Accounts
 * Resides in the ```<Configuration Directory>\SAM\folder```
 * Further specifications for LDAP Setup can be found in User Help
 
+
+
 ## Enterprise Manager
 
 <details>

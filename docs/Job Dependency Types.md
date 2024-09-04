@@ -9,14 +9,20 @@ sidebar_label: 'Job Dependency Types'
 * **Excludes** – The selected Job will be removed from the Schedule on days the dependent Job is scheduled
 * **Conflict** – Dependent Job will not start if the selected Job is currently running
 
-![Job Dependency Types](../static/imgbasic/Job_Dependency_Fields.png)
+<img src="imgbasic/Job_Dependency_Fields.png" width="600"/>
 
 #### Requires
 
 * Represented with a solid line
 * Accounts for Jobs which are always part of the Workflow
 
-![Reqires](../static/imgbasic/Required_Depen.png)
+:::tip Example
+
+* **Job 2** requires **Job 1** to be in the daily.
+
+<img src="imgbasic/Required_Depen.png" width="300"/>
+
+:::
 
 #### After
 
@@ -29,7 +35,8 @@ sidebar_label: 'Job Dependency Types'
 * **Job 3** has an After Dependency on **Job 2** because it is only occasionally present
 * **Job 3** also needs a Dependency on **Job 1** to make sure **Job 1** runs before **Job 3** when **Job 2** does not exist
 
-![After](../static/imgbasic/Afrer_Depen.png)
+<img src="imgbasic/Afrer_Depen.png" width="500"/>
+
 :::
 
 #### Excludes
@@ -40,7 +47,15 @@ sidebar_label: 'Job Dependency Types'
   * Excludes Dependencies are not represented in Forecast Screens
   * To test, build a Schedule for the proper date and include the correct Jobs
 
-![Excludes](../static/imgbasic/Exclude_Depen.png)
+:::tip Example
+
+* **Job 1** and **Job 3** will be included in the build **Saturday-Thursday**
+* **Job 2** and **Job 3** will be included in the build on **Friday**
+* **Job 2** is excluding **Job 1** from being in the build on **Fridays**
+
+<img src="imgbasic/Exclude_Depen.png" width="500"/>
+
+:::
 
 #### Conflict
 
@@ -50,11 +65,15 @@ sidebar_label: 'Job Dependency Types'
   * If neither Job should start when the other is running, a Dependency should be set from **Job 1** to **Job 4** as well as from **Job 4** to **Job 1**
 * Alternative to **Resource Dependencies**
 
-![Conflict](../static/imgbasic/Conflict_Depen.png)
+:::tip Example
+
+**Job 1** and **Job 4** can't run simultaniously but don't need to be dependent on each other.
+
+<img src="imgbasic/Conflict_Depen.png" width="500"/>
+
+:::
 
 ### Job Dependency Conditions
-
-![Job Dependency Conditions](../static/imgbasic/sm-job-dependency-conditions.png)
 
 ![Job Dependency Conditions](../static/imgbasic/Conditions.png)
 
@@ -96,6 +115,7 @@ sidebar_label: 'Job Dependency Types'
 
 * Prevents a Schedule from opening until all Daily instances of that Schedule from previous days are complete
 * Use **Late to Start** notices if this parameter is used
+
 
 
 ## Enterprise Manager

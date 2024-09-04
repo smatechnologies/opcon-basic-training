@@ -24,7 +24,7 @@ sidebar_label: 'Server Options'
   * Allowing wildcards in Events
   * TLS Certificate Number
 
-![GeneralSettings](../static/imgbasic/General.png)
+<img src="imgbasic/General.png" width="750"/>
 
 #### Logging
 
@@ -32,7 +32,7 @@ sidebar_label: 'Server Options'
   * Log job dependency errors to Critical.log
   * Maximum number of days logs should be kept
 
-![LoggingSettings](../static/imgbasic/Logging.png)
+<img src="imgbasic/Logging.png" width="750"/>
 
 #### Security
 
@@ -41,7 +41,7 @@ sidebar_label: 'Server Options'
   * Password Strength Requirements
   * Number of failed log in attempts
 
-![SecuritySettings](../static/imgbasic/Security.png)
+<img src="imgbasic/Security.png" width="750"/>
 
 #### Notifications
 
@@ -50,7 +50,7 @@ sidebar_label: 'Server Options'
   * SPO & SNMP settings
   * License Notificaitons
 
-![NotificationsSettings](../static/imgbasic/Notifications.png)
+<img src="imgbasic/Notifications.png" width="750"/>
 
 #### SMTP
 
@@ -59,21 +59,23 @@ sidebar_label: 'Server Options'
   * SMTP Settings
   * SMS Settings
 
-![SMTPSettings](../static/imgbasic/SMTP.png)
+<img src="imgbasic/SMTP.png" width="750"/>
 
 #### Vision
 
 * Here you can configure the settings for things like:
   * Vision card history
 
-![VisionSettings](../static/imgbasic/Vision.png)
+<img src="imgbasic/Vision.png" width="750"/>
 
 #### Time
 
 * Here you can configure the settings for things like:
   * Build Time
 
-![TimeSettings](../static/imgbasic/Time.png)
+<img src="imgbasic/Time.png" width="750"/>
+
+
 
 ## Enterprise Manager
 

@@ -75,19 +75,7 @@ sidebar_label: 'SubSchedules and Container Jobs'
 This solution simplifies Frequencies definitions
 :::
 
-## Solution Manager
 
-### Container Job Schedule Path in Job Definition
-
-![](../static/imgbasic/sm-subschedule-schedule-path-job-definition.png)
-
-### Container Job Task Details
-
-![](../static/imgbasic/sm-subschedule-in-job-definition.png) 
-
-### Container Job Details in Job Summary
-
-![](../static/imgbasic/sm-subschedule-details-job-summary.png) 
 
 ## Enterprise Manager
 

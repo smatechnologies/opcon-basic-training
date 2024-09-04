@@ -25,7 +25,9 @@ sidebar_label: 'File Arrival Jobs'
 ### File Arrival Properties
 
 :::note
+
 The file being searched in the table below for by the File Arrival job resides in **"D:\NewFiles\File123456789.txt"**
+
 :::
 
 | Property Name | Description | Example |
@@ -49,6 +51,8 @@ The file being searched in the table below for by the File Arrival job resides i
 		* Once the Container Job finishes, it triggers the  Event to restart the File Watcher  
 			* This will loop through all 5 files
 :::
+
+
 
 ## Enterprise Manager
 

@@ -93,6 +93,8 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
 22.	Build the **Repeating Schedule** for today and allow it to run.
 23. Valdiate that the jobs in one of the 4 sub-schedules run successfully.
 
+
+
 ## Enterprise Manager
 
 <details>

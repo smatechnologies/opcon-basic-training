@@ -12,12 +12,6 @@ OpCon Log files can help with troubleshooting
   * **SAM log**
   * **Critical log**
 
-#### Log Location
-
-* Application Logs as well as Schedule Build and Archived Logs are accessible under **Library** > **Administration** > **Logs**.
-
-![OpCOn Application Logs](../static/imgbasic/Logs.png)
-
 ### OpCon Logs - Support
 
 * OpCon Logs are **VITAL** to the Support team when researching an issue
@@ -27,6 +21,12 @@ Log Collectors
   * SMASUP will collect all LSAM (Agent) Logs
 
 ![Picture54](../static/imgbasic/Picture54.png)  
+
+#### Log Location
+
+* Application Logs as well as Schedule Build and Archived Logs are accessible under **Library** > **Administration** > **Logs**.
+
+<img src="imgbasic/Logs.png" width="750"/>
 
 #### Log Location in Windows
 
@@ -78,6 +78,8 @@ Running list of all transactions
 ### Job Output File
 
 ![](../static/imgbasic/sm-job-output-log-file.png)
+
+
 
 ## Enterprise Manager
 

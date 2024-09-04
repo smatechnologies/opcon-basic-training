@@ -30,6 +30,7 @@ Windows Job Type parameters must be set:
 ![](../static/imgbasic/sm-job-type-details.png)
 
 
+
 ## Enterprise Manager
 
 <details>

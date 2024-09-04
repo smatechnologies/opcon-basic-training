@@ -2,23 +2,45 @@
 sidebar_label: 'Notification Manager'
 ---
 
-* Create groups
-* Define Notifications based on change events: 
-    * Machine
-    * Schedule
-    * Job Status
+![](../static/imgbasic/NotifiacationTriggers.png)
 
-### Notification Triggers Main Screen
+* Create **Groups**
+* Define Notifications based on changes associated with: 
+    * Machines
+    * Schedules
+    * Jobs
+
+### Manage Groups
+
+![](../static/imgbasic/sm-notification-triggers-manage-groups.png)
+
+* Provide a **Group Name**
+* Provide the **Type**
+  * Job
+  * Schedule
+  * Machine
+* Select a Category, if applicable
+
+### Manage Triggers
 
 ![](../static/imgbasic/sm-notification-trigger-main.png)
 
-### Add/Edit Trigger Output
+* Select a **Group Name**
+* Select the **Trigger Type**
+* Select an action
+
+### Email Action
+
+![](../static/imgbasic/EmailAction.png)
+
+* SMTP Settings need to be defined in order to send Email Notifications
+* Define **To**
+* Define **Subject**
+* All other fields are optional
 
 ![](../static/imgbasic/sm-notification-trigger-set-email.png)
 
-### Manage Trigger Groups
 
-![](../static/imgbasic/sm-notification-triggers-manage-groups.png)
 
 ## Enterprise Manager
 

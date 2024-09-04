@@ -71,6 +71,8 @@ Create a Schedule called **Process Files**. Create 5 new container jobs named **
 
 19.	In **Operations**, build the **Process Files** (**Released**) for today and check the results in **Processes**,
 
+
+
 ## Enterprise Manager
 
 <details>

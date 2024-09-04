@@ -142,6 +142,8 @@ You may have noticed that you only need to specify the new file name and not the
 31. In **Processes**, release the Job **File Delete**.
 32. Go back to **Windows Explorer** and check that the ```File-to-be-deleted``` was deleted.
 
+
+
 ## Enterprise Manager
 
 <details>

@@ -45,6 +45,7 @@ Using the existing schedule called, **Embedded Scripts Training**, create a Wind
 24.	Once the Job completes successfully, verify that the folder was created in **Windows File Explorer**.
 
 
+
 ## Enterprise Manager
 
 <details>

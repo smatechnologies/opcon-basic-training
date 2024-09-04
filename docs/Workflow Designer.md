@@ -10,6 +10,8 @@ sidebar_label: 'Canvas/Workflow Designer'
 
 ![Picture87](../static/imgbasic/sm-studio-designer-add.png)
 
+
+
 ## Enterprise Manager
 
 <details>

@@ -103,6 +103,8 @@ You will then have each job trigger a notification, so that you know how many re
 34.	Open Thunderbird and check the inbox. You should find ```3``` new emails.
 35. Close **Operations**
 
+
+
 ## Enterprise Manager
 
 <details>

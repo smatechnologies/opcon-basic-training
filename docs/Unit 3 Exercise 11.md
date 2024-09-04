@@ -81,6 +81,8 @@ Validate that all the jobs in **My First Schedule** are in a completed state and
 29. Click the **Build** button.
 30. Expand and click on the schedule link for **My First Schedule** to return to the **Processes** screen.
 
+
+
 ## Enterprise Manager
 
 <details>

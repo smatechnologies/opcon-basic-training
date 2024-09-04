@@ -4,32 +4,38 @@ sidebar_label: 'System Properties'
 
 ### System and Instance Properties
 
-:::info
-**Properties** are variables stored in the database that can be used throughout OpCon
-* Defined with name and value
-:::
-
 * **Global Properties** (OpCon Instance Properties) are variables associated with the entire environment  
+* **System Properties** are default OpCon variables. 
 * **Job Instance Properties** are variables associated with a specific Job
 * **Schedule Instance Properties** are variables associated with a specific Schedule
 * **Machine Instance Properties** are variables associated with a specific Machine 
 
-### System Properties vs User Defined Properties 
+:::info
 
-* All Global Properties that begin with a dollar symbol (```$```) are known as System Properties
-* System Properties give variable values dependent on the System 
-* Many of these system values can be format modified 
-    * Example: ```$DATE``` can be set to ```mmddyy```, ```yyyymmdd```, ```mm```, etc. 
-* ```$DATE``` is the current date of the OpCon server
-    * ```$SCHEDULE DATE``` is the date a Schedule was built
-        * If a Schedule is built for January 1st at 23:50, but runs until January 2nd at 3:30, all ```$SCHEDULE DATE``` properties will be resolved to January 1st date
+**Properties** are variables stored in the database that can be used throughout OpCon and ae defined with name and value
 
-### System Properties Offsets
+:::
 
-* ```$DATE``` or ```$SCHEDULE DATE``` System Properties can be offset
-* Example:
-    * ```[[$DATEmmddyy(+1d)]]``` or ```[[$DATEmmddyy(-1d)]]``` for day offsets
+### System Properties vs Managed System Properties 
 
+![](../static/imgbasic/sm-global-properties-list.png)
+
+* **System Properties** begin with a dollar symbol (```$```) and have status values
+  * There are over 30 System Properties
+  * System Properties **DO NOT** appear in the Global Properties section.
+  * Examples: ```$JOB NAME```, ```$SCHEDULE DATE```, or ```$MACHINE NAME```
+* **Managed System Properties** begin with a dollar symbol (```$```) and the format can be modified 
+  * There are 7 and all have to do with dates and/or times
+  * Managed System Properties **DO** appear in the Global Properties section.
+  * Example: ```$DATE```, ```$SCHEDULE DATE```, or ```$TIME```
+  * ```$DATE``` is the current date of the OpCon server
+  * ```$SCHEDULE DATE``` is the date a Schedule was built
+    * If a Schedule is built for January 1st at 23:50, but runs until January 2nd at 3:30, all ```$SCHEDULE DATE``` properties will be resolved to January 1st date
+
+### Properties Offsets
+
+* Managed System Properties can be offset to allow for the calculation of various dates.
+  * Example: ```[[$DATEmmddyy(+1d)]]``` or ```[[$DATEmmddyy(-1d)]]```
 * **Offset Day**
     * ```[[$DATEmmddyy(+1d)]]``` or ```[[$DATEmmddyy(-1d)]]``` for day offsets
 * **Offset Working Day**
@@ -44,13 +50,16 @@ sidebar_label: 'System Properties'
         * ```+2``` is next month
     * ```[[$DATEmmddyy(-1eom)]]``` Value finds the last day of previous month
 
-### Global Properties List
+:::tip Example
 
-![](../static/imgbasic/sm-global-properties-list.png)
+![](../static/imgbasic/MSP_CommandLine.png)
 
-### System Properties in Command Line
+* ```[[PATH_Scripts]]``` and ```[[PATH_Accounting]]``` are Global Properties
+* ```[[$SCHEDULE DATEyyyymmd]]``` is our System Properties with a ```(-1wd)``` offset
+* ```[[$JOB NAME]]``` is a System Property
 
-![](../static/imgbasic/sm-system-properties-command-line.png)
+:::
+
 
 ## Enterprise Manager 
 

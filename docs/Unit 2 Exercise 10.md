@@ -94,6 +94,8 @@ The **Forecast** screen should show the **date selected on My First Calendar in 
 31. Close **Library**.
 32. Close **Studio**.
 
+
+
 ## Enterprise Manager
 
 <details>

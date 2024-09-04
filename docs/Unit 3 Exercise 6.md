@@ -61,6 +61,8 @@ Create an **Access Code** called **TrainingAC** and assign the **Access Code** t
 
 18. Be sure to logout of the **Student1** profile and log back in as **smauser**.
 
+
+
 ## Enterprise Manager
 
 <details>

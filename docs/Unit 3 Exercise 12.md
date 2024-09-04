@@ -34,6 +34,7 @@ Failed to process event $PROPERTY:SET.  Received from LSAM
 8.	Close all log files and the File Explorer windows.
 
 
+
 ## Exercise Mananger
 
 <details>

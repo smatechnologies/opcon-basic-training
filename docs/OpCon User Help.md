@@ -9,15 +9,23 @@ sidebar_label: 'OpCon User Help'
 
 ![Picture274](../static/imgbasic/274.png)
 
-### OpCon User Help - Integrations
-
-![Picture275](../static/imgbasic/275.png)
-
 ### OpCon User Help - Concepts
 
 The Concepts section of OpCon User Help assists with basic and advanced automation concepts 
 
 ![Picture277](../static/imgbasic/277.png)
+
+### OpCon User Help - Integrations
+
+![Picture275](../static/imgbasic/275.png)
+
+### OpCon Knowledge Base
+
+Under the Customer Support dropdown, you can find our Public Knowledge base
+
+![Picture277](../static/imgbasic/KnowledgeBase.png)
+
+
 
 ## Enterprise Manager
 

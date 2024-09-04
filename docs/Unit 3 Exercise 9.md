@@ -85,6 +85,8 @@ There are alternatives when acknowledging an escalation. You can also:
 * Log out and back in of Solution Manager. You will get the acknowledgment alert.
 :::
 
+
+
 ## Enterprise Manager
 
 <details>

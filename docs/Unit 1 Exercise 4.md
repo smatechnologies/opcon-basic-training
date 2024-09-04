@@ -40,6 +40,8 @@ You can also 'Click and Drag' from the bottom dot on a job to the top dot on the
 ![Click-n-Drag Dependency Creation](../static/imgbasic/Click-n-Drag.png)
 :::
 
+
+
 ## Enterprise Manager
 
 <details>
