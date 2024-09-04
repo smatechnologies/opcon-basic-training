@@ -28,10 +28,11 @@ Create a Null Job in **MY FIRST SCHEDULE** called **NULL JOB 1**. Be sure to pro
 11. Click **Save**
 12. Close **Library**.
 
+
+
 ## Enterprise Manager
 
 <details>
-
 
 :::tip [Walkthrough Video - Unit 2 Exercise 2](../static/videobasic/U2E2.mp4)
 

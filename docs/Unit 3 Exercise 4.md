@@ -47,7 +47,6 @@ still be limited in what can be viewed or maintained because it lacks Schedule a
 14. Repeat **Steps 6-12 skipping Step 10** for **Windows Job 3**.
 15. Close **Library**.
 
-
 #### Assign the Departmental Function Privileges
 
 16. In **Library** > **Security** > **Access Management**, select the **Training** Role.
@@ -87,6 +86,8 @@ The User Student1 (which is under the Training Role) now can add/modify/delete j
 :::caution Warning
 Note: The user **Student1** cannot view or maintain Jobs in a Schedule because we did not setup Schedule and Functional Privileges yet.
 :::
+
+
 
 ## Enterprise Manager
 

@@ -17,6 +17,8 @@ sidebar_label: 'Windows File Movement Job Sub-Types'
 
 ![](../static/imgbasic/Job_Subtypes_SM.png)
 
+
+
 ## Enterprise Manager
 
 <details>

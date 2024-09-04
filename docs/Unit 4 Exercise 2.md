@@ -149,6 +149,7 @@ Once all the dependencies and events have been configured, your workflow should 
 41. You should find ```3``` new emails. Open the emails and check the contents.
 
 
+
 ## Enterprise Manager
 
 <details>

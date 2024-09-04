@@ -40,6 +40,8 @@ Create a new **Batch User** named **SMATRAINING\BATCHUSER** and grant **Batch Us
 The User **Student1** (which is under the Training Role) now can select this user to run Jobs when setting them up in the Job Details screen.
 :::
 
+
+
 ## Enterprise Manager
 
 <details>

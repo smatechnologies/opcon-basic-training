@@ -24,7 +24,6 @@ sidebar_label: 'Common Role Configurations'
 ![](../static/imgbasic/316.png)
 ![](../static/imgbasic/317.png)
 
-
 #### Operators
 
 * These individuals will monitor Jobs and Schedules on daily basis 

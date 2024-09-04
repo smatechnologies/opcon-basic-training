@@ -35,6 +35,7 @@ Build the schedule called **MY FIRST SCHEDULE** as **Released** for today only. 
 13. Close **Operations** once all jobs **Finished OK**.
 
 
+
 ## Enterprise Manager
 
 <details>

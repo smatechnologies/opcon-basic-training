@@ -2,11 +2,11 @@
 sidebar_label: 'Embedded Scripts'
 ---
 
+![](../static/imgbasic/sm-scripts.png)
+
 * OpCon has ability to push Scripts from the OpCon database to Windows and UNIX environments
 * The OpCon Database acts as a centralized Repository that is replicated with database
 * The Repository allows for Version Control
-
-![](../static/imgbasic/sm-scripts.png)
 
 #### Four part make up Embedded Scripts
 
@@ -17,6 +17,8 @@ sidebar_label: 'Embedded Scripts'
 
 ### Script Types
 
+![](../static/imgbasic/sm-script-types.png)
+
 * Configure type of Scripts which can be stored by OpCon
 * There are 6 **predefined** Script types, but more can be added
   * Command Shell (.cmd)
@@ -24,27 +26,27 @@ sidebar_label: 'Embedded Scripts'
   * PowerShell (.ps1)
   * Python (.py)
   * VBScript (.vbs)
-  8 SQL (.sql)
-
-![](../static/imgbasic/sm-script-types.png)
+  * SQL (.sql)
 
 ### Script Runners
+
+![](../static/imgbasic/sm-script-runners.png)
 
 * Script Runners define Command Line created to run Script
 * Allows more than one Script runner per Script Type
 
-![](../static/imgbasic/sm-script-runners.png)
-
 :::tip Example
-* Powershell would include ```“–ExecutionPolicy Bypass and –File”``` before command, so the Script Runner would look like: ```powershell.exe -ExecutionPolicy Bypass -File $FILE $ARGUMENTS```.
+
+Powershell would include ```“–ExecutionPolicy Bypass and –File”``` before command, so the **Script Runner** would look like: ```powershell.exe -ExecutionPolicy Bypass -File $FILE $ARGUMENTS```.
+
 :::
 
 ### Script Repository
 
+![](../static/imgbasic/sm-add-script.png)
+
 * Where Scripts are created and stored
 * Previous versions are accessible
-
-![](../static/imgbasic/sm-add-script.png)
 
 #### Required Fields
 
@@ -82,10 +84,10 @@ sidebar_label: 'Embedded Scripts'
 
 * Cross Reference in the Repository allows one to see all the jobs that are running the same script.
 
-![](../static/imgbasic/sm-script-cross-references.png)
-
 :::warning
+
 A Script with Cross References cannot be deleted
+
 :::
 
 ### Embedded Script Job
@@ -100,6 +102,8 @@ A Script with Cross References cannot be deleted
 * **Version** – Specifies Script Version selected
 * **Arguments** – Enter the parameter(s) passed to Script (if needed)
 * **Working Dir.** – Working Directory (starting directory) for Script
+
+
 
 ## Enterprise Manager
 

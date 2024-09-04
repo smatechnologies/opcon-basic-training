@@ -26,6 +26,8 @@ sidebar_label: 'Tags And Tag Manager'
 
 ![SM Tag Add List](../static/imgbasic/sm-tag-add-list.png)
 
+
+
 ## Enterprise Manager
 
 <details>

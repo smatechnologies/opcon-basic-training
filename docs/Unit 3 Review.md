@@ -11,19 +11,3 @@ sidebar_label: 'Unit 3 Review'
 7. .................... are variables that begin with a dollar symbol ($).
 8. .................... are variables associated with a specific Schedule, Job, or Machine.
 9. .................... are strings that execute commands within OpCon. 
-
-<details>
-
-<summary>Click for Unit 3 Review Quiz Answers</summary>
-
-1. USER ACCOUNTS
-2. ROLES
-3. ADMINISTRATOR
-4. OCADM
-5. ESCALATION
-6. GLOBAL SYSTEM PROPERTIES
-7. SYSTEM PROPERTIES
-8. INSTANCE PROPERTIES
-9. EVENTS
-
-</details>

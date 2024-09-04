@@ -2,24 +2,22 @@
 sidebar_label: 'Resources'
 ---
 
+![](../static/imgbasic/sm-resources-main.png)
+
+* In Solution Manager, **Resources** is found in **Library > Administration > Resources**
 * **Resource**: user-defined value consisting of name and numeric limit
 * Resources are used to manage and limit the number of concurrently running Jobs across Schedules and Machines in OpCon
 * **Max Concurrent Jobs** in Advanced Machine Properties limits the number of concurrently running Jobs on a specific Machine
-
 	* **All** Resources can be set for Dependencies  
 	* SAM is responsible for keeping track of Resources in use
 
 :::note
+
 If all Resources are in use, SAM waits until a Resource is available before submitting the next Job
+
 :::
-
-## Solution Manager
-
-* In Solution Manager, **Resources** is found in **Library > Administration > Resources**
-
-![](../static/imgbasic/sm-resources-main.png)
-
-### Create/Edit Resource
+ 
+### Create  Resource
 
 ![](../static/imgbasic/sm-resource-add.png)
 
@@ -27,11 +25,16 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 
 ![](../static/imgbasic/sm-resource-job-screen.png)
 
-### Edit/Set Resource Dependency
+### Resource Dependency
 
 ![](../static/imgbasic/sm-resource-dependency-add.png)
 
 ### Trigger Email Alert of Resource Properties
+
+* **Resource Maximum** can be retrieved using ```RM.``` in front of the Resource Name
+  * Example: ```[[RM.<ResourceName>]]```
+* **Resources in Use** can be retrieved using ```RU.``` in front of the Resource Name
+  * Example: ```[[RU.<ResourceName>]]```
 
 ![](../static/imgbasic/sm-resource-properties.png)
 
@@ -46,7 +49,8 @@ If all Resources are in use, SAM waits until a Resource is available before subm
 
 ![](../static/imgbasic/sm-sam-priority-job-screen.png)
 
-![](../static/imgbasic/sm-sam-priority-list.png)
+
+
 
 ## Enterprise Manager
 

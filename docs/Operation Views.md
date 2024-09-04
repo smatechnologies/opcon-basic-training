@@ -91,6 +91,8 @@ When a Job is selected with a right-click several options are made available in 
 
 ![Picture74](../static/imgbasic/Picture74.png)
 
+
+
 ## Enterprise Manager
 
 <details>

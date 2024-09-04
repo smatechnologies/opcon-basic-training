@@ -90,6 +90,8 @@ For all events, you can use **System Properties** for fields like the **Schedule
 38. Click the **Build** button.
 39. Expand and click on the schedule link for **My First Schedule** to return to the Processes screen.
 
+
+
 ## Enterprise Manager
 
 <details>

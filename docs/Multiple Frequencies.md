@@ -35,6 +35,8 @@ sidebar_label: 'Multiple Frequencies'
 
 ![](../static/imgbasic/SM_MultipleFrequencies_ThreeFrequencies.png)
 
+
+
 ## Enterprise Manager
 
 <details>

@@ -17,6 +17,8 @@ The table contains the keyboard shortcuts for Solution Manager. If a shortcut ha
 | CTRL + S | Save |
 | Esc | Cancel/Undo/Exit/No |
 
+
+
 ## Enterprise Manager
 
 <details>

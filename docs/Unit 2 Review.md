@@ -9,17 +9,3 @@ sidebar_label: 'Unit 2 Review'
 5. OpCon .................... are vital to the Support Team when researching and troubleshooting issues.
 6. The Job .................... Retriever will provide access to the Log Viewer for a specific Job.
 7. .................... Management is used to view the history of User updates to the OpCon database.
-
-<details>
-
-<summary>Click for Unit 2 Review Quiz Answers</summary>
-
-1. NULL
-2. UPPER LEFT
-3. A/O/B/N
-4. FORECAST
-5. LOGS
-6. OUTPUT
-7. AUDIT
-
-</details>

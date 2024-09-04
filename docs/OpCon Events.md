@@ -105,6 +105,8 @@ To Manually Edit an Event, click the **Manual Edit** button
 ![](../static/imgbasic/SelfServiceEventOrder.png)
 -->
 
+
+
 ## Enterprise Manager
 
 <details>

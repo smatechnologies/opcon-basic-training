@@ -2,26 +2,32 @@
 sidebar_label: 'Machine Instance Properties'
 ---
 
-* Advanced Machine Properties screen is used to manage **Machine Instance Properties** of a specific Machine
+![](../static/imgbasic/MI_Master.png)
+
+* **Advanced Machine Properties** screen is used to manage **Machine Instance Properties** of a Machine
 * Use of a Machine Instance Property must contain "```MI.```" in front of a Property name (e.g., ```[[MI.LSAMpath]]```)  
 * Identifies a Property as Machine Instance Property
 * Communication to a Machine within OpCon must be Stopped to add or modify Machine Instance Properties
 
 :::caution Warning
-Machine Instance Properties are case sensitive
-::::  
 
-### Agent Details
+Machine must be stopped in order to define a Machine Instance Property. 
 
-![](../static/imgbasic/sm-agent-details.png)
+:::
 
-### Advanced Machine Properties
+### Instance Properties in Agent Details
 
-![](../static/imgbasic/sm-administrative-machine-information.png)
+![](../static/imgbasic/MI_Definition.png)
 
-### Command Line Formatting
+### Property Selector
 
-![](../static/imgbasic/sm-machine-properties-command-line.png)
+<img src="imgbasic/MI_PropertySelector.png" width="750"/>
+
+### Command Line
+
+![](../static/imgbasic/MI_CommandLine.png)
+
+
 
 ## Enterprise Manager
 

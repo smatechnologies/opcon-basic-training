@@ -58,6 +58,8 @@ To add a **File Transfer** job to **My First Schedule**. This job will move a fi
 14. Navigate to **C:\SMA File Transfer**.
 15. Verifying that the directory is no longer empty and that the file, **FilesToSend.txt** is now there.
 
+
+
 ## Enterprise Manager
 
 <details>

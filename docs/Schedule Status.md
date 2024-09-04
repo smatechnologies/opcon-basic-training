@@ -10,6 +10,10 @@
   * Completed–Contains Failed Jobs 
   * In Process-Contains Failed Jobs
 
+### Schedule Status Screen
+
+![](../static/imgbasic/sm-schedule-status.png)
+
 ## Job Status
 
 Jobs have many different statuses 
@@ -32,12 +36,6 @@ Jobs have many different statuses
   * Under Review 
   * Fixed
 
-### Schedule Status Screen
-
-![](../static/imgbasic/sm-schedule-status.png)
-
-![](../static/imgbasic/sm-schedule-status-options.png)
-
 ### Job Status Screen
 
 Right-Click Jobs and available actions appear
@@ -49,6 +47,8 @@ Right-Click Jobs and available actions appear
 ### Bulk Status Update
 
 ![Picture79](../static/imgbasic/Picture79.png)
+
+
 
 ## Enterprise Manager
 

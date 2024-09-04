@@ -50,6 +50,8 @@ For 31 day months, 15.5 is rounded up to 16
 
 ![](../static/imgbasic/SM_Frequency_EOP.png)
 
+
+
 ## Enterprise Manager
 
 <details>

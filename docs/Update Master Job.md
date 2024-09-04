@@ -44,6 +44,8 @@ Currently configurable options:
 
 ![Picture77](../static/imgbasic/Picture77.png)  
 
+
+
 ## Enterprise Manager
 
 <details>

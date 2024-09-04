@@ -10,7 +10,6 @@ sidebar_label: 'Batch Jobs'
   * Batch Jobs are designed to run without direct user interaction
 * With OpCon, **Enterprise Manager** and **Solution Manager** are the User Interfaces for creating and maintaining Batch Jobs
 
-
 ##### What can be executed from a Windows Batch Job?
 
 * Anything executed from CMD Window

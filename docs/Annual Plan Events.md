@@ -16,18 +16,18 @@ sidebar_label: 'Annual Plan Events'
 * Dates can be added or removed from a Calendar through Events
 
 ```
-$CALENDAR:ADD,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029,ocadm,opconxps
+$CALENDAR:ADD,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029
 ```
 
 ```
-$CALENDAR:DEL,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029,ocadm,opconxps
+$CALENDAR:DEL,Company Holiday Calendar,05/25/2025; 05/25/2026; 05/25/2027; 05/25/2028; 05/25/2029
 ```
 
 * Scenarios:
     * A Job needs to run 10 working days after the 15th of month 
     * A Null Job scheduled to run on the 15th could submit:
 ```
-$CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps
+$CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]]
 ```
 * A Job needs to run the working day before a different Job scheduled for the 15th-B
     * Date calculation tool – **Chronoman**
@@ -35,6 +35,8 @@ $CALENDAR:ADD,Company Holiday Calendar,[[$SCHEDULE DATE(+10wd)]],ocadm,opconxps
 ### Calendar Add Event Definition
 
 ![](../static/imgbasic/sm-calendar-add-event.png)
+
+
 
 ## Enterprise Manager
 

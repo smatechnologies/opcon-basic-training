@@ -14,6 +14,8 @@ sidebar_label: 'Schedule Master'
 
 ![](../static/imgbasic/sm-master-documentation.png)
 
+
+
 ## Enterprise Manager
 
 <details>

@@ -2,19 +2,28 @@
 sidebar_label: 'Event Triggers'
 ---
 
+![](../static/imgbasic/sm-event-triggers.png)
+
 * Two common ways to send internal Events:
-    * Events based on Job Status
-    * Events based on Exit Description
+    * Events based on **Job Status**
+    * Events based on **Exit Description**
 
 ### Event Definition Wizard
 
-* An Event will send once a Job has reached any of the 9 statuses listed below: 
-
-![](../static/imgbasic/sm-event-triggers.png)
-
-### Event Trigger Details
-
 ![](../static/imgbasic/sm-event-trigger-details.png)
+
+* An Event will send once a Job has reached any of the following statuses:
+  * Exceeded Max Run Time
+  * Failed
+  * Finished OK
+  * Fixed
+  * Job Still Attempting Start
+  * Late to Finish
+  * Late to Start
+  * Missed Latest Start Time
+  * Skipped
+  * Start Attempted
+  * Under Review
 
 ### Event Template and Parameters
 

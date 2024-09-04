@@ -60,6 +60,8 @@ When the schedule completes, you should notice that in the **Return Code** colum
 
 20. Close all open modules.
 
+
+
 ## Enterprise Manager
 
 <details>

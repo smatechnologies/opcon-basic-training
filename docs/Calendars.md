@@ -2,10 +2,15 @@
 sidebar_label: 'Calendars'
 ---
 
-### Holiday Calendars
+* In Solution Manager, **Calendars** is found in **Library > Administration > Calendars**
+
+### Calendar Main Screen
+
+![](../static/imgbasic/sm-calendar-main.png)
+
+## Calendar Types
 
 * OpCon supports several types of Calendars to help provide flexible scheduling around holidays and any other non-working days 
-
 * **Master Holiday Calendar**
   * Installed with OpCon database
   * Stores non-working days for multiple Schedules
@@ -21,19 +26,6 @@ sidebar_label: 'Calendars'
   * Stores non-working days for a single Schedule
   * Administrators must set additional days as non-working days when required
 
-### Workdays Per Week
-
-* Workdays Per Week combined with Schedule Holiday Calendars specify which dates are considered working days
-* Workdays Per Week can be overwritten by Frequencies
-
-## Solution Manager
-
-* In Solution Manager, **Calendars** is found in **Library > Administration > Calendars**
-
-### Calendar Select/Add/Edit Main Screen
-
-![](../static/imgbasic/sm-calendar-main.png)
-
 ### Calendar Add/Edit Selections
 
 ![](../static/imgbasic/sm-calendar-add-edit.png)
@@ -41,6 +33,13 @@ sidebar_label: 'Calendars'
 ### Calendar Associations
 
 ![](../static/imgbasic/sm-calendar-associations.png)
+
+### Workdays Per Week
+
+* Workdays Per Week combined with Schedule Holiday Calendars specify which dates are considered working days
+* Workdays Per Week can be overwritten by Frequencies
+
+
 
 ## Enterprise Manager
 

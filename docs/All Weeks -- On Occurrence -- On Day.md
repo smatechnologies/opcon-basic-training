@@ -36,6 +36,7 @@ sidebar_label: 'All Weeks -- On Occurrence -- On Day'
 ![Picture239](../static/imgbasic/SM_Frequency_OnDay.png)
 
 
+
 ## Enterprise Manager
 
 <details>

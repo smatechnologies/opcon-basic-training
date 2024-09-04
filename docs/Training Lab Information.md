@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Class Information'
+sidebar_label: 'Training Lab Information'
 ---
 
 ### This Week...

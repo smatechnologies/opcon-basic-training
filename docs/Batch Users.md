@@ -31,6 +31,8 @@ SQL Agent also requires an added valid Batch User Privilege
 
 ![](../static/imgbasic/sm-batch-user-privileges.png)
 
+
+
 ## Enterprise Manager
 
 <details>

@@ -25,6 +25,8 @@ sidebar_label: 'Machines'
 
 ![](../static/imgbasic/sm-agent-details.png)
 
+
+
 ## Enterprise Manager
 
 <details>

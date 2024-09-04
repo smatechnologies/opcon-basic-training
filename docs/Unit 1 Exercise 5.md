@@ -37,6 +37,8 @@ Once the Jobs are tagged, view the Tag assignments in **Tags**.
 You can validate what jobs are tagged by selecting that **Tag** from the list in the left column and review the list that populates on the right-hand side of the screen.
 :::
 
+
+
 ## Enterprise Manager
 
 <details>

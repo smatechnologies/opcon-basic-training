@@ -26,6 +26,8 @@ Create a Schedule named **MY FIRST SCHEDULE**. Provide documentation about this 
 10.	Click the **Save**. 
 11. Close **Studio**.  
 
+
+
 ## Enterprise Manager
 
 <details>
