@@ -6,7 +6,7 @@ sidebar_label: 'Architecture'
 
 * A Platform independent Job Scheduling and Automation Solution that SMA provides to manage an entire data center
 
-<img src="imgbasic/Picture3.png" width="600"/>
+![](../static/imgbasic/Picture3.png)
 
 ### OpCon Architecture Overview
 

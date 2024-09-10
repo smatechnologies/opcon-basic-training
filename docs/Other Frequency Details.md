@@ -18,7 +18,7 @@ sidebar_label: 'Other Frequency Details'
 
 ## Job Information
 
-<img src="imgbasic/Build_status.png" width="700"/>
+![](../static/imgbasic/Build_status.png)
 
 
 #### Job Build Status
@@ -37,7 +37,7 @@ sidebar_label: 'Other Frequency Details'
 
 ## Offset Information
 
-<img src="imgbasic/Start_Offsets.png" width="700"/>
+![](../static/imgbasic/Start_Offsets.png)
 
 #### Schedule Start Time
 
@@ -71,7 +71,7 @@ sidebar_label: 'Other Frequency Details'
 
 ## Start Time and Job Execution
 
-<img src="imgbasic/JobStartTime.png" width="700"/>
+![](../static/imgbasic/JobStartTime.png)
 
 #### Start Time Estimation
 

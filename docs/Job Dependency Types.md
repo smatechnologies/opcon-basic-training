@@ -9,8 +9,7 @@ sidebar_label: 'Job Dependency Types'
 * **Excludes** – The selected Job will be removed from the Schedule on days the dependent Job is scheduled
 * **Conflict** – Dependent Job will not start if the selected Job is currently running
 
-<img src="imgbasic/Job_Dependency_Fields.png" width="600"/>
-
+![](../static/imgbasic/Job_Dependency_Fields.png)
 #### Requires
 
 * Represented with a solid line
@@ -20,7 +19,7 @@ sidebar_label: 'Job Dependency Types'
 
 * **Job 2** requires **Job 1** to be in the daily.
 
-<img src="imgbasic/Required_Depen.png" width="300"/>
+![](../static/imgbasic/Required_Depen.png)
 
 :::
 
@@ -35,7 +34,7 @@ sidebar_label: 'Job Dependency Types'
 * **Job 3** has an After Dependency on **Job 2** because it is only occasionally present
 * **Job 3** also needs a Dependency on **Job 1** to make sure **Job 1** runs before **Job 3** when **Job 2** does not exist
 
-<img src="imgbasic/Afrer_Depen.png" width="500"/>
+![](../static/imgbasic/Afrer_Depen.png)
 
 :::
 
@@ -53,7 +52,7 @@ sidebar_label: 'Job Dependency Types'
 * **Job 2** and **Job 3** will be included in the build on **Friday**
 * **Job 2** is excluding **Job 1** from being in the build on **Fridays**
 
-<img src="imgbasic/Exclude_Depen.png" width="500"/>
+![](../static/imgbasic/Exclude_Depen.png)
 
 :::
 
@@ -69,7 +68,7 @@ sidebar_label: 'Job Dependency Types'
 
 **Job 1** and **Job 4** can't run simultaniously but don't need to be dependent on each other.
 
-<img src="imgbasic/Conflict_Depen.png" width="500"/>
+![](../static/imgbasic/Conflict_Depen.png)
 
 :::
 

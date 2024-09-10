@@ -11,15 +11,15 @@ sidebar_label: 'Audit Management'
 
 * Resides under **Management** > **Reporting**
 
-<img src="imgbasic/AuditHistory.png" width="600"/>
+![](../static/imgbasic/AuditHistory.png)
 
 #### Filtering
 
 * The Audit Management (view) screen displays drop list for user, audit category selection, and options for date range to view preferred Audit information
 
-<img src="imgbasic/Columns.png" width="500"/>
+![](../static/imgbasic/Columns.png)
 
-<img src="imgbasic/Categories.png" width="500"/>
+![](../static/imgbasic/Categories.png)
 
 
 

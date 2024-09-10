@@ -14,7 +14,7 @@ sidebar_label: 'Schedule Instance Properties'
 
 ### Property Selector
 
-<img src="imgbasic/SI_PropertySelector.png" width="750"/>
+![](../static/imgbasic/SI_PropertySelector.png)
 
 ### Command Line
 

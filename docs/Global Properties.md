@@ -36,10 +36,9 @@ sidebar_label: 'Global Properties'
 
 :::tip Best Practice
 
-Any time you see the **Property Selector** icon, <img src="imgbasic/PropertySelectorIcon.png" width="20"/>, you can use a property in that field. It is best practice to click this icon to pop up the Property Selector window to select the property you want to use.
+Any time you see the **Property Selector** icon, ![](../static/imgbasic/PropertySelectorIcon.png), you can use a property in that field. It is best practice to click this icon to pop up the Property Selector window to select the property you want to use.
 
-<img src="imgbasic/PropertySelectorWindow.png" width="750"/>
-
+![](../static/imgbasic/PropertySelectorWindow.png)
 :::
 
 ### Troubleshooting Global Properties in Logs
