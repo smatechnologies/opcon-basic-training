@@ -21,7 +21,7 @@ Machine must be stopped in order to define a Machine Instance Property.
 
 ### Property Selector
 
-<img src="imgbasic/MI_PropertySelector.png" width="750"/>
+![](../static/imgbasic/MI_PropertySelector.png)
 
 ### Command Line
 

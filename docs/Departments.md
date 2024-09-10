@@ -16,7 +16,7 @@ _Three Steps to setting up Departments in OpCon_:
 
 ### Create Department
 
-<img src="imgbasic/Add_Departments.png" width="700"/>
+![](../static/imgbasic/Add_Departments.png)
 
 * In Solution Manager, **Departments** is found in **Library > Security > Departments**
 * Only required field is **Name**  

@@ -14,11 +14,11 @@ sidebar_label: 'Job Instance Properties'
 
 ### Property Selector
 
-<img src="imgbasic/JI_PropertySelector.png" width="750"/>
+![](../static/imgbasic/JI_PropertySelector.png)
 
 ### Command Line
 
-![](../static/imgbasic/JI_CommandLine.png)|
+![](../static/imgbasic/JI_CommandLine.png)
 
 
 

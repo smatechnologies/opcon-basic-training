@@ -24,7 +24,7 @@ sidebar_label: 'Server Options'
   * Allowing wildcards in Events
   * TLS Certificate Number
 
-<img src="imgbasic/General.png" width="750"/>
+![](../static/imgbasic/General.png)
 
 #### Logging
 
@@ -32,8 +32,7 @@ sidebar_label: 'Server Options'
   * Log job dependency errors to Critical.log
   * Maximum number of days logs should be kept
 
-<img src="imgbasic/Logging.png" width="750"/>
-
+![](../static/imgbasic/Logging.png)
 #### Security
 
 * Here you can configure the settings for things like:
@@ -41,7 +40,7 @@ sidebar_label: 'Server Options'
   * Password Strength Requirements
   * Number of failed log in attempts
 
-<img src="imgbasic/Security.png" width="750"/>
+![](../static/imgbasic/Security.png)
 
 #### Notifications
 
@@ -49,8 +48,7 @@ sidebar_label: 'Server Options'
   * Number of days to keep notification history
   * SPO & SNMP settings
   * License Notificaitons
-
-<img src="imgbasic/Notifications.png" width="750"/>
+![](../static/imgbasic/Notifications.png)
 
 #### SMTP
 
@@ -59,21 +57,21 @@ sidebar_label: 'Server Options'
   * SMTP Settings
   * SMS Settings
 
-<img src="imgbasic/SMTP.png" width="750"/>
+![](../static/imgbasic/SMTP.png)
 
 #### Vision
 
 * Here you can configure the settings for things like:
   * Vision card history
 
-<img src="imgbasic/Vision.png" width="750"/>
+![](../static/imgbasic/Vision.png)
 
 #### Time
 
 * Here you can configure the settings for things like:
   * Build Time
 
-<img src="imgbasic/Time.png" width="750"/>
+![](../static/imgbasic/Time.png)
 
 
 
