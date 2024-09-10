@@ -26,7 +26,7 @@ Log Collectors
 
 * Application Logs as well as Schedule Build and Archived Logs are accessible under **Library** > **Administration** > **Logs**.
 
-![](../static/imgbasic/Logs.pn)
+![](../static/imgbasic/Logs.png)
 
 #### Log Location in Windows
 
