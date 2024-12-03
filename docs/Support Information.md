@@ -1,7 +1,7 @@
 ---
 sidebar_label: 'Support Information'
 ---
-### <a href="https://smatech2.my.site.com/SMAOpConUserCommunity/s/" target="_blank">The OpCon User Community</a>
+### <a href="https://smatech2.my.site.com/SMASupportPortal" target="_blank">SMA Support Portal</a>
 
 ![](../static/imgbasic/Community.png)
 
