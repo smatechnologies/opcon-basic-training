@@ -33,7 +33,7 @@ Your browser does not support the video tag.
 7. Nell'elenco a discesa User ID, selezionare ```SMATRAINING\SMAUSER```
 8. Nella **Command Line**, digitare:
 ```
-“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t10
+"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t10
 ```
 9. Click sul pulsante **Save** nella barra degli strumenti nella finestra **Job Master**.
 10. All'interno della schermata **Job Master**, nelle Proprietà del Job fare click nel tab Frequency.

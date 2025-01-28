@@ -92,10 +92,10 @@ Your browser does not support the video tag.
 	* Usare il Job Sub-Type Command: File Move
 	* Usare una combinazione di Incoming Global Property e [[SI.FILENAME]] per il SOURCE.
 	* Esempio:
-	```“[[HR-Incoming]]\[[SI.FILENAME]]”```
+	```"[[HR-Incoming]]\[[SI.FILENAME]]"```
 	* Usare una combinazione di **Archive Global Property**, la ```[[SI.FILENAME]]``` e la **data corrente** con un offset di ```(-1m)``` per la **DESTINATION**.
 	* Esempio:   
-	```“[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]”```
+	```"[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]"```
 
 :::note
 _La **Schedule Instance Property ```[[SI.FILENAME]]```** sarà passata dall'evento **File Arrival** ```JOB:ADD``` **Event**_
@@ -126,9 +126,9 @@ _La **Schedule Instance Property ```[[SI.FILENAME]]```** sarà passata dall'even
 	```[[$SCHEDULE DATE]],[[$SCHEDULE NAME]],File Arrival```
 * Creare un File Arrival Job chiamato **File Arrival**
 * *Monitorare per il percorso:
-```“[[HR-Incoming]]\*.txt”```  
+```"[[HR-Incoming]]\*.txt"```  
     O   
-```“C:\Human Resources\Incoming Files\*.txt”```   
+```"C:\Human Resources\Incoming Files\*.txt"```   
 * **Start Time** per la creazione del file dovrebbe essere ```00:00 (midnight)```
 * **End Time** per la creazione del file dovrebbe essere ```7:00PM```
 * Aggiungere il **Failure Criteria**

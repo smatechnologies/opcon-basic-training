@@ -33,7 +33,7 @@ Your browser does not support the video tag.
 
 4.	Dans la fenêtre d'invite de commandes, tapez :
 ```
-cd “C:\Program Files\OpConxps\MSLSAM”
+cd "C:\Program Files\OpConxps\MSLSAM"
 ```
 5.	Appuyez sur la touche Entrée.
 6.	Toujours dans l'invite de commandes, tapez: 

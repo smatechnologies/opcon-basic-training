@@ -118,7 +118,7 @@ Your browser does not support the video tag.
   *	Call the programs on the command line. For example: 
   
   ```   
-  “C:\scripts\CheckInvToys.EXE” -t11  
+  "C:\scripts\CheckInvToys.EXE" -t11  
   ```  
   *   These Jobs need to run Monday-Sunday
   *	These Jobs need to run ```every 30 minutes``` when they have finished ok

@@ -16,11 +16,11 @@ Creare due Global Properties:
 
 Per ciascuno dei Job in **MY FIRST SCHEDULE**, sostituisce il testo hard-coded con le proprietà appena create:
 
-```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20```
+```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t20```
 
 in:
 
-```“[[PathWindows]]\genericp.exe” -t[[RUNTIME]]```
+```"[[PathWindows]]\genericp.exe" -t[[RUNTIME]]```
 
 Rimettere a piano (Rebuild) **MY FIRST SCHEDULE**, sovrascrivendo la data odierna. Visualizzare le escuzioni dello Schedule nella vista **Matrix View** e fare click con il pulsante destro sul Job **WINDOWS JOB 1** per visualizzare **Job Information > Configuration > Token Replacement Values**.
 
@@ -62,11 +62,11 @@ Your browser does not support the video tag.
 
 * Cambiate il seguente valore:
 
-```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20```  
+```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t20```  
 
 in:
 
-```“[[PathWindows]]\genericp.exe” -t[[RUNTIME]]```
+```"[[PathWindows]]\genericp.exe" -t[[RUNTIME]]```
 
 17. Fare click sul pulsante **Save**.
 18. Ripetere per il Job **Windows Job 2** fino **Windows Job 5**.

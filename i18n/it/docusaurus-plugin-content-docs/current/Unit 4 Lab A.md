@@ -77,7 +77,7 @@ Your browser does not support the video tag.
 :::note Esempio:
 Usare la proprietà globale creata in precedenza che ha il percorso per ```C:```:
 ```
-“[[scripts]]\UpdInvLegos.CMD”
+"[[scripts]]\UpdInvLegos.CMD"
 ```
 :::
 
@@ -89,7 +89,7 @@ Usare la proprietà globale creata in precedenza che ha il percorso per ```C:```
 * Creare una **Threshold** chiamata ```LEVISThreshold``` ed assegnare il valore ```0``` 
 
 :::info Nota
-_** C'è un punto nello script ```"UpdInvNike.CMD"``` per eseguire ```“$THRESHOLD:SET, LEVISThreshold,1”```, così il Job **Levis** può partire_
+_** C'è un punto nello script ```"UpdInvNike.CMD"``` per eseguire ```"$THRESHOLD:SET, LEVISThreshold,1"```, così il Job **Levis** può partire_
 :::
 
 * Sul Job **Levis** creare una **Threshold Dependency** sulla ```LEVISThreshold``` che richiede il valore ```1```

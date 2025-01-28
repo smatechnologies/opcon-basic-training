@@ -11,7 +11,7 @@ Creare uno Schedule chiamato **Windows File Arrival**.
 
 All'interno dello Schedule **Windows File Arrival**, creare un Windows Job chiamato **Windows File Arrival Job** con una azione di tipo ```File Arrival``` **Job Action** in esecuzione con la Frequenza Monday-Friday.
 
-* **File Name**: ```“C:\Windows File Arrival\WindowsFile1.txt”```
+* **File Name**: ```"C:\Windows File Arrival\WindowsFile1.txt"```
 * **Start Time**: ```0900```
 * **End Time**: ```1700```
 * **File Size Stable Duration (in secs)**: ```5```
@@ -39,7 +39,7 @@ Your browser does not support the video tag.
 	* **Primary Machine**: ```SMATraining```
 	* **Job Action**: ```File Arrival```
 	* **User ID**: ```SMATRAINING\SMAUSER```
-	* **File Name**: ```“C:\Windows File Arrival\WindowsFile1.txt”```
+	* **File Name**: ```"C:\Windows File Arrival\WindowsFile1.txt"```
 	* **Start Time**: ```0900```
 	* **End Time**: ```1700```
 	* **File Size Stable Duration (in secs)**: ```5```

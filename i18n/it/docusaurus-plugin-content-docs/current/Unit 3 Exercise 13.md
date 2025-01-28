@@ -42,7 +42,7 @@ Your browser does not support the video tag.
 * Nell'elenco a discesa **Primary Machine** selezionare la macchina ```SMATraining``` su lla quale girerà il Job.
 * Nell'elenco a discesa **User ID** selezionare ```SMATRAINING\SMAUSER```.
 * Nella **Command Line**, digiatre **Ctrl + F** fare doppio clic su un comando che somigli a questo:
-    ```“[[PathWindows]]\genericp.exe” -t[[RUNTIME]]```  
+    ```"[[PathWindows]]\genericp.exe" -t[[RUNTIME]]```  
 * Fare clic sul pulsante **Save**.
 * Fare clic sulla scheda **Frequency**.
 * All'interno del riquadro **Frequency list** fare clic aul pulsante **Add**.

@@ -28,7 +28,7 @@ Using the existing schedule called, **Embedded Scripts Training**, create a Wind
 9.	In the **Script** drop-down list, select the **Create_Folder**. 
 10.	Leave the Version as **LATEST (X)**.
 11.	In the **Runner** drop-down menu, select **Command Shell**.
-12.	In the **Arguments** textbox, type the following, ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”```
+12.	In the **Arguments** textbox, type the following, ```"C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]"```
 * _Remember to use properties where acceptable_
 13.	Click the **Save** button.
 14. Click the **Lock** icon in the upper right-hand corner.
@@ -37,7 +37,7 @@ Using the existing schedule called, **Embedded Scripts Training**, create a Wind
 
 #### Verify Directory Does NOT Exist
 
-17.	Outside of OpCon (Using **Windows File Explorer**) verify that the following folder does not exist in the following path, ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”```, (where ```$SCHEDULE DATEYYYYMM``` refers to the current month of the current year)
+17.	Outside of OpCon (Using **Windows File Explorer**) verify that the following folder does not exist in the following path, ```"C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]"```, (where ```$SCHEDULE DATEYYYYMM``` refers to the current month of the current year)
 
 #### Build Schedule
 
@@ -74,14 +74,14 @@ Using the existing schedule called, **Embedded Scripts Training**, create a Wind
 17.	In the **Runner** drop-down menu, select ```Command Shell```.
 18.	In the **Arguments** textbox, type the following: 
 ```
-“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
+"C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]"
 ```
 19.	Click the **Save** button.
 20.	Give the Job a Frequency of **Mon-Fri-N**.
 21.	Add **Documentation** and then close the **Job Master**.
 22.	Outside of OpCon verify that the following folder does not exist:  
 ```
-“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
+"C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]"
 ```
 (where ```$SCHEDULE DATEYYYYMM``` refers to the current month of the current year)
 

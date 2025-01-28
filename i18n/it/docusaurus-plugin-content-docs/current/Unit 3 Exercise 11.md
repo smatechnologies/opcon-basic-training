@@ -16,13 +16,13 @@ Riavviare la comunicazione con la macchina ```SMATraining```.
 Selezionare **WINDOWS JOB 4** nello Schedule **MY FIRST SCHEDULE**. Aggiorna la riga di comando per il lavoro utilizzando le **Instance Properties** appena creata, cambiare:
 
 ```
-“[[PathWindows]]\genericp.exe” -t[[RUNTIME]] -e0
+"[[PathWindows]]\genericp.exe" -t[[RUNTIME]] -e0
 ```
 
 in
 
 ```
-“[[MI.PathWindows]]\genericp.exe” -t[[SI.RUNTIME]] -e0
+"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0
 ```
 
 Rimetter a piano (Rebuild) lo Schedule **MY FIRST SCHEDULE**, sovrascrivendo e rilasciando per il piano giornaliero corrente. Rilasciare **WINDOWS JOB 1** e **WINDOWS JOB 2**.
@@ -65,13 +65,13 @@ Your browser does not support the video tag.
 22. Aggiornare la riga di comando per utilizzare le nuove proprietà posizionando le **Properties** per puntare alle **Machine** o alle **Schedule Instance Properties** invece che alle **Global Properties**:
 
 ```
-“[[PathWindows]]\genericp.exe” -t[[RUNTIME]] -e0
+"[[PathWindows]]\genericp.exe" -t[[RUNTIME]] -e0
 ```
 
 to:
 
 ```
-“[[MI.PathWindows]]\genericp.exe” -t[[SI.RUNTIME]] -e0
+"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0
 ```
 
 23. Fare clic sul pulsante **Save**.

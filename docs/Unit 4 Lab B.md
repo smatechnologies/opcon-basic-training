@@ -42,7 +42,7 @@ The steps taken to process each file are:
     * Use a combination of the **Incoming Global Property** and the ```[[SI.FILENAME]]``` for the **SOURCE**.  
       * _Example: ```"[[HR-Incoming]]\[[SI.FILENAME]]"```_
     * Use a combination of the **Archive Global Property**, the ```[[SI.FILENAME]]``` and the **current schedule date** with a ```(-1m)``` offset for the **DESTINATION**.   
-      * _Example: ```“[[HR-Archive]]\[[$SCHEDULE DATEyyyymm(-1m)]]-[[SI.FILENAME]]”```_
+      * _Example: ```"[[HR-Archive]]\[[$SCHEDULE DATEyyyymm(-1m)]]-[[SI.FILENAME]]"```_
 
 :::note
 The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the **File Arrival JOB:ADD Event**
@@ -133,10 +133,10 @@ The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the *
   * Use the ```Command: File Move``` Job Sub-Type
   * Use a combination of the **Incoming Global Property** and the ```[[SI.FILENAME]]``` for the **SOURCE**.  
   Example:   
-  ```“[[HR-Incoming]]\[[SI.FILENAME]]”```
+  ```"[[HR-Incoming]]\[[SI.FILENAME]]"```
  * Use a combination of the **Archive Global Property**, the ```[[SI.FILENAME]]``` and the **current date** with a ```(-1m)``` offset for the **DESTINATION**.   
     :::note Example   
-    ```“[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]”``` 
+    ```"[[HR-Archive]]\[[$DATEyyyymm(-1m)]]-[[SI.FILENAME]]"``` 
     :::
 
 :::note
@@ -170,9 +170,9 @@ The **Schedule Instance Property** ```[[SI.FILENAME]]``` will be passed by the *
 
 * Create a File Arrival Job named **File Arrival**
 * *Monitor for the following:
-```“[[HR-Incoming]]\*.txt”```  
+```"[[HR-Incoming]]\*.txt"```  
 Or   
-```“C:\Human Resources\Incoming Files\*.txt”```   
+```"C:\Human Resources\Incoming Files\*.txt"```   
 * **Start Time** for file creation should be ```00:00``` (midnight) 
 * **End Time** for the file creation should be ```7:00PM```
 * Add **Failure Criteria**

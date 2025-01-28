@@ -19,7 +19,7 @@ Attraverso uno Schedule chiamato **CONGO ACCOUNTING FOLDERS**, il Team Contabili
 Il seguente script dovrebbe essere usato per creare ogni cartella:
 
 ```
-“C:\scripts\Create_Folder.cmd” “C:\Accounting\yyyy-mm-dd-Legos”
+"C:\scripts\Create_Folder.cmd" "C:\Accounting\yyyy-mm-dd-Legos"
 ```
 dove "Lego" è il prodotto.
 
@@ -56,7 +56,7 @@ Your browser does not support the video tag.
 ( Usare la seguente **riga di comando** sostituendo i tre oggetti specificati sopra con le relative **Global Properties**: 
 
 ```
-“C:\scripts\Create_Folder.cmd” “C:\Accounting\yyyy-mm-dd-Legos”
+"C:\scripts\Create_Folder.cmd" "C:\Accounting\yyyy-mm-dd-Legos"
 ```  
 
 :::note Nota

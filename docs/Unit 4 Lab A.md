@@ -68,7 +68,7 @@ Best practice is to use Properties in place of any path that may change in time.
 * Create a **Threshold** called **LEVISThreshold** that has a base value of **0**.
 
 :::info
-There is a point in the ```"UpdInvNike.CMD"``` script to execute ```“$THRESHOLD:SET, LEVISThreshold,1”```, so the Levis Job can start
+There is a point in the ```"UpdInvNike.CMD"``` script to execute ```"$THRESHOLD:SET, LEVISThreshold,1"```, so the Levis Job can start
 * _This is for informational purposes only – There is no need to create this event_
 :::
 
@@ -120,7 +120,7 @@ There is a point in the ```"UpdInvNike.CMD"``` script to execute ```“$THRESHOL
 use the Global Property you create previously that has the path for ```C:\Scripts```: 
 
 ```
-“[[scripts]]\UpdInvLegos.CMD”
+"[[scripts]]\UpdInvLegos.CMD"
 ```
 :::
 
@@ -134,7 +134,7 @@ This Job is reporting inventory for the number of Legos in Stock
 *	Create a **Threshold** named **LEVISThreshold** and give it a value of ```0```  
 
 :::info
-There is a point in the ```"UpdInvNike.CMD"``` script to execute ```“$THRESHOLD:SET, LEVISThreshold,1”```, so the Levis Job can start
+There is a point in the ```"UpdInvNike.CMD"``` script to execute ```"$THRESHOLD:SET, LEVISThreshold,1"```, so the Levis Job can start
 * _This is for informational purposes only – There is no need to create this event_
 :::
 

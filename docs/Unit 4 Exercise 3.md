@@ -61,7 +61,7 @@ What happened?
 14.	Right-Click the **Threshold External Event Job**.
 15. Click the **Wrench** icon to open the **Daily Job Definition**.
 16. Click the **Lock** icon to edit Daily details.
-17.	In **Task Details**, change the **Command Line** to this: ```“C:\scripts\ExerciseThreshold.cmd” -1```
+17.	In **Task Details**, change the **Command Line** to this: ```"C:\scripts\ExerciseThreshold.cmd" -1```
 18.	Click the **Save** button (This will only save the Job in the Daily Definition).
 19.	In **Processes**, right-Click the Job and select **Restart** in the **Status Update**.
 20.	Wait until the Job finishes **OK**.
@@ -96,7 +96,7 @@ What happened?
 6.	Setup this Job to run the **script** named ```ExerciseThreshold.cmd```, passing ```+1``` as a parameter:
 	* The command line must be: 
 	```
-	“C:\scripts\ExerciseThreshold.cmd” +1
+	"C:\scripts\ExerciseThreshold.cmd" +1
 	```
 	* The Job will run on the ```SMATraining``` machine
 	* Use the ```SMATRAINING\SMAUSER``` User ID 
@@ -123,7 +123,7 @@ What happened?
 21.	Close the Thresholds tab.
 22.	Go back to one of your **Operations Views**.
 23.	Right-Click the **Threshold External Event Job> Maintenance> Edit Daily Job**.
-24.	Change the **Command Line** to this: ```“C:\scripts\ExerciseThreshold.cmd” -1```
+24.	Change the **Command Line** to this: ```"C:\scripts\ExerciseThreshold.cmd" -1```
 25.	Click the **Save** button in the **Daily Job** toolbar (_Do not save the Job to the Master_).
 26.	Close the Job Daily (**Threshold External Event Job**) tab.
 27.	Right-Click the Job and select **Restart**.

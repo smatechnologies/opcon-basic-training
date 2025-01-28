@@ -14,7 +14,7 @@ Create two Global Properties, ```RUNTIME``` with a value of ```10``` and ```PATH
 
 Build **MY FIRST SCHEDULE** for today, then view the schedule's performance in Processes screen. Verify that the proper values are attributed to the Properties used.
 
-The command line should change from ```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20``` to ```“[[PATH_Windows]]\genericp.exe” -t[[RUNTIME]]```.
+The command line should change from ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t20``` to ```"[[PATH_Windows]]\genericp.exe" -t[[RUNTIME]]```.
 
 ### Instructions
 
@@ -127,11 +127,11 @@ This Global Property will store the number of seconds to run the program.
 16.	Update your command line to use the new properties in place of the hard-coded text.
 Change the following:
 
-```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20```  
+```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t20```  
 
 to:
 
-```“[[PATH_Windows]]\genericp.exe” -t[[RUNTIME]]```
+```"[[PATH_Windows]]\genericp.exe" -t[[RUNTIME]]```
 
 17.	Click the **Save** button.
 18.	Repeat for **Windows Job 2** through **Windows Job 4**.

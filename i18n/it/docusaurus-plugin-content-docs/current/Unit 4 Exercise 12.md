@@ -11,7 +11,7 @@ Creare uno Schedule chiamato **MultipleFiles-Main Schedule**.
 
 All'interno dello Schedule **MultipleFiles-Main Schedule**, creare un Job Windows chiamato **File Arrival Job** con una Job Action di tipo ```File Arrival```, in esecuzione con la **Frequenza** ```Monday-Friday```.
 
-* **File Name**: ```“C:\Multi-File Arrival\MultiFile*.txt”```
+* **File Name**: ```"C:\Multi-File Arrival\MultiFile*.txt"```
 * **Start Time**: ```0900```
 * **End Time**: ```1700```
 * **File Size Stable Duration (in secs)**: ```5```
@@ -30,8 +30,8 @@ All'interno dello Schedule **MultipleFiles-SubSchedule**, creare un Job Windows 
 
 All'interno dello Schedule **MultipleFiles-SubSchedule**, creare un Job Windows chiamato **Archive File** con un **Job Sub-Type** of ```Command: File Move```, in esecuzione con la Frequenza ```Monday-Friday```.
 
-* **Source**: ```“[[SI.FILENAME]]”```
-* **Destination**: ```“C:\Multi-File Arrival\Archive\”```
+* **Source**: ```"[[SI.FILENAME]]"```
+* **Destination**: ```"C:\Multi-File Arrival\Archive\"```
 
 Creare una **Requires Dependency** per l'**Archive File** Job e **Process File** Job.
 
@@ -116,8 +116,8 @@ $JOB:ADD,<Schedule date>,<Schedule name>,<Job name>,<Frequency name>,[Job instan
 * **Job Sub-Type**: ```Command: File Move```
 * **Primary Machine**: ```SMATraining```
 * **User ID**: ```SMATTRAINING```
-* **Source**: ```“[[SI.FILENAME]]”```
-* **Destination**: ```“C:\Multi-File Arrival\Archive\”```
+* **Source**: ```"[[SI.FILENAME]]"```
+* **Destination**: ```"C:\Multi-File Arrival\Archive\"```
 22. Fare clic sul pulsante **Save**.
 23. Assegnare al Job la **Frequenza** ```Mon-Fri-N```.
 24. Aggiungere la **Documentation** al Job.

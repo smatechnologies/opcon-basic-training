@@ -32,7 +32,7 @@ Click qui per Istruzioni passo passo
 
 4. Dal finestra dei Comandi digitare:
 ```
-cd “C:\Program Files\OpConxps\MSLSAM”
+cd "C:\Program Files\OpConxps\MSLSAM"
 ```
 5. Premere il taso INVIO.
 6. Continuare a digitare nella finestra dei comandi:

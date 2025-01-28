@@ -56,7 +56,7 @@ Your browser does not support the video tag.
 * Questo job deve essere eseguito sula macchina ```SMATRAINING```
 * Usare la seguente riga di comando:
 ```
-“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t15 -e0
+"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t15 -e0
 ```
 * I jobs devono essere eseguiti dal ```lunedì al venerdì```
 * Utilizzare la Frequenza esistente: ```Mon-FriOnDate```

@@ -62,7 +62,7 @@ Your browser does not support the video tag.
 * Richiamare i programmi sulla riga di comando. Per esempio::
   
   ```   
-  “C:\scripts\CheckInvToys.EXE” -t11  
+  "C:\scripts\CheckInvToys.exe" -t11  
   ```
 
 * Questi Jobs devono essere eseguiti dal lunedì alla domenica
