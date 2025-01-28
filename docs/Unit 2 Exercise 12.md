@@ -33,7 +33,7 @@ Create a new Schedule called **Multiple and Negative Frequencies** that runs Mon
 14. Click the **Add** button.
 15. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```15th-B```.
-  * In the **When to Scheduled** dop-down menu, select **On Day**.
+  * In the **When to Schedule** drop-down menu, select **On Day**.
   * In the **On** *X* **days of week**, enter ```15```.
   * In the **Day Type** field, select **On 15th day**.
   * In the **A/O/B/N** section, select **Before Date**.
@@ -62,7 +62,7 @@ Create a new Schedule called **Multiple and Negative Frequencies** that runs Mon
 34. Click the **Lock** button to enter **Admin Mode**.
 35. In the Frequency Manager Wizard:
   * In the **Name** field, enter ```Mon-Fri-N```.
-  * In the **When to Scheduled** dop-down menu, select **All Weeks**.
+  * In the **When to Schedule** drop-down menu, select **All Weeks**.
   * In the **Days of the Week**, select **Monday-Friday**.
   * In the **A/O/B/N** section, select **Not Schedule**.
   * Click the **Save** button.

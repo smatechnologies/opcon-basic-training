@@ -35,7 +35,7 @@ In the **Annual Plan Plus One Freq** job, create a new frequency that will utili
 8. Click the **Add** button.
 9. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```15th+30th-B```.
-  * In the **When to Scheduled** dop-down menu, select **On Intervals**.
+  * In the **When to Schedule** drop-down menu, select **On Intervals**.
   * In the **On Intervals** section, check the boxes for **15** and **30**.
   * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
@@ -58,7 +58,7 @@ The **Forecast** screen should show the **15th and 30th days of each month** as 
 18. Click the **Add** button.
 19. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```Annual```.
-  * In the **When to Scheduled** dop-down menu, select **Annual Plan**.
+  * In the **When to Schedule** drop-down menu, select **Annual Plan**.
   * In the **Calendar** drop-down menu, select **Master Holiday**.
   * In the **A/O/B/N** section, select **On Date**.
   * Click the **Save** button.
@@ -80,7 +80,7 @@ The **Forecast** screen should show the **dates selected on the Master Holiday i
 28. Click the **Add** button.
 29. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```Annual+1WD```.
-  * In the **When to Scheduled** dop-down menu, select **Annual Plan**.
+  * In the **When to Schedule** drop-down menu, select **Annual Plan**.
   * In the **Calendar** drop-down menu, select **My First Calendar**.
   * in the **Offset Days**, enter ```1```.
   * In the **A/O/B/N** section, select **On Date**.
