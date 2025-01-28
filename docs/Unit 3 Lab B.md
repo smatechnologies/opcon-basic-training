@@ -32,7 +32,7 @@ You can reference [**Unit 1 - Exercise 1**](./Unit%201%20Exercise%201.md) for st
 
 * Create the jobs with the following settings:
   * **Legos**
-    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t90```
+    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" -t90```
     * Add documentation
     * Tag the Job under ```Toys```
     * Add a frequency that will allow the job to run everyday.
@@ -40,7 +40,7 @@ You can reference [**Unit 1 - Exercise 1**](./Unit%201%20Exercise%201.md) for st
     * Late to Start Offset: ```01:55 (4:55 am)```
     * Max Run Time: ```5```
   * **Nerf**
-    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t120```
+    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" -t120```
     * Add documentation
     * Tag the Job under ```Toys```
     * Add a frequency that will allow the job to run everyday.
@@ -48,7 +48,7 @@ You can reference [**Unit 1 - Exercise 1**](./Unit%201%20Exercise%201.md) for st
     * Late to Finish Offset: ```01:00 (5:00 am)```
     * Max Run Time: ```5```
   * **Smartphones**
-    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t15```
+    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t15```
     * Add documentation 
     * Tag the Job under ```Electronics```
     * Add a frequency that will allow the job to run everyday.
@@ -56,7 +56,7 @@ You can reference [**Unit 1 - Exercise 1**](./Unit%201%20Exercise%201.md) for st
     * Late to Finish Offset: ```00:30 (5:00 am)```
     * Max Run Time: ```5```
   * **XBOX**
-    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t350```
+    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t350```
     * Add documentation 
     * Tag the Job under ```Electronics```
     * Add a frequency that will allow the job to run everyday.
@@ -64,7 +64,7 @@ You can reference [**Unit 1 - Exercise 1**](./Unit%201%20Exercise%201.md) for st
     * Late to Finish Offset: ```02:30 (5:00 am)```
     * Max Run Time: ```5```
   * **Levis**
-    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t45```
+    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t45```
     * Add documentation 
     * Tag the Job under ```Clothing```
     * Add a frequency that will allow the job to run everyday.
@@ -72,7 +72,7 @@ You can reference [**Unit 1 - Exercise 1**](./Unit%201%20Exercise%201.md) for st
     * Late to Start Offset: ```01:45 (4:55 am)```
     * Max Run Time: ```5```
   * **Nike**
-    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t75```
+    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t75```
     * Add documentation 
     * Tag the Job under ```Clothing```
     * Add a frequency that will allow the job to run everyday.
@@ -139,42 +139,42 @@ You can reference [**Unit 1 - Exercise 6**](./Unit%201%20Exercise%206.md) for st
 
 *  Legos
     * Command Line: 
-     ```"C:\scripts\ShipmentProcessorToys.EXE" –t90```
+     ```"C:\scripts\ShipmentProcessorToys.EXE" -t90```
     * Start Offset: ```03:00```
     * Absolute Late to Start Offset: ```01:55 (4:55 am)```
     * Max Run Time: ```5```
     * Add documentation
     * Tag the Job under ```Toys```
 * Nerf
-    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t120```
+    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" -t120```
     * Start Offset: ```04:00```
     * Absolute Late to Finish Offset: ```01:00 (5:00 am)```
     * Max Run Time: ```5```
     * Add documentation 
     * Tag the Job under ```Toys```
 * Smartphones
-    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t15```
+    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t15```
     * Start Offset: ``04:30``
     * Absolute Late to Finish Offset: ```00:30 (5:00 am)```
     * Max Run Time: ```5```
     * Add documentation 
     * Tag the Job under ```Electronics```
 * XBOX
-    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t350```
+    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t350```
     * Start Offset: ```02:30```
     * Absolute Late to Finish Offset: ```02:30 (5:00 am)```
     * Max Run Time: ```5```
     * Add documentation 
     * Tag the Job under ```Electronics```
 * Levis
-    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t45```
+    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t45```
     * Start Offset: ```03:10```
     * Absolute Late to Start Offset: ```01:45 (4:55 am)```
     * Max Run Time: ```5```
     * Add documentation 
     * Tag the Job under ```Clothing```
 * Nike
-    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t75```
+    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t75```
     * Start Offset: ```03:45```
     * Absolute Late to Finish Offset: ```01:15 (5:00 am)```
     * Max Run Time: ```5```

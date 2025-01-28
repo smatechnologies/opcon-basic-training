@@ -40,7 +40,7 @@ Votre navigateur ne prend pas en charge la vidéo.
     * Dans la liste déroulante **Machine Primaire**, sélectionnez la machine ```SMATraining``` sur laquelle le Job doit être exécuté.
     * Dans la liste déroulante **User ID**, sélectionnez ```SMATRAINING\SMAUSER```.
     *	Dans la **Command Line**, faire un Ctrl + F et double-cliquez sur la commande qui ressemble à :  
-    ```"[[PathWindows]]\genericp.exe" –t[[RUNTIME]]```  
+    ```"[[PathWindows]]\genericp.exe" -t[[RUNTIME]]```  
     * Cliquez sur le bouton **Sauvegarder**.
     * Cliquez sur l'onglet **Fréquence**.
     * Dans le cadre Liste Fréquences, cliquez sur le bouton **Ajouter**.

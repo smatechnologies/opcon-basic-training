@@ -62,11 +62,11 @@ Your browser does not support the video tag.
 
 * Cambiate il seguente valore:
 
-```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t20```  
+```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20```  
 
 in:
 
-```“[[PathWindows]]\genericp.exe” –t[[RUNTIME]]```
+```“[[PathWindows]]\genericp.exe” -t[[RUNTIME]]```
 
 17. Fare click sul pulsante **Save**.
 18. Ripetere per il Job **Windows Job 2** fino **Windows Job 5**.

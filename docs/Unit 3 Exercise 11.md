@@ -59,7 +59,7 @@ Modify **Windows Job 4** to use **Schedule and Job Instance Properties** for the
 :::tip
 The new command line should look similar to the following: 
 ```cmd
-"[[SI.Path]]\genericp.exe" –t[[JI.TIME]]
+"[[SI.Path]]\genericp.exe" -t[[JI.TIME]]
 ```
 :::
 
@@ -103,11 +103,11 @@ Validate that all the jobs in **My First Schedule** are in a completed state and
 21.	In the **Job** drop-down list, select **Windows Job 4**.
 22.	Update your command line to use the new properties by placing **Properties** to point to the **Machine** or **Schedule Instance Properties** instead of the **Global Properties**:
 ```
-“[[PathWindows]]\genericp.exe” –t[[RUNTIME]] –e0
+“[[PathWindows]]\genericp.exe” -t[[RUNTIME]] -e0
 
 to:
 
-"[[SI.Path]]\genericp.exe” –t[[JI.Time]] –e0
+"[[SI.Path]]\genericp.exe” -t[[JI.Time]] -e0
 ```
 23.	Click the **Save** button.
 24. In the **Instance Definition** tab, enter ```TIME=XX```, where XX is a number of your choosing between 10 and 60.

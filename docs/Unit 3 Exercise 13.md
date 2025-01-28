@@ -111,7 +111,7 @@ For all events, you can use **System Properties** for fields like the **Schedule
     *	In the User ID drop-down list, select ```SMATRAINING\SMAUSER``` 
     *	In the Command Line, type Ctrl + F and Double-Click on the command that looks like this:  
     ```
-    “[[PathWindows]]\genericp.exe” –t[[RUNTIME]]
+    “[[PathWindows]]\genericp.exe” -t[[RUNTIME]]
     ```  
     *	Click the **Save** button.
     *	Click the **Frequency** tab.

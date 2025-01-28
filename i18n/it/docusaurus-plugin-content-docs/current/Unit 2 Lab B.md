@@ -35,7 +35,7 @@ I Jobs devono essere eseguiti ogni ```30 minuti``` fino alle ```11:45 PM```.
 
 I programmi leggono il database e generano richieste d'ordine per l'acquisto di nuovi articoli. Alla fine della giornata, viene creato un **Inventory Purchase Report** con i risultati. Questo deve essere creato come Job ```UNIX``` con la seguente **Start Image**:
 
-```/usr/local/labfiles/CheckInvPurRpt –t100```  
+```/usr/local/labfiles/CheckInvPurRpt -t100```  
 
 <div>
 <video width="320" height="240" controls>
@@ -76,7 +76,7 @@ Your browser does not support the video tag.
 * Richiamare i programmi sulla riga di comando. Per esempio:
 
   ```  
-  /usr/local/labfiles/CheckInvPurRpt –t100  
+  /usr/local/labfiles/CheckInvPurRpt -t100  
   ```  
   
 * Questo Jobs deve essere eseguito dal lunedì alla domenica

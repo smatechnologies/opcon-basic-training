@@ -65,13 +65,13 @@ Votre navigateur ne prend pas en charge la vidéo.
 22. Mettez à jour votre ligne de commande pour utiliser les nouvelles propriétés en plaçant **Properties** pour pointer vers **les propriétés de l'instance** de la **machine** ou du **schedule** au lieu des **propriétés globales** :
 
 ```
-"[[PathWindows]]\genericp.exe" –t[[RUNTIME]] –e0
+"[[PathWindows]]\genericp.exe" -t[[RUNTIME]] -e0
 ```
 
 À
 
 ```
-"[[MI.PathWindows]]\genericp.exe" –t[[SI.RUNTIME]] –e0
+"[[MI.PathWindows]]\genericp.exe" -t[[SI.RUNTIME]] -e0
 ```
 
 23. Cliquez sur le bouton **Sauvegarder**.

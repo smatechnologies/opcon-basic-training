@@ -35,7 +35,7 @@ Les Jobs doivent s'exécuter toutes les ```30 minutes``` jusqu'à ```23h45```.
   
 Les programmes lisent la base de données et génèrent des demandes de commande pour acheter de nouveaux articles. À la fin de la journée, **un rapport d'inventaire d'achat** est créé avec les résultats. Celui-ci doit être créé en tant que Job ```UNIX``` avec la ligne de commande suivante :
 
-```/usr/local/labfiles/CheckInvPurRpt –t100```  
+```/usr/local/labfiles/CheckInvPurRpt -t100```  
 
 <div>
 <video width="320" height="240" controls>
@@ -77,7 +77,7 @@ Your browser does not support the video tag.
 * Appelez les programmes sur la ligne de commande. Par exemple :
 
   ```  
-  /usr/local/labfiles/CheckInvPurRpt –t100  
+  /usr/local/labfiles/CheckInvPurRpt -t100  
   ```  
   
 * Ce job doit être exécutée du **lundi au dimanche**.

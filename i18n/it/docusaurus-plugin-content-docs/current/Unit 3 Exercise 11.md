@@ -65,13 +65,13 @@ Your browser does not support the video tag.
 22. Aggiornare la riga di comando per utilizzare le nuove proprietà posizionando le **Properties** per puntare alle **Machine** o alle **Schedule Instance Properties** invece che alle **Global Properties**:
 
 ```
-“[[PathWindows]]\genericp.exe” –t[[RUNTIME]] –e0
+“[[PathWindows]]\genericp.exe” -t[[RUNTIME]] -e0
 ```
 
 to:
 
 ```
-“[[MI.PathWindows]]\genericp.exe” –t[[SI.RUNTIME]] –e0
+“[[MI.PathWindows]]\genericp.exe” -t[[SI.RUNTIME]] -e0
 ```
 
 23. Fare clic sul pulsante **Save**.

@@ -55,7 +55,7 @@ hide_title: 'false'
 
 Exemple:
 
-* Powershell inclut ```“–ExecutionPolicy Bypass and –File”``` avant la commande
+* Powershell inclut ```“-ExecutionPolicy Bypass and -File”``` avant la commande
 
 * Autorise plus d'un exécuteur de script par type de script
 

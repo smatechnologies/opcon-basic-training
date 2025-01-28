@@ -37,7 +37,7 @@ sidebar_label: 'Embedded Scripts'
 
 :::tip Example
 
-Powershell would include ```“–ExecutionPolicy Bypass and –File”``` before command, so the **Script Runner** would look like: ```powershell.exe -ExecutionPolicy Bypass -File $FILE $ARGUMENTS```.
+Powershell would include ```“-ExecutionPolicy Bypass and –File”``` before command, so the **Script Runner** would look like: ```powershell.exe -ExecutionPolicy Bypass -File $FILE $ARGUMENTS```.
 
 :::
 

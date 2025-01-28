@@ -55,7 +55,7 @@ Your browser does not support the video tag.
 * Utilisez la ligne de commande suivante :
 
 ```
-“C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t15 –e0
+“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t15 -e0
 ```
 * Les jobs doivent être exécutés du lundi au vendredi.
 * Utilisez la fréquence existante : ```Mon-FriOnDate```.

@@ -27,7 +27,7 @@ Each product is assigned a **Product ID Number**. This ID Number will be used as
 
 Each of the jobs must run every ```30 minutes``` until ```11:45 PM```.
   
-The programs read the database and generate order requests to purchase new items. At the end of the day, an **Inventory Purchase Report** job is ran that creates a report with the purchase results for each item. The report job is a ```UNIX``` job that will execute the following **Start Image**: ```/usr/local/labfiles/CheckInvPurRpt –t100```  
+The programs read the database and generate order requests to purchase new items. At the end of the day, an **Inventory Purchase Report** job is ran that creates a report with the purchase results for each item. The report job is a ```UNIX``` job that will execute the following **Start Image**: ```/usr/local/labfiles/CheckInvPurRpt -t100```  
 
 ### Lab Instructions
 
@@ -64,7 +64,7 @@ You can reference [**Unit 1 - Exercise 5**](./Unit%201%20Exercise%205.md) for st
 *	Create a Unix Job named **Inventory Purchase Report**
 *	This job needs to run on the ```SUSEVM``` **Machine**
 *	This job needs to run as the ```0/0``` **Group ID/User ID**
-*	Call the program on the **Start Image**: ```/usr/local/labfiles/CheckInvPurRpt –t100```  
+*	Call the program on the **Start Image**: ```/usr/local/labfiles/CheckInvPurRpt -t100```  
 * Add **Documentation** to the job.
 *	This job needs to run **Monday-Sunday**
 *	The Inventory Purchase Report requires the 6 Windows Jobs and must run after all runs have completed
@@ -131,7 +131,7 @@ Your browser does not support the video tag.
   *	Call the programs on the Start Image. For example:
 
   ```  
-  /usr/local/labfiles/CheckInvPurRpt –t100  
+  /usr/local/labfiles/CheckInvPurRpt -t100  
   ```  
   
   *	This Job needs to run **Monday-Sunday**

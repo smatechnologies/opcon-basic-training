@@ -11,12 +11,12 @@ Congo Online Retail deve assicurarsi che tutti gli ordini di spedizione siano el
 
 **Jobs**:
 
-*	Legos - Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” –t90```
-*	Nerf - Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” –t120```
-*	Smartphones - Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t15```
-*	XBOX - Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t350```
-*	Levis - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t45```
-*	Nike - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t75```
+*	Legos - Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” -t90```
+*	Nerf - Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” -t120```
+*	Smartphones - Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” -t15```
+*	XBOX - Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” -t350```
+*	Levis - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” -t45```
+*	Nike - Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” -t75```
 
 **_Se uno di questi processi non è stato completato entro le 5 del mattino o se impiegano più di 5 minuti, è necessario essere avvisati._** 
 
@@ -55,42 +55,42 @@ Your browser does not support the video tag.
 
     * Legos
         * Command Line: 
-         ```“C:\scripts\ShipmentProcessorToys.EXE” –t90```
+         ```“C:\scripts\ShipmentProcessorToys.EXE” -t90```
         * Start Offset: ```03:00```
         * Absolute Late to Start Offset: ```01:55 (4:55 am)```
         * Max Run Time: ```5```
         * Aggiungere la Documentazione
         * Aggiungere il Tag al Job come ```Toys```
     * Nerf
-        * Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” –t120```
+        * Command Line: ```“C:\scripts\ShipmentProcessorToys.EXE” -t120```
         * Start Offset: ```04:00```
         * Absolute Late to Finish Offset: ```01:00 (5:00 am)```
         * Max Run Time: ```5```
         * Aggiungere la Documentazione
         * Aggiungere il Tag al Job come ```Toys```
     * Smartphones
-        * Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t15```
+        * Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” -t15```
         * Start Offset: ``04:30``
         * Absolute Late to Finish Offset: ```00:30 (5:00 am)```
         * Max Run Time: ```5```
         * Aggiungere la Documentazione
         * Aggiungere il Tag al Job come ```Electronics```
     * XBOX
-        * Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” –t350```
+        * Command Line: ```“C:\scripts\ShipmentProcessorElectronics.EXE” -t350```
         * Start Offset: ```02:30```
         * Absolute Late to Finish Offset: ```02:30 (5:00 am)```
         * Max Run Time: ```5```
         * Aggiungere la Documentazione 
         * Aggiungere il Tag al Job come ```Electronics```
     * Levis
-        * Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t45```
+        * Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” -t45```
         * Start Offset: ```03:10```
         * Absolute Late to Start Offset: ```01:45 (4:55 am)```
         * Max Run Time: ```5```
         * Aggiungere la Documentazione
         * Aggiungere il Tag al Job come ```Clothing```
     * Nike
-        * Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” –t75```
+        * Command Line: ```“C:\scripts\ShipmentProcessorClothing.EXE” -t75```
         * Start Offset: ```03:45```
         * Absolute Late to Finish Offset: ```01:15 (5:00 am)```
         * Max Run Time: ```5```

@@ -127,11 +127,11 @@ This Global Property will store the number of seconds to run the program.
 16.	Update your command line to use the new properties in place of the hard-coded text.
 Change the following:
 
-```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” –t20```  
+```“C:\Program Files\OpConxps\MSLSAM\genericp.exe” -t20```  
 
 to:
 
-```“[[PATH_Windows]]\genericp.exe” –t[[RUNTIME]]```
+```“[[PATH_Windows]]\genericp.exe” -t[[RUNTIME]]```
 
 17.	Click the **Save** button.
 18.	Repeat for **Windows Job 2** through **Windows Job 4**.
