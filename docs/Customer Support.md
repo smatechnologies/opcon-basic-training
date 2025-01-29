@@ -19,7 +19,7 @@ sidebar_label: 'Customer Support'
 
 ### Support Screen Shares 
 
-* <a href="http://zoom.us/join"target="_blank" >Zoom</a>
+* <a href="http://zoom.us/join"target="_blank">Zoom</a>
 * We use Zoom as our primary screen sharing software.
 
 ### File Sharing
