@@ -1,21 +1,31 @@
 ---
-sidebar_label: 'Additional Resources'
+sidebar_label: 'Customer Community'
 ---
 
-### OpCon Connections
+### <a href="https://community.smatechnologies.com/" target="_blank">The OpCon Customer Community</a>
 
-* <a href="https://smatechnologies.com/connections" target="_blank">SMA Connections</a>
+![](../static/imgbasic/customer_community.png)
+
+### Events
+
+#### Connections
+
+* <a href="https://community.smatechnologies.com/events?tab=upcoming&type=SMA%20Connections" target="_blank">Connections</a>
 * A new series of sessions designed to develop meaningful connections with and among our valued customers. These sessions will provide a space where you can engage not only with our products but also with each other, fostering a collaborative information network..
 
-### SMA Webinars
+#### Webinars
 
-* <a href="https://smatechnologies.com/resources/webinars" target="_blank">SMA Webinars</a>
+* <a href="https://community.smatechnologies.com/events?tab=upcoming&type=Webinars" target="_blank">Webinars</a>
 * Webinars are educational presentations updating clients on releases and improvements as well as demonstrations of OpCon use cases.
 
-### SMA Lunch & Learns
+#### Lunch & Learns
 
-* <a href="https://smatechnologies.com/lunch-learn" target="_blank">SMA Lunch & Learn</a>
+* <a href="https://community.smatechnologies.com/events?tab=upcoming&type=Lunch%20%26%20Learn" target="_blank">Lunch & Learn</a>
 * Web sessions that provide an in-depth look into product setup, and explore the specific features and functionality of our offerings.
+
+### Enhancement Requests
+* <a href="https://community.smatechnologies.com/ideas" target="_blank">Ideas</a>
+* Based on Community Feedback and Votes
 
 ### SMA Innovation Lab
 

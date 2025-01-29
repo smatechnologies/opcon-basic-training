@@ -60,29 +60,30 @@ Create a new Schedule called **Multiple and Negative Frequencies** that runs Mon
 32. Scroll down to the **Job Build Status** field, select **Do Not Schedule** from the drop-down.
 33. Click **Save**.
 34. Click the **Lock** button to enter **Admin Mode**.
-35. In the Frequency Manager Wizard:
+35. In the Frequency section, click **ADD**
+36. In the Frequency Manager Wizard:
   * In the **Name** field, enter ```Mon-Fri-N```.
   * In the **When to Scheduled** dop-down menu, select **All Weeks**.
   * In the **Days of the Week**, select **Monday-Friday**.
   * In the **A/O/B/N** section, select **Not Schedule**.
   * Click the **Save** button.
-36. Close **Library**.
+37. Close **Library**.
 
 #### Build the Schedule for today and the End of the Month
 
-37. In **Operations**, select **Schedule Build**.
-38.	In the **From** field select the **15th** or **the working day before if the 15th is a non-working day or holiday**.
-39. In the **To** field select select the same date as you did for **From**.
-40. Select the **Released** radio button in the **Schedule Build** section. 
-41.	In the **Schedule Selection** section, select **Multiple and Negative Frequencies**.
-42.	Click the **Build** button.
-43. Click the link for the **Multiple and Negative Frequencies** schedule for any date you just built out.
+38. In **Operations**, select **Schedule Build**.
+39.	In the **From** field select the **15th** or **the working day before if the 15th is a non-working day or holiday**.
+40. In the **To** field select select the same date as you did for **From**.
+41. Select the **Released** radio button in the **Schedule Build** section. 
+42.	In the **Schedule Selection** section, select **Multiple and Negative Frequencies**.
+43.	Click the **Build** button.
+44. Click the link for the **Multiple and Negative Frequencies** schedule for any date you just built out.
 
 :::info
 You should see that both jobs get built and that the **Start Time** of the **Multiple Frequency** job is **8:00 PM**.
 :::
 
-44. Repeat **Steps 37-43**  to build the schedule for the last working day of the month.
+45. Repeat **Steps 37-43**  to build the schedule for the last working day of the month.
 
 :::info
 You should see only one job on the last working day of the month, the Multiple Freq job, and it should have a **Start Time** of **6:00 PM**.
