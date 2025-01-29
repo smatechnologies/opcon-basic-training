@@ -1,7 +1,7 @@
 ---
-sidebar_label: 'Support Information'
+sidebar_label: 'Customer Support'
 ---
-### <a href="https://smatech2.my.site.com/SMASupportPortal" target="_blank">SMA Support Portal</a>
+### <a href="https://smatech2.my.site.com/SMASupportPortal/s/" target="_blank">The OpCon User Community</a>
 
 ![](../static/imgbasic/Community.png)
 
@@ -26,8 +26,3 @@ sidebar_label: 'Support Information'
 
 * <a href="https://files.smatechnologies.com" target="_blank">SMA FTP Site</a>
 * Releases, Upload of Log Files, etc.
-
-### Enhancement Ideas/Requests  
-
-* <a href="https://smartideas.featureupvote.com/" target="_blank">SMArt Ideas</a>
-* Based on Community Feedback and Votes

@@ -2,7 +2,7 @@
 sidebar_label: 'OpCon User Help'
 ---
 
-### Troubleshooting - OpCon User Help
+### OpCon User Help
 
 * OpCon Documentation is a searchable website: <a href="https://help.smatechnologies.com" target="_blank">help.smatechnologies.com</a>
 * Documentation can be found under Solution Manager by clicking the **Question Mark** in the top right-hand corner of the browser screen
@@ -18,14 +18,6 @@ The Concepts section of OpCon User Help assists with basic and advanced automati
 ### OpCon User Help - Integrations
 
 ![Picture275](../static/imgbasic/275.png)
-
-### OpCon Knowledge Base
-
-Under the Customer Support dropdown, you can find our Public Knowledge base
-
-![Picture277](../static/imgbasic/KnowledgeBase.png)
-
-
 
 ## Enterprise Manager
 
