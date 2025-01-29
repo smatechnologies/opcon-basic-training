@@ -12,17 +12,17 @@ To update the Master Holiday Calendar and create a separate calendar with custom
 
 Update the **Master Holiday Calendar** so the following dates are marked as holidays:
 
-  * Monday, January 1st - New Years Day
-  *	Monday, January 15th – Martin Luther King Jr. Day
-  *	Monday, February 19th – President’s Day
-  *	Monday, May 27th – Memorial Day
-  * Wednesday, June 19th - Juneteenth National Independence Day (Observed)
-  *	Thursday, July 4th – Independence Day
-  *	Monday, September 2nd – Labor Day
-  *	Monday, October 14th – Columbus Day
-  *	Monday, November 11th – Veterans Day
-  *	Thursday, November 28rd – Thanksgiving Day
-  * Wednesday, December 25th - Christmas Day (Observed)
+  * Wednesday, January 1st - New Years Day
+  *	Monday, January 20th – Martin Luther King Jr. Day (Observed)
+  *	Monday, February 17th – President’s Day
+  *	Monday, May 26th – Memorial Day
+  * Thursday, June 19th - Juneteenth National Independence Day
+  *	Friday, July 4th – Independence Day
+  *	Monday, September 1st – Labor Day
+  *	Monday, October 13th – Columbus Day
+  *	Tuesday, November 11th – Veterans Day
+  *	Thursday, November 27th – Thanksgiving Day
+  * Thursday, December 25th - Christmas Day
 
 You will also create a new calendar called **My First Calendar** and select several dates of your choosing.
 
