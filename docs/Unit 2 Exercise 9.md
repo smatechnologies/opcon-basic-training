@@ -38,7 +38,7 @@ In the **End of Period Freq** job, create a new frequency named that will run on
 8. Click the **Add** button.
 9. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```OnRequest```.
-  * In the **When to Scheduled** dop-down menu, select **On Request**.
+  * In the **When to Schedule** drop-down menu, select **On Request**.
   * In the **Request Date** field, select a date on the calendar that is in the past.
   * Click the **Save** button.
 10. In the **Active** column, select the frequency then select **Forecast**.
@@ -59,7 +59,7 @@ The **Forecast** screen should show only the date that you chose in green.
 18. Click the **Add** button.
 19. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```BOM-A```.
-  * In the **When to Scheduled** dop-down menu, select **Beg of Period**.
+  * In the **When to Schedule** drop-down menu, select **Beg of Period**.
   * In the **Period** drop-down, select **Month**.
   * In the **A/O/B/N** section, select **After Date**.
   * Make sure the **Day Type** is set to **Working**.
@@ -82,7 +82,7 @@ The **Forecast** screen should show the **first working day of every month** as 
 28. Click the **Add** button.
 29. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```Mid-Wed-A```.
-  * In the **When to Scheduled** dop-down menu, select **Mid of Period**.
+  * In the **When to Schedule** drop-down menu, select **Mid of Period**.
   * In the **Period** drop-down, select **Month**.
   * In the **Days of the Week** field, select **Wednesday**.
   * In the **A/O/B/N** section, select **After Date**.
@@ -106,7 +106,7 @@ The **Forecast** screen should show the **Wednesday closest to the middle of eve
 38. Click the **Add** button.
 39. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```EOM-B```.
-  * In the **When to Scheduled** dop-down menu, select **End of Period**.
+  * In the **When to Schedule** drop-down menu, select **End of Period**.
   * In the **Period** drop-down, select **Month**.
   * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.

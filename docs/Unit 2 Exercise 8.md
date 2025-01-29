@@ -37,7 +37,7 @@ In the **On Day Freq** job, create a new frequency named that will run on the 1s
 8. Click the **Add** button.
 9. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```Tue+Thurs-B```.
-  * In the **When to Scheduled** dop-down menu, select **All Weeks**.
+  * In the **When to Schedule** drop-down menu, select **All Weeks**.
   * In the **Days of the Week** section, select **Tuesday** and **Thursday**.
   * In the **A/O/B/N** section, select **Before Date**.
   * Make sure the **Day Type** is set to **Working**.
@@ -61,7 +61,7 @@ The **Forecast** screen should show **all Tuesday and Thursday** dates in green 
 18. Click the **Add** button.
 19. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```4th-Thurs-B```.
-  * In the **When to Scheduled** dop-down menu, select **On Occurrence**.
+  * In the **When to Schedule** drop-down menu, select **On Occurrence**.
   * In the **On Occurrence** drop-down menu, select **Fourth**.
   * In the **Period** drop-down, select **Month**.
   * In the **Days of the Week** section, select **Thursday**.
@@ -87,7 +87,7 @@ The **Forecast** screen should show the **4th Thursday of every month** should b
 28. Click the **Add** button.
 29. In the **Frequency Manager Wizard**:
   * In the **Name** field, enter ```1st-WDOM```.
-  * In the **When to Scheduled** dop-down menu, select **On Day**.
+  * In the **When to Schedule** drop-down menu, select **On Day**.
   * In the **On** *X* **days of week**, enter ```1```.
   * In the **Day Type** field, select **On 1st working day**.
   * In the **A/O/B/N** section, select **On Date**.
