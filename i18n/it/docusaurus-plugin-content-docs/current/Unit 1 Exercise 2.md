@@ -32,12 +32,12 @@ Click qui per Istruzioni passo passo
 
 4. Dal finestra dei Comandi digitare:
 ```
-cd “C:\Program Files\OpConxps\MSLSAM”
+cd "C:\Program Files\OpConxps\MSLSAM"
 ```
 5. Premere il taso INVIO.
 6. Continuare a digitare nella finestra dei comandi:
 ```
-genericp.exe –t10 –e0
+genericp.exe -t10 -e0
 ```
 7. premere il tasto INVIO.
 8. Il programma genericp.exe verrà eseguito per 10 secondi e poi terminerà.

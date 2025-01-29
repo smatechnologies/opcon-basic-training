@@ -72,7 +72,7 @@ Best practice is to create a property for any value that will be typed more than
 *	Use the following **command line** replacing the three objects specified above with **Global Properties**:   
 
 ```
-“C:\scripts\Create_Folder.cmd” “C:\Accounting\yyyy-mm-dd-Legos”
+"C:\scripts\Create_Folder.cmd" "C:\Accounting\yyyy-mm-dd-Legos"
 ```  
 
 :::note

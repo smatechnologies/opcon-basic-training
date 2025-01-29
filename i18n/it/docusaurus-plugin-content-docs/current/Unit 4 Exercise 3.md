@@ -10,7 +10,7 @@ hide_title: 'false'
 Nello Schedule **My Threshold Schedule**, creare un nuovo Job chiamato **Threshold External Event Job**. Questo Job deve girare con una Frequenza di ```7``` giorni con le seguente riga di comando:
 
 ```
-“C:\scripts\ExerciseThreshold.cmd” +1
+"C:\scripts\ExerciseThreshold.cmd" +1
 ```
 
 Nella vista Matrix, tasto destro su **My Threshold Schedule** e aggiungere il Job **Threshold External Event Job** in stato Rilasciato per Oggi.
@@ -20,7 +20,7 @@ Controllare il valore della Soglia (Threshold) ```TrainingThreshold```.
 Modificare la riga di comando:
 
 ```
-“C:\scripts\ExerciseThreshold.cmd” -1
+"C:\scripts\ExerciseThreshold.cmd" -1
 ```
 
 Riavviare il Job e quando termina, controllare ancora il valore di TrainingThreshold per verificarne la correttezza.
@@ -44,7 +44,7 @@ Your browser does not support the video tag.
 6. Impostare questo Job per eseguire lo **script** chiamato ```ExerciseThreshold.cmd```, passando ```+1``` come parametro:
     * La Command Line dovrà essere: 
 	```
-	“C:\scripts\ExerciseThreshold.cmd” +1
+	"C:\scripts\ExerciseThreshold.cmd" +1
 	```
     * Il Job verrà eseguito sulla **macchina** ```SMATraining```
     * Utilizzare lo **User ID** ```SMATRAINING\SMAUSER```
@@ -71,7 +71,7 @@ Your browser does not support the video tag.
 21. Chiudere la scheda Thresholds.
 22. Tornare ad una delle viste **Operations**.
 23. Fare clic con il tasto destro su **Threshold External Event Job> Maintenance> Edit Daily Job**.
-24. Cambiare la **Line a di Comando** in: ```“C:\scripts\ExerciseThreshold.cmd” -1```
+24. Cambiare la **Line a di Comando** in: ```"C:\scripts\ExerciseThreshold.cmd" -1```
 25. Fare clic sul pulsante **Save** sulla barra strumenti del **Daily Job** (_Non salvare il Job sul Master_).
 26. Chiudere la scheda del Job Daily (**Threshold External Event Job**).
 27. Tasto destro sul Job e **Restart**.

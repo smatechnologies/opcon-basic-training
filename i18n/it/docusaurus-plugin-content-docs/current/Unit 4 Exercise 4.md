@@ -11,7 +11,7 @@ All'interno dello Schedule **Embedded Scripts Training Schedul**e, creare un Job
 
 Accertarsi che la **Global System Property** ```$SCHEDULE DATEYYYYMM``` esista. Crearla nel caso.
 
-Mettere a piano (Build) lo Schedule in stato Released per oggi e verificare che la cartella ```“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”``` sia stata creata per oggi.
+Mettere a piano (Build) lo Schedule in stato Released per oggi e verificare che la cartella ```"C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]"``` sia stata creata per oggi.
 
 
 
@@ -45,14 +45,14 @@ Your browser does not support the video tag.
 17. Nell'elenco a discesa **Runner** selezionare ```Command Shell```.
 18. Nella casella di testo **Arguments** digitare:
 ```
-“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
+"C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]"
 ```
 19. Fare clic sul pulsante **Save**.
 20. Assegnare al Job la Frequenza ```Mon-Fri-N```.
 21. Aggiungere la **Documentazione** e chiudere **Job Master**.
 22. Al di fuori di OpCon verificare che la cartella non esista:  
 ```
-“C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]”
+"C:\IT\Backups\[[$SCHEDULE DATEYYYYMM]]"
 ```
 (dove ```$SCHEDULE DATEYYYYMM``` riferisce al mese in corso dell'anno in corso)
 

@@ -33,7 +33,7 @@ Create a ```UNIX``` job in **MY FIRST SCHEDULE** called **UNIX Job 1**. This job
 9.	In the **Run** > **Parameters** section, enter:  
 
 ```cmd
-–t20 –e0
+-t20 -e0
 ```
 
 10.	Click the **Save** button
@@ -88,7 +88,7 @@ Create a ```UNIX``` job in **MY FIRST SCHEDULE** called **UNIX Job 1**. This job
 9.	In the **Parameters** section, enter:  
 
 ```
-–t20 –e0
+-t20 -e0
 ```
 
 10.	Click the **Save** button on the **Job Master** toolbar.

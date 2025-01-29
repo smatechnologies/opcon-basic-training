@@ -11,12 +11,12 @@ Congo Online Retail doit s'assurer que toutes les commandes d'expédition sont t
 
 **Jobs**:
 
-*	Legos - Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t90```
-*	Nerf - Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t120```
-*	Smartphones - Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t15```
-*	XBOX - Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t350```
-*	Levis - Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t45```
-*	Nike - Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t75```
+*	Legos - Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" -t90```
+*	Nerf - Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" -t120```
+*	Smartphones - Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t15```
+*	XBOX - Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t350```
+*	Levis - Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t45```
+*	Nike - Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t75```
 
 :::note Remarque
 Si l'un de ces processus n'est pas terminé à 5 heures du matin ou s'il prend plus de 5 minutes, vous devez en être informé.
@@ -57,42 +57,42 @@ Votre navigateur ne prend pas en charge la vidéo.
 
 * Legos
     * Command Line: 
-     ```"C:\scripts\ShipmentProcessorToys.EXE" –t90```
+     ```"C:\scripts\ShipmentProcessorToys.EXE" -t90```
     * Ecart temps de soumission: ```03:00```
     * Absolue indicateur retard Soumission: ```01:55 (4:55 am)```
     * Temps Max d'Exécution: ```5```
     * Ajouter de la documentation
     * Taguer le job en tant que  ```Toys```
 * Nerf
-    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" –t120```
+    * Command Line: ```"C:\scripts\ShipmentProcessorToys.EXE" -t120```
     * Ecart temps de soumission: ```04:00```
     * Absolue indicateur retard Soumissiont: ```01:00 (5:00 am)```
     * Temps Max d’Exécution: ```5```
     * Ajouter de la documentation
     * Taguer le job en tant que  ```Toys```
 * Smartphones
-    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t15```
+    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t15```
     * Ecart temps de soumission: ``04:30``
     * Absolue indicateur retard Soumission: ```00:30 (5:00 am)```
     * Temps Max d’Exécution: ```5```
     * Ajouter de la documentation 
     * Taguer le job en tant que  ```Electronics```
 * XBOX
-    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" –t350```
+    * Command Line: ```"C:\scripts\ShipmentProcessorElectronics.EXE" -t350```
     * Ecart temps de soumission: ```02:30```
     * Absolue indicateur retard Soumission: ```02:30 (5:00 am)```
     * Temps Max d’Exécution: ```5```
     * AAjouter de la documentation 
     * Taguer le job en tant que ```Electronics```
 * Levis
-    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t45```
+    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t45```
     * Ecart temps de soumission: ```03:10```
     * Absolue indicateur retard Soumission: ```01:45 (4:55 am)```
     * Temps Max d’Exécution: ```5```
     * Ajouter de la documentation 
     * Taguer le job en tant que ```Clothing```
 * Nike
-    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" –t75```
+    * Command Line: ```"C:\scripts\ShipmentProcessorClothing.EXE" -t75```
     * Ecart temps de soumission: ```03:45```
     * Absolue indicateur retard Soumission: ```01:15 (5:00 am)```
     * Temps Max d’Exécution: ```5```

@@ -54,7 +54,7 @@ hide_title: 'false'
 
 Ad esempio:
     
-* Powershell include “–ExecutionPolicy Bypass and –File” prima del comando
+* Powershell include "-ExecutionPolicy Bypass and -File" prima del comando
 * E' possibile avere più di uno Script Runner per una tipologia di Script
 
 <a href="imgbasic/418.png" target="_blank"><img src="imgbasic/418.png" width="500"></img></a>

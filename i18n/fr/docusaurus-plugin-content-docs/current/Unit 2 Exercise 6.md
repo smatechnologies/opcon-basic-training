@@ -49,7 +49,7 @@ Your browser does not support the video tag.
 9. Dans la section **Parameters**, entrez :
 
 ```
-–t20 –e0
+-t20 -e0
 ```
 
 10. Cliquez sur le bouton **Sauvegarder** dans la barre d'outils Job Master.

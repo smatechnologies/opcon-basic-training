@@ -56,7 +56,7 @@ Your browser does not support the video tag.
     - Sous Administration, cliquez sur **Job Master**.
     - Dans la liste déroulante Schedule, sélectionnez **My First Schedule**.
     - Dans la liste déroulante Job, sélectionnez **Windows Job 1**.
-    - Mettez à jour votre ligne de commande pour utiliser les nouvelles propriétés à la place du texte codé en dur. Modifiez ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" –t20``` en ```"[[PathWindows]]\genericp.exe" –t[[RUNTIME]]```
+    - Mettez à jour votre ligne de commande pour utiliser les nouvelles propriétés à la place du texte codé en dur. Modifiez ```"C:\Program Files\OpConxps\MSLSAM\genericp.exe" -t20``` en ```"[[PathWindows]]\genericp.exe" -t[[RUNTIME]]```
      - Cliquez sur le bouton **Sauvegarder**.
     - Répétez l'opération pour **Windows Job 2** à **Windows Job 5**.
     - Fermez l'onglet **Job Master**.

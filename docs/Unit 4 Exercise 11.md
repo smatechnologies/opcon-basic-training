@@ -89,7 +89,7 @@ You are going to create a schedule with two jobs. One job will create the file w
  * **Primary Machine**: ```SMATraining```
  * **Job Action**: ```File Arrival```
  * **User ID**: ```SMATRAINING\SMAUSER```
- * **File Name**: ```“C:\Windows File Arrival\WindowsFile1.txt”```
+ * **File Name**: ```"C:\Windows File Arrival\WindowsFile1.txt"```
  * **Start Time**: ```0900```
  * **End Time**: ```1700```
  * **File Size Stable Duration (in secs)**: ```5```

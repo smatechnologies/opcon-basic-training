@@ -230,8 +230,8 @@ You are going to create a schedule with three jobs. One job will create the file
  * **Job Sub-Type**: ```Command: File Move```
  * **Primary Machine**: ```SMATraining```
  * **User ID**: ```SMATTRAINING\SMAUSER```
- * **Source**: ```“[[SI.FILENAME]]”```
- * **Destination**: ```“C:\Multi-File Arrival\Archive\”```
+ * **Source**: ```"[[SI.FILENAME]]"```
+ * **Destination**: ```"C:\Multi-File Arrival\Archive\"```
 23. Click the **Save** button.
 24. Give the Job a **Frequency** of ```Mon-Fri-N```.
 25. Add **Documentation** to the Job.
