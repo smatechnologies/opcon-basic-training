@@ -47,8 +47,8 @@ You are going to create a schedule with three jobs. One job will create the file
 
 #### Add the Archive File Job
 
-7.  Click **Add Job**
-8.  On the **Master Job Definition** screen:
+10.  Click **Add Job**
+11.  On the **Master Job Definition** screen:
 * In the **Name** field, enter ```Archive File```
 * In the **Job Type** dropdown, select **Windows**.
 * In the **Machine Selection** dropdown, select the **SMATraining** machine for the Job to run on. 
@@ -64,27 +64,27 @@ You are going to create a schedule with three jobs. One job will create the file
 * Add some **Documentation** to the Job.
 * In the **Frequency** section, move **Mon-Sun-O** from the **Inactive** column and to the **Active** column.
 * Click **Save**
-9.  Click **Back**
-10. Make the **Archive File** job dependent on the **Process File** job when it completes successfully.
-11. Click **Back**
+12.  Click **Back**
+13. Make the **Archive File** job dependent on the **Process File** job when it completes successfully.
+14. Click **Back**
 
 #### Create the Parent Schedule
 
-12. Click the **Add** button.
-13. On the **Master Schedule Definition** screen:
+15. Click the **Add** button.
+16. On the **Master Schedule Definition** screen:
 * In the **Name** field, enter ```File Arrival - Multiple Files```
 * Add **Documentation**
 * Pick your working days
 * Configure **Auto Build** and **Auto Delete**.
 * Click **Save**
-14. Click **Back**
+17. Click **Back**
 
 #### Add the FA MultiFile
 
-15.  In the **Schedule List**, search for and select the **File Arrival - Multiple Files** schedule.
-16.  Click **View**
-17.  Click **Add Job**
-18. On the **Master Schedule Definition** screen:
+18.  In the **Schedule List**, search for and select the **File Arrival - Multiple Files** schedule.
+19.  Click **View**
+20.  Click **Add Job**
+21. On the **Master Schedule Definition** screen:
 * In the **Name** field, enter ```FA MultiFile```
 * In the **Job Type** drop-down, select **Windows**
 * In the **Machine Selection**drop-down, select **SMATraining**
@@ -94,10 +94,10 @@ You are going to create a schedule with three jobs. One job will create the file
 * In the **Start Time** drop-down, enter 0 day at ```09:00 AM```
 * In the **End Time** drop-down, enter 0 day at ```06:00 PM```
 * In the **File Size Stable Duration (in secs)** drop-down, enter ```5```
-19. Add **Documentation** to the Job.
-20. Give the Job a **Frequency** of **Mon-Fri-N**
-21. In the **Events** section, click **Add**.
-22. In the **Create new Event** pop-up window:
+22. Add **Documentation** to the Job.
+23. Give the Job a **Frequency** of **Mon-Fri-N**
+24. In the **Events** section, click **Add**.
+25. In the **Create new Event** pop-up window:
 * In the **Event Trigger** drop-down, select the **Job Status**
 * In the **Trigger Details** drop-down, select **Finished OK**
 * In the **Event Template** drop-down, select the **$JOB:ADD** event
@@ -108,14 +108,15 @@ You are going to create a schedule with three jobs. One job will create the file
   * In the **Frequency Name** field, enter ```OnRequest```
   * In the **Job Instance Definition Name** field, enter ```FILENAME```
   * In the **Job Instance Definition Value** field, enter ```[[JI.$ARRIVED FILE NAME]]```
+  * Click **OK**
   * Click the **Save** button
 * Click **Save**
-23. Click **Back**
+26. Click **Back**
 
 #### Add the Create File Job
 
-24. Select **Add Job**.
-25. On the **Master Job Definition** screen:
+27. Select **Add Job**.
+28. On the **Master Job Definition** screen:
 * In the **Name** field, enter ```Create File```
 * In the **Job Type** drop-down, select **Windows**
 * In the **Machine Selection** drop-down, select **SMATraining**
@@ -125,24 +126,24 @@ You are going to create a schedule with three jobs. One job will create the file
 * In the **Version** drop-down, select **LATEST (X)**
 * In the **Runner** drop-down, select **PowerShell**
 * Click **Save**
-26. Add **Documentation** to the Job.
-27. Give the Job a **Frequency** of **Mon-Fri-N**
-28. Select the **Frequecny** in the **Active** column, in the **Job Build Status** drop-down, select **On Hold**
-29. Click **Save**
-30. click **Back**
+29. Add **Documentation** to the Job.
+30. Give the Job a **Frequency** of **Mon-Fri-N**
+31. Select the **Frequecny** in the **Active** column, in the **Job Build Status** drop-down, select **On Hold**
+32. Click **Save**
+33. click **Back**
 
 #### Add the Container Job
 
-31.	Select **Add Job** in the side menu. 
-32. On the **Job Master Definition** screen:
+34.	Select **Add Job** in the side menu. 
+35. On the **Job Master Definition** screen:
 * In the **Name** textbox, enter ```MultiFile Processing Job```. 
 * In the **Job Type** dropdown list, select **Container**.
 * On the **Master SubSchedule** dropdown list select **SS-MultipleFiles**.
 * Click the **Save** button.
 * Click the **Lock** icon in the upper right-hand corner.
-33. Expand the **Documentation** box and enter in some documentation.
-34. Give the Job a **Frequency** of **OnRequest**
-35. In the **Create new Event** pop-up window:
+36. Expand the **Documentation** box and enter in some documentation.
+37. Give the Job a **Frequency** of **OnRequest**
+38. In the **Create new Event** pop-up window:
 * In the **Event Trigger** drop-down, select the **Job Status**
 * In the **Trigger Details** drop-down, select **Finished OK**
 * In the **Event Template** drop-down, select the **$JOB:RESTART** event
@@ -151,16 +152,16 @@ You are going to create a schedule with three jobs. One job will create the file
   * In the **Schedule Name** field, enter ```[[$SCHEDULE NAME]]```,
   * In the **Job Name** field, enter ```FA MultiFile```
   * Click the **Save** button
-36. Click the **Save** button.
-37. Click **Back**.
+39. Click the **Save** button.
+40. Click **Back**.
 
 #### Build and Verify Results
 
-26. Build the **File Arrival - Multiple Files** for today **Released**.
-27. In **Processes**, notice the **FA MultiFile** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (It will be added by the FA MultiFile).
-28. Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
-29. Notice that as the **FA MultiFile** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
-30. If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).
+41. Build the **File Arrival - Multiple Files** for today **Released**.
+42. In **Processes**, notice the **FA MultiFile** is running (no files arrived yet) and that the **MultiFile Processing Job** was not built (It will be added by the FA MultiFile).
+43. Release the **Create File Job** in the **MultipleFiles-Main** Schedule. This Job will create the files.
+44. Notice that as the **FA MultiFile** finds files, a new **Container Job** is added for each file. Once it finishes the files will be moved to the **Archive** folder.
+45. If you check the **Instance Properties** of one of the **Container Jobs**, you will find which file is being processed (from the ```[[SI.FILENAME]]```).
 
 
 

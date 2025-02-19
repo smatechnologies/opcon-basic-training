@@ -92,9 +92,9 @@ You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
 * Because the **Cancel Jobs Departmental Function Privilege** is not granted to this user’s role.
 :::
 
-24. Right-click **Windows Job 1** and select **Release** to allow the jobs in **My First Schedule** to complete.
-25. **Logout** of Solution Manager once **My First Schedule** is complete 
-26. Log back in by clicking the **Login with Windows** button.
+24. **Logout** of Solution Manager once **My First Schedule** is complete 
+25. Log back in by clicking the **Login with Windows** button.
+26. Right-click **Windows Job 1** and select **Release** to allow the jobs in **My First Schedule** to complete.
 
 #### Reset the Jobs to Original State
 

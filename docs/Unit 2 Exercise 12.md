@@ -42,7 +42,7 @@ Create a new Schedule called **Multiple and Negative Frequencies** that runs Mon
 17. In the **Active** column, select the frequency you just created.
 18. Scroll down to the **Start Offset** field, enter ```20:00```.
 19. Click **Save**.
-20. Repeat **Steps 15-19**, to add a **Frequency** for the **last business day of the month** that will have a **Start Offset** of ```18:00```.
+20. Repeat **Steps 15-19** to create a **Frequency** for the **last business day of the month** that will have a **Start Offset** of ```18:00```, if you don't have a fequency that matches this criteria already.
 21. Click **Back** in the top right corner.
 
 #### Create the Negative Frequency Job
@@ -71,7 +71,7 @@ Create a new Schedule called **Multiple and Negative Frequencies** that runs Mon
 
 #### Build the Schedule for today and the End of the Month
 
-38. In **Operations**, select **Schedule Build**.
+38. In **Operations**, select **Schedule Build*
 39.	In the **From** field select the **15th** or **the working day before if the 15th is a non-working day or holiday**.
 40. In the **To** field select select the same date as you did for **From**.
 41. Select the **Released** radio button in the **Schedule Build** section. 

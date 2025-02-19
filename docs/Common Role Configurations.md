@@ -18,7 +18,7 @@ sidebar_label: 'Common Role Configurations'
 #### Schedulers
 
 * These individuals will build and maintain Jobs and Schedules 
-* They will need as much access as possible to every section within Enterprise Manager except for ‘Administration’ section 
+* They will need as much access as possible to every section within Solution Manager except for ‘Administration’ section 
 * Privileges listed in chart can be used as a guide for assigning Privileges to OpCon Schedulers
 
 ![](../static/imgbasic/316.png)
