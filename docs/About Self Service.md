@@ -6,8 +6,8 @@ sidebar_label: 'About Self Service'
 
 * **Self Service** allows End-users to interact with OpCon without having to engage their IT department
     * A Web Browser is the only software requirement
-    * Self Service allows End-users to submit Requests without any knowledge of Opcon
-    * Security based on Opcon Roles
+    * Self Service allows End-users to submit Requests without any knowledge of OpCon
+    * Security based on OpCon Roles
         * The User only sees the requests associated with their Role
 
 * All information is stored within the OpCon Database

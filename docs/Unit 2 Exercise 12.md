@@ -71,7 +71,7 @@ Create a new Schedule called **Multiple and Negative Frequencies** that runs Mon
 
 #### Build the Schedule for today and the End of the Month
 
-38. In **Operations**, select **Schedule Build*
+38. In **Operations**, select **Schedule Build**
 39.	In the **From** field select the **15th** or **the working day before if the 15th is a non-working day or holiday**.
 40. In the **To** field select select the same date as you did for **From**.
 41. Select the **Released** radio button in the **Schedule Build** section. 

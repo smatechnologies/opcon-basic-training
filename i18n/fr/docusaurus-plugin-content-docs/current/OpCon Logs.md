@@ -20,7 +20,7 @@ hide_title: 'false'
 ```
 C:\ProgramData\OpConxps\SAM\Log
 ```
-* Si OpCon a été installé sur un **disque autre que le disque système**, les logs seront stockés dans **le dossier d’installation d’Opcon**
+* Si OpCon a été installé sur un **disque autre que le disque système**, les logs seront stockés dans **le dossier d’installation d’OpCon**
 ```
 [[Drive]]\[[Location selected for Output Files]]
 ```
@@ -79,7 +79,7 @@ SAM - Schedule Activity Monitor
 Liste continue de toutes les transactions
 
 * Modifications du statut de Job
-* Déclanchement d’Events Opcon 
+* Déclanchement d’Events OpCon 
 * Les échecs ou erreurs.
 * Informations sur la licence
 

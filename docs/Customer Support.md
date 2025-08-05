@@ -1,7 +1,7 @@
 ---
 sidebar_label: 'Customer Support'
 ---
-### <a href="https://smatech2.my.site.com/SMASupportPortal/s/" target="_blank">The OpCon User Community</a>
+### <a href="https://smatech2.my.site.com/SMASupportPortal/s/" target="_blank">The OpCon Support Portal</a>
 
 ![](../static/imgbasic/Community.png)
 
@@ -10,12 +10,17 @@ sidebar_label: 'Customer Support'
 
 * Monday – Friday  
 * 8 AM – 5 PM Central  
+* <a href="https://smatechnologies.com/sla" target="_blank">Service Level Agreements (SLAs)</a>
 
 ### After Hours or Emergency 
 
 * Call: (877) 363-2305
-* **Priority 1**: Production OpCon environment is down and unable to process any jobs
-* **Priority 2**: Production jobs are failing, with no workaround for the failed jobs
+* **Priority 1**
+  * The **production system** is down or inaccessible
+  * There is a **critical business process failure**
+  * Critical performance degradation **impacting production**
+* **Priority 2**
+  * A non-critical production function is failing with **no workaround** and requires immediate attention.
 
 ### Support Screen Shares 
 

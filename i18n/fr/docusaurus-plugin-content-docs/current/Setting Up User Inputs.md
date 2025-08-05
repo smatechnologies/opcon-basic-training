@@ -127,10 +127,10 @@ Par exemple, le message suivant peut être un message d'erreur personnalisé fou
 
 <a href="imgbasic/SelfServiceUserInputMasterSchedule.png" target="_blank"><img src="imgbasic/SelfServiceUserInputMasterSchedule.png" width="500"></img></a>
 
-* Permettra à l’utilisateur de sélectionner un Schedule dans la liste déroulante des Master Schedule définis sur le serveur Opcon
+* Permettra à l’utilisateur de sélectionner un Schedule dans la liste déroulante des Master Schedule définis sur le serveur OpCon
 
 ### Configuration d’entrées utilisateur sous forme de Master Job
 
 <a href="imgbasic/SelfServiceUserInputMasterJob.png" target="_blank"><img src="imgbasic/SelfServiceUserInputMasterJob.png" width="500"></img></a>
 
-* Permettra à l’utilisateur de sélectionner un Job dans la liste déroulante des Master Job définis sur le serveur Opcon
+* Permettra à l’utilisateur de sélectionner un Job dans la liste déroulante des Master Job définis sur le serveur OpCon

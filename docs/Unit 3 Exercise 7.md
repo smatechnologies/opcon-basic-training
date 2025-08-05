@@ -92,7 +92,7 @@ You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
 * Because the **Cancel Jobs Departmental Function Privilege** is not granted to this user’s role.
 :::
 
-24. **Logout** of Solution Manager once **My First Schedule** is complete 
+24. **Logout** of Solution Manager.
 25. Log back in by clicking the **Login with Windows** button.
 26. Right-click **Windows Job 1** and select **Release** to allow the jobs in **My First Schedule** to complete.
 
@@ -142,7 +142,7 @@ Because the **Training** role associated with the **Student1** user has access o
 13. Select **Windows Job 1**, what is the User ID associated with this Job?
 
 :::caution Warning
-The field should be empty. This is becuase in Exercise 3, we granted the **Training** role access to **SMATRAINING\BATCHUSER** and **NOT** to **SMATRAINING\SMAUSER**. 
+The field should be empty. This is because in Exercise 3, we granted the **Training** role access to **SMATRAINING\BATCHUSER** and **NOT** to **SMATRAINING\SMAUSER**. 
 
 **DO NOT Change the User ID.**
 :::
@@ -164,7 +164,7 @@ You can’t add a UNIX Job because the role is not assigned to any UNIX machine.
 **
 18. In the **Operation** section, double click **Schedule Build**.
 19. In the **Schedule Build** pop-up window:
-  * In the **Scheudle Selection** section, select **My First Schedule**.
+  * In the **Schedule Selection** section, select **My First Schedule**.
   * In the **Scheduling Dates** section, validate that today is selected for both **Start** and **Stop**.
   * Check the box for **Overwrite existing schedules**.
   * Click **Build**.

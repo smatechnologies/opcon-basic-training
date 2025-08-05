@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Threshold - Events externes
 
-* Comme tous les events Opcon, ```$THRESHOLD:SET``` peut être utilisé comme un event externe
+* Comme tous les events OpCon, ```$THRESHOLD:SET``` peut être utilisé comme un event externe
 * Avantage: les signes + et – peuvent être utilisés pour faire des calculs
 
 

@@ -8,7 +8,7 @@ hide_title: 'false'
 Pour ajouter un nouvel Event OpCon dans Self Service :
 
 * Dans la page **Création d’un Service Request**, cliquez sur la barre **verte** ```+ Ajouter``` sous l'étiquette **Evénements**.
-* Sélectionnez un **Modèle d’Event Opcon**
+* Sélectionnez un **Modèle d’Event OpCon**
 * Insérez des **variables** dans l'Event en utilisant la syntaxe : ```${variable}```
 
 <a href="imgbasic/SelfServiceEditEvent.png" target="_blank"><img src="imgbasic/SelfServiceEditEvent.png" width="500"></img></a>
