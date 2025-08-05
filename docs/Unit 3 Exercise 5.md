@@ -10,7 +10,7 @@ To grant the Training Role privileges to Schedules.
 
 ### Summary
 
-In **Enterprise Manager**, grant **Schedule Privileges** to the **Training Role** so that **Student1** has access to **MY FIRST SCHEDULE**.
+In **Solution Manager**, grant **Schedule Privileges** to the **Training Role** so that **Student1** has access to **MY FIRST SCHEDULE**.
 
 ### Instructions
 

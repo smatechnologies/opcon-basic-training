@@ -8,7 +8,7 @@ hide_title: 'false'
 1. Les _______________ permettent de se connecter à OpCon.
 2. Les ___________ sont utilisés pour maintenir les privilèges pour un ensemble d’utilisateur.
 3. L'______________ d’OpCon doit s'assurer que tous les utilisateurs d'OpCon disposent des privilèges nécessaires.
-4. Le compte utilisateur _________ reçoit automatiquement tous les privilèges sur tout ce qui se trouve dans Opcon.
+4. Le compte utilisateur _________ reçoit automatiquement tous les privilèges sur tout ce qui se trouve dans OpCon.
 5. Le gestionnaire d’______________ Manager permet aux utilisateurs de créer des règles d'alerte système et des déclencheurs liés au groupe d'utilisateurs qui devraient recevoir des notifications dans certaines situations.
 6. Les ________________________ sont des variables associées à l'ensemble de l'environnement.
 7. Les ________________________ sont des variables commençant par un symbole dollar ($).

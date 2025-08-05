@@ -21,7 +21,7 @@ hide_title: 'false'
 
 <img src="imgbasic/Picture3.png" width="300"></img>
 
-### Panoramica della Architettura di Opcon 
+### Panoramica della Architettura di OpCon 
 
 <figure>
     <audio

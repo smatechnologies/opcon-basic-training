@@ -9,8 +9,8 @@ hide_title: 'false'
 
 * **Self Service** consente agli utenti finali di interagire con OpCon senza dover coinvolgere il proprio reparto IT
     * Un browser Web è l'unico requisito software
-    * Self Service consente agli utenti finali di inviare richieste senza alcuna conoscenza di Opcon
-    * Sicurezza basata sui ruoli Opcon
+    * Self Service consente agli utenti finali di inviare richieste senza alcuna conoscenza di OpCon
+    * Sicurezza basata sui ruoli OpCon
         * L'Utente vede solo le richieste associate al proprio Ruolo
 * Tutte le informazioni sono memorizzate all'interno del database OpCon
     * Fornisce l'uso nativo degli eventi (tutti gli eventi sono idonei per l'uso in Self Service)

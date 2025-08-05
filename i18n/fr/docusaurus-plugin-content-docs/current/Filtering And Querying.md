@@ -7,7 +7,7 @@ hide_title: 'false'
 
 * Utilisez la barre de filtrage en haut de l'écran Self Service pour filtrer les Service Requests par:
     * Catégorie
-    * Rôle Opcon
+    * Rôle OpCon
     * Nom
 
 <a href="imgbasic/SelfServiceFilterBar.png" target="_blank"><img src="imgbasic/SelfServiceFilterBar.png" width="500"></img></a>

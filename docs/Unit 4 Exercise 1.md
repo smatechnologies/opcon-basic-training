@@ -64,10 +64,9 @@ You will then have each job trigger a notification, so that you know how many re
 18.	In **Studio**, select **Use 2 Job A**
 19. In the side panel, select **Add Resource Dependency**
 20. In the **Resource** pop-up:
-  * In the **Recourse** drop down, select **TrainingResource**.
+  * In the **Resource** drop down, select **TrainingResource**.
   * In the **Value** textbox, enter ```2```.
   * Click the **Save** button
-  * Click the **Save** button in **Master Job Definition**
 21. Repeat **Steps 18-20** to add the **Resource Dependency** of **2** to **Use 2 Job B**.
 22. Repeat **Steps 18-20** to add the **Resource Dependency** of **4** to **Use 4 Job**.
 23. Close **Library**
@@ -76,7 +75,7 @@ You will then have each job trigger a notification, so that you know how many re
 #### Create the Notification
 
 25. In **Library** > ** Management**, select **Notification Triggers**.
-26. Select **Manager Groups**.
+26. Select **Manage Groups**.
 27. On the **Manage Groups** screen, click **Add**.
   * In the **Name** field, enter ```ExerciseResource```
   * In the **Type** dropdown, select **Schedule**.

@@ -66,6 +66,7 @@ Your updated **Command Line** should now look like:
 29.	Open **Operations** and click on **Schedule Build**.
 30. Validate that today is the date for the **From** and **To** fields.
 31. In the **Schedule Build** section, select the **Released** radial button.
+  * If you built **My First Schedule** for the entire week, be sure to toggle on **Overwrite Existing**.
 32. Select **My First Schedule** from the **Schedule List**.
 33. Click **Build**
 34.	On the **Build Results** screen, expand the dropdown menus until you can see and click on **My First Schedule**.

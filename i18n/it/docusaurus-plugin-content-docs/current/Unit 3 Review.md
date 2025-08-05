@@ -8,7 +8,7 @@ hide_title: 'false'
 1. Gli_______________ sono accessi individuali richiesti per l'accesso a OpCon.
 2. I___________ vengono utilizzati per mantenere i privilegi per accessi multipli.
 3. L' ______________ di OpCon deve garantire che tutti gli utenti OpCon dispongano dei privilegi necessari.
-4. Lo User ID _________ possiede tutti i privilegi su tutte le funzionalità all'interno di Opcon.
+4. Lo User ID _________ possiede tutti i privilegi su tutte le funzionalità all'interno di OpCon.
 5. L'______________ Manager permette agli utenti di creare regole di alert a livello di sistema e triggers associati a gruppi di utenti che devono ricevere notifiche in determinate situazioni.
 6. Le ________________________ sono variabili associate all'intero ambiente.
 7. Le ________________________sono variabili che iniziano con il simbolo del dollaro ($).

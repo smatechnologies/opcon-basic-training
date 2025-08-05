@@ -2,16 +2,15 @@
 sidebar_label: 'Agent Details'
 ---
 
-## Machine Definition
+## Agent Definition
 
-*  A Representation of an **Agent or LSAM** in OpCon’s database
+*  Agent listens for commands from OpCon’s main engine kicking off and monitoring specified tasks
+*  Agents define where a task will be run
 *  LSAM stands for “**Local Schedule Activity Monitor**”
-*  LSAM/Agent listens for commands from OpCon’s main engine kicking off and monitoring specified tasks
-*  Machines define where a task will be run
 
-#### Machine Status
+#### Agent Status
 
-* Displays Connection Status of all Machines configured in the OpCon database
+* Displays Connection Status of all Agents configured in the OpCon database
   * Displayed in Grid format
   * Statuses are updatable from this screen
 
@@ -19,7 +18,7 @@ sidebar_label: 'Agent Details'
 
 ![](../static/imgbasic/sm-agents-list.png)
 
-## Defining a New Machine
+## Defining a New Agent
 
 ### Agent Details
 
@@ -29,7 +28,7 @@ sidebar_label: 'Agent Details'
 
 :::tip Best Practice
 
-Name the **Machine** the same as the **Server** that **Agent/LSAM** is installed on, as we resolve **communication via DNS**.
+Name the **Agent** the same as the **Server** that **Agent** is installed on, as we resolve **communication via DNS**.
 
 :::
 
@@ -46,7 +45,7 @@ This area is where you can:
 ### Communication Settings
 
 This area is where you can:
-* Define the **JORS (Job Output Retreivial Service) Port Number**
+* Define the **JORS (Job Output Retrieval Service) Port Number**
 * **TLS** Certificate Name and Serial Number
 
 ![](../static/imgbasic/sm-unix-agent-communication-settings.png)
