@@ -15,7 +15,7 @@ hide_title: 'false'
 </figure>
 
 * OpCon apporte des **sous-types de Jobs** spéciaux liés à la maintenance des fichiers
-* Les sous-types de Jobs Windows simplifient le processus de définition des jobs en affichant des champs pour générer une ligne de commande pour les programmes couramment utilisés par les clients SMA
+* Les sous-types de Jobs Windows simplifient le processus de définition des jobs en affichant des champs pour générer une ligne de commande pour les programmes couramment utilisés par les clients Continuous
 
 * Voici quelques exemples de **sous-types de jobs Windows** courants :
 	* **File Copy** - Copie les fichiers d'un endroit à un autre

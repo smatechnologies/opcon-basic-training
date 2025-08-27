@@ -5,7 +5,7 @@ hide_title: 'false'
 
 ## Utenti e gestione dei Ruoli
 
-### SMA LDAP Monitor
+### LDAP Monitor
 
 <figure>
     <audio
@@ -16,15 +16,15 @@ hide_title: 'false'
     </audio>
 </figure>
 
-* SMA LDAP Monitor consente la gestione della sicurezza integrate di rete per gli account utente con gli accessi automatici a OpCon
-* SMA LDAP Monitor controlla il server LDAP per sincronizzare gli utenti con gli utenti OpCon
+* LDAP Monitor consente la gestione della sicurezza integrate di rete per gli account utente con gli accessi automatici a OpCon
+* LDAP Monitor controlla il server LDAP per sincronizzare gli utenti con gli utenti OpCon
     * Può esistere in Active Directory o OpenLDAP
-        * SMA LDAP Monitor attualmente non supporta le unità organizzative in Active Directory
+        * LDAP Monitor attualmente non supporta le unità organizzative in Active Directory
         * Gli utenti dell'unità organizzativa devono essere inseriti in un gruppo per essere trovati e sincronizzati
     * L'amministratore OpCon può definire il nome del gruppo LDAP e il ruolo OpCon predefinito
-* SMA LDAP Monitor è un componente opzionale che deve essere configurato nel file ```SMAServMan.ini```
+* LDAP Monitor è un componente opzionale che deve essere configurato nel file ```SMAServMan.ini```
 * Il nome del programma è ```SMALDAPMon.exe```
-* E' gestito dallo SMA Service Manager
+* E' gestito dallo Service Manager
 * Il file di configurazione è ```SMALDAPMon.ini```
 * Resiede nel percorso ```<Configuration Directory>\SAM\folder```
 * Ulteriori specifiche per l'impostazione LDAP sono disponibili nella Guida per l'utente

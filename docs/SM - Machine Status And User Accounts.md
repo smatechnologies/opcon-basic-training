@@ -24,7 +24,7 @@ sidebar_label: 'SM - Machine Status And User Accounts'
 
 ### User Accounts
 
-OpCon User Account settings can be managed from SMA Solution Manager:
+OpCon User Account settings can be managed from Solution Manager:
 
 * Update Passwords
 * Change email address

@@ -20,9 +20,9 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
  
 #### Create the Sub-Schedule
 
-1.	In **Library** > **Administration**, select on **Master Schedules**. 
-2.	Click the **Add** button. 
-3. On Master Schedule Definition screen:
+1.In **Library** > **Administration**, select on **Master Schedules**. 
+2.Click the **Add** button. 
+3.On Master Schedule Definition screen:
 * In the **Name** field, enter ```SS-Repeating```. 
 * In the **Documentation** field, enter some documentation
   * _Example: This is the Daily Sub-Schedule._
@@ -30,14 +30,14 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
 * Saturday and Sunday are **working days**.
 * This sub-schedule doesn't use the **Master Holiday Calendar**
 * Click the **Save** button.
-4. Click **Back**
+4.Click **Back**
 
 #### Add Jobs to the SubSchedule
 
-5.	In **Studio**, select **SS-Repeating**. 
-6.	Click the **View** button. 
-7.  Select **Add Job** in the side menu.
-8.  On the **Master Job Definition** screen:
+5.In **Studio**, select **SS-Repeating**. 
+6.Click the **View** button. 
+7. Select **Add Job** in the side menu.
+8. On the **Master Job Definition** screen:
 * In the **Name** textbox, enter ```Job 1```.
 * In the **Job Type** dropdown, select **Windows**.
 * In the **Machine Selection** dropdown, select the **SMATraining**. 
@@ -48,28 +48,28 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
 * Scroll to and expand the **Frequency** box.
 * Within the **Frequency** box, select **Example-Mon-Sun-O** in the **Inactive** list and move it to the **Active** list. 
 * Click the **Save** button.
-9.  Click **Back**.
-10.  Utilizing the **Copy** function, copy Job 1 until you have 5 jobs total.
-11.	Create **Dependencies** between the 5 jobs so they run in a sequential chain.
+9. Click **Back**.
+10. Utilizing the **Copy** function, copy Job 1 until you have 5 jobs total.
+11. Create **Dependencies** between the 5 jobs so they run in a sequential chain.
 * Job 1 &rarr; Job 2 &rarr; Job 3 &rarr; Job 4 &rarr; Job 5
 
 #### Create the Primary Schedule
 
-12.	In **Library** > **Administration**, select on **Master Schedules**. 
-13.	Click the **Add** button. 
+12. In **Library** > **Administration**, select on **Master Schedules**. 
+13. Click the **Add** button. 
 * In the **Name** field, enter ```Repeating Schedule```. 
 * In the **Documentation** field, enter some documentation
   * _Example: This is the Primary Schedule for the Repeating SubSchedule example._
 * Saturday and Sunday are **NOT working days**.
-* This sub-schedule does use the **Master Holiday Calendar**
+* This schedule uses the **Master Holiday Calendar**
 * Click the **Save** button.
 14. Click **Back**.
 
 #### Add the Container Job to the Schedule
 
-15.	In **Studio**, using the filter locate and select **Repeating Schedule**. 
+15. In **Studio**, using the filter locate and select **Repeating Schedule**. 
 16. Click the **View** button.
-17.	Select **Add Job** in the side menu. 
+17. Select **Add Job** in the side menu. 
 18. On the **Job Master Definition** screen:
 * In the **Name** textbox, enter ```0700 Job```. 
 * In the **Job Type** dropdown list, select **Container**.
@@ -90,8 +90,8 @@ Create a Schedule named **Repeating Schedule**. This schedule will contain 4 con
 
 #### Build the Schedule
 
-22.	Build the **Repeating Schedule** for today and allow it to run.
-23. Valdiate that the jobs in one of the 4 sub-schedules run successfully.
+22. Build the **Repeating Schedule** for today and allow it to run.
+23.Validate that the jobs in one of the 4 sub-schedules run successfully.
 
 
 

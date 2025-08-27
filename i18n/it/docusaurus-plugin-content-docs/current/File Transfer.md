@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'SMA File Transfer'
+sidebar_label: 'File Transfer'
 hide_title: 'false'
 ---
 
-## SMA File Transfer
+## File Transfer
 
 <figure>
     <audio
@@ -17,7 +17,7 @@ hide_title: 'false'
 * Soluzione proprietaria di trasferimento file da agente ad agente integrata in OpCon
 * Utilizza il tipo di Job: **File Transfer**
 * Tutti i trasferimenti iniziano dalla macchina di destinazione
-* Le configurazioni **SMA File Transfer** si trovano nelle impostazioni avanzate della macchina (**Advanced Machine Settings**)
+* Le configurazioni **File Transfer** si trovano nelle impostazioni avanzate della macchina (**Advanced Machine Settings**)
 * La porta di comunicazione standard è la ```3110```, ma è configurabile
 
 **Attenzione**:  

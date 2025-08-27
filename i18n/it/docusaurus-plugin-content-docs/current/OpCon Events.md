@@ -56,7 +56,7 @@ hide_title: 'false'
     * Gli eventi interni vengono autenticati tramite l'account utente che ha creato l'evento in Enterprise Manager
 * Eventi Esterni
     * Tutto ciò che può generare un file di testo con sintassi Event può interagire con OpCon tramite un hook esterno chiamato ```MSGIN```
-    * Esempi di componenti SMA: SMAResource Monitor, SMArt Email, SMAParseFile
+    * Esempi di componenti: SMAResource Monitor, SMArt Email, SMAParseFile
 
 :::note Nota
 _Devono essere autenticaticon un **OpCon Username** e una **Password per Eventi Esterni - External Event Password**_

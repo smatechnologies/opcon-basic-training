@@ -42,10 +42,8 @@ https://SMATraining
 ```
   * If a login screen other than the **Solution Manager** login screen pops up, click **Cancel**.
 2.	In the **Solution Manager login screen** enter the following:
-
   *	Username: ```ocadm```
   * Password: ```************``` (12 asterisks)
-
 3.	Click **Sign in**.
 4.	In the **Solution Manager Home** screen, click the **Operations** button.
 5.	In the **Operations Summary** screen, click **Jobs**.

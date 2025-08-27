@@ -2,11 +2,11 @@
 sidebar_label: 'Unit 4 Exercise 9'
 ---
 
-## Exercise 9: SMA File Transfer (SMAFT)
+## Exercise 9: File Transfer (SMAFT)
 
 ### Objective
 
-To move a file from a UNIX host to a Windows server using protocol SMA File Transfer (SMAFT).
+To move a file from a UNIX host to a Windows server using protocol File Transfer (SMAFT).
 
 #### Summary
 

@@ -61,7 +61,7 @@ hide_title: true
 | SubSchedule (Multiple Runs) | [Unit 4 Exercise 6](../static/videobasic/U4E6.mp4) |
 | SubSchedule (Concurrent Processes) | [Unit 4 Exercise 7](../static/videobasic/U4E7.mp4)|
 | SubSchedule (Daily/Monthly Processing) | [Unit 4 Exercise 8](../static/videobasic/U4E8.mp4)|
-| SMA File Transfer (SMAFT) | [Unit 4 Exercise 9](../static/videobasic/U4E9.mp4) |
+| File Transfer (SMAFT) | [Unit 4 Exercise 9](../static/videobasic/U4E9.mp4) |
 | Job Sub-Types |[Unit 4 Exercise 10](../static/videobasic/U4E10.mp4)|
 | File Arrival (Single File) | [Unit 4 Exercise 11](../static/videobasic/U4E11.mp4)|
 | File Arrival (Multiple Files) | [Unit 4 Exercise 12](../static/videobasic/U4E12.mp4)|

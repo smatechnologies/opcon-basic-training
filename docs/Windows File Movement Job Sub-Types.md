@@ -5,7 +5,7 @@ sidebar_label: 'Windows File Movement Job Sub-Types'
 ### Windows File Movement Job Sub-Type
 
 * OpCon brings some special **Job Sub-Types** related with file maintenance
-* Windows Job Sub-Types simplify the Job definition process by displaying fields to generate Command Line for programs commonly used by SMA customers
+* Windows Job Sub-Types simplify the Job definition process by displaying fields to generate Command Line for programs commonly used by Continuous customers
 
 * Some example of common **Windows Job Sub-Types** are:
 	* **File Copy** -  Copies files from one place to another

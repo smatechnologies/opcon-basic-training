@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'SMA Technologies - A propos'
+sidebar_label: 'Continuous - A propos'
 hide_title: 'false'
 ---
 
-## SMA Technologies - A propos
+## Continuous - A propos
 
 <!--
 <figure>

@@ -14,9 +14,9 @@ hide_title: 'false'
     </audio>
 </figure>
 
-Solution Mananger di SMA è un'interfaccia utente OpCon basata sul web
+Solution Mananger è un'interfaccia utente OpCon basata sul web
 
-I seguenti componenti sono stati aggiunti a SMA Solution Manager:
+I seguenti componenti sono stati aggiunti a Solution Manager:
 
 * Operations
     * Summary

@@ -17,7 +17,7 @@ hide_title: 'false'
     </audio>
 </figure>
 
-* Une solution de planification et d'automatisation des processus IT fournie par SMA pour gérer l'ensemble d'un centre de données
+* Une solution de planification et d'automatisation des processus IT fournie par Continuous pour gérer l'ensemble d'un centre de données
 
 
 <img src="imgbasic/Picture3.png" width="300"></img>

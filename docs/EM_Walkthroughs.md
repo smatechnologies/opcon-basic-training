@@ -55,5 +55,5 @@ hide_title: true
 
 | File Transfer | |
 | --- | --- |
-|[SMA File Transfer (SMAFT)](../static/videobasic/U4E9.mp4)|[Windows File Movement (Job SubTypes)](../static/videobasic/U4E10.mp4)|
+|[File Transfer (SMAFT)](../static/videobasic/U4E9.mp4)|[Windows File Movement (Job SubTypes)](../static/videobasic/U4E10.mp4)|
 |[Windows File Arrival](../static/videobasic/U4E11.mp4)|[Windows File Arrival (Multiple Files)](../static/videobasic/U4E12.mp4)|

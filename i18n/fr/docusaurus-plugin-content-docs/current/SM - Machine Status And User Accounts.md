@@ -35,7 +35,7 @@ hide_title: 'false'
 
 ### Compte utilisateur
 
-Les paramètres du compte utilisateur OpCon peuvent être gérés à partir de SMA Solution Manager :
+Les paramètres du compte utilisateur OpCon peuvent être gérés à partir de Solution Manager :
 
 * Mettre à jour les mots de passe
 * Changer l'adresse email

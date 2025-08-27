@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Informations Support SMA'
+sidebar_label: 'Informations Support Continuous'
 hide_title: 'false'
 ---
 
-## Informations Support SMA
+## Informations Support Continuous
 
 <!--
 <figure>
@@ -42,7 +42,7 @@ hide_title: 'false'
 
 ### Innovation Lab et communauté utilisateurs OpCon
 
-* L’Innovation Lab de SMA Technologies 
+* L’Innovation Lab de Continuous 
   * Un référentiel de projets et de démonstrations de cas d'utilisation et des capacités d'OpCon 
   * <a href="https://github.com/SMATechnologies" target="_blank">github.com/SMATechnologies</a>
 
@@ -51,7 +51,7 @@ hide_title: 'false'
   * <a href="https://www.linkedin.com/groups/12274641" target="_blank">https://www.linkedin.com/groups/12274641</a>
 
 * Tables rondes OpCon
-  * Les tables rondes sont des discussions techniques autour d'OpCon suivi de sessions de questions-réponses organisées par les experts SMA le troisième jeudi de chaque mois (en anglais)
+  * Les tables rondes sont des discussions techniques autour d'OpCon suivi de sessions de questions-réponses organisées par les experts Continuous le troisième jeudi de chaque mois (en anglais)
   * <a href="https://smatechnologies.com/roundtables" target="_blank">https://smatechnologies.com/roundtables</a>
 
 * Webinaires

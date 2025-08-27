@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'SMA File Transfer'
+sidebar_label: 'File Transfer'
 ---
 
 ![](../static/imgbasic/File_Transfer_Task_Details_SM.png)
@@ -7,7 +7,7 @@ sidebar_label: 'SMA File Transfer'
 * Proprietary Agent to Agent File Transfer solution built into OpCon
 * Uses Job Type: **File Transfer**
 * All Transfers initiated by Destination Machine
-* SMA File Transfer is configured in **Advanced Machine** Settings
+* File Transfer is configured in **Advanced Machine** Settings
 * Default port is ```3110```, but is configurable
 
 **Warnings**:  
