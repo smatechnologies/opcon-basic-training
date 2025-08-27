@@ -44,9 +44,9 @@ C:\ProgramData\OpConxps\SAM\Log
 </figure>
 
 * Les logs OpCon sont **VITALES** pour l'équipe support lors de la recherche d'un problème
-  * Veuillez compresser le dossier Log complet et le télécharger sur le site FTP de SMA en cas de problème Log Collectors
+  * Veuillez compresser le dossier Log complet et le télécharger sur le site FTP en cas de problème Log Collectors
 Log Collectors
-* Le programme SMA DataCollector peut collecter tous les logs d'application SMA
+* Le programme DataCollector peut collecter tous les logs d'application Continuous
   * SMASUP collectera toutes les logs LSAM (agent)
 
 <a href="imgbasic/Picture54.png" target="_blank"><img src="imgbasic/Picture54.png" width="500"></img></a>  

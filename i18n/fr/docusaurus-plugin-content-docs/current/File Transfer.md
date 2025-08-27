@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Transfert de fichiers SMA (SMAFT)'
+sidebar_label: 'Transfert de fichiers (SMAFT)'
 hide_title: 'false'
 ---
 
-## Transfert de fichiers SMA (SMAFT)
+## Transfert de fichiers (SMAFT)
 
 <figure>
     <audio
@@ -17,7 +17,7 @@ hide_title: 'false'
 * Solution propriétaire de transfert de fichiers d'agent à agent intégrée à OpCon
 * Utilise le Type de Job : **File Transfer**
 * Tous les transferts sont initiés par la machine de destination par défaut
-* Le transfert de fichiers SMA est configuré dans **les paramètres avancés de la machine**
+* Le transfert de fichiers est configuré dans **les paramètres avancés de la machine**
 * Le port par défaut est ```3110```, mais il est configurable
 
 **Avertissements** :  

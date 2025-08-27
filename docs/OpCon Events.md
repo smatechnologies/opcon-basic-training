@@ -34,7 +34,7 @@ sidebar_label: 'OpCon Events'
 
 * External Events
     * Anything that can generate a text file with Event syntax can interact with OpCon through an external hook called MSGIN
-    * SMA Examples: SMAResource Monitor, SMArt Email, SMAParseFile
+    * Examples: SMAResource Monitor, SMArt Email, SMAParseFile
 
 :::note
 External Events must be authenticated with an **OpCon Username** and an **External Event Password** or **Token**

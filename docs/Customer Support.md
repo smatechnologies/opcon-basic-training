@@ -29,5 +29,5 @@ sidebar_label: 'Customer Support'
 
 ### File Sharing
 
-* <a href="https://files.smatechnologies.com" target="_blank">SMA FTP Site</a>
+* <a href="https://files.smatechnologies.com" target="_blank">FTP Site</a>
 * Releases, Upload of Log Files, etc.

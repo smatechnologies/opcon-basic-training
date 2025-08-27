@@ -14,7 +14,7 @@ hide_title: 'false'
 7. Les _____________ d’un Job permettent à l'utilisateur de définir la séquence et les relations entre les exécutions de Jobs.
 8. Les ________ permettent de filtrer les vues du menu Opération et sont un moyen simple de rechercher des Jobs.
 9. Le processus de Mise au plan copie les Schedules et les jobs définis en Master qui sont éligibles dans la liste __________ active de SAM.
-10. SMA Solution Manager est une interface _________ pour la gestion des opérations.
+10. Solution Manager est une interface _________ pour la gestion des opérations.
 
 
 <details>

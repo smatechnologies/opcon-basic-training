@@ -3,7 +3,7 @@ sidebar_label: 'Unité 4 Exercice 9'
 hide_title: 'false'
 ---
 
-## Exercice 9: Transfert de fichiers SMA (SMAFT)
+## Exercice 9: Transfert de fichiers (SMAFT)
 
 ##### Objectif: 
 

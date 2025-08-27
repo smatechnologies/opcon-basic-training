@@ -44,8 +44,8 @@ C:\ProgramData\OpConxps\SAM\Log
 </figure>
 
 * I Log di OpCon hanno una importanza **FONDAMENTALE** per il team di supporto durante la ricerca di un problema
-    * Si prega di comprimere l'intera cartella Log e caricarla sul sito **FTP di SMA** se si verifica un problema al **Log Collector**
-* Il programma **SMA DataCollector** può raccogliere tutti i log dell'applicazione SMA
+    * Si prega di comprimere l'intera cartella Log e caricarla sul sito **FTP** se si verifica un problema al **Log Collector**
+* Il programma **DataCollector** può raccogliere tutti i log dell'applicazione Continuous
     * SMASUP raccoglierà tutti i log di **LSAM (agente)**
 
 <a href="imgbasic/Picture54.png" target="_blank"><img src="imgbasic/Picture54.png" width="500"></img></a>  

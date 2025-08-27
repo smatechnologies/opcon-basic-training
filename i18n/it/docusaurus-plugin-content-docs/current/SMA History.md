@@ -3,7 +3,7 @@ sidebar_label: 'Storia Aziendale'
 hide_title: 'false'
 ---
 
-## SMA Technologies - Storia Aziendale
+## Continuous - Storia Aziendale
 
 <!--
 <figure>

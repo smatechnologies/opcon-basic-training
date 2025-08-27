@@ -14,9 +14,9 @@ hide_title: 'false'
     </audio>
 </figure>
 
-SMA Solution Manager est une interface de type Web pour les utilisateurs OpCon
+Solution Manager est une interface de type Web pour les utilisateurs OpCon
 
-Les composants suivants ont été ajoutés à SMA Solution Manager :
+Les composants suivants ont été ajoutés à Solution Manager :
 
 * Operations
     * Résumé

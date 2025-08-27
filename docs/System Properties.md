@@ -20,10 +20,10 @@ sidebar_label: 'System Properties'
 
 ![](../static/imgbasic/sm-global-properties-list.png)
 
-* **System Properties** begin with a dollar symbol (```$```) and have status values
+* **System Properties** begin with a dollar symbol (```$```) and have static values
   * There are over 30 System Properties
   * System Properties **DO NOT** appear in the Global Properties section.
-  * Examples: ```$JOB NAME```, ```$SCHEDULE DATE```, or ```$MACHINE NAME```
+  * Examples: ```$JOB NAME```, ```$SCHEDULE NAME```, or ```$MACHINE NAME```
 * **Managed System Properties** begin with a dollar symbol (```$```) and the format can be modified 
   * There are 7 and all have to do with dates and/or times
   * Managed System Properties **DO** appear in the Global Properties section.

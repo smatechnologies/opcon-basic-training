@@ -3,7 +3,7 @@ sidebar_label: 'Unità 4 Esercizio 9'
 hide_title: 'false'
 ---
 
-### Esercizio 9: SMA File Transfer (SMAFT)
+### Esercizio 9: File Transfer (SMAFT)
 
 ##### Obiettivo: 
 

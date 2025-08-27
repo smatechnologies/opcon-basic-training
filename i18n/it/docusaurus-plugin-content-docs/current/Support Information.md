@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Informazioni sul Supporto SMA'
+sidebar_label: 'Informazioni sul Supporto Continuous'
 hide_title: 'false'
 ---
 
-## Informazioni sul Supporto SMA
+## Informazioni sul Supporto Continuous
 
 <!--
 <figure>
@@ -42,12 +42,12 @@ hide_title: 'false'
 
 ### Comunità per innovazioni e formazione : Innovation Lab e OpCon Wizards Community
 
-* SMA Technologies Innovation Lab
+* Continuous Innovation Lab
     * Una collezione di progetti e dimostrazioni di casi d'uso e possibilità di OpCon
   * <a href="https://github.com/SMATechnologies" target="_blank">github.com/SMATechnologies</a>
 
 * OpCon Wizards
-    * Una comunità di apprendimento ospitata come gruppo LinkedIn che fornisce comunicazioni e feedback con esperti OpCon all'interno di SMA e con altri utenti
+    * Una comunità di apprendimento ospitata come gruppo LinkedIn che fornisce comunicazioni e feedback con esperti OpCon all'interno di Continuous e con altri utenti
   * <a href="https://www.linkedin.com/groups/12274641" target="_blank">https://www.linkedin.com/groups/12274641</a>
 
 * Tavole rotonde OpCon

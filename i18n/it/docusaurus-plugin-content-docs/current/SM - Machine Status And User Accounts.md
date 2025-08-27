@@ -35,7 +35,7 @@ hide_title: 'false'
 
 ### Account Utente - (User Accounts)
 
-Le impostazioni dell'account utente OpCon possono essere gestite da SMA Solution Manager:
+Le impostazioni dell'account utente OpCon possono essere gestite da Solution Manager:
 
 * Aggiornamento Passwords
 * Cambio indirizzo email

@@ -15,9 +15,9 @@ OpCon Log files can help with troubleshooting
 ### OpCon Logs - Support
 
 * OpCon Logs are **VITAL** to the Support team when researching an issue
-  * Please zip up full Log folder and upload it to SMA’s FTP site if an issue occurs
+  * Please zip up full Log folder and upload it to the FTP site if an issue occurs
 Log Collectors
-* The SMA DataCollector Program can collect all SMA application Logs
+* The DataCollector Program can collect all OpCon application Logs
   * SMASUP will collect all LSAM (Agent) Logs
 
 ![Picture54](../static/imgbasic/Picture54.png)  

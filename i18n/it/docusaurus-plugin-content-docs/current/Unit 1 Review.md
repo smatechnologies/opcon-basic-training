@@ -14,7 +14,7 @@ hide_title: 'false'
 7. Job ___________________ permettere all'utente di definire la sequenza e le relazioni dei Job.
 8. I_________ consentono visualizzazioni filtrate nelle viste Operation e un modo semplice per cercare determinati Job.
 9. Il processo di Build copia gli Schedules ed i job dalle tabelle Master nelle tabelle dei piani _______ attivi di SAM.
-10. SMA Solution Manager è la user interface in tecnologia _________ per la gestione delle attività di Operations.
+10. Solution Manager è la user interface in tecnologia _________ per la gestione delle attività di Operations.
 
 <details>
 

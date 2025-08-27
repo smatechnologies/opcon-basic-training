@@ -52,7 +52,7 @@ This area is where you can:
 
 ### File Transfer Settings
 
-This area is where you set up the machine to be a part of **SMA File Transfer** jobs.
+This area is where you set up the machine to be a part of **File Transfer** jobs.
 
 ![](../static/imgbasic/sm-unix-agent-file-transfer-settings.png)
 

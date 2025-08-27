@@ -6,7 +6,7 @@ module.exports = {
     label: 'Unit 1',
     collapsed: true,
     items: [
-      'SMA History',
+      'Continuous History',
       'Customer Support',
       'Customer Community',
       'OpCon Help',
@@ -139,7 +139,7 @@ module.exports = {
     'Unit 4 Exercise 6',
     'Unit 4 Exercise 7',
     'Unit 4 Exercise 8',
-    'SMA File Transfer',
+    'File Transfer',
     'Unit 4 Exercise 9',
     'Windows File Movement Job Sub-Types',
     'Unit 4 Exercise 10',

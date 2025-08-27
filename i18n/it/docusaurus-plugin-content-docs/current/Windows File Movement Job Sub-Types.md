@@ -15,7 +15,7 @@ hide_title: 'false'
 </figure>
 
 * OpCon offre alcuni sottotipi di Job (**Job Sub-Types**) orientati alla manutenzione dei files
-* I Windows Job Sub-Types semplificano il processo di definizione del Job visualizzando i campi per generare la riga di comando per i programmi comunemente utilizzati dai clienti SMA
+* I Windows Job Sub-Types semplificano il processo di definizione del Job visualizzando i campi per generare la riga di comando per i programmi comunemente utilizzati dai clienti Continuous
 
 * Alcuni esempi di **Windows Job Sub-Types** comuni sono:
 	* **File Copy** - copia i file da una posizione all'altra

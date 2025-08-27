@@ -57,7 +57,7 @@ You will create a new **Role** and **User Account**, then assign this new user t
     * Tags
 
 :::note
-* License & Support should show you the version information and links for various SMA and OpCon websites.
+* License & Support should show you the version information and links for various Continuous and OpCon websites.
 * Tags is accessible but if you try to create a new tag you won't be able to do to a lack of permissions.
 :::
 

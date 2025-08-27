@@ -2,7 +2,7 @@
 sidebar_label: 'Solution Manager'
 ---
 
-SMA's **Solution Manager** is a *Web-based* OpCon User Interface 
+**Solution Manager** is a *Web-based* OpCon User Interface 
 
 ### Solution Manager Navigation from Enterprise Manager
 

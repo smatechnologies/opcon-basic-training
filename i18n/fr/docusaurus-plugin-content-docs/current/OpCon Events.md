@@ -58,7 +58,7 @@ hide_title: 'false'
     * Les events internes sont authentifiés via le compte utilisateur qui a créé l'event dans Enterprise Manager
 * Events externes
     * Tout ce qui peut générer un fichier texte avec la syntaxe Event peut interagir avec OpCon via un répertoire externe appelé MSGIN
-    * Exemples SMA : SMAResource Monitor, SMArt Email, SMAParseFile
+    * Exemples : SMAResource Monitor, SMArt Email, SMAParseFile
 
 :::note Remarque
 Doit être authentifié avec un **compte utilisateur OpCon** et un **mot de passe event externe**
