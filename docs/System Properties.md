@@ -42,7 +42,7 @@ sidebar_label: 'System Properties'
     * ```[[$SCHEDULE DATEmmddyy(+1wd)]]``` or ```[[$SCHEDULE DATEmmddyy(-1wd)]]``` for * Working Day offsets
         * ```$SCHEDULE DATE``` required for this Working Day offset
 * **Offset Month**
-    * ```[[$DATEmmddyy(+1m)]]``` or ```[[$DATEmmddyy(-1m)]]``` for day offsets
+    * ```[[$DATEmmddyy(+1m)]]``` or ```[[$DATEmmddyy(-1m)]]``` for month offsets
         * No offset specific for year – Use ```(+12m)``` or ```(-12m)``` to offset years
 * **End of Month**
     * ```[[$DATEmmddyy(+1eom)]]``` Value finds the last day of current month
